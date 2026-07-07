@@ -5,5 +5,5 @@ tags={
 	"Spaceships"
 	"Technologies"
 }
-name="Voidark"
+name="Voidark Dev"
 supported_version="v4.4.*"
