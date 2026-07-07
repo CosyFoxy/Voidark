@@ -1,0 +1,45 @@
+######
+
+# Delta
+
+inline_script = {
+    script = voidark/districts/parts/base_swap_districts
+    GRIDBOX = $GRIDBOX$
+    OVERLAY_ICON = $OVERLAY_ICON$
+    BACKGROUND = $BACKGROUND$
+    TYPE = $TYPE$
+    TIER = delta
+}
+
+# Alpha
+
+inline_script = {
+    script = voidark/districts/parts/base_swap_districts
+    GRIDBOX = $GRIDBOX$
+    OVERLAY_ICON = $OVERLAY_ICON$
+    BACKGROUND = $BACKGROUND$
+    TYPE = $TYPE$
+    TIER = alpha
+}
+
+# Phanon
+
+inline_script = {
+    script = voidark/districts/parts/base_swap_districts
+    GRIDBOX = $GRIDBOX$
+    OVERLAY_ICON = $OVERLAY_ICON$
+    BACKGROUND = $BACKGROUND$
+    TYPE = $TYPE$
+    TIER = phanon
+}
+
+# Stellarite
+
+inline_script = {
+    script = voidark/districts/parts/base_swap_districts
+    GRIDBOX = $GRIDBOX$
+    OVERLAY_ICON = $OVERLAY_ICON$
+    BACKGROUND = $BACKGROUND$
+    TYPE = $TYPE$
+    TIER = stellarite
+}

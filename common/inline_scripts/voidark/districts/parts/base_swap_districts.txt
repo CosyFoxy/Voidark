@@ -1,0 +1,18 @@
+district_voidark_$TYPE$_$TIER$ = {
+    exempt_from_ai_planet_specialization = yes
+    overlay_icon = $OVERLAY_ICON$
+    district_background = $BACKGROUND$
+    gridbox = $GRIDBOX$
+
+    inline_script = {
+        script = xhk_worldark/districts/district_swap
+    }
+
+    triggered_name = {
+        text = district_voidark_$TYPE$_$TIER$_name
+    }
+
+    triggered_flavor_desc = {
+        text = district_voidark_$TYPE$_$TIER$_desc
+    }
+}

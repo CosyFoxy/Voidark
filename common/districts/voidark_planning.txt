@@ -1,0 +1,75 @@
+#
+#################
+# Habitation
+#################
+#
+# City
+#################
+# Manufacturing
+#################
+#
+# Foundry
+# Factory
+# Trade
+#################
+# Raw Resources
+#################
+#
+# Generator
+# Minerals
+# Farming
+#################
+# Unity
+#################
+#
+# Unity
+# Spiritualist
+# Hive
+# Machine
+# Servitor
+#################
+# Research
+#################
+#
+# Research
+#################
+# Amenities
+#################
+#
+# Amenities
+# Dystopian
+#################
+# Enforcer
+#################
+#
+# Enforcer
+#################
+# Soldier
+#################
+#
+# Ordinance
+#################
+# Special Resources
+#################
+#
+# Refinery
+# FAKE MOTES
+# FAKE GASES
+# FAKE CRYSTALS
+# Dark Matter
+# Supertensiles (DISABLED)
+# Neg mass
+# Sent metal
+#################
+# Util
+#################
+#
+# Storage
+#################
+# ACOT EXCLUSIVE
+#################
+#
+# DM/DE
+# Runic
+# Stellarite
+#################
