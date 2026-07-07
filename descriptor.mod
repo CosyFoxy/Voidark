@@ -1,0 +1,9 @@
+version="0.01"
+tags={
+	"Balance"
+	"Buildings"
+	"Spaceships"
+	"Technologies"
+}
+name="Voidark"
+supported_version="v4.4.*"
