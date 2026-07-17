@@ -4,6 +4,7 @@ tech_voidark_delta = {
     tier = 6
     cost = @acot_tier6cost3
     is_rare = yes
+    icon = tech_voidark_delta
     weight = @acot_techweight_advanced
 
     potential = {
@@ -31,6 +32,7 @@ tech_voidark_delta = {
 
 tech_voidark_alpha = {
     area = engineering
+    icon = tech_voidark_alpha
     category = { voidcraft }
     tier = 7
     cost = @acot_tier7cost3
@@ -71,6 +73,7 @@ tech_voidark_phanon = {
     cost = @acot_tier8cost3
     is_rare = yes
     weight = @acot_techweight_advanced
+    icon = tech_voidark_phanon
 
     potential = {
         is_nomadic = yes
@@ -106,6 +109,7 @@ tech_voidark_stellarite = {
     cost = @acot_tier9cost3
     is_rare = yes
     weight = @acot_techweight_advanced
+    icon = tech_voidark_stellarite
 
     potential = {
         is_nomadic = yes
