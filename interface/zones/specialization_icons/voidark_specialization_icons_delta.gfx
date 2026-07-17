@@ -2,108 +2,108 @@ spriteTypes = {
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_urban
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_urban"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_urban.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_factory
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_factory"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_factory.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_foundry
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_foundry"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_foundry.dds"
     }
 
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_trade
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_trade"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_trade.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_energy
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_energy"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_energy.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_ark_reactor
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ark_reactor"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ark_reactor.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_shield
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_shield"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_shield.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_mining
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_mining"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_mining.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_farming
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_farming"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_farming.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_unity
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_unity"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_unity.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_research
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_research"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_research.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_amenities
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_amenities"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_amenities.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_enforcer
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_enforcer"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_enforcer.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_refinery
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_refinery"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_refinery.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_darkmatter
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_darkmatter"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_darkmatter.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_ordinance_naval
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ordinance_naval"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ordinance_naval.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_ordinance_missile
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ordinance_missile"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ordinance_missile.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_ordinance_kinetic
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ordinance_kinetic"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ordinance_kinetic.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_ordinance_energy
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ordinance_energy"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ordinance_energy.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_ordinance_strike_craft
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ordinance_strike_craft"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ordinance_strike_craft.dds"
     }
 
     spriteType = {
         name = GFX_district_specialization_voidark_delta_storage
-        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ordinance_storage"
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ordinance_storage.dds"
     }
 
 }
