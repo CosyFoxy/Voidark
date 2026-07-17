@@ -1,0 +1,45 @@
+exclude = {
+    building_colony_shelter
+    building_capital
+    building_major_capital
+    building_system_capital
+
+    building_deployment_post
+    building_machine_capital
+    building_machine_major_capital
+    building_machine_system_capital
+
+    building_hive_capital
+    building_hive_major_capital
+
+    building_hab_capital
+    building_hab_major_capital
+    building_hab_system_capital
+
+    building_resort_capital
+    building_resort_major_capital
+    building_slave_capital
+    building_slave_major_capital
+
+    building_imperial_capital
+    building_imperial_machine_capital
+    building_imperial_hive_capital
+    building_imperial_capital_wilderness
+
+    building_colony_shelter_wilderness
+    building_capital_wilderness
+    building_major_capital_wilderness
+    building_system_capital_wilderness
+    building_acot_dm_ancient_palace
+    building_acot_dm_ancient_control_center
+    building_acot_dm_ancient_hive_cluster
+    building_acot_ae_ancient_palace
+    building_acot_ae_ancient_control_center
+    building_acot_ae_ancient_hive_cluster
+    building_phanon_palace
+    building_phanon_control_center
+    building_phanon_hive_cluster
+    building_stellarite_palace
+    building_stellarite_control_center
+    building_stellarite_hive_cluster
+}

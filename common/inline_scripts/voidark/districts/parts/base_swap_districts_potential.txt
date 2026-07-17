@@ -1,0 +1,25 @@
+base_buildtime = 360
+exempt_from_ai_planet_specialization = yes
+overlay_icon = $OVERLAY_ICON$
+district_background = $BACKGROUND$
+gridbox = $GRIDBOX$
+
+zone_slots = {
+    slot_empty
+}
+
+show_on_uncolonized = {
+    always = no
+}
+
+allow = {
+    uses_district_set = xhk_pc_worldark
+}
+
+triggered_name = {
+    text = district_voidark_$TYPE$_$TIER$_name
+}
+
+triggered_flavor_desc = {
+    text = district_voidark_$TYPE$_$TIER$_desc
+}

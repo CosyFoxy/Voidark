@@ -1,0 +1,690 @@
+###############################################################################################################
+###############################################################################################################
+#          HABITATION
+###############################################################################################################
+###############################################################################################################
+
+## CITY
+district_voidark_delta_city = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_city
+        BACKGROUND = district_city
+        OVERLAY_ICON = GFX_district_government
+        TYPE = city
+        TIER = delta
+    }
+
+    planet_modifier = {
+        planet_housing_add = 3000
+    }
+
+    inline_script = voidark/districts/urban_district_bonus
+    inline_script = districts/ai_urban_district_extra_weighting
+}
+
+
+###############################################################################################################
+# MANUFACTURED GOODS
+###############################################################################################################
+
+## Foundry
+
+district_voidark_delta_foundry = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_arms_industry
+        BACKGROUND = district_arcology_arms_industry
+        OVERLAY_ICON = GFX_district_alloys
+        TYPE = foundry
+        TIER = delta
+    }
+}
+
+## Factory
+district_voidark_delta_factory = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_civilian_industry
+        BACKGROUND = district_arcology_civilian_industry
+        OVERLAY_ICON = GFX_district_consumer_goods
+        TYPE = factory
+        TIER = delta
+    }
+}
+
+## Trade
+district_voidark_delta_trade = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_trade
+        BACKGROUND = district_arcology_trade
+        OVERLAY_ICON = GFX_district_trade
+        TYPE = trade
+        TIER = delta
+    }
+}
+
+###############################################################################################################
+# RAW RESOURCES
+###############################################################################################################
+
+## Generator
+
+district_voidark_delta_generator = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts_potential
+        GRIDBOX = district_generator
+        BACKGROUND = district_generator
+        OVERLAY_ICON = GFX_district_energy
+        TYPE = generator
+        TIER = delta
+    }
+    potential = {
+        uses_district_set = xhk_pc_worldark
+        starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}
+    }
+
+    convert_to = {
+        district_voidark_delta_penrose
+    }
+    conversion_ratio = 0.5
+}
+
+district_voidark_delta_generator_speed = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts_potential
+        GRIDBOX = district_generator
+        BACKGROUND = district_ark_generator
+        OVERLAY_ICON = GFX_district_speed
+        TYPE = generator_speed
+        TIER = delta
+    }
+    potential = {
+        uses_district_set = xhk_pc_worldark
+        starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}
+    }
+    convert_to = {
+        district_voidark_delta_penrose_speed
+    }
+    conversion_ratio = 0.5
+}
+
+district_voidark_delta_generator_shield = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts_potential
+        GRIDBOX = district_generator
+        BACKGROUND = district_ark_generator
+        OVERLAY_ICON = GFX_district_shield
+        TYPE = generator_shield
+        TIER = delta
+    }
+    potential = {
+        uses_district_set = xhk_pc_worldark
+        starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}
+    }
+    convert_to = {
+        district_voidark_delta_penrose_shield
+    }
+    conversion_ratio = 0.5
+}
+
+## Penrose
+district_voidark_delta_penrose = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts_potential
+        GRIDBOX = district_generator
+        BACKGROUND = district_xhk_worldark_penrose
+        OVERLAY_ICON = GFX_district_energy
+        TYPE = penrose
+        TIER = delta
+    }
+    potential = {
+        uses_district_set = xhk_pc_worldark
+        starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole }
+    }
+    convert_to = {
+        district_voidark_delta_generator
+    }
+    conversion_ratio = 2
+
+    inline_script = { #todo check if this removes old jobs
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = acot_energyman
+        GESTALT_JOB = acot_energydrone
+        AMOUNT = 200
+    }
+}
+
+district_voidark_delta_penrose_speed = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts_potential
+        GRIDBOX = district_generator
+        BACKGROUND = district_xhk_worldark_penrose
+        OVERLAY_ICON = GFX_district_speed
+        TYPE = penrose_speed
+        TIER = delta
+    }
+    potential = {
+        uses_district_set = xhk_pc_worldark
+        starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole }
+    }
+    convert_to = {
+        district_voidark_delta_generator_speed
+    }
+    conversion_ratio = 2
+}
+
+district_voidark_delta_penrose_shield = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts_potential
+        GRIDBOX = district_generator
+        BACKGROUND = district_xhk_worldark_penrose
+        OVERLAY_ICON = GFX_district_shield
+        TYPE = penrose_shield
+        TIER = delta
+    }
+    potential = {
+        uses_district_set = xhk_pc_worldark
+        starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole }
+    }
+    convert_to = {
+        district_voidark_delta_generator_shield
+    }
+    conversion_ratio = 2
+}
+
+## Minerals
+district_voidark_delta_minerals = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_mining
+        BACKGROUND = district_mining
+        OVERLAY_ICON = GFX_district_minerals
+        TYPE = mining
+        TIER = delta
+    }
+    potential = {
+        uses_district_set = xhk_pc_worldark
+        starbase = { NOT = {has_starbase_module = xhk_worldark_corespinal_blackhole} }
+    }
+    convert_to = {
+        district_voidark_delta_decompressor
+    }
+    conversion_ratio = 0.5
+
+    inline_script = {
+        script = jobs/ark_harvester_add
+        AMOUNT = 200
+    }
+}
+
+## Decompressor
+district_voidark_delta_decompressor = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts_potential
+        GRIDBOX = district_mining
+        BACKGROUND = district_xhk_worldark_decompressor
+        OVERLAY_ICON = GFX_district_minerals
+        TYPE = mining
+        TIER = delta
+    }
+
+    potential = {
+        uses_district_set = xhk_pc_worldark
+        starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole }
+    }
+    convert_to = {
+        district_voidark_delta_minerals
+    }
+    conversion_ratio = 2
+
+    inline_script = {
+        script = jobs/ark_harvester_add
+        AMOUNT = 100
+    }
+
+    inline_script = { #todo check if this removes old jobs
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = acot_mineralman
+        GESTALT_JOB = acot_mineraldrone
+        AMOUNT = 200
+    }
+}
+
+## Farming
+district_voidark_delta_farming = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_farming
+        BACKGROUND = district_ark_hydroponics
+        OVERLAY_ICON = GFX_district_food
+        TYPE = farming
+        TIER = delta
+    }
+}
+
+###############################################################################################################
+# INTELLECTUAL
+###############################################################################################################
+
+## Unity
+district_voidark_delta_unity = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts_potential
+        GRIDBOX = district_arcology_administrative
+        BACKGROUND = district_arcology_administrative
+        OVERLAY_ICON = GFX_district_unity
+        TYPE = unity
+        TIER = delta
+    }
+    potential = {
+        uses_district_set = xhk_pc_worldark
+        exists = owner
+        owner = {
+            is_gestalt = no
+            is_spiritualist = no
+        }
+    }
+
+    convert_to = {
+        district_voidark_delta_unity_hive
+        district_voidark_delta_unity_machine
+        district_voidark_delta_unity_servitor
+        district_voidark_delta_unity_spiritualist
+    }
+    conversion_ratio = 1
+}
+
+## Unity Spiritualist
+district_voidark_delta_unity_spiritualist = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts_potential
+        GRIDBOX = district_arcology_administrative
+        BACKGROUND = district_arcology_administrative
+        OVERLAY_ICON = GFX_district_unity
+        TYPE = unity_spiritualist
+        TIER = delta
+    }
+    potential = {
+        exists = owner
+        owner = {
+            is_gestalt = no
+            is_spiritualist = yes
+        }
+    }
+
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_death_cult_empire = yes
+            }
+            OR = {
+                has_building = building_sacrificial_temple_1
+                has_building = building_sacrificial_temple_2
+                has_building = building_sacrificial_temple_3
+            }
+        }
+        job_mortal_initiate_add = 50
+    }
+
+    convert_to = {
+        district_voidark_delta_unity
+        district_voidark_delta_unity_hive
+        district_voidark_delta_unity_machine
+        district_voidark_delta_unity_servitor
+    }
+    conversion_ratio = 1
+}
+
+## Unity Hive
+district_voidark_delta_unity_hive = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts_potential
+        GRIDBOX = district_arcology_administrative
+        BACKGROUND = district_arcology_administrative
+        OVERLAY_ICON = GFX_district_unity
+        TYPE = unity_hive
+        TIER = delta
+    }
+
+    potential = {
+        exists = owner
+        owner = {
+            is_hive_empire = yes
+        }
+    }
+    convert_to = {
+        district_voidark_delta_unity
+        district_voidark_delta_unity_spiritualist
+        district_voidark_delta_unity_machine
+        district_voidark_delta_unity_servitor
+    }
+    conversion_ratio = 1
+}
+
+## Unity Machine
+district_voidark_delta_unity_machine = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts_potential
+        GRIDBOX = district_arcology_administrative
+        BACKGROUND = district_arcology_administrative
+        OVERLAY_ICON = GFX_district_unity
+        TYPE = unity_machine
+        TIER = delta
+    }
+
+    potential = {
+        exists = owner
+        owner = {
+            is_machine_empire = yes
+            NOT = { has_valid_civic = civic_machine_servitor }
+        }
+    }
+    convert_to = {
+        district_voidark_delta_unity
+        district_voidark_delta_unity_spiritualist
+        district_voidark_delta_unity_hive
+        district_voidark_delta_unity_servitor
+    }
+    conversion_ratio = 1
+}
+
+## Unity Servitor
+district_voidark_delta_unity_servitor = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts_potential
+        GRIDBOX = district_arcology_administrative
+        BACKGROUND = district_arcology_administrative
+        OVERLAY_ICON = GFX_district_unity
+        TYPE = unity_servitor
+        TIER = delta
+    }
+
+    potential = {
+        exists = owner
+        owner = {
+            is_machine_empire = yes
+            has_valid_civic = civic_machine_servitor
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_valid_civic = civic_machine_servitor
+            }
+        }
+        job_bio_trophy_add = 1000
+    }
+
+    convert_to = {
+        district_voidark_delta_unity
+        district_voidark_delta_unity_machine
+        district_voidark_delta_unity_spiritualist
+        district_voidark_delta_unity_hive
+    }
+    conversion_ratio = 1
+}
+
+## Science
+district_voidark_delta_science = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_research
+        BACKGROUND = district_arcology_research
+        OVERLAY_ICON = GFX_district_research
+        TYPE = research
+        TIER = delta
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_twisted_experimenters_empire = yes
+                is_gestalt = no
+            }
+            OR = {
+                has_building = building_experimentation_chambers_1
+                has_building = building_experimentation_chambers_2
+                has_building = building_experimentation_chambers_3
+            }
+        }
+        job_test_subject_add = 50
+        job_experiment_engineer_add = 50
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_twisted_experimenters_empire = yes
+                is_gestalt = yes
+            }
+            OR = {
+                has_building = building_experimentation_chambers_1
+                has_building = building_experimentation_chambers_2
+                has_building = building_experimentation_chambers_3
+            }
+        }
+        job_test_subject_drone_add = 50
+        job_experiment_engineer_drone_add = 50
+    }
+}
+
+## Amenities
+district_voidark_delta_amenities = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts_potential
+        GRIDBOX = district_resort_secondary
+        BACKGROUND = district_ark_forever_cruise
+        OVERLAY_ICON = GFX_district_amenities
+        TYPE = amenities
+        TIER = delta
+    }
+    potential = {
+        exists = owner
+        owner = {
+            is_gestalt = no
+            NOT = { has_valid_civic = civic_dystopian_society }
+        }
+    }
+    convert_to = {
+        district_voidark_delta_amenities_dystopian
+    }
+    conversion_ratio = 1
+}
+
+## Amenities Dystopian
+district_voidark_delta_amenities_dystopian = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts_potential
+        GRIDBOX = district_resort_secondary
+        BACKGROUND = district_ark_forever_cruise
+        OVERLAY_ICON = GFX_district_amenities
+        TYPE = amenities_dystopian
+        TIER = delta
+    }
+    potential = {
+        exists = owner
+        owner = {
+            is_gestalt = no
+            has_valid_civic = civic_dystopian_society
+        }
+    }
+
+    triggered_desc = {
+        trigger = { always = yes }
+        text = district_xhk_worldark_amenities_dystopian_limit
+    }
+    inline_script = {
+        script = jobs/politician_add #todo check acot alternative
+        AMOUNT = 50
+    }
+
+    convert_to = {
+        district_voidark_delta_amenities
+    }
+    conversion_ratio = 1
+}
+
+## Enforcer
+district_voidark_delta_enforcer = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_leisure
+        BACKGROUND = district_arcology_leisure
+        OVERLAY_ICON = GFX_giga_district_crime
+        TYPE = enforcer
+        TIER = delta
+    }
+}
+
+###############################################################################################################
+# WAR
+###############################################################################################################
+
+## Ordinance
+district_voidark_delta_ordinance = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_fortress
+        BACKGROUND = district_ark_military
+        OVERLAY_ICON = GFX_district_fortress
+        TYPE = ordinance
+        TIER = delta
+    }
+}
+
+
+district_voidark_delta_ordinance_naval = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_fortress
+        BACKGROUND = district_ark_military
+        OVERLAY_ICON = GFX_district_ship
+        TYPE = ordinance_naval
+        TIER = delta
+    }
+}
+
+district_voidark_delta_ordinance_missile = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_fortress
+        BACKGROUND = district_ark_military
+        OVERLAY_ICON = GFX_district_damage
+        TYPE = ordinance_missile
+        TIER = delta
+    }
+}
+
+
+district_voidark_delta_ordinance_kinetic = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_fortress
+        BACKGROUND = district_ark_military
+        OVERLAY_ICON = GFX_district_damage
+        TYPE = ordinance_kinetic
+        TIER = delta
+    }
+}
+
+
+district_voidark_delta_ordinance_energy = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_fortress
+        BACKGROUND = district_ark_military
+        OVERLAY_ICON = GFX_district_damage
+        TYPE = ordinance_energy
+        TIER = delta
+    }
+}
+
+
+district_voidark_delta_ordinance_strike_craft = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_fortress
+        BACKGROUND = district_ark_military
+        OVERLAY_ICON = GFX_district_damage
+        TYPE = ordinance_strike_craft
+        TIER = delta
+    }
+}
+
+#todo ENIGMATIC ORDINANCE?
+
+###############################################################################################################
+# SPECIAL RESOURCES
+###############################################################################################################
+
+## Refinery
+district_voidark_delta_refinery = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_industrial
+        BACKGROUND = district_xhk_worldark_refinery
+        OVERLAY_ICON = GFX_giga_district_strategic_resources
+        TYPE = refinery
+        TIER = delta
+    }
+}
+
+## Dark Matter
+district_voidark_delta_darkmatter = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_polytechnic
+        BACKGROUND = district_xhk_worldark_darkmatter
+        OVERLAY_ICON = GFX_giga_district_dark_matter
+        TYPE = dark_matter
+        TIER = delta
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { is_gestalt = no }
+        }
+        job_giga_dark_matter_weaver_add = 300
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { is_gestalt = yes }
+        }
+        job_giga_dark_matter_weaver_drone_add = 300
+    }
+
+    planet_modifier = {
+        planet_jobs_sr_dark_matter_produces_mult = 0.1
+    }
+}
+
+## Supertensiles
+
+## Neg Mass
+#todo
+
+## Sent metal
+#todo
+
+###############################################################################################################
+# UTIL
+###############################################################################################################
+
+## Storage
+district_voidark_delta_storage = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_generator
+        BACKGROUND = district_generator
+        OVERLAY_ICON = GFX_xhk_worldark_storage_spec
+        TYPE = storage
+        TIER = delta
+    }
+}

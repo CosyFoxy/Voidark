@@ -1,0 +1,34 @@
+@voidark_shipstat_hp_delta = 1
+@voidark_shipstat_hp_alpha = 1
+@voidark_shipstat_hp_phanon = 1
+@voidark_shipstat_hp_stellarite = 1
+
+@voidark_shipstat_armor_delta = 1
+@voidark_shipstat_armor_alpha = 1
+@voidark_shipstat_armor_phanon = 1
+@voidark_shipstat_armor_stellarite = 1
+
+@voidark_shipstat_shield_delta = 1
+@voidark_shipstat_shield_alpha = 1
+@voidark_shipstat_shield_phanon = 1
+@voidark_shipstat_shield_stellarite = 1
+
+@voidark_shipstat_shieldregen_delta = 1
+@voidark_shipstat_shieldregen_alpha = 1
+@voidark_shipstat_shieldregen_phanon = 1
+@voidark_shipstat_shieldregen_stellarite = 1
+
+@voidark_shipstat_reactor_delta = 1
+@voidark_shipstat_reactor_alpha = 1
+@voidark_shipstat_reactor_phanon = 1
+@voidark_shipstat_reactor_stellarite = 1
+
+@voidark_shipstat_districts_delta = 1
+@voidark_shipstat_districts_alpha = 1
+@voidark_shipstat_districts_phanon = 1
+@voidark_shipstat_districts_stellarite = 1
+
+@voidark_shipstat_collection_delta = 1
+@voidark_shipstat_collection_alpha = 1
+@voidark_shipstat_collection_phanon = 1
+@voidark_shipstat_collection_stellarite = 1

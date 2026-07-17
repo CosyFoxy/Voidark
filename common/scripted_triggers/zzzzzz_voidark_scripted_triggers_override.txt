@@ -1,0 +1,179 @@
+is_arkship_ship = {
+    OR = {
+        is_ship_size = civilian_arkship_tier_1
+        is_ship_size = civilian_arkship_tier_2
+        is_ship_size = civilian_arkship_tier_3
+        is_ship_size = science_arkship_tier_1
+        is_ship_size = science_arkship_tier_2
+        is_ship_size = science_arkship_tier_3
+        is_ship_size = military_arkship_tier_1
+        is_ship_size = military_arkship_tier_2
+        is_ship_size = military_arkship_tier_3
+        is_ship_size = military_arkship_champions_forge
+        is_ship_size = xhk_worldark_tier_1
+        is_ship_size = xhk_worldark_tier_2
+        is_ship_size = xhk_worldark_tier_3
+        is_ship_size = xhk_worldark_tier_4
+        is_ship_size = xhk_worldark_tier_5
+        is_ship_size = xhk_worldark_tier_6
+        is_ship_size = xhk_worldark_tier_7
+        is_ship_size = xhk_worldark_tier_8
+        is_ship_size = xhk_worldark_tier_9
+        is_ship_size = xhk_worldark_tier_10
+        is_ship_size = xhk_worldark_tier_11
+        is_ship_size = xhk_worldark_tier_12
+        is_ship_size = xhk_worldark_tier_13
+        # is_ship_size = xhk_worldark_tier_14
+        # is_ship_size = xhk_worldark_tier_15
+        # is_ship_size = xhk_worldark_tier_16
+    }
+}
+
+# handles the starbase side
+is_arkship_starbase = {
+    OR = {
+        has_starbase_size = civilian_arkship_tier_1
+        has_starbase_size = civilian_arkship_tier_2
+        has_starbase_size = civilian_arkship_tier_3
+        has_starbase_size = science_arkship_tier_1
+        has_starbase_size = science_arkship_tier_2
+        has_starbase_size = science_arkship_tier_3
+        has_starbase_size = military_arkship_tier_1
+        has_starbase_size = military_arkship_tier_2
+        has_starbase_size = military_arkship_tier_3
+        has_starbase_size = military_arkship_champions_forge
+        has_starbase_size = xhk_worldark_tier_1
+        has_starbase_size = xhk_worldark_tier_2
+        has_starbase_size = xhk_worldark_tier_3
+        has_starbase_size = xhk_worldark_tier_4
+        has_starbase_size = xhk_worldark_tier_5
+        has_starbase_size = xhk_worldark_tier_6
+        has_starbase_size = xhk_worldark_tier_7
+        has_starbase_size = xhk_worldark_tier_8
+        has_starbase_size = xhk_worldark_tier_9
+        has_starbase_size = xhk_worldark_tier_10
+        has_starbase_size = xhk_worldark_tier_11
+        has_starbase_size = xhk_worldark_tier_12
+        has_starbase_size = xhk_worldark_tier_13
+        # has_starbase_size = xhk_worldark_tier_14
+        # has_starbase_size = xhk_worldark_tier_15
+        # has_starbase_size = xhk_worldark_tier_16
+    }
+}
+
+
+
+
+technician_is_fuel_chemist_trigger = {
+    colony = {
+        OR = {
+            has_zone = { zone = zone_ark_engine_bypass }
+            has_zone = { zone = zone_xhk_worldark_reactspeed }
+            has_zone = { zone = zone_xhk_worldark_reactspeed_penrose }
+            has_zone = { zone = zone_voidark_delta_generator_speed }
+            has_zone = { zone = zone_voidark_delta_penrose_speed }
+            has_zone = { zone = zone_voidark_alpha_generator_speed }
+            has_zone = { zone = zone_voidark_alpha_penrose_speed }
+            has_zone = { zone = zone_voidark_phanon_generator_speed }
+            has_zone = { zone = zone_voidark_phanon_penrose_speed }
+            has_zone = { zone = zone_voidark_stellarite_generator_speed }
+            has_zone = { zone = zone_voidark_stellarite_penrose_speed }
+        }
+    }
+}
+
+technician_is_shield_tuner_trigger = {
+    colony = {
+        OR = {
+            has_zone = { zone = zone_ark_shield_overloader }
+            has_zone = { zone = zone_xhk_worldark_reactshield }
+            has_zone = { zone = zone_xhk_worldark_reactshield_penrose }
+            has_zone = { zone = zone_voidark_delta_generator_shield }
+            has_zone = { zone = zone_voidark_delta_penrose_shield }
+            has_zone = { zone = zone_voidark_alpha_generator_shield }
+            has_zone = { zone = zone_voidark_alpha_penrose_shield }
+            has_zone = { zone = zone_voidark_phanon_generator_shield }
+            has_zone = { zone = zone_voidark_phanon_penrose_shield }
+            has_zone = { zone = zone_voidark_stellarite_generator_shield }
+            has_zone = { zone = zone_voidark_stellarite_penrose_shield }
+        }
+    }
+}
+
+metallurgist_is_void_forge_trigger = {
+    colony = {
+        OR = {
+            has_zone = { zone = zone_ark_military_eco }
+            has_zone = { zone = zone_xhk_worldark_voidforge }
+            has_zone = { zone = zone_voidark_delta_voidforge }
+            has_zone = { zone = zone_voidark_alpha_voidforge }
+            has_zone = { zone = zone_voidark_phanon_voidforge }
+            has_zone = { zone = zone_voidark_stellarite_voidforge }
+        }
+    }
+}
+
+soldier_is_shipwright_trigger = {
+    colony = {
+        OR = {
+            has_zone = { zone = zone_ark_shipwright }
+            has_zone = { zone = zone_xhk_worldark_ordinance_naval }
+            has_zone = { zone = zone_voidark_delta_ordinance_naval }
+            has_zone = { zone = zone_voidark_alpha_ordinance_naval }
+            has_zone = { zone = zone_voidark_phanon_ordinance_naval }
+            has_zone = { zone = zone_voidark_stellarite_ordinance_naval }
+        }
+    }
+}
+
+soldier_is_missile_crew_trigger = {
+    colony = {
+        OR = {
+            has_zone = { zone = zone_ark_missile_silos }
+            has_zone = { zone = zone_xhk_worldark_ordinance_missile_silos }
+            has_zone = { zone = zone_voidark_delta_ordinance_missile }
+            has_zone = { zone = zone_voidark_alpha_ordinance_missile }
+            has_zone = { zone = zone_voidark_phanon_ordinance_missile }
+            has_zone = { zone = zone_voidark_stellarite_ordinance_missile }
+        }
+    }
+}
+
+soldier_is_ammunition_loader_trigger = {
+    colony = {
+        OR = {
+            has_zone = { zone = zone_ark_ammunition_lines }
+            has_zone = { zone = zone_xhk_worldark_ordinance_ammunition_lines }
+            has_zone = { zone = zone_voidark_delta_ordinance_kinetic }
+            has_zone = { zone = zone_voidark_alpha_ordinance_kinetic }
+            has_zone = { zone = zone_voidark_phanon_ordinance_kinetic }
+            has_zone = { zone = zone_voidark_stellarite_ordinance_kinetic }
+        }
+    }
+}
+
+soldier_is_laser_gunner_trigger = {
+    colony = {
+        OR = {
+            has_zone = { zone = zone_ark_laser_capacitors }
+            has_zone = { zone = zone_xhk_worldark_ordinance_laser_capacitors }
+            has_zone = { zone = zone_voidark_delta_ordinance_energy }
+            has_zone = { zone = zone_voidark_alpha_ordinance_energy }
+            has_zone = { zone = zone_voidark_phanon_ordinance_energy }
+            has_zone = { zone = zone_voidark_stellarite_ordinance_energy }
+        }
+    }
+}
+
+soldier_is_flight_deck_crew_trigger = {
+    colony = {
+        OR = {
+            has_zone = { zone = zone_ark_flight_decks }
+            has_zone = { zone = zone_xhk_worldark_ordinance_flight_decks }
+            has_zone = { zone = zone_voidark_delta_ordinance_strike_craft }
+            has_zone = { zone = zone_voidark_alpha_ordinance_strike_craft }
+            has_zone = { zone = zone_voidark_phanon_ordinance_strike_craft }
+            has_zone = { zone = zone_voidark_stellarite_ordinance_strike_craft }
+        }
+    }
+}

@@ -1,0 +1,136 @@
+tech_voidark_delta = {
+    area = engineering
+    category = { voidcraft }
+    tier = 6
+    cost = @acot_tier6cost3
+    is_rare = yes
+    weight = @acot_techweight_advanced
+
+    potential = {
+        is_nomadic = yes
+        has_origin = origin_xhk_worldark
+        NOT = {
+            has_global_flag = acot_delta_forbidden
+        }
+        has_technology = tech_dark_matter_power_core_dm
+    }
+
+    prerequisites = {
+        "tech_dark_matter_power_core_dm"
+    }
+    ai_weight = {
+        weight = @best_megastructure_ai_tech_factor
+    }
+    prereqfor_desc = {
+        custom = {
+            title = TECH_UNLOCK_VOIDARK_DELTA_ARK
+            desc = TECH_UNLOCK_VOIDARK_DELTA_ARK_DESC
+        }
+    }
+}
+
+tech_voidark_alpha = {
+    area = engineering
+    category = { voidcraft }
+    tier = 7
+    cost = @acot_tier7cost3
+    is_rare = yes
+    weight = @acot_techweight_advanced
+
+    potential = {
+        is_nomadic = yes
+        has_origin = origin_xhk_worldark
+        NOR = {
+            has_global_flag = acot_delta_forbidden
+            has_global_flag = acot_alpha_forbidden
+        }
+        has_technology = tech_dark_matter_power_core_ae
+    }
+
+    prerequisites = {
+        "tech_voidark_delta"
+        "tech_dark_matter_power_core_ae"
+    }
+    ai_weight = {
+        weight = @best_megastructure_ai_tech_factor
+    }
+    prereqfor_desc = {
+        custom = {
+            title = TECH_UNLOCK_VOIDARK_ALPHA_ARK
+            desc = TECH_UNLOCK_VOIDARK_ALPHA_ARK_DESC
+        }
+    }
+}
+
+#todo phi?
+
+tech_voidark_phanon = {
+    area = engineering
+    category = { voidcraft }
+    tier = 8
+    cost = @acot_tier8cost3
+    is_rare = yes
+    weight = @acot_techweight_advanced
+
+    potential = {
+        is_nomadic = yes
+        has_origin = origin_xhk_worldark
+        NOR = {
+            has_global_flag = acot_delta_forbidden
+            has_global_flag = acot_alpha_forbidden
+            has_global_flag = aot_phanon_content_OFF
+            has_global_flag = acot_phanon_forbidden
+        }
+        has_technology = tech_dark_matter_power_core_re
+    }
+
+    prerequisites = {
+        "tech_voidark_alpha"
+        "tech_dark_matter_power_core_re"
+    }
+    ai_weight = {
+        weight = @best_megastructure_ai_tech_factor
+    }
+    prereqfor_desc = {
+        custom = {
+            title = TECH_UNLOCK_VOIDARK_PHANON_ARK
+            desc = TECH_UNLOCK_VOIDARK_PHANON_ARK_DESC
+        }
+    }
+}
+
+tech_voidark_stellarite = {
+    area = engineering
+    category = { voidcraft }
+    tier = 8
+    cost = @acot_tier9cost3
+    is_rare = yes
+    weight = @acot_techweight_advanced
+
+    potential = {
+        is_nomadic = yes
+        has_origin = origin_xhk_worldark
+        NOR = {
+            has_global_flag = acot_delta_forbidden
+            has_global_flag = acot_alpha_forbidden
+            has_global_flag = aot_phanon_content_OFF
+            has_global_flag = acot_phanon_forbidden
+            has_global_flag = acot_sigma_forbidden
+        }
+        has_technology = tech_dark_matter_power_core_se
+    }
+
+    prerequisites = {
+        "tech_voidark_phanon"
+        "tech_dark_matter_power_core_se"
+    }
+    ai_weight = {
+        weight = @best_megastructure_ai_tech_factor
+    }
+    prereqfor_desc = {
+        custom = {
+            title = TECH_UNLOCK_VOIDARK_PHANON_ARK
+            desc = TECH_UNLOCK_VOIDARK_PHANON_ARK_DESC
+        }
+    }
+}

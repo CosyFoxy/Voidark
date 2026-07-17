@@ -1,0 +1,430 @@
+##Unity Jobs
+#Machine (Deafult Gestalt)
+
+voidark_delta_coordinator = {
+    category = complex_drone
+
+    swappable_data = {
+        default = {
+            condition_string = DRONE_JOB_TRIGGER
+            building_icon = building_acot_dm_ancient_control_center
+        }
+        # Synapse Drone - Hive
+        swap_type = {
+            trigger = {
+                owner? = {
+                    is_hive_empire = yes
+                    is_wilderness_empire = no
+                }
+            }
+            name = voidark_delta_synapse_drone
+            desc = voidark_delta_synapse_drone
+            icon = voidark_delta_synapse_drone
+            building_icon = building_acot_dm_ancient_hive_cluster
+            condition_string = DRONE_JOB_TRIGGER
+            weight = 2
+        }
+
+        # Chronicle Drone
+        swap_type = {
+            trigger = {
+                owner? = { is_memorialist_empire = yes }
+            }
+            name = voidark_delta_chronicle_drone
+            desc = voidark_delta_chronicle_drone
+            icon = voidark_delta_chronicle_drone
+            building_icon = building_dm_gospel_corp
+            condition_string = DRONE_JOB_TRIGGER
+            weight = 3
+        }
+    }
+
+    tags = { unity }
+    possible_pre_triggers = {
+        has_owner = yes
+        is_enslaved = no
+        is_being_purged = no
+        is_being_assimilated = no
+        is_sapient = yes
+    }
+    possible_precalc = can_fill_drone_job
+    possible = { can_think = yes }
+
+    inline_script = {
+        script = voidark/jobs/costs/voidark_coordinators_cost
+        TIER = delta
+        UPKEEP = "
+            sr_dark_matter = 1
+            acot_sr_dark_energy = 2
+        "
+    }
+
+    inline_script = {
+        script = voidark/jobs/modifiers/voidark_coordinator_modifiers
+        TIER = delta
+    }
+
+    weight = {
+        weight = @synapse_drone_job_weight
+        mult = value:scripted_job_weight_shroud_forged_mult
+        modifier = {
+            factor = 0.9
+            exists = owner
+            years_passed < 1
+            owner = { has_valid_civic = civic_machine_assimilator }
+            has_trait = trait_cybernetic
+        }
+    }
+
+    inline_script = "jobs/automodding_priority_unity"
+    inline_script = "output/colony_support_contract_modifiers"
+
+}
+
+voidark_alpha_coordinator = {
+    category = complex_drone
+
+    swappable_data = {
+        default = {
+            condition_string = DRONE_JOB_TRIGGER
+            building_icon = building_acot_ae_ancient_control_center
+        }
+        # Synapse Drone - Hive
+        swap_type = {
+            trigger = {
+                owner? = {
+                    is_hive_empire = yes
+                    is_wilderness_empire = no
+                }
+            }
+            name = voidark_alpha_synapse_drone
+            desc = voidark_alpha_synapse_drone
+            icon = voidark_alpha_synapse_drone
+            building_icon = building_acot_ae_ancient_hive_cluster
+            condition_string = DRONE_JOB_TRIGGER
+            weight = 2
+        }
+
+        # Chronicle Drone
+        swap_type = {
+            trigger = {
+                owner? = { is_memorialist_empire = yes }
+            }
+            name = voidark_alpha_chronicle_drone
+            desc = voidark_alpha_chronicle_drone
+            icon = voidark_alpha_chronicle_drone
+            building_icon = building_ae_gospel_corp
+            condition_string = DRONE_JOB_TRIGGER
+            weight = 3
+        }
+    }
+
+    tags = { unity }
+    possible_pre_triggers = {
+        has_owner = yes
+        is_enslaved = no
+        is_being_purged = no
+        is_being_assimilated = no
+        is_sapient = yes
+    }
+    possible_precalc = can_fill_drone_job
+    possible = { can_think = yes }
+
+    inline_script = {
+        script = voidark/jobs/costs/voidark_coordinators_cost
+        TIER = alpha
+        UPKEEP = "
+            sr_dark_matter = 2
+            acot_sr_dark_energy = 4
+        "
+    }
+
+    inline_script = {
+        script = voidark/jobs/modifiers/voidark_coordinator_modifiers
+        TIER = alpha
+    }
+
+    weight = {
+        weight = @synapse_drone_job_weight
+        mult = value:scripted_job_weight_shroud_forged_mult
+        modifier = {
+            factor = 0.9
+            exists = owner
+            years_passed < 1
+            owner = { has_valid_civic = civic_machine_assimilator }
+            has_trait = trait_cybernetic
+        }
+    }
+
+    inline_script = "jobs/automodding_priority_unity"
+    inline_script = "output/colony_support_contract_modifiers"
+
+}
+
+voidark_phanon_coordinator = {
+    category = complex_drone
+
+    swappable_data = {
+        default = {
+            condition_string = DRONE_JOB_TRIGGER
+            building_icon = building_phanon_control_center
+        }
+        # Synapse Drone - Hive
+        swap_type = {
+            trigger = {
+                owner? = {
+                    is_hive_empire = yes
+                    is_wilderness_empire = no
+                }
+            }
+            name = voidark_phanon_synapse_drone
+            desc = voidark_phanon_synapse_drone
+            icon = voidark_phanon_synapse_drone
+            building_icon = building_phanon_hive_cluster
+            condition_string = DRONE_JOB_TRIGGER
+            weight = 2
+        }
+
+        # Chronicle Drone
+        swap_type = {
+            trigger = {
+                owner? = { is_memorialist_empire = yes }
+            }
+            name = voidark_phanon_chronicle_drone
+            desc = voidark_phanon_chronicle_drone
+            icon = voidark_phanon_chronicle_drone
+            building_icon = building_phanon_temple
+            condition_string = DRONE_JOB_TRIGGER
+            weight = 3
+        }
+    }
+
+    tags = { unity }
+    possible_pre_triggers = {
+        has_owner = yes
+        is_enslaved = no
+        is_being_purged = no
+        is_being_assimilated = no
+        is_sapient = yes
+    }
+    possible_precalc = can_fill_drone_job
+    possible = { can_think = yes }
+
+    inline_script = {
+        script = voidark/jobs/costs/voidark_coordinators_cost
+        TIER = phanon
+        UPKEEP = "
+            aot_sr_runic_power = 6
+        "
+    }
+
+    inline_script = {
+        script = voidark/jobs/modifiers/voidark_coordinator_modifiers
+        TIER = phanon
+    }
+
+    weight = {
+        weight = @synapse_drone_job_weight
+        mult = value:scripted_job_weight_shroud_forged_mult
+        modifier = {
+            factor = 0.9
+            exists = owner
+            years_passed < 1
+            owner = { has_valid_civic = civic_machine_assimilator }
+            has_trait = trait_cybernetic
+        }
+    }
+
+    inline_script = "jobs/automodding_priority_unity"
+    inline_script = "output/colony_support_contract_modifiers"
+
+}
+
+voidark_stellarite_coordinator = {
+    category = complex_drone
+
+    swappable_data = {
+        default = {
+            condition_string = DRONE_JOB_TRIGGER
+            building_icon = building_stellarite_control_center
+        }
+        # Synapse Drone - Hive
+        swap_type = {
+            trigger = {
+                owner? = {
+                    is_hive_empire = yes
+                    is_wilderness_empire = no
+                }
+            }
+            name = voidark_stellarite_synapse_drone
+            desc = voidark_stellarite_synapse_drone
+            icon = voidark_stellarite_synapse_drone
+            building_icon = building_stellarite_hive_cluster
+            condition_string = DRONE_JOB_TRIGGER
+            weight = 2
+        }
+
+        # Chronicle Drone
+        swap_type = {
+            trigger = {
+                owner? = { is_memorialist_empire = yes }
+            }
+            name = voidark_stellarite_chronicle_drone
+            desc = voidark_stellarite_chronicle_drone
+            icon = voidark_stellarite_chronicle_drone
+            building_icon = building_stellarite_temple
+            condition_string = DRONE_JOB_TRIGGER
+            weight = 3
+        }
+    }
+
+    tags = { unity }
+    possible_pre_triggers = {
+        has_owner = yes
+        is_enslaved = no
+        is_being_purged = no
+        is_being_assimilated = no
+        is_sapient = yes
+    }
+    possible_precalc = can_fill_drone_job
+    possible = { can_think = yes }
+
+    inline_script = {
+        script = voidark/jobs/costs/voidark_coordinators_cost
+        TIER = stellarite
+        UPKEEP = "
+            acot_sr_stellarite = 7
+        "
+    }
+
+    inline_script = {
+        script = voidark/jobs/modifiers/voidark_coordinator_modifiers
+        TIER = stellarite
+    }
+
+    weight = {
+        weight = @synapse_drone_job_weight
+        mult = value:scripted_job_weight_shroud_forged_mult
+        modifier = {
+            factor = 0.9
+            exists = owner
+            years_passed < 1
+            owner = { has_valid_civic = civic_machine_assimilator }
+            has_trait = trait_cybernetic
+        }
+    }
+
+    inline_script = "jobs/automodding_priority_unity"
+    inline_script = "output/colony_support_contract_modifiers"
+
+}
+
+#Swap for Hive
+
+voidark_delta_synapse_drone = {
+    swappable_data = {
+        default = {
+            condition_string = DRONE_JOB_TRIGGER
+            building_icon = building_acot_dm_ancient_hive_cluster
+        }
+    }
+
+    possible = {
+        always = no
+    }
+}
+voidark_alpha_synapse_drone = {
+    swappable_data = {
+        default = {
+            condition_string = DRONE_JOB_TRIGGER
+            building_icon = building_acot_ae_ancient_hive_cluster
+        }
+    }
+
+    possible = {
+        always = no
+    }
+}
+voidark_phanon_synapse_drone = {
+    swappable_data = {
+        default = {
+            condition_string = DRONE_JOB_TRIGGER
+            building_icon = building_phanon_hive_cluster
+        }
+    }
+
+    possible = {
+        always = no
+    }
+}
+voidark_stellarite_synapse_drone = {
+    swappable_data = {
+        default = {
+            condition_string = DRONE_JOB_TRIGGER
+            building_icon = building_stellarite_hive_cluster
+        }
+    }
+
+    possible = {
+        always = no
+    }
+}
+
+#Swap for Memorialist
+
+voidark_delta_chronicle_drone = {
+    category = complex_drone
+
+    swappable_data = {
+        default = {
+            condition_string = DRONE_JOB_TRIGGER
+            building_icon = building_dm_gospel_corp
+        }
+    }
+
+    possible = {
+        always = no
+    }
+}
+voidark_alpha_chronicle_drone = {
+    category = complex_drone
+
+    swappable_data = {
+        default = {
+            condition_string = DRONE_JOB_TRIGGER
+            building_icon = building_ae_gospel_corp
+        }
+    }
+
+    possible = {
+        always = no
+    }
+}
+voidark_phanon_chronicle_drone = {
+    category = complex_drone
+
+    swappable_data = {
+        default = {
+            condition_string = DRONE_JOB_TRIGGER
+            building_icon = building_phanon_temple
+        }
+    }
+
+    possible = {
+        always = no
+    }
+}
+voidark_stellarite_chronicle_drone = {
+    category = complex_drone
+
+    swappable_data = {
+        default = {
+            condition_string = DRONE_JOB_TRIGGER
+            building_icon = building_stellarite_temple
+        }
+    }
+
+    possible = {
+        always = no
+    }
+}

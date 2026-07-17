@@ -1,0 +1,43 @@
+is_any_voidark_arkship = {
+    OR = {
+        is_ship_size = xhk_worldark_tier_13
+        is_ship_size = xhk_worldark_tier_14
+        is_ship_size = xhk_worldark_tier_15
+        is_ship_size = xhk_worldark_tier_16
+    }
+}
+
+is_delta_voidark = {
+    is_ship_size = xhk_worldark_tier_13
+}
+
+is_alpha_voidark = {
+    is_ship_size = xhk_worldark_tier_14
+}
+
+is_phanon_voidark = {
+    is_ship_size = xhk_worldark_tier_15
+}
+
+is_stellarite_voidark = {
+    is_ship_size = xhk_worldark_tier_16
+}
+
+has_any_voidark_tech = {
+    OR = {
+        has_technology = tech_voidark_delta
+        has_technology = tech_voidark_alpha
+        has_technology = tech_voidark_phanon
+        has_technology = tech_voidark_stellarite
+    }
+}
+
+has_all_voidark_levels = {
+        AND = {
+            has_carrier_flag = voidark_delta
+            has_carrier_flag = voidark_alpha
+            has_carrier_flag = voidark_phanon
+            has_carrier_flag = voidark_stellarite
+        }
+}
+

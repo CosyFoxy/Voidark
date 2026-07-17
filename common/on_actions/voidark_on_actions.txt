@@ -1,0 +1,11 @@
+on_ship_upgraded = {
+    events = {
+        voidark.1
+    }
+}
+
+on_game_start = {
+    events = {
+        voidark.0
+    }
+}

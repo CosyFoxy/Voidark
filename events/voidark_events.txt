@@ -1,0 +1,88 @@
+namespace = voidark
+
+country_event = {
+    id = voidark.0
+    is_triggered_only = yes
+    fire_only_once = yes
+    hide_window = yes
+
+    trigger = {
+        xhk_has_worldark_origin = yes
+    }
+
+    immediate = {
+        create_point_of_interest = {
+            id = xhk_worldark_docs_chain.9
+            name = "voidark_doc_basics_title"
+            desc = "voidark_doc_basics_desc"
+            event_chain = "xhk_worldark_docs_chain"
+            #location = capital_scope
+        }
+    }
+}
+
+ship_event = {
+    id = voidark.1
+    is_triggered_only = yes
+    hide_window = yes
+
+    trigger = {
+        AND = {
+            owner? = {
+                xhk_has_worldark_origin = yes
+                has_any_voidark_tech = yes
+            }
+            any_owned_colony = {
+                is_planet_class = xhk_pc_worldark
+                has_all_voidark_levels = no
+            }
+            any_owned_ship = {
+                is_arkship_ship = yes
+                is_any_voidark_arkship = yes
+            }
+        }
+    }
+
+    immediate = {
+        random_owned_ship = {
+            switch = {
+                trigger = is_ship_size
+                xhk_worldark_tier_13 = {
+                    set_carrier_flag = voidark_delta
+                    owner? = {
+                        set_country_flag = voidark_begin_doc
+                        country_event = {
+                            id = voidark.2
+                        }
+                    }
+                }
+                xhk_worldark_tier_14 = { set_carrier_flag = voidark_alpha }
+                xhk_worldark_tier_15 = { set_carrier_flag = voidark_phanon }
+                xhk_worldark_tier_16 = { set_carrier_flag = voidark_stellarite }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = voidark.2
+    hide_window = yes
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        xhk_has_worldark_origin = yes
+        has_any_voidark_tech = yes
+        has_country_flag = voidark_begin_doc
+    }
+
+    immediate = {
+        create_point_of_interest = {
+            id = xhk_worldark_docs_chain.10
+            name = "voidark_doc_zones_title"
+            desc = "voidark_doc_zones_desc"
+            event_chain = "xhk_worldark_docs_chain"
+            #location = capital_scope
+        }
+    }
+}

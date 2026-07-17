@@ -1,0 +1,9 @@
+@delta_per_district_housing_urban = 1000
+@alpha_per_district_housing_urban = 2000
+@phanon_per_district_housing_urban = 3000
+@stellarite_per_district_housing_urban = 4000
+
+@delta_per_district_housing = 250
+@alpha_per_district_housing = 500
+@phanon_per_district_housing = 800
+@stellarite_per_district_housing = 1000

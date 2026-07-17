@@ -1,0 +1,33 @@
+icons:
+
+zones
+districts
+(district backgrounds)
+jobs
+district_specializations
+technology
+
+localization:
+
+zones
+districts
+jobs
+technology
+documentation
+ship_sizes
+starbase_sizes
+
+alpha level:
+
+districts
+zones
+
+phanon level:
+
+districts
+zones
+
+stellarite level:
+
+districts
+zones

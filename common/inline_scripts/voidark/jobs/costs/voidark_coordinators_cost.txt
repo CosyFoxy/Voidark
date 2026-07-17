@@ -1,0 +1,50 @@
+@delta_voidark = 20
+@alpha_voidark = 30
+@phanon_voidark = 45
+@stellarite_voidark = 140
+@delta_tier_voidark = 1
+@alpha_tier_voidark = 2
+@phanon_tier_voidark = 3
+@stellarite_tier_voidark = 4
+
+resources = {
+    category = planet_bureaucrats
+    produces = {
+        unity = @[$TIER$_voidark]
+    }
+    produces = {
+        trigger = {
+            owner? = { is_memorialist_empire = yes }
+        }
+        unity = @[$TIER$_voidark/4]
+    }
+    upkeep = {
+        trigger = {
+            owner? = {
+                is_hive_empire = yes
+                is_lithoid_or_infernal_empire = no
+            }
+        }
+        $UPKEEP$
+        food = @[4 + (2*$TIER$_tier_voidark)]
+        energy = @[4 + (2*$TIER$_tier_voidark)]
+    }
+    upkeep = {
+        trigger = {
+            owner? = {
+                is_hive_empire = yes
+                is_lithoid_or_infernal_empire = yes
+            }
+        }
+        $UPKEEP$
+        food = @[4 + (2*$TIER$_tier_voidark)]
+        minerals = @[4 + (2*$TIER$_tier_voidark)]
+    }
+    upkeep = {
+        trigger = {
+            owner? = { is_hive_empire = no }
+        }
+        $UPKEEP$
+        energy = @[8 + (2*$TIER$_tier_voidark)]
+    }
+}

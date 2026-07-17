@@ -1,0 +1,43 @@
+@delta_modifier_voidark = 2
+@alpha_modifier_voidark = 3
+@phanon_modifier_voidark = 4
+@stellarite_modifier_voidark = 5
+
+triggered_planet_modifier = {
+    potential = {
+        owner? = { is_memorialist_empire = yes }
+    }
+    modifier = {
+        planet_stability_add = @[0.2 * $TIER$_modifier_voidark]
+    }
+}
+
+triggered_planet_modifier = {
+    potential = {
+        colony = {
+            has_active_building = building_league_offices
+        }
+    }
+    planet_amenities_no_happiness_add = @[100 * $TIER$_modifier_voidark]
+    mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+}
+
+triggered_planet_modifier = {
+    potential = {
+        OR = {
+            has_modifier = planet_artifact_relays_machine
+            has_modifier = planet_artifact_relays_hivemind
+        }
+    }
+    modifier = {
+        planet_stability_add = @[2 * $TIER$_modifier_voidark]
+        planet_jobs_simple_drone_produces_mult = @[0.01 * $TIER$_modifier_voidark]
+    }
+}
+
+triggered_planet_modifier = {
+    potential = {
+        owner? = { has_tradition = tr_modularity_4 }
+    }
+    planet_jobs_simple_drone_produces_mult = @[0.02 * $TIER$_modifier_voidark]
+}

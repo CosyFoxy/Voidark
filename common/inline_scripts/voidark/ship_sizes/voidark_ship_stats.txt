@@ -1,0 +1,29 @@
+formation_priority = @arkship_formation_priority_4
+max_speed = @arkship_max_speed_100
+acceleration = @arkship_acceleration_20_percent
+rotation_speed = @arkship_rotation_speed_15_percent
+construction_offset_mult = @arkship_construction_offset_2
+collision_radius = @arkship_collision_radius_4
+
+max_hitpoints = @voidark_shipstat_hp_$ACOT_TIER$
+modifier = {
+    # ship stats
+    ship_evasion_add = 5
+    ship_armor_add = @voidark_shipstat_armor_$ACOT_TIER$
+    ship_shield_add = @voidark_shipstat_shield_$ACOT_TIER$
+    ship_shield_regen_add_static = @voidark_shipstat_shieldregen_$ACOT_TIER$
+    ship_reactor_power_mult = @voidark_shipstat_reactor_$ACOT_TIER$
+
+    # starbase stuff
+    starbase_module_capacity_add = @xhk_worldark_shipstat_modules_t12
+    starbase_building_capacity_add = @xhk_worldark_shipstat_buildings_t12
+
+    # planet stuff
+    planet_max_districts_add = @voidark_shipstat_districts_$ACOT_TIER$
+}
+ship_modifier = {
+    ship_starbase_stockpile_collection_rate_add = @voidark_shipstat_collection_$ACOT_TIER$
+}
+# 80 to 120
+size_multiplier = @[(($TIER$ - 1) * 4) + 80]
+fleet_slot_size = 8

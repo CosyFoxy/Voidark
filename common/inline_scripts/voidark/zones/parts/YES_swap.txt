@@ -1,2 +1,0 @@
-swap_type = $SWAP_TYPE$
-swap_type_weight = 5

@@ -1,0 +1,11 @@
+triggered_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_regular_empire = yes
+        }
+    }
+    modifier = {
+        job_$JOB$_add = $AMOUNT$
+    }
+}
