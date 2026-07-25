@@ -1,33 +1,17 @@
-icons:
+To do:
+    fix module possibility (waiting on xahk)
 
-zones
-districts
-(district backgrounds)
-jobs
-district_specializations
-technology
 
-localization:
 
-zones
-districts
-jobs
-technology
-documentation
-ship_sizes
-starbase_sizes
+to balance:
+    zones balance
+    ship stats
 
-alpha level:
+To add:
+    phanon level:
+        districts
+        zones
 
-districts
-zones
-
-phanon level:
-
-districts
-zones
-
-stellarite level:
-
-districts
-zones
+    stellarite level:
+        districts
+        zones

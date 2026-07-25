@@ -1,0 +1,2 @@
+is_ship_size = xhk_worldark_tier_16
+

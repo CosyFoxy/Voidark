@@ -1,3 +1,4 @@
+
 ###############################################################################################################
 ###############################################################################################################
 #          HABITATION
@@ -6,19 +7,19 @@
 
 ## CITY
 district_voidark_delta_city = {
+    icon = district_urban_dm
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_city
-        BACKGROUND = district_city
+        BACKGROUND = district_urban_dm
         OVERLAY_ICON = GFX_district_government
+    }
+
+    inline_script = {
+        script =  voidark/districts/flavor/voidark_differentiate_flavor
         TYPE = city
         TIER = delta
     }
-
-    planet_modifier = {
-        planet_housing_add = 3000
-    }
-
     inline_script = voidark/districts/urban_district_bonus
     inline_script = districts/ai_urban_district_extra_weighting
 }
@@ -31,37 +32,49 @@ district_voidark_delta_city = {
 ## Foundry
 
 district_voidark_delta_foundry = {
+    icon = district_aot_arcology_arms_industry_dm
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_arms_industry
-        BACKGROUND = district_arcology_arms_industry
+        BACKGROUND = district_aot_arcology_arms_industry_dm
         OVERLAY_ICON = GFX_district_alloys
-        TYPE = foundry
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = foundry
     }
 }
 
 ## Factory
 district_voidark_delta_factory = {
+    icon = district_aot_arcology_civilian_industry_dm
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_civilian_industry
-        BACKGROUND = district_arcology_civilian_industry
+        BACKGROUND = district_aot_arcology_civilian_industry_dm
         OVERLAY_ICON = GFX_district_consumer_goods
-        TYPE = factory
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = factory
     }
 }
 
 ## Trade
 district_voidark_delta_trade = {
+    icon = district_aot_arcology_trade_dm
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_trade
-        BACKGROUND = district_arcology_trade
+        BACKGROUND = district_aot_arcology_trade_dm
         OVERLAY_ICON = GFX_district_trade
-        TYPE = trade
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = trade
     }
 }
 
@@ -72,195 +85,145 @@ district_voidark_delta_trade = {
 ## Generator
 
 district_voidark_delta_generator = {
+    icon = district_aot_big_generator_dm
     inline_script = {
-        script = voidark/districts/parts/base_swap_districts_potential
+        script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_generator
-        BACKGROUND = district_generator
+        BACKGROUND = district_aot_big_generator_dm
         OVERLAY_ICON = GFX_district_energy
-        TYPE = generator
-        TIER = delta
-    }
-    potential = {
-        uses_district_set = xhk_pc_worldark
-        starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}
     }
 
-    convert_to = {
-        district_voidark_delta_penrose
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = delta
+        TYPE = generator
     }
-    conversion_ratio = 0.5
 }
 
 district_voidark_delta_generator_speed = {
+    icon = district_aot_big_generator_dm
     inline_script = {
-        script = voidark/districts/parts/base_swap_districts_potential
+        script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_generator
-        BACKGROUND = district_ark_generator
+        BACKGROUND = district_aot_big_generator_dm
         OVERLAY_ICON = GFX_district_speed
-        TYPE = generator_speed
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = generator_speed
     }
-    potential = {
-        uses_district_set = xhk_pc_worldark
-        starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}
-    }
-    convert_to = {
-        district_voidark_delta_penrose_speed
-    }
-    conversion_ratio = 0.5
 }
 
 district_voidark_delta_generator_shield = {
+    icon = district_aot_big_generator_dm
     inline_script = {
-        script = voidark/districts/parts/base_swap_districts_potential
+        script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_generator
-        BACKGROUND = district_ark_generator
+        BACKGROUND = district_aot_big_generator_dm
         OVERLAY_ICON = GFX_district_shield
-        TYPE = generator_shield
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = generator_shield
     }
-    potential = {
-        uses_district_set = xhk_pc_worldark
-        starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}
-    }
-    convert_to = {
-        district_voidark_delta_penrose_shield
-    }
-    conversion_ratio = 0.5
 }
 
 ## Penrose
 district_voidark_delta_penrose = {
     inline_script = {
-        script = voidark/districts/parts/base_swap_districts_potential
+        script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_generator
-        BACKGROUND = district_xhk_worldark_penrose
+        BACKGROUND = district_voidark_delta_penrose
         OVERLAY_ICON = GFX_district_energy
-        TYPE = penrose
-        TIER = delta
     }
-    potential = {
-        uses_district_set = xhk_pc_worldark
-        starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole }
-    }
-    convert_to = {
-        district_voidark_delta_generator
-    }
-    conversion_ratio = 2
 
-    inline_script = { #todo check if this removes old jobs
-        script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = acot_energyman
-        GESTALT_JOB = acot_energydrone
-        AMOUNT = 200
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = delta
+        TYPE = penrose
     }
 }
 
 district_voidark_delta_penrose_speed = {
+    icon = district_voidark_delta_penrose
     inline_script = {
-        script = voidark/districts/parts/base_swap_districts_potential
+        script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_generator
-        BACKGROUND = district_xhk_worldark_penrose
+        BACKGROUND = district_voidark_delta_penrose
         OVERLAY_ICON = GFX_district_speed
-        TYPE = penrose_speed
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = penrose_speed
     }
-    potential = {
-        uses_district_set = xhk_pc_worldark
-        starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole }
-    }
-    convert_to = {
-        district_voidark_delta_generator_speed
-    }
-    conversion_ratio = 2
 }
 
 district_voidark_delta_penrose_shield = {
+    icon = district_voidark_delta_penrose
     inline_script = {
-        script = voidark/districts/parts/base_swap_districts_potential
+        script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_generator
-        BACKGROUND = district_xhk_worldark_penrose
+        BACKGROUND = district_voidark_delta_penrose
         OVERLAY_ICON = GFX_district_shield
-        TYPE = penrose_shield
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = penrose_shield
     }
-    potential = {
-        uses_district_set = xhk_pc_worldark
-        starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole }
-    }
-    convert_to = {
-        district_voidark_delta_generator_shield
-    }
-    conversion_ratio = 2
 }
 
 ## Minerals
 district_voidark_delta_minerals = {
+    icon = district_aot_power_mining_dm
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_mining
-        BACKGROUND = district_mining
+        BACKGROUND = district_voidark_delta_minerals
         OVERLAY_ICON = GFX_district_minerals
-        TYPE = mining
-        TIER = delta
     }
-    potential = {
-        uses_district_set = xhk_pc_worldark
-        starbase = { NOT = {has_starbase_module = xhk_worldark_corespinal_blackhole} }
-    }
-    convert_to = {
-        district_voidark_delta_decompressor
-    }
-    conversion_ratio = 0.5
 
     inline_script = {
-        script = jobs/ark_harvester_add
-        AMOUNT = 200
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = delta
+        TYPE = minerals
     }
 }
 
 ## Decompressor
 district_voidark_delta_decompressor = {
     inline_script = {
-        script = voidark/districts/parts/base_swap_districts_potential
+        script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_mining
-        BACKGROUND = district_xhk_worldark_decompressor
+        BACKGROUND = district_voidark_delta_decompressor
         OVERLAY_ICON = GFX_district_minerals
-        TYPE = mining
-        TIER = delta
     }
-
-    potential = {
-        uses_district_set = xhk_pc_worldark
-        starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole }
-    }
-    convert_to = {
-        district_voidark_delta_minerals
-    }
-    conversion_ratio = 2
 
     inline_script = {
-        script = jobs/ark_harvester_add
-        AMOUNT = 100
-    }
-
-    inline_script = { #todo check if this removes old jobs
-        script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = acot_mineralman
-        GESTALT_JOB = acot_mineraldrone
-        AMOUNT = 200
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = delta
+        TYPE = decompressor
     }
 }
 
 ## Farming
 district_voidark_delta_farming = {
+    icon = district_aot_power_farming_dm
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_farming
-        BACKGROUND = district_ark_hydroponics
+        BACKGROUND = district_aot_power_farming_dm
         OVERLAY_ICON = GFX_district_food
-        TYPE = farming
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = farming
     }
 }
 
@@ -271,273 +234,152 @@ district_voidark_delta_farming = {
 ## Unity
 district_voidark_delta_unity = {
     inline_script = {
-        script = voidark/districts/parts/base_swap_districts_potential
+        script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_administrative
-        BACKGROUND = district_arcology_administrative
+        BACKGROUND = district_voidark_delta_unity
         OVERLAY_ICON = GFX_district_unity
-        TYPE = unity
-        TIER = delta
-    }
-    potential = {
-        uses_district_set = xhk_pc_worldark
-        exists = owner
-        owner = {
-            is_gestalt = no
-            is_spiritualist = no
-        }
     }
 
-    convert_to = {
-        district_voidark_delta_unity_hive
-        district_voidark_delta_unity_machine
-        district_voidark_delta_unity_servitor
-        district_voidark_delta_unity_spiritualist
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = delta
+        TYPE = unity
     }
-    conversion_ratio = 1
 }
 
 ## Unity Spiritualist
 district_voidark_delta_unity_spiritualist = {
     inline_script = {
-        script = voidark/districts/parts/base_swap_districts_potential
+        script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_administrative
-        BACKGROUND = district_arcology_administrative
+        BACKGROUND = district_voidark_delta_unity_spiritualist
         OVERLAY_ICON = GFX_district_unity
-        TYPE = unity_spiritualist
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = unity_spiritualist
     }
-    potential = {
-        exists = owner
-        owner = {
-            is_gestalt = no
-            is_spiritualist = yes
-        }
-    }
-
-
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_death_cult_empire = yes
-            }
-            OR = {
-                has_building = building_sacrificial_temple_1
-                has_building = building_sacrificial_temple_2
-                has_building = building_sacrificial_temple_3
-            }
-        }
-        job_mortal_initiate_add = 50
-    }
-
-    convert_to = {
-        district_voidark_delta_unity
-        district_voidark_delta_unity_hive
-        district_voidark_delta_unity_machine
-        district_voidark_delta_unity_servitor
-    }
-    conversion_ratio = 1
 }
 
 ## Unity Hive
 district_voidark_delta_unity_hive = {
     inline_script = {
-        script = voidark/districts/parts/base_swap_districts_potential
+        script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_administrative
-        BACKGROUND = district_arcology_administrative
+        BACKGROUND = district_voidark_delta_unity_hive
         OVERLAY_ICON = GFX_district_unity
-        TYPE = unity_hive
-        TIER = delta
     }
 
-    potential = {
-        exists = owner
-        owner = {
-            is_hive_empire = yes
-        }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = delta
+        TYPE = unity_hive
     }
-    convert_to = {
-        district_voidark_delta_unity
-        district_voidark_delta_unity_spiritualist
-        district_voidark_delta_unity_machine
-        district_voidark_delta_unity_servitor
-    }
-    conversion_ratio = 1
 }
 
 ## Unity Machine
 district_voidark_delta_unity_machine = {
     inline_script = {
-        script = voidark/districts/parts/base_swap_districts_potential
+        script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_administrative
-        BACKGROUND = district_arcology_administrative
+        BACKGROUND = district_voidark_delta_unity_machine
         OVERLAY_ICON = GFX_district_unity
-        TYPE = unity_machine
-        TIER = delta
     }
 
-    potential = {
-        exists = owner
-        owner = {
-            is_machine_empire = yes
-            NOT = { has_valid_civic = civic_machine_servitor }
-        }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = delta
+        TYPE = unity_machine
     }
-    convert_to = {
-        district_voidark_delta_unity
-        district_voidark_delta_unity_spiritualist
-        district_voidark_delta_unity_hive
-        district_voidark_delta_unity_servitor
-    }
-    conversion_ratio = 1
 }
 
 ## Unity Servitor
 district_voidark_delta_unity_servitor = {
+    icon = district_voidark_delta_unity_machine
     inline_script = {
-        script = voidark/districts/parts/base_swap_districts_potential
+        script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_administrative
-        BACKGROUND = district_arcology_administrative
+        BACKGROUND = district_voidark_delta_unity_machine
         OVERLAY_ICON = GFX_district_unity
-        TYPE = unity_servitor
+    }
+
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = unity_servitor
     }
-
-    potential = {
-        exists = owner
-        owner = {
-            is_machine_empire = yes
-            has_valid_civic = civic_machine_servitor
-        }
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                has_valid_civic = civic_machine_servitor
-            }
-        }
-        job_bio_trophy_add = 1000
-    }
-
-    convert_to = {
-        district_voidark_delta_unity
-        district_voidark_delta_unity_machine
-        district_voidark_delta_unity_spiritualist
-        district_voidark_delta_unity_hive
-    }
-    conversion_ratio = 1
 }
 
 ## Science
 district_voidark_delta_science = {
+    icon = district_aot_arcology_research_dm
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_research
-        BACKGROUND = district_arcology_research
+        BACKGROUND = district_aot_arcology_research_dm
         OVERLAY_ICON = GFX_district_research
-        TYPE = research
+    }
+    inline_script = {
+        script = voidark/zones/parts/voidark_research_zone_experimentation
+        ACOT_TIER = delta
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_twisted_experimenters_empire = yes
-                is_gestalt = no
-            }
-            OR = {
-                has_building = building_experimentation_chambers_1
-                has_building = building_experimentation_chambers_2
-                has_building = building_experimentation_chambers_3
-            }
-        }
-        job_test_subject_add = 50
-        job_experiment_engineer_add = 50
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_twisted_experimenters_empire = yes
-                is_gestalt = yes
-            }
-            OR = {
-                has_building = building_experimentation_chambers_1
-                has_building = building_experimentation_chambers_2
-                has_building = building_experimentation_chambers_3
-            }
-        }
-        job_test_subject_drone_add = 50
-        job_experiment_engineer_drone_add = 50
+        TYPE = science
     }
 }
 
 ## Amenities
 district_voidark_delta_amenities = {
+    icon = district_voidark_delta_amenities
     inline_script = {
-        script = voidark/districts/parts/base_swap_districts_potential
-        GRIDBOX = district_resort_secondary
-        BACKGROUND = district_ark_forever_cruise
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_leisure
+        BACKGROUND = district_aot_arcology_trade_dm
         OVERLAY_ICON = GFX_district_amenities
-        TYPE = amenities
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_differentiate_flavor
         TIER = delta
+        TYPE = amenities
     }
-    potential = {
-        exists = owner
-        owner = {
-            is_gestalt = no
-            NOT = { has_valid_civic = civic_dystopian_society }
-        }
-    }
-    convert_to = {
-        district_voidark_delta_amenities_dystopian
-    }
-    conversion_ratio = 1
 }
 
 ## Amenities Dystopian
 district_voidark_delta_amenities_dystopian = {
+    icon = district_voidark_delta_amenities
     inline_script = {
-        script = voidark/districts/parts/base_swap_districts_potential
-        GRIDBOX = district_resort_secondary
-        BACKGROUND = district_ark_forever_cruise
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_leisure
+        BACKGROUND = district_aot_arcology_trade_dm
         OVERLAY_ICON = GFX_district_amenities
-        TYPE = amenities_dystopian
-        TIER = delta
-    }
-    potential = {
-        exists = owner
-        owner = {
-            is_gestalt = no
-            has_valid_civic = civic_dystopian_society
-        }
     }
 
-    triggered_desc = {
-        trigger = { always = yes }
-        text = district_xhk_worldark_amenities_dystopian_limit
-    }
+    shared_capacity_modifier = district_xhk_worldark_amenities_dystopian
     inline_script = {
-        script = jobs/politician_add #todo check acot alternative
-        AMOUNT = 50
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = delta
+        TYPE = amenities_dystopian
     }
-
-    convert_to = {
-        district_voidark_delta_amenities
-    }
-    conversion_ratio = 1
 }
 
 ## Enforcer
 district_voidark_delta_enforcer = {
+    icon = district_aot_arcology_civilian_industry_dm
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_leisure
-        BACKGROUND = district_arcology_leisure
+        BACKGROUND = district_aot_arcology_civilian_industry_dm
         OVERLAY_ICON = GFX_giga_district_crime
-        TYPE = enforcer
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_differentiate_flavor
         TIER = delta
+        TYPE = enforcer
     }
 }
 
@@ -547,72 +389,96 @@ district_voidark_delta_enforcer = {
 
 ## Ordinance
 district_voidark_delta_ordinance = {
+    icon = district_voidark_delta_ordinance_naval
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_fortress
-        BACKGROUND = district_ark_military
+        BACKGROUND = district_voidark_delta_ordinance_strike_craft
         OVERLAY_ICON = GFX_district_fortress
-        TYPE = ordinance
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = ordinance
     }
 }
 
 
 district_voidark_delta_ordinance_naval = {
+    icon = district_voidark_delta_ordinance_naval
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_fortress
-        BACKGROUND = district_ark_military
+        BACKGROUND = district_voidark_delta_ordinance_naval
         OVERLAY_ICON = GFX_district_ship
-        TYPE = ordinance_naval
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = ordinance_naval
     }
 }
 
 district_voidark_delta_ordinance_missile = {
+    icon = district_voidark_delta_ordinance_naval
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_fortress
-        BACKGROUND = district_ark_military
+        BACKGROUND = district_voidark_delta_ordinance_kinetic
         OVERLAY_ICON = GFX_district_damage
-        TYPE = ordinance_missile
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = ordinance_missile
     }
 }
 
 
 district_voidark_delta_ordinance_kinetic = {
+    icon = district_voidark_delta_ordinance_naval
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_fortress
-        BACKGROUND = district_ark_military
+        BACKGROUND = district_voidark_delta_ordinance_kinetic
         OVERLAY_ICON = GFX_district_damage
-        TYPE = ordinance_kinetic
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = ordinance_kinetic
     }
 }
 
 
 district_voidark_delta_ordinance_energy = {
+    icon = district_voidark_delta_ordinance_naval
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_fortress
-        BACKGROUND = district_ark_military
+        BACKGROUND = district_voidark_delta_ordinance_kinetic
         OVERLAY_ICON = GFX_district_damage
-        TYPE = ordinance_energy
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = ordinance_energy
     }
 }
 
 
 district_voidark_delta_ordinance_strike_craft = {
+    icon = district_voidark_delta_ordinance_naval
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_arcology_fortress
-        BACKGROUND = district_ark_military
+        BACKGROUND = district_voidark_delta_ordinance_strike_craft
         OVERLAY_ICON = GFX_district_damage
-        TYPE = ordinance_strike_craft
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = ordinance_strike_craft
     }
 }
 
@@ -627,10 +493,13 @@ district_voidark_delta_refinery = {
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_industrial
-        BACKGROUND = district_xhk_worldark_refinery
+        BACKGROUND = district_voidark_delta_refinery
         OVERLAY_ICON = GFX_giga_district_strategic_resources
-        TYPE = refinery
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = refinery
     }
 }
 
@@ -639,29 +508,14 @@ district_voidark_delta_darkmatter = {
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_polytechnic
-        BACKGROUND = district_xhk_worldark_darkmatter
+        BACKGROUND = district_voidark_delta_penrose
         OVERLAY_ICON = GFX_giga_district_dark_matter
-        TYPE = dark_matter
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = { is_gestalt = no }
-        }
-        job_giga_dark_matter_weaver_add = 300
-    }
-
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = { is_gestalt = yes }
-        }
-        job_giga_dark_matter_weaver_drone_add = 300
-    }
-
-    planet_modifier = {
-        planet_jobs_sr_dark_matter_produces_mult = 0.1
+        TYPE = darkmatter
     }
 }
 
@@ -682,9 +536,36 @@ district_voidark_delta_storage = {
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
         GRIDBOX = district_generator
-        BACKGROUND = district_generator
+        BACKGROUND = district_aot_arcology_trade_dm
         OVERLAY_ICON = GFX_xhk_worldark_storage_spec
-        TYPE = storage
+    }
+
+    triggered_desc = {
+        trigger = {
+            has_xhk_storage_zone = no
+        }
+        text = district_voidark_delta_storage_effect
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
+        TYPE = storage
+    }
+}
+
+# Building holder
+
+district_voidark_delta_utilbay = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_generator
+        BACKGROUND = district_voidark_delta_ordinance_strike_craft
+        OVERLAY_ICON = GFX_district_housing
+    }
+    base_cap_amount = 1
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = delta
+        TYPE = utilbay
     }
 }

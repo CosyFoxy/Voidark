@@ -32,12 +32,71 @@ has_any_voidark_tech = {
     }
 }
 
-has_all_voidark_levels = {
-        AND = {
-            has_carrier_flag = voidark_delta
-            has_carrier_flag = voidark_alpha
-            has_carrier_flag = voidark_phanon
-            has_carrier_flag = voidark_stellarite
+
+has_xhk_generator_zone = {
+    OR = {
+        has_zone = {
+            zone = zone_xhk_worldark_generator
         }
+        has_zone = {
+            zone = zone_xhk_worldark_reactspeed
+        }
+        has_zone = {
+            zone = zone_xhk_worldark_reactshield
+        }
+        has_zone = {
+            zone = zone_xhk_worldark_reactspeed_penrose
+        }
+        has_zone = {
+            zone = zone_xhk_worldark_reactshield_penrose
+        }
+    }
 }
+
+has_xhk_mining_zone = {
+    has_zone = {
+        zone = zone_xhk_worldark_mining
+    }
+}
+
+has_xhk_entertainment_zone = {
+    OR = {
+        has_zone = {
+            zone = zone_xhk_worldark_amenities
+        }
+        has_zone = {
+            zone = zone_xhk_worldark_amenities_dystopian
+        }
+    }
+}
+
+has_xhk_storage_zone = {
+    has_zone = {
+        zone = zone_xhk_worldark_storage
+    }
+}
+
+has_delta_storage_zone = {
+    has_zone = {
+        zone = zone_voidark_delta_storage
+    }
+}
+
+# has_alpha_storage_zone = {
+#     has_zone = {
+#         zone = zone_voidark_alpha_storage
+#     }
+# }
+#
+# has_phanon_storage_zone = {
+#     has_zone = {
+#         zone = zone_voidark_phanon_storage
+#     }
+# }
+#
+# has_stellarite_storage_zone = {
+#     has_zone = {
+#         zone = zone_voidark_stellarite_storage
+#     }
+# }
 

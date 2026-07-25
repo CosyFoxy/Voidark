@@ -1,0 +1,102 @@
+#Normal
+triggered_name = {
+    trigger = {
+        owner? = {
+            OR = {
+                is_machine_empire = no
+                is_hive_empire = no
+            }
+        }
+    }
+    text = flavor_district_voidark_$TIER$_$TYPE$
+}
+
+triggered_flavor_desc = {
+    trigger = {
+        owner? = {
+            OR = {
+                is_machine_empire = no
+                is_hive_empire = no
+            }
+        }
+    }
+    text = flavor_district_voidark_$TIER$_$TYPE$_desc
+}
+
+
+#Spiritualist
+triggered_name = {
+    trigger = {
+        owner? = {
+            OR = {
+                is_machine_empire = no
+                is_hive_empire = no
+            }
+        }
+    }
+    text = flavor_district_voidark_$TIER$_$TYPE$_spiritualist
+}
+
+triggered_flavor_desc = {
+    trigger = {
+        owner? = {
+            OR = {
+                is_machine_empire = no
+                is_hive_empire = no
+            }
+        }
+    }
+    text = flavor_district_voidark_$TIER$_$TYPE$_spiritualist_desc
+}
+
+
+#Machine
+triggered_name = {
+    trigger = {
+        owner? = {
+            OR = {
+                is_machine_empire = yes
+                is_hive_empire = no
+            }
+        }
+    }
+    text = flavor_district_voidark_$TIER$_$TYPE$_machine
+}
+
+triggered_flavor_desc = {
+    trigger = {
+        owner? = {
+            OR = {
+                is_machine_empire = yes
+                is_hive_empire = no
+            }
+        }
+    }
+    text = flavor_district_voidark_$TIER$_$TYPE$_machine_desc
+}
+
+
+#Hive
+triggered_name = {
+    trigger = {
+        owner? = {
+            OR = {
+                is_machine_empire = no
+                is_hive_empire = yes
+            }
+        }
+    }
+    text = flavor_district_voidark_$TIER$_$TYPE$_hive
+}
+
+triggered_flavor_desc = {
+    trigger = {
+        owner? = {
+            OR = {
+                is_machine_empire = no
+                is_hive_empire = yes
+            }
+        }
+    }
+    text = flavor_district_voidark_$TIER$_$TYPE$_hive_desc
+}

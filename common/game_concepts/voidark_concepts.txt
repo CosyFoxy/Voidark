@@ -1,0 +1,116 @@
+concept_delta_tier = {
+    alias = { concept_delta_tier }
+    icon = "gfx/interface/icons/text_icons/text_icon_delta_core.dds"
+    # texture = "gfx/interface/icons/text_icons/text_icon_delta_core.dds"
+    databank = {
+        category = "db_voidark_tiers"
+        icon = GFX_text_icon_delta_core
+    }
+}
+concept_alpha_tier = {
+    alias = { concept_alpha_tier }
+    icon = "gfx/interface/icons/text_icons/text_icon_alpha_core.dds"
+    #texture = "gfx/interface/icons/text_icons/text_icon_alpha_core.dds"
+    databank = {
+        category = "db_voidark_tiers"
+        icon = GFX_text_icon_alpha_core
+    }
+}
+
+concept_phi_tier = {
+    alias = { concept_phi_tier }
+    icon = "gfx/interface/icons/text_icons/text_icon_phi_core.dds"
+    #texture = "gfx/interface/icons/text_icons/text_icon_phi_core.dds"
+    databank = {
+        category = "db_voidark_tiers"
+        icon = GFX_text_icon_phi_core
+    }
+}
+concept_phanon_tier = {
+    alias = { concept_phanon_tier }
+    icon = "gfx/interface/icons/text_icons/text_icon_phanon_core.dds"
+    #texture = "gfx/interface/icons/text_icons/text_icon_phanon_core.dds"
+    databank = {
+        category = "db_voidark_tiers"
+        icon = GFX_text_icon_phanon_core
+    }
+}
+concept_stellarite_tier = {
+    alias = { concept_stellarite_tier }
+    icon = "gfx/interface/icons/text_icons/text_icon_stellarite_core.dds"
+    #texture = "gfx/interface/icons/text_icons/text_icon_stellarite_core.dds"
+    databank = {
+        category = "db_voidark_tiers"
+        icon = GFX_text_icon_stellarite_core
+    }
+}
+
+concept_dark_matter = {
+    alias = { sr_dark_matter }
+    icon = "gfx/interface/icons/resources/dark_matter_large.dds"
+    #texture = "gfx/interface/icons/resources/dark_matter_large.dds"
+    databank = {
+        category = "db_voidark_tiers"
+    }
+}
+concept_dark_energy = {
+    alias = { acot_sr_dark_energy }
+    icon = "gfx/interface/icons/resources/acot_sr_dark_energy_large.dds"
+    #texture = "gfx/interface/icons/resources/acot_sr_dark_energy_large.dds"
+    databank = {
+        category = "db_voidark_tiers"
+    }
+}
+
+concept_runic_energy = {
+    alias = { aot_sr_runic_power }
+    icon = "gfx/interface/icons/resources/aot_sr_runic_power_large.dds"
+    #texture = "gfx/interface/icons/resources/aot_sr_runic_power_large.dds"
+    databank = {
+        category = "db_voidark_tiers"
+    }
+}
+
+concept_stellarite = {
+    alias = { acot_sr_stellarite }
+    icon = "gfx/interface/icons/resources/acot_sr_stellarite_large.dds"
+    #texture = "gfx/interface/icons/resources/acot_sr_stellarite_large.dds"
+    databank = {
+        category = "db_voidark_tiers"
+    }
+}
+
+concept_discord_thread = {
+    databank = {
+        category = "db_voidark_tiers"
+    }
+}
+
+concept_tech_voidark_delta = {
+    alias = { voidark_tech_delta }
+    databank = {
+        category = "db_voidark_tiers"
+        icon = GFX_text_research
+    }
+}
+concept_tech_voidark_alpha = {
+    alias = { voidark_tech_alpha }
+    databank = {
+        category = "db_voidark_tiers"
+        icon = GFX_text_research
+    }
+}
+concept_tech_voidark_phanon = {
+    alias = { voidark_tech_phanon }
+    databank = {
+        category = "db_voidark_tiers"
+        icon = GFX_text_research
+    }
+}
+concept_tech_voidark_stellarite = {
+    alias = { voidark_tech_stellarite }
+    databank = {
+        category = "db_voidark_tiers"
+        icon = GFX_text_research
+    }
+}

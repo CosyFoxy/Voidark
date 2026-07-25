@@ -66,7 +66,6 @@ xhk_worldark_tier_13 = {
     # Ship setup
     inline_script = {
         script = voidark/ship_sizes/voidark_ship_stats
-        TIER = 13
         ACOT_TIER = delta
     }
 }
@@ -139,7 +138,6 @@ xhk_worldark_tier_14 = {
     # Ship setup
     inline_script = {
         script = voidark/ship_sizes/voidark_ship_stats
-        TIER = 14
         ACOT_TIER = alpha
     }
 }
@@ -211,7 +209,6 @@ xhk_worldark_tier_15 = {
     # Ship setup
     inline_script = {
         script = voidark/ship_sizes/voidark_ship_stats
-        TIER = 15
         ACOT_TIER = phanon
     }
 }
@@ -227,7 +224,6 @@ xhk_worldark_tier_16 = {
         #todo check decent upkeep costs
         UPKEEP = "acot_sr_stellarite = 100"
     }
-
     # Arkship specific stuff
 
     graphical_culture = { "military_arkship" }
@@ -283,7 +279,6 @@ xhk_worldark_tier_16 = {
     # Ship setup
     inline_script = {
         script = voidark/ship_sizes/voidark_ship_stats
-        TIER = 16
         ACOT_TIER = stellarite
     }
 }

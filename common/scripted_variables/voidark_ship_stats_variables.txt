@@ -1,34 +1,34 @@
-@voidark_shipstat_hp_delta = 1
-@voidark_shipstat_hp_alpha = 1
-@voidark_shipstat_hp_phanon = 1
-@voidark_shipstat_hp_stellarite = 1
+@voidark_shipstat_hp_delta = 350000
+@voidark_shipstat_hp_alpha = 500000
+@voidark_shipstat_hp_phanon = 750000
+@voidark_shipstat_hp_stellarite = 800000
 
-@voidark_shipstat_armor_delta = 1
-@voidark_shipstat_armor_alpha = 1
-@voidark_shipstat_armor_phanon = 1
-@voidark_shipstat_armor_stellarite = 1
+@voidark_shipstat_armor_delta = 175000
+@voidark_shipstat_armor_alpha = 250000
+@voidark_shipstat_armor_phanon = 375000
+@voidark_shipstat_armor_stellarite = 400000
 
-@voidark_shipstat_shield_delta = 1
-@voidark_shipstat_shield_alpha = 1
-@voidark_shipstat_shield_phanon = 1
-@voidark_shipstat_shield_stellarite = 1
+@voidark_shipstat_shield_delta = 175000
+@voidark_shipstat_shield_alpha = 250000
+@voidark_shipstat_shield_phanon = 375000
+@voidark_shipstat_shield_stellarite = 400000
 
-@voidark_shipstat_shieldregen_delta = 1
-@voidark_shipstat_shieldregen_alpha = 1
-@voidark_shipstat_shieldregen_phanon = 1
-@voidark_shipstat_shieldregen_stellarite = 1
+@voidark_shipstat_shieldregen_delta = 900
+@voidark_shipstat_shieldregen_alpha = 1400
+@voidark_shipstat_shieldregen_phanon = 2500
+@voidark_shipstat_shieldregen_stellarite = 3250
 
-@voidark_shipstat_reactor_delta = 1
-@voidark_shipstat_reactor_alpha = 1
-@voidark_shipstat_reactor_phanon = 1
-@voidark_shipstat_reactor_stellarite = 1
+@voidark_shipstat_reactor_delta = 9
+@voidark_shipstat_reactor_alpha = 10
+@voidark_shipstat_reactor_phanon = 11
+@voidark_shipstat_reactor_stellarite = 12
 
-@voidark_shipstat_districts_delta = 1
-@voidark_shipstat_districts_alpha = 1
-@voidark_shipstat_districts_phanon = 1
-@voidark_shipstat_districts_stellarite = 1
+@voidark_shipstat_districts_delta = 70
+@voidark_shipstat_districts_alpha = 80
+@voidark_shipstat_districts_phanon = 90
+@voidark_shipstat_districts_stellarite = 100
 
-@voidark_shipstat_collection_delta = 1
-@voidark_shipstat_collection_alpha = 1
-@voidark_shipstat_collection_phanon = 1
-@voidark_shipstat_collection_stellarite = 1
+@voidark_shipstat_collection_delta = 5000
+@voidark_shipstat_collection_alpha = 5500
+@voidark_shipstat_collection_phanon = 6000
+@voidark_shipstat_collection_stellarite = 6500

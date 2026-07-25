@@ -1,0 +1,68 @@
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_regular_empire = yes
+        }
+    }
+    job_$JOB$_add = $AMOUNT$
+}
+
+
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_gestalt = yes
+            is_hive_empire = no
+        }
+    }
+    job_$GESTALT_HIVE_JOB$_add = $AMOUNT$
+}
+
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_gestalt = yes
+            is_hive_empire = yes
+        }
+    }
+    job_$GESTALT_HIVE_JOB$_add = $AMOUNT$
+}
+
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_regular_empire = yes
+            is_nomadic = yes
+        }
+    }
+    job_$JOB$_add = $AMOUNT$
+}
+
+
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_gestalt = yes
+            is_nomadic = yes
+            is_hive_empire = no
+        }
+    }
+    job_$GESTALT_JOB$_add = $AMOUNT$
+}
+
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_gestalt = yes
+            is_nomadic = yes
+            is_hive_empire = yes
+        }
+    }
+    job_$GESTALT_HIVE_JOB$_add = $AMOUNT$
+}

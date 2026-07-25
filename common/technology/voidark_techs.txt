@@ -23,7 +23,7 @@ tech_voidark_delta = {
         weight = @best_megastructure_ai_tech_factor
     }
     prereqfor_desc = {
-        custom = {
+        ship = {
             title = TECH_UNLOCK_VOIDARK_DELTA_ARK
             desc = TECH_UNLOCK_VOIDARK_DELTA_ARK_DESC
         }
@@ -57,7 +57,7 @@ tech_voidark_alpha = {
         weight = @best_megastructure_ai_tech_factor
     }
     prereqfor_desc = {
-        custom = {
+        ship = {
             title = TECH_UNLOCK_VOIDARK_ALPHA_ARK
             desc = TECH_UNLOCK_VOIDARK_ALPHA_ARK_DESC
         }
@@ -95,7 +95,7 @@ tech_voidark_phanon = {
         weight = @best_megastructure_ai_tech_factor
     }
     prereqfor_desc = {
-        custom = {
+        ship = {
             title = TECH_UNLOCK_VOIDARK_PHANON_ARK
             desc = TECH_UNLOCK_VOIDARK_PHANON_ARK_DESC
         }
@@ -132,9 +132,9 @@ tech_voidark_stellarite = {
         weight = @best_megastructure_ai_tech_factor
     }
     prereqfor_desc = {
-        custom = {
-            title = TECH_UNLOCK_VOIDARK_PHANON_ARK
-            desc = TECH_UNLOCK_VOIDARK_PHANON_ARK_DESC
+        ship = {
+            title = TECH_UNLOCK_VOIDARK_STELLARITE_ARK
+            desc = TECH_UNLOCK_VOIDARK_STELLARITE_ARK_DESC
         }
     }
 }

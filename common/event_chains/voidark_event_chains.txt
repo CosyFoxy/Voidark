@@ -1,0 +1,5 @@
+voidark_docs_chain = {
+    icon = "gfx/interface/icons/situation_log/situation_log_arkship.dds"
+    picture = GFX_evt_cosmogenesis_crisis
+    situation_log_category = xhk_worldark_situation_category
+}

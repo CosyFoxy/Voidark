@@ -1,0 +1,64 @@
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            has_technology = tech_volatile_motes
+            is_gestalt = no
+        }
+    }
+    job_chemist_add = -60
+}
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            has_technology = tech_volatile_motes
+            is_gestalt = yes
+        }
+    }
+    job_chemist_drone_add = -60
+}
+
+# GAS
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            has_technology = tech_exotic_gases
+            is_gestalt = no
+        }
+    }
+    job_gas_refiner_add = -60
+}
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            has_technology = tech_exotic_gases
+            is_gestalt = yes
+        }
+    }
+    job_gas_refiner_drone_add = -60
+}
+
+# CRYSTAL
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            has_technology = tech_rare_crystals
+            is_gestalt = no
+        }
+    }
+    job_translucer_add = -60
+}
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            has_technology = tech_rare_crystals
+            is_gestalt = yes
+        }
+    }
+    job_translucer_drone_add = -60
+}

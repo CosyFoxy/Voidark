@@ -1,0 +1,37 @@
+@delta_tier = 2
+@alpha_tier = 4
+@phanon_tier = 8
+@stellarite_tier = 16
+
+triggered_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_twisted_experimenters_empire = yes
+            is_gestalt = no
+        }
+        OR = {
+            has_building = building_experimentation_chambers_1
+            has_building = building_experimentation_chambers_2
+            has_building = building_experimentation_chambers_3
+        }
+    }
+    job_test_subject_add = @[50*$ACOT_TIER$_tier]
+    job_experiment_engineer_add = @[50*$ACOT_TIER$_tier]
+}
+triggered_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_twisted_experimenters_empire = yes
+            is_gestalt = yes
+        }
+        OR = {
+            has_building = building_experimentation_chambers_1
+            has_building = building_experimentation_chambers_2
+            has_building = building_experimentation_chambers_3
+        }
+    }
+    job_test_subject_drone_add = @[50*$ACOT_TIER$_tier]
+    job_experiment_engineer_drone_add = @[50*$ACOT_TIER$_tier]
+}

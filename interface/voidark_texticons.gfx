@@ -1,0 +1,22 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_text_icon_delta_core
+        textureFile = "gfx/interface/icons/text_icons/text_icon_delta_core.dds"
+    }
+    spriteType = {
+        name = GFX_text_icon_alpha_core
+        textureFile = "gfx/interface/icons/text_icons/text_icon_alpha_core.dds"
+    }
+    spriteType = {
+        name = GFX_text_icon_phi_core
+        textureFile = "gfx/interface/icons/text_icons/text_icon_phi_core.dds"
+    }
+    spriteType = {
+        name = GFX_text_icon_phanon_core
+        textureFile = "gfx/interface/icons/text_icons/text_icon_phanon_core.dds"
+    }
+    spriteType = {
+        name = GFX_text_icon_stellarite_core
+        textureFile = "gfx/interface/icons/text_icons/text_icon_stellarite_core.dds"
+    }
+}

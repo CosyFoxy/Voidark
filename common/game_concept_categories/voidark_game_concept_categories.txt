@@ -1,0 +1,4 @@
+db_voidark_tiers = {
+    name = "databank_voidark_tiers"
+    icon = "GFX_text_databank"
+}

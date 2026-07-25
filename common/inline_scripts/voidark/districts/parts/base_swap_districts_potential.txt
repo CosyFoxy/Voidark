@@ -16,10 +16,3 @@ allow = {
     uses_district_set = xhk_pc_worldark
 }
 
-triggered_name = {
-    text = district_voidark_$TYPE$_$TIER$_name
-}
-
-triggered_flavor_desc = {
-    text = district_voidark_$TYPE$_$TIER$_desc
-}

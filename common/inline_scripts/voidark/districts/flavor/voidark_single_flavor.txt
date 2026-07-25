@@ -1,0 +1,3 @@
+triggered_name = {
+    text = flavor_district_voidark_$TIER$_$TYPE$
+}

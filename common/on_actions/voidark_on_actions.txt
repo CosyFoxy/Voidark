@@ -1,11 +1,6 @@
-on_ship_upgraded = {
-    events = {
-        voidark.1
-    }
-}
-
-on_game_start = {
+on_game_start_country = {
     events = {
         voidark.0
     }
 }
+

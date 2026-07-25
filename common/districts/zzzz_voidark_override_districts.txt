@@ -1,0 +1,58 @@
+###############################################################################################################
+# UTIL
+###############################################################################################################
+# STORAGE
+district_xhk_worldark_storage = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_xhk_worldark_storage
+    gridbox = district_generator
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_xhk_worldark_storage_spec
+
+    zone_slots = {
+        slot_xhk_worldark_storage
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        POTENTIAL = "
+            exists = owner
+            owner = {
+                has_technology = tech_construction_templates
+            }
+        "
+    }
+
+    prerequisites = { tech_construction_templates }
+    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
+
+    resources = {
+        category = planet_districts
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    triggered_desc = {
+        trigger = {
+            has_xhk_storage_zone = yes
+        }
+        text = district_xhk_worldark_storage_effect
+    }
+
+    triggered_desc = {
+        trigger = {
+            has_xhk_storage_zone = no
+            has_delta_storage_zone = yes
+        }
+        text = district_voidark_delta_storage_effect
+    }
+
+    triggered_name = {
+        text = flavor_xhk_worldark_storage_name
+    }
+}
+

@@ -18,7 +18,7 @@ voidark_delta_coordinator = {
                 }
             }
             name = voidark_delta_synapse_drone
-            desc = voidark_delta_synapse_drone
+            desc = job_voidark_delta_synapse_drone_desc
             icon = voidark_delta_synapse_drone
             building_icon = building_acot_dm_ancient_hive_cluster
             condition_string = DRONE_JOB_TRIGGER
@@ -31,7 +31,7 @@ voidark_delta_coordinator = {
                 owner? = { is_memorialist_empire = yes }
             }
             name = voidark_delta_chronicle_drone
-            desc = voidark_delta_chronicle_drone
+            desc = job_voidark_delta_chronicle_drone_desc
             icon = voidark_delta_chronicle_drone
             building_icon = building_dm_gospel_corp
             condition_string = DRONE_JOB_TRIGGER
@@ -98,7 +98,7 @@ voidark_alpha_coordinator = {
                 }
             }
             name = voidark_alpha_synapse_drone
-            desc = voidark_alpha_synapse_drone
+            desc = job_voidark_alpha_synapse_drone_desc
             icon = voidark_alpha_synapse_drone
             building_icon = building_acot_ae_ancient_hive_cluster
             condition_string = DRONE_JOB_TRIGGER
@@ -111,7 +111,7 @@ voidark_alpha_coordinator = {
                 owner? = { is_memorialist_empire = yes }
             }
             name = voidark_alpha_chronicle_drone
-            desc = voidark_alpha_chronicle_drone
+            desc = job_voidark_alpha_chronicle_drone_desc
             icon = voidark_alpha_chronicle_drone
             building_icon = building_ae_gospel_corp
             condition_string = DRONE_JOB_TRIGGER
@@ -178,7 +178,7 @@ voidark_phanon_coordinator = {
                 }
             }
             name = voidark_phanon_synapse_drone
-            desc = voidark_phanon_synapse_drone
+            desc = job_voidark_phanon_synapse_drone_desc
             icon = voidark_phanon_synapse_drone
             building_icon = building_phanon_hive_cluster
             condition_string = DRONE_JOB_TRIGGER
@@ -191,7 +191,7 @@ voidark_phanon_coordinator = {
                 owner? = { is_memorialist_empire = yes }
             }
             name = voidark_phanon_chronicle_drone
-            desc = voidark_phanon_chronicle_drone
+            desc = job_voidark_phanon_chronicle_drone_desc
             icon = voidark_phanon_chronicle_drone
             building_icon = building_phanon_temple
             condition_string = DRONE_JOB_TRIGGER
@@ -257,7 +257,7 @@ voidark_stellarite_coordinator = {
                 }
             }
             name = voidark_stellarite_synapse_drone
-            desc = voidark_stellarite_synapse_drone
+            desc = job_voidark_stellarite_synapse_drone_desc
             icon = voidark_stellarite_synapse_drone
             building_icon = building_stellarite_hive_cluster
             condition_string = DRONE_JOB_TRIGGER
@@ -270,7 +270,7 @@ voidark_stellarite_coordinator = {
                 owner? = { is_memorialist_empire = yes }
             }
             name = voidark_stellarite_chronicle_drone
-            desc = voidark_stellarite_chronicle_drone
+            desc = job_voidark_stellarite_chronicle_drone_desc
             icon = voidark_stellarite_chronicle_drone
             building_icon = building_stellarite_temple
             condition_string = DRONE_JOB_TRIGGER

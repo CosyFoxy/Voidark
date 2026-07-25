@@ -1,9 +1,13 @@
 base_buildtime = @zone_buildtime
 potential = { # planet scope
     is_planet_class = xhk_pc_worldark
-    has_carrier_flag = $CARRIER_FLAG$
     owner? = {
         has_technology = $TECHNOLOGY$
+    }
+    owner.capital_scope.carrier.ship = {
+        inline_script = {
+            script = voidark/starbase_size_reference/voidark_tier_$TIER$
+        }
     }
     $POTENTIAL$
 }

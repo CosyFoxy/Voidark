@@ -1,3 +1,8 @@
+@delta_alloy_cost = 75000
+@alpha_alloy_cost = 120000
+@phanon_alloy_cost = 200000
+@stellarite_alloy_cost = 300000
+
 is_starting_arkship = no
 hero_ship = {						# Use the Hero Ship UI, not the Juggernaut's.
     hero_ship_fleet_background = "GFX_arkship_fleetview_civilian"
@@ -56,7 +61,7 @@ scripted_action = {
 resources = {
     category = starbase_arkships
     cost = {
-        alloys = @[2500 * $TIER$]
+        alloys = @[$ACOT_TIER$_alloy_cost]
         influence = @[50 * $TIER$]
         $COST$
     }

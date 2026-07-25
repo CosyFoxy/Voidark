@@ -25,5 +25,5 @@ ship_modifier = {
     ship_starbase_stockpile_collection_rate_add = @voidark_shipstat_collection_$ACOT_TIER$
 }
 # 80 to 120
-size_multiplier = @[(($TIER$ - 1) * 4) + 80]
+size_multiplier = @[((12 - 1) * 4) + 80]
 fleet_slot_size = 8

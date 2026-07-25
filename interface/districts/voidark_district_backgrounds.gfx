@@ -1,0 +1,178 @@
+spriteTypes = {
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_delta_decompressor_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_delta_decompressor_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_alpha_decompressor_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_alpha_decompressor_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_decompressor_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_phanon_decompressor_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_decompressor_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_decompressor_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_delta_penrose_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_delta_penrose_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_alpha_penrose_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_alpha_penrose_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_penrose_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_phanon_penrose_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_penrose_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_penrose_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_delta_minerals_bg
+        textureFile = gfx/interface/planetview/district_backgrounds/district_voidark_delta_minerals_bg.dds
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_alpha_minerals_bg
+        textureFile = gfx/interface/planetview/district_backgrounds/district_voidark_alpha_minerals_bg.dds
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_minerals_bg
+        textureFile = gfx/interface/planetview/district_backgrounds/district_voidark_phanon_minerals_bg.dds
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_minerals_bg
+        textureFile = gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_minerals_bg.dds
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_delta_refinery_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_delta_refinery_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_alpha_refinery_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_alpha_refinery_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_refinery_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_phanon_refinery_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_refinery_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_refinery_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_delta_ordinance_naval_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_delta_ordinance_naval_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_alpha_ordinance_naval_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_alpha_ordinance_naval_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_ordinance_naval_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_phanon_ordinance_naval_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_ordinance_strike_craft_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_ordinance_strike_craft_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_delta_ordinance_strike_craft_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_delta_ordinance_strike_craft_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_alpha_ordinance_strike_craft_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_alpha_ordinance_strike_craft_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_ordinance_strike_craft_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_phanon_ordinance_strike_craft_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_ordinance_strike_craft_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_ordinance_strike_craft_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_delta_ordinance_kinetic_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_delta_ordinance_kinetic_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_alpha_ordinance_kinetic_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_alpha_ordinance_kinetic_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_ordinance_kinetic_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_phanon_ordinance_kinetic_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_ordinance_kinetic_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_ordinance_kinetic_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_delta_unity_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_delta_unity_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_alpha_unity_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_alpha_unity_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_unity_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_phanon_unity_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_unity_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_unity_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_delta_unity_spiritualist_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_delta_unity_spiritualist_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_alpha_unity_spiritualist_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_alpha_unity_spiritualist_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_unity_spiritualist_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_phanon_unity_spiritualist_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_unity_spiritualist_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_unity_spiritualist_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_delta_unity_hive_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_delta_unity_hive_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_alpha_unity_hive_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_alpha_unity_hive_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_unity_hive_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_phanon_unity_hive_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_unity_hive_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_unity_hive_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_delta_unity_machine_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_delta_unity_machine_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_alpha_unity_machine_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_alpha_unity_machine_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_unity_machine_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_phanon_unity_machine_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_unity_machine_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_unity_machine_bg.dds"
+    }
+}

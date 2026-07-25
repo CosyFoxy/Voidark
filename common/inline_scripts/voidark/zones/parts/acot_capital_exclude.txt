@@ -42,4 +42,19 @@ exclude = {
     building_stellarite_palace
     building_stellarite_control_center
     building_stellarite_hive_cluster
+
+    building_farming_districts_1
+    building_farming_districts_2
+    building_farming_districts_3
+    building_farming_districts_4
+
+    building_mining_districts_1
+    building_mining_districts_2
+    building_mining_districts_3
+    building_mining_districts_4
+
+    building_generator_districts_1
+    building_generator_districts_2
+    building_generator_districts_3
+    building_generator_districts_4
 }
