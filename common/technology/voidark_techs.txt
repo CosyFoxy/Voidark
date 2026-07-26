@@ -64,7 +64,41 @@ tech_voidark_alpha = {
     }
 }
 
-#todo phi?
+tech_voidark_phi = {
+    area = engineering
+    category = { voidcraft }
+    tier = 8
+    cost = @acot_tier8cost3
+    is_rare = yes
+    weight = @acot_techweight_advanced
+    icon = tech_voidark_phi
+
+    potential = {
+        is_nomadic = yes
+        has_origin = origin_xhk_worldark
+        NOR = {
+            has_global_flag = acot_delta_forbidden
+            has_global_flag = acot_alpha_forbidden
+            has_global_flag = aot_phanon_content_OFF
+            has_global_flag = acot_phanon_forbidden
+        }
+        has_technology = tech_dark_matter_power_core_pe
+    }
+
+    prerequisites = {
+        "tech_voidark_alpha"
+        "tech_dark_matter_power_core_pe"
+    }
+    ai_weight = {
+        weight = @best_megastructure_ai_tech_factor
+    }
+    prereqfor_desc = {
+        ship = {
+            title = TECH_UNLOCK_VOIDARK_PHI_ARK
+            desc = TECH_UNLOCK_VOIDARK_PHI_ARK_DESC
+        }
+    }
+}
 
 tech_voidark_phanon = {
     area = engineering
@@ -88,7 +122,7 @@ tech_voidark_phanon = {
     }
 
     prerequisites = {
-        "tech_voidark_alpha"
+        "tech_voidark_phi"
         "tech_dark_matter_power_core_re"
     }
     ai_weight = {

@@ -142,11 +142,84 @@ xhk_worldark_tier_14 = {
     }
 }
 
-#Phanon
+#Phi
 xhk_worldark_tier_15 = {
     inline_script = {
         script = voidark/ship_sizes/voidark_ship_definition
         TIER = 15
+        ACOT_TIER = phi
+        COST = "sr_dark_matter = 10000
+			    acot_sr_dark_energy = 7500
+			    "
+        #todo check decent upkeep costs
+        UPKEEP = "sr_dark_matter = 300
+			    acot_sr_dark_energy = 200"
+    }
+
+    # Arkship specific stuff
+
+    graphical_culture = { "military_arkship" }
+    arkship_picture = "arkship_military"
+
+    # 2D Art
+    icon = ship_size_military_arkship_tier_3
+    icon_frame = 16
+    ship_class_icon_frame = 64
+    map_icon_override = {
+        normal = GFX_ship_icons_type_arkship
+        mixed = GFX_ship_icons_type_arkship_mixed
+        cloaked = GFX_ship_icons_type_arkship_cloaked
+        encamped = GFX_ship_icons_type_arkship_encamped
+    }
+
+    # 3D Art
+    entity = xhk_worldark_entity
+    section_slots = {
+        "mid"	=	{ locator = "part1" }
+        "1"		=	{ locator = "module_01" }
+        "2"		=	{ locator = "module_02" }
+        "3"		=	{ locator = "module_03" }
+        "4"		=	{ locator = "module_04" }
+        "5"		=	{ locator = "module_05" }
+        "6"		=	{ locator = "module_06" }
+        "7"	=	{ locator = "module_07" }
+        "8"		=	{ locator = "module_08" }
+        "9"	=	{ locator = "module_09" }
+        "10"		=	{ locator = "module_10" }
+        "11"	    =	{ locator = "module_11" }
+        "12"	=	{ locator = "module_12" }
+        "13"	    =	{ locator = "module_13" }
+        "14"		=	{ locator = "module_14" }
+        "15"	    =	{ locator = "module_15" }
+        "16"	    =	{ locator = "module_16" }
+        "17"	    =	{ locator = "module_17" }
+        "18"	    =	{ locator = "module_18" }
+        "19"	    =	{ locator = "module_19" }
+        "20"		=	{ locator = "module_20" }
+        "21"	    =	{ locator = "module_21" }
+        "22"		=	{ locator = "module_22" }
+        "23"	    =	{ locator = "module_23" }
+        "24"	    =	{ locator = "module_24" }
+        "spinal_mount_1"	=	{ locator = "spinal_mount_1" }
+        "spinal_mount_2"	=	{ locator = "spinal_mount_2" }
+        "spinal_mount_3"	=	{ locator = "spinal_mount_3" }
+        "spinal_mount_4"	=	{ locator = "spinal_mount_4" }
+        "spinal_mount_5"	=	{ locator = "spinal_mount_5" }
+        "spinal_mount_6"	=	{ locator = "spinal_mount_6" }
+        "spinal_mount_7"	=	{ locator = "giga_spinal_01" }
+    }
+    # Ship setup
+    inline_script = {
+        script = voidark/ship_sizes/voidark_ship_stats
+        ACOT_TIER = phi
+    }
+}
+
+#Phanon
+xhk_worldark_tier_16 = {
+    inline_script = {
+        script = voidark/ship_sizes/voidark_ship_definition
+        TIER = 16
         ACOT_TIER = phanon
         #todo check if cost is too cheap
         COST = "aot_sr_runic_power = 1000"
@@ -214,10 +287,10 @@ xhk_worldark_tier_15 = {
 }
 
 #Stellarite
-xhk_worldark_tier_16 = {
+xhk_worldark_tier_17 = {
     inline_script = {
         script = voidark/ship_sizes/voidark_ship_definition
-        TIER = 16
+        TIER = 17
         ACOT_TIER = stellarite
         #todo check if cost is too cheap
         COST = "acot_sr_stellarite = 1000"
