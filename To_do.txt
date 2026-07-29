@@ -1,17 +1,8 @@
 To do:
-    fix module possibility (waiting on xahk)
+    Negative mass & Sentient Metal Zones and Districts
 
 
 
 to balance:
     zones balance
     ship stats
-
-To add:
-    phanon level:
-        districts
-        zones
-
-    stellarite level:
-        districts
-        zones

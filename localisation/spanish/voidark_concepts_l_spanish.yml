@@ -1,0 +1,67 @@
+﻿l_spanish:
+
+
+  databank_voidark_tiers: "ACOT Tiers"
+  databank_voidark_techs: "Voidark Techs"
+  concept_discord_thread: "Discord Thread"
+  concept_discord_thread_desc: "WIP Link will be added"
+
+  concept_dark_matter: "$sr_dark_matter$"
+  concept_dark_matter_desc: "$sr_dark_matter_desc$"
+  concept_dark_energy: "§E$acot_sr_dark_energy$§!"
+  concept_dark_energy_desc: "$acot_sr_dark_energy_desc$"
+  concept_runic_energy: "§R$aot_sr_runic_power$§!"
+  concept_runic_energy_desc: "$aot_sr_runic_power_desc$"
+  concept_stellarite: "§H$acot_sr_stellarite$§!"
+  concept_stellarite_desc: "$acot_sr_stellarite_desc$"
+
+
+  concept_tech_voidark_delta: "$tech_voidark_delta$"
+  concept_tech_voidark_alpha: "$tech_voidark_alpha$"
+  concept_tech_voidark_phanon: "$tech_voidark_phanon$"
+  concept_tech_voidark_stellarite: "$tech_voidark_stellarite$"
+  concept_tech_voidark_delta_desc: "$tech_voidark_delta_desc$"
+  concept_tech_voidark_alpha_desc: "$tech_voidark_alpha_desc$"
+  concept_tech_voidark_phanon_desc: "$tech_voidark_phanon_desc$"
+  concept_tech_voidark_stellarite_desc: "$tech_voidark_stellarite_desc$"
+
+  concept_delta_tier: "§EDelta§!"
+  concept_delta_tier_desc: "£icon_delta_core£ Delta technologies will require very minimal £acot_sr_dark_energy£ ['concept_dark_energy'] usage, allowing most empires to reliably utilize most of the techs without much difficulty. However, they are relatively expensive in £sr_dark_matter£ ['concept_dark_matter']. "
+  concept_alpha_tier: "§BAlpha§!"
+  concept_alpha_tier_desc: "£icon_alpha_core£ Alpha technologies will require much higher £acot_sr_dark_energy£ ['concept_dark_energy'], but less £sr_dark_matter£ ['concept_dark_matter'], and are 1.3 times more powerful than £icon_delta_core£ ['concept_delta_tier'] technologies. "
+  concept_phi_tier: "§CPhi§!"
+  concept_phi_tier_desc: "£icon_phi_core£ §H$concept_phi_tier$§! technologies can be thought of as a direct upgrade of £icon_alpha_core£ ['concept_alpha_tier'] technologies, being 1.3 times more powerful. They are obtained by reverse-engineering the wreckages of Phanon ships, or as a preliminary measure before invading the vault. Progressing through the Rival Path will also grant you this technology."
+  concept_phanon_tier: "§RRunic§!"
+  concept_phanon_tier_desc: "The more powerful tier of the £icon_phanon_core£ §H$concept_phanon_tier$§!, it can be obtained from discovering the secrets behind the Phanon Corps in their vault. They are 1.4 times more powerful than £icon_phi_core£ ['concept_phi_tier'], and can be considered an alternative to £icon_stellarite_core£ ['concept_stellarite_tier'] that eats more alloys than £strategic_resource£ ['concept_strategic_resources']."
+  concept_stellarite_tier: "§HStellarite§!"
+  concept_stellarite_tier_desc: "Currently the only tier of the Stellar Technologies, £icon_stellarite_core£ §HSigma§! utilizes the power of the stars to smite and purge the oppositions, and is 1.5 times more powerful than £icon_phi_core£ ['concept_phi_tier']."
+
+#DOCUMENTATION---------------------------------------------------------------
+
+  voidark_docs_chain_title: "Voidark Documentation"
+  voidark_docs_chain_desc: "$xhk_worldark_docs_chain_desc$"
+
+  voidark_doc_basics_title: "1) Voidark"
+  voidark_doc_basics_desc: "$voidark_doc_basics_1$$voidark_doc_basics_2$$voidark_doc_basics_3$$voidark_doc_basics_4$$voidark_doc_basics_5$$voidark_doc_basics_6$"
+  voidark_doc_basics_1: "The §Y$xhk_pc_worldark$§! can be further upgraded to the tiers of ACOT. $NEW_LINE$$NEW_LINE$§YSwap £zone£ ['concept_district_specializations'] to access these features!§!$NEW_LINE$$NEW_LINE$Upgrades require researching a specific technology, and then function like any previous $xhk_pc_worldark$ upgrades:$NEW_LINE$"
+  voidark_doc_basics_2: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_delta_core£ ['concept_delta_tier'] §ETier:§! Unlocks delta tier zones for each district, as well as delta tier components and systems. $TABBED_NEW_LINE$§YRequires: §!£engineering£ ['technology:tech_voidark_delta']"
+  voidark_doc_basics_3: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_alpha_core£ ['concept_alpha_tier'] §BTier:§! Unlocks alpha tier zones for each district, as well as alpha tier components and systems. $TABBED_NEW_LINE$§YRequires: §!£engineering£ ['technology:tech_voidark_alpha']"
+  voidark_doc_basics_4: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_phi_core£ ['concept_phi_tier'] §CTier:§! Unlocks phi tier worldark upgrade."
+  voidark_doc_basics_5: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_phanon_core£ ['concept_phanon_tier'] §RTier:§! Unlocks runic tier zones for each district, as well as runic tier components and systems. $TABBED_NEW_LINE$§YRequires: §!£engineering£ ['technology:tech_voidark_phanon']"
+  voidark_doc_basics_6: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_stellarite_core£ ['concept_stellarite_tier'] §HTier:§! Unlocks sigma tier zones for each district, as well as sigma tier components and systems. $TABBED_NEW_LINE$§YRequires: §!£engineering£ ['technology:tech_voidark_stellarite']"
+
+  voidark_doc_beta_test: "2) Voidark Beta Test"
+  voidark_doc_beta_test_desc: "$voidark_doc_beta_test_1$$voidark_doc_beta_test_2$$voidark_doc_beta_test_9$$voidark_doc_beta_test_11$$voidark_doc_beta_test_12$$voidark_doc_beta_test_13$$voidark_doc_beta_test_3$$voidark_doc_beta_test_4$$voidark_doc_beta_test_5$$voidark_doc_beta_test_6$$voidark_doc_beta_test_7$$voidark_doc_beta_test_8$$voidark_doc_beta_test_10$"
+  voidark_doc_beta_test_1: "Current scope and available features of the mod:"
+  voidark_doc_beta_test_2: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_delta_core£ §H$concept_delta_tier$§! §ETier:§! Districts & Zones"
+  voidark_doc_beta_test_9: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_alpha_core£ §H$concept_alpha_tier$§! §BTier:§! Districts & Zones"
+  voidark_doc_beta_test_11: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_phi_core£ §H$concept_phi_tier$§! §CTier:§! Worldark Upgrade"
+  voidark_doc_beta_test_12: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_phanon_core£ §H$concept_phanon_tier$§! §RTier:§! Districts & Zones"
+  voidark_doc_beta_test_13: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_stellarite_core£ §H$concept_stellarite_tier$§! §HTier:§! Districts & Zones"
+  voidark_doc_beta_test_3: "$NEW_LINE$$NEW_LINE$$NEW_LINE$Current §Runavailable§! features of the mod:$NEW_LINE$"
+  voidark_doc_beta_test_4: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_delta_core£ §H$concept_delta_tier$§! §ETier:§! Negative Mass & Sentient Metal District"
+  voidark_doc_beta_test_5: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_alpha_core£ §H$concept_alpha_tier$§! §BTier§!: Negative Mass & Sentient Metal District"
+  voidark_doc_beta_test_6: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_phanon_core£ §H$concept_phanon_tier$§! §RTier§!: Negative Mass & Sentient Metal District"
+  voidark_doc_beta_test_7: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_stellarite_core£ §H$concept_stellarite_tier$§! §HTier§!: Negative Mass & Sentient Metal District"
+  voidark_doc_beta_test_8: "$NEW_LINE$$NEW_LINE$§YCurrent Issues:§!$TABBED_NEW_LINE$- None that I am aware of"
+  voidark_doc_beta_test_10: "$NEW_LINE$$NEW_LINE$§YNOTE:§! Until ACOT adds specific modules & components, you will not get any specific ACOT style modules.$NEW_LINE$$NEW_LINE$§YNOTE:§! Until ACOT adds a way for nomads to reach §H$concept_phanon_tier$§! §RTier§!, §H$concept_phanon_tier$§! and §H$concept_stellarite_tier$§! Districts and Zones can only be accessed by getting £research£ ['technology:tech_dark_matter_power_core_re'] via console."

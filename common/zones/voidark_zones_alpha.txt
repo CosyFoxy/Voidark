@@ -967,6 +967,9 @@ zone_voidark_alpha_amenities = {
         #ACOT
         building_acot_dm_mansion
         building_acot_ae_mansion
+        building_acot_dm_temple
+        building_acot_ae_temple
+        building_ae_sky_dome
 
         #PD
         building_pd_eludium_floating_resort
@@ -1003,6 +1006,10 @@ zone_voidark_alpha_amenities_dystopian = {
         POTENTIAL = "owner? = { has_valid_civic = civic_dystopian_society } "
         TECHNOLOGY = "tech_voidark_alpha"
     }
+    included_building_sets = {
+        resort
+        medical
+    }
     include = {
         #Vanilla
         building_luxury_residence
@@ -1034,7 +1041,9 @@ zone_voidark_alpha_amenities_dystopian = {
         #ACOT
         building_acot_dm_mansion
         building_acot_ae_mansion
-
+        building_acot_dm_temple
+        building_acot_ae_temple
+        building_ae_sky_dome
         #PD
         building_pd_eludium_floating_resort
         building_pd_acean_medical_center
@@ -1165,19 +1174,9 @@ zone_voidark_alpha_darkmatter= {
         engineering
         unity
         bio_trophy
+        industrial
     }
 
-    include = {
-        building_micro_black_hole
-        building_delta_nexus
-        building_alpha_nexus
-        building_acot_dm_dark_energy_pylon
-        building_acot_ae_dark_energy_pylon
-        building_acot_dm_dark_matter_synthersizer
-        building_acot_dm_dark_matter_generator
-        building_acot_ae_dark_matter_synthersizer
-        building_acot_ae_dark_matter_generator
-    }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
@@ -1248,7 +1247,7 @@ zone_voidark_alpha_ordinance_naval = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        planet_soldiers_alloys_upkeep_add = 0.5
+        planet_soldiers_alloys_upkeep_add = 1
         naval_cap_from_shipwright = 2
         ship_build_speed_from_shipwright = 0.06
     }
@@ -1473,8 +1472,8 @@ zone_voidark_alpha_storage = {
         }
         country_resource_max_add = 10000
         situation_nomad_economy_max_progress_add = 1000
-        country_resource_max_sr_dark_matter_add = 1000
-        country_resource_max_acot_sr_dark_energy_add = 1000
+        country_resource_max_sr_dark_matter_add = 1500
+        country_resource_max_acot_sr_dark_energy_add = 1500
     }
     triggered_district_country_modifier = {
         potential = {
@@ -1515,6 +1514,13 @@ zone_voidark_alpha_utilbay = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = acot_workerman
         GESTALT_JOB = acot_workerdrone
+        AMOUNT = 50
+    }
+
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = acot_specialman
+        GESTALT_JOB = acot_specialdrone
         AMOUNT = 50
     }
 

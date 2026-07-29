@@ -965,6 +965,8 @@ zone_voidark_delta_amenities = {
         xeno_geology_holomuseum
         #ACOT
         building_acot_dm_mansion
+        building_acot_dm_temple
+        #AOT Automated
 
         #PD
         building_pd_eludium_floating_resort
@@ -1001,6 +1003,10 @@ zone_voidark_delta_amenities_dystopian = {
         POTENTIAL = "owner? = { has_valid_civic = civic_dystopian_society } "
         TECHNOLOGY = "tech_voidark_delta"
     }
+    included_building_sets = {
+        resort
+        medical
+    }
     include = {
         #Vanilla
         building_luxury_residence
@@ -1031,7 +1037,7 @@ zone_voidark_delta_amenities_dystopian = {
 
         #ACOT
         building_acot_dm_mansion
-
+        building_acot_dm_temple
         #PD
         building_pd_eludium_floating_resort
         building_pd_acean_medical_center
@@ -1161,15 +1167,9 @@ zone_voidark_delta_darkmatter= {
         engineering
         unity
         bio_trophy
+        industrial
     }
 
-    include = {
-        building_micro_black_hole
-        building_delta_nexus
-        building_acot_dm_dark_energy_pylon
-        building_acot_dm_dark_matter_synthersizer
-        building_acot_dm_dark_matter_generator
-    }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
@@ -1505,6 +1505,13 @@ zone_voidark_delta_utilbay = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = acot_workerman
         GESTALT_JOB = acot_workerdrone
+        AMOUNT = 25
+    }
+
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = acot_specialman
+        GESTALT_JOB = acot_specialdrone
         AMOUNT = 25
     }
 

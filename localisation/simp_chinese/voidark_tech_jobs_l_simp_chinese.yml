@@ -1,0 +1,88 @@
+﻿l_simp_chinese:
+ #JOBS----------------------------------------------------------------
+ enigmatic_job: "Enigmatic"
+ ascended_job: "Ascended"
+ phanon_job: "Runic"
+ stellarite_job: "Shining"
+
+
+ job_voidark_delta_chronicle_drone: "$enigmatic_job$ $chronicle_drone$"
+ job_voidark_delta_chronicle_drone_plural: "$enigmatic_job$ $job_chronicle_drone_plural$"
+ job_voidark_delta_chronicle_drone_desc: "Keeping exceptional records, these $job_voidark_delta_chronicle_drone_plural$ ensure that our archives are meticulous."
+
+ job_voidark_delta_coordinator: "$enigmatic_job$ $job_coordinator$"
+ job_voidark_delta_coordinator_plural: "$enigmatic_job$ $job_coordinator_plural$"
+ job_voidark_delta_coordinator_desc: "The datastream of the units of this consciousness are massive, and only with the work of these $job_voidark_delta_coordinator_plural$ can its functionality be ensured."
+
+ job_voidark_delta_synapse_drone: "$enigmatic_job$ $job_synapse_drone$"
+ job_voidark_delta_synapse_drone_plural: "$enigmatic_job$ $job_synapse_drone_plural$"
+ job_voidark_delta_synapse_drone_desc: "Each unit in this hive is an extension of the [owner.getrulertitle], and the $job_voidark_delta_synapse_drone_plural$ ensure the ongoing collective of the hive."
+
+ job_voidark_alpha_chronicle_drone: "$ascended_job$ $chronicle_drone$"
+ job_voidark_alpha_chronicle_drone_plural: "$ascended_job$ $job_chronicle_drone_plural$"
+ job_voidark_alpha_chronicle_drone_desc: "Keeping exceptional records, these $job_voidark_alpha_chronicle_drone_plural$ ensure that our archives are meticulous."
+
+ job_voidark_alpha_coordinator: "$ascended_job$ $job_coordinator$"
+ job_voidark_alpha_coordinator_plural: "$ascended_job$ $job_coordinator_plural$"
+ job_voidark_alpha_coordinator_desc: "The datastream of the units of this consciousness are massive, and only with the work of these $job_voidark_alpha_coordinator_plural$ can its functionality be ensured."
+
+ job_voidark_alpha_synapse_drone: "$ascended_job$ $job_synapse_drone$"
+ job_voidark_alpha_synapse_drone_plural: "$ascended_job$ $job_synapse_drone_plural$"
+ job_voidark_alpha_synapse_drone_desc: "Each unit in this hive is an extension of the [owner.getrulertitle], and the $job_voidark_alpha_synapse_drone_plural$ ensure the ongoing collective of the hive."
+
+ job_voidark_phanon_chronicle_drone: "$phanon_job$ $chronicle_drone$"
+ job_voidark_phanon_chronicle_drone_plural: "$phanon_job$ $job_chronicle_drone_plural$"
+ job_voidark_phanon_chronicle_drone_desc: "Keeping exceptional records, these $job_voidark_phanon_chronicle_drone_plural$ ensure that our archives are meticulous."
+
+ job_voidark_phanon_coordinator: "$phanon_job$ $job_coordinator$"
+ job_voidark_phanon_coordinator_plural: "$phanon_job$ $job_coordinator_plural$"
+ job_voidark_phanon_coordinator_desc: "The datastream of the units of this consciousness are massive, and only with the work of these $job_voidark_phanon_coordinator_plural$ can its functionality be ensured."
+
+ job_voidark_phanon_synapse_drone: "$phanon_job$ $job_synapse_drone$"
+ job_voidark_phanon_synapse_drone_plural: "$phanon_job$ $job_synapse_drone_plural$"
+ job_voidark_phanon_synapse_drone_desc: "Each unit in this hive is an extension of the [owner.getrulertitle], and the $job_voidark_phanon_synapse_drone_plural$ ensure the ongoing collective of the hive."
+
+ job_voidark_stellarite_chronicle_drone: "$stellarite_job$ $chronicle_drone$"
+ job_voidark_stellarite_chronicle_drone_plural: "$stellarite_job$ $job_chronicle_drone_plural$"
+ job_voidark_stellarite_chronicle_drone_desc: "Keeping exceptional records, these $job_voidark_stellarite_chronicle_drone_plural$ ensure that our archives are meticulous."
+
+ job_voidark_stellarite_coordinator: "$stellarite_job$ $job_coordinator$"
+ job_voidark_stellarite_coordinator_plural: "$stellarite_job$ $job_coordinator_plural$"
+ job_voidark_stellarite_coordinator_desc: "The datastream of the units of this consciousness are massive, and only with the work of these $job_voidark_stelllarite_coordinator_plural$ can its functionality be ensured."
+
+ job_voidark_stellarite_synapse_drone: "$stellarite_job$ $job_synapse_drone$"
+ job_voidark_stellarite_synapse_drone_plural: "$stellarite_job$ $job_synapse_drone_plural$"
+ job_voidark_stellarite_synapse_drone_desc: "Each unit in this hive is an extension of the [owner.getrulertitle], and the $job_voidark_stellarite_synapse_drone_plural$ ensure the ongoing collective of the hive."
+
+ #TECH --------------------------------------------------
+
+ tech_voidark_delta: "World Ark Delta Tier Upgrade"
+ tech_voidark_delta_desc: "$TECH_UNLOCK_VOIDARK_DELTA_ARK$"
+
+ tech_voidark_alpha: "World Ark Alpha Tier Upgrade"
+ tech_voidark_alpha_desc: "$TECH_UNLOCK_VOIDARK_ALPHA_ARK$"
+
+ tech_voidark_phi: "World Ark Phi Tier Upgrade"
+ tech_voidark_phi_desc: "$TECH_UNLOCK_VOIDARK_PHI_ARK$"
+
+ tech_voidark_phanon: "World Ark Runic Tier Upgrade"
+ tech_voidark_phanon_desc: "$TECH_UNLOCK_VOIDARK_PHANON_ARK$"
+
+ tech_voidark_stellarite: "World Ark Stellarite Tier Upgrade"
+ tech_voidark_stellarite_desc: "$TECH_UNLOCK_VOIDARK_STELLARITE_ARK$"
+
+ TECH_UNLOCK_VOIDARK_DELTA_ARK: "Unlocks the §Y$xhk_pc_worldark$§! §E$concept_delta_tier$ Tier§! Upgrade\nUnlocks £icon_delta_core£ ['concept_delta_tier'] §ETier§! £zone£ ['concept_district_specialization']"
+ TECH_UNLOCK_VOIDARK_DELTA_ARK_DESC: "$tech_voidark_delta$"
+ TECH_UNLOCK_VOIDARK_ALPHA_ARK: "Unlocks the §Y$xhk_pc_worldark$§! §B$concept_alpha_tier$ Tier§! Upgrade\nUnlocks £icon_alpha_core£ ['concept_alpha_tier'] §BTier§! £zone£ ['concept_district_specialization']"
+ TECH_UNLOCK_VOIDARK_ALPHA_ARK_DESC: "$tech_voidark_alpha$"
+ TECH_UNLOCK_VOIDARK_PHI_ARK: "Unlocks the §Y$xhk_pc_worldark$§! §C$concept_phi_tier$ Tier§! Upgrade"
+ TECH_UNLOCK_VOIDARK_PHI_ARK_DESC: "$tech_voidark_phi$"
+ TECH_UNLOCK_VOIDARK_PHANON_ARK: "Unlocks the §Y$xhk_pc_worldark$§! §R$concept_phanon_tier$§! Tier Upgrade\nUnlocks £icon_phanon_core£ ['concept_phanon_tier'] §RTier§! £zone£ ['concept_district_specialization']"
+ TECH_UNLOCK_VOIDARK_PHANON_ARK_DESC: "$tech_voidark_phanon$"
+ TECH_UNLOCK_VOIDARK_STELLARITE_ARK: "Unlocks the §Y$xhk_pc_worldark$§! §H$concept_stellarite_tier_tier$ Tier§! Upgrade\nUnlocks £icon_stellarite_core£ ['concept_stellarite_tier'] §HTier§! £zone£ ['concept_district_specialization']"
+ TECH_UNLOCK_VOIDARK_STELLARITE_ARK_DESC: "$tech_voidark_stellarite$"
+
+ zone_unavailable_tech_afterburners_delta: "$TRIGGER_FAIL$ §RRequires researching§! £engineering£ ['technology:tech_darkmatter_afterburners_dm']."
+ zone_unavailable_tech_afterburners_alpha: "$TRIGGER_FAIL$ §RRequires researching§! £engineering£ ['technology:tech_darkmatter_afterburners_ae']."
+ zone_unavailable_tech_afterburners_phanon: "$TRIGGER_FAIL$ §RRequires researching§! £engineering£ ['technology:tech_darkmatter_afterburners_re']."
+ zone_unavailable_tech_afterburners_stellarite: "$TRIGGER_FAIL$ §RRequires researching§! £engineering£ ['technology:tech_darkmatter_afterburners_se']."

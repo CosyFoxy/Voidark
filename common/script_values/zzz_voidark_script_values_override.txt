@@ -49,19 +49,24 @@ xhk_worldark_level = {
         has_starbase_size = xhk_worldark_tier_13
         add = 12
     }
-    # #Alpha
-    # modifier = {
-    #     has_starbase_size = xhk_worldark_tier_14
-    #     add = 13
-    # }
-    # #Phanon
-    # modifier = {
-    #     has_starbase_size = xhk_worldark_tier_15
-    #     add = 14
-    # }
-    # #Stellarite
-    # modifier = {
-    #     has_starbase_size = xhk_worldark_tier_16
-    #     add = 15
-    # }
+    #Alpha
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_14
+        add = 13
+    }
+    #Phi
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_15
+        add = 14
+    }
+    #Phanon
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_16
+        add = 15
+    }
+    #Stellarite
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_17
+        add = 16
+    }
 }

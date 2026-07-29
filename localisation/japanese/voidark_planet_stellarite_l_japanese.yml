@@ -1,0 +1,305 @@
+﻿l_japanese:
+
+ #ZONES ------------------------------------------------------------------
+ voidark_stellarite_zone_dummy: "Dummy"
+ voidark_stellarite_zone_dummy_desc: "Dummy"
+ #----------------------
+ zone_voidark_stellarite_urban: "§H$concept_stellarite_tier$ $zone_urban$§!"
+ zone_voidark_stellarite_urban_desc: "The central habitation areas of the $xhk_pc_worldark$."
+
+ zone_voidark_stellarite_factory: "§H$concept_stellarite_tier$ $zone_xhk_worldark_factory$§!"
+ zone_voidark_stellarite_factory_desc: "$zone_factory_desc$"
+
+ zone_voidark_stellarite_foundry: "§H$concept_stellarite_tier$ $zone_xhk_worldark_foundry$§!"
+ zone_voidark_stellarite_foundry_desc: "$zone_foundry_desc$"
+
+ zone_voidark_stellarite_voidforge: "§H$concept_stellarite_tier$ $zone_xhk_worldark_voidforge$§!"
+ zone_voidark_stellarite_voidforge_desc: "$zone_ark_military_eco_desc$"
+
+ zone_voidark_stellarite_trade: "§H$concept_stellarite_tier$ $zone_xhk_worldark_trade$§!"
+ zone_voidark_stellarite_trade_desc: "$zone_trade_desc$"
+
+ zone_voidark_stellarite_waylogi: "§H$concept_stellarite_tier$ $zone_xhk_worldark_waylogi$§!"
+ zone_voidark_stellarite_waylogi_desc: "$zone_ark_waystation_trade_desc$"
+
+ zone_voidark_stellarite_generator: "§H$concept_stellarite_tier$ $zone_xhk_worldark_generator$§!"
+ zone_voidark_stellarite_generator_desc: "Arrays of energy generator with unparalleled efficiency. Never again will we lack power."
+
+ zone_voidark_stellarite_penrose: "§H$concept_stellarite_tier$ Penrose $zone_xhk_worldark_generator$§!"
+ zone_voidark_stellarite_penrose_desc: "$district_voidark_stellarite_penrose_desc$"
+
+ zone_voidark_stellarite_generator_speed: "§H$concept_stellarite_tier$ $zone_xhk_worldark_reactspeed$§!"
+ zone_voidark_stellarite_generator_speed_desc: "$district_voidark_stellarite_generator_speed_desc$"
+
+ #zone_voidark_stellarite_penrose_speed: "§H$concept_stellarite_tier$ $zone_xhk_worldark_reactspeed_penrose$§!"
+ zone_voidark_stellarite_penrose_speed: "§H$concept_stellarite_tier$ Penrose $zone_xhk_worldark_reactspeed$§!"
+ zone_voidark_stellarite_penrose_speed_desc: "$district_voidark_stellarite_penrose_speed_desc$"
+
+ zone_voidark_stellarite_generator_shield: "§H$concept_stellarite_tier$ $zone_xhk_worldark_reactshield$§!"
+ zone_voidark_stellarite_generator_shield_desc: "$district_voidark_stellarite_generator_shield_desc$"
+
+ #zone_voidark_stellarite_penrose_shield: "§H$concept_stellarite_tier$ $zone_xhk_worldark_reactshield_penrose$§!"
+ zone_voidark_stellarite_penrose_shield: "§H$concept_stellarite_tier$ Penrose $zone_xhk_worldark_reactshield$§!"
+ zone_voidark_stellarite_penrose_shield_desc: "$district_voidark_stellarite_penrose_shield_desc$"
+
+ zone_voidark_stellarite_mining: "§H$concept_stellarite_tier$ $zone_xhk_worldark_mining$§!"
+ zone_voidark_stellarite_mining_desc: "$district_voidark_stellarite_minerals_desc$"
+
+ zone_voidark_stellarite_decompressor: "§H$concept_stellarite_tier$ Gravity-Compacted Matter Extraction§!"
+ zone_voidark_stellarite_decompressor_desc: "$district_voidark_stellarite_decompressor_desc$"
+
+ zone_voidark_stellarite_farming: "§H$concept_stellarite_tier$ $zone_xhk_worldark_farming$§!"
+ zone_voidark_stellarite_farming_desc: "$zone_ark_food_desc$"
+
+ zone_voidark_stellarite_unity: "§H$concept_stellarite_tier$ $zone_xhk_worldark_unity$§!"
+ zone_voidark_stellarite_unity_desc: "$zone_unity_desc$"
+
+ zone_voidark_stellarite_spiritualist: "§H$concept_stellarite_tier$ $zone_xhk_worldark_spiritualist$§!"
+ zone_voidark_stellarite_spiritualist_desc: "$zone_unity_spiritualist_desc$"
+
+ zone_voidark_stellarite_servitor: "§H$concept_stellarite_tier$ $zone_xhk_worldark_servitor$§!"
+ zone_voidark_stellarite_servitor_desc: "$zone_unity_bio_trophy_desc$"
+
+ zone_voidark_stellarite_research: "§H$concept_stellarite_tier$ $zone_xhk_worldark_research$§!"
+ zone_voidark_stellarite_research_desc: "$zone_research_desc$"
+
+ zone_voidark_stellarite_amenities: "§H$concept_stellarite_tier$ $zone_xhk_worldark_amenities$§!"
+ zone_voidark_stellarite_amenities_desc: "$zone_ark_forever_cruise_city_passenger_desc$"
+
+ zone_voidark_stellarite_enforcer: "§H$concept_stellarite_tier$ $zone_xhk_worldark_enforcer$§!"
+ zone_voidark_stellarite_enforcer_desc: "$zone_xhk_worldark_enforcer_desc$"
+
+ zone_voidark_stellarite_refinery: "§H$concept_stellarite_tier$ $zone_xhk_worldark_refinery$§!"
+ zone_voidark_stellarite_refinery_desc: "$zone_xhk_worldark_refinery_desc$"
+
+ zone_voidark_stellarite_darkmatter: "§H$concept_stellarite_tier$ $zone_xhk_worldark_darkmatter$§!"
+ zone_voidark_stellarite_darkmatter_desc: "$district_voidark_stellarite_darkmatter_desc$"
+
+ zone_voidark_stellarite_ordinance_naval: "§H$concept_stellarite_tier$ $zone_xhk_worldark_ordinance_naval$§!"
+ zone_voidark_stellarite_ordinance_naval_desc: "$zone_ark_shipwright_desc$"
+
+ zone_voidark_stellarite_ordinance_missile: "§H$concept_stellarite_tier$ $zone_xhk_worldark_ordinance_missile_silos$§!"
+ zone_voidark_stellarite_ordinance_missile_desc: "$zone_ark_missile_silos_desc$"
+
+ zone_voidark_stellarite_ordinance_kinetic: "§H$concept_stellarite_tier$ $zone_xhk_worldark_ordinance_ammunition_lines$§!"
+ zone_voidark_stellarite_ordinance_kinetic_desc: "$zone_ark_ammunition_lines_desc$"
+
+ zone_voidark_stellarite_ordinance_energy: "§H$concept_stellarite_tier$ $zone_xhk_worldark_ordinance_laser_capacitors$§!"
+ zone_voidark_stellarite_ordinance_energy_desc: "$zone_ark_laser_capacitors_desc$"
+
+ zone_voidark_stellarite_ordinance_strike_craft: "§H$concept_stellarite_tier$ $zone_xhk_worldark_ordinance_flight_decks$§!"
+ zone_voidark_stellarite_ordinance_strike_craft_desc: "$zone_ark_flight_decks_desc$"
+
+ zone_voidark_stellarite_storage: "§H$concept_stellarite_tier$ $zone_xhk_worldark_storage$§!"
+ zone_voidark_stellarite_storage_desc: "$district_xhk_worldark_storage_desc$"
+
+ zone_voidark_stellarite_utilbay: "§H$concept_stellarite_tier$ $zone_xhk_worldark_utilbay$§!"
+ zone_voidark_stellarite_utilbay_desc: "$district_xhk_worldark_utilbay_desc$"
+
+ zone_voidark_stellarite_amenities_dystopian: "§H$concept_stellarite_tier$ $zone_xhk_worldark_amenities_dystopian$§!"
+ zone_voidark_stellarite_amenities_dystopian_desc: "$zone_xhk_worldark_amenities_dystopian_desc$"
+
+
+ #DISTRICTS ------------------------------------------------------------------
+ district_voidark_stellarite_city: "§H$concept_stellarite_tier$ $district_xhk_worldark_city$§!"
+ district_voidark_stellarite_city_desc: "$district_ark_city_desc$"
+ district_voidark_stellarite_city_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_city_plural$§!"
+ flavor_district_voidark_stellarite_city: "§YLiving Quarter§!"
+ flavor_district_voidark_stellarite_city_desc: "$district_ark_city_desc$"
+ flavor_district_voidark_stellarite_city_plural: "§YLiving Quarters§!"
+ flavor_district_voidark_stellarite_city_spiritualist: "§YEcclesiastical Hub§!"
+ flavor_district_voidark_stellarite_city_spiritualist_desc: "$district_arcology_spiritualist_desc$"
+ flavor_district_voidark_stellarite_city_spiritualist_plural: "§YEcclesiastical Hubs§!"
+ flavor_district_voidark_stellarite_city_machine: "§YCentral Processing Area§!"
+ flavor_district_voidark_stellarite_city_machine_desc: "$city_machine_core_1_desc$"
+ flavor_district_voidark_stellarite_city_machine_plural: "§YCentral Processing Areas§!"
+ flavor_district_voidark_stellarite_city_hive: "§YCentral Drone Hub§!"
+ flavor_district_voidark_stellarite_city_hive_desc: "$city_first_hive_1_desc$"
+ flavor_district_voidark_stellarite_city_hive_plural: "§Y Central Drone Hubs§!"
+
+ #todo adjust on other levels
+ district_voidark_stellarite_foundry: "§H$concept_stellarite_tier$ $district_xhk_worldark_foundry$§!"
+ district_voidark_stellarite_foundry_desc: "Infused with the power of stellar energy, our military industries create vast amounts of components for our tools of warfare."
+ district_voidark_stellarite_foundry_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_foundry_plural$§!"
+ flavor_district_voidark_stellarite_foundry: "§Y$flavor_xhk_worldark_foundry_name$§!"
+
+ district_voidark_stellarite_factory: "§H$concept_stellarite_tier$ $district_xhk_worldark_factory$§!"
+ district_voidark_stellarite_factory_desc: "$district_xhk_worldark_factory_desc$"
+ district_voidark_stellarite_factory_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_foundry_plural$§!"
+ flavor_district_voidark_stellarite_factory: "§Y$flavor_xhk_worldark_factory_name$§!"
+
+ district_voidark_stellarite_trade: "§H$concept_stellarite_tier$ $district_xhk_worldark_trade$§!"
+ district_voidark_stellarite_trade_desc: "$district_ark_waystation_trade_flavor_desc$"
+ district_voidark_stellarite_trade_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_trade_plural$§!"
+ flavor_district_voidark_stellarite_trade: "§Y$flavor_xhk_worldark_waystation_trade_name$§!"
+
+ #todo adjust on other levels
+ district_voidark_stellarite_generator: "§H$concept_stellarite_tier$ $district_xhk_worldark_generator$§!"
+ district_voidark_stellarite_generator_desc: "$district_ark_generator_desc$\nBy infusing stellar energy, their efficiency is better than ever."
+ district_voidark_stellarite_generator_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_generator_plural$§!"
+ flavor_district_voidark_stellarite_generator: "§YPower Generators§!"
+
+ #todo adjust on other levels
+ district_voidark_stellarite_generator_speed: "§H$concept_stellarite_tier$ $district_xhk_worldark_generator_speed$§!"
+ district_voidark_stellarite_generator_speed_desc: "$district_ark_engine_bypass_desc$\nBy infusing stellar energy, this process is vastly more efficient."
+ district_voidark_stellarite_generator_speed_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_generator_speed_plural$§!"
+ flavor_district_voidark_stellarite_generator_speed: "§YQuantum Rerouting§!"
+
+ district_voidark_stellarite_generator_shield: "§H$concept_stellarite_tier$ $district_xhk_worldark_generator_shield$§!"
+ district_voidark_stellarite_generator_shield_desc: "The injection of stellar energy in the reactors allows us to run shields beyond parameters once thought possible."
+ district_voidark_stellarite_generator_shield_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_generator_shield_plural$§!"
+ flavor_district_voidark_stellarite_generator_shield: "§YQuantum Rerouting§!"
+
+ #todo adjust on other levels
+ district_voidark_stellarite_penrose: "§H$concept_stellarite_tier$ $district_xhk_worldark_penrose$§!"
+ district_voidark_stellarite_penrose_desc: "Consisting of large panels of advanced stellar energy-infused alloy inscribed with intricate superconducting cable, these continent sized plates generate energy from the caged black hole."
+ district_voidark_stellarite_penrose_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_penrose_plural$§!"
+ flavor_district_voidark_stellarite_penrose: "§Y$xhk_worldark_penrose_subtitle$§!"
+
+ district_voidark_stellarite_penrose_speed: "§H$concept_stellarite_tier$ $district_xhk_worldark_penrose_speed$§!"
+ district_voidark_stellarite_penrose_speed_desc: "$district_xhk_worldark_penrose_shield_desc$"
+ district_voidark_stellarite_penrose_speed_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_penrose_speed_plural$§!"
+ flavor_district_voidark_stellarite_penrose_speed: "§Y$xhk_worldark_penrose_speed_subtitle$§!"
+
+ district_voidark_stellarite_penrose_shield: "§H$concept_stellarite_tier$ $district_xhk_worldark_penrose_shield$§!"
+ district_voidark_stellarite_penrose_shield_desc: "$district_xhk_worldark_penrose_shield_desc$"
+ district_voidark_stellarite_penrose_shield_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_penrose_shield_plural$§!"
+ flavor_district_voidark_stellarite_penrose_shield: "§Y$xhk_worldark_penrose_shield_subtitle$§!"
+
+ #todo adjust on other levels
+ district_voidark_stellarite_minerals: "§H$concept_stellarite_tier$ $district_xhk_worldark_minerals$§!"
+ district_voidark_stellarite_minerals_desc: "Reserving dedicated arkship space for the collection and triage of harvested resources offers a higher yield thanks to the opportunity of in-gravity operations and the use of stellar machinery."
+ district_voidark_stellarite_minerals_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_minerals_plural$§!"
+ flavor_district_voidark_stellarite_minerals: "§YMining Operations§!"
+
+ district_voidark_stellarite_decompressor: "§H$concept_stellarite_tier$ $district_xhk_worldark_decompressor$§!"
+ district_voidark_stellarite_decompressor_desc: "$district_xhk_worldark_decompressor_desc$"
+ district_voidark_stellarite_decompressor_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_decompressor_plural$§!"
+ flavor_district_voidark_stellarite_decompressor: "§Y$xhk_worldark_decompressor_subtitle$§!"
+
+ district_voidark_stellarite_farming: "§H$concept_stellarite_tier$ $district_xhk_worldark_farming$§!"
+ district_voidark_stellarite_farming_desc: "$district_ark_food_desc$"
+ district_voidark_stellarite_farming_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_farming_plural$§!"
+ flavor_district_voidark_stellarite_farming: "§YNourishment Systems§!"
+
+ district_voidark_stellarite_unity: "§H$concept_stellarite_tier$ $district_xhk_worldark_unity$§!"
+ district_voidark_stellarite_unity_desc: "$district_arcology_administrative_desc$"
+ district_voidark_stellarite_unity_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_unity_plural$§!"
+ flavor_district_voidark_stellarite_unity: "§YCoordinative Institutes§!"
+
+ district_voidark_stellarite_unity_spiritualist: "§H$concept_stellarite_tier$ $district_xhk_worldark_unity_spiritualist$§!"
+ district_voidark_stellarite_unity_spiritualist_desc: "$district_arcology_spiritualist_desc$"
+ district_voidark_stellarite_unity_spiritualist_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_unity_spiritualist_plural$§!"
+ flavor_district_voidark_stellarite_: "§YHoly Halls§!"
+
+ district_voidark_stellarite_unity_hive: "§H$concept_stellarite_tier$ $district_xhk_worldark_unity_hive$§!"
+ district_voidark_stellarite_unity_hive_desc: "$district_hive_administrative_desc$"
+ district_voidark_stellarite_unity_hive_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_unity_hive_plural$§!"
+ flavor_district_voidark_stellarite_unity_hive: "§YConnective Chambers§!"
+
+ district_voidark_stellarite_unity_machine: "§H$concept_stellarite_tier$ $district_xhk_worldark_unity_machine$§!"
+ district_voidark_stellarite_unity_machine_desc: "$district_nexus_administrative_desc$"
+ district_voidark_stellarite_unity_machine_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_unity_machine_plural$§!"
+ flavor_district_voidark_stellarite_unity_machine: "§YData Coordination Processors§!"
+
+ district_voidark_stellarite_unity_servitor: "§H$concept_stellarite_tier$ $district_xhk_worldark_unity_servitor$§!"
+ district_voidark_stellarite_unity_servitor_desc: "$district_nexus_organic_housing_desc$"
+ district_voidark_stellarite_unity_servitor_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_unity_servitor_plural$§!"
+ flavor_district_voidark_stellarite_unity_servitor: "§YBio-Resort Arrays§!"
+
+ district_voidark_stellarite_science: "§H$concept_stellarite_tier$ $district_xhk_worldark_research$§!"
+ district_voidark_stellarite_science_desc: "$district_xhk_worldark_research_desc$"
+ district_voidark_stellarite_science_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_research_plural$§!"
+ flavor_district_voidark_stellarite_science: "§YNano-laboratory§!"
+ stellarite_science_tt: "Due to presence of §Y$sm_xhk_worldark_science_nexus$§!:$NEW_LINE$- $mod_planet_researchers_produces_mult$: §G+10%§!"
+
+ district_voidark_stellarite_amenities: "§H$concept_stellarite_tier$ $district_xhk_worldark_amenities$§!"
+ district_voidark_stellarite_amenities_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_amenities_plural$§!"
+ flavor_district_voidark_stellarite_amenities: "§YLuxury Areas§!"
+ district_voidark_stellarite_amenities_desc: "$district_xhk_worldark_amenities_desc$"
+ district_voidark_stellarite_amenities_spiritualist: "§H$concept_stellarite_tier$ Sanctimonious Deck§!"
+ district_voidark_stellarite_amenities_spiritualist_desc: "Vast corridors filled with prayer rooms, libraries of religious scriptures, and communal areas. For our devoted people, these decks fill many needs."
+ district_voidark_stellarite_amenities_spiritualist_plural: "§H$concept_stellarite_tier$ Sanctimonious Decks§!"
+ flavor_district_voidark_stellarite_amenities_spiritualist: "§YSanctimonious Deck§!"
+
+
+ #doesnt exists
+ district_voidark_stellarite_amenities_machine: "§H$concept_stellarite_tier$ $district_xhk_worldark_amenities$§!"
+ district_voidark_stellarite_amenities_machine_desc: "REPLACE_ME"
+ district_voidark_stellarite_amenities_machine_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_amenities_plural$§!"
+ district_voidark_stellarite_amenities_hive: "§H$concept_stellarite_tier$ $district_xhk_worldark_amenities$§!"
+ district_voidark_stellarite_amenities_hive_desc: "REPLACE_ME"
+ district_voidark_stellarite_amenities_hive_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_amenities_plural$§!"
+
+ district_voidark_stellarite_amenities_dystopian: "§H$concept_stellarite_tier$ $district_xhk_worldark_amenities_dystopian$§!"
+ district_voidark_stellarite_amenities_dystopian_desc: "$district_xhk_worldark_amenities_desc$"
+ district_voidark_stellarite_amenities_dystopian_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_amenities_dystopian_plural$§!"
+ flavor_district_voidark_stellarite_amenities_dystopian: "§YRetreat of Elites§!"
+
+ district_voidark_stellarite_enforcer: "§H$concept_stellarite_tier$ $district_xhk_worldark_enforcer$§!"
+ district_voidark_stellarite_enforcer_desc: "$district_xhk_worldark_enforcer_desc$"
+ flavor_district_voidark_stellarite_enforcer: "§YProtective Headquarters§!"
+ district_voidark_stellarite_enforcer_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_enforcer_plural$§!"
+ flavor_district_voidark_stellarite_enforcer_spiritualist: "§YHoly Inquisition Office§!"
+ flavor_district_voidark_stellarite_enforcer_spiritualist_desc: "$district_xhk_worldark_enforcer_desc$"
+ flavor_district_voidark_stellarite_enforcer_spiritualist_plural: "§YHoly Inquisition Offices§!"
+ flavor_district_voidark_stellarite_enforcer_machine: "§YFirewall Server§!"
+ flavor_district_voidark_stellarite_enforcer_machine_desc: "These facilities house the firewall and regulatory units of this vessel, ensuring no deviant program is left unchecked."
+ flavor_district_voidark_stellarite_enforcer_machine_plural: "§YFirewall Servers§!"
+ flavor_district_voidark_stellarite_enforcer_hive: "§YAnti-Deviancy Node§!"
+ flavor_district_voidark_stellarite_enforcer_hive_desc: "These clusters house the central control drones of the hive. No deviant drone will escape the hive's watch."
+ flavor_district_voidark_stellarite_enforcer_hive_plural: "§YAnti-Deviancy Nodes§!"
+
+
+ district_voidark_stellarite_ordinance: "§H$concept_stellarite_tier$ $district_xhk_worldark_ordinance$§!"
+ district_voidark_stellarite_ordinance_desc: "$district_ark_military_desc$"
+ district_voidark_stellarite_ordinance_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_ordinance_plural$§!"
+ flavor_district_voidark_stellarite_ordinance: "§YEngineering Bay§!"
+
+ district_voidark_stellarite_ordinance_naval: "§H$concept_stellarite_tier$ $district_xhk_worldark_ordinance_naval$§!"
+ district_voidark_stellarite_ordinance_naval_desc: "$district_ark_military_desc$"
+ district_voidark_stellarite_ordinance_naval_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_ordinance_naval_plural$§!"
+ flavor_district_voidark_stellarite_ordinance_naval: "§YAdmirality Center§!"
+
+ district_voidark_stellarite_ordinance_missile: "§H$concept_stellarite_tier$ $district_xhk_worldark_ordinance_missile$§!"
+ district_voidark_stellarite_ordinance_missile_desc: "$district_ark_military_desc$"
+ district_voidark_stellarite_ordinance_missile_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_ordinance_missile_plural$§!"
+ flavor_district_voidark_stellarite_ordinance_missile: "§YExplosive Armaments§!"
+
+ district_voidark_stellarite_ordinance_kinetic: "§H$concept_stellarite_tier$ $district_xhk_worldark_ordinance_kinetic$§!"
+ district_voidark_stellarite_ordinance_kinetic_desc: "$district_ark_military_desc$"
+ district_voidark_stellarite_ordinance_kinetic_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_ordinance_kinetic_plural$§!"
+ flavor_district_voidark_stellarite_ordinance_kinetic: "§YKinetic Armaments§!"
+
+ district_voidark_stellarite_ordinance_energy: "§H$concept_stellarite_tier$ $district_xhk_worldark_ordinance_energy$§!"
+ district_voidark_stellarite_ordinance_energy_desc: "$district_ark_military_desc$"
+ district_voidark_stellarite_ordinance_energy_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_ordinance_energy_plural$§!"
+ flavor_district_voidark_stellarite_ordinance_energy: "§YEnergy Armaments§!"
+
+ district_voidark_stellarite_ordinance_strike_craft: "§H$concept_stellarite_tier$ $district_xhk_worldark_ordinance_fighter$§!"
+ district_voidark_stellarite_ordinance_strike_craft_desc: "$district_ark_military_desc$"
+ district_voidark_stellarite_ordinance_strike_craft_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_ordinance_fighter_plural$§!"
+ flavor_district_voidark_stellarite_ordinance_strike_craft: "§YFighter Bays§!"
+
+ district_voidark_stellarite_refinery: "§H$concept_stellarite_tier$ $district_xhk_worldark_refinery$§!"
+ district_voidark_stellarite_refinery_desc: "$district_xhk_worldark_refinery_desc$"
+ district_voidark_stellarite_refinery_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_refinery_plural$§!"
+ flavor_district_voidark_stellarite_refinery: "§YStrategic Matter Creation§!"
+
+ district_voidark_stellarite_darkmatter: "§H$concept_stellarite_tier$ $district_xhk_worldark_darkmatter$§!"
+ district_voidark_stellarite_darkmatter_desc: "The creation of dark matter has only been amplified by the discovery of dark energy, and these facilities can now create both of the vital resources."
+ district_voidark_stellarite_darkmatter_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_darkmatter_plural$§!"
+ flavor_district_voidark_stellarite_darkmatter: "§YVeil of Dark§!"
+
+ #todo adjust on other levels
+ district_voidark_stellarite_storage: "§H$concept_stellarite_tier$ $district_xhk_worldark_storage$§!"
+ district_voidark_stellarite_storage_desc: "$district_xhk_worldark_storage_desc$"
+ district_voidark_stellarite_storage_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_storage_plural$§!"
+ district_voidark_stellarite_storage_effect: "Attached Zone gives: \n§G+10000§! £mod_country_resource_max_add£ Resource Storage\n§G+1000§! £operational_reserves£ $mod_situation_nomad_economy_max_progress_add$\n§G+3000§! £sr_dark_matter£ $mod_country_resource_max_sr_dark_matter_add$\n§G+3000§! £acot_sr_dark_energy£ $mod_country_resource_max_acot_sr_dark_energy_add$\n§G+2000§! £aot_sr_runic_power£ $mod_country_resource_max_aot_sr_runic_power_add$\n§G+1000§! £acot_sr_stellarite£ $mod_country_resource_max_acot_sr_stellarite_add$"
+ flavor_district_voidark_stellarite_storage: "§YLiminal Storage§!"
+
+ district_voidark_stellarite_utilbay: "§H$concept_stellarite_tier$ $district_xhk_worldark_utilbay$§!"
+ district_voidark_stellarite_utilbay_desc: "$district_xhk_worldark_utilbay_desc$"
+ district_voidark_stellarite_utilbay_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_utilbay_plural$§!"
+ flavor_district_voidark_stellarite_utilbay: "§YAccessory Sectors§!"
+

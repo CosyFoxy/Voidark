@@ -1,0 +1,24 @@
+namespace = voidark_test
+
+country_event = {
+    id = voidark_test.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        is_ai = no
+        NOR = {
+            has_global_flag = acot_phanon_forbidden
+            has_global_flag = aot_phanon_content_OFF
+        }
+    }
+
+    immediate = {
+        set_country_flag = acot_phanon_tech_enabled
+        phanon_type_a_tech_gift = yes
+        phanon_type_civ_tech_gift = yes
+        phanon_type_ship_tech_gift = yes
+        phanon_species_traits_tech_gift_card = yes
+        phanon_type_b_tech_gift = yes
+    }
+}

@@ -10,6 +10,7 @@ ship_size = xhk_worldark_tier_13
 ship_size = xhk_worldark_tier_14
 ship_size = xhk_worldark_tier_15
 ship_size = xhk_worldark_tier_16
+ship_size = xhk_worldark_tier_17
 
 fits_on_slot = "spinal_mount_1"
 fits_on_slot = "spinal_mount_2"
