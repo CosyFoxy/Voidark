@@ -4,7 +4,7 @@
 #todo: supertensiles
 
 
-voidark_alpha_zone_dummy = {
+voidark_phanon_zone_dummy = {
     potential = {
         always = no
     }
@@ -19,21 +19,21 @@ voidark_alpha_zone_dummy = {
 ###############################################################################################################
 ###############################################################################################################
 
-zone_voidark_alpha_urban = {
-    icon = GFX_district_specialization_voidark_alpha_urban
+zone_voidark_phanon_urban = {
+    icon = GFX_district_specialization_voidark_phanon_urban
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
 
-    swap_type = district_voidark_alpha_city
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_city
+    swap_type_weight = 5
 
     zone_sets = {
         xhk_worldark_urban0
@@ -41,7 +41,7 @@ zone_voidark_alpha_urban = {
     }
 
     triggered_district_planet_modifier = {
-        planet_housing_add = @alpha_per_district_housing_urban
+        planet_housing_add = @phanon_per_district_housing_urban
     }
     include = {
         all
@@ -65,16 +65,16 @@ zone_voidark_alpha_urban = {
 # MANUFACTURED GOODS
 ###############################################################################################################
 
-zone_voidark_alpha_factory = {
-    icon = GFX_district_specialization_voidark_alpha_factory
+zone_voidark_phanon_factory = {
+    icon = GFX_district_specialization_voidark_phanon_factory
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -86,8 +86,8 @@ zone_voidark_alpha_factory = {
     #ACOT ADD
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_artisan
-        GESTALT_JOB = ae_artisan_drone
+        JOB = phanon_artisan
+        GESTALT_JOB = phanon_artisan_drone
         AMOUNT = 100
     }
 
@@ -98,8 +98,8 @@ zone_voidark_alpha_factory = {
     }
 
 
-    swap_type = district_voidark_alpha_factory
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_factory
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_factory }
     ai_weight_coefficient = 0.5
@@ -108,15 +108,15 @@ zone_voidark_alpha_factory = {
 
 # Foundry
 
-zone_voidark_alpha_foundry = {
-    icon = GFX_district_specialization_voidark_alpha_foundry
+zone_voidark_phanon_foundry = {
+    icon = GFX_district_specialization_voidark_phanon_foundry
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
+        TIER = phanon
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -127,8 +127,8 @@ zone_voidark_alpha_foundry = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_alloyman
-        GESTALT_JOB = ae_alloydrone
+        JOB = phanon_alloyman
+        GESTALT_JOB = phanon_alloydrone
         AMOUNT = 100
     }
 
@@ -138,24 +138,24 @@ zone_voidark_alpha_foundry = {
         AMOUNT2 = 0
     }
 
-    swap_type = district_voidark_alpha_foundry
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_foundry
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_foundry }
     ai_weight_coefficient = 0.5
     ai_priority = 15
 }
 
-zone_voidark_alpha_voidforge = {
-    icon = GFX_district_specialization_voidark_alpha_foundry
+zone_voidark_phanon_voidforge = {
+    icon = GFX_district_specialization_voidark_phanon_foundry
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -167,16 +167,16 @@ zone_voidark_alpha_voidforge = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        planet_metallurgists_minerals_upkeep_add = 2
-        planet_metallurgists_alloys_produces_add = 1.5
-        ship_armor_from_metallurgists = 0.04
-        ship_hardening_from_metallurgists = 0.02
+        planet_metallurgists_minerals_upkeep_add = 3
+        planet_metallurgists_alloys_produces_add = 3
+        ship_armor_from_metallurgists = 0.06
+        ship_hardening_from_metallurgists = 0.03
     }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_alloyman
-        GESTALT_JOB = ae_alloydrone
+        JOB = phanon_alloyman
+        GESTALT_JOB = phanon_alloydrone
         AMOUNT = 50
     }
 
@@ -186,8 +186,8 @@ zone_voidark_alpha_voidforge = {
         AMOUNT2 = 0
     }
 
-    swap_type = district_voidark_alpha_foundry
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_foundry
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_foundry }
     ai_weight_coefficient = 0.5
@@ -196,16 +196,16 @@ zone_voidark_alpha_voidforge = {
 
 # Trade
 
-zone_voidark_alpha_trade = {
-    icon = GFX_district_specialization_voidark_alpha_trade
+zone_voidark_phanon_trade = {
+    icon = GFX_district_specialization_voidark_phanon_trade
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -215,8 +215,8 @@ zone_voidark_alpha_trade = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_trader
-        GESTALT_JOB = ae_trader_drone
+        JOB = phanon_trader
+        GESTALT_JOB = phanon_trader_drone
         AMOUNT = 100
     }
 
@@ -225,23 +225,23 @@ zone_voidark_alpha_trade = {
         AMOUNT = -100
     }
 
-    swap_type = district_voidark_alpha_trade
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_trade
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_trade }
     ai_weight_coefficient = 0.5
     ai_priority = 15
 }
 
-zone_voidark_alpha_waylogi = {
-    icon = GFX_district_specialization_voidark_alpha_trade
+zone_voidark_phanon_waylogi = {
+    icon = GFX_district_specialization_voidark_phanon_trade
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
+        TIER = phanon
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -251,15 +251,15 @@ zone_voidark_alpha_waylogi = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_trader
-        GESTALT_JOB = ae_trader_drone
+        JOB = phanon_trader
+        GESTALT_JOB = phanon_trader_drone
         AMOUNT = 50
     }
 
     #todo adjust once acot jobs exist
     inline_script = {
         script = jobs/zone_ark_waystation_trader_add
-        AMOUNT = 300
+        AMOUNT = 200
     }
 
     inline_script = {
@@ -267,8 +267,8 @@ zone_voidark_alpha_waylogi = {
         AMOUNT = -100
     }
 
-    swap_type = district_voidark_alpha_trade
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_trade
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_trade }
     ai_weight_coefficient = 0.5
@@ -281,16 +281,16 @@ zone_voidark_alpha_waylogi = {
 
 # Generator
 
-zone_voidark_alpha_generator = {
-    icon = GFX_district_specialization_voidark_alpha_energy
+zone_voidark_phanon_generator = {
+    icon = GFX_district_specialization_voidark_phanon_energy
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = "carrier.starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}"
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -302,8 +302,8 @@ zone_voidark_alpha_generator = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_energyman
-        GESTALT_JOB = ae_energydrone
+        JOB = phanon_energyman
+        GESTALT_JOB = phanon_energydrone
         AMOUNT = 100
     }
 
@@ -313,27 +313,27 @@ zone_voidark_alpha_generator = {
     }
 
     convert_to = {
-        zone_voidark_alpha_penrose
+        zone_voidark_phanon_penrose
     }
 
-    swap_type = district_voidark_alpha_generator
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_generator
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_generator }
     ai_weight_coefficient = 0.5
     ai_priority = 15
 }
 
-zone_voidark_alpha_penrose = {
-    icon = GFX_district_specialization_voidark_alpha_energy
+zone_voidark_phanon_penrose = {
+    icon = GFX_district_specialization_voidark_phanon_energy
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = "carrier.starbase  = { has_starbase_module = xhk_worldark_corespinal_blackhole}"
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -345,8 +345,8 @@ zone_voidark_alpha_penrose = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_energyman
-        GESTALT_JOB = ae_energydrone
+        JOB = phanon_energyman
+        GESTALT_JOB = phanon_energydrone
         AMOUNT = 300
     }
 
@@ -357,11 +357,11 @@ zone_voidark_alpha_penrose = {
 
 
     convert_to = {
-        zone_voidark_alpha_generator
+        zone_voidark_phanon_generator
     }
 
-    swap_type = district_voidark_alpha_penrose
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_penrose
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_generator }
     ai_weight_coefficient = 0.5
@@ -369,24 +369,24 @@ zone_voidark_alpha_penrose = {
 }
 
 # Speed
-zone_voidark_alpha_generator_speed = {
-    icon = GFX_district_specialization_voidark_alpha_ark_reactor
+zone_voidark_phanon_generator_speed = {
+    icon = GFX_district_specialization_voidark_phanon_ark_reactor
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = "custom_tooltip = {
-                     text = zone_unavailable_tech_afterburners_alpha
+                     text = zone_unavailable_tech_afterburners_phanon
                      owner? = {
-                        has_technology = tech_darkmatter_afterburners_ae
+                        has_technology = tech_darkmatter_afterburners_re
                      }
                   }"
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = "carrier.starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}"
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
-    show_in_tech = tech_darkmatter_afterburners_ae
+    show_in_tech = tech_darkmatter_afterburners_re
     show_tech_unlock_if = {
         has_origin = origin_xhk_worldark
     }
@@ -400,8 +400,8 @@ zone_voidark_alpha_generator_speed = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_energyman
-        GESTALT_JOB = ae_energydrone
+        JOB = phanon_energyman
+        GESTALT_JOB = phanon_energydrone
         AMOUNT = 100
     }
     inline_script = {
@@ -411,36 +411,36 @@ zone_voidark_alpha_generator_speed = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        ship_speed_from_technicians = 0.1 #does nothing by itself, check the technician job script
+        ship_speed_from_technicians = 0.15 #does nothing by itself, check the technician job script
     }
 
     convert_to = {
-        zone_voidark_alpha_penrose_speed
+        zone_voidark_phanon_penrose_speed
     }
 
-    swap_type = district_voidark_alpha_generator_speed
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_generator_speed
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_generator }
     ai_weight_coefficient = 0.5
     ai_priority = 15
 }
 
-zone_voidark_alpha_penrose_speed = {
-    icon = GFX_district_specialization_voidark_alpha_ark_reactor
+zone_voidark_phanon_penrose_speed = {
+    icon = GFX_district_specialization_voidark_phanon_ark_reactor
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = "custom_tooltip = {
-                     text = zone_unavailable_tech_afterburners_alpha
+                     text = zone_unavailable_tech_afterburners_phanon
                      owner? = {
-                        has_technology = tech_darkmatter_afterburners_ae
+                        has_technology = tech_darkmatter_afterburners_re
                      }
                   }"
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = "carrier.starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole}"
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
 
@@ -453,8 +453,8 @@ zone_voidark_alpha_penrose_speed = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_energyman
-        GESTALT_JOB = ae_energydrone
+        JOB = phanon_energyman
+        GESTALT_JOB = phanon_energydrone
         AMOUNT = 200
     }
 
@@ -465,15 +465,15 @@ zone_voidark_alpha_penrose_speed = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        ship_speed_from_technicians = 0.1 #does nothing by itself, check the technician job script
+        ship_speed_from_technicians = 0.15 #does nothing by itself, check the technician job script
     }
 
     convert_to = {
-        zone_voidark_alpha_generator_speed
+        zone_voidark_phanon_generator_speed
     }
 
-    swap_type = district_voidark_alpha_penrose_speed
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_penrose_speed
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_generator }
     ai_weight_coefficient = 0.5
@@ -482,15 +482,15 @@ zone_voidark_alpha_penrose_speed = {
 
 # Shield
 
-zone_voidark_alpha_generator_shield = {
-    icon = GFX_district_specialization_voidark_alpha_shield
+zone_voidark_phanon_generator_shield = {
+    icon = GFX_district_specialization_voidark_phanon_shield
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
+        TIER = phanon
         POTENTIAL = "carrier.starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}"
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -501,8 +501,8 @@ zone_voidark_alpha_generator_shield = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_energyman
-        GESTALT_JOB = ae_energydrone
+        JOB = phanon_energyman
+        GESTALT_JOB = phanon_energydrone
         AMOUNT = 100
     }
 
@@ -513,34 +513,34 @@ zone_voidark_alpha_generator_shield = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        planet_technician_exotic_gases_upkeep_add = 0.04
-        planet_technician_energy_produces_add = -2
-        ship_shield_from_technicians = 0.04 #does nothing by itself, check the technician job script
-        ship_shield_regen_from_technicians = 0.04
+        planet_technician_exotic_gases_upkeep_add = 0.06
+        planet_technician_energy_produces_add = -3
+        ship_shield_from_technicians = 0.06 #does nothing by itself, check the technician job script
+        ship_shield_regen_from_technicians = 0.06
     }
 
     convert_to = {
-        zone_voidark_alpha_penrose_shield
+        zone_voidark_phanon_penrose_shield
     }
 
-    swap_type = district_voidark_alpha_generator_shield
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_generator_shield
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_generator }
     ai_weight_coefficient = 0.5
     ai_priority = 15
 }
 
-zone_voidark_alpha_penrose_shield = {
-    icon = GFX_district_specialization_voidark_alpha_shield
+zone_voidark_phanon_penrose_shield = {
+    icon = GFX_district_specialization_voidark_phanon_shield
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = "carrier.starbase  = { has_starbase_module = xhk_worldark_corespinal_blackhole}"
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -553,9 +553,9 @@ zone_voidark_alpha_penrose_shield = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_energyman
-        GESTALT_JOB = ae_energydrone
-        AMOUNT = 100
+        JOB = phanon_energyman
+        GESTALT_JOB = phanon_energydrone
+        AMOUNT = 200
     }
 
     inline_script = {
@@ -565,18 +565,18 @@ zone_voidark_alpha_penrose_shield = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        planet_technician_exotic_gases_upkeep_add = 0.04
-        planet_technician_energy_produces_add = -2
-        ship_shield_from_technicians = 0.04 #does nothing by itself, check the technician job script
-        ship_shield_regen_from_technicians = 0.04
+        planet_technician_exotic_gases_upkeep_add = 0.06
+        planet_technician_energy_produces_add = -3
+        ship_shield_from_technicians = 0.06 #does nothing by itself, check the technician job script
+        ship_shield_regen_from_technicians = 0.06
     }
 
     convert_to = {
-        zone_voidark_alpha_generator_shield
+        zone_voidark_phanon_generator_shield
     }
 
-    swap_type = district_voidark_alpha_penrose_shield
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_penrose_shield
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_generator }
     ai_weight_coefficient = 0.5
@@ -584,15 +584,15 @@ zone_voidark_alpha_penrose_shield = {
 }
 
 # minerals
-zone_voidark_alpha_mining = {
-    icon = GFX_district_specialization_voidark_alpha_mining
+zone_voidark_phanon_mining = {
+    icon = GFX_district_specialization_voidark_phanon_mining
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
+        TIER = phanon
         POTENTIAL = "carrier.starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}"
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -605,8 +605,8 @@ zone_voidark_alpha_mining = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_mineralman
-        GESTALT_JOB = ae_mineraldrone
+        JOB = phanon_mineralman
+        GESTALT_JOB = phanon_mineraldrone
         AMOUNT = 100
     }
     #todo adjust once ACOT job exists
@@ -616,26 +616,26 @@ zone_voidark_alpha_mining = {
     }
 
     convert_to = {
-        zone_voidark_alpha_decompressor
+        zone_voidark_phanon_decompressor
     }
 
-    swap_type = district_voidark_alpha_minerals
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_minerals
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_mining }
     ai_weight_coefficient = 0.5
     ai_priority = 15
 }
 
-zone_voidark_alpha_decompressor = {
-    icon = GFX_district_specialization_voidark_alpha_mining
+zone_voidark_phanon_decompressor = {
+    icon = GFX_district_specialization_voidark_phanon_mining
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
+        TIER = phanon
         POTENTIAL = "carrier.starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole}"
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -648,8 +648,8 @@ zone_voidark_alpha_decompressor = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_mineralman
-        GESTALT_JOB = ae_mineraldrone
+        JOB = phanon_mineralman
+        GESTALT_JOB = phanon_mineraldrone
         AMOUNT = 400
     }
     #todo adjust once ACOT job exists
@@ -664,11 +664,11 @@ zone_voidark_alpha_decompressor = {
     }
 
     convert_to = {
-        zone_voidark_alpha_mining
+        zone_voidark_phanon_mining
     }
 
-    swap_type = district_voidark_alpha_decompressor
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_decompressor
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_mining }
     ai_weight_coefficient = 0.5
@@ -677,16 +677,16 @@ zone_voidark_alpha_decompressor = {
 
 # farming
 
-zone_voidark_alpha_farming = {
-    icon = GFX_district_specialization_voidark_alpha_farming
+zone_voidark_phanon_farming = {
+    icon = GFX_district_specialization_voidark_phanon_farming
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -699,8 +699,8 @@ zone_voidark_alpha_farming = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_foodman
-        GESTALT_JOB = ae_fooddrone
+        JOB = phanon_foodman
+        GESTALT_JOB = phanon_fooddrone
         AMOUNT = 100
     }
     inline_script = {
@@ -708,8 +708,8 @@ zone_voidark_alpha_farming = {
         AMOUNT = -100
     }
 
-    swap_type = district_voidark_alpha_farming
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_farming
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_farming }
     ai_weight_coefficient = 0.5
@@ -721,21 +721,21 @@ zone_voidark_alpha_farming = {
 ###############################################################################################################
 
 # Unity
-zone_voidark_alpha_unity = {
-    icon = GFX_district_specialization_voidark_alpha_unity
+zone_voidark_phanon_unity = {
+    icon = GFX_district_specialization_voidark_phanon_unity
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = "
              owner? = {
                 is_gestalt = no
                 is_spiritualist = no
             }
         "
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
     included_building_sets = {
         unity
@@ -744,8 +744,8 @@ zone_voidark_alpha_unity = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_bureaucrat
-        GESTALT_JOB = voidark_alpha_coordinator
+        JOB = phanon_bureaucrat
+        GESTALT_JOB = voidark_phanon_coordinator
         AMOUNT = @scaling_district_1_job
     }
 
@@ -754,8 +754,8 @@ zone_voidark_alpha_unity = {
         AMOUNT = -100
     }
 
-    swap_type = district_voidark_alpha_unity
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_unity
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_unity }
     ai_weight_coefficient = 0.5
@@ -763,14 +763,14 @@ zone_voidark_alpha_unity = {
 }
 
 
-zone_voidark_alpha_spiritualist = {
-    icon = GFX_district_specialization_voidark_alpha_unity
+zone_voidark_phanon_spiritualist = {
+    icon = GFX_district_specialization_voidark_phanon_unity
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = "
             exists = owner
             owner = {
@@ -778,7 +778,7 @@ zone_voidark_alpha_spiritualist = {
                 is_spiritualist = yes
             }
         "
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -788,12 +788,12 @@ zone_voidark_alpha_spiritualist = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_priest
-        GESTALT_JOB = ae_priest
+        JOB = phanon_priest
+        GESTALT_JOB = phanon_priest
         AMOUNT = @scaling_district_1_job
     }
 
-    triggered_district_planet_modifier = {
+    triggered_planet_modifier = {
         potential = {
             exists = owner
             owner = {
@@ -805,7 +805,7 @@ zone_voidark_alpha_spiritualist = {
                 has_building = building_sacrificial_temple_3
             }
         }
-        job_mortal_initiate_add = 200
+        job_mortal_initiate_add = 150
     }
 
     inline_script = {
@@ -813,28 +813,28 @@ zone_voidark_alpha_spiritualist = {
         AMOUNT = -100
     }
 
-    swap_type = district_voidark_alpha_unity_spiritualist
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_unity_spiritualist
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_unity }
     ai_weight_coefficient = 0.5
     ai_priority = 15
 }
 
-zone_voidark_alpha_servitor = {
-    icon = GFX_district_specialization_voidark_alpha_unity
+zone_voidark_phanon_servitor = {
+    icon = GFX_district_specialization_voidark_phanon_unity
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = "
             owner? = {
                 has_valid_civic = civic_machine_servitor
             }
         "
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -849,19 +849,18 @@ zone_voidark_alpha_servitor = {
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add_gestalt
         GESTALT_JOB = bio_trophy
-        AMOUNT = 2500
+        AMOUNT = 3500
     }
-
 
     triggered_planet_modifier = {
         potential = {
             always = yes
         }
-        planet_bio_trophies_unity_produces_add = 4
+        planet_bio_trophies_unity_produces_add = 6
     }
 
-    swap_type = district_voidark_alpha_unity_servitor
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_unity_servitor
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_unity }
     ai_weight_coefficient = 0.5
@@ -869,16 +868,16 @@ zone_voidark_alpha_servitor = {
 }
 
 # Research
-zone_voidark_alpha_research = {
-    icon = GFX_district_specialization_voidark_alpha_research
+zone_voidark_phanon_research = {
+    icon = GFX_district_specialization_voidark_phanon_research
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
     included_building_sets = {
         research
@@ -899,13 +898,13 @@ zone_voidark_alpha_research = {
                 has_starbase_building = xhk_worldark_science_nexus
             }
         }
-        text = alpha_science_tt
+        text = phanon_science_tt
     }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_researcher
-        GESTALT_JOB = ae_researcher_drone
+        JOB = phanon_researcher
+        GESTALT_JOB = phanon_researcher_drone
         AMOUNT = @scaling_district_1_job
     }
 
@@ -914,8 +913,8 @@ zone_voidark_alpha_research = {
         AMOUNT = -30
     }
 
-    swap_type = district_voidark_alpha_science
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_science
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_science }
     ai_weight_coefficient = 0.5
@@ -923,15 +922,15 @@ zone_voidark_alpha_research = {
 }
 
 # Amenities
-zone_voidark_alpha_amenities = {
-    icon = GFX_district_specialization_voidark_alpha_amenities
+zone_voidark_phanon_amenities = {
+    icon = GFX_district_specialization_voidark_phanon_amenities
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
+        TIER = phanon
         POTENTIAL = "owner? = { NOT = { has_valid_civic = civic_dystopian_society } }"
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
     included_building_sets = {
         resort
@@ -967,9 +966,12 @@ zone_voidark_alpha_amenities = {
         #ACOT
         building_acot_dm_mansion
         building_acot_ae_mansion
+        building_phanon_mansion
         building_acot_dm_temple
         building_acot_ae_temple
+        building_phanon_temple
         building_ae_sky_dome
+        building_phanon_sky_dome
 
         #PD
         building_pd_eludium_floating_resort
@@ -978,9 +980,9 @@ zone_voidark_alpha_amenities = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = acot_entertainer
-        GESTALT_JOB = acot_entertainter
-        AMOUNT = @doubled_scaling_district_1_job
+        JOB = phanon_entertainer
+        GESTALT_JOB = phanon_entertainter
+        AMOUNT = @scaling_district_1_job
     }
 
     inline_script = {
@@ -988,23 +990,23 @@ zone_voidark_alpha_amenities = {
         AMOUNT = -100
     }
 
-    swap_type = district_voidark_alpha_amenities
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_amenities
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_amenities }
     ai_weight_coefficient = 0.5
     ai_priority = 15
 }
 
-zone_voidark_alpha_amenities_dystopian = {
-    icon = GFX_district_specialization_voidark_alpha_amenities
+zone_voidark_phanon_amenities_dystopian = {
+    icon = GFX_district_specialization_voidark_phanon_amenities
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
+        TIER = phanon
         POTENTIAL = "owner? = { has_valid_civic = civic_dystopian_society } "
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
     included_building_sets = {
         resort
@@ -1041,21 +1043,24 @@ zone_voidark_alpha_amenities_dystopian = {
         #ACOT
         building_acot_dm_mansion
         building_acot_ae_mansion
+        building_phanon_mansion
         building_acot_dm_temple
         building_acot_ae_temple
+        building_phanon_temple
         building_ae_sky_dome
+        building_phanon_sky_dome
+
         #PD
         building_pd_eludium_floating_resort
         building_pd_acean_medical_center
     }
 
-
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_politician_jobs_add
-        JOB = acot_overseer
-        GESTALT_JOB = acot_overseer_droid
-        GESTALT_HIVE_JOB = acot_overseer_drone
-        AMOUNT = 400
+        JOB = phanon_overseer
+        GESTALT_JOB = phanon_overseer_droid
+        GESTALT_HIVE_JOB = phanon_overseer_drone
+        AMOUNT = 200
     }
 
     inline_script = {
@@ -1063,8 +1068,8 @@ zone_voidark_alpha_amenities_dystopian = {
         AMOUNT = -25
     }
 
-    swap_type = district_voidark_alpha_amenities_dystopian
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_amenities_dystopian
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_amenities }
     ai_weight_coefficient = 0.5
@@ -1072,16 +1077,16 @@ zone_voidark_alpha_amenities_dystopian = {
 }
 
 # Enforcer
-zone_voidark_alpha_enforcer = {
-    icon = GFX_district_specialization_voidark_alpha_enforcer
+zone_voidark_phanon_enforcer = {
+    icon = GFX_district_specialization_voidark_phanon_enforcer
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -1095,8 +1100,8 @@ zone_voidark_alpha_enforcer = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = acot_enforcer
-        GESTALT_JOB = acot_enforcer_drone
+        JOB = phanon_enforcer
+        GESTALT_JOB = phanon_enforcer_drone
         AMOUNT = @[scaling_district_1_job*2]
     }
 
@@ -1105,8 +1110,8 @@ zone_voidark_alpha_enforcer = {
         AMOUNT = -200
     }
 
-    swap_type = district_voidark_alpha_enforcer
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_enforcer
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_enforcer }
     ai_weight_coefficient = 0.5
@@ -1118,16 +1123,16 @@ zone_voidark_alpha_enforcer = {
 ###############################################################################################################
 
 # Refinery
-zone_voidark_alpha_refinery = {
-    icon = GFX_district_specialization_voidark_alpha_refinery
+zone_voidark_phanon_refinery = {
+    icon = GFX_district_specialization_voidark_phanon_refinery
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     included_building_sets = {
@@ -1138,17 +1143,17 @@ zone_voidark_alpha_refinery = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = acot_transmute_man
-        GESTALT_JOB = acot_transmute_drone
-        AMOUNT = @[doubled_scaling_district_1_job*2]
+        JOB = phanon_transmute_man
+        GESTALT_JOB = phanon_transmute_drone
+        AMOUNT = @doubled_scaling_district_1_job
     }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_refiners_jobs_reduce
     }
 
-    swap_type = district_voidark_alpha_refinery
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_refinery
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_refinery }
     ai_weight_coefficient = 0.5
@@ -1156,16 +1161,16 @@ zone_voidark_alpha_refinery = {
 }
 
 # Dark Matter
-zone_voidark_alpha_darkmatter= {
-    icon = GFX_district_specialization_voidark_alpha_darkmatter
+zone_voidark_phanon_darkmatter= {
+    icon = GFX_district_specialization_voidark_phanon_darkmatter
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
     included_building_sets = {
         physics
@@ -1183,6 +1188,13 @@ zone_voidark_alpha_darkmatter= {
         JOB = ae_dark_energy_man
         GESTALT_JOB = ae_dark_energy_drone
         AMOUNT = @doubled_scaling_district_1_job
+    }
+
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = phanon_dimension_folder
+        GESTALT_JOB = phanon_dimension_folderdrone
+        AMOUNT = @scaling_district_1_job
     }
 
     triggered_district_planet_modifier = {
@@ -1203,12 +1215,12 @@ zone_voidark_alpha_darkmatter= {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        planet_jobs_sr_dark_matter_produces_mult = 0.2
-        planet_jobs_acot_sr_dark_energy_produces_mult = 0.1
+        planet_jobs_sr_dark_matter_produces_mult = 0.3
+        planet_jobs_acot_sr_dark_energy_produces_mult = 0.2
     }
 
-    swap_type = district_voidark_alpha_darkmatter
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_darkmatter
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_darkmatter }
     ai_weight_coefficient = 0.5
@@ -1227,17 +1239,17 @@ zone_voidark_alpha_darkmatter= {
 # WAR
 ###############################################################################################################
 
-zone_voidark_alpha_ordinance_naval = {
-    icon = GFX_district_specialization_voidark_alpha_ordinance_naval
+zone_voidark_phanon_ordinance_naval = {
+    icon = GFX_district_specialization_voidark_phanon_ordinance_naval
     empire_limit = { base = 5 }
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
     included_building_sets = {
         foundry
@@ -1247,15 +1259,15 @@ zone_voidark_alpha_ordinance_naval = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        planet_soldiers_alloys_upkeep_add = 1
+        planet_soldiers_alloys_upkeep_add = 1.5
         naval_cap_from_shipwright = 2
-        ship_build_speed_from_shipwright = 0.06
+        ship_build_speed_from_shipwright = 0.09
     }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = acot_soldier
-        GESTALT_JOB = acot_soldier_drone
+        JOB = phanon_soldier
+        GESTALT_JOB = phanon_soldier_drone
         AMOUNT = @doubled_scaling_district_1_job
     }
     inline_script = {
@@ -1263,24 +1275,24 @@ zone_voidark_alpha_ordinance_naval = {
         AMOUNT = -100
     }
 
-    swap_type = district_voidark_alpha_ordinance_naval
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_ordinance_naval
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_ordinance }
     ai_weight_coefficient = 0.5
     ai_priority = 15
 }
-zone_voidark_alpha_ordinance_missile = {
-    icon = GFX_district_specialization_voidark_alpha_ordinance_missile
+zone_voidark_phanon_ordinance_missile = {
+    icon = GFX_district_specialization_voidark_phanon_ordinance_missile
     planet_limit = 1
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
     included_building_sets = {
         fortress
@@ -1289,15 +1301,15 @@ zone_voidark_alpha_ordinance_missile = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        planet_soldiers_alloys_upkeep_add = 0.6
-        planet_soldiers_volatile_motes_upkeep_add = 0.6
-        weapon_explosive_from_soldiers = 0.2
+        planet_soldiers_alloys_upkeep_add = 0.9
+        planet_soldiers_volatile_motes_upkeep_add = 0.9
+        weapon_explosive_from_soldiers = 0.3
     }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = acot_soldier
-        GESTALT_JOB = acot_soldier_drone
+        JOB = phanon_soldier
+        GESTALT_JOB = phanon_soldier_drone
         AMOUNT = @doubled_scaling_district_1_job
     }
     inline_script = {
@@ -1305,24 +1317,24 @@ zone_voidark_alpha_ordinance_missile = {
         AMOUNT = -100
     }
 
-    swap_type = district_voidark_alpha_ordinance_missile
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_ordinance_missile
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_ordinance }
     ai_weight_coefficient = 0.5
     ai_priority = 15
 }
-zone_voidark_alpha_ordinance_kinetic = {
-    icon = GFX_district_specialization_voidark_alpha_ordinance_kinetic
+zone_voidark_phanon_ordinance_kinetic = {
+    icon = GFX_district_specialization_voidark_phanon_ordinance_kinetic
     planet_limit = 1
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
     included_building_sets = {
         fortress
@@ -1331,15 +1343,15 @@ zone_voidark_alpha_ordinance_kinetic = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        planet_soldiers_alloys_upkeep_add = 0.6
-        planet_soldiers_volatile_motes_upkeep_add = 0.6
-        weapon_kinetic_from_soldiers = 0.2
+        planet_soldiers_alloys_upkeep_add = 0.9
+        planet_soldiers_volatile_motes_upkeep_add = 0.9
+        weapon_kinetic_from_soldiers = 0.3
     }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = acot_soldier
-        GESTALT_JOB = acot_soldier_drone
+        JOB = phanon_soldier
+        GESTALT_JOB = phanon_soldier_drone
         AMOUNT = @doubled_scaling_district_1_job
     }
     inline_script = {
@@ -1347,25 +1359,25 @@ zone_voidark_alpha_ordinance_kinetic = {
         AMOUNT = -100
     }
 
-    swap_type = district_voidark_alpha_ordinance_kinetic
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_ordinance_kinetic
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_ordinance }
     ai_weight_coefficient = 0.5
     ai_priority = 15
 }
 
-zone_voidark_alpha_ordinance_energy = {
-    icon = GFX_district_specialization_voidark_alpha_ordinance_energy
+zone_voidark_phanon_ordinance_energy = {
+    icon = GFX_district_specialization_voidark_phanon_ordinance_energy
     planet_limit = 1
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
     included_building_sets = {
         fortress
@@ -1374,15 +1386,15 @@ zone_voidark_alpha_ordinance_energy = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        planet_soldiers_alloys_upkeep_add = 0.6
-        planet_soldiers_rare_crystals_upkeep_add = 0.6
-        weapon_energy_from_soldiers = 0.2
+        planet_soldiers_alloys_upkeep_add = 0.9
+        planet_soldiers_rare_crystals_upkeep_add = 0.9
+        weapon_energy_from_soldiers = 0.3
     }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = acot_soldier
-        GESTALT_JOB = acot_soldier_drone
+        JOB = phanon_soldier
+        GESTALT_JOB = phanon_soldier_drone
         AMOUNT = @doubled_scaling_district_1_job
     }
     inline_script = {
@@ -1390,24 +1402,24 @@ zone_voidark_alpha_ordinance_energy = {
         AMOUNT = -100
     }
 
-    swap_type = district_voidark_alpha_ordinance_energy
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_ordinance_energy
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_ordinance }
     ai_weight_coefficient = 0.5
     ai_priority = 15
 }
-zone_voidark_alpha_ordinance_strike_craft = {
-    icon = GFX_district_specialization_voidark_alpha_ordinance_strike_craft
+zone_voidark_phanon_ordinance_strike_craft = {
+    icon = GFX_district_specialization_voidark_phanon_ordinance_strike_craft
     planet_limit = 1
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
     included_building_sets = {
         fortress
@@ -1416,15 +1428,15 @@ zone_voidark_alpha_ordinance_strike_craft = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        planet_soldiers_alloys_upkeep_add = 0.6
-        planet_soldiers_exotic_gases_upkeep_add = 0.6
-        weapon_strike_craft_from_soldiers = 0.2
+        planet_soldiers_alloys_upkeep_add = 0.9
+        planet_soldiers_exotic_gases_upkeep_add = 0.9
+        weapon_strike_craft_from_soldiers = 0.3
     }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = acot_soldier
-        GESTALT_JOB = acot_soldier_drone
+        JOB = phanon_soldier
+        GESTALT_JOB = phanon_soldier_drone
         AMOUNT = @doubled_scaling_district_1_job
     }
     inline_script = {
@@ -1432,8 +1444,8 @@ zone_voidark_alpha_ordinance_strike_craft = {
         AMOUNT = -100
     }
 
-    swap_type = district_voidark_alpha_ordinance_strike_craft
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_ordinance_strike_craft
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_ordinance }
     ai_weight_coefficient = 0.5
@@ -1444,16 +1456,16 @@ zone_voidark_alpha_ordinance_strike_craft = {
 # UTIL
 ###############################################################################################################
 
-zone_voidark_alpha_storage = {
-    icon = GFX_district_specialization_voidark_alpha_storage
+zone_voidark_phanon_storage = {
+    icon = GFX_district_specialization_voidark_phanon_storage
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 1
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
     included_building_sets = {
         storage
@@ -1464,6 +1476,7 @@ zone_voidark_alpha_storage = {
         building_fe_silo_2
         building_acot_dm_resource_silo
         building_acot_ae_resource_silo
+        building_phanon_resource_silo
     }
 
     triggered_district_country_modifier = {
@@ -1472,8 +1485,9 @@ zone_voidark_alpha_storage = {
         }
         country_resource_max_add = 10000
         situation_nomad_economy_max_progress_add = 1000
-        country_resource_max_sr_dark_matter_add = 1500
-        country_resource_max_acot_sr_dark_energy_add = 1500
+        country_resource_max_sr_dark_matter_add = 2000
+        country_resource_max_acot_sr_dark_energy_add = 2000
+        country_resource_max_aot_sr_runic_power_add = 1000
     }
     triggered_district_country_modifier = {
         potential = {
@@ -1489,8 +1503,8 @@ zone_voidark_alpha_storage = {
     }
 
 
-    swap_type = district_voidark_alpha_storage
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_storage
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_storage }
     ai_weight_coefficient = 0.5
@@ -1498,37 +1512,37 @@ zone_voidark_alpha_storage = {
 }
 
 
-zone_voidark_alpha_utilbay = {
-    icon = GFX_district_specialization_voidark_alpha_utilbay
+zone_voidark_phanon_utilbay = {
+    icon = GFX_district_specialization_voidark_phanon_utilbay
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
         UNLOCK = ""
-        TIER = alpha
-
+        TIER = phanon
+        
         POTENTIAL = ""
-        TECHNOLOGY = "tech_voidark_alpha"
+        TECHNOLOGY = "tech_voidark_phanon"
     }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = acot_workerman
         GESTALT_JOB = acot_workerdrone
-        AMOUNT = 50
+        AMOUNT = 75
     }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = acot_specialman
         GESTALT_JOB = acot_specialdrone
-        AMOUNT = 50
+        AMOUNT = 75
     }
 
 
 
     include = { all }
-    swap_type = district_voidark_alpha_utilbay
-    swap_type_weight = 10
+    swap_type = district_voidark_phanon_utilbay
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_utilbay }
     ai_weight_coefficient = 0.5

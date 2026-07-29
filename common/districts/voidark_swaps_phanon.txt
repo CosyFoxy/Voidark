@@ -1,0 +1,570 @@
+
+###############################################################################################################
+###############################################################################################################
+#          HABITATION
+###############################################################################################################
+###############################################################################################################
+
+## CITY
+district_voidark_phanon_city = {
+    icon = district_urban_re
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_city
+        BACKGROUND = district_urban_re
+        OVERLAY_ICON = GFX_district_government
+    }
+
+    inline_script = {
+        script =  voidark/districts/flavor/voidark_differentiate_flavor
+        TYPE = city
+        TIER = phanon
+    }
+    inline_script = voidark/districts/urban_district_bonus
+    inline_script = districts/ai_urban_district_extra_weighting
+}
+
+
+###############################################################################################################
+# MANUFACTURED GOODS
+###############################################################################################################
+
+## Foundry
+
+district_voidark_phanon_foundry = {
+    icon = district_aot_arcology_mixed_industry_pe
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_arms_industry
+        BACKGROUND = district_aot_arcology_arms_industry_pe
+        OVERLAY_ICON = GFX_district_alloys
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = foundry
+    }
+}
+
+## Factory
+district_voidark_phanon_factory = {
+    icon = district_aot_arcology_civilian_industry_pe
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_civilian_industry
+        BACKGROUND = district_aot_arcology_civilian_industry_pe
+        OVERLAY_ICON = GFX_district_consumer_goods
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = factory
+    }
+}
+
+## Trade
+district_voidark_phanon_trade = {
+    icon = district_aot_arcology_trade_pe
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_trade
+        BACKGROUND = district_aot_arcology_trade_pe
+        OVERLAY_ICON = GFX_district_trade
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = trade
+    }
+}
+
+###############################################################################################################
+# RAW RESOURCES
+###############################################################################################################
+
+## Generator
+
+district_voidark_phanon_generator = {
+    icon = district_aot_big_generator_pe
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_generator
+        BACKGROUND = district_aot_big_generator_pe
+        OVERLAY_ICON = GFX_district_energy
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = generator
+    }
+}
+
+district_voidark_phanon_generator_speed = {
+    icon = district_aot_big_generator_pe
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_generator
+        BACKGROUND = district_aot_big_generator_pe
+        OVERLAY_ICON = GFX_district_speed
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = generator_speed
+    }
+}
+
+district_voidark_phanon_generator_shield = {
+    icon = district_aot_big_generator_pe
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_generator
+        BACKGROUND = district_aot_big_generator_pe
+        OVERLAY_ICON = GFX_district_shield
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = generator_shield
+    }
+}
+
+## Penrose
+district_voidark_phanon_penrose = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_generator
+        BACKGROUND = district_voidark_phanon_penrose
+        OVERLAY_ICON = GFX_district_energy
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = penrose
+    }
+}
+
+district_voidark_phanon_penrose_speed = {
+    icon = district_voidark_phanon_penrose
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_generator
+        BACKGROUND = district_voidark_phanon_penrose
+        OVERLAY_ICON = GFX_district_speed
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = penrose_speed
+    }
+}
+
+district_voidark_phanon_penrose_shield = {
+    icon = district_voidark_phanon_penrose
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_generator
+        BACKGROUND = district_voidark_phanon_penrose
+        OVERLAY_ICON = GFX_district_shield
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = penrose_shield
+    }
+}
+
+## Minerals
+district_voidark_phanon_minerals = {
+    icon = district_aot_power_mining_pe
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_mining
+        BACKGROUND = district_voidark_phanon_minerals
+        OVERLAY_ICON = GFX_district_minerals
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = minerals
+    }
+}
+
+## Decompressor
+district_voidark_phanon_decompressor = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_mining
+        BACKGROUND = district_voidark_phanon_decompressor
+        OVERLAY_ICON = GFX_district_minerals
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = decompressor
+    }
+}
+
+## Farming
+district_voidark_phanon_farming = {
+    icon = district_aot_power_farming_pe
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_farming
+        BACKGROUND = district_aot_power_farming_pe
+        OVERLAY_ICON = GFX_district_food
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = farming
+    }
+}
+
+###############################################################################################################
+# INTELLECTUAL
+###############################################################################################################
+
+## Unity
+district_voidark_phanon_unity = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_administrative
+        BACKGROUND = district_voidark_phanon_unity
+        OVERLAY_ICON = GFX_district_unity
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = unity
+    }
+}
+
+## Unity Spiritualist
+district_voidark_phanon_unity_spiritualist = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_administrative
+        BACKGROUND = district_voidark_phanon_unity_spiritualist
+        OVERLAY_ICON = GFX_district_unity
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = unity_spiritualist
+    }
+}
+
+## Unity Hive
+district_voidark_phanon_unity_hive = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_administrative
+        BACKGROUND = district_voidark_phanon_unity_hive
+        OVERLAY_ICON = GFX_district_unity
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = unity_hive
+    }
+}
+
+## Unity Machine
+district_voidark_phanon_unity_machine = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_administrative
+        BACKGROUND = district_voidark_phanon_unity_machine
+        OVERLAY_ICON = GFX_district_unity
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = unity_machine
+    }
+}
+
+## Unity Servitor
+district_voidark_phanon_unity_servitor = {
+    icon = district_voidark_phanon_unity_machine
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_administrative
+        BACKGROUND = district_voidark_phanon_unity_machine
+        OVERLAY_ICON = GFX_district_unity
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = unity_servitor
+    }
+}
+
+## Science
+district_voidark_phanon_science = {
+    icon = district_aot_arcology_research_pe
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_research
+        BACKGROUND = district_aot_arcology_research_pe
+        OVERLAY_ICON = GFX_district_research
+    }
+    inline_script = {
+        script = voidark/zones/parts/voidark_research_zone_experimentation
+        ACOT_TIER = phanon
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = science
+    }
+}
+
+## Amenities
+district_voidark_phanon_amenities = {
+    icon = district_voidark_phanon_amenities
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_leisure
+        BACKGROUND = district_aot_arcology_trade_pe
+        OVERLAY_ICON = GFX_district_amenities
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_differentiate_flavor
+        TIER = phanon
+        TYPE = amenities
+    }
+}
+
+## Amenities Dystopian
+district_voidark_phanon_amenities_dystopian = {
+    icon = district_voidark_phanon_amenities
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_leisure
+        BACKGROUND = district_aot_arcology_trade_pe
+        OVERLAY_ICON = GFX_district_amenities
+    }
+
+    shared_capacity_modifier = district_xhk_worldark_amenities_dystopian
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = amenities_dystopian
+    }
+}
+
+## Enforcer
+district_voidark_phanon_enforcer = {
+    icon = district_aot_arcology_civilian_industry_pe
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_leisure
+        BACKGROUND = district_aot_arcology_civilian_industry_pe
+        OVERLAY_ICON = GFX_giga_district_crime
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_differentiate_flavor
+        TIER = phanon
+        TYPE = enforcer
+    }
+}
+
+###############################################################################################################
+# WAR
+###############################################################################################################
+
+## Ordinance
+district_voidark_phanon_ordinance = {
+    icon = district_voidark_phanon_ordinance_naval
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_fortress
+        BACKGROUND = district_voidark_phanon_ordinance_strike_craft
+        OVERLAY_ICON = GFX_district_fortress
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = ordinance
+    }
+}
+
+
+district_voidark_phanon_ordinance_naval = {
+    icon = district_voidark_phanon_ordinance_naval
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_fortress
+        BACKGROUND = district_voidark_phanon_ordinance_naval
+        OVERLAY_ICON = GFX_district_ship
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = ordinance_naval
+    }
+}
+
+district_voidark_phanon_ordinance_missile = {
+    icon = district_voidark_phanon_ordinance_naval
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_fortress
+        BACKGROUND = district_voidark_phanon_ordinance_kinetic
+        OVERLAY_ICON = GFX_district_damage
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = ordinance_missile
+    }
+}
+
+
+district_voidark_phanon_ordinance_kinetic = {
+    icon = district_voidark_phanon_ordinance_naval
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_fortress
+        BACKGROUND = district_voidark_phanon_ordinance_kinetic
+        OVERLAY_ICON = GFX_district_damage
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = ordinance_kinetic
+    }
+}
+
+
+district_voidark_phanon_ordinance_energy = {
+    icon = district_voidark_phanon_ordinance_naval
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_fortress
+        BACKGROUND = district_voidark_phanon_ordinance_kinetic
+        OVERLAY_ICON = GFX_district_damage
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = ordinance_energy
+    }
+}
+
+
+district_voidark_phanon_ordinance_strike_craft = {
+    icon = district_voidark_phanon_ordinance_naval
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_fortress
+        BACKGROUND = district_voidark_phanon_ordinance_strike_craft
+        OVERLAY_ICON = GFX_district_damage
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = ordinance_strike_craft
+    }
+}
+
+#todo ENIGMATIC ORDINANCE?
+
+###############################################################################################################
+# SPECIAL RESOURCES
+###############################################################################################################
+
+## Refinery
+district_voidark_phanon_refinery = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_industrial
+        BACKGROUND = district_voidark_phanon_refinery
+        OVERLAY_ICON = GFX_giga_district_strategic_resources
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = refinery
+    }
+}
+
+## Dark Matter
+district_voidark_phanon_darkmatter = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_polytechnic
+        BACKGROUND = district_voidark_phanon_penrose
+        OVERLAY_ICON = GFX_giga_district_dark_matter
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = darkmatter
+    }
+}
+
+## Supertensiles
+
+## Neg Mass
+#todo
+
+## Sent metal
+#todo
+
+###############################################################################################################
+# UTIL
+###############################################################################################################
+
+## Storage
+district_voidark_phanon_storage = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_generator
+        BACKGROUND = district_aot_arcology_trade_pe
+        OVERLAY_ICON = GFX_xhk_worldark_storage_spec
+    }
+
+    triggered_desc = {
+        trigger = {
+            has_xhk_storage_zone = no
+        }
+        text = district_voidark_phanon_storage_effect
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = storage
+    }
+}
+
+# Building holder
+
+district_voidark_phanon_utilbay = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_generator
+        BACKGROUND = district_voidark_phanon_ordinance_strike_craft
+        OVERLAY_ICON = GFX_district_housing
+    }
+    base_cap_amount = 1
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = utilbay
+    }
+}

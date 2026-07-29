@@ -1,0 +1,305 @@
+﻿l_polish:
+
+ #ZONES ------------------------------------------------------------------
+ voidark_alpha_zone_dummy: "Dummy"
+ voidark_alpha_zone_dummy_desc: "Dummy"
+ #----------------------
+ zone_voidark_alpha_urban: "§B$concept_alpha_tier$ $zone_urban$§!"
+ zone_voidark_alpha_urban_desc: "The central habitation areas of the $xhk_pc_worldark$."
+
+ zone_voidark_alpha_factory: "§B$concept_alpha_tier$ $zone_xhk_worldark_factory$§!"
+ zone_voidark_alpha_factory_desc: "$zone_factory_desc$"
+
+ zone_voidark_alpha_foundry: "§B$concept_alpha_tier$ $zone_xhk_worldark_foundry$§!"
+ zone_voidark_alpha_foundry_desc: "$zone_foundry_desc$"
+
+ zone_voidark_alpha_voidforge: "§B$concept_alpha_tier$ $zone_xhk_worldark_voidforge$§!"
+ zone_voidark_alpha_voidforge_desc: "$zone_ark_military_eco_desc$"
+
+ zone_voidark_alpha_trade: "§B$concept_alpha_tier$ $zone_xhk_worldark_trade$§!"
+ zone_voidark_alpha_trade_desc: "$zone_trade_desc$"
+
+ zone_voidark_alpha_waylogi: "§B$concept_alpha_tier$ $zone_xhk_worldark_waylogi$§!"
+ zone_voidark_alpha_waylogi_desc: "$zone_ark_waystation_trade_desc$"
+
+ zone_voidark_alpha_generator: "§B$concept_alpha_tier$ $zone_xhk_worldark_generator$§!"
+ zone_voidark_alpha_generator_desc: "Arrays of energy generator with unparalleled efficiency. Never again will we lack power."
+
+ zone_voidark_alpha_penrose: "§B$concept_alpha_tier$ Penrose $zone_xhk_worldark_generator$§!"
+ zone_voidark_alpha_penrose_desc: "$district_voidark_alpha_penrose_desc$"
+
+ zone_voidark_alpha_generator_speed: "§B$concept_alpha_tier$ $zone_xhk_worldark_reactspeed$§!"
+ zone_voidark_alpha_generator_speed_desc: "$district_voidark_alpha_generator_speed_desc$"
+
+ #zone_voidark_alpha_penrose_speed: "§B$concept_alpha_tier$ $zone_xhk_worldark_reactspeed_penrose$§!"
+ zone_voidark_alpha_penrose_speed: "§B$concept_alpha_tier$ Penrose $zone_xhk_worldark_reactspeed$§!"
+ zone_voidark_alpha_penrose_speed_desc: "$district_voidark_alpha_penrose_speed_desc$"
+
+ zone_voidark_alpha_generator_shield: "§B$concept_alpha_tier$ $zone_xhk_worldark_reactshield$§!"
+ zone_voidark_alpha_generator_shield_desc: "$district_voidark_alpha_generator_shield_desc$"
+
+ #zone_voidark_alpha_penrose_shield: "§B$concept_alpha_tier$ $zone_xhk_worldark_reactshield_penrose$§!"
+ zone_voidark_alpha_penrose_shield: "§B$concept_alpha_tier$ Penrose $zone_xhk_worldark_reactshield$§!"
+ zone_voidark_alpha_penrose_shield_desc: "$district_voidark_alpha_penrose_shield_desc$"
+
+ zone_voidark_alpha_mining: "§B$concept_alpha_tier$ $zone_xhk_worldark_mining$§!"
+ zone_voidark_alpha_mining_desc: "$district_voidark_alpha_minerals_desc$"
+
+ zone_voidark_alpha_decompressor: "§B$concept_alpha_tier$ Gravity-Compacted Matter Extraction§!"
+ zone_voidark_alpha_decompressor_desc: "$district_voidark_alpha_decompressor_desc$"
+
+ zone_voidark_alpha_farming: "§B$concept_alpha_tier$ $zone_xhk_worldark_farming$§!"
+ zone_voidark_alpha_farming_desc: "$zone_ark_food_desc$"
+
+ zone_voidark_alpha_unity: "§B$concept_alpha_tier$ $zone_xhk_worldark_unity$§!"
+ zone_voidark_alpha_unity_desc: "$zone_unity_desc$"
+
+ zone_voidark_alpha_spiritualist: "§B$concept_alpha_tier$ $zone_xhk_worldark_spiritualist$§!"
+ zone_voidark_alpha_spiritualist_desc: "$zone_unity_spiritualist_desc$"
+
+ zone_voidark_alpha_servitor: "§B$concept_alpha_tier$ $zone_xhk_worldark_servitor$§!"
+ zone_voidark_alpha_servitor_desc: "$zone_unity_bio_trophy_desc$"
+
+ zone_voidark_alpha_research: "§B$concept_alpha_tier$ $zone_xhk_worldark_research$§!"
+ zone_voidark_alpha_research_desc: "$zone_research_desc$"
+
+ zone_voidark_alpha_amenities: "§B$concept_alpha_tier$ $zone_xhk_worldark_amenities$§!"
+ zone_voidark_alpha_amenities_desc: "$zone_ark_forever_cruise_city_passenger_desc$"
+
+ zone_voidark_alpha_enforcer: "§B$concept_alpha_tier$ $zone_xhk_worldark_enforcer$§!"
+ zone_voidark_alpha_enforcer_desc: "$zone_xhk_worldark_enforcer_desc$"
+
+ zone_voidark_alpha_refinery: "§B$concept_alpha_tier$ $zone_xhk_worldark_refinery$§!"
+ zone_voidark_alpha_refinery_desc: "$zone_xhk_worldark_refinery_desc$"
+
+ zone_voidark_alpha_darkmatter: "§B$concept_alpha_tier$ $zone_xhk_worldark_darkmatter$§!"
+ zone_voidark_alpha_darkmatter_desc: "$district_voidark_alpha_darkmatter_desc$"
+
+ zone_voidark_alpha_ordinance_naval: "§B$concept_alpha_tier$ $zone_xhk_worldark_ordinance_naval$§!"
+ zone_voidark_alpha_ordinance_naval_desc: "$zone_ark_shipwright_desc$"
+
+ zone_voidark_alpha_ordinance_missile: "§B$concept_alpha_tier$ $zone_xhk_worldark_ordinance_missile_silos$§!"
+ zone_voidark_alpha_ordinance_missile_desc: "$zone_ark_missile_silos_desc$"
+
+ zone_voidark_alpha_ordinance_kinetic: "§B$concept_alpha_tier$ $zone_xhk_worldark_ordinance_ammunition_lines$§!"
+ zone_voidark_alpha_ordinance_kinetic_desc: "$zone_ark_ammunition_lines_desc$"
+
+ zone_voidark_alpha_ordinance_energy: "§B$concept_alpha_tier$ $zone_xhk_worldark_ordinance_laser_capacitors$§!"
+ zone_voidark_alpha_ordinance_energy_desc: "$zone_ark_laser_capacitors_desc$"
+
+ zone_voidark_alpha_ordinance_strike_craft: "§B$concept_alpha_tier$ $zone_xhk_worldark_ordinance_flight_decks$§!"
+ zone_voidark_alpha_ordinance_strike_craft_desc: "$zone_ark_flight_decks_desc$"
+
+ zone_voidark_alpha_storage: "§B$concept_alpha_tier$ $zone_xhk_worldark_storage$§!"
+ zone_voidark_alpha_storage_desc: "$district_xhk_worldark_storage_desc$"
+
+ zone_voidark_alpha_utilbay: "§B$concept_alpha_tier$ $zone_xhk_worldark_utilbay$§!"
+ zone_voidark_alpha_utilbay_desc: "$district_xhk_worldark_utilbay_desc$"
+
+ zone_voidark_alpha_amenities_dystopian: "§B$concept_alpha_tier$ $zone_xhk_worldark_amenities_dystopian$§!"
+ zone_voidark_alpha_amenities_dystopian_desc: "$zone_xhk_worldark_amenities_dystopian_desc$"
+
+
+ #DISTRICTS ------------------------------------------------------------------
+ district_voidark_alpha_city: "§B$concept_alpha_tier$ $district_xhk_worldark_city$§!"
+ district_voidark_alpha_city_desc: "$district_ark_city_desc$"
+ district_voidark_alpha_city_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_city_plural$§!"
+ flavor_district_voidark_alpha_city: "§YLiving Quarter§!"
+ flavor_district_voidark_alpha_city_desc: "$district_ark_city_desc$"
+ flavor_district_voidark_alpha_city_plural: "§YLiving Quarters§!"
+ flavor_district_voidark_alpha_city_spiritualist: "§YEcclesiastical Hub§!"
+ flavor_district_voidark_alpha_city_spiritualist_desc: "$district_arcology_spiritualist_desc$"
+ flavor_district_voidark_alpha_city_spiritualist_plural: "§YEcclesiastical Hubs§!"
+ flavor_district_voidark_alpha_city_machine: "§YCentral Processing Area§!"
+ flavor_district_voidark_alpha_city_machine_desc: "$city_machine_core_1_desc$"
+ flavor_district_voidark_alpha_city_machine_plural: "§YCentral Processing Areas§!"
+ flavor_district_voidark_alpha_city_hive: "§YCentral Drone Hub§!"
+ flavor_district_voidark_alpha_city_hive_desc: "$city_first_hive_1_desc$"
+ flavor_district_voidark_alpha_city_hive_plural: "§Y Central Drone Hubs§!"
+
+ #todo adjust on other levels
+ district_voidark_alpha_foundry: "§B$concept_alpha_tier$ $district_xhk_worldark_foundry$§!"
+ district_voidark_alpha_foundry_desc: "Infused with the power of dark matter and dark energy, our military industries create vast amounts of components for our tools of warfare."
+ district_voidark_alpha_foundry_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_foundry_plural$§!"
+ flavor_district_voidark_alpha_foundry: "§Y$flavor_xhk_worldark_foundry_name$§!"
+
+ district_voidark_alpha_factory: "§B$concept_alpha_tier$ $district_xhk_worldark_factory$§!"
+ district_voidark_alpha_factory_desc: "$district_xhk_worldark_factory_desc$"
+ district_voidark_alpha_factory_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_foundry_plural$§!"
+ flavor_district_voidark_alpha_factory: "§Y$flavor_xhk_worldark_factory_name$§!"
+
+ district_voidark_alpha_trade: "§B$concept_alpha_tier$ $district_xhk_worldark_trade$§!"
+ district_voidark_alpha_trade_desc: "$district_ark_waystation_trade_flavor_desc$"
+ district_voidark_alpha_trade_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_trade_plural$§!"
+ flavor_district_voidark_alpha_trade: "§Y$flavor_xhk_worldark_waystation_trade_name$§!"
+
+ #todo adjust on other levels
+ district_voidark_alpha_generator: "§B$concept_alpha_tier$ $district_xhk_worldark_generator$§!"
+ district_voidark_alpha_generator_desc: "$district_ark_generator_desc$\nBy infusing dark matter and dark energy, their efficiency is better than ever."
+ district_voidark_alpha_generator_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_generator_plural$§!"
+ flavor_district_voidark_alpha_generator: "§YPower Generators§!"
+
+ #todo adjust on other levels
+ district_voidark_alpha_generator_speed: "§B$concept_alpha_tier$ $district_xhk_worldark_generator_speed$§!"
+ district_voidark_alpha_generator_speed_desc: "$district_ark_engine_bypass_desc$\nBy infusing dark matter and dark energy, this process is vastly more efficient."
+ district_voidark_alpha_generator_speed_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_generator_speed_plural$§!"
+ flavor_district_voidark_alpha_generator_speed: "§YQuantum Rerouting§!"
+
+ district_voidark_alpha_generator_shield: "§B$concept_alpha_tier$ $district_xhk_worldark_generator_shield$§!"
+ district_voidark_alpha_generator_shield_desc: "The injection of dark energy in the reactors allows us to run shields beyond parameters once thought possible."
+ district_voidark_alpha_generator_shield_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_generator_shield_plural$§!"
+ flavor_district_voidark_alpha_generator_shield: "§YQuantum Rerouting§!"
+
+ #todo adjust on other levels
+ district_voidark_alpha_penrose: "§B$concept_alpha_tier$ $district_xhk_worldark_penrose$§!"
+ district_voidark_alpha_penrose_desc: "Consisting of large panels of advanced enigmatic matter-infused alloy inscribed with intricate superconducting cable, these continent sized plates generate energy from the caged black hole."
+ district_voidark_alpha_penrose_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_penrose_plural$§!"
+ flavor_district_voidark_alpha_penrose: "§Y$xhk_worldark_penrose_subtitle$§!"
+
+ district_voidark_alpha_penrose_speed: "§B$concept_alpha_tier$ $district_xhk_worldark_penrose_speed$§!"
+ district_voidark_alpha_penrose_speed_desc: "$district_xhk_worldark_penrose_shield_desc$"
+ district_voidark_alpha_penrose_speed_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_penrose_speed_plural$§!"
+ flavor_district_voidark_alpha_penrose_speed: "§Y$xhk_worldark_penrose_speed_subtitle$§!"
+
+ district_voidark_alpha_penrose_shield: "§B$concept_alpha_tier$ $district_xhk_worldark_penrose_shield$§!"
+ district_voidark_alpha_penrose_shield_desc: "$district_xhk_worldark_penrose_shield_desc$"
+ district_voidark_alpha_penrose_shield_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_penrose_shield_plural$§!"
+ flavor_district_voidark_alpha_penrose_shield: "§Y$xhk_worldark_penrose_shield_subtitle$§!"
+
+ #todo adjust on other levels
+ district_voidark_alpha_minerals: "§B$concept_alpha_tier$ $district_xhk_worldark_minerals$§!"
+ district_voidark_alpha_minerals_desc: "Reserving dedicated arkship space for the collection and triage of harvested resources offers a higher yield thanks to the opportunity of in-gravity operations and the use of advanced enigmatic machinery."
+ district_voidark_alpha_minerals_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_minerals_plural$§!"
+ flavor_district_voidark_alpha_minerals: "§YMining Operations§!"
+
+ district_voidark_alpha_decompressor: "§B$concept_alpha_tier$ $district_xhk_worldark_decompressor$§!"
+ district_voidark_alpha_decompressor_desc: "$district_xhk_worldark_decompressor_desc$"
+ district_voidark_alpha_decompressor_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_decompressor_plural$§!"
+ flavor_district_voidark_alpha_decompressor: "§Y$xhk_worldark_decompressor_subtitle$§!"
+
+ district_voidark_alpha_farming: "§B$concept_alpha_tier$ $district_xhk_worldark_farming$§!"
+ district_voidark_alpha_farming_desc: "$district_ark_food_desc$"
+ district_voidark_alpha_farming_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_farming_plural$§!"
+ flavor_district_voidark_alpha_farming: "§YNourishment Systems§!"
+
+ district_voidark_alpha_unity: "§B$concept_alpha_tier$ $district_xhk_worldark_unity$§!"
+ district_voidark_alpha_unity_desc: "$district_arcology_administrative_desc$"
+ district_voidark_alpha_unity_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_unity_plural$§!"
+ flavor_district_voidark_alpha_unity: "§YCoordinative Institutes§!"
+
+ district_voidark_alpha_unity_spiritualist: "§B$concept_alpha_tier$ $district_xhk_worldark_unity_spiritualist$§!"
+ district_voidark_alpha_unity_spiritualist_desc: "$district_arcology_spiritualist_desc$"
+ district_voidark_alpha_unity_spiritualist_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_unity_spiritualist_plural$§!"
+ flavor_district_voidark_alpha_: "§YHoly Halls§!"
+
+ district_voidark_alpha_unity_hive: "§B$concept_alpha_tier$ $district_xhk_worldark_unity_hive$§!"
+ district_voidark_alpha_unity_hive_desc: "$district_hive_administrative_desc$"
+ district_voidark_alpha_unity_hive_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_unity_hive_plural$§!"
+ flavor_district_voidark_alpha_unity_hive: "§YConnective Chambers§!"
+
+ district_voidark_alpha_unity_machine: "§B$concept_alpha_tier$ $district_xhk_worldark_unity_machine$§!"
+ district_voidark_alpha_unity_machine_desc: "$district_nexus_administrative_desc$"
+ district_voidark_alpha_unity_machine_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_unity_machine_plural$§!"
+ flavor_district_voidark_alpha_unity_machine: "§YData Coordination Processors§!"
+
+ district_voidark_alpha_unity_servitor: "§B$concept_alpha_tier$ $district_xhk_worldark_unity_servitor$§!"
+ district_voidark_alpha_unity_servitor_desc: "$district_nexus_organic_housing_desc$"
+ district_voidark_alpha_unity_servitor_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_unity_servitor_plural$§!"
+ flavor_district_voidark_alpha_unity_servitor: "§YBio-Resort Arrays§!"
+
+ district_voidark_alpha_science: "§B$concept_alpha_tier$ $district_xhk_worldark_research$§!"
+ district_voidark_alpha_science_desc: "$district_xhk_worldark_research_desc$"
+ district_voidark_alpha_science_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_research_plural$§!"
+ flavor_district_voidark_alpha_science: "§YNano-laboratory§!"
+ alpha_science_tt: "Due to presence of §Y$sm_xhk_worldark_science_nexus$§!:$NEW_LINE$- $mod_planet_researchers_produces_mult$: §G+10%§!"
+
+ district_voidark_alpha_amenities: "§B$concept_alpha_tier$ $district_xhk_worldark_amenities$§!"
+ district_voidark_alpha_amenities_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_amenities_plural$§!"
+ flavor_district_voidark_alpha_amenities: "§YLuxury Areas§!"
+ district_voidark_alpha_amenities_desc: "$district_xhk_worldark_amenities_desc$"
+ district_voidark_alpha_amenities_spiritualist: "§B$concept_alpha_tier$ Sanctimonious Deck§!"
+ district_voidark_alpha_amenities_spiritualist_desc: "Vast corridors filled with prayer rooms, libraries of religious scriptures, and communal areas. For our devoted people, these decks fill many needs."
+ district_voidark_alpha_amenities_spiritualist_plural: "§B$concept_alpha_tier$ Sanctimonious Decks§!"
+ flavor_district_voidark_alpha_amenities_spiritualist: "§YSanctimonious Deck§!"
+
+
+ #doesnt exists
+ district_voidark_alpha_amenities_machine: "§B$concept_alpha_tier$ $district_xhk_worldark_amenities$§!"
+ district_voidark_alpha_amenities_machine_desc: "REPLACE_ME"
+ district_voidark_alpha_amenities_machine_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_amenities_plural$§!"
+ district_voidark_alpha_amenities_hive: "§B$concept_alpha_tier$ $district_xhk_worldark_amenities$§!"
+ district_voidark_alpha_amenities_hive_desc: "REPLACE_ME"
+ district_voidark_alpha_amenities_hive_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_amenities_plural$§!"
+
+ district_voidark_alpha_amenities_dystopian: "§B$concept_alpha_tier$ $district_xhk_worldark_amenities_dystopian$§!"
+ district_voidark_alpha_amenities_dystopian_desc: "$district_xhk_worldark_amenities_desc$"
+ district_voidark_alpha_amenities_dystopian_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_amenities_dystopian_plural$§!"
+ flavor_district_voidark_alpha_amenities_dystopian: "§YRetreat of Elites§!"
+
+ district_voidark_alpha_enforcer: "§B$concept_alpha_tier$ $district_xhk_worldark_enforcer$§!"
+ district_voidark_alpha_enforcer_desc: "$district_xhk_worldark_enforcer_desc$"
+ flavor_district_voidark_alpha_enforcer: "§YProtective Headquarters§!"
+ district_voidark_alpha_enforcer_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_enforcer_plural$§!"
+ flavor_district_voidark_alpha_enforcer_spiritualist: "§YHoly Inquisition Office§!"
+ flavor_district_voidark_alpha_enforcer_spiritualist_desc: "$district_xhk_worldark_enforcer_desc$"
+ flavor_district_voidark_alpha_enforcer_spiritualist_plural: "§YHoly Inquisition Offices§!"
+ flavor_district_voidark_alpha_enforcer_machine: "§YFirewall Server§!"
+ flavor_district_voidark_alpha_enforcer_machine_desc: "These facilities house the firewall and regulatory units of this vessel, ensuring no deviant program is left unchecked."
+ flavor_district_voidark_alpha_enforcer_machine_plural: "§YFirewall Servers§!"
+ flavor_district_voidark_alpha_enforcer_hive: "§YAnti-Deviancy Node§!"
+ flavor_district_voidark_alpha_enforcer_hive_desc: "These clusters house the central control drones of the hive. No deviant drone will escape the hive's watch."
+ flavor_district_voidark_alpha_enforcer_hive_plural: "§YAnti-Deviancy Nodes§!"
+
+
+ district_voidark_alpha_ordinance: "§B$concept_alpha_tier$ $district_xhk_worldark_ordinance$§!"
+ district_voidark_alpha_ordinance_desc: "$district_ark_military_desc$"
+ district_voidark_alpha_ordinance_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_ordinance_plural$§!"
+ flavor_district_voidark_alpha_ordinance: "§YEngineering Bay§!"
+
+ district_voidark_alpha_ordinance_naval: "§B$concept_alpha_tier$ $district_xhk_worldark_ordinance_naval$§!"
+ district_voidark_alpha_ordinance_naval_desc: "$district_ark_military_desc$"
+ district_voidark_alpha_ordinance_naval_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_ordinance_naval_plural$§!"
+ flavor_district_voidark_alpha_ordinance_naval: "§YAdmirality Center§!"
+
+ district_voidark_alpha_ordinance_missile: "§B$concept_alpha_tier$ $district_xhk_worldark_ordinance_missile$§!"
+ district_voidark_alpha_ordinance_missile_desc: "$district_ark_military_desc$"
+ district_voidark_alpha_ordinance_missile_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_ordinance_missile_plural$§!"
+ flavor_district_voidark_alpha_ordinance_missile: "§YExplosive Armaments§!"
+
+ district_voidark_alpha_ordinance_kinetic: "§B$concept_alpha_tier$ $district_xhk_worldark_ordinance_kinetic$§!"
+ district_voidark_alpha_ordinance_kinetic_desc: "$district_ark_military_desc$"
+ district_voidark_alpha_ordinance_kinetic_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_ordinance_kinetic_plural$§!"
+ flavor_district_voidark_alpha_ordinance_kinetic: "§YKinetic Armaments§!"
+
+ district_voidark_alpha_ordinance_energy: "§B$concept_alpha_tier$ $district_xhk_worldark_ordinance_energy$§!"
+ district_voidark_alpha_ordinance_energy_desc: "$district_ark_military_desc$"
+ district_voidark_alpha_ordinance_energy_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_ordinance_energy_plural$§!"
+ flavor_district_voidark_alpha_ordinance_energy: "§YEnergy Armaments§!"
+
+ district_voidark_alpha_ordinance_strike_craft: "§B$concept_alpha_tier$ $district_xhk_worldark_ordinance_fighter$§!"
+ district_voidark_alpha_ordinance_strike_craft_desc: "$district_ark_military_desc$"
+ district_voidark_alpha_ordinance_strike_craft_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_ordinance_fighter_plural$§!"
+ flavor_district_voidark_alpha_ordinance_strike_craft: "§YFighter Bays§!"
+
+ district_voidark_alpha_refinery: "§B$concept_alpha_tier$ $district_xhk_worldark_refinery$§!"
+ district_voidark_alpha_refinery_desc: "$district_xhk_worldark_refinery_desc$"
+ district_voidark_alpha_refinery_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_refinery_plural$§!"
+ flavor_district_voidark_alpha_refinery: "§YStrategic Matter Creation§!"
+
+ district_voidark_alpha_darkmatter: "§B$concept_alpha_tier$ $district_xhk_worldark_darkmatter$§!"
+ district_voidark_alpha_darkmatter_desc: "The creation of dark matter has only been amplified by the discovery of dark energy, and these facilities can now create both of the vital resources."
+ district_voidark_alpha_darkmatter_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_darkmatter_plural$§!"
+ flavor_district_voidark_alpha_darkmatter: "§YVeil of Dark§!"
+
+ #todo adjust on other levels
+ district_voidark_alpha_storage: "§B$concept_alpha_tier$ $district_xhk_worldark_storage$§!"
+ district_voidark_alpha_storage_desc: "$district_xhk_worldark_storage_desc$"
+ district_voidark_alpha_storage_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_storage_plural$§!"
+ district_voidark_alpha_storage_effect: "Attached Zone gives: \n§G+10000§! £mod_country_resource_max_add£ Resource Storage\n§G+1000§! £operational_reserves£ $mod_situation_nomad_economy_max_progress_add$\n§G+1500§! £sr_dark_matter£ $mod_country_resource_max_sr_dark_matter_add$\n§G+1500§! £acot_sr_dark_energy£ $mod_country_resource_max_acot_sr_dark_energy_add$"
+ flavor_district_voidark_alpha_storage: "§YLiminal Storage§!"
+
+ district_voidark_alpha_utilbay: "§B$concept_alpha_tier$ $district_xhk_worldark_utilbay$§!"
+ district_voidark_alpha_utilbay_desc: "$district_xhk_worldark_utilbay_desc$"
+ district_voidark_alpha_utilbay_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_utilbay_plural$§!"
+ flavor_district_voidark_alpha_utilbay: "§YAccessory Sectors§!"
+
