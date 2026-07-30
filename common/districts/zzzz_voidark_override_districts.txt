@@ -51,6 +51,30 @@ district_xhk_worldark_storage = {
         text = district_voidark_delta_storage_effect
     }
 
+    triggered_desc = {
+        trigger = {
+            has_xhk_storage_zone = no
+            has_alpha_storage_zone = yes
+        }
+        text = district_voidark_alpha_storage_effect
+    }
+
+    triggered_desc = {
+        trigger = {
+            has_xhk_storage_zone = no
+            has_phanon_storage_zone = yes
+        }
+        text = district_voidark_phanon_storage_effect
+    }
+
+    triggered_desc = {
+        trigger = {
+            has_xhk_storage_zone = no
+            has_stellarite_storage_zone = yes
+        }
+        text = district_voidark_stellarite_storage_effect
+    }
+
     triggered_name = {
         text = flavor_xhk_worldark_storage_name
     }

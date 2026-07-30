@@ -87,21 +87,21 @@ has_delta_storage_zone = {
     }
 }
 
-# has_alpha_storage_zone = {
-#     has_zone = {
-#         zone = zone_voidark_alpha_storage
-#     }
-# }
-#
-# has_phanon_storage_zone = {
-#     has_zone = {
-#         zone = zone_voidark_phanon_storage
-#     }
-# }
-#
-# has_stellarite_storage_zone = {
-#     has_zone = {
-#         zone = zone_voidark_stellarite_storage
-#     }
-# }
+has_alpha_storage_zone = {
+    has_zone = {
+        zone = zone_voidark_alpha_storage
+    }
+}
+
+has_phanon_storage_zone = {
+    has_zone = {
+        zone = zone_voidark_phanon_storage
+    }
+}
+
+has_stellarite_storage_zone = {
+    has_zone = {
+        zone = zone_voidark_stellarite_storage
+    }
+}
 
