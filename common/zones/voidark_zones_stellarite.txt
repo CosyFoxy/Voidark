@@ -1239,10 +1239,122 @@ zone_voidark_stellarite_darkmatter= {
 ## Supertensiles
 
 ## Neg Mass
-#todo
+zone_voidark_stellarite_negativemass = {
+    icon = GFX_district_specialization_voidark_stellarite_negativemass
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        TIER = stellarite
+        POTENTIAL = ""
+        TECHNOLOGY = "tech_voidark_stellarite"
+    }
+    include = {
+        building_giga_institute_1
+        building_giga_institute_2
+        building_giga_supercomputer_1
+        building_giga_supercomputer_2
+        building_giga_energy_nexus_1
+        building_giga_energy_nexus_2
+        building_giga_energy_nexus_3
+        building_giga_planetary_shield_generator_2
+        building_negative_mass_factory_1
+        building_negative_mass_factory_2
+    }
+    included_building_sets = {
+        ehof
+    }
+
+    planet_modifier = {
+        planet_energy_converters_acot_sr_stellarite_upkeep_add = 1
+        planet_energy_converters_produces_mult = 0.6
+    }
+
+    triggered_district_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_gestalt = no
+            }
+        }
+        modifier = {
+            job_ehof_energy_converter_add = 100
+        }
+    }
+    triggered_district_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_gestalt = yes
+            }
+        }
+        modifier = {
+            job_ehof_energy_converter_drone_add = 100
+        }
+    }
+
+    swap_type = district_voidark_stellarite_negativemass
+    swap_type_weight = 5
+
+    zone_sets = { xhk_worldark_negativemass }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
 
 ## Sent metal
-#todo
+zone_voidark_stellarite_sentient_metal = {
+    icon = GFX_district_specialization_voidark_stellarite_sentient_metal
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        TIER = stellarite
+        POTENTIAL = ""
+        TECHNOLOGY = "tech_voidark_stellarite"
+    }
+    include = {
+        building_ehof_sm_forge_1
+        building_ehof_sm_forge_2
+    }
+    included_building_sets = {
+        ehof
+    }
+
+    planet_modifier = {
+        planet_cultivators_acot_sr_stellarite_upkeep_add = 1
+        planet_cultivators_produces_mult = 0.6
+    }
+
+    triggered_district_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_gestalt = no
+            }
+        }
+        modifier = {
+            job_ehof_cultivator_add = 100
+        }
+    }
+    triggered_district_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_gestalt = yes
+            }
+        }
+        modifier = {
+            job_ehof_cultivation_drone_add = 100
+        }
+    }
+
+    swap_type = district_voidark_stellarite_sentient_metal
+    swap_type_weight = 5
+
+    zone_sets = { xhk_worldark_sentientmetal }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
 
 ###############################################################################################################
 # WAR

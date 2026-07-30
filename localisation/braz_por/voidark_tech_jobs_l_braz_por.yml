@@ -54,6 +54,13 @@
  job_voidark_stellarite_synapse_drone_plural: "$stellarite_job$ $job_synapse_drone_plural$"
  job_voidark_stellarite_synapse_drone_desc: "Each unit in this hive is an extension of the [owner.getrulertitle], and the $job_voidark_stellarite_synapse_drone_plural$ ensure the ongoing collective of the hive."
 
+ mod_planet_cultivators_acot_sr_dark_energy_upkeep_add: "£acot_sr_dark_energy£ $upkeep_per_pop_group_unit$ $giga_planet_cultivators_mod_suffix$"
+ mod_planet_energy_converters_acot_sr_dark_energy_upkeep_add: "£acot_sr_dark_energy£ $upkeep_per_pop_group_unit$ $giga_planet_energy_converters_mod_suffix$"
+ mod_planet_cultivators_acot_sr_stellarite_upkeep_add: "£acot_sr_stellarite£ $upkeep_per_pop_group_unit$ $giga_planet_cultivators_mod_suffix$"
+ mod_planet_energy_converters_aot_sr_runic_power_upkeep_add: "£aot_sr_runic_power $upkeep_per_pop_group_unit$ $giga_planet_energy_converters_mod_suffix$"
+ mod_planet_energy_converters_acot_sr_stellarite_upkeep_add: "£acot_sr_stellarite£ $upkeep_per_pop_group_unit$ $giga_planet_energy_converters_mod_suffix$"
+ mod_planet_cultivators_aot_sr_runic_power_upkeep_add: "£aot_sr_runic_power£ $upkeep_per_pop_group_unit$ $giga_planet_cultivators_mod_suffix$"
+
  #TECH --------------------------------------------------
 
  tech_voidark_delta: "World Ark Delta Tier Upgrade"

@@ -443,4 +443,44 @@ spriteTypes = {
         name = GFX_district_specialization_voidark_stellarite_utilbay
         textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_utilbay.dds"
     }
+    
+    spriteType = { 
+        name = GFX_district_specialization_voidark_delta_sentient_metal
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_sentient_metal.dds"
+    }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_alpha_sentient_metal
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_alpha_sentient_metal.dds"
+    }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_phanon_sentient_metal
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_sentient_metal.dds"
+    }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_stellarite_sentient_metal
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_sentient_metal.dds"
+    }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_delta_negativemass
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_negativemass.dds"
+    }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_alpha_negativemass
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_alpha_negativemass.dds"
+    }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_phanon_negativemass
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_negativemass.dds"
+    }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_stellarite_negativemass
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_negativemass.dds"
+    }
 }

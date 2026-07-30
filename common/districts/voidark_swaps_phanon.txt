@@ -521,10 +521,38 @@ district_voidark_phanon_darkmatter = {
 ## Supertensiles
 
 ## Neg Mass
-#todo
+
+district_voidark_phanon_negativemass = {
+    icon = district_voidark_phanon_darkmatter
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_xhk_worldark_negativemass
+        BACKGROUND = district_voidark_phanon_negativemass
+        OVERLAY_ICON = GFX_giga_district_negative_mass
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = negativemass
+    }
+}
 
 ## Sent metal
-#todo
+
+district_voidark_phanon_sentient_metal = {
+    icon = district_voidark_phanon_refinery
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_xhk_worldark_sentientmetal
+        BACKGROUND = district_voidark_phanon_sentient_metal
+        OVERLAY_ICON = GFX_giga_district_sentient_metal
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = sentient_metal
+    }
+}
 
 ###############################################################################################################
 # UTIL

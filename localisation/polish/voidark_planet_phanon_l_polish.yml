@@ -99,6 +99,11 @@
  zone_voidark_phanon_amenities_dystopian: "§R$concept_phanon_tier$ $zone_xhk_worldark_amenities_dystopian$§!"
  zone_voidark_phanon_amenities_dystopian_desc: "$zone_xhk_worldark_amenities_dystopian_desc$"
 
+ zone_voidark_phanon_negativemass: "§R$concept_phanon_tier$ $zone_xhk_worldark_negativemass$"
+ zone_voidark_phanon_negativemass_desc: "$zone_xhk_worldark_negativemass_desc$"
+ zone_voidark_phanon_sentient_metal: "§R$concept_phanon_tier$ $zone_xhk_worldark_sentientmetal$"
+ zone_voidark_phanon_sentient_metal_desc: "$zone_xhk_worldark_sentientmetal_desc$"
+
 
  #DISTRICTS ------------------------------------------------------------------
  district_voidark_phanon_city: "§R$concept_phanon_tier$ $district_xhk_worldark_city$§!"
@@ -302,4 +307,14 @@
  district_voidark_phanon_utilbay_desc: "$district_xhk_worldark_utilbay_desc$"
  district_voidark_phanon_utilbay_plural: "§R$concept_phanon_tier$ $district_xhk_worldark_utilbay_plural$§!"
  flavor_district_voidark_phanon_utilbay: "§YAccessory Sectors§!"
+
+ district_voidark_phanon_negativemass: "§R$concept_phanon_tier$ $district_xhk_worldark_negativemass$§!"
+ district_voidark_phanon_negativemass_desc: "$district_xhk_worldark_negativemass_desc$"
+ district_voidark_phanon_negativemass_plural: "§R$concept_phanon_tier$ $district_xhk_worldark_negativemass_plural$§!"
+ flavor_district_voidark_phanon_negativemass: "§YInfinitum§!"
+
+ district_voidark_phanon_sentient_metal: "§R$concept_phanon_tier$ $district_xhk_worldark_sentientmetal$§!"
+ district_voidark_phanon_sentient_metal_desc: "$district_xhk_worldark_sentientmetal_desc$"
+ district_voidark_phanon_sentient_metal_plural: "§R$concept_phanon_tier$ $district_xhk_worldark_sentientmetal_plural$§!"
+ flavor_district_voidark_phanon_sentient_metal: "§YMetallum Vivum§!"
 

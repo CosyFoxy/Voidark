@@ -99,6 +99,11 @@
  zone_voidark_alpha_amenities_dystopian: "§B$concept_alpha_tier$ $zone_xhk_worldark_amenities_dystopian$§!"
  zone_voidark_alpha_amenities_dystopian_desc: "$zone_xhk_worldark_amenities_dystopian_desc$"
 
+ zone_voidark_alpha_negativemass: "§B$concept_alpha_tier$ $zone_xhk_worldark_negativemass$"
+ zone_voidark_alpha_negativemass_desc: "$zone_xhk_worldark_negativemass_desc$"
+ zone_voidark_alpha_sentient_metal: "§B$concept_alpha_tier$ $zone_xhk_worldark_sentientmetal$"
+ zone_voidark_alpha_sentient_metal_desc: "$zone_xhk_worldark_sentientmetal_desc$"
+
 
  #DISTRICTS ------------------------------------------------------------------
  district_voidark_alpha_city: "§B$concept_alpha_tier$ $district_xhk_worldark_city$§!"
@@ -302,4 +307,14 @@
  district_voidark_alpha_utilbay_desc: "$district_xhk_worldark_utilbay_desc$"
  district_voidark_alpha_utilbay_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_utilbay_plural$§!"
  flavor_district_voidark_alpha_utilbay: "§YAccessory Sectors§!"
+
+ district_voidark_alpha_negativemass: "§B$concept_alpha_tier$ $district_xhk_worldark_negativemass$§!"
+ district_voidark_alpha_negativemass_desc: "$district_xhk_worldark_negativemass_desc$"
+ district_voidark_alpha_negativemass_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_negativemass_plural$§!"
+ flavor_district_voidark_alpha_negativemass: "§YInfinitum§!"
+
+ district_voidark_alpha_sentient_metal: "§B$concept_alpha_tier$ $district_xhk_worldark_sentientmetal$§!"
+ district_voidark_alpha_sentient_metal_desc: "$district_xhk_worldark_sentientmetal_desc$"
+ district_voidark_alpha_sentient_metal_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_sentientmetal_plural$§!"
+ flavor_district_voidark_alpha_sentient_metal: "§YMetallum Vivum§!"
 
