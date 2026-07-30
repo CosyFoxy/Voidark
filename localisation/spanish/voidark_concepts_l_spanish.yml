@@ -51,7 +51,7 @@
   voidark_doc_basics_6: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_stellarite_core£ ['concept_stellarite_tier'] §HTier:§! Unlocks sigma tier zones for each district, as well as sigma tier components and systems. $TABBED_NEW_LINE$§YRequires: §!£engineering£ ['technology:tech_voidark_stellarite']"
 
   voidark_doc_beta_test: "2) Voidark Beta Test"
-  voidark_doc_beta_test_desc: "$voidark_doc_beta_test_1$$voidark_doc_beta_test_2$$voidark_doc_beta_test_9$$voidark_doc_beta_test_11$$voidark_doc_beta_test_12$$voidark_doc_beta_test_13$$voidark_doc_beta_test_3$$voidark_doc_beta_test_4$$voidark_doc_beta_test_5$$voidark_doc_beta_test_6$$voidark_doc_beta_test_7$$voidark_doc_beta_test_8$$voidark_doc_beta_test_10$"
+  voidark_doc_beta_test_desc: "$voidark_doc_beta_test_1$$voidark_doc_beta_test_2$$voidark_doc_beta_test_9$$voidark_doc_beta_test_11$$voidark_doc_beta_test_12$$voidark_doc_beta_test_13$$voidark_doc_beta_test_8$$voidark_doc_beta_test_10$"
   voidark_doc_beta_test_1: "Current scope and available features of the mod:"
   voidark_doc_beta_test_2: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_delta_core£ §H$concept_delta_tier$§! §ETier:§! Districts & Zones"
   voidark_doc_beta_test_9: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_alpha_core£ §H$concept_alpha_tier$§! §BTier:§! Districts & Zones"
