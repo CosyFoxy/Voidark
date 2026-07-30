@@ -175,4 +175,36 @@ spriteTypes = {
         name = GFX_district_voidark_stellarite_unity_machine_bg
         textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_unity_machine_bg.dds"
     }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_delta_sentient_metal_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_delta_sentient_metal_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_alpha_sentient_metal_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_alpha_sentient_metal_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_sentient_metal_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_phanon_sentient_metal_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_sentient_metal_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_sentient_metal_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_delta_negativemass_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_delta_negativemass_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_alpha_negativemass_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_alpha_negativemass_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_negativemass_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_phanon_negativemass_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_negativemass_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_negativemass_bg.dds"
+    }
 }
