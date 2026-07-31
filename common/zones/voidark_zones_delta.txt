@@ -965,8 +965,16 @@ zone_voidark_delta_amenities = {
         xeno_geology_holomuseum
         #ACOT
         building_acot_dm_mansion
+        building_acot_ae_mansion
+        building_phanon_mansion
+        building_stellarite_mansion
         building_acot_dm_temple
-        #AOT Automated
+        building_acot_ae_temple
+        building_phanon_temple
+        building_stellarite_temple
+        building_ae_sky_dome
+        building_phanon_sky_dome
+        building_stellarite_sky_dome
 
         #PD
         building_pd_eludium_floating_resort
@@ -1037,7 +1045,16 @@ zone_voidark_delta_amenities_dystopian = {
 
         #ACOT
         building_acot_dm_mansion
+        building_acot_ae_mansion
+        building_phanon_mansion
+        building_stellarite_mansion
         building_acot_dm_temple
+        building_acot_ae_temple
+        building_phanon_temple
+        building_stellarite_temple
+        building_ae_sky_dome
+        building_phanon_sky_dome
+        building_stellarite_sky_dome
         #PD
         building_pd_eludium_floating_resort
         building_pd_acean_medical_center
@@ -1569,6 +1586,9 @@ zone_voidark_delta_storage = {
         building_fe_silo_1
         building_fe_silo_2
         building_acot_dm_resource_silo
+        building_acot_ae_resource_silo
+        building_phanon_resource_silo
+        building_stellarite_resource_silo
     }
 
     triggered_district_country_modifier = {

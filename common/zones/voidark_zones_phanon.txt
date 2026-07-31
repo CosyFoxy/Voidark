@@ -967,12 +967,14 @@ zone_voidark_phanon_amenities = {
         building_acot_dm_mansion
         building_acot_ae_mansion
         building_phanon_mansion
+        building_stellarite_mansion
         building_acot_dm_temple
         building_acot_ae_temple
         building_phanon_temple
+        building_stellarite_temple
         building_ae_sky_dome
         building_phanon_sky_dome
-
+        building_stellarite_sky_dome
         #PD
         building_pd_eludium_floating_resort
         building_pd_acean_medical_center
@@ -1044,11 +1046,14 @@ zone_voidark_phanon_amenities_dystopian = {
         building_acot_dm_mansion
         building_acot_ae_mansion
         building_phanon_mansion
+        building_stellarite_mansion
         building_acot_dm_temple
         building_acot_ae_temple
         building_phanon_temple
+        building_stellarite_temple
         building_ae_sky_dome
         building_phanon_sky_dome
+        building_stellarite_sky_dome
 
         #PD
         building_pd_eludium_floating_resort
@@ -1589,6 +1594,7 @@ zone_voidark_phanon_storage = {
         building_acot_dm_resource_silo
         building_acot_ae_resource_silo
         building_phanon_resource_silo
+        building_stellarite_resource_silo
     }
 
     triggered_district_country_modifier = {
