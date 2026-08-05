@@ -1,6 +1,5 @@
 #todo: adjust whether ACOT adds ark ship jobs
 #todo: adjust when AOT adds enforcer buildings
-#todo: add sent metal & negative mass
 #todo: supertensiles
 
 
@@ -261,6 +260,7 @@ zone_voidark_phanon_waylogi = {
         script = jobs/zone_ark_waystation_trader_add
         AMOUNT = 200
     }
+
 
     inline_script = {
         script = jobs/zone_trader_add

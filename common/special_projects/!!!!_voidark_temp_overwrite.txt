@@ -1,0 +1,41 @@
+special_project = {
+    key = "ACOT_NOMAD_ARK_DATABANK_SECURE"
+    days_to_research = 180
+    tech_department = engineering_technology
+    picture = GFX_acot_pmc_sphere_background
+
+    event_scope = ship_event
+
+    timelimit = 360
+
+    requirements = {
+        shipclass_military = 1
+        fleet_power >= 100000
+    }
+
+    abort_trigger = {
+
+    }
+
+    on_success = {
+        hidden_effect = {
+            abort_special_project = {
+                type = ACOT_NOMAD_ARK_DATABANK_SECURE
+            }
+        }
+        owner? = {
+            random_owned_colony = {
+                remove_carrier_flag = acot_arkship_databank_victim
+            }
+        }
+    }
+
+    on_fail = {
+        hidden_effect = {
+            country_event = { id = acot_precursor_databank.1040 }
+            fromfrom = {
+                destroy_colony = yes
+            }
+        }
+    }
+}

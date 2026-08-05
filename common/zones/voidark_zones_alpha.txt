@@ -1,6 +1,5 @@
 #todo: adjust whether ACOT adds ark ship jobs
 #todo: adjust when AOT adds enforcer buildings
-#todo: add sent metal & negative mass
 #todo: supertensiles
 
 

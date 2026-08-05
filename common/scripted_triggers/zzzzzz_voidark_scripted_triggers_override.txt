@@ -124,10 +124,10 @@ technician_is_fuel_chemist_trigger = {
             has_zone = { zone = zone_voidark_delta_penrose_speed }
             has_zone = { zone = zone_voidark_alpha_generator_speed }
             has_zone = { zone = zone_voidark_alpha_penrose_speed }
-            # has_zone = { zone = zone_voidark_phanon_generator_speed }
-            # has_zone = { zone = zone_voidark_phanon_penrose_speed }
-            # has_zone = { zone = zone_voidark_stellarite_generator_speed }
-            # has_zone = { zone = zone_voidark_stellarite_penrose_speed }
+            has_zone = { zone = zone_voidark_phanon_generator_speed }
+            has_zone = { zone = zone_voidark_phanon_penrose_speed }
+            has_zone = { zone = zone_voidark_stellarite_generator_speed }
+            has_zone = { zone = zone_voidark_stellarite_penrose_speed }
         }
     }
 }
@@ -142,10 +142,10 @@ technician_is_shield_tuner_trigger = {
             has_zone = { zone = zone_voidark_delta_penrose_shield }
             has_zone = { zone = zone_voidark_alpha_generator_shield }
             has_zone = { zone = zone_voidark_alpha_penrose_shield }
-            # has_zone = { zone = zone_voidark_phanon_generator_shield }
-            # has_zone = { zone = zone_voidark_phanon_penrose_shield }
-            # has_zone = { zone = zone_voidark_stellarite_generator_shield }
-            # has_zone = { zone = zone_voidark_stellarite_penrose_shield }
+            has_zone = { zone = zone_voidark_phanon_generator_shield }
+            has_zone = { zone = zone_voidark_phanon_penrose_shield }
+            has_zone = { zone = zone_voidark_stellarite_generator_shield }
+            has_zone = { zone = zone_voidark_stellarite_penrose_shield }
         }
     }
 }
@@ -157,8 +157,8 @@ metallurgist_is_void_forge_trigger = {
             has_zone = { zone = zone_xhk_worldark_voidforge }
             has_zone = { zone = zone_voidark_delta_voidforge }
             has_zone = { zone = zone_voidark_alpha_voidforge }
-            # has_zone = { zone = zone_voidark_phanon_voidforge }
-            # has_zone = { zone = zone_voidark_stellarite_voidforge }
+            has_zone = { zone = zone_voidark_phanon_voidforge }
+            has_zone = { zone = zone_voidark_stellarite_voidforge }
         }
     }
 }
@@ -170,8 +170,8 @@ soldier_is_shipwright_trigger = {
             has_zone = { zone = zone_xhk_worldark_ordinance_naval }
             has_zone = { zone = zone_voidark_delta_ordinance_naval }
             has_zone = { zone = zone_voidark_alpha_ordinance_naval }
-            # has_zone = { zone = zone_voidark_phanon_ordinance_naval }
-            # has_zone = { zone = zone_voidark_stellarite_ordinance_naval }
+            has_zone = { zone = zone_voidark_phanon_ordinance_naval }
+            has_zone = { zone = zone_voidark_stellarite_ordinance_naval }
         }
     }
 }
@@ -183,8 +183,8 @@ soldier_is_missile_crew_trigger = {
             has_zone = { zone = zone_xhk_worldark_ordinance_missile_silos }
             has_zone = { zone = zone_voidark_delta_ordinance_missile }
             has_zone = { zone = zone_voidark_alpha_ordinance_missile }
-            # has_zone = { zone = zone_voidark_phanon_ordinance_missile }
-            # has_zone = { zone = zone_voidark_stellarite_ordinance_missile }
+            has_zone = { zone = zone_voidark_phanon_ordinance_missile }
+            has_zone = { zone = zone_voidark_stellarite_ordinance_missile }
         }
     }
 }
@@ -196,8 +196,8 @@ soldier_is_ammunition_loader_trigger = {
             has_zone = { zone = zone_xhk_worldark_ordinance_ammunition_lines }
             has_zone = { zone = zone_voidark_delta_ordinance_kinetic }
             has_zone = { zone = zone_voidark_alpha_ordinance_kinetic }
-            # has_zone = { zone = zone_voidark_phanon_ordinance_kinetic }
-            # has_zone = { zone = zone_voidark_stellarite_ordinance_kinetic }
+            has_zone = { zone = zone_voidark_phanon_ordinance_kinetic }
+            has_zone = { zone = zone_voidark_stellarite_ordinance_kinetic }
         }
     }
 }
@@ -209,8 +209,8 @@ soldier_is_laser_gunner_trigger = {
             has_zone = { zone = zone_xhk_worldark_ordinance_laser_capacitors }
             has_zone = { zone = zone_voidark_delta_ordinance_energy }
             has_zone = { zone = zone_voidark_alpha_ordinance_energy }
-            # has_zone = { zone = zone_voidark_phanon_ordinance_energy }
-            # has_zone = { zone = zone_voidark_stellarite_ordinance_energy }
+            has_zone = { zone = zone_voidark_phanon_ordinance_energy }
+            has_zone = { zone = zone_voidark_stellarite_ordinance_energy }
         }
     }
 }
@@ -222,8 +222,22 @@ soldier_is_flight_deck_crew_trigger = {
             has_zone = { zone = zone_xhk_worldark_ordinance_flight_decks }
             has_zone = { zone = zone_voidark_delta_ordinance_strike_craft }
             has_zone = { zone = zone_voidark_alpha_ordinance_strike_craft }
-            # has_zone = { zone = zone_voidark_phanon_ordinance_strike_craft }
-            # has_zone = { zone = zone_voidark_stellarite_ordinance_strike_craft }
+            has_zone = { zone = zone_voidark_phanon_ordinance_strike_craft }
+            has_zone = { zone = zone_voidark_stellarite_ordinance_strike_craft }
         }
+    }
+}
+
+####
+# anything in here can will be ignored
+xhk_worldark_not_consumed_by_wark = {
+    OR = {
+        # exclude the wark just to be sure
+        is_planet_class = xhk_pc_worldark
+        # lathe
+        is_planet_class = pc_cosmogenesis_world
+        #ACOT VAULT
+        is_planet_class = pc_acot_pmc_vault
+        is_planet_class = pc_acot_pmc_vault_unshielded
     }
 }

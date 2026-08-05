@@ -1,6 +1,5 @@
 #todo: adjust whether ACOT adds ark ship jobs
 #todo: adjust when AOT adds enforcer buildings
-#todo: add sent metal & negative mass
 #todo: supertensiles
 
 
@@ -548,8 +547,6 @@ zone_voidark_delta_penrose_shield = {
         generator_automation
         fallen_empire_generator
     }
-
-
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
@@ -1188,19 +1185,19 @@ zone_voidark_delta_darkmatter= {
     }
 
 
-    inline_script = {
-        script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = acot_dark_energy_man
-        GESTALT_JOB = acot_dark_energy_drone
-        AMOUNT = @doubled_scaling_district_1_job
-    }
+    # inline_script = {
+    #     script = voidark/jobs/jobs_add/voidark_jobs_add
+    #     JOB = acot_dark_energy_man
+    #     GESTALT_JOB = acot_dark_energy_drone
+    #     AMOUNT = @doubled_scaling_district_1_job
+    # }
 
     triggered_district_planet_modifier = {
         potential = {
             exists = owner
             owner = { is_gestalt = no }
         }
-        job_giga_dark_matter_weaver_add = 300
+        job_giga_dark_matter_weaver_add = 400
     }
 
     triggered_district_planet_modifier = {
@@ -1208,7 +1205,7 @@ zone_voidark_delta_darkmatter= {
             exists = owner
             owner = { is_gestalt = yes }
         }
-        job_giga_dark_matter_weaver_drone_add = 300
+        job_giga_dark_matter_weaver_drone_add = 400
     }
 
     triggered_planet_modifier = {
