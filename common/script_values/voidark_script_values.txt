@@ -1,0 +1,23 @@
+voidark_starbase_level = {
+    base = 0
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_13
+        add = 1
+    }
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_14
+        add = 2
+    }
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_15
+        add = 3
+    }
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_16
+        add = 3
+    }
+    modifier = {
+        has_starbase_size = xhk_worldark_tier_17
+        add = 5
+    }
+}

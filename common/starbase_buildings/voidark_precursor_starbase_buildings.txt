@@ -1,104 +1,118 @@
-# voidark_precursor_dynamic_system = {
-#     icon = "GFX_starbase_acot_module_precursor_database"
-#     starbase_type = arkship
-#     construction_days = 1300
-#     category = sm_worldark_integrated_mega_cat
-#
-#     starbase_limit = {
-#         base = 1
-#     }
-#
-#     potential = {
-#         xhk_is_worldark_starbase = yes
-#         owner? = {
-#             has_technology = tech_voidark_precursor_integrated_megas
-#         }
-#     }
-#     show_tech_unlock_if = {
-#         xhk_has_worldark_origin = yes
-#     }
-#     show_in_tech = "tech_voidark_precursor_integrated_megas"
-#     possible = {
-#         has_starbase_size >= xhk_worldark_tier_13
-#         custom_tooltip = {
-#             fail_text = voidark_precursor_dynamic_system_requirement_failtext
-#             OR = {
-#                 has_starbase_building = xhk_worldark_science_nexus
-#                 has_starbase_building = xhk_worldark_strategic_coordination
-#                 has_starbase_building = xhk_worldark_art_installation
-#                 has_starbase_building = xhk_worldark_interstellar_assembly
-#             }
-#         }
-#     }
-#
-#     resources = {
-#         category = starbase_arkship_upgrades
-#         cost = {
-#             alloys = 30000
-#             unity = 5000
-#             acot_sr_dark_energy = 500
-#             sr_dark_matter = 500
-#             influence = 100
-#         }
-#         upkeep = {
-#             energy = 100
-#             sr_dark_matter = 30
-#             acot_sr_dark_energy = 30
-#         }
-#     }
-#
-#     triggered_country_modifier = {
-#         potential = {
-#             has_starbase_building = xhk_worldark_science_nexus
-#         }
-#         all_technology_research_speed = 0.15
-#     }
-#     triggered_planet_modifier = {
-#         potential = {
-#             has_starbase_building = xhk_worldark_science_nexus
-#         }
-#         planet_physicists_physics_research_produces_add = 1
-#         planet_biologists_society_research_produces_add = 1
-#         planet_engineers_engineering_research_produces_add = 1
-#     }
-#
-#     triggered_country_modifier = {
-#         potential = {
-#             has_starbase_building = xhk_worldark_strategic_coordination
-#         }
-#         country_naval_cap_add = 100
-#         ship_fire_rate_mult = 0.10
-#         ship_damage_against_starbases_mult = 0.10
-#         country_starbase_capacity_add = 6
-#         ship_speed_mult = 0.10
-#     }
-#
-#     triggered_country_modifier = {
-#         potential = {
-#             has_starbase_building = xhk_worldark_interstellar_assembly
-#         }
-#         empire_size_mult = -0.1
-#         envoys_add = 2
-#         diplo_weight_mult = 0.2
-#     }
-#
-#     triggered_country_modifier = {
-#         potential = {
-#             has_starbase_building = xhk_worldark_art_installation
-#         }
-#         planetary_ascension_cost_mult = -0.15
-#     }
-#     triggered_planet_modifier = {
-#         potential = {
-#             has_starbase_building = xhk_worldark_art_installation
-#         }
-#         planet_amenities_mult = 0.10
-#         planet_bureaucrats_unity_produces_add = 1
-#     }
-#
-#     custom_tooltip = voidark_precursor_dynamic_system_upgrade_effect_tt
-#
-#     ai_weight = {
-#         200
-#     }
-# }
+voidark_precursor_dynamic_system = {
+    icon = "GFX_starbase_acot_module_precursor_database"
+    starbase_type = arkship
+    construction_days = 1300
+    category = sm_worldark_integrated_mega_cat
+
+    starbase_limit = {
+        base = 1
+    }
+
+    potential = {
+        xhk_is_worldark_starbase = yes
+        owner? = {
+            has_technology = tech_voidark_precursor_integrated_megas
+        }
+    }
+    show_tech_unlock_if = {
+        xhk_has_worldark_origin = yes
+    }
+    show_in_tech = "tech_voidark_precursor_integrated_megas"
+    possible = {
+        has_starbase_size >= xhk_worldark_tier_13
+        custom_tooltip = {
+            fail_text = voidark_precursor_dynamic_system_requirement_failtext
+            OR = {
+                has_starbase_building = xhk_worldark_science_nexus
+                has_starbase_building = xhk_worldark_strategic_coordination
+                has_starbase_building = xhk_worldark_art_installation
+                has_starbase_building = xhk_worldark_interstellar_assembly
+            }
+        }
+    }
+
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            alloys = 30000
+            unity = 5000
+            acot_sr_dark_energy = 500
+            sr_dark_matter = 500
+            influence = 100
+        }
+        upkeep = {
+            energy = 100
+            sr_dark_matter = 30
+            acot_sr_dark_energy = 30
+        }
+    }
+
+    triggered_country_modifier = {
+        potential = {
+            has_starbase_building = xhk_worldark_science_nexus
+        }
+        all_technology_research_speed = 0.15
+        multiplier = value:voidark_starbase_level
+    }
+    triggered_planet_modifier = {
+        potential = {
+            has_starbase_building = xhk_worldark_science_nexus
+        }
+        planet_physicists_physics_research_produces_add = 1
+        planet_biologists_society_research_produces_add = 1
+        planet_engineers_engineering_research_produces_add = 1
+        multiplier = value:voidark_starbase_level
+    }
+
+    triggered_country_modifier = {
+        potential = {
+            has_starbase_building = xhk_worldark_strategic_coordination
+        }
+        modifier = {
+            country_naval_cap_add = 100
+            ship_fire_rate_mult = 0.10
+            ship_damage_against_starbases_mult = 0.10
+            country_starbase_capacity_add = 6
+            ship_speed_mult = 0.10
+        }
+        multiplier = value:voidark_starbase_level
+    }
+
+    triggered_country_modifier = {
+        potential = {
+            has_starbase_building = xhk_worldark_interstellar_assembly
+        }
+        modifier = {
+            empire_size_mult = -0.1
+            envoys_add = 2
+            diplo_weight_mult = 0.2
+        }
+        multiplier = value:voidark_starbase_level
+    }
+
+    triggered_country_modifier = {
+        potential = {
+            has_starbase_building = xhk_worldark_art_installation
+        }
+        modifier = {
+            planetary_ascension_cost_mult = -0.15
+        }
+        multiplier = value:voidark_starbase_level
+    }
+    triggered_planet_modifier = {
+        potential = {
+            has_starbase_building = xhk_worldark_art_installation
+        }
+        modifier = {
+            planet_amenities_mult = 0.10
+            planet_bureaucrats_unity_produces_add = 1
+        }
+        multiplier = value:voidark_starbase_level
+    }
+
+    custom_tooltip = voidark_precursor_dynamic_system_upgrade_effect_tt
+
+    ai_weight = {
+        200
+    }
+}
