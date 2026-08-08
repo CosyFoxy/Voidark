@@ -1,4 +1,6 @@
 To do:
+    add alpha+ levels of components for arkship once chiru updates
+        check with Frag first what he wants to add himself
 
 to balance:
     zones balance
