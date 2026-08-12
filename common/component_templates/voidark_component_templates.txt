@@ -1,0 +1,54 @@
+weapon_component_template = {
+    key = "VOIDARK_PHANON_GREAT_WALL_CANNON"
+    size = titanic
+    entity = "invisible_turret_entity"
+    type = instant
+    icon = "GFX_ship_part_pmc_decimator_beam"
+    icon_frame = 1
+    power = -50000
+    component_set = "VOIDARK_PHANON_GREAT_WALL_CANNON_SET"
+    projectile_gfx = "acot_pmc_decimator_cannon"
+    prerequisites = { "tech_phanon_great_wall" }
+    show_tech_unlock_if = { always = no }
+    tags = {
+        weapon_role_artillery
+        weapon_type_explosive
+        weapon_type_acot_runic
+        weapon_type_acot_dark_matter
+        t_slot
+    }
+    potential = { is_at_least_phanon_voidark = yes }
+    ai_tags = { weapon_role_artillery artillery }
+    ai_tag_weight = 0
+
+    firing_arc = 60
+    min_range = 10.0
+
+    damage = { min = 250000 max = 500000 }
+    windup = { min = 400 max = 400 }
+    range = 400
+    tracking = 1
+    accuracy = 1
+    total_fire_time = 200
+    shield_damage = 5
+    armor_damage = 5
+    hull_damage = 6
+    ship_limit = 1
+    # 100 size define, so 21x damage for a weapon that gets +20% per size
+    # this is 11x damage
+    size_damage_factor = 0.1
+    collateral_damage = 250000
+    collateral_range = 100
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 60000
+            aot_sr_runic_power = 6000
+        }
+        upkeep = {
+            alloys = @super_titanic_re_upkeep_energy
+            energy = @super_titanic_re_upkeep_energy
+            aot_sr_runic_power = 20
+        }
+    }
+}

@@ -45,74 +45,113 @@ voidark_precursor_dynamic_system = {
             sr_dark_matter = 30
             acot_sr_dark_energy = 30
         }
+        produces = {
+            trigger = {
+                has_starbase_building = xhk_worldark_science_nexus
+                owner? = {
+                    has_technology = tech_voidark_precursor_science_nexus
+                }
+            }
+            society_research = 600
+            engineering_research = 600
+            physics_research = 600
+            minor_artifacts = 6
+        }
+        produces = {
+            trigger = {
+                has_starbase_building = xhk_worldark_strategic_coordination
+                owner? = {
+                    has_technology = tech_voidark_precursor_strategic_coordination
+                }
+            }
+            unity = 1000
+        }
+    }
+
+    custom_tooltip_with_modifiers = voidark_precursor_dynamic_system_upgrade_effect_tt
+
+    triggered_country_modifier = {
+        potential = { always = yes }
+        country_resource_max_acot_sr_dark_energy_add = 1000
+        country_resource_max_sr_dark_matter_add = 1000
     }
 
     triggered_country_modifier = {
         potential = {
             has_starbase_building = xhk_worldark_science_nexus
+            owner? = {
+                has_technology = tech_voidark_precursor_science_nexus
+            }
         }
-        all_technology_research_speed = 0.15
-        multiplier = value:voidark_starbase_level
+        all_technology_research_speed = 0.05
     }
     triggered_planet_modifier = {
         potential = {
             has_starbase_building = xhk_worldark_science_nexus
+            owner? = {
+                has_technology = tech_voidark_precursor_science_nexus
+            }
         }
-        planet_physicists_physics_research_produces_add = 1
-        planet_biologists_society_research_produces_add = 1
-        planet_engineers_engineering_research_produces_add = 1
-        multiplier = value:voidark_starbase_level
+        planet_researchers_physics_research_produces_add = 1
+        planet_researchers_society_research_produces_add = 1
+        planet_researchers_engineering_research_produces_add = 1
     }
+
 
     triggered_country_modifier = {
         potential = {
             has_starbase_building = xhk_worldark_strategic_coordination
+            owner? = {
+                has_technology = tech_voidark_precursor_strategic_coordination
+            }
         }
         modifier = {
-            country_naval_cap_add = 100
-            ship_fire_rate_mult = 0.10
-            ship_damage_against_starbases_mult = 0.10
+            country_naval_cap_add = 350
             country_starbase_capacity_add = 6
-            ship_speed_mult = 0.10
+            ship_speed_mult = 0.3
         }
-        multiplier = value:voidark_starbase_level
     }
 
     triggered_country_modifier = {
         potential = {
             has_starbase_building = xhk_worldark_interstellar_assembly
+            owner? = {
+                has_technology = tech_voidark_precursor_interstellar_assembly
+            }
         }
         modifier = {
             empire_size_mult = -0.1
             envoys_add = 2
             diplo_weight_mult = 0.2
         }
-        multiplier = value:voidark_starbase_level
     }
 
     triggered_country_modifier = {
         potential = {
             has_starbase_building = xhk_worldark_art_installation
+            owner? = {
+                has_technology = tech_voidark_precursor_art_installation
+            }
         }
         modifier = {
             planetary_ascension_cost_mult = -0.15
         }
-        multiplier = value:voidark_starbase_level
     }
     triggered_planet_modifier = {
         potential = {
             has_starbase_building = xhk_worldark_art_installation
+            owner? = {
+                has_technology = tech_voidark_precursor_art_installation
+            }
         }
         modifier = {
             planet_amenities_mult = 0.10
             planet_bureaucrats_unity_produces_add = 1
         }
-        multiplier = value:voidark_starbase_level
     }
 
-    custom_tooltip = voidark_precursor_dynamic_system_upgrade_effect_tt
 
-    ai_weight = {
-        200
-    }
+
+
+    ai_weight = { weight = 200 }
 }

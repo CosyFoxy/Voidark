@@ -1,0 +1,48 @@
+voidark_miniature_phanon_pylon_star = {
+    icon = "GFX_voidark_minature_phanon_pylon_star"
+    starbase_type = arkship
+    category = sm_economy_cat
+    starbase_limit = {
+        base = 1
+    }
+    construction_days = @[arkship_spinal_mount_build_time*2]
+
+    potential = {
+        xhk_is_worldark_starbase = yes
+        owner? = {
+            has_technology = tech_phanon_stellar_converter
+        }
+    }
+    show_tech_unlock_if = {
+        xhk_has_worldark_origin = yes
+    }
+    show_in_tech = "tech_phanon_stellar_converter"
+
+    possible = {
+        has_starbase_size >= xhk_worldark_tier_16
+    }
+
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            alloys = 40000
+            unity = 6000
+            sr_dark_matter = 5000
+            acot_sr_dark_energy = 5000
+            influence = 300
+        }
+        upkeep = {
+            energy = 3000
+            sr_dark_matter = 100
+        }
+        produces = {
+            aot_sr_runic_power = 500
+        }
+    }
+
+    planet_modifier = {
+        planet_jobs_aot_sr_runic_power_produces_mult = 0.2
+    }
+
+    ai_weight = { weight = 200 }
+}

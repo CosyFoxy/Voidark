@@ -265,6 +265,10 @@ zone_voidark_stellarite_waylogi = {
         script = jobs/zone_trader_add
         AMOUNT = -100
     }
+    triggered_planet_modifier = {
+        potential = { always = yes }
+        pop_ark_waystation_trader_bonus_workforce_mult = 0.5
+    }
 
     swap_type = district_voidark_stellarite_trade
     swap_type_weight = 5
@@ -410,6 +414,7 @@ zone_voidark_stellarite_generator_speed = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
+        planet_technician_energy_produces_mult = -0.25
         ship_speed_from_technicians = 0.2 #does nothing by itself, check the technician job script
     }
 
@@ -464,6 +469,7 @@ zone_voidark_stellarite_penrose_speed = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
+        planet_technician_energy_produces_mult = -0.25
         ship_speed_from_technicians = 0.2 #does nothing by itself, check the technician job script
     }
 
@@ -512,8 +518,8 @@ zone_voidark_stellarite_generator_shield = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        planet_technician_exotic_gases_upkeep_add = 0.08
-        planet_technician_energy_produces_add = -4
+        planet_technician_exotic_gases_upkeep_add = 4
+        planet_technician_energy_produces_mult = -0.25
         ship_shield_from_technicians = 0.08 #does nothing by itself, check the technician job script
         ship_shield_regen_from_technicians = 0.08
     }
@@ -564,8 +570,8 @@ zone_voidark_stellarite_penrose_shield = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        planet_technician_exotic_gases_upkeep_add = 0.08
-        planet_technician_energy_produces_add = -4
+        planet_technician_exotic_gases_upkeep_add = 4
+        planet_technician_energy_produces_mult = -0.25
         ship_shield_from_technicians = 0.08 #does nothing by itself, check the technician job script
         ship_shield_regen_from_technicians = 0.08
     }
@@ -612,6 +618,10 @@ zone_voidark_stellarite_mining = {
     inline_script = {
         script = jobs/zone_ark_harvester_add
         AMOUNT = 200
+    }
+    triggered_planet_modifier = {
+        potential = { always = yes }
+        pop_ark_harvester_bonus_workforce_mult = 0.5
     }
 
     convert_to = {
@@ -660,6 +670,10 @@ zone_voidark_stellarite_decompressor = {
     inline_script = {
         script = jobs/zone_miner_add
         AMOUNT = -400
+    }
+    triggered_planet_modifier = {
+        potential = { always = yes }
+        pop_ark_harvester_bonus_workforce_mult = 0.5
     }
 
     convert_to = {
@@ -1605,7 +1619,7 @@ zone_voidark_stellarite_storage = {
             always = yes
         }
         country_resource_max_add = 10000
-        situation_nomad_economy_max_progress_add = 1000
+        situation_nomad_economy_max_progress_add = 4000
         country_resource_max_sr_dark_matter_add = 3000
         country_resource_max_acot_sr_dark_energy_add = 3000
         country_resource_max_aot_sr_runic_power_add = 2000

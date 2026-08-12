@@ -40,34 +40,16 @@ country_event = {
         }
         create_point_of_interest = {
             id = voidark_docs_chain.2
-            name = "voidark_doc_beta_test"
-            desc = "voidark_doc_beta_test_desc"
+            name = "voidark_doc_precursor_megas_title"
+            desc = "voidark_doc_precursor_megas_desc"
             event_chain = "voidark_docs_chain"
             #location = capital_scope
         }
-    }
-}
-
-
-
-country_event = {
-    id = voidark.2
-    hide_window = yes
-    fire_only_once = yes
-    is_triggered_only = yes
-
-    trigger = {
-        xhk_has_worldark_origin = yes
-        has_any_voidark_tech = yes
-        has_country_flag = voidark_begin_doc
-    }
-
-    immediate = {
         create_point_of_interest = {
-            id = xhk_worldark_docs_chain.10
-            name = "voidark_doc_zones_title"
-            desc = "voidark_doc_zones_desc"
-            event_chain = "xhk_worldark_docs_chain"
+            id = voidark_docs_chain.3
+            name = "voidark_doc_beta_test"
+            desc = "voidark_doc_beta_test_desc"
+            event_chain = "voidark_docs_chain"
             #location = capital_scope
         }
     }

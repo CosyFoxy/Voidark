@@ -114,3 +114,15 @@ concept_tech_voidark_stellarite = {
         icon = GFX_text_research
     }
 }
+
+concept_integrated_mega = {
+    databank = {
+        category = "db_integrated_megas"
+    }
+}
+
+concept_integrated_precursor_mega = {
+    databank = {
+        category = "db_integrated_megas"
+    }
+}

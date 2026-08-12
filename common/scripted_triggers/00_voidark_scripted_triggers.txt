@@ -8,23 +8,47 @@ is_any_voidark_arkship = {
     }
 }
 
-is_delta_voidark = {
-    is_ship_size = xhk_worldark_tier_13
+is_at_least_delta_voidark = {
+    OR = {
+        is_ship_size = xhk_worldark_tier_13
+        is_ship_size = xhk_worldark_tier_14
+        is_ship_size = xhk_worldark_tier_15
+        is_ship_size = xhk_worldark_tier_16
+        is_ship_size = xhk_worldark_tier_17
+    }
 }
 
-is_alpha_voidark = {
-    is_ship_size = xhk_worldark_tier_14
+is_at_least_alpha_voidark = {
+    OR = {
+        #is_ship_size = xhk_worldark_tier_13
+        is_ship_size = xhk_worldark_tier_14
+        is_ship_size = xhk_worldark_tier_15
+        is_ship_size = xhk_worldark_tier_16
+        is_ship_size = xhk_worldark_tier_17
+    }
 }
 
-is_phi_voidark = {
-    is_ship_size = xhk_worldark_tier_15
+is_at_least_phi_voidark = {
+    OR = {
+        #is_ship_size = xhk_worldark_tier_13
+        #is_ship_size = xhk_worldark_tier_14
+        is_ship_size = xhk_worldark_tier_15
+        is_ship_size = xhk_worldark_tier_16
+        is_ship_size = xhk_worldark_tier_17
+    }
 }
 
-is_phanon_voidark = {
-    is_ship_size = xhk_worldark_tier_16
+is_at_least_phanon_voidark = {
+    OR = {
+        #is_ship_size = xhk_worldark_tier_13
+        #is_ship_size = xhk_worldark_tier_14
+        #is_ship_size = xhk_worldark_tier_15
+        is_ship_size = xhk_worldark_tier_16
+        is_ship_size = xhk_worldark_tier_17
+    }
 }
 
-is_stellarite_voidark = {
+is_at_least_stellarite_voidark = {
     is_ship_size = xhk_worldark_tier_17
 }
 
@@ -104,4 +128,6 @@ has_stellarite_storage_zone = {
         zone = zone_voidark_stellarite_storage
     }
 }
+
+
 

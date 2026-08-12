@@ -4077,3 +4077,22 @@ ship_section_template = {
         locatorname = "missile_04"
     }
 }
+
+
+####
+#Corespinals
+
+ship_section_template = {
+    key = "VOIDARK_CORESPINAL_PHANON_GREAT_WALL_CANNON"
+    entity = "xhk_worldark_corespinal_planetgun_entity"
+    icon = "GFX_ship_part_core_mid"
+    ship_size = xhk_worldark_tier_16
+    ship_size = xhk_worldark_tier_17
+    fits_on_slot = spinal_mount_7
+
+    component_slot = {
+        name = "VOIDARK_PHANON_GREAT_WALL_CANNON"
+        template = "invisible_titanic_turret"
+        locatorname = "xl_gun_01"
+    }
+}

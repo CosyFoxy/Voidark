@@ -1,0 +1,44 @@
+voidark_corespinal_phanon_great_wall_cannon = {
+    icon = GFX_voidark_corespinal_phanon_great_wall_cannon
+    section = "VOIDARK_CORESPINAL_PHANON_GREAT_WALL_CANNON"
+    construction_days = @[arkship_spinal_mount_build_time*2]
+    starbase_type = arkship
+    category = sm_corespinal_cat
+    starbase_limit = {
+        base = 1
+    }
+
+    potential = {
+        xhk_is_worldark_starbase = yes
+        owner? = {
+            has_technology = tech_phanon_great_wall
+        }
+    }
+    possible = {
+        has_starbase_size >= xhk_worldark_tier_16
+    }
+
+    fits_on_slots = { spinal_mount_7 }
+
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            alloys = @[arkship_cost_alloys_5000 * 16]
+            unity = @[arkship_cost_unity_500 * 5]
+            influence = 500
+            aot_sr_runic_power = 200
+        }
+
+        upkeep = {
+            energy = 500
+            aot_sr_runic_power = 20
+        }
+    }
+
+    component_set = VOIDARK_PHANON_GREAT_WALL_CANNON_SET
+    show_component_tooltips = yes
+    custom_tooltip = voidark_phanon_great_wall_cannon_tt
+    ai_weight = {
+        weight = 100
+    }
+}

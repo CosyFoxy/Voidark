@@ -1,5 +1,6 @@
 @delta_alloy_cost = 75000
 @alpha_alloy_cost = 120000
+@phi_alloy_cost = 150000
 @phanon_alloy_cost = 200000
 @stellarite_alloy_cost = 300000
 

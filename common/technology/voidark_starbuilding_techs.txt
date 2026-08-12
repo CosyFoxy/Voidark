@@ -1,1 +1,255 @@
-# tech_voidark_precursor_integrated_megas = {}
+tech_voidark_precursor_integrated_megas = {
+    icon = tech_acot_bio_precursor_integration
+    area = physics
+    cost = @acot_tier7cost3
+    category = { computing }
+    tier = 7
+    is_rare = yes
+    ai_update_type = all
+    weight = 20
+    prerequisites = {
+        tech_precursor_enigmalith
+        OR = {
+            xhk_tech_worldark_interstellar_assembly
+            xhk_tech_worldark_science_nexus
+            xhk_tech_worldark_art_installation
+            xhk_tech_worldark_strategic_coordination
+        }
+    }
+    prereqfor_desc = {
+        custom = {
+            title = "voidark_tech_unlock_precursor_integrated_megas_title"
+            desc = "voidark_tech_unlock_precursor_integrated_megas_desc"
+        }
+    }
+
+    weight_modifier = {
+        factor = 5
+        inline_script = {
+            script = technology/tech_weight_boni/megaoriented_tech_weight_bonus
+        }
+        inline_script = {
+            script = technologies/rare_technologies_weight_modifiers
+            TECHNOLOGY = "tech_voidark_precursor_integrated_megas"
+        }
+    }
+    ai_weight = { }
+}
+
+tech_voidark_precursor_science_nexus = {
+    icon = tech_precursor_nexus
+    area = physics
+    cost = @acot_tier7cost3
+    tier = 7
+    category = { computing }
+    is_rare = yes
+    ai_update_type = all
+    weight = 20
+
+    prerequisites = {
+        xhk_tech_worldark_science_nexus
+        tech_voidark_precursor_integrated_megas
+        tech_acot_dm_institute
+    }
+
+    potential = {
+        is_nomadic = yes
+        xhk_has_worldark_origin = yes
+    }
+
+    prereqfor_desc = {
+        custom = {
+            title = "tech_voidark_precursor_science_nexus_integration_title"
+            desc = "tech_voidark_precursor_science_nexus_integration_desc"
+        }
+    }
+
+    weight_modifier = {
+        factor = 0.25
+        inline_script = {
+            script = technology/tech_weight_boni/maniacal_or_spark_tech_weight_bonus
+        }
+        inline_script = {
+            script = technologies/rare_technologies_weight_modifiers
+            TECHNOLOGY = tech_voidark_precursor_science_nexus
+        }
+        inline_script = {
+            script = technology/tech_weight_boni/megaoriented_tech_weight_bonus
+        }
+        inline_script = {
+            script = technology/tech_weight_boni/scientist_tech_weight_bonus
+        }
+    }
+    ai_weight = {  }
+}
+
+tech_voidark_precursor_strategic_coordination = {
+    icon = tech_precursor_strategy_center
+    area = society
+    cost = @acot_tier7cost3
+    tier = 7
+    category = { military_theory }
+    is_rare = yes
+    ai_update_type = all
+    weight = 20
+
+    prerequisites = {
+        xhk_tech_worldark_strategic_coordination
+        tech_voidark_precursor_integrated_megas
+        tech_acot_dm_stronghold
+    }
+
+    potential = {
+        is_nomadic = yes
+        has_megacorp = yes
+        xhk_has_worldark_origin = yes
+    }
+
+    prereqfor_desc = {
+        custom = {
+            title = "tech_voidark_precursor_strategic_coordination_integration_title"
+            desc = "tech_voidark_precursor_strategic_coordination_integration_desc"
+        }
+    }
+
+    weight_modifier = {
+        factor = 0.25
+        inline_script = {
+            script = technology/tech_weight_boni/militarist_tech_weight_bonus
+        }
+        modifier = {
+            factor = 6
+            has_ascension_perk = ap_eternal_vigilance
+        }
+        inline_script = {
+            script = technology/tech_weight_boni/maniacal_or_spark_tech_weight_bonus
+        }
+        inline_script = {
+            script = technologies/rare_technologies_weight_modifiers
+            TECHNOLOGY = tech_voidark_precursor_strategic_coordination
+        }
+        inline_script = {
+            script = technology/tech_weight_boni/megaoriented_tech_weight_bonus
+        }
+        inline_script = {
+            script = technology/tech_weight_boni/scientist_tech_weight_bonus
+        }
+    }
+    ai_weight = {  }
+}
+
+tech_voidark_precursor_interstellar_assembly = {
+    icon = tech_precursor_spyorb
+    area = society
+    cost = @acot_tier7cost3
+    tier = 7
+    category = { statecraft }
+    is_rare = yes
+    ai_update_type = all
+    weight = 20
+
+    prerequisites = {
+        xhk_tech_worldark_interstellar_assembly
+        tech_voidark_precursor_integrated_megas
+        tech_dm_embassy
+    }
+
+    potential = {
+        has_megacorp = yes
+        is_nomadic = yes
+        xhk_has_worldark_origin = yes
+    }
+
+    prereqfor_desc = {
+        custom = {
+            title = "tech_voidark_precursor_interstellar_assembly_integration_title"
+            desc = "tech_voidark_precursor_interstellar_assembly_integration_desc"
+        }
+    }
+
+    weight_modifier = {
+        factor = 0.25
+        inline_script = {
+            script = technology/tech_weight_boni/maniacal_or_spark_tech_weight_bonus
+        }
+        modifier = {
+            factor = 0.5
+            is_xenophobe = yes
+        }
+        modifier = {
+            factor = 2
+            is_xenophile = yes
+        }
+        inline_script = {
+            script = technologies/rare_technologies_weight_modifiers
+            TECHNOLOGY = tech_voidark_precursor_interstellar_assembly
+        }
+        inline_script = {
+            script = technology/tech_weight_boni/megaoriented_tech_weight_bonus
+        }
+        inline_script = {
+            script = technology/tech_weight_boni/scientist_tech_weight_bonus
+        }
+    }
+    ai_weight = {  }
+}
+
+tech_voidark_precursor_art_installation = {
+    icon = tech_precursor_citadel
+    area = society
+    cost = @acot_tier7cost3
+    tier = 7
+    category = { statecraft }
+    is_rare = yes
+    ai_update_type = all
+    weight = 20
+
+    prerequisites = {
+        xhk_tech_worldark_art_installation
+        tech_voidark_precursor_integrated_megas
+        tech_acot_dm_institute
+    }
+
+    potential = {
+        has_megacorp = yes
+        is_nomadic = yes
+        xhk_has_worldark_origin = yes
+    }
+
+    prereqfor_desc = {
+        custom = {
+            title = "tech_voidark_precursor_art_installation_integration_title"
+            desc = "tech_voidark_precursor_art_installation_integration_desc"
+        }
+    }
+
+    weight_modifier = {
+        factor = 0.25
+        inline_script = {
+            script = technology/tech_weight_boni/maniacal_or_spark_tech_weight_bonus
+        }
+        modifier = {
+            factor = 6
+            has_ascension_perk = ap_one_vision
+        }
+        modifier = {
+            factor = 0.5
+            is_militarist = yes
+        }
+        modifier = {
+            factor = 2
+            is_pacifist = yes
+        }
+        inline_script = {
+            script = technologies/rare_technologies_weight_modifiers
+            TECHNOLOGY = tech_voidark_precursor_art_installation
+        }
+        inline_script = {
+            script = technology/tech_weight_boni/megaoriented_tech_weight_bonus
+        }
+        inline_script = {
+            script = technology/tech_weight_boni/scientist_tech_weight_bonus
+        }
+    }
+    ai_weight = {  }
+}

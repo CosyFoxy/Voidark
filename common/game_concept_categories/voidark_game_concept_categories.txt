@@ -2,3 +2,8 @@ db_voidark_tiers = {
     name = "databank_voidark_tiers"
     icon = "GFX_text_databank"
 }
+
+db_integrated_megas = {
+    name = "databank_integrated_megas"
+    icon = "GFX_text_databank"
+}
