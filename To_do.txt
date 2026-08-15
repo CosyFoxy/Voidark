@@ -3,21 +3,3 @@ To do:
 to balance:
     zones balance
     ship stats
-
-
-phanon vault:
-
-    non-rival:
-    - vault cracker mega (should be harder than rival)
-        every stage spawn fleets to defend
-        three stages
-    rival:
-    - take vault
-    - give control to rival
-        create country of rival
-        give vault to that country
-        three stage contracts:
-            - requires armies of X size
-            - removes armies
-            - on complete, rival gives technologies
-            - continues
