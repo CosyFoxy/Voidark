@@ -129,5 +129,12 @@ has_stellarite_storage_zone = {
     }
 }
 
+is_phanon_rival_path = {
+    has_country_flag = acot_phanon_rival_spooked_country
+}
+
+phanon_crisis_ongoing = {
+    has_global_flag = acot_phanon_retaliation_crisis_initiated
+}
 
 

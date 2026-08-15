@@ -9,14 +9,15 @@ phanon vault:
 
     non-rival:
     - vault cracker mega (should be harder than rival)
-        every stage spawn fleets to defend
-        three stages
+        finished starts situation:
+            every stage spawn fleets to defend
+            three stages
     rival:
     - take vault
     - give control to rival
         create country of rival
         give vault to that country
-        three stage contracts:
+        three stage contracts/situation:
             - requires armies of X size
             - removes armies
             - on complete, rival gives technologies

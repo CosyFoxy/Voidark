@@ -31,6 +31,8 @@ voidark_vault_cracker_0 = {
 
     potential = {
         xhk_has_worldark_origin = yes
+        is_phanon_rival_path = no
+        phanon_crisis_ongoing = yes
         NOT = {
             has_global_flag = acot_phanon_forbidden
             has_global_flag = aot_phanon_content_OFF
@@ -41,7 +43,19 @@ voidark_vault_cracker_0 = {
 
     possible = {
         inline_script = megastructures/system_ownership_or_waystation_check
-        acot_phanon_crisis_resolved =
+        hidden_trigger = {
+            is_phanon_rival_path = no
+            acot_phanon_crisis_resolved = no
+        }
+    }
+
+    placement_rules = {
+        planet_possible = {
+            custom_tooltip = {
+                fail_text = "must_build_around_phanon_vault"
+                is_acot_pmc_vault = yes
+            }
+        }
     }
 
     on_build_start = {
@@ -62,7 +76,7 @@ voidark_vault_cracker_0 = {
                 limit = {
                     is_acot_pmc_vault = yes
                 }
-                set_planet_flag = has_vault_0
+                set_carrier_flag = has_vault_cracker_0
                 save_event_target_as = voidark_phanon_vault
             }
         }
@@ -74,4 +88,98 @@ voidark_vault_cracker_0 = {
             }
         }
     }
+    ai_weight = {
+        weight = 0 #no AI for now
+    }
 }
+
+#first stage
+
+voidark_vault_cracker_1 = {
+    entity = "crystal_megabore_3_entity"
+    construction_entity = "crystal_megabore_3_construction_entity"
+    portrait = "GFX_megastructure_construction_background"
+    place_entity_on_planet_plane = no
+    prerequisites = {
+        tech_voidark_vault_cracker
+    }
+    upgrade_from = { voidark_vault_cracker_0 }
+    show_in_outliner = yes
+    construction_blocks_and_blocked_by = none
+
+    outliner_trigger = {
+        exists = owner
+        NOT = { has_megastructure_flag = giga_outliner_hidden_by_@owner }
+    }
+
+    build_time = 3000
+    resources = {
+        category = megastructures
+        cost = {
+            alloys = 30000
+            sr_dark_matter = 1500
+            acot_sr_dark_energy = 1500
+            unity = 500
+        }
+        upkeep = {
+            energy = 200
+            sr_dark_matter = 100
+            acot_sr_dark_energy = 100
+        }
+    }
+
+    potential = {
+        xhk_has_worldark_origin = yes
+        NOT = {
+            has_global_flag = acot_phanon_forbidden
+            has_global_flag = aot_phanon_content_OFF
+            has_global_flag = voidark_phanon_vault_cracked
+        }
+        has_technology = tech_voidark_vault_cracker
+    }
+
+    possible = {
+       owner? = { has_technology = tech_voidark_vault_cracker }
+    }
+
+    on_build_start = {
+        from = {
+            set_country_flag = is_currently_building_vault_cracker_1
+        }
+    }
+    on_build_cancel = {
+        from = {
+            remove_country_flag = is_currently_building_vault_cracker_1
+        }
+    }
+    on_build_complete = {
+        save_event_target_as = voidark_phanon_system
+
+        fromfrom.planet = { #Scope to Vault
+            if = {
+                limit = {
+                    is_acot_pmc_vault = yes
+                }
+                add_modifier = {
+                    modifier = voidark_vault_cracker_mod
+                    days = -1
+                }
+                remove_carrier_flag = has_vault_cracker_0
+                set_planet_flag = has_vault_cracker_1
+                save_event_target_as = voidark_phanon_vault
+            }
+        }
+        from = {
+            remove_country_flag = is_currently_building_vault_cracker_1
+            set_country_flag = built_vault_cracker_1
+            country_event = {
+                id = voidark.2 #notification event
+            }
+            start_situation = {
+                type = situation_voidark_vault_cracker
+            }
+        }
+    }
+}
+
+
