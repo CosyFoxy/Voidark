@@ -57,9 +57,12 @@
  mod_planet_cultivators_acot_sr_dark_energy_upkeep_add: "£acot_sr_dark_energy£ $upkeep_per_pop_group_unit$ $giga_planet_cultivators_mod_suffix$"
  mod_planet_energy_converters_acot_sr_dark_energy_upkeep_add: "£acot_sr_dark_energy£ $upkeep_per_pop_group_unit$ $giga_planet_energy_converters_mod_suffix$"
  mod_planet_cultivators_acot_sr_stellarite_upkeep_add: "£acot_sr_stellarite£ $upkeep_per_pop_group_unit$ $giga_planet_cultivators_mod_suffix$"
- mod_planet_energy_converters_aot_sr_runic_power_upkeep_add: "£aot_sr_runic_power $upkeep_per_pop_group_unit$ $giga_planet_energy_converters_mod_suffix$"
+ mod_planet_energy_converters_aot_sr_runic_power_upkeep_add: "£aot_sr_runic_power£ $upkeep_per_pop_group_unit$ $giga_planet_energy_converters_mod_suffix$"
  mod_planet_energy_converters_acot_sr_stellarite_upkeep_add: "£acot_sr_stellarite£ $upkeep_per_pop_group_unit$ $giga_planet_energy_converters_mod_suffix$"
  mod_planet_cultivators_aot_sr_runic_power_upkeep_add: "£aot_sr_runic_power£ $upkeep_per_pop_group_unit$ $giga_planet_cultivators_mod_suffix$"
+ mod_planet_giga_dark_matter_weavers_aot_sr_runic_power_produces_add: "£aot_sr_runic_power£ $produced_per_pop_group_unit$ $job_giga_dark_matter_weaver$"
+ mod_planet_giga_dark_matter_weavers_acot_sr_stellarite_produces_add: "£acot_sr_stellarite£ $produced_per_pop_group_unit$ $job_giga_dark_matter_weaver$"
+ mod_planet_giga_dark_matter_weavers_aot_sr_runic_power_produces_mult: "£aot_sr_runic_power£ $produced_from$ $job_giga_dark_matter_weaver$"
 
  #TECH --------------------------------------------------
 
@@ -93,3 +96,52 @@
  zone_unavailable_tech_afterburners_alpha: "$TRIGGER_FAIL$ §RRequires researching§! £engineering£ ['technology:tech_darkmatter_afterburners_ae']."
  zone_unavailable_tech_afterburners_phanon: "$TRIGGER_FAIL$ §RRequires researching§! £engineering£ ['technology:tech_darkmatter_afterburners_re']."
  zone_unavailable_tech_afterburners_stellarite: "$TRIGGER_FAIL$ §RRequires researching§! £engineering£ ['technology:tech_darkmatter_afterburners_se']."
+
+ tech_voidark_precursor_integrated_megas: "Integrated Precursor Megastructures"
+ tech_voidark_precursor_integrated_megas_desc: "$tech_voidark_precursor_integrated_megas$"
+
+ integration_effect: "§HUpgrades Precursor Integration:§!"
+
+ tech_voidark_precursor_science_nexus: "Integrated Precursor Science Nexus"
+ tech_voidark_precursor_science_nexus_desc: "$tech_voidark_precursor_science_nexus$"
+ tech_voidark_precursor_science_nexus_integration_title: "$integration_effect$ $tech_voidark_precursor_science_nexus$"
+ tech_voidark_precursor_science_nexus_integration_desc: "$integration_effect$ $tech_voidark_precursor_science_nexus$"
+
+ tech_voidark_precursor_strategic_coordination: "Integrated Precursor Strategic Coordination"
+ tech_voidark_precursor_strategic_coordination_desc: "$tech_voidark_precursor_strategic_coordination$"
+ tech_voidark_precursor_strategic_coordination_integration_title: "$integration_effect$ $tech_voidark_precursor_strategic_coordination$"
+ tech_voidark_precursor_strategic_coordination_integration_desc: "$integration_effect$ $tech_voidark_precursor_strategic_coordination$"
+
+ tech_voidark_precursor_interstellar_assembly: "Integrated Precursor Interstellar Assembly"
+ tech_voidark_precursor_interstellar_assembly_desc: "$tech_voidark_precursor_interstellar_assembly$"
+ tech_voidark_precursor_interstellar_assembly_integration_title: "$integration_effect$ $tech_voidark_precursor_interstellar_assembly$"
+ tech_voidark_precursor_interstellar_assembly_integration_desc: "$integration_effect$ $tech_voidark_precursor_interstellar_assembly$"
+
+ tech_voidark_precursor_art_installation: "Integrated Precursor Art Installation"
+ tech_voidark_precursor_art_installation_desc: "$tech_voidark_precursor_art_installation$"
+ tech_voidark_precursor_art_installation_integration_title: "$integration_effect$ $tech_voidark_precursor_art_installation$"
+ tech_voidark_precursor_art_installation_integration_desc: "$integration_effect$ $tech_voidark_precursor_art_installation$"
+
+ voidark_tech_unlock_precursor_integrated_megas_title: "§HUnlocks Integrated Precursor Megastructures§!"
+ voidark_tech_unlock_precursor_integrated_megas_desc: "§H$voidark_tech_unlock_precursor_integrated_megas_title$:§! Allows building ['starbase_building:voidark_precursor_dynamic_system',$sm_voidark_precursor_dynamic_system$]"
+
+ tech_voidark_phanon_stellar_converter_nomadswap: "Runic Energy Weaving"
+ tech_voidark_phanon_stellar_converter_nomadswap_desc: "As our nomadic lifestyle does not support the creation of system-spanning structures, we managed to scour this blueprint for a miniature pylon structure. Attaching the module to our arkship will improve our £aot_sr_runic_power£ $aot_sr_runic_power$ production"
+ tech_voidark_sigma_stellar_converter_nomadswap: "Stellar Energy Weaving"
+ tech_voidark_sigma_stellar_converter_nomadswap_desc: "Similar to the $sm_voidark_miniature_phanon_pylon_star$, this technology will allow us to make use of a miniaturized sigma pylon star."
+ tech_voidark_sigma_solaripp_nomadswap: "Perfected Stellar Energy Weaving"
+ tech_voidark_sigma_solaripp_nomadswap_desc: "We have mastered the creation of $acot_sr_stellarite$, and can now weave it better than ever before."
+ tech_voidark_phanon_great_wall_nomadswap: "Runic Eradication Module"
+ tech_voidark_phanon_great_wall_nomadswap_desc: "$voidark_tech_unlock_phanon_wall_component_desc$"
+
+ tech_voidark_phanon_stellar_converter_noswap: "$tech_phanon_stellar_converter$"
+ tech_voidark_phanon_stellar_converter_noswap_desc: "$tech_phanon_stellar_converter_desc$"
+ tech_voidark_sigma_stellar_converter_noswap: "$tech_sigma_stellar_converter$"
+ tech_voidark_sigma_stellar_converter_noswap_desc: "$tech_sigma_stellar_converter_desc$"
+ tech_voidark_sigma_solaripp_noswap: "$tech_sigma_solaripp$"
+ tech_voidark_sigma_solaripp_noswap_desc: "$tech_sigma_solaripp_desc$"
+ tech_voidark_phanon_great_wall_noswap: "$tech_phanon_great_wall$"
+ tech_voidark_phanon_great_wall_noswap_desc: "$tech_phanon_great_wall_desc$"
+
+ voidark_tech_unlock_phanon_wall_component_title: "§HUnlocks Component:§! $tech_voidark_phanon_great_wall_nomadswap$"
+ voidark_tech_unlock_phanon_wall_component_desc: "Based on the defensive blueprints of a massive structure called the $tech_phanon_great_wall$, the vault contained a blueprint for this massive component meant for mobile stations. Its firepower borders at insanity."

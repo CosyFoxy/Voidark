@@ -18,3 +18,19 @@
  xhk_worldark_tier_17: "§H$concept_stellarite_tier$ Tier§! $xhk_pc_worldark$"
  xhk_worldark_tier_17_plural: "$xhk_worldark_tier_17$s"
  xhk_worldark_tier_17_cap: "$xhk_worldark_tier_17$"
+
+#################################################################################
+ sm_voidark_precursor_dynamic_system: "Precursor Megastructure Integration"
+ sm_voidark_precursor_dynamic_system_desc: "$sm_voidark_precursor_dynamic_system$"
+ voidark_precursor_dynamic_system_requirement_failtext: "$TRIGGER_FAIL$ Requires building any of the §H['concept_integrated_mega']§!."
+ voidark_precursor_dynamic_system_upgrade_effect_tt: "$NEW_LINE$Provides benefits for each ['concept_integrated_mega'] built and its corresponding ['concept_integrated_precursor_mega'] researched."
+ sm_voidark_corespinal_phanon_great_wall_cannon: "$tech_voidark_phanon_great_wall_nomadswap$"
+ sm_voidark_corespinal_phanon_great_wall_cannon_desc: "$voidark_tech_unlock_phanon_wall_component_desc$"
+ sm_voidark_miniature_phanon_pylon_star: "Miniature Runic Pylon Star"
+ sm_voidark_miniature_phanon_pylon_star_desc: "A miniaturized version of the $tech_phanon_stellar_converter$, allowing us to improve our production of $aot_sr_runic_power$ in exchange for funneling massive amounts of energy into this device."
+
+ VOIDARK_PHANON_GREAT_WALL_CANNON: "§RObscurum Cataclysma§!"
+ VOIDARK_PHANON_GREAT_WALL_CANNON_DESC: "$voidark_tech_unlock_phanon_wall_component_desc$"
+ VOIDARK_PHANON_GREAT_WALL_CANNON_SET: "$VOIDARK_PHANON_GREAT_WALL_CANNON$"
+ voidark_phanon_great_wall_cannon_tt: "\n$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with an §Y$VOIDARK_PHANON_GREAT_WALL_CANNON$§!."
+ VOIDARK_CORESPINAL_PHANON_GREAT_WALL_CANNON: "$VOIDARK_PHANON_GREAT_WALL_CANNON$"
