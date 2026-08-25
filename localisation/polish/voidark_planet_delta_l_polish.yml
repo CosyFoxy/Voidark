@@ -54,6 +54,11 @@
  zone_voidark_delta_unity: "§E$concept_delta_tier$ $zone_xhk_worldark_unity$§!"
  zone_voidark_delta_unity_desc: "$zone_unity_desc$"
 
+ zone_voidark_delta_machine: "§E$concept_delta_tier$ Coordination Processor§!"
+ zone_voidark_delta_machine_desc: "$zone_unity_desc$"
+ zone_voidark_delta_hive: "§E$concept_delta_tier$ Coordination Node§!"
+ zone_voidark_delta_hive_desc: "$zone_unity_desc$"
+
  zone_voidark_delta_spiritualist: "§E$concept_delta_tier$ $zone_xhk_worldark_spiritualist$§!"
  zone_voidark_delta_spiritualist_desc: "$zone_unity_spiritualist_desc$"
 

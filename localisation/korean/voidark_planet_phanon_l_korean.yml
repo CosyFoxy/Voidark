@@ -54,6 +54,11 @@
  zone_voidark_phanon_unity: "§R$concept_phanon_tier$ $zone_xhk_worldark_unity$§!"
  zone_voidark_phanon_unity_desc: "$zone_unity_desc$"
 
+ zone_voidark_phanon_machine: "§R$concept_phanon_tier$ Coordination Processor§!"
+ zone_voidark_phanon_machine_desc: "$zone_unity_desc$"
+ zone_voidark_phanon_hive: "§R$concept_phanon_tier$ Coordination Node§!"
+ zone_voidark_phanon_hive_desc: "$zone_unity_desc$"
+
  zone_voidark_phanon_spiritualist: "§R$concept_phanon_tier$ $zone_xhk_worldark_spiritualist$§!"
  zone_voidark_phanon_spiritualist_desc: "$zone_unity_spiritualist_desc$"
 

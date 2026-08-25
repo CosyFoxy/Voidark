@@ -54,6 +54,11 @@
  zone_voidark_alpha_unity: "§B$concept_alpha_tier$ $zone_xhk_worldark_unity$§!"
  zone_voidark_alpha_unity_desc: "$zone_unity_desc$"
 
+ zone_voidark_alpha_machine: "§B$concept_alpha_tier$ Coordination Processor§!"
+ zone_voidark_alpha_machine_desc: "$zone_unity_desc$"
+ zone_voidark_alpha_hive: "§B$concept_alpha_tier$ Coordination Node§!"
+ zone_voidark_alpha_hive_desc: "$zone_unity_desc$"
+
  zone_voidark_alpha_spiritualist: "§B$concept_alpha_tier$ $zone_xhk_worldark_spiritualist$§!"
  zone_voidark_alpha_spiritualist_desc: "$zone_unity_spiritualist_desc$"
 

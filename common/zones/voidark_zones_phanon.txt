@@ -776,6 +776,103 @@ zone_voidark_phanon_unity = {
     ai_priority = 15
 }
 
+zone_voidark_phanon_machine = {
+    icon = GFX_district_specialization_voidark_phanon_unity
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        TIER = phanon
+
+        POTENTIAL = "
+             owner? = {
+                is_gestalt = yes
+                is_hive_empire = no
+                is_spiritualist = no
+            }
+        "
+        TECHNOLOGY = "tech_voidark_phanon"
+    }
+
+    included_building_sets = {
+        unity
+        urban_automation
+    }
+
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = phanon_bureaucrat
+        GESTALT_JOB = voidark_phanon_coordinator
+        AMOUNT = @scaling_district_1_job
+    }
+
+    inline_script = {
+        script = jobs/zone_unity_jobs_add
+        AMOUNT = -100
+    }
+    convert_to = {
+        zone_voidark_phanon_spiritualist
+        zone_voidark_phanon_servitor
+        zone_voidark_phanon_unity
+        zone_voidark_phanon_hive
+    }
+
+    swap_type = district_voidark_phanon_unity_machine
+    swap_type_weight = 5
+
+    zone_sets = { xhk_worldark_unity }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
+
+zone_voidark_phanon_hive = {
+    icon = GFX_district_specialization_voidark_phanon_unity
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        TIER = phanon
+
+        POTENTIAL = "
+             owner? = {
+                is_gestalt = yes
+                is_hive_empire = yes
+                is_spiritualist = no
+            }
+        "
+        TECHNOLOGY = "tech_voidark_phanon"
+    }
+    included_building_sets = {
+        unity
+        urban_automation
+    }
+
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = phanon_bureaucrat
+        GESTALT_JOB = voidark_phanon_coordinator
+        AMOUNT = @scaling_district_1_job
+    }
+
+    inline_script = {
+        script = jobs/zone_unity_jobs_add
+        AMOUNT = -100
+    }
+    convert_to = {
+        zone_voidark_phanon_spiritualist
+        zone_voidark_phanon_servitor
+        zone_voidark_phanon_machine
+        zone_voidark_phanon_unity
+    }
+
+    swap_type = district_voidark_phanon_unity_hive
+    swap_type_weight = 5
+
+    zone_sets = { xhk_worldark_unity }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
+
 
 zone_voidark_phanon_spiritualist = {
     icon = GFX_district_specialization_voidark_phanon_unity
@@ -827,6 +924,13 @@ zone_voidark_phanon_spiritualist = {
         AMOUNT = -100
     }
 
+    convert_to = {
+        zone_voidark_phanon_hive
+        zone_voidark_phanon_servitor
+        zone_voidark_phanon_machine
+        zone_voidark_phanon_unity
+    }
+
     swap_type = district_voidark_phanon_unity_spiritualist
     swap_type_weight = 5
 
@@ -871,6 +975,13 @@ zone_voidark_phanon_servitor = {
             always = yes
         }
         planet_bio_trophies_unity_produces_add = 6
+    }
+
+    convert_to = {
+        zone_voidark_phanon_spiritualist
+        zone_voidark_phanon_hive
+        zone_voidark_phanon_machine
+        zone_voidark_phanon_unity
     }
 
     swap_type = district_voidark_phanon_unity_servitor

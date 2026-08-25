@@ -54,6 +54,11 @@
  zone_voidark_stellarite_unity: "§H$concept_stellarite_tier$ $zone_xhk_worldark_unity$§!"
  zone_voidark_stellarite_unity_desc: "$zone_unity_desc$"
 
+ zone_voidark_stellarite_machine: "§H$concept_stellarite_tier$ Coordination Processor§!"
+ zone_voidark_stellarite_machine_desc: "$zone_unity_desc$"
+ zone_voidark_stellarite_hive: "§H$concept_stellarite_tier$ Coordination Node§!"
+ zone_voidark_stellarite_hive_desc: "$zone_unity_desc$"
+
  zone_voidark_stellarite_spiritualist: "§H$concept_stellarite_tier$ $zone_xhk_worldark_spiritualist$§!"
  zone_voidark_stellarite_spiritualist_desc: "$zone_unity_spiritualist_desc$"
 

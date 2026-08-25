@@ -253,3 +253,45 @@ tech_voidark_precursor_art_installation = {
     }
     ai_weight = {  }
 }
+
+
+tech_voidark_enigmatic_armaments_research_facility = {
+    icon = tech_macrocannon_ae #placeholder
+    area = engineering
+    cost = @acot_tier7cost3
+    category = { computing }
+    tier = 7
+    is_rare = yes
+    ai_update_type = all
+    weight = 20
+    prerequisites = {
+        tech_missile_core_dm
+        tech_energy_core_dm
+        tech_kinetic_core_dm
+        tech_fighter_core_dm
+    }
+    prereqfor_desc = {
+        custom = {
+            title = "voidark_tech_unlock_enigmatic_armaments_research_facility_title"
+            desc = "voidark_tech_unlock_enigmatic_armaments_research_facility_desc"
+        }
+    }
+
+    weight_modifier = {
+        factor = 5
+        inline_script = {
+            script = technology/tech_weight_boni/militarist_tech_weight_bonus
+        }
+        inline_script = {
+            script = technology/tech_weight_boni/maniacal_or_spark_tech_weight_bonus
+        }
+        inline_script = {
+            script = technology/tech_weight_boni/expansionist_tech_weight_bonus
+        }
+        inline_script = {
+            script = technologies/rare_technologies_weight_modifiers
+            TECHNOLOGY = "tech_voidark_enigmatic_armaments_research_facility"
+        }
+    }
+    ai_weight = { }
+}
