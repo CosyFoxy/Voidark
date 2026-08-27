@@ -270,12 +270,7 @@ tech_voidark_enigmatic_armaments_research_facility = {
         tech_kinetic_core_dm
         tech_fighter_core_dm
     }
-    prereqfor_desc = {
-        custom = {
-            title = "voidark_tech_unlock_enigmatic_armaments_research_facility_title"
-            desc = "voidark_tech_unlock_enigmatic_armaments_research_facility_desc"
-        }
-    }
+
 
     weight_modifier = {
         factor = 5
