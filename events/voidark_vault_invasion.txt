@@ -1,0 +1,15 @@
+namespace = voidark_vault_invasion
+
+country_event = {
+    id = voidark_vault_invasion.0 #spawn special project and inform
+}
+
+country_event = {
+    id = voidark_vault_invasion.1 #warn user to land sufficient armies for the invasion or risk losing control of system
+}
+
+country_event = {
+    id = voidark_vault_invasion.2 #respawn special project after delay & inform about respawn
+}
+
+#loop: voidark_vault_invasion.0 -> voidark_vault_invasion.1 -> voidark_vault_invasion.2

@@ -4,3 +4,14 @@ on_game_start_country = {
     }
 }
 
+on_colony_defenders_win = {
+    events = {
+        voidark_vault_invasion.2
+    }
+}
+
+on_colony_transfer = {
+    events = {
+        voidark_vault_invasion.0
+    }
+}
