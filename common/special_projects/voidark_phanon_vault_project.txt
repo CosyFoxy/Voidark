@@ -1,7 +1,7 @@
 special_project = {
     key = "VOIDARK_PHANON_VAULT_INVASION"
-    days_to_research = 360 #tweak
-    timelimit = 1800
+    days_to_research = 180 #tweak
+    #timelimit = 1800
     picture = GFX_evt_laser_grid
     icon = "gfx/interface/icons/situation_log/situation_log_main_quest.dds"
     location = yes
@@ -13,9 +13,15 @@ special_project = {
 
 
     on_start = {
+        if = {
+            limit = {
+                has_country_flag = vault_invasion_project_delayed
+            }
+            remove_country_flag = vault_invasion_project_delayed
+        }
         country_event = {
-            id = voidark_vault_invasion.1
-            days = 1
+            id = voidark_vault_invasion.2
+            days = 5
         }
     }
 
@@ -103,7 +109,21 @@ special_project = {
 
     on_cancel = {
         country_event = {
-            id = voidark_vault_invasion.3
+            id = voidark_vault_invasion.4
+        }
+        if = {
+            limit = {
+                has_country_flag = acot_phanon_tech_stage_four_enabled
+            }
+            set_country_flag = vault_invasion_all_techs_received
+        }
+        else_if = {
+            limit = {
+                NOT = {
+                    has_country_flag = acot_phanon_tech_stage_four_enabled
+                }
+            }
+            set_country_flag = vault_invasion_third_party_faster
         }
     }
     abort_trigger = {
