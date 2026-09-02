@@ -1,0 +1,22 @@
+origin_voidark_vault_vassal = {
+    is_origin = yes
+    icon = "gfx/interface/icons/origins/origins_default_nomads.dds"
+
+    playable = {
+        always = no # Non-player origin
+    }
+
+    description = "origin_voidark_vault_vassal_desc"
+
+    modifier = {
+        planet_pops_upkeep_mult = -0.99
+        planet_buildings_upkeep_mult = -0.99
+        planet_jobs_upkeep_mult = -0.99
+        ships_upkeep_mult = -0.99
+        starbases_upkeep_mult = -0.99
+    }
+
+    random_weight = {
+        base = 0
+    }
+}

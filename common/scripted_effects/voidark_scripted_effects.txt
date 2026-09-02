@@ -1,1 +1,42 @@
-#empty for now
+create_vault_vassal_country = {
+    optimize_memory
+    if = {
+        limit = {
+            AND = {
+                NOR = {
+                    has_global_flag = aot_phanon_content_OFF
+                    has_global_flag = acot_phanon_forbidden
+                }
+                NOT = {
+                    exists = event_target:vault_vassal_country
+                }
+            }
+        }
+        create_country = {
+            name = "NAME_vault_vassal"
+            type = voidark_vault_vassal
+            flag = $OWNER_NOMAD$
+            effect = {
+                save_global_event_target_as = vault_vassal_country
+                every_country = {
+                    limit = {
+                        has_country_flag = vault_temp_owner_flag
+                    }
+                    save_event_target_as = vault_temp_owner_in_effect_target
+                    establish_communications_no_message = prev
+                }
+                copy_techs_from = {
+                    target = event_target:phanon_base_country
+                }
+                set_subject_of = {
+                    who = event_target:vault_temp_owner_in_effect_target
+                    preset = preset_nomad_vault_vassal
+                }
+                create_ship_design = { design = "NAME_ACOT_STAR_COMMANDER" }
+                add_ship_design = last_created_design
+            }
+        }
+    }
+}
+
+

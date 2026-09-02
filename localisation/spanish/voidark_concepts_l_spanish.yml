@@ -44,6 +44,9 @@
   concept_integrated_precursor_mega_plural: "Integrated Precursor Megastructures"
   concept_integrated_precursor_mega_desc: "§C$concept_integrated_precursor_mega_plural$:§!$TABBED_NEW_LINE$- ['technology:tech_voidark_precursor_art_installation', $tech_voidark_precursor_art_installation$]$TABBED_NEW_LINE$- ['technology:tech_voidark_precursor_science_nexus', $tech_voidark_precursor_science_nexus$]$TABBED_NEW_LINE$- ['technology:tech_voidark_precursor_strategic_coordination', $tech_voidark_precursor_strategic_coordination$]$TABBED_NEW_LINE$- ['technology:tech_voidark_precursor_interstellar_assembly', $tech_voidark_precursor_interstellar_assembly$]"
 
+  NAME_vault_vassal: "Droppoint Nomadic Ownership System"
+  origin_voidark_vault_vassal: "Nomadic Defensive Vassal"
+  origin_voidark_vault_vassal_desc: "Only meant to hold the droppoint for the nomadic empire."
   #DOCUMENTATION---------------------------------------------------------------
 
   voidark_docs_chain_title: "Voidark Documentation"

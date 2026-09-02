@@ -1,212 +1,55 @@
 namespace = voidark_vault_invasion
 
-carrier_event = {
-    id = voidark_vault_invasion.1 #spawn special project and inform - FIRST CALL
+
+country_event = {
+    id = voidark_vault_invasion.99
     is_triggered_only = yes
     hide_window = yes
 
     trigger = {
-        NOT = { has_global_flag = aot_phanon_content_OFF }
-        OR = {
-            is_planet_class = pc_acot_pmc_vault_unshielded
-            is_planet_class = pc_acot_pmc_vault
-        }
-        fromfrom = {
-            is_nomadic = yes
-            is_ai = no
-            OR = {
-                is_same_value = event_target:acot_phanon_original_aggressor
-                is_same_value = event_target:acot_phanon_real_spook_country
-            }
-        }
-        from = {
-            has_country_flag = nomad_vassal@fromfrom
-            any_owned_planet = {
-                is_planet_class = pc_acot_pmc_vault
-            }
-        }
+        is_ai = no
+        is_nomadic = yes
     }
 
     immediate = {
-        fromfrom = {
-            country_event = {
-                id = voidark_vault_invasion.11
-            }
+        country_event = {
+            id = voidark_vault_invasion.991
+            months = 1 #delay to allow passage of time
         }
     }
 }
 
 country_event = {
-    id = voidark_vault_invasion.11 #spawn special project and inform - RESPAWN
+    id = voidark_vault_invasion.991
     is_triggered_only = yes
-    title = "voidark_vault_invasion.1.title"
-    desc = {
-        trigger = {
-            fromfrom = {
-                NOR = {
-                    has_country_flag = acot_phanon_tech_stage_one_enabled
-                    has_country_flag = acot_phanon_tech_stage_two_enabled
-                    has_country_flag = acot_phanon_tech_stage_three_enabled
-                    has_country_flag = acot_phanon_tech_stage_four_enabled
-                }
-            }
-        }
-        text = "voidark_vault_invasion.1.stage1.desc"
-    }
-    desc = {
-        trigger = {
-            OR = {
-                has_country_flag = acot_phanon_tech_stage_one_enabled
-                has_country_flag = acot_phanon_tech_stage_two_enabled
-            }
-        }
-        text = "voidark_vault_invasion.1.stage2_or_3.desc"
-    }
-    desc = {
-        trigger = {
-            has_country_flag = acot_phanon_tech_stage_three_enabled
-        }
-        text = "voidark_vault_invasion.1.stage4.desc"
-    }
-    picture = GFX_evt_arkship_combat
-    show_sound = event_arkship_in_crisis
+    hide_window = yes
+
     trigger = {
-        NOT = { has_global_flag = aot_phanon_content_OFF }
-        NOR = {
-            has_country_flag = acot_phanon_tech_stage_four_enabled
-            has_country_flag = vault_invasion_project_delayed
-        }
         is_nomadic = yes
         is_ai = no
-        OR = {
-            is_same_value = event_target:acot_phanon_original_aggressor
-            is_same_value = event_target:acot_phanon_real_spook_country
-        }
-    }
-
-    option = {
-        name = voidark_vault_invasion.1.a
-        custom_tooltip = voidark_vault_invasion_enable_project_tt
-        hidden_effect = {
-            enable_special_project = {
-                name = VOIDARK_PHANON_VAULT_INVASION
-                owner = event_target:vault_project_receiver
-                location = event_target:vault_location
-            }
-        }
-    }
-
-    option = {
-        name = voidark_vault_invasion.1.b
-        custom_tooltip = voidark_vault_invasion_delay_tt
-        hidden_effect = {
-            fromfrom = {
-                set_timed_country_flag = {
-                    flag = vault_invasion_project_delayed
-                    days = 179
-                }
-                country_event = {
-                    id = voidark_vault_invasion.11
-                    days = 180
-                }
-            }
-        }
-    }
-}
-
-country_event = {
-    id = voidark_vault_invasion.2 #warn user to land sufficient armies for the invasion or risk losing control of system
-    is_triggered_only = yes
-    title = voidark_vault_invasion.2.title
-    picture = GFX_evt_gunrunning
-    desc = voidark_vault_invasion.2.desc
-    trigger = {
+        NOT = { has_global_flag = acot_phanon_forbidden }
         NOT = { has_global_flag = aot_phanon_content_OFF }
     }
-    option = {
-        name = voidark_vault_invasion.2.a
-        trigger = {
-            NOT = {
-                has_global_flag = aot_phanon_content_OFF
-                has_global_flag = acot_phanon_rival_plan_initiated
-                has_country_flag = acot_phanon_rival_spooked_country
-            }
-        }
-    }
-    option = {
-        name = voidark_vault_invasion.2.b
-        default_hide_option = yes
-        trigger = {
-            AND = {
-                NOT = { has_global_flag = aot_phanon_content_OFF }
-                has_global_flag = acot_phanon_rival_plan_initiated
-                has_country_flag = acot_phanon_rival_spooked_country
-            }
-        }
-    }
-}
-
-country_event = {
-    id = voidark_vault_invasion.3 #respawn special project after delay & inform about respawn
-    is_triggered_only = yes
-    hide_window = yes
-    trigger = {
-        fromfrom = {
-            is_planet_class = pc_acot_pmc_vault
-            is_same_value = event_target:vault_location
-            NOR = {
-                has_carrier_flag = ongoing_vault_infiltration
-                has_global_flag = aot_phanon_content_OFF
-            }
-        }
-        root = {
-            is_same_value = event_target:vault_vassal
-            has_any_overlord = yes
-            overlord = {
-                is_nomadic = yes
-                is_same_value = event_target:vault_project_receiver
-            }
-        }
-    }
-
     immediate = {
-        event_target:vault_project_receiver = {
-            country_event = {
-                id = voidark_vault_invasion.11
-                days = 181
+        owner? = {
+            save_global_event_target_as = vault_temp_owner
+            set_country_flag = vault_temp_owner_flag
+        }
+        random_system = {
+            limit = {
+                has_star_flag = phanon_base_system
+            }
+            every_system_planet = {
+                limit = {
+                    OR = {
+                        is_planet_class = pc_acot_pmc_vault_unshielded
+                        is_planet_class = pc_acot_pmc_vault
+                    }
+                }
+                set_carrier_flag = nomad_recently_settled_flag
             }
         }
     }
 }
 
-country_event = {
-    id = voidark_vault_invasion.4 #project was cancelled due to getting tech or someone else did it, inform about loss of opportunity
-    is_triggered_only = yes
-    picture = GFX_evt_deficit
-    title = "voidark_vault_invasion.4.title"
-    desc = {
-        trigger = {
-            has_country_flag = vault_invasion_all_techs_received
-        }
-        text = voidark_vault_invasion.4.desc_1
-    }
-    desc = {
-        trigger = {
-            has_country_flag = vault_invasion_third_party_faster
-        }
-        text = voidark_vault_invasion.4.desc_2
-    }
-    option = {
-        trigger = {
-            has_country_flag = vault_invasion_all_techs_received
-        }
-        name = "voidark_vault_invasion.4.a"
-    }
-    option = {
-        trigger = {
-            has_country_flag = vault_invasion_third_party_faster
-        }
-        name = "voidark_vault_invasion.4.b"
-        default_hide_option = yes
-    }
-}
+

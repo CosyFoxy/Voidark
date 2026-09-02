@@ -1,17 +1,24 @@
 on_game_start_country = {
     events = {
         voidark.0
+        voidark_vault_invasion.99
     }
 }
 
-on_colony_defenders_win = {
-    events = {
-        voidark_vault_invasion.3
-    }
-}
+# on_starbase_destroyed = {
+#     events = {
+#         voidark_vault_invasion.992
+#     }
+# }
 
-on_colony_transfer = {
-    events = {
-        voidark_vault_invasion.1
-    }
-}
+# on_colony_defenders_win = {
+#     events = {
+#         voidark_vault_invasion.3
+#     }
+# }
+#
+# on_colony_transfer = {
+#     events = {
+#         voidark_vault_invasion.1
+#     }
+# }
