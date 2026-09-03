@@ -1,0 +1,68 @@
+namespace = acot_pmc
+
+starbase_event = {
+    id = acot_pmc.9899
+    hide_window = yes
+
+    is_triggered_only = yes
+
+    trigger = {
+        solar_system = {
+            has_star_flag = phanon_home_base
+        }
+        from.owner = {
+            NOR = {
+                is_country_type = acot_phanon_base
+                is_country_type = acot_phanon_retaliator
+            }
+        }
+        acot_phanon_crisis_resolved = no
+    }
+
+    immediate = {
+        if = {
+            limit = {
+                from.owner = {
+                    AND = {
+                        is_nomadic = yes
+                        has_country_flag = vault_temp_owner_flag
+                    }
+                }
+            }
+            create_vault_vassal_country = {
+                OWNER_NOMAD = from.owner
+            }
+            from.owner = {
+                set_country_flag = voidark_took_droppoint
+            }
+            solar_system = {
+                create_starbase = {
+                    size = "acot_pmc_starbase"
+                    owner = event_target:vault_vassal_country
+                }
+            }
+            from.owner = {
+                country_event = {
+                    id = acot_pmc.10
+                }
+            }
+        }
+        else = {
+            from.owner = {
+                create_ship_design = { design = "NAME_ACOT_STAR_COMMANDER" }
+                add_ship_design = last_created_design
+            }
+            solar_system = {
+                create_starbase = {
+                    size = "acot_pmc_starbase"
+                    owner = from.owner
+                }
+            }
+            from.owner = {
+                country_event = {
+                    id = acot_pmc.10
+                }
+            }
+        }
+    }
+}

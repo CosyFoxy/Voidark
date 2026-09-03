@@ -1,6 +1,17 @@
 on_game_start_country = {
     events = {
         voidark.0
+        voidark_vault_invasion.99
     }
 }
 
+
+# Fired when a Waystation is constructed
+# this = galactic object/solar system
+# from = waystation owner
+# fromfrom = waystation starbase
+on_waystation_built = {
+    events = {
+        voidark_vault_invasion.1 #Destroy Waystation in Phanon system
+    }
+}

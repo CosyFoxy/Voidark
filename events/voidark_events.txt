@@ -47,6 +47,13 @@ country_event = {
         }
         create_point_of_interest = {
             id = voidark_docs_chain.3
+            name = "voidark_doc_phanon_vault_title"
+            desc = "voidark_doc_phanon_vault_desc"
+            event_chain = "voidark_docs_chain"
+            #location = capital_scope
+        }
+        create_point_of_interest = {
+            id = voidark_docs_chain.4
             name = "voidark_doc_beta_test"
             desc = "voidark_doc_beta_test_desc"
             event_chain = "voidark_docs_chain"

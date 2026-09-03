@@ -1,0 +1,205 @@
+namespace = voidark_vault_invasion
+
+
+country_event = {
+    id = voidark_vault_invasion.99
+    is_triggered_only = yes
+    hide_window = yes
+
+    trigger = {
+        is_ai = no
+        is_nomadic = yes
+    }
+
+    immediate = {
+        country_event = {
+            id = voidark_vault_invasion.991
+            months = 1 #delay to allow passage of time
+        }
+    }
+}
+
+country_event = {
+    id = voidark_vault_invasion.991
+    is_triggered_only = yes
+    hide_window = yes
+
+    trigger = {
+        is_nomadic = yes
+        is_ai = no
+        NOT = { has_global_flag = acot_phanon_forbidden }
+        NOT = { has_global_flag = aot_phanon_content_OFF }
+    }
+    immediate = {
+        owner? = {
+            save_global_event_target_as = vault_temp_owner
+            set_country_flag = vault_temp_owner_flag
+        }
+        random_system = {
+            limit = {
+                has_star_flag = phanon_base_system
+            }
+            every_system_planet = {
+                limit = {
+                    OR = {
+                        is_planet_class = pc_acot_pmc_vault_unshielded
+                        is_planet_class = pc_acot_pmc_vault
+                    }
+                }
+                set_carrier_flag = nomad_recently_settled_flag
+            }
+        }
+    }
+}
+
+system_event = {
+    id = voidark_vault_invasion.1
+    is_triggered_only = yes
+
+    trigger = {
+        this = {
+            any_starbase_in_system = {
+                is_waystation_starbase = yes
+            }
+            owner? = {
+                acot_is_phanon_country = yes
+            }
+        }
+        from = {
+            is_nomadic = yes
+            NOT = { has_waystation_pact = this.owner }
+        }
+    }
+
+    immediate = {
+        if = {
+            limit = {
+                from = {
+                    NOT = { has_country_flag = voidark_phanon_nomad_tolerance_first_offense }
+                }
+            }
+            from = {
+                set_country_flag = voidark_phanon_nomad_tolerance_first_offense
+                country_event = {
+                    id = voidark_vault_invasion.11
+                }
+            }
+            hidden_effect = {
+                destroy_ship = fromfrom
+            }
+        }
+        else_if = {
+            limit = {
+                from = {
+                    has_country_flag = voidark_phanon_nomad_tolerance_first_offense
+                }
+            }
+            from = {
+                set_country_flag = voidark_phanon_nomad_tolerance_final
+                country_event = {
+                    id = voidark_vault_invasion.11
+                }
+            }
+            hidden_effect = {
+                destroy_ship = fromfrom
+            }
+            this.owner = {
+                set_closed_borders = {
+                    who = from
+                    status = yes
+                }
+            }
+        }
+    }
+}
+
+
+country_event = {
+    id = voidark_vault_invasion.11
+    is_triggered_only = yes
+    title = "acot_pmc.diplo_title"
+    desc = {
+        trigger = {
+            NOT = { has_country_flag = voidark_phanon_nomad_tolerance_final }
+        }
+        text = voidark_vault_invasion.11.desc.a
+    }
+    desc = {
+        trigger = {
+            has_country_flag = voidark_phanon_nomad_tolerance_final
+        }
+        text = voidark_vault_invasion.11.desc.b
+    }
+
+    trigger = {
+        NOR = {
+            has_country_flag = attacked_phanon_property
+            has_country_flag = voidark_phanon_nomad_warning
+            has_global_flag = acot_phanon_forbidden
+            has_global_flag = acot_phanon_retaliation_crisis_initiated
+            has_global_flag = acot_phanon_portal_disabled
+        }
+    }
+
+    diplomatic = yes
+    show_sound = event_yellow_alert
+    picture_event_data = {
+        trigger = {
+            NOT = {
+                has_global_flag = acot_phanon_rival_plan_succeed
+            }
+        }
+        room = acot_phanon_bridge_room
+    }
+    picture_event_data = {
+        trigger = {
+            has_global_flag = acot_phanon_rival_plan_succeed
+            NOT = {
+                has_country_flag = acot_phanon_rival_spooked_country
+            }
+        }
+        room = acot_phanon_rival_room
+    }
+    picture_event_data = {
+        trigger = {
+            has_global_flag = acot_phanon_rival_plan_succeed
+            has_country_flag = acot_phanon_rival_spooked_country
+        }
+        room = acot_phanon_rival_v2_room
+    }
+    custom_gui = "acot_enclave_phanon_window"
+    custom_gui_option = "acot_enclave_phanon_option"
+    immediate = {
+        set_country_flag = voidark_phanon_nomad_warning
+    }
+    after = {
+        hidden_effect = {
+            remove_country_flag = acot_phanon_diplomacy_engaged
+        }
+    }
+    option = {
+        name = voidark_vault_invasion.11.a
+        response_text = voidark_vault_invasion.11.a.response
+        allow = {
+            AND = {
+                has_country_flag = voidark_phanon_nomad_tolerance_first_offense
+                NOT = {
+                    has_country_flag = voidark_phanon_nomad_tolerance_final
+                }
+            }
+        }
+    }
+    option = {
+        name = voidark_vault_invasion.11.b
+        response_text = voidark_vault_invasion.11.b.response
+        allow = {
+            AND = {
+                has_country_flag = voidark_phanon_nomad_tolerance_first_offense
+                has_country_flag = voidark_phanon_nomad_tolerance_final
+            }
+        }
+        hidden_effect = {
+            remove_country_flag = voidark_phanon_nomad_tolerance_final
+        }
+    }
+}

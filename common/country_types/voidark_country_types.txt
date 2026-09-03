@@ -1,0 +1,32 @@
+voidark_vault_vassal = {
+    playable = no
+    has_pulse_events = no
+    has_deficits = no
+    randomize_ethos = no
+    custom_diplomacy = yes
+    share_survey_data = no
+    enforces_borders = no
+    has_complete_sensor = yes
+    show_in_contacts_list = no #FOR TESTING
+    observable = no #NEEDED?
+    government = no
+    share_communications = yes
+    blocks_piracy = yes
+    custom_starbase = acot_pmc_starbase
+
+    ai = {
+        enabled = no
+    }
+    faction = {
+        generate_borders = yes
+        needs_colony = no
+        auto_delete = no
+        intel_effects_surveyed = no
+        hostile_when_attacked = yes
+    }
+    modules = {
+        exclusive_diplomacy_module = {}
+        basic_technology_module = {}
+        standard_event_module = {}
+    }
+}

@@ -44,6 +44,9 @@
   concept_integrated_precursor_mega_plural: "Integrated Precursor Megastructures"
   concept_integrated_precursor_mega_desc: "§C$concept_integrated_precursor_mega_plural$:§!$TABBED_NEW_LINE$- ['technology:tech_voidark_precursor_art_installation', $tech_voidark_precursor_art_installation$]$TABBED_NEW_LINE$- ['technology:tech_voidark_precursor_science_nexus', $tech_voidark_precursor_science_nexus$]$TABBED_NEW_LINE$- ['technology:tech_voidark_precursor_strategic_coordination', $tech_voidark_precursor_strategic_coordination$]$TABBED_NEW_LINE$- ['technology:tech_voidark_precursor_interstellar_assembly', $tech_voidark_precursor_interstellar_assembly$]"
 
+  NAME_vault_vassal: "Droppoint Nomadic Ownership System"
+  origin_voidark_vault_vassal: "Nomadic Defensive Vassal"
+  origin_voidark_vault_vassal_desc: "Only meant to hold the droppoint for the nomadic empire."
   #DOCUMENTATION---------------------------------------------------------------
 
   voidark_docs_chain_title: "Voidark Documentation"
@@ -61,13 +64,22 @@
   voidark_doc_precursor_megas_title: "2) Precursor Integrated Megastructures"
   voidark_doc_precursor_megas_desc: "By researching £physics£ ['technology:tech_voidark_precursor_integrated_megas', $tech_voidark_precursor_integrated_megas$] you can improve the capabilities of your ['concept_integrated_mega', $concept_integrated_mega_plural$].$NEW_LINE$$NEW_LINE$The system makes use of triggered modifiers. To benefit from it, you need to:$NEW_LINE$- Build any §H$concept_integrated_mega$§!$NEW_LINE$- Research £physics£ §H$concept_integrated_precursor_mega$§!$NEW_LINE$- Build ['starbase_building:voidark_precursor_dynamic_system', $sm_voidark_precursor_dynamic_system$]$NEW_LINE$- Research any ['concept_integrated_precursor_mega']$NEW_LINE$$NEW_LINE$The effect will then activate on the §H$sm_voidark_precursor_dynamic_system$§!"
 
-  voidark_doc_beta_test: "3) Voidark Beta Test"
+  voidark_doc_phanon_vault_title: "3) Phanon Vault & Droppoint Mechanics"
+  voidark_doc_phanon_vault_desc: "$voidark_doc_phanon_vault_1$$voidark_doc_phanon_vault_2$$voidark_doc_phanon_vault_3$$voidark_doc_phanon_vault_4$$voidark_doc_phanon_vault_5$"
+  voidark_doc_phanon_vault_1: "As Nomadic empire, the way you access Phanon mechanics is slightly altered. Overall, the process is relatively similar:"
+  voidark_doc_phanon_vault_2: "$NEW_LINE$$TABBED_NEW_LINE$- Capture Droppoint.$TABBED_NEW_LINE$- Invade £text_planet£ §Y$pc_acot_pmc_vault$§!.$TABBED_NEW_LINE$- Use ['concept_decision']: §H$decision_acot_infiltrate_phanon_grid$§!.$TABBED_NEW_LINE$- Repeat until the end of the invasion chain."
+  voidark_doc_phanon_vault_3: "$NEW_LINE$$NEW_LINE$$NEW_LINE$§KFor Voidark, these are the changes:§!$TABBED_NEW_LINE$$TABBED_NEW_LINE$- Once the Droppoint Starbase is defeated, it will be given to a hidden vassal. This vassal only exists to manage control of the system.$TABBED_NEW_LINE$- You will own the £text_planet£ §Y$pc_acot_pmc_vault$§! despite playing a single-colony origin."
+  voidark_doc_phanon_vault_4: "$NEW_LINE$$NEW_LINE$§YNOTE:§! In the future, once the vault invasion is complete, this may change to then be integrated into the §Y$xhk_pc_worldark$§!. For now, it is intended that you own both the §Y$pc_acot_pmc_vault$§! and the §Y$xhk_pc_worldark$§!."
+  voidark_doc_phanon_vault_5: "$NEW_LINE$$NEW_LINE$§YNOTE:§! Building any £text_waystation£ ['concept_waystation'] in the Droppoint System under Phanon control will result in the destruction of the Waystation. Subsequent offense will remove border access."
+
+  voidark_doc_beta_test: "4) Voidark Beta Test"
   voidark_doc_beta_test_desc: "$voidark_doc_beta_test_1$$voidark_doc_beta_test_2$$voidark_doc_beta_test_9$$voidark_doc_beta_test_11$$voidark_doc_beta_test_12$$voidark_doc_beta_test_13$$voidark_doc_beta_test_8$$voidark_doc_beta_test_10$"
   voidark_doc_beta_test_1: "Current scope and available features of the mod:"
   voidark_doc_beta_test_2: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_delta_core£ §H$concept_delta_tier$§! §ETier:§! Districts & Zones"
   voidark_doc_beta_test_9: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_alpha_core£ §H$concept_alpha_tier$§! §BTier:§! Districts & Zones"
   voidark_doc_beta_test_11: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_phi_core£ §H$concept_phi_tier$§! §CTier:§! Worldark Upgrade"
-  voidark_doc_beta_test_12: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_phanon_core£ §H$concept_phanon_tier$§! §RTier:§! Districts & Zones"
+  voidark_doc_beta_test_12: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_phanon_core£ §H$concept_phanon_tier$§! §RTier:§! Districts, Zones & Megastructure Replacements"
   voidark_doc_beta_test_13: "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_stellarite_core£ §H$concept_stellarite_tier$§! §HTier:§! Districts & Zones"
   voidark_doc_beta_test_8: "$NEW_LINE$$NEW_LINE$§YCurrent Issues:§!$TABBED_NEW_LINE$- None that I am aware of"
-  voidark_doc_beta_test_10: "$NEW_LINE$$NEW_LINE$§YNOTE:§! Until ACOT adds specific modules & components, you will not get any specific ACOT style modules.$NEW_LINE$$NEW_LINE$§YNOTE:§! Until ACOT adds a way for nomads to reach §H$concept_phanon_tier$§! §RTier§!, §H$concept_phanon_tier$§! and §H$concept_stellarite_tier$§! Districts and Zones can only be accessed by getting £research£ ['technology:tech_dark_matter_power_core_re', $tech_dark_matter_power_core_re$] via console, or by using the console command §cevent voidark_test.1§!"
+  voidark_doc_beta_test_10: "$NEW_LINE$$NEW_LINE$§YNOTE:§! Until ACOT adds specific modules & components, you will not get any specific ACOT style modules."
+  voidark_doc_beta_test_99: "$NEW_LINE$$NEW_LINE$§YNOTE:§! Until ACOT adds a way for nomads to reach §H$concept_phanon_tier$§! §RTier§!, §H$concept_phanon_tier$§! and §H$concept_stellarite_tier$§! Districts and Zones can only be accessed by getting £research£ ['technology:tech_dark_matter_power_core_re', $tech_dark_matter_power_core_re$] via console, or by using the console command §cevent voidark_test.1§!"
