@@ -1,0 +1,9 @@
+﻿l_english:
+
+ #Phanon Diplo on Waystation built
+ voidark_vault_invasion.11.desc.a: "Our scanners have indicated that you attempted to build a £text_icon_waystation£ ['concept_waystation'] within our base of operations. This violates our consumer agreement, and resulted in the termination of your attempt. This system is unavailable for the construction of any of your stations, as stated in our terms and conditions."
+ voidark_vault_invasion.11.desc.b: "Our scanners have indicated that you once again attempted to build a £text_icon_waystation£ ['concept_waystation'] within our base of operations.$NEW_LINE$As indicated in section 2358 A of the Consumer Punishment Agreement, we have revoked your border access."
+ voidark_vault_invasion.11.a: "Our apologies."
+ voidark_vault_invasion.11.a.response: "This was your final warning. Do not attempt this again, or we will close our borders for you."
+ voidark_vault_invasion.11.b: "That was stupid of us..."
+ voidark_vault_invasion.11.b.response: "You may purchase border access again, if you wish to do so. However, be aware, that any subsequent offence will lead to immediate termination of border access once again."

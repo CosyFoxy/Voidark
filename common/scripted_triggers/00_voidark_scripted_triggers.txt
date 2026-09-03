@@ -130,4 +130,28 @@ has_stellarite_storage_zone = {
 }
 
 
+has_any_non_droppoint_vassal = {
+    owner? = {
+        AND = {
+            is_overlord = yes
+            has_subject = event_target:vault_vassal_country
+            any_subject = {
+                NOT = {
+                    is_same_value = event_target:vault_vassal_country
+                }
+            }
+        }
+    }
+}
 
+has_droppoint_vassal = {
+    owner? = {
+        has_subject = event_target:vault_vassal_country
+    }
+}
+
+has_concluded_vault_invasion = {
+    owner? = {
+        has_country_flag = acot_phanon_tech_stage_four_enabled
+    }
+}

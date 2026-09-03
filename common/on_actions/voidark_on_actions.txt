@@ -5,20 +5,13 @@ on_game_start_country = {
     }
 }
 
-# on_starbase_destroyed = {
-#     events = {
-#         voidark_vault_invasion.992
-#     }
-# }
 
-# on_colony_defenders_win = {
-#     events = {
-#         voidark_vault_invasion.3
-#     }
-# }
-#
-# on_colony_transfer = {
-#     events = {
-#         voidark_vault_invasion.1
-#     }
-# }
+# Fired when a Waystation is constructed
+# this = galactic object/solar system
+# from = waystation owner
+# fromfrom = waystation starbase
+on_waystation_built = {
+    events = {
+        voidark_vault_invasion.1 #Destroy Waystation in Phanon system
+    }
+}

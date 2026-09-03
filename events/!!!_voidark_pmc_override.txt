@@ -20,21 +20,48 @@ starbase_event = {
     }
 
     immediate = {
-        create_vault_vassal_country = {
-            OWNER_NOMAD = from.owner
-        }
-        from.owner = {
-            set_country_flag = voidark_took_droppoint
-        }
-        solar_system = {
-            create_starbase = {
-                size = "acot_pmc_starbase"
-                owner = event_target:vault_vassal_country
+        if = {
+            limit = {
+                from.owner = {
+                    AND = {
+                        is_nomadic = yes
+                        has_country_flag = vault_temp_owner_flag
+                    }
+                }
+            }
+            create_vault_vassal_country = {
+                OWNER_NOMAD = from.owner
+            }
+            from.owner = {
+                set_country_flag = voidark_took_droppoint
+            }
+            solar_system = {
+                create_starbase = {
+                    size = "acot_pmc_starbase"
+                    owner = event_target:vault_vassal_country
+                }
+            }
+            from.owner = {
+                country_event = {
+                    id = acot_pmc.10
+                }
             }
         }
-        from.owner = {
-            country_event = {
-                id = acot_pmc.10
+        else = {
+            from.owner = {
+                create_ship_design = { design = "NAME_ACOT_STAR_COMMANDER" }
+                add_ship_design = last_created_design
+            }
+            solar_system = {
+                create_starbase = {
+                    size = "acot_pmc_starbase"
+                    owner = from.owner
+                }
+            }
+            from.owner = {
+                country_event = {
+                    id = acot_pmc.10
+                }
             }
         }
     }
