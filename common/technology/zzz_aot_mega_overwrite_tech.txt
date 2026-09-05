@@ -87,6 +87,12 @@ tech_sigma_stellar_converter = {
         modifier = {
             planet_giga_dark_matter_weavers_acot_sr_stellarite_produces_add = 6
         }
+        prereqfor_desc = {
+            custom = {
+                title = TECH_UNLOCK_VOIDARK_STELLARITE_PYLON_STAR
+                desc = TECH_UNLOCK_VOIDARK_STELLARITE_PYLON_STAR_DESC
+            }
+        }
     }
     technology_swap = {
         name = tech_voidark_sigma_stellar_converter_noswap

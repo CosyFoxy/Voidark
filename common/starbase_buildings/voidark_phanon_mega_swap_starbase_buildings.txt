@@ -1,5 +1,16 @@
 voidark_miniature_phanon_pylon_star = {
-    icon = "GFX_voidark_minature_phanon_pylon_star"
+    icon = {
+        icon = "GFX_voidark_minature_phanon_pylon_star"
+        trigger = {
+            NOT = { owner? = { has_technology = tech_sigma_stellar_converter} }
+        }
+    }
+    icon = {
+        icon = "GFX_voidark_minature_stellarite_pylon_star"
+        trigger = {
+            owner? = { has_technology = tech_sigma_stellar_converter}
+        }
+    }
     starbase_type = arkship
     category = sm_economy_cat
     starbase_limit = {
@@ -38,10 +49,27 @@ voidark_miniature_phanon_pylon_star = {
         produces = {
             aot_sr_runic_power = 500
         }
+        produces = {
+            trigger = {
+                owner? = {
+                    has_technology = tech_sigma_stellar_converter
+                }
+            }
+            acot_sr_stellarite = 500
+        }
     }
 
     planet_modifier = {
         planet_jobs_aot_sr_runic_power_produces_mult = 0.2
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            owner? = {
+                has_technology = tech_sigma_stellar_converter
+            }
+        }
+        planet_jobs_acot_sr_stellarite_produces_mult = 0.2
     }
 
     ai_weight = { weight = 200 }

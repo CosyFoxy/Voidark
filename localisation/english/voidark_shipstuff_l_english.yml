@@ -26,8 +26,13 @@
  voidark_precursor_dynamic_system_upgrade_effect_tt: "$NEW_LINE$Provides benefits for each ['concept_integrated_mega'] built and its corresponding ['concept_integrated_precursor_mega'] researched."
  sm_voidark_corespinal_phanon_great_wall_cannon: "$tech_voidark_phanon_great_wall_nomadswap$"
  sm_voidark_corespinal_phanon_great_wall_cannon_desc: "$voidark_tech_unlock_phanon_wall_component_desc$"
- sm_voidark_miniature_phanon_pylon_star: "Miniature Runic Pylon Star"
- sm_voidark_miniature_phanon_pylon_star_desc: "A miniaturized version of the $tech_phanon_stellar_converter$, allowing us to improve our production of $aot_sr_runic_power$ in exchange for funneling massive amounts of energy into this device."
+
+ sm_voidark_miniature_phanon_pylon_star: "[owner.GetRunic_or_Stellarite_Pylon_Star_Title]"
+ sm_voidark_miniature_phanon_pylon_star_desc: "[owner.GetRunic_or_Stellarite_Pylon_Star_Desc]"
+ SL_voidark_miniature_phanon_pylon_star: "Miniature Runic Pylon Star"
+ SL_voidark_miniature_phanon_pylon_star_desc: "A miniaturized version of the $tech_phanon_stellar_converter$, allowing us to improve our production of $aot_sr_runic_power$ in exchange for funneling massive amounts of energy into this device."
+ SL_voidark_miniature_stellarite_pylon_star: "Miniature Sigma Pylon Star"
+ SL_voidark_miniature_stellarite_pylon_star_desc: "A miniaturized version of the $tech_sigma_stellar_converter$, allowing us to improve our production of $acot_sr_stellarite$ in exchange for funneling massive amounts of energy into this device."
 
  VOIDARK_PHANON_GREAT_WALL_CANNON: "§RObscurum Cataclysma§!"
  VOIDARK_PHANON_GREAT_WALL_CANNON_DESC: "$voidark_tech_unlock_phanon_wall_component_desc$"
