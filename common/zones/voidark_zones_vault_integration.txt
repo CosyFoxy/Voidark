@@ -12,10 +12,74 @@ zone_voidark_vault_integration_dummy = {
 zone_voidark_phanon_vault_integration_primary = {
     icon = GFX_diplomatic_weight_large
     base_buildtime = 360
-    potential = {  }
+    max_buildings = @[6+voidark_building_number]
+    triggered_planet_modifier = {
+        potential = { always = yes }
+        zone_building_slots_add = @[6+voidark_building_number]
+    }
+    potential = {
+        owner? = {
+            AND = {
+                has_technology = tech_voidark_phanon_vault_integration
+                NOT = { has_technology = tech_voidark_stellarite_vault_integration }
+            }
+        }
+        owner.capital_scope.carrier.ship = {
+            inline_script = {
+                script = voidark/starbase_size_reference/voidark_tier_phanon
+            }
+        }
+    }
+    unlock = {
+        is_planet_class = xhk_pc_worldark
+    }
+    include = {
+        all
+    }
+    convert_to = { zone_voidark_stellarite_vault_integration_primary  }
+    zone_sets = { voidark_phanon_vault_primary }
+    inline_script = {
+        script = zones/shared_city_non_urban_zone_modifiers
+    }
+    inline_script = voidark/zones/parts/acot_capital_exclude
 }
 
-zone_voidark_stellarite_vault_integration_primary = {}
+zone_voidark_stellarite_vault_integration_primary = {
+    icon = GFX_diplomatic_weight_large
+    base_buildtime = 360
+    max_buildings = @[6+voidark_building_number]
+    triggered_planet_modifier = {
+        potential = { always = yes }
+        zone_building_slots_add = @[6+voidark_building_number]
+    }
+    potential = {
+        owner? = {
+            AND = {
+                has_technology = tech_voidark_phanon_vault_integration
+                has_technology = tech_voidark_stellarite_vault_integration
+            }
+        }
+        owner.capital_scope.carrier.ship = {
+            inline_script = {
+                script = voidark/starbase_size_reference/voidark_tier_stellarite
+            }
+        }
+    }
+    unlock = {
+        is_planet_class = xhk_pc_worldark
+    }
+    include = {
+        all
+    }
+    convert_to = { zone_voidark_phanon_vault_integration_primary }
+    swap_type = district_voidark_stellarite_vault_integration
+    swap_type_weight = 15
+    zone_sets = { voidark_phanon_vault_primary }
+    inline_script = {
+        script = zones/shared_city_non_urban_zone_modifiers
+    }
+    inline_script = voidark/zones/parts/acot_capital_exclude
+}
 
 #Vault A
 
