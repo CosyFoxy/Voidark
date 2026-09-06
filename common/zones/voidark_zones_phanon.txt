@@ -128,7 +128,7 @@ zone_voidark_phanon_foundry = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = phanon_alloyman
         GESTALT_JOB = phanon_alloydrone
-        AMOUNT = 100
+        AMOUNT = 150
     }
 
     inline_script = {
@@ -176,7 +176,7 @@ zone_voidark_phanon_voidforge = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = phanon_alloyman
         GESTALT_JOB = phanon_alloydrone
-        AMOUNT = 50
+        AMOUNT = 150
     }
 
     inline_script = {
