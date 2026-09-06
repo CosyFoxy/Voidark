@@ -128,7 +128,7 @@ zone_voidark_delta_foundry = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = acot_alloyman
         GESTALT_JOB = acot_alloydrone
-        AMOUNT = 100
+        AMOUNT = 150
     }
 
     inline_script = {
@@ -176,7 +176,7 @@ zone_voidark_delta_voidforge = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = acot_alloyman
         GESTALT_JOB = acot_alloydrone
-        AMOUNT = 50
+        AMOUNT = 150
     }
 
     inline_script = {
