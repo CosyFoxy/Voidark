@@ -79,7 +79,7 @@ tech_sigma_stellar_converter = {
     #OVERWRITE ----------------------------------------
     technology_swap = {
         name = tech_voidark_sigma_stellar_converter_nomadswap
-        inherit_icon = yes
+        inherit_icon = no
         inherit_effects = no
         trigger = {
             xhk_has_worldark_origin = yes

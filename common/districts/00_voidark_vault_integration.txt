@@ -1,0 +1,61 @@
+district_voidark_phanon_vault_integration = {
+    base_buildtime = 360
+    exempt_from_ai_planet_specialization = yes
+    overlay_icon = GFX_district_government
+    gridbox = district_acot_phanon_a
+    custom_gui = planet_district_entry_width_3
+    district_width = 3
+    has_primary_zone = yes
+    can_demolish = no
+    base_cap_amount = 1
+
+    zone_slots = {
+        slot_voidark_phanon_vault_primary
+        slot_voidark_phanon_vault_1
+        slot_voidark_phanon_vault_2
+        slot_voidark_phanon_vault_3
+        slot_voidark_phanon_vault_tier
+    }
+
+    show_on_uncolonized = {
+        always = no
+    }
+
+    potential = {
+        owner? = {
+            AND = {
+                has_technology = tech_voidark_phanon_vault_integration
+                has_concluded_vault_invasion = yes
+            }
+        }
+        uses_district_set = xhk_pc_worldark
+    }
+
+    planet_modifier = {
+        planet_housing_add = 5000
+        pop_environment_tolerance = 0.1
+        planet_orbital_bombardment_damage = -0.10
+    }
+
+    resources = {
+        category = planet_districts
+        produces = {
+            trade = 500
+            unity = 500
+        }
+    }
+}
+
+district_voidark_stellarite_vault_integration = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_hive_factory
+        BACKGROUND = district_voidark_stellarite_vault_integration
+        OVERLAY_ICON = GFX_district_government
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = stellarite
+        TYPE = vault_integration
+    }
+}

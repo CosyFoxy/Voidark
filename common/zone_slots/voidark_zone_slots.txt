@@ -1,0 +1,39 @@
+slot_voidark_phanon_vault_primary = {
+    start = zone_voidark_phanon_vault_integration_primary
+    included_zone_sets = {
+        voidark_phanon_vault_primary
+    }
+    unlock = { always = yes }
+}
+
+slot_voidark_phanon_vault_1 = {
+    start = zone_voidark_phanon_vault_integration_1
+    included_zone_sets = {
+        voidark_phanon_vault_1
+    }
+    unlock = { always = yes }
+}
+
+slot_voidark_phanon_vault_2 = {
+    start = zone_voidark_phanon_vault_integration_2
+    included_zone_sets = {
+        voidark_phanon_vault_2
+    }
+    unlock = { always = yes }
+}
+
+slot_voidark_phanon_vault_3 = {
+    start = zone_voidark_phanon_vault_integration_3
+    included_zone_sets = {
+        voidark_phanon_vault_3
+    }
+    unlock = { always = yes }
+}
+
+slot_voidark_phanon_vault_tier = {
+    start = zone_voidark_phanon_vault_integration_tier
+    included_zone_sets = {
+        voidark_phanon_vault_tier
+    }
+    unlock = { always = yes }
+}

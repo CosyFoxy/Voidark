@@ -1,0 +1,42 @@
+zone_voidark_vault_integration_dummy = {
+    potential = {
+        always = no
+    }
+    unlock = {
+        always = no
+    }
+}
+
+#Basic Zone
+
+zone_voidark_phanon_vault_integration_primary = {
+    icon = GFX_diplomatic_weight_large
+    base_buildtime = 360
+    potential = {  }
+}
+
+zone_voidark_stellarite_vault_integration_primary = {}
+
+#Vault A
+
+zone_voidark_phanon_vault_integration_1 = {}
+
+zone_voidark_stellarite_vault_integration_1 = {}
+
+#Vault B
+
+zone_voidark_phanon_vault_integration_2 = {}
+
+zone_voidark_stellarite_vault_integration_2 = {}
+
+#Vault C
+
+zone_voidark_phanon_vault_integration_3 = {}
+
+zone_voidark_stellarite_vault_integration_3 = {}
+
+#Tier
+
+zone_voidark_phanon_vault_integration_tier = {}
+
+zone_voidark_stellarite_vault_integration_tier = {}

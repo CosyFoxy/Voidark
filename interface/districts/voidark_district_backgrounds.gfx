@@ -207,4 +207,12 @@ spriteTypes = {
         name = GFX_district_voidark_stellarite_negativemass_bg
         textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_negativemass_bg.dds"
     }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_vault_integration_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_phanon_vault_integration_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_vault_integration_bg
+        textureFile = gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_vault_integration_bg.dds
+    }
 }
