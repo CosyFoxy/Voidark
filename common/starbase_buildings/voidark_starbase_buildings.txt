@@ -152,50 +152,50 @@ voidark_precursor_dynamic_system = {
     ai_weight = { weight = 200 }
 }
 
-voidark_enigmatic_armaments_research_facility = {
-    icon = "GFX_spaceport_module_acot_starbase_de_pylon" #Placeholder
-    construction_days = @arkship_build_time_1080
-    starbase_type = arkship
-    category = sm_utility_cat
-
-    potential = {
-        xhk_is_worldark_starbase = yes
-        owner? = {
-            xhk_has_worldark_origin = yes
-            has_technology = tech_voidark_enigmatic_armaments_research_facility
-        }
-    }
-    possible = {
-        has_starbase_size >= xhk_worldark_tier_13
-    }
-
-    show_in_tech = "tech_voidark_enigmatic_armaments_research_facility"
-
-    show_tech_unlock_if = {
-        is_nomadic = yes
-        xhk_has_worldark_origin = yes
-    }
-
-    resources = {
-        category = starbase_arkship_upgrades
-        cost = {
-            alloys = 25000
-            acot_sr_dark_energy = 300
-            sr_dark_matter = 300
-            influence = 100
-        }
-        upkeep = {
-            sr_dark_matter = 20
-            acot_sr_dark_energy = 20
-        }
-    }
-
-    custom_tooltip = voidark_enigmatic_armaments_research_facility_tt
-
-    ai_weight = {
-        weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
-    }
-
-    on_finished = { hidden_effect = { colony = { validate_planet_buildings_and_districts = yes } } }
-    on_destroyed = { hidden_effect = { colony = { validate_planet_buildings_and_districts = yes } } }
-}
+# voidark_enigmatic_armaments_research_facility = {
+#     icon = "GFX_spaceport_module_acot_starbase_de_pylon" #Placeholder
+#     construction_days = @arkship_build_time_1080
+#     starbase_type = arkship
+#     category = sm_utility_cat
+#
+#     potential = {
+#         xhk_is_worldark_starbase = yes
+#         owner? = {
+#             xhk_has_worldark_origin = yes
+#             has_technology = tech_voidark_enigmatic_armaments_research_facility
+#         }
+#     }
+#     possible = {
+#         has_starbase_size >= xhk_worldark_tier_13
+#     }
+#
+#     show_in_tech = "tech_voidark_enigmatic_armaments_research_facility"
+#
+#     show_tech_unlock_if = {
+#         is_nomadic = yes
+#         xhk_has_worldark_origin = yes
+#     }
+#
+#     resources = {
+#         category = starbase_arkship_upgrades
+#         cost = {
+#             alloys = 25000
+#             acot_sr_dark_energy = 300
+#             sr_dark_matter = 300
+#             influence = 100
+#         }
+#         upkeep = {
+#             sr_dark_matter = 20
+#             acot_sr_dark_energy = 20
+#         }
+#     }
+#
+#     custom_tooltip = voidark_enigmatic_armaments_research_facility_tt
+#
+#     ai_weight = {
+#         weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
+#     }
+#
+#     on_finished = { hidden_effect = { colony = { validate_planet_buildings_and_districts = yes } } }
+#     on_destroyed = { hidden_effect = { colony = { validate_planet_buildings_and_districts = yes } } }
+# }
