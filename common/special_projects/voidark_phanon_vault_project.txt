@@ -1,60 +1,146 @@
-special_project = {
-    key = "VOIDARK_PHANON_VAULT_INTEGRATION_PERMISSION"
-    icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
-    event_chain = voidark_vault_integration
-    days_to_research = 360
-    cost = @research_cost5 #check for value
-    tech_department = physics_technology
-    picture = GFX_evt_megastructure_construction
-    timelimit = -1
-    location = yes
-    sound = yes
-
-    event_scope = carrier_event
-    on_success = {
-        this.owner = {
-            set_country_flag = voidark_vault_integration_permitted
-            add_tech_option_no_progress_effect = {
-                TECH = tech_voidark_phanon_vault_integration
-            }
-            country_event = {
-                id = voidark_vault_invasion.994
-            }
-        }
-    }
-}
-
-
-special_project = {
-    key = "VOIDARK_PHANON_VAULT_INTEGRATION"
-    days_to_research = 720 #adjust
-    cost = 0
-    icon = "gfx/interface/icons/situation_log/situation_log_arkship.dds"
-    picture = "GFX_evt_arkship_in_orbit"
-    situation_log_category = xhk_worldark_situation_category
-    event_chain = voidark_vault_integration
-    sound = yes
-    location = yes
-    timelimit = -1
-
-    event_scope = ship_event
-    requirements = {
-        carries_colony = 1
-    }
-    triggered_requirement = {
-        text = SP_VOIDARK_PHANON_VAULT_INTEGRATION_PROJECT_REQUIREMENT
-        count = 1
-        trigger = {
-            is_at_least_phi_voidark = yes
-        }
-    }
-
-    on_success = {
-        this = {
-            carrier_event = { id = voidark_vault_invasion.996 } #Enables district
-        }
-        from = {
-            carrier_event = { id = voidark_vault_invasion.997 } #Removes Vault
-        }
-    }
-}
+# special_project = {
+#     key = "VOIDARK_PHANON_VAULT_INVASION"
+#     days_to_research = 180 #tweak
+#     #timelimit = 1800
+#     picture = GFX_evt_laser_grid
+#     icon = "gfx/interface/icons/situation_log/situation_log_main_quest.dds"
+#     location = yes
+#     remove_when_completed = yes
+#
+#     event_scope = planet_event
+#     requirements = {
+#     }
+#
+#
+#     on_start = {
+#         if = {
+#             limit = {
+#                 has_country_flag = vault_invasion_project_delayed
+#             }
+#             remove_country_flag = vault_invasion_project_delayed
+#         }
+#     }
+#     on_progress_25 = {
+#         country_event = {
+#             id = voidark_vault_invasion.2
+#         }
+#     }
+#
+#     on_success = {
+#         random_system_planet = {
+#             limit = {
+#                 OR = {
+#                     is_planet_class = pc_acot_pmc_vault_unshielded
+#                     is_planet_class = pc_acot_pmc_vault
+#                 }
+#             }
+#             hidden_effect = {
+#                 set_carrier_flag = ongoing_vault_infiltration
+#                 add_modifier = {
+#                     modifier = acot_modifier_vault_delay
+#                     months = 6
+#                 }
+#                 if = {
+#                     limit = {
+#                         NOT = {
+#                             has_global_flag = acot_phanon_rival_plan_initiated
+#                         }
+#                     }
+#                     if = {
+#                         limit = {
+#                             owner? = {
+#                                 NOT = {
+#                                     has_country_flag = acot_phanon_tech_stage_one_enabled
+#                                 }
+#                             }
+#                         }
+#                         carrier_event = {
+#                             id = acot_pmc.12
+#                         }
+#                     }
+#                     if = {
+#                         limit = {
+#                             owner? = {
+#                                 has_country_flag = acot_phanon_tech_stage_one_enabled
+#                                 NOT = {
+#                                     has_country_flag = acot_phanon_tech_stage_two_enabled
+#                                 }
+#                             }
+#                         }
+#                         carrier_event = {
+#                             id = acot_pmc.13
+#                         }
+#                     }
+#                     if = {
+#                         limit = {
+#                             owner? = {
+#                                 has_country_flag = acot_phanon_tech_stage_two_enabled
+#                                 NOT = {
+#                                     has_country_flag = acot_phanon_tech_stage_three_enabled
+#                                 }
+#                             }
+#                         }
+#                         carrier_event = {
+#                             id = acot_pmc.14
+#                         }
+#                     }
+#                     if = {
+#                         limit = {
+#                             owner? = {
+#                                 has_country_flag = acot_phanon_tech_stage_three_enabled
+#                                 NOT = {
+#                                     has_country_flag = acot_phanon_tech_stage_four_enabled
+#                                 }
+#                             }
+#                         }
+#                         carrier_event = {
+#                             id = acot_pmc.15
+#                         }
+#                     }
+#                 }
+#                 else = {
+#                     carrier_event = {
+#                         id = acot_pmc.16
+#                     }
+#                 }
+#                 create_vault_defense_drones = yes
+#             }
+#         }
+#     }
+#
+#     on_cancel = {
+#         country_event = {
+#             id = voidark_vault_invasion.4
+#         }
+#         if = {
+#             limit = {
+#                 has_country_flag = acot_phanon_tech_stage_four_enabled
+#             }
+#             set_country_flag = vault_invasion_all_techs_received
+#         }
+#         else_if = {
+#             limit = {
+#                 NOT = {
+#                     has_country_flag = acot_phanon_tech_stage_four_enabled
+#                 }
+#             }
+#             set_country_flag = vault_invasion_third_party_faster
+#         }
+#     }
+#     abort_trigger = {
+#         any_system = {
+#             any_system_planet = {
+#                 AND = {
+#                     OR = {
+#                         is_planet_class = pc_acot_pmc_vault
+#                         is_planet_class = pc_acot_pmc_vault_unshielded
+#                     }
+#                     OR = {
+#                         has_carrier_flag = acot_vault_floor_four_cleared
+#                         has_carrier_flag = acot_vault_rival_cleared
+#                     }
+#                 }
+#             }
+#         }
+#     }
+# }

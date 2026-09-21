@@ -3,9 +3,3 @@ voidark_docs_chain = {
     picture = GFX_evt_cosmogenesis_crisis
     situation_log_category = xhk_worldark_situation_category
 }
-
-voidark_vault_integration = {
-    icon = "gfx/interface/icons/situation_log/categories/category_developments.dds"
-    picture = GFX_evt_megastructure_construction
-    situation_log_category = xhk_worldark_situation_category
-}
