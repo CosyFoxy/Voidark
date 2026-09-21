@@ -166,10 +166,28 @@ zone_voidark_stellarite_voidforge = {
 
     triggered_planet_modifier = {
         potential = { always = yes }
-        planet_metallurgists_minerals_upkeep_add = 3
-        planet_metallurgists_alloys_produces_add = 3
+        planet_metallurgists_alloys_produces_add = 4
         ship_armor_from_metallurgists = 0.06
         ship_hardening_from_metallurgists = 0.03
+    }
+
+    # Non-catalytic empires pay the extra foundry upkeep in minerals
+    triggered_planet_modifier = {
+        potential = {
+            industrial_jobs_are_catalytic_trigger = no
+        }
+        modifier = {
+            planet_metallurgists_minerals_upkeep_add = 4
+        }
+    }
+    # Catalytic Processing empires pay it in food instead, at the same 1.5x ratio the base job uses when swapping minerals for food
+    triggered_planet_modifier = {
+        potential = {
+            industrial_jobs_are_catalytic_trigger = yes
+        }
+        modifier = {
+            planet_metallurgists_food_upkeep_add = 6
+        }
     }
 
     inline_script = {
@@ -1361,6 +1379,30 @@ zone_voidark_stellarite_darkmatter= {
 }
 
 ## Supertensiles
+zone_voidark_stellarite_supertensiles = {
+    icon = GFX_district_specialization_voidark_stellarite_supertensiles
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        TIER = stellarite
+        POTENTIAL = ""
+        TECHNOLOGY = "tech_voidark_stellarite"
+    }
+    included_building_sets = {
+        giga_supertensile
+    }
+
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_acot_amb_add
+        tier = sigma
+    }
+    swap_type = district_voidark_stellarite_supertensiles
+    swap_type_weight = 5
+    zone_sets = { xhk_worldark_supertensiles }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
 
 ## Neg Mass
 zone_voidark_stellarite_negativemass = {

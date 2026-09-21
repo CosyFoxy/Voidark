@@ -520,6 +520,20 @@ district_voidark_stellarite_darkmatter = {
 
 ## Supertensiles
 
+district_voidark_stellarite_supertensiles = {
+    icon = district_voidark_stellarite_unity_machine
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_giga_frameworld_supertensiles
+        BACKGROUND = district_voidark_stellarite_supertensiles
+        OVERLAY_ICON = GFX_giga_district_supertensiles
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = stellarite
+        TYPE = supertensiles
+    }
+}
 ## Neg Mass
 
 district_voidark_stellarite_negativemass = {

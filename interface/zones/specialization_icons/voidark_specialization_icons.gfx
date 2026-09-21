@@ -483,4 +483,24 @@ spriteTypes = {
         name = GFX_district_specialization_voidark_stellarite_negativemass
         textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_negativemass.dds"
     }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_delta_supertensiles
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_supertensiles.dds"
+    }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_alpha_supertensiles
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_alpha_supertensiles.dds"
+    }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_phanon_supertensiles
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_supertensiles.dds"
+    }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_stellarite_supertensiles
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_supertensiles.dds"
+    }
 }

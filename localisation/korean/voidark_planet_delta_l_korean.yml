@@ -104,10 +104,13 @@
  zone_voidark_delta_amenities_dystopian: "§E$concept_delta_tier$ $zone_xhk_worldark_amenities_dystopian$§!"
  zone_voidark_delta_amenities_dystopian_desc: "$zone_xhk_worldark_amenities_dystopian_desc$"
 
- zone_voidark_delta_negativemass: "§E$concept_delta_tier$ $zone_xhk_worldark_negativemass$"
+ zone_voidark_delta_negativemass: "§E$concept_delta_tier$ $zone_xhk_worldark_negativemass$§!"
  zone_voidark_delta_negativemass_desc: "$zone_xhk_worldark_negativemass_desc$"
- zone_voidark_delta_sentient_metal: "§E$concept_delta_tier$ $zone_xhk_worldark_sentientmetal$"
+ zone_voidark_delta_sentient_metal: "§E$concept_delta_tier$ $zone_xhk_worldark_sentientmetal$§!"
  zone_voidark_delta_sentient_metal_desc: "$zone_xhk_worldark_sentientmetal_desc$"
+
+ zone_voidark_delta_supertensiles: "§E$concept_delta_tier$ $zone_xhk_worldark_supertensiles$§!"
+ zone_voidark_delta_supertensiles_desc: "$zone_xhk_worldark_supertensiles_desc$"
 
 #DISTRICTS ------------------------------------------------------------------
  district_voidark_delta_city: "§E$concept_delta_tier$ $district_xhk_worldark_city$§!"
@@ -322,5 +325,10 @@
  district_voidark_delta_sentient_metal_desc: "$district_xhk_worldark_sentientmetal_desc$"
  district_voidark_delta_sentient_metal_plural: "§E$concept_delta_tier$ $district_xhk_worldark_sentientmetal_plural$§!"
  flavor_district_voidark_delta_sentient_metal: "§YMetallum Vivum§!"
+
+ district_voidark_delta_supertensiles: "§E$concept_delta_tier$ $district_xhk_worldark_supertensiles$§!"
+ district_voidark_delta_supertensiles_desc: "$district_xhk_worldark_supertensiles_desc$"
+ district_voidark_delta_supertensiles_plural: "§E$concept_delta_tier$ $district_xhk_worldark_supertensiles_plural$§!"
+ flavor_district_voidark_delta_supertensiles: "§Y$flavor_xhk_worldark_supertensiles_name$§!"
 
 

@@ -511,7 +511,6 @@ district_voidark_delta_darkmatter = {
         BACKGROUND = district_voidark_delta_penrose
         OVERLAY_ICON = GFX_giga_district_dark_matter
     }
-
     inline_script = {
         script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
@@ -520,6 +519,21 @@ district_voidark_delta_darkmatter = {
 }
 
 ## Supertensiles
+
+district_voidark_delta_supertensiles = {
+    icon = district_voidark_delta_unity_machine
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_giga_frameworld_supertensiles
+        BACKGROUND = district_voidark_delta_supertensiles
+        OVERLAY_ICON = GFX_giga_district_supertensiles
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = delta
+        TYPE = supertensiles
+    }
+}
 
 ## Neg Mass
 

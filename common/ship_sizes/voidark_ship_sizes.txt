@@ -28,7 +28,7 @@ xhk_worldark_tier_13 = {
     }
 
     # 3D Art
-    entity = xhk_worldark_entity
+    entity = xhk_worldark_M_entity
     section_slots = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
@@ -100,7 +100,7 @@ xhk_worldark_tier_14 = {
     }
 
     # 3D Art
-    entity = xhk_worldark_entity
+    entity = xhk_worldark_M_entity
     section_slots = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
@@ -173,7 +173,7 @@ xhk_worldark_tier_15 = {
     }
 
     # 3D Art
-    entity = xhk_worldark_entity
+    entity = xhk_worldark_M_entity
     section_slots = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
@@ -244,7 +244,7 @@ xhk_worldark_tier_16 = {
     }
 
     # 3D Art
-    entity = xhk_worldark_entity
+    entity = xhk_worldark_M_entity
     section_slots = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }
@@ -314,7 +314,7 @@ xhk_worldark_tier_17 = {
     }
 
     # 3D Art
-    entity = xhk_worldark_entity
+    entity = xhk_worldark_M_entity
     section_slots = {
         "mid"	=	{ locator = "part1" }
         "1"		=	{ locator = "module_01" }

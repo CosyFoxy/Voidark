@@ -1,0 +1,47 @@
+triggered_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_gestalt = yes
+        }
+    }
+    modifier = {
+        job_giga_megaengineer_drone_acot_$tier$_add = 100
+    }
+}
+
+triggered_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_gestalt = no
+            #is_fallen_empire_spiritualist = no
+        }
+    }
+    modifier = {
+        job_giga_megaengineer_acot_$tier$_add = 100
+    }
+}
+
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_gestalt = no
+        }
+    }
+    modifier = {
+        job_giga_megaengineer_add = -100
+    }
+}
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_gestalt = yes
+        }
+    }
+    modifier = {
+        job_giga_megaengineer_drone_add = -100
+    }
+}

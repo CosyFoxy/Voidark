@@ -520,6 +520,20 @@ district_voidark_phanon_darkmatter = {
 
 ## Supertensiles
 
+district_voidark_phanon_supertensiles = {
+    icon = district_voidark_phanon_unity_machine
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_giga_frameworld_supertensiles
+        BACKGROUND = district_voidark_phanon_supertensiles
+        OVERLAY_ICON = GFX_giga_district_supertensiles
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = supertensiles
+    }
+}
 ## Neg Mass
 
 district_voidark_phanon_negativemass = {
