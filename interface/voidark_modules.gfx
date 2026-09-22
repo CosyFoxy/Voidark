@@ -7,4 +7,8 @@ spriteTypes = {
         name = "GFX_voidark_minature_phanon_pylon_star"
         textureFile = "gfx/interface/icons/modules/voidark_miniature_phanon_pylon_star.dds"
     }
+    spriteType = {
+        name = "GFX_voidark_minature_stellarite_pylon_star"
+        textureFile = "gfx/interface/icons/modules/voidark_miniature_stellarite_pylon_star.dds"
+    }
 }

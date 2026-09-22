@@ -57,55 +57,56 @@ system_event = {
     is_triggered_only = yes
 
     trigger = {
-        this = {
-            any_starbase_in_system = {
-                is_waystation_starbase = yes
-            }
-            owner? = {
-                acot_is_phanon_country = yes
-            }
+        owner? = {
+            acot_is_phanon_country = yes
         }
         from = {
             is_nomadic = yes
-            NOT = { has_waystation_pact = this.owner }
+            NOT = { has_waystation_pact = root.owner }
         }
     }
 
     immediate = {
+        fromfrom = {
+            save_event_target_as = interloper_waystation
+        }
+        from = {
+            save_event_target_as = interloper
+        }
         if = {
             limit = {
-                from = {
+                event_target:interloper = {
                     NOT = { has_country_flag = voidark_phanon_nomad_tolerance_first_offense }
                 }
             }
-            from = {
+            event_target:interloper = {
                 set_country_flag = voidark_phanon_nomad_tolerance_first_offense
                 country_event = {
                     id = voidark_vault_invasion.11
                 }
             }
             hidden_effect = {
-                destroy_ship = fromfrom
+                destroy_ship = event_target:interloper_waystation
             }
         }
         else_if = {
             limit = {
-                from = {
+                event_target:interloper = {
                     has_country_flag = voidark_phanon_nomad_tolerance_first_offense
                 }
             }
-            from = {
+            event_target:interloper = {
                 set_country_flag = voidark_phanon_nomad_tolerance_final
                 country_event = {
                     id = voidark_vault_invasion.11
                 }
             }
             hidden_effect = {
-                destroy_ship = fromfrom
+                destroy_ship = event_target:interloper_waystation
             }
             this.owner = {
                 set_closed_borders = {
-                    who = from
+                    who = event_target:interloper
                     status = yes
                 }
             }

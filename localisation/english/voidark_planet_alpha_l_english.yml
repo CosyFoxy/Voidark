@@ -108,6 +108,8 @@
  zone_voidark_alpha_negativemass_desc: "$zone_xhk_worldark_negativemass_desc$"
  zone_voidark_alpha_sentient_metal: "§B$concept_alpha_tier$ $zone_xhk_worldark_sentientmetal$"
  zone_voidark_alpha_sentient_metal_desc: "$zone_xhk_worldark_sentientmetal_desc$"
+ zone_voidark_alpha_supertensiles: "§B$concept_alpha_tier$ $zone_xhk_worldark_supertensiles$§!"
+ zone_voidark_alpha_supertensiles_desc: "$zone_xhk_worldark_supertensiles_desc$"
 
 
  #DISTRICTS ------------------------------------------------------------------
@@ -322,4 +324,9 @@
  district_voidark_alpha_sentient_metal_desc: "$district_xhk_worldark_sentientmetal_desc$"
  district_voidark_alpha_sentient_metal_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_sentientmetal_plural$§!"
  flavor_district_voidark_alpha_sentient_metal: "§YMetallum Vivum§!"
+
+ district_voidark_alpha_supertensiles: "§B$concept_alpha_tier$ $district_xhk_worldark_supertensiles$§!"
+ district_voidark_alpha_supertensiles_desc: "$district_xhk_worldark_supertensiles_desc$"
+ district_voidark_alpha_supertensiles_plural: "§B$concept_alpha_tier$ $district_xhk_worldark_supertensiles_plural$§!"
+ flavor_district_voidark_alpha_supertensiles: "§Y$flavor_xhk_worldark_supertensiles_name$§!"
 

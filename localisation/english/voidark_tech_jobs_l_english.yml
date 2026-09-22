@@ -145,3 +145,5 @@
 
  voidark_tech_unlock_phanon_wall_component_title: "§HUnlocks Component:§! $tech_voidark_phanon_great_wall_nomadswap$"
  voidark_tech_unlock_phanon_wall_component_desc: "Based on the defensive blueprints of a massive structure called the $tech_phanon_great_wall$, the vault contained a blueprint for this massive component meant for mobile stations. Its firepower borders at insanity."
+ TECH_UNLOCK_VOIDARK_STELLARITE_PYLON_STAR: "§HUnlocks Module Upgrade:§! $SL_voidark_miniature_stellarite_pylon_star$"
+ TECH_UNLOCK_VOIDARK_STELLARITE_PYLON_STAR_DESC: "$SL_voidark_miniature_stellarite_pylon_star_desc$"

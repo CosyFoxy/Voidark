@@ -3,7 +3,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_13
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_M_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
     #6 in each mouth slot
@@ -819,7 +819,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_14
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_M_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
     #6 in each mouth slot
@@ -1635,7 +1635,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_15
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_M_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
     #6 in each mouth slot
@@ -2451,7 +2451,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_16
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_M_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
     #6 in each mouth slot
@@ -3267,7 +3267,7 @@ ship_section_template = {
     ship_size = xhk_worldark_tier_17
     fits_on_slot = mid
     should_draw_components = yes
-    entity = "xhk_worldark_ship_entity"
+    entity = "xhk_worldark_M_ship_entity"
     icon = "GFX_ship_part_core_mid"
 
     #6 in each mouth slot
