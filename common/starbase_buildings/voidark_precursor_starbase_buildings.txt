@@ -150,8 +150,5 @@ voidark_precursor_dynamic_system = {
         }
     }
 
-
-
-
     ai_weight = { weight = 200 }
 }
