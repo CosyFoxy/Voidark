@@ -1,0 +1,222 @@
+#####################################################################################################################
+######### WAR MOON
+#####################################################################################################################
+
+#DELTA
+utility_component_template = {
+    key = "VOIDARK_NOMAD_MOON_REACTOR_DELTA"
+    size = small
+    icon = "GFX_ship_part_dark_matter_power_core_dm"
+    icon_frame = 1
+    power = 50000
+    prerequisites = { "tech_dark_matter_power_core_dm" }
+    component_set = "power_core"
+    potential = { is_ship_size = giga_nomad_war_moon }
+    ai_weight = { weight = 2000 }
+    upgrades_to = "VOIDARK_NOMAD_MOON_REACTOR_ALPHA"
+    modifier = {
+        ship_hull_mult = 0.05
+    }
+    ship_modifier = {
+        ship_shield_reduction = -0.50
+    }
+}
+
+#ALPHA
+utility_component_template = {
+    key = "VOIDARK_NOMAD_MOON_REACTOR_ALPHA"
+    size = small
+    icon = "GFX_ship_part_dark_matter_power_core_ae"
+    icon_frame = 1
+    power = 75000
+    prerequisites = { "tech_dark_matter_power_core_ae" }
+    component_set = "power_core"
+    potential = { is_ship_size = giga_nomad_war_moon }
+    ai_weight = { weight = 3000 }
+    upgrades_to = "VOIDARK_NOMAD_MOON_REACTOR_PHI"
+    modifier = {
+        ship_hull_mult = 0.1
+        ship_weapon_damage = 0.1
+    }
+    ship_modifier = {
+        ship_shield_reduction = -1
+        ship_fire_rate_mult = 0.1
+    }
+}
+#PHI
+utility_component_template = {
+    key = "VOIDARK_NOMAD_MOON_REACTOR_PHI"
+    size = small
+    icon = "GFX_ship_part_dark_matter_power_core_pe"
+    icon_frame = 1
+    power = 90000
+    prerequisites = { "tech_dark_matter_power_core_pe" }
+    component_set = "power_core"
+    potential = { is_ship_size = giga_nomad_war_moon }
+    ai_weight = { weight = 3500 }
+    upgrades_to = "VOIDARK_NOMAD_MOON_REACTOR_PHANON"
+    modifier = {
+        ship_hull_mult = 0.10
+        ship_weapon_damage = 0.10
+    }
+
+    ship_modifier = {
+        ship_shield_reduction = -1.1
+        ship_fire_rate_mult = 0.10
+    }
+}
+#PHANON
+utility_component_template = {
+    key = "VOIDARK_NOMAD_MOON_REACTOR_PHANON"
+    size = small
+    icon = "GFX_ship_part_dark_matter_power_core_re"
+    icon_frame = 1
+    power = 100000
+    prerequisites = { "tech_dark_matter_power_core_re" }
+    component_set = "power_core"
+    potential = { is_ship_size = giga_nomad_war_moon }
+    ai_weight = { weight = 4000 }
+    upgrades_to = "VOIDARK_NOMAD_MOON_REACTOR_STELLARITE"
+    modifier = {
+        ship_hull_mult = 0.10
+        ship_weapon_damage = 0.10
+    }
+
+    ship_modifier = {
+        ship_shield_reduction = -1.25
+        ship_fire_rate_mult = 0.10
+    }
+}
+#STELLARITE
+utility_component_template = {
+    key = "VOIDARK_NOMAD_MOON_REACTOR_STELLARITE"
+    size = small
+    icon = "GFX_ship_part_dark_matter_power_core_se"
+    icon_frame = 1
+    power = 120000
+    prerequisites = { "tech_dark_matter_power_core_se" }
+    component_set = "power_core"
+    potential = { is_ship_size = giga_nomad_war_moon }
+    ai_weight = { weight = 5000 }
+
+    modifier = {
+        ship_hull_mult = 0.20
+        ship_weapon_damage = 0.20
+        ship_fire_rate_mult = 0.20
+    }
+
+    ship_modifier = {
+        ship_shield_reduction = -2.0
+    }
+}
+
+#####################################################################################################################
+######### WAR PLANET
+#####################################################################################################################
+#DELTA
+utility_component_template = {
+    key = "VOIDARK_NOMAD_PLANET_REACTOR_DELTA"
+    size = small
+    icon = "GFX_ship_part_dark_matter_power_core_dm"
+    icon_frame = 1
+    power = 150000
+    prerequisites = { "tech_dark_matter_power_core_dm" }
+    component_set = "power_core"
+    potential = { is_ship_size = giga_nomad_war_planet }
+    ai_weight = { weight = 2000 }
+    upgrades_to = "VOIDARK_NOMAD_PLANET_REACTOR_ALPHA"
+    modifier = {
+        ship_hull_mult = 0.05
+    }
+    ship_modifier = {
+        ship_shield_reduction = -0.50
+    }
+}
+
+#ALPHA
+utility_component_template = {
+    key = "VOIDARK_NOMAD_PLANET_REACTOR_ALPHA"
+    size = small
+    icon = "GFX_ship_part_dark_matter_power_core_ae"
+    icon_frame = 1
+    power = 200000
+    prerequisites = { "tech_dark_matter_power_core_ae" }
+    component_set = "power_core"
+    potential = { is_ship_size = giga_nomad_war_planet }
+    ai_weight = { weight = 3000 }
+    upgrades_to = "VOIDARK_NOMAD_PLANET_REACTOR_PHI"
+    modifier = {
+        ship_hull_mult = 0.1
+        ship_weapon_damage = 0.1
+    }
+    ship_modifier = {
+        ship_shield_reduction = -1
+        ship_fire_rate_mult = 0.1
+    }
+}
+#PHI
+utility_component_template = {
+    key = "VOIDARK_NOMAD_PLANET_REACTOR_PHI"
+    size = small
+    icon = "GFX_ship_part_dark_matter_power_core_pe"
+    icon_frame = 1
+    power = 215000
+    prerequisites = { "tech_dark_matter_power_core_pe" }
+    component_set = "power_core"
+    potential = { is_ship_size = giga_nomad_war_planet }
+    ai_weight = { weight = 3500 }
+    upgrades_to = "VOIDARK_NOMAD_PLANET_REACTOR_PHANON"
+    modifier = {
+        ship_hull_mult = 0.10
+        ship_weapon_damage = 0.10
+    }
+
+    ship_modifier = {
+        ship_shield_reduction = -1.1
+        ship_fire_rate_mult = 0.10
+    }
+}
+#PHANON
+utility_component_template = {
+    key = "VOIDARK_NOMAD_PLANET_REACTOR_PHANON"
+    size = small
+    icon = "GFX_ship_part_dark_matter_power_core_re"
+    icon_frame = 1
+    power = 250000
+    prerequisites = { "tech_dark_matter_power_core_re" }
+    component_set = "power_core"
+    potential = { is_ship_size = giga_nomad_war_planet }
+    ai_weight = { weight = 4000 }
+    upgrades_to = "VOIDARK_NOMAD_PLANET_REACTOR_STELLARITE"
+    modifier = {
+        ship_hull_mult = 0.10
+        ship_weapon_damage = 0.10
+    }
+
+    ship_modifier = {
+        ship_shield_reduction = -1.25
+        ship_fire_rate_mult = 0.10
+    }
+}
+#STELLARITE
+utility_component_template = {
+    key = "VOIDARK_NOMAD_PLANET_REACTOR_STELLARITE"
+    size = small
+    icon = "GFX_ship_part_dark_matter_power_core_se"
+    icon_frame = 1
+    power = 300000
+    prerequisites = { "tech_dark_matter_power_core_se" }
+    component_set = "power_core"
+    potential = { is_ship_size = giga_nomad_war_planet }
+    ai_weight = { weight = 5000 }
+
+    modifier = {
+        ship_hull_mult = 0.20
+        ship_weapon_damage = 0.20
+        ship_fire_rate_mult = 0.20
+    }
+
+    ship_modifier = {
+        ship_shield_reduction = -2.0
+    }
+}

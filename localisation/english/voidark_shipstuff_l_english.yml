@@ -39,3 +39,34 @@
  VOIDARK_PHANON_GREAT_WALL_CANNON_SET: "$VOIDARK_PHANON_GREAT_WALL_CANNON$"
  voidark_phanon_great_wall_cannon_tt: "\n$ARKSHIP_COMPONENTS$\n$t$$ADDS_ARKSHIP_T_SLOTS$\n$t$This Spinal Mount is equipped with an §Y$VOIDARK_PHANON_GREAT_WALL_CANNON$§!."
  VOIDARK_CORESPINAL_PHANON_GREAT_WALL_CANNON: "$VOIDARK_PHANON_GREAT_WALL_CANNON$"
+
+####################################################################################
+ VOIDARK_NOMAD_MOON_REACTOR_DELTA: "Dark Matter Heavy Reactor"
+ VOIDARK_NOMAD_MOON_REACTOR_DELTA_DESC: "A special reactor, infused with dark matter and specifically created and tuned to power the $giga_nomad_war_moon$ and its specialized systems."
+
+ VOIDARK_NOMAD_MOON_REACTOR_ALPHA: "Alpha Heavy Reactor"
+ VOIDARK_NOMAD_MOON_REACTOR_ALPHA_DESC: "A special reactor, infused with dark energy and specifically created and tuned to power the $giga_nomad_war_moon$ and its specialized systems."
+
+ VOIDARK_NOMAD_MOON_REACTOR_PHI: "Phi Heavy Reactor"
+ VOIDARK_NOMAD_MOON_REACTOR_PHI_DESC: "A special reactor, based on initial analyses of Phanon technologies and specifically created and tuned to power the $giga_nomad_war_moon$ and its specialized systems."
+
+ VOIDARK_NOMAD_MOON_REACTOR_PHANON: "Runic Heavy Reactor"
+ VOIDARK_NOMAD_MOON_REACTOR_PHANON_DESC: "A special reactor, infused with runic energy and specifically created and tuned to power the $giga_nomad_war_moon$ and its specialized systems."
+
+ VOIDARK_NOMAD_MOON_REACTOR_STELLARITE: "Stellarite Heavy Reactor"
+ VOIDARK_NOMAD_MOON_REACTOR_STELLARITE_DESC: "A special reactor, infused with stellarite energy and specifically created and tuned to power the $giga_nomad_war_moon$ and its specialized systems."
+
+ VOIDARK_NOMAD_PLANET_REACTOR_DELTA: "Dark Matter Superheavy Reactor"
+ VOIDARK_NOMAD_PLANET_REACTOR_DELTA_DESC: "A minor planetoid sized reactor, infused with dark matter, greedily drawn from to feed the $giga_nomad_war_planet$."
+
+ VOIDARK_NOMAD_PLANET_REACTOR_ALPHA: "Alpha Superheavy Reactor"
+ VOIDARK_NOMAD_PLANET_REACTOR_ALPHA_DESC: "A minor planetoid sized reactor, infused with dark energy, greedily drawn from to feed the $giga_nomad_war_planet$."
+
+ VOIDARK_NOMAD_PLANET_REACTOR_PHI: "Phi Superheavy Reactor"
+ VOIDARK_NOMAD_PLANET_REACTOR_PHI_DESC: "A minor planetoid sized reactor, based on initial analyses of Phanon technologies, greedily drawn from to feed the $giga_nomad_war_planet$."
+
+ VOIDARK_NOMAD_PLANET_REACTOR_PHANON: "Runic Superheavy Reactor"
+ VOIDARK_NOMAD_PLANET_REACTOR_PHANON_DESC: "A minor planetoid sized reactor, infused with runic energy, greedily drawn from to feed the $giga_nomad_war_planet$."
+
+ VOIDARK_NOMAD_PLANET_REACTOR_STELLARITE: "Stellarite Superheavy Reactor"
+ VOIDARK_NOMAD_PLANET_REACTOR_STELLARITE_DESC: "A minor planetoid sized reactor, infused with stellarite energy, greedily drawn from to feed the $giga_nomad_war_planet$."
