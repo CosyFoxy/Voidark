@@ -202,7 +202,7 @@
  district_voidark_phanon_unity_spiritualist: "§R$concept_phanon_tier$ $district_xhk_worldark_unity_spiritualist$§!"
  district_voidark_phanon_unity_spiritualist_desc: "$district_arcology_spiritualist_desc$"
  district_voidark_phanon_unity_spiritualist_plural: "§R$concept_phanon_tier$ $district_xhk_worldark_unity_spiritualist_plural$§!"
- flavor_district_voidark_phanon_: "§YHoly Halls§!"
+ flavor_district_voidark_phanon_unity_spiritualist: "§YHoly Halls§!"
 
  district_voidark_phanon_unity_hive: "§R$concept_phanon_tier$ $district_xhk_worldark_unity_hive$§!"
  district_voidark_phanon_unity_hive_desc: "$district_hive_administrative_desc$"

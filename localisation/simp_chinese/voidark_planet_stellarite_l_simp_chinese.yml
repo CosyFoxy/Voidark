@@ -202,7 +202,7 @@
  district_voidark_stellarite_unity_spiritualist: "§H$concept_stellarite_tier$ $district_xhk_worldark_unity_spiritualist$§!"
  district_voidark_stellarite_unity_spiritualist_desc: "$district_arcology_spiritualist_desc$"
  district_voidark_stellarite_unity_spiritualist_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_unity_spiritualist_plural$§!"
- flavor_district_voidark_stellarite_: "§YHoly Halls§!"
+ flavor_district_voidark_stellarite_unity_spiritualist: "§YHoly Halls§!"
 
  district_voidark_stellarite_unity_hive: "§H$concept_stellarite_tier$ $district_xhk_worldark_unity_hive$§!"
  district_voidark_stellarite_unity_hive_desc: "$district_hive_administrative_desc$"
