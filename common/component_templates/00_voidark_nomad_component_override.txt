@@ -1,0 +1,21 @@
+utility_component_template = {
+    key = "REACTOR_NOMAD_WAR_MOON"
+    size = small
+    icon = "GFX_ship_part_reactor_planet"
+    icon_frame = 1
+    power = 30000
+    component_set = "power_core"
+    potential = { is_ship_size = giga_nomad_war_moon }
+    upgrades_to = "VOIDARK_NOMAD_MOON_REACTOR_DELTA"
+}
+
+utility_component_template = {
+    key = "REACTOR_NOMAD_WAR_PLANET"
+    size = small
+    icon = "GFX_ship_part_reactor_planet"
+    icon_frame = 1
+    power = 100000
+    component_set = "power_core"
+    potential = { is_ship_size = giga_nomad_war_planet }
+    upgrades_to = "VOIDARK_NOMAD_PLANET_REACTOR_DELTA"
+}

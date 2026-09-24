@@ -920,8 +920,8 @@ zone_voidark_delta_spiritualist = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = dm_priest
-        GESTALT_JOB = dm_priest
+        JOB = acot_priest
+        GESTALT_JOB = acot_priest
         AMOUNT = @scaling_district_1_job
     }
 

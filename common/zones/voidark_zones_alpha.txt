@@ -915,9 +915,9 @@ zone_voidark_alpha_spiritualist = {
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = ae_priest
-        GESTALT_JOB = ae_priest
-        AMOUNT = @scaling_district_1_job
+        JOB = acot_priest
+        GESTALT_JOB = acot_priest
+        AMOUNT = @bonus_scaling_district_1_job
     }
 
     triggered_district_planet_modifier = {

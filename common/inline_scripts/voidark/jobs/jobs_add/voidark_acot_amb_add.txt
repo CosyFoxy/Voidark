@@ -1,4 +1,4 @@
-triggered_planet_modifier = {
+triggered_district_planet_modifier = {
     potential = {
         exists = owner
         owner = {
@@ -10,7 +10,7 @@ triggered_planet_modifier = {
     }
 }
 
-triggered_planet_modifier = {
+triggered_district_planet_modifier = {
     potential = {
         exists = owner
         owner = {
