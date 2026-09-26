@@ -1,5 +1,9 @@
 To do:
 
-to balance:
-    zones balance
-    ship stats
+decide what to do if someone has the star traveller
+
+finish system deletion special project
+
+add loc
+
+test

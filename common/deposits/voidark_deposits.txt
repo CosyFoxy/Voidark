@@ -1,0 +1,48 @@
+d_voidark_data_planet_integration = {
+    icon = d_placeholder
+    is_for_colonizable = yes
+    category = deposit_cat_rare
+    triggered_planet_modifier = {
+        potential = {
+            is_capital = yes
+        }
+    }
+    resources = {
+        category = hab_research_deposits
+        produces = {
+            physics_research = 150
+            society_research = 150
+            engineering_research = 150
+            minor_artifacts = 10
+        }
+    }
+    drop_weight = {
+        weight = 0
+    }
+}
+
+d_voidark_storage_planet_integration = {
+    icon = d_placeholder
+    is_for_colonizable = yes
+    category = deposit_cat_rare
+    triggered_planet_modifier = {
+        potential = {
+            is_capital = yes
+        }
+    }
+    resources = {
+        category = hab_mining_deposits
+        produces = {
+            energy = 1000
+            minerals = 1000
+            food = 1000
+            consumer_goods = 1000
+            alloys = 1000
+            sr_living_metal = 5
+            nanites = 5
+        }
+    }
+    drop_weight = {
+        weight = 0
+    }
+}

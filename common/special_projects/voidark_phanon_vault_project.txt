@@ -42,7 +42,7 @@ special_project = {
         carries_colony = 1
     }
     triggered_requirement = {
-        text = SP_VOIDARK_PHANON_VAULT_INTEGRATION_PROJECT_REQUIREMENT
+        text = SP_VOIDARK_PHANON_VAULT_INTEGRATION_PROJECT_REQUIREMENT # must contain $COUNT$ and $REQUIRED$
         count = 1
         trigger = {
             is_at_least_phi_voidark = yes
@@ -57,4 +57,60 @@ special_project = {
             carrier_event = { id = voidark_vault_invasion.997 } #Removes Vault
         }
     }
+}
+
+#Phanon Resource Planet Integration
+
+special_project = {
+    key = "VOIDARK_PHANON_RESOURCE_PLANET_INTEGRATION"
+    days_to_research = 360 #adjust
+    cost = 0
+    icon = "gfx/interface/icons/situation_log/situation_log_arkship.dds"
+    picture = "GFX_evt_arkship_in_orbit"
+    situation_log_category = xhk_worldark_situation_category
+    event_chain = voidark_vault_integration
+    sound = no
+    location = yes
+    timelimit = -1
+
+    event_scope = ship_event
+    requirements = {
+        carries_colony = 1
+    }
+    triggered_requirement = {
+        text = SP_VOIDARK_PHANON_VAULT_INTEGRATION_PROJECT_REQUIREMENT # must contain $COUNT$ and $REQUIRED$
+        count = 1
+        trigger = {
+            is_at_least_phi_voidark = yes
+        }
+    }
+
+    on_success = {
+        from = {
+            save_global_event_target_as = phanon_resource_planet
+            integrate_droppoint_resource_planets = yes
+        }
+        #if needed bc cannot spawn simultaneously: spawn next special project
+    }
+    abort_trigger = {
+        event_target:worldark_colony = {
+            OR = {
+                count_deposits = {
+                    type = d_voidark_data_planet_integration
+                    count >= 6
+                }
+                count_deposits = {
+                    type = d_voidark_storage_planet_integration
+                    count >= 7
+                }
+            }
+        }
+    }
+}
+
+#Remove Droppoint System
+
+special_project = {
+    key = "VOIDARK_PHANON_DROPPOINT_DELETION"
+    days_to_research = 30
 }

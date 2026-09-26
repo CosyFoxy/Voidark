@@ -54,3 +54,54 @@ destroy_droppoint_temp_vassal = {
         destroy_country = yes
     }
 }
+
+
+integrate_droppoint_resource_planets = {
+    optimize_memory
+    event_target:phanon_resource_planet = {
+        every_deposit = {
+            remove_deposit = yes
+        }
+    }
+    if = {
+        limit = {
+            AND = {
+                event_target:phanon_resource_planet = {
+                    is_planet_class = pc_acot_pmc_data_planet
+                }
+                event_target:worldark_colony = {
+                    count_deposits = {
+                        type = d_voidark_data_planet_integration
+                        count < 6
+                    }
+                }
+            }
+        }
+        event_target:worldark_colony = {
+            add_deposit = d_voidark_data_planet_integration
+        }
+        clear_global_event_target = phanon_resource_planet
+    }
+    else_if = {
+        limit = {
+            AND = {
+                event_target:phanon_resource_planet = {
+                    is_planet_class = pc_acot_pmc_storage_planet
+                }
+                event_target:worldark_colony = {
+                    count_deposits = {
+                        type = d_voidark_storage_planet_integration
+                        count < 7
+                    }
+                }
+            }
+        }
+        event_target:worldark_colony = {
+            add_deposit = d_voidark_storage_planet_integration
+        }
+        clear_global_event_target = phanon_resource_planet
+    }
+    else = {
+        clear_global_event_target = phanon_resource_planet
+    }
+}
