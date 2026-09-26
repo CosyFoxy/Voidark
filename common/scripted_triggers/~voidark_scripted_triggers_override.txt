@@ -203,10 +203,15 @@ soldier_is_missile_crew_trigger = {
         OR = {
             has_zone = { zone = zone_ark_missile_silos }
             has_zone = { zone = zone_xhk_worldark_ordinance_missile_silos }
+            has_zone = { zone = zone_xhk_worldark_ordinance_full_batteries }
             has_zone = { zone = zone_voidark_delta_ordinance_missile }
             has_zone = { zone = zone_voidark_alpha_ordinance_missile }
             has_zone = { zone = zone_voidark_phanon_ordinance_missile }
             has_zone = { zone = zone_voidark_stellarite_ordinance_missile }
+            has_zone = { zone = zone_voidark_delta_ordinance_full_batteries }
+            has_zone = { zone = zone_voidark_alpha_ordinance_full_batteries }
+            has_zone = { zone = zone_voidark_phanon_ordinance_full_batteries }
+            has_zone = { zone = zone_voidark_stellarite_ordinance_full_batteries }
         }
     }
 }
@@ -216,10 +221,15 @@ soldier_is_ammunition_loader_trigger = {
         OR = {
             has_zone = { zone = zone_ark_ammunition_lines }
             has_zone = { zone = zone_xhk_worldark_ordinance_ammunition_lines }
+            has_zone = { zone = zone_xhk_worldark_ordinance_full_batteries }
             has_zone = { zone = zone_voidark_delta_ordinance_kinetic }
             has_zone = { zone = zone_voidark_alpha_ordinance_kinetic }
             has_zone = { zone = zone_voidark_phanon_ordinance_kinetic }
             has_zone = { zone = zone_voidark_stellarite_ordinance_kinetic }
+            has_zone = { zone = zone_voidark_delta_ordinance_full_batteries }
+            has_zone = { zone = zone_voidark_alpha_ordinance_full_batteries }
+            has_zone = { zone = zone_voidark_phanon_ordinance_full_batteries }
+            has_zone = { zone = zone_voidark_stellarite_ordinance_full_batteries }
         }
     }
 }
@@ -229,10 +239,15 @@ soldier_is_laser_gunner_trigger = {
         OR = {
             has_zone = { zone = zone_ark_laser_capacitors }
             has_zone = { zone = zone_xhk_worldark_ordinance_laser_capacitors }
+            has_zone = { zone = zone_xhk_worldark_ordinance_full_batteries }
             has_zone = { zone = zone_voidark_delta_ordinance_energy }
             has_zone = { zone = zone_voidark_alpha_ordinance_energy }
             has_zone = { zone = zone_voidark_phanon_ordinance_energy }
             has_zone = { zone = zone_voidark_stellarite_ordinance_energy }
+            has_zone = { zone = zone_voidark_delta_ordinance_full_batteries }
+            has_zone = { zone = zone_voidark_alpha_ordinance_full_batteries }
+            has_zone = { zone = zone_voidark_phanon_ordinance_full_batteries }
+            has_zone = { zone = zone_voidark_stellarite_ordinance_full_batteries }
         }
     }
 }
@@ -242,12 +257,39 @@ soldier_is_flight_deck_crew_trigger = {
         OR = {
             has_zone = { zone = zone_ark_flight_decks }
             has_zone = { zone = zone_xhk_worldark_ordinance_flight_decks }
+            has_zone = { zone = zone_xhk_worldark_ordinance_full_batteries }
             has_zone = { zone = zone_voidark_delta_ordinance_strike_craft }
             has_zone = { zone = zone_voidark_alpha_ordinance_strike_craft }
             has_zone = { zone = zone_voidark_phanon_ordinance_strike_craft }
             has_zone = { zone = zone_voidark_stellarite_ordinance_strike_craft }
+            has_zone = { zone = zone_voidark_delta_ordinance_full_batteries }
+            has_zone = { zone = zone_voidark_alpha_ordinance_full_batteries }
+            has_zone = { zone = zone_voidark_phanon_ordinance_full_batteries }
+            has_zone = { zone = zone_voidark_stellarite_ordinance_full_batteries }
         }
     }
+}
+
+# updated versions of frameworld triggers
+xhk_worldark_has_robot_assembly_facilities = {
+    or = {
+        has_building = building_robot_assembly_plant
+        has_building = building_robot_assembly_complex
+        has_building = building_fe_assembly_1
+        has_building = building_fe_assembly_2
+        has_building = building_acot_dm_super_assembly
+        has_building = building_acot_ae_super_assembly
+        has_building = building_phanon_super_assembly
+        has_building = building_stellarite_super_assembly
+    }
+}
+
+xhk_worldark_has_cloning_assembly_facilities = {
+    has_building = building_clone_vats
+    has_building = building_acot_dm_clone_vats
+    has_building = building_acot_ae_clone_vats
+    has_building = building_phanon_clone_vats
+    has_building = building_stellarite_clone_vats
 }
 
 ####

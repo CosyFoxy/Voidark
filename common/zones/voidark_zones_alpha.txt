@@ -1548,7 +1548,7 @@ zone_voidark_alpha_ordinance_naval = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = acot_soldier
         GESTALT_JOB = acot_soldier_drone
-        AMOUNT = @doubled_scaling_district_1_job
+        AMOUNT = 100
     }
     inline_script = {
         script = jobs/zone_soldiers_add
@@ -1590,7 +1590,7 @@ zone_voidark_alpha_ordinance_missile = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = acot_soldier
         GESTALT_JOB = acot_soldier_drone
-        AMOUNT = @doubled_scaling_district_1_job
+        AMOUNT = 100
     }
     inline_script = {
         script = jobs/zone_soldiers_add
@@ -1632,7 +1632,7 @@ zone_voidark_alpha_ordinance_kinetic = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = acot_soldier
         GESTALT_JOB = acot_soldier_drone
-        AMOUNT = @doubled_scaling_district_1_job
+        AMOUNT = 100
     }
     inline_script = {
         script = jobs/zone_soldiers_add
@@ -1675,7 +1675,7 @@ zone_voidark_alpha_ordinance_energy = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = acot_soldier
         GESTALT_JOB = acot_soldier_drone
-        AMOUNT = @doubled_scaling_district_1_job
+        AMOUNT = 100
     }
     inline_script = {
         script = jobs/zone_soldiers_add
@@ -1717,7 +1717,7 @@ zone_voidark_alpha_ordinance_strike_craft = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = acot_soldier
         GESTALT_JOB = acot_soldier_drone
-        AMOUNT = @doubled_scaling_district_1_job
+        AMOUNT = 100
     }
     inline_script = {
         script = jobs/zone_soldiers_add
@@ -1726,6 +1726,62 @@ zone_voidark_alpha_ordinance_strike_craft = {
 
     swap_type = district_voidark_alpha_ordinance_strike_craft
     swap_type_weight = 10
+
+    zone_sets = { xhk_worldark_ordinance }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
+zone_voidark_alpha_ordinance_full_batteries = {
+    icon = GFX_district_specialization_voidark_alpha_ordinance_full_batteries
+    planet_limit = 1
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        TIER = alpha
+
+        POTENTIAL = "
+            owner? = {
+				has_technology = tech_mega_engineering
+				has_technology = tech_strike_craft_1
+				has_technology = tech_lasers_2
+				has_technology = tech_mass_drivers_2
+				has_technology = tech_missiles_2
+			}
+		"
+        TECHNOLOGY = "tech_voidark_alpha"
+    }
+    included_building_sets = {
+        fortress
+    }
+
+
+    triggered_planet_modifier = {
+        potential = { always = yes }
+        planet_soldiers_acot_sr_dark_energy_upkeep_add = 0.2
+        planet_soldiers_alloys_upkeep_add = 0.6
+        planet_soldiers_rare_crystals_upkeep_add = 0.6
+        planet_soldiers_exotic_gases_upkeep_add = 0.6
+        planet_soldiers_volatile_motes_upkeep_add = 0.6
+        weapon_strike_craft_from_soldiers = 0.2
+        weapon_kinetic_from_soldiers = 0.2
+        weapon_explosive_from_soldiers = 0.2
+        weapon_energy_from_soldiers = 0.2
+    }
+
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = acot_soldier
+        GESTALT_JOB = acot_soldier_drone
+        AMOUNT = 150
+    }
+    inline_script = {
+        script = jobs/zone_soldiers_add
+        AMOUNT = -150
+    }
+
+    swap_type = district_voidark_alpha_ordinance_full_batteries
+    swap_type_weight = 5
 
     zone_sets = { xhk_worldark_ordinance }
     ai_weight_coefficient = 0.5

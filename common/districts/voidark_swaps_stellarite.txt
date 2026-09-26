@@ -481,7 +481,20 @@ district_voidark_stellarite_ordinance_strike_craft = {
     }
 }
 
-#todo ENIGMATIC ORDINANCE?
+district_voidark_stellarite_ordinance_full_batteries = {
+    icon = district_voidark_stellarite_ordinance_naval
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_fortress
+        BACKGROUND = district_voidark_stellarite_ordinance_naval
+        OVERLAY_ICON = GFX_district_damage
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = stellarite
+        TYPE = ordinance_full_batteries
+    }
+}
 
 ###############################################################################################################
 # SPECIAL RESOURCES

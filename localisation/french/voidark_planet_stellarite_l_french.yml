@@ -95,6 +95,9 @@
  zone_voidark_stellarite_ordinance_strike_craft: "§H$concept_stellarite_tier$ $zone_xhk_worldark_ordinance_flight_decks$§!"
  zone_voidark_stellarite_ordinance_strike_craft_desc: "$zone_ark_flight_decks_desc$"
 
+ zone_voidark_stellarite_ordinance_full_batteries: "§H$concept_stellarite_tier$ $zone_xhk_worldark_ordinance_full_batteries$§!"
+ zone_voidark_stellarite_ordinance_full_batteries_desc: "$zone_xhk_worldark_ordinance_full_batteries_desc$"
+
  zone_voidark_stellarite_storage: "§H$concept_stellarite_tier$ $zone_xhk_worldark_storage$§!"
  zone_voidark_stellarite_storage_desc: "$district_xhk_worldark_storage_desc$"
 
@@ -292,6 +295,11 @@
  district_voidark_stellarite_ordinance_strike_craft_desc: "$district_ark_military_desc$"
  district_voidark_stellarite_ordinance_strike_craft_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_ordinance_fighter_plural$§!"
  flavor_district_voidark_stellarite_ordinance_strike_craft: "§YFighter Bays§!"
+
+ district_voidark_stellarite_ordinance_full_batteries: "§H$concept_stellarite_tier$ $district_xhk_worldark_full_batteries$§!"
+ district_voidark_stellarite_ordinance_full_batteries_desc: "$district_xhk_worldark_full_batteries_desc$"
+ district_voidark_stellarite_ordinance_full_batteries_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_full_batteries_plural$§!"
+ flavor_district_voidark_stellarite_ordinance_full_batteries: "§YOffensive Superiority§!"
 
  district_voidark_stellarite_refinery: "§H$concept_stellarite_tier$ $district_xhk_worldark_refinery$§!"
  district_voidark_stellarite_refinery_desc: "$district_xhk_worldark_refinery_desc$"

@@ -95,6 +95,9 @@
  zone_voidark_phanon_ordinance_strike_craft: "§R$concept_phanon_tier$ $zone_xhk_worldark_ordinance_flight_decks$§!"
  zone_voidark_phanon_ordinance_strike_craft_desc: "$zone_ark_flight_decks_desc$"
 
+ zone_voidark_phanon_ordinance_full_batteries: "§R$concept_phanon_tier$ $zone_xhk_worldark_ordinance_full_batteries$§!"
+ zone_voidark_phanon_ordinance_full_batteries_desc: "$zone_xhk_worldark_ordinance_full_batteries_desc$"
+
  zone_voidark_phanon_storage: "§R$concept_phanon_tier$ $zone_xhk_worldark_storage$§!"
  zone_voidark_phanon_storage_desc: "$district_xhk_worldark_storage_desc$"
 
@@ -292,6 +295,11 @@
  district_voidark_phanon_ordinance_strike_craft_desc: "$district_ark_military_desc$"
  district_voidark_phanon_ordinance_strike_craft_plural: "§R$concept_phanon_tier$ $district_xhk_worldark_ordinance_fighter_plural$§!"
  flavor_district_voidark_phanon_ordinance_strike_craft: "§YFighter Bays§!"
+
+ district_voidark_phanon_ordinance_full_batteries: "§R$concept_phanon_tier$ $district_xhk_worldark_full_batteries$§!"
+ district_voidark_phanon_ordinance_full_batteries_desc: "$district_xhk_worldark_full_batteries_desc$"
+ district_voidark_phanon_ordinance_full_batteries_plural: "§R$concept_phanon_tier$ $district_xhk_worldark_full_batteries_plural$§!"
+ flavor_district_voidark_phanon_ordinance_full_batteries: "§YOffensive Superiority§!"
 
  district_voidark_phanon_refinery: "§R$concept_phanon_tier$ $district_xhk_worldark_refinery$§!"
  district_voidark_phanon_refinery_desc: "$district_xhk_worldark_refinery_desc$"

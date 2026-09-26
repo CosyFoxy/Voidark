@@ -503,4 +503,24 @@ spriteTypes = {
         name = GFX_district_specialization_voidark_stellarite_supertensiles
         textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_supertensiles.dds"
     }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_delta_ordinance_full_batteries
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_ordinance_full_batteries.dds"
+    }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_alpha_ordinance_full_batteries
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_alpha_ordinance_full_batteries.dds"
+    }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_phanon_ordinance_full_batteries
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_ordinance_full_batteries.dds"
+    }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_stellarite_ordinance_full_batteries
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_ordinance_full_batteries.dds"
+    }
 }
