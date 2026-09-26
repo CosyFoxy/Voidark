@@ -67,10 +67,10 @@
   voidark_doc_phanon_vault_title: "3) Phanon Vault & Droppoint Mechanics"
   voidark_doc_phanon_vault_desc: "$voidark_doc_phanon_vault_1$$voidark_doc_phanon_vault_2$$voidark_doc_phanon_vault_3$$voidark_doc_phanon_vault_4$$voidark_doc_phanon_vault_5$"
   voidark_doc_phanon_vault_1: "As Nomadic empire, the way you access Phanon mechanics is slightly altered. Overall, the process is relatively similar:"
-  voidark_doc_phanon_vault_2: "$NEW_LINE$$TABBED_NEW_LINE$- Capture Droppoint.$TABBED_NEW_LINE$- Invade £text_planet£ §Y$pc_acot_pmc_vault$§!.$TABBED_NEW_LINE$- Use ['concept_decision']: §H$decision_acot_infiltrate_phanon_grid$§!.$TABBED_NEW_LINE$- Repeat until the end of the invasion chain."
+  voidark_doc_phanon_vault_2: "$NEW_LINE$$TABBED_NEW_LINE$- Capture Droppoint.$TABBED_NEW_LINE$- Invade £planet£ §Y$pc_acot_pmc_vault$§!.$TABBED_NEW_LINE$- Use ['concept_decision']: §H$decision_acot_infiltrate_phanon_grid$§!.$TABBED_NEW_LINE$- Repeat until the end of the invasion chain."
   voidark_doc_phanon_vault_3: "$NEW_LINE$$NEW_LINE$$NEW_LINE$§KFor Voidark, these are the changes:§!$TABBED_NEW_LINE$$TABBED_NEW_LINE$- Once the Droppoint Starbase is defeated, it will be given to a hidden vassal. This vassal only exists to manage control of the system.$TABBED_NEW_LINE$- You will own the £text_planet£ §Y$pc_acot_pmc_vault$§! despite playing a single-colony origin."
   voidark_doc_phanon_vault_4: "$NEW_LINE$$NEW_LINE$§YNOTE:§! In the future, once the vault invasion is complete, this may change to then be integrated into the §Y$xhk_pc_worldark$§!. For now, it is intended that you own both the §Y$pc_acot_pmc_vault$§! and the §Y$xhk_pc_worldark$§!."
-  voidark_doc_phanon_vault_5: "$NEW_LINE$$NEW_LINE$§YNOTE:§! Building any £text_waystation£ ['concept_waystation'] in the Droppoint System under Phanon control will result in the destruction of the Waystation. Subsequent offense will remove border access."
+  voidark_doc_phanon_vault_5: "$NEW_LINE$$NEW_LINE$§YNOTE:§! Building any £waystation£ ['concept_waystation'] in the Droppoint System under Phanon control will result in the destruction of the Waystation. Subsequent offense will remove border access."
 
   voidark_doc_beta_test: "4) Voidark Beta Test"
   voidark_doc_beta_test_desc: "$voidark_doc_beta_test_1$$voidark_doc_beta_test_2$$voidark_doc_beta_test_9$$voidark_doc_beta_test_11$$voidark_doc_beta_test_12$$voidark_doc_beta_test_13$$voidark_doc_beta_test_8$$voidark_doc_beta_test_10$"
