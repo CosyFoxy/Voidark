@@ -5,6 +5,7 @@ concept_delta_tier = {
     databank = {
         category = "db_voidark_tiers"
         icon = GFX_text_icon_delta_core
+        picture = GFX_evt_cosmogenesis_crisis
     }
 }
 concept_alpha_tier = {
@@ -14,6 +15,7 @@ concept_alpha_tier = {
     databank = {
         category = "db_voidark_tiers"
         icon = GFX_text_icon_alpha_core
+        picture = GFX_evt_cosmogenesis_crisis
     }
 }
 
@@ -24,6 +26,7 @@ concept_phi_tier = {
     databank = {
         category = "db_voidark_tiers"
         icon = GFX_text_icon_phi_core
+        picture = GFX_evt_cosmogenesis_crisis
     }
 }
 concept_phanon_tier = {
@@ -33,6 +36,7 @@ concept_phanon_tier = {
     databank = {
         category = "db_voidark_tiers"
         icon = GFX_text_icon_phanon_core
+        picture = GFX_evt_cosmogenesis_crisis
     }
 }
 concept_stellarite_tier = {
@@ -42,6 +46,7 @@ concept_stellarite_tier = {
     databank = {
         category = "db_voidark_tiers"
         icon = GFX_text_icon_stellarite_core
+        picture = GFX_evt_cosmogenesis_crisis
     }
 }
 
@@ -51,6 +56,8 @@ concept_dark_matter = {
     #texture = "gfx/interface/icons/resources/dark_matter_large.dds"
     databank = {
         category = "db_voidark_tiers"
+        icon = "GFX_text_dark_matter"
+        picture = GFX_evt_cosmogenesis_crisis
     }
 }
 concept_dark_energy = {
@@ -59,6 +66,8 @@ concept_dark_energy = {
     #texture = "gfx/interface/icons/resources/acot_sr_dark_energy_large.dds"
     databank = {
         category = "db_voidark_tiers"
+        icon = "GFX_text_acot_sr_dark_energy"
+        picture = GFX_evt_cosmogenesis_crisis
     }
 }
 
@@ -68,6 +77,8 @@ concept_runic_energy = {
     #texture = "gfx/interface/icons/resources/aot_sr_runic_power_large.dds"
     databank = {
         category = "db_voidark_tiers"
+        icon = "GFX_text_resource_aot_sr_runic_power"
+        picture = GFX_evt_cosmogenesis_crisis
     }
 }
 
@@ -77,12 +88,8 @@ concept_stellarite = {
     #texture = "gfx/interface/icons/resources/acot_sr_stellarite_large.dds"
     databank = {
         category = "db_voidark_tiers"
-    }
-}
-
-concept_discord_thread = {
-    databank = {
-        category = "db_voidark_tiers"
+        icon = GFX_text_resource_acot_sr_stellarite
+        picture = GFX_evt_cosmogenesis_crisis
     }
 }
 
@@ -90,6 +97,7 @@ concept_tech_voidark_delta = {
     alias = { voidark_tech_delta }
     databank = {
         category = "db_voidark_tiers"
+        picture = GFX_evt_cosmogenesis_crisis
         icon = GFX_text_research
     }
 }
@@ -97,6 +105,7 @@ concept_tech_voidark_alpha = {
     alias = { voidark_tech_alpha }
     databank = {
         category = "db_voidark_tiers"
+        picture = GFX_evt_cosmogenesis_crisis
         icon = GFX_text_research
     }
 }
@@ -104,6 +113,7 @@ concept_tech_voidark_phanon = {
     alias = { voidark_tech_phanon }
     databank = {
         category = "db_voidark_tiers"
+        picture = GFX_evt_cosmogenesis_crisis
         icon = GFX_text_research
     }
 }
@@ -111,6 +121,7 @@ concept_tech_voidark_stellarite = {
     alias = { voidark_tech_stellarite }
     databank = {
         category = "db_voidark_tiers"
+        picture = GFX_evt_cosmogenesis_crisis
         icon = GFX_text_research
     }
 }
@@ -118,11 +129,16 @@ concept_tech_voidark_stellarite = {
 concept_integrated_mega = {
     databank = {
         category = "db_integrated_megas"
+        picture = GFX_evt_megastructure_construction
+        icon = "GFX_text_megastructure"
     }
 }
 
 concept_integrated_precursor_mega = {
     databank = {
         category = "db_integrated_megas"
+        picture = GFX_evt_megastructure_construction
+        icon = "GFX_text_megastructure"
     }
 }
+

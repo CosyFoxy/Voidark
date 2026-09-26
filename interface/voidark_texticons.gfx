@@ -19,4 +19,8 @@ spriteTypes = {
         name = GFX_text_icon_stellarite_core
         textureFile = "gfx/interface/icons/text_icons/text_icon_stellarite_core.dds"
     }
+    spriteType = {
+        name = GFX_text_dark_matter
+        textureFile = "gfx/interface/icons/resources/sr_dark_matter.dds"
+    }
 }
