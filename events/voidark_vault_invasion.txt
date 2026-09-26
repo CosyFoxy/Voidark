@@ -55,7 +55,7 @@ country_event = {
 system_event = {
     id = voidark_vault_invasion.1
     is_triggered_only = yes
-
+    hide_window = yes
     trigger = {
         owner? = {
             acot_is_phanon_country = yes
