@@ -46,9 +46,164 @@ country_event = {
                         is_planet_class = pc_acot_pmc_vault
                     }
                 }
+                save_global_event_target_as = voidark_phanon_vault
                 set_carrier_flag = nomad_recently_settled_flag
             }
         }
+    }
+}
+
+country_event = {
+    id = voidark_vault_invasion.992
+    is_triggered_only = yes
+    hide_window = yes
+    trigger = {
+        is_same_value = event_target:vault_temp_owner
+        has_concluded_vault_invasion = yes
+        any_owned_planet = {
+            is_planet_class = pc_acot_pmc_vault
+            has_carrier_flag = acot_vault_floor_four_cleared
+        }
+        fromfrom = {
+            is_planet_class = pc_acot_pmc_vault
+            has_carrier_flag = acot_vault_floor_four_cleared
+        }
+    }
+    immediate = {
+        country_event = {
+            id = voidark_vault_invasion.993
+            days = 360
+            random = 360
+        }
+    }
+}
+
+country_event = {
+    id = voidark_vault_invasion.993
+    is_triggered_only = yes
+    title = voidark_vault_invasion.993.title
+    desc = {
+        trigger = {
+            has_country_flag = acot_phanon_rival_spooked_country
+        }
+        text = voidark_vault_invasion.993.desc_rival
+    }
+    desc = {
+        trigger = {
+            NOT = {has_country_flag = acot_phanon_rival_spooked_country}
+        }
+        text = voidark_vault_invasion.993.desc_normal
+    }
+    picture = GFX_evt_laser_grid
+
+    trigger = {
+        is_same_value = event_target:vault_temp_owner
+        has_concluded_vault_invasion = yes
+    }
+
+    option = {
+        name = voidark_vault_invasion.993.a
+        enable_special_project = {
+            name = VOIDARK_PHANON_VAULT_INTEGRATION_PERMISSION
+            location = event_target:voidark_phanon_vault
+            owner = event_target:vault_temp_owner
+        }
+    }
+}
+
+country_event = {
+    id = voidark_vault_invasion.994
+    is_triggered_only = yes
+    title = voidark_vault_invasion.994.title
+    desc = voidark_vault_invasion.994.desc
+    picture = GFX_evt_rare_tech_cache
+    trigger = {
+        is_same_value = event_target:vault_temp_owner
+        has_country_flag = voidark_vault_integration_permitted
+        has_concluded_vault_invasion = yes
+    }
+    option = {
+        name = voidark_vault_invasion.994.a
+    }
+}
+
+country_event = {
+    id = voidark_vault_invasion.995
+    is_triggered_only = yes
+    title = voidark_vault_invasion.995.title
+    desc = voidark_vault_invasion.995.desc
+    picture = GFX_evt_hangar_bay
+    trigger = {
+        is_same_value = event_target:vault_temp_owner
+        has_country_flag = voidark_vault_integration_permitted
+        has_concluded_vault_invasion = yes
+        has_technology = tech_voidark_phanon_vault_integration
+        NOT = { has_event_chain = acot_phanon_event_chain }
+    }
+
+    option = {
+        name = voidark_vault_invasion.995.a
+        enable_special_project = {
+            name = VOIDARK_PHANON_VAULT_INTEGRATION
+            location = event_target:voidark_phanon_vault
+            owner = event_target:vault_temp_owner
+        }
+    }
+}
+
+carrier_event = {
+    id = voidark_vault_invasion.996
+    is_triggered_only = yes
+    title = voidark_vault_invasion.996.title
+    desc = voidark_vault_invasion.996.desc
+    picture = GFX_evt_arkship_bridge
+
+    trigger = {
+        is_planet_class = xhk_pc_worldark
+        NOR = {
+            has_district = district_voidark_phanon_vault_integration
+            has_district = district_voidark_stellarite_vault_integration
+        }
+    }
+    option = {
+        name = voidark_vault_invasion.996.a
+        hidden_effect = {
+            set_carrier_flag = sp_voidark_phanon_vault_integration
+            add_district = district_voidark_phanon_vault_integration
+        }
+    }
+    immediate = {
+        owner? = {
+            set_country_flag = voidark_vault_integration_completed
+        }
+    }
+}
+
+carrier_event = {
+    id = voidark_vault_invasion.997
+    is_triggered_only = yes
+    hide_window = yes
+    trigger = {
+        is_planet_class = pc_acot_pmc_vault
+        owner? = {
+            is_same_value = event_target:vault_temp_owner
+        }
+    }
+    immediate = {
+        carrier_event = {
+            id = voidark_vault_invasion.998
+            days = 1
+        }
+    }
+}
+
+carrier_event = {
+    id = voidark_vault_invasion.998
+    is_triggered_only = yes
+    hide_window = yes
+    trigger = { always = yes }
+    immediate = {
+        #RESETTLE POPS?
     }
 }
 
