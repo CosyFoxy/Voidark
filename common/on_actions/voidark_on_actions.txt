@@ -16,15 +16,6 @@ on_waystation_built = {
     }
 }
 
-# Triggers country_event for the defender upon victory
-# Root = country, colony owner
-# From = country, attack leader
-# FromFrom = colony
-on_colony_defenders_win = {
-    events = {
-        voidark_vault_invasion.992
-    }
-}
 
 on_tech_increased = {
     events = {
@@ -32,9 +23,6 @@ on_tech_increased = {
     }
 }
 
-on_yearly_pulse_country = {
-    events = {
-        voidark_vault_invasion.995
-    }
-}
+
+
 

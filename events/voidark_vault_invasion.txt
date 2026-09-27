@@ -1,6 +1,6 @@
 namespace = voidark_vault_invasion
 
-
+#on Game start - Passage of time
 country_event = {
     id = voidark_vault_invasion.99
     is_triggered_only = yes
@@ -19,6 +19,7 @@ country_event = {
     }
 }
 
+#on prior event - set up global events & flags
 country_event = {
     id = voidark_vault_invasion.991
     is_triggered_only = yes
@@ -56,6 +57,11 @@ country_event = {
     }
 }
 
+
+################# VAULT INTEGRATION ########################
+
+
+#On prior event (acot override)
 country_event = {
     id = voidark_vault_invasion.992
     is_triggered_only = yes
@@ -63,6 +69,7 @@ country_event = {
     trigger = {
         is_same_value = event_target:vault_temp_owner
         has_concluded_vault_invasion = yes
+        has_concluded_phanon_crisis = yes
         any_owned_planet = {
             is_planet_class = pc_acot_pmc_vault
             has_carrier_flag = acot_vault_floor_four_cleared
@@ -81,6 +88,7 @@ country_event = {
     }
 }
 
+#on prior event - informs about special project to research integration
 country_event = {
     id = voidark_vault_invasion.993
     is_triggered_only = yes
@@ -102,6 +110,7 @@ country_event = {
     trigger = {
         is_same_value = event_target:vault_temp_owner
         has_concluded_vault_invasion = yes
+        has_concluded_phanon_crisis = yes
     }
 
     option = {
@@ -114,7 +123,7 @@ country_event = {
     }
 }
 
-#Notify to research the tech
+#On Special project completed - Notify to research the tech
 country_event = {
     id = voidark_vault_invasion.994
     is_triggered_only = yes
@@ -131,7 +140,52 @@ country_event = {
     }
 }
 
-#on tech researched - enables integration project
+#RIVAL
+#On Special project completed - Notify to research the tech
+country_event = {
+    id = voidark_vault_invasion.9941
+    is_triggered_only = yes
+    title = voidark_vault_invasion.9941.title
+    desc = voidark_vault_invasion.9941.desc
+    diplomatic = yes
+    custom_gui = "acot_enclave_phanon_window"
+    custom_gui_option = "acot_enclave_phanon_option"
+
+    picture_event_data = {
+        room = acot_phanon_rival_room
+    }
+    trigger = {
+        is_same_value = event_target:vault_temp_owner
+        has_country_flag = voidark_vault_integration_permitted
+        has_concluded_vault_invasion = yes
+    }
+    immediate = {
+        set_country_flag = acot_phanon_diplomacy_engaged
+    }
+    option = {
+        name = voidark_vault_invasion.994.a #You wont mind?
+        response_text = voidark_vault_invasion.994.a.response
+        is_dialog_only = yes
+    }
+    option = {
+        name = voidark_vault_invasion.994.b #Can you give us help?
+        response_text = voidark_vault_invasion.994.b.response
+        is_dialog_only = yes
+        add_tech_option_or_research_effect = {
+            TECH = tech_voidark_phanon_vault_integration
+            PROGRESS = 0.5
+            CATEGORY = engineering_research
+        }
+    }
+    option = {
+        name = acot_pmc.1601.h
+        hidden_effect = {
+            remove_country_flag = acot_phanon_diplomacy_engaged
+        }
+    }
+}
+
+#On tech researched - enables integration project
 country_event = {
     id = voidark_vault_invasion.995
     is_triggered_only = yes
@@ -223,6 +277,8 @@ carrier_event = {
         change_pc = pc_voidark_abandoned_vault
     }
 }
+
+#Waystation deletion
 
 system_event = {
     id = voidark_vault_invasion.1

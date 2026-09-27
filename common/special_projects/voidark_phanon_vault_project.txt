@@ -17,8 +17,21 @@ special_project = {
             add_tech_option_no_progress_effect = {
                 TECH = tech_voidark_phanon_vault_integration
             }
-            country_event = {
-                id = voidark_vault_invasion.994
+            if = {
+                limit = {
+                    is_same_value = event_target:voidark_normal_country
+                }
+                country_event = {
+                    id = voidark_vault_invasion.994
+                }
+            }
+            else_if = {
+                limit = {
+                    is_same_value = event_target:voidark_rival_country
+                }
+                country_event = {
+                    id = voidark_vault_invasion.9941
+                }
             }
         }
     }
