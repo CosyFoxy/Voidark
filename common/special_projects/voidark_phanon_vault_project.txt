@@ -103,6 +103,28 @@ special_project = {
             save_global_event_target_as = phanon_resource_planet
             integrate_droppoint_resource_planets = yes
         }
+        event_target:vault_temp_owner = {
+            if = {
+                limit = {
+                    event_target:worldark_colony = {
+                        OR = {
+                            count_deposits = {
+                                type = d_voidark_data_planet_integration
+                                count >= 6
+                            }
+                            count_deposits = {
+                                type = d_voidark_storage_planet_integration
+                                count >= 7
+                            }
+                        }
+                    }
+                }
+                country_event = {
+                    id = voidark_vault_invasion.9991
+                    days = 1
+                }
+            }
+        }
         #if needed bc cannot spawn simultaneously: spawn next special project
     }
     abort_trigger = {

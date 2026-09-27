@@ -59,6 +59,7 @@ destroy_droppoint_temp_vassal = {
 integrate_droppoint_resource_planets = {
     optimize_memory
     event_target:phanon_resource_planet = {
+        set_carrier_flag = voidark_deposit_removed
         every_deposit = {
             remove_deposit = yes
         }

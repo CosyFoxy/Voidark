@@ -276,6 +276,71 @@ carrier_event = {
         }
         change_pc = pc_voidark_abandoned_vault
     }
+    after = {
+        if = {
+            limit = {
+                event_target:vault_temp_owner = {
+                    is_same_value = event_target:voidark_normal_country
+                }
+            }
+            event_target:voidark_normal_country = {
+                country_event = {
+                    id = voidark_vault_invasion.999
+                    days = 30
+                }
+            }
+        }
+    }
+}
+
+##NORMAL PATH
+#Integration of data & storage
+
+country_event = {
+    id = voidark_vault_invasion.999
+    is_triggered_only = yes
+    trigger = {
+        is_same_value = event_target:voidark_normal_country
+        has_integrated_all_data_and_storage_planets = no
+    }
+    title = voidark_vault_invasion.999.title
+    desc = voidark_vault_invasion.999.desc
+    picture = GFX_evt_arkship_in_orbit #todo change?
+
+    option = {
+        name = voidark_vault_invasion.999.a #Begin integration & removal of system
+        hidden_effect = {
+            set_country_flag = voidark_remove_droppoint
+            random_system = {
+                limit = {
+                    has_star_flag = phanon_base_system
+                }
+                every_system_planet = {
+                    limit = {
+                        AND = {
+                            OR = {
+                                is_planet_class = pc_acot_pmc_storage_planet
+                                is_planet_class = pc_acot_pmc_data_planet
+                            }
+                            NOT = { has_carrier_flag = voidark_deposit_removed }
+                        }
+                    }
+                    enable_special_project = {
+                        name = VOIDARK_PHANON_RESOURCE_PLANET_INTEGRATION
+                        owner = event_target:voidark_normal_country
+                        location = this
+                    }
+                }
+            }
+        }
+    }
+
+    option = {
+        name = voidark_vault_invasion.999.b #Keep resource planets & system around
+        hidden_effect = {
+            set_country_flag = voidark_keep_droppoint
+        }
+    }
 }
 
 #Waystation deletion
