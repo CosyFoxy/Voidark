@@ -3,6 +3,7 @@
 #todo: supertensiles
 
 
+
 voidark_delta_zone_dummy = {
     potential = {
         always = no
@@ -1542,8 +1543,8 @@ zone_voidark_delta_ordinance_naval = {
     triggered_planet_modifier = {
         potential = { always = yes }
         planet_soldiers_alloys_upkeep_add = 0.5
-        naval_cap_from_shipwright = 2
-        ship_build_speed_from_shipwright = 0.03
+        naval_cap_from_shipwright = @arkship_zone_naval_cap_from_shipwright
+        ship_build_speed_from_shipwright = @delta_ship_build_speed
     }
 
     inline_script = {
@@ -1585,7 +1586,7 @@ zone_voidark_delta_ordinance_missile = {
         potential = { always = yes }
         planet_soldiers_alloys_upkeep_add = 0.3
         planet_soldiers_volatile_motes_upkeep_add = 0.3
-        weapon_explosive_from_soldiers = 0.1
+        weapon_explosive_from_soldiers = @delta_weapons_bonus
     }
 
     inline_script = {
@@ -1627,7 +1628,7 @@ zone_voidark_delta_ordinance_kinetic = {
         potential = { always = yes }
         planet_soldiers_alloys_upkeep_add = 0.3
         planet_soldiers_volatile_motes_upkeep_add = 0.3
-        weapon_kinetic_from_soldiers = 0.1
+        weapon_kinetic_from_soldiers = @delta_weapons_bonus
     }
 
     inline_script = {
@@ -1670,7 +1671,7 @@ zone_voidark_delta_ordinance_energy = {
         potential = { always = yes }
         planet_soldiers_alloys_upkeep_add = 0.3
         planet_soldiers_rare_crystals_upkeep_add = 0.3
-        weapon_energy_from_soldiers = 0.1
+        weapon_energy_from_soldiers = @delta_weapons_bonus
     }
 
     inline_script = {
@@ -1712,7 +1713,7 @@ zone_voidark_delta_ordinance_strike_craft = {
         potential = { always = yes }
         planet_soldiers_alloys_upkeep_add = 0.3
         planet_soldiers_exotic_gases_upkeep_add = 0.3
-        weapon_strike_craft_from_soldiers = 0.1
+        weapon_strike_craft_from_soldiers = @delta_weapons_bonus
     }
 
     inline_script = {
@@ -1765,10 +1766,10 @@ zone_voidark_delta_ordinance_full_batteries = {
         planet_soldiers_rare_crystals_upkeep_add = 0.3
         planet_soldiers_exotic_gases_upkeep_add = 0.3
         planet_soldiers_volatile_motes_upkeep_add = 0.3
-        weapon_strike_craft_from_soldiers = 0.1
-        weapon_kinetic_from_soldiers = 0.1
-        weapon_explosive_from_soldiers = 0.1
-        weapon_energy_from_soldiers = 0.1
+        weapon_strike_craft_from_soldiers = @delta_weapons_bonus
+        weapon_kinetic_from_soldiers = @delta_weapons_bonus
+        weapon_explosive_from_soldiers = @delta_weapons_bonus
+        weapon_energy_from_soldiers = @delta_weapons_bonus
     }
 
     inline_script = {

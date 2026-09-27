@@ -7,3 +7,16 @@
 @alpha_per_district_housing = 500
 @phanon_per_district_housing = 800
 @stellarite_per_district_housing = 1000
+
+
+#@[ arkship_zone_build_speed_from_shipwright * 2 * two_exp$EXPONENT$ ]
+@delta_ship_build_speed = 0.03
+@alpha_ship_build_speed = 0.06
+@phanon_ship_build_speed = 0.12
+@stellarite_ship_build_speed = 0.24
+
+#@[ arkship_zone_weapon_damage_from_soldiers * 2 * two_exp$EXPONENT$ ]
+@delta_weapons_bonus = 0.02
+@alpha_weapons_bonus = 0.04
+@phanon_weapons_bonus = 0.08
+@stellarite_weapons_bonus = 0.16
