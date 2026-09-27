@@ -66,3 +66,300 @@ starbase_event = {
         }
     }
 }
+
+#RIVAL FINISH PHANON PATH
+country_event = {
+    id = acot_pmc.1601
+    title = acot_pmc.1601.name
+    desc = {
+        trigger = {
+            has_country_flag = acot_phanon_rival_contact_enabled
+            has_country_flag = acot_phanon_rival_spooked_country
+            NOT = {
+                has_global_flag = acot_phanon_agent_escaped
+            }
+        }
+        text = acot_pmc.1601.desc.a
+    }
+    desc = {
+        trigger = {
+            has_country_flag = acot_phanon_rival_contact_enabled
+            has_country_flag = acot_phanon_rival_spooked_country
+            has_global_flag = acot_phanon_agent_escaped
+        }
+        text = acot_pmc.1601.desc.b
+    }
+    desc = {
+        trigger = {
+            has_country_flag = acot_phanon_rival_contact_enabled
+            NOT = {
+                has_country_flag = acot_phanon_rival_spooked_country
+            }
+        }
+        text = acot_pmc.1601.desc.c
+    }
+    desc = {
+        trigger = {
+            NOR = {
+                has_country_flag = acot_phanon_rival_contact_enabled
+                has_country_flag = acot_phanon_rival_spooked_country
+            }
+        }
+        text = acot_pmc.1601.desc.d
+    }
+    is_triggered_only = yes
+    diplomatic = yes
+
+    picture_event_data = {
+        room = acot_phanon_rival_room
+    }
+    custom_gui = "acot_enclave_phanon_window"
+    custom_gui_option = "acot_enclave_phanon_option"
+
+    immediate = {
+        set_country_flag = acot_phanon_diplomacy_engaged
+        IF = {
+            limit = {
+                has_country_flag = acot_phanon_rival_contact_enabled
+                has_country_flag = acot_phanon_rival_spooked_country
+            }
+            set_country_flag = acot_phanon_tech_stage_one_enabled
+            set_country_flag = acot_phanon_tech_stage_two_enabled
+            set_country_flag = acot_phanon_tech_stage_three_enabled
+        }
+    }
+
+    option = {
+        name = acot_pmc.1601.a
+        trigger = {
+            has_country_flag = acot_phanon_rival_contact_enabled
+            has_country_flag = acot_phanon_rival_spooked_country
+        }
+        response_text = acot_pmc.1601.a.response
+        is_dialog_only = yes
+    }
+
+    option = {
+        name = acot_pmc.1601.b
+        trigger = {
+            has_country_flag = acot_phanon_rival_contact_enabled
+            has_country_flag = acot_phanon_rival_spooked_country
+        }
+        response_text = acot_pmc.1601.b.response
+        is_dialog_only = yes
+    }
+
+    option = {
+        name = acot_pmc.1601.c
+        response_text = acot_pmc.1601.c.response
+        trigger = {
+            has_country_flag = acot_phanon_rival_contact_enabled
+            has_country_flag = acot_phanon_rival_spooked_country
+        }
+        add_resource = {
+            energy = 2000000
+            alloys = 1000000
+            influence = 500
+        }
+        change_variable = {
+            which = acot_phanon_coin_var
+            value = 20
+        }
+        add_modifier = {
+            modifier = acot_phanon_subscription
+        }
+        if = {
+            limit = {
+                end_event_chain_after_close_portal = yes
+            }
+            end_event_chain = acot_phanon_event_chain
+            clear_variable = acot_phanon_ship_score
+        }
+        hidden_effect = {
+            if = {
+                limit = {
+                    NOT = { has_country_flag = acot_phanon_tech_enabled }
+                }
+                set_country_flag = acot_phanon_tech_enabled
+            }
+            phanon_ultra_random_duty_rolls = yes
+            set_country_flag = acot_phanon_super_premium_member
+            remove_country_flag = acot_phanon_diplomacy_engaged
+        }
+        add_research_option = tech_dark_matter_power_core_re
+    }
+
+    option = {
+        name = acot_pmc.1601.d
+        response_text = acot_pmc.1601.d.response
+        trigger = {
+            has_country_flag = acot_phanon_rival_contact_enabled
+            NOT = {
+                has_country_flag = acot_phanon_rival_spooked_country
+            }
+        }
+        is_dialog_only = yes
+    }
+
+    option = {
+        name = acot_pmc.1601.e
+        response_text = acot_pmc.1601.e.response
+        trigger = {
+            has_country_flag = acot_phanon_rival_contact_enabled
+            NOT = {
+                has_country_flag = acot_phanon_rival_spooked_country
+            }
+        }
+        add_resource = {
+            energy = 500000
+            alloys = 100000
+            influence = 150
+        }
+        change_variable = {
+            which = acot_phanon_coin_var
+            value = 10
+        }
+        add_modifier = {
+            modifier = acot_phanon_subscription
+            years = 10
+        }
+        country_event = {
+            id = acot_pmc.605 days = 3600
+        }
+        if = {
+            limit = {
+                end_event_chain_after_close_portal = yes
+            }
+            end_event_chain = acot_phanon_event_chain
+            clear_variable = acot_phanon_ship_score
+        }
+        hidden_effect = {
+            phanon_ultra_random_duty_rolls = yes
+            set_country_flag = acot_phanon_premium_member
+            remove_country_flag = acot_phanon_diplomacy_engaged
+        }
+    }
+
+    option = {
+        name = acot_pmc.1601.f
+        response_text = acot_pmc.1601.f.response
+        trigger = {
+            NOR = {
+                has_country_flag = acot_phanon_rival_contact_enabled
+                has_country_flag = acot_phanon_rival_spooked_country
+            }
+        }
+        is_dialog_only = yes
+    }
+
+    option = {
+        name = acot_pmc.1601.g
+        response_text = acot_pmc.1601.g.response
+        trigger = {
+            NOR = {
+                has_country_flag = acot_phanon_rival_contact_enabled
+                has_country_flag = acot_phanon_rival_spooked_country
+            }
+        }
+        is_dialog_only = yes
+    }
+
+    option = {
+        name = acot_pmc.1601.h
+        response_text = acot_pmc.1601.h.response
+        trigger = {
+            has_country_flag = acot_phanon_rival_contact_enabled
+            NOT = {
+                has_country_flag = acot_phanon_rival_spooked_country
+            }
+        }
+        if = {
+            limit = {
+                end_event_chain_after_close_portal = yes
+            }
+            end_event_chain = acot_phanon_event_chain
+            clear_variable = acot_phanon_ship_score
+        }
+        hidden_effect = {
+            remove_country_flag = acot_phanon_diplomacy_engaged
+        }
+    }
+
+    after = {
+        if = {
+            limit = {
+                has_country_flag = attacked_phanon_property
+            }
+            remove_country_flag = attacked_phanon_property
+        }
+
+        #BEGIN OVERRIDE
+        hidden_effect = {
+            save_global_event_target_as = voidark_rival_country
+            country_event = {
+                id = voidark_vault_invasion.992
+                days = 30
+            }
+        }
+        #END OVERRIDE
+    }
+
+}
+
+#FINISH MIRROR EVENT - NORMAL PATH
+country_event = {
+    id = acot_pmc.1700
+    title = "acot_pmc.1700.title"
+    desc = "acot_pmc.1700.desc"
+    show_sound = event_synthetic_evolution
+    picture = GFX_evt_synth_sabotage
+
+    is_triggered_only = yes
+
+    trigger = {
+    }
+
+    immediate = {
+        set_global_flag = acot_phanon_portal_disabled
+    }
+
+    option = {
+        name = acot_pmc.1700.a
+        custom_tooltip = acot_pmc.1700.a.tooltip
+    }
+
+    after = {
+        every_playable_country = {
+            limit = {
+                has_event_chain = acot_phanon_event_chain
+            }
+            if = {
+                limit = {
+                    end_event_chain_after_close_portal = yes
+                }
+                end_event_chain = acot_phanon_event_chain
+                clear_variable = acot_phanon_ship_score
+                clear_variable = acot_phanon_coin_var
+            }
+        }
+        country_event = {
+            id = acot_pmc.1701
+            scopes = {
+                from = event_target:phanon_base_country
+            }
+        }
+        hidden_effect = {
+            remove_global_flag = acot_phanon_retaliation_crisis_initiated
+        }
+
+        #BEGIN OVERRIDE
+        hidden_effect = {
+            save_global_event_target_as = voidark_normal_country
+            country_event = {
+                id = voidark_vault_invasion.992
+                days = 30
+            }
+        }
+        #END OVERRIDE
+    }
+}
