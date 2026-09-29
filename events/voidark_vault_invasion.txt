@@ -43,6 +43,7 @@ country_event = {
             limit = {
                 has_star_flag = phanon_base_system
             }
+            save_global_event_target_as = phanon_system
             every_system_planet = {
                 limit = {
                     OR = {
@@ -57,7 +58,7 @@ country_event = {
     }
 }
 
-
+###########################################################################
 ################# VAULT INTEGRATION ########################
 
 
@@ -93,18 +94,7 @@ country_event = {
     id = voidark_vault_invasion.993
     is_triggered_only = yes
     title = voidark_vault_invasion.993.title
-    desc = {
-        trigger = {
-            has_country_flag = acot_phanon_rival_spooked_country
-        }
-        text = voidark_vault_invasion.993.desc_rival
-    }
-    desc = {
-        trigger = {
-            NOT = {has_country_flag = acot_phanon_rival_spooked_country}
-        }
-        text = voidark_vault_invasion.993.desc_normal
-    }
+    desc = voidark_vault_invasion.993.desc
     picture = GFX_evt_laser_grid
 
     trigger = {
@@ -113,13 +103,27 @@ country_event = {
         has_concluded_phanon_crisis = yes
     }
 
+    #INTEGRATE
     option = {
         name = voidark_vault_invasion.993.a
+        custom_tooltip = voidark_vault_invasion.993.a.tt
+        hidden_effect = {
+            begin_event_chain = {
+                event_chain = voidark_vault_integration
+                target = event_target:vault_temp_owner
+            }
+        }
         enable_special_project = {
             name = VOIDARK_PHANON_VAULT_INTEGRATION_PERMISSION
             location = event_target:voidark_phanon_vault
             owner = event_target:vault_temp_owner
         }
+    }
+
+    #KEEP VAULT
+    option = {
+        name = voidark_vault_invasion.993.b
+        custom_tooltip = voidark_vault_invasion.993.b.tt
     }
 }
 
@@ -163,13 +167,13 @@ country_event = {
         set_country_flag = acot_phanon_diplomacy_engaged
     }
     option = {
-        name = voidark_vault_invasion.994.a #You wont mind?
-        response_text = voidark_vault_invasion.994.a.response
+        name = voidark_vault_invasion.9941.a #You wont mind?
+        response_text = voidark_vault_invasion.9941.a.response
         is_dialog_only = yes
     }
     option = {
-        name = voidark_vault_invasion.994.b #Can you give us help?
-        response_text = voidark_vault_invasion.994.b.response
+        name = voidark_vault_invasion.9941.b #Can you give us help?
+        response_text = voidark_vault_invasion.9941.b.response
         is_dialog_only = yes
         add_tech_option_or_research_effect = {
             TECH = tech_voidark_phanon_vault_integration
@@ -202,6 +206,7 @@ country_event = {
 
     option = {
         name = voidark_vault_invasion.995.a
+        custom_tooltip = voidark_vault_invasion.995.a.tt
         enable_special_project = {
             name = VOIDARK_PHANON_VAULT_INTEGRATION
             location = event_target:voidark_phanon_vault
@@ -229,9 +234,18 @@ carrier_event = {
     # INFORM ABOUT UPCOMING RESETTLE AND PLANET CHANGE
     option = {
         name = voidark_vault_invasion.996.a
+        custom_tooltip = voidark_vault_invasion.996.a.tt
         hidden_effect = {
             set_carrier_flag = sp_voidark_phanon_vault_integration
-            add_district = district_voidark_phanon_vault_integration
+            add_district_and_planet_size_if_needed_effect = {
+                district = district_voidark_phanon_vault_integration
+            }
+            event_target:voidark_phanon_vault = {
+                carrier_event = {
+                    id = voidark_vault_invasion.998
+                    days = 1
+                }
+            }
         }
     }
     immediate = {
@@ -242,23 +256,23 @@ carrier_event = {
 }
 
 #single day delay before resettling and changing planet
-carrier_event = {
-    id = voidark_vault_invasion.997
-    is_triggered_only = yes
-    hide_window = yes
-    trigger = {
-        is_planet_class = pc_acot_pmc_vault
-        owner? = {
-            is_same_value = event_target:vault_temp_owner
-        }
-    }
-    immediate = {
-        carrier_event = {
-            id = voidark_vault_invasion.998
-            days = 1
-        }
-    }
-}
+# carrier_event = {
+#     id = voidark_vault_invasion.997
+#     is_triggered_only = yes
+#     hide_window = yes
+#     trigger = {
+#         is_planet_class = pc_acot_pmc_vault
+#         owner? = {
+#             is_same_value = event_target:vault_temp_owner
+#         }
+#     }
+#     immediate = {
+#         carrier_event = {
+#             id = voidark_vault_invasion.998
+#             days = 1
+#         }
+#     }
+# }
 
 #resettle and changing planet
 carrier_event = {
@@ -304,13 +318,25 @@ country_event = {
         has_integrated_all_data_and_storage_planets = no
     }
     title = voidark_vault_invasion.999.title
-    desc = voidark_vault_invasion.999.desc
+    desc = {
+        text = voidark_vault_invasion.999.rival.desc
+        trigger = { is_same_value = event_target:voidark_rival_country }
+    }
+    desc = {
+        text = voidark_vault_invasion.999.desc
+        trigger = { is_same_value = event_target:voidark_normal_country }
+    }
     picture = GFX_evt_arkship_in_orbit #todo change?
 
     option = {
         name = voidark_vault_invasion.999.a #Begin integration & removal of system
+        trigger = {
+            is_same_value = event_target:voidark_normal_country
+            NOT = { is_same_value = event_target:voidark_rival_country }
+        }
+        custom_tooltip = voidark_vault_invasion.999.a.tt
         hidden_effect = {
-            set_country_flag = voidark_remove_droppoint
+            set_country_flag = voidark_remove_droppoint_resources
             random_system = {
                 limit = {
                     has_star_flag = phanon_base_system
@@ -336,12 +362,60 @@ country_event = {
     }
 
     option = {
-        name = voidark_vault_invasion.999.b #Keep resource planets & system around
+        name = {
+            trigger = { is_same_value = event_target:voidark_normal_country }
+            text = voidark_vault_invasion.999.b #Keep resource planets & system around
+        }
+        name = {
+            trigger = { is_same_value = event_target:voidark_rival_country }
+            text = voidark_vault_invasion.999.c
+        }
+        if = {
+            limit = {
+                is_same_value = event_target:voidark_normal_country
+            }
+            custom_tooltip = voidark_vault_invasion.999.b.tt
+        }
+        else_if = {
+            limit = {
+                is_same_value = event_target:voidark_rival_country
+            }
+            custom_tooltip = voidark_vault_invasion.999.c.tt
+        }
+
         hidden_effect = {
-            set_country_flag = voidark_keep_droppoint
+            set_country_flag = voidark_keep_droppoint_resources
+            end_event_chain = voidark_vault_integration
+        }
+    }
+
+}
+
+#No longer any reason to keep system vassal
+country_event = {
+    id = voidark_vault_invasion.9991
+    is_triggered_only = yes
+    trigger = {
+        has_country_flag = voidark_remove_droppoint_resources
+    }
+    picture = GFX_evt_glitchy_matrix
+    title = voidark_vault_invasion.9991.title
+    desc = voidark_vault_invasion.9991.desc
+
+    immediate = {
+        destroy_droppoint_temp_vassal = yes
+    }
+
+    option = {
+        name = voidark_vault_invasion.9991.a
+        custom_tooltip = voidark_vault_invasion.9991.a.tt
+        hidden_effect = {
+            end_event_chain = voidark_vault_integration
         }
     }
 }
+
+###############################################################################################
 
 #Waystation deletion
 

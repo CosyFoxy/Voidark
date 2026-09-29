@@ -58,12 +58,6 @@ destroy_droppoint_temp_vassal = {
 
 integrate_droppoint_resource_planets = {
     optimize_memory
-    event_target:phanon_resource_planet = {
-        set_carrier_flag = voidark_deposit_removed
-        every_deposit = {
-            remove_deposit = yes
-        }
-    }
     if = {
         limit = {
             AND = {
@@ -80,6 +74,9 @@ integrate_droppoint_resource_planets = {
         }
         event_target:worldark_colony = {
             add_deposit = d_voidark_data_planet_integration
+        }
+        event_target:phanon_resource_planet = {
+            remove_planet = yes
         }
         clear_global_event_target = phanon_resource_planet
     }
@@ -99,6 +96,9 @@ integrate_droppoint_resource_planets = {
         }
         event_target:worldark_colony = {
             add_deposit = d_voidark_storage_planet_integration
+        }
+        event_target:phanon_resource_planet = {
+            remove_planet = yes
         }
         clear_global_event_target = phanon_resource_planet
     }

@@ -66,9 +66,6 @@ special_project = {
         this = {
             carrier_event = { id = voidark_vault_invasion.996 } #Enables district
         }
-        from = {
-            carrier_event = { id = voidark_vault_invasion.997 } #Removes Vault
-        }
     }
 }
 
@@ -121,7 +118,7 @@ special_project = {
                 }
                 country_event = {
                     id = voidark_vault_invasion.9991
-                    days = 1
+                    days = 30
                 }
             }
         }
@@ -141,11 +138,4 @@ special_project = {
             }
         }
     }
-}
-
-#Remove Droppoint System
-
-special_project = {
-    key = "VOIDARK_PHANON_DROPPOINT_DELETION"
-    days_to_research = 30
 }
