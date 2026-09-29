@@ -1540,8 +1540,8 @@ zone_voidark_alpha_ordinance_naval = {
     triggered_planet_modifier = {
         potential = { always = yes }
         planet_soldiers_alloys_upkeep_add = 1
-        naval_cap_from_shipwright = 2
-        ship_build_speed_from_shipwright = 0.06
+        naval_cap_from_shipwright = @arkship_zone_naval_cap_from_shipwright
+        ship_build_speed_from_shipwright = @alpha_ship_build_speed
     }
 
     inline_script = {
@@ -1583,7 +1583,7 @@ zone_voidark_alpha_ordinance_missile = {
         potential = { always = yes }
         planet_soldiers_alloys_upkeep_add = 0.6
         planet_soldiers_volatile_motes_upkeep_add = 0.6
-        weapon_explosive_from_soldiers = 0.2
+        weapon_explosive_from_soldiers = @alpha_weapons_bonus
     }
 
     inline_script = {
@@ -1625,7 +1625,7 @@ zone_voidark_alpha_ordinance_kinetic = {
         potential = { always = yes }
         planet_soldiers_alloys_upkeep_add = 0.6
         planet_soldiers_volatile_motes_upkeep_add = 0.6
-        weapon_kinetic_from_soldiers = 0.2
+        weapon_kinetic_from_soldiers = @alpha_weapons_bonus
     }
 
     inline_script = {
@@ -1668,7 +1668,7 @@ zone_voidark_alpha_ordinance_energy = {
         potential = { always = yes }
         planet_soldiers_alloys_upkeep_add = 0.6
         planet_soldiers_rare_crystals_upkeep_add = 0.6
-        weapon_energy_from_soldiers = 0.2
+        weapon_energy_from_soldiers = @alpha_weapons_bonus
     }
 
     inline_script = {
@@ -1710,7 +1710,7 @@ zone_voidark_alpha_ordinance_strike_craft = {
         potential = { always = yes }
         planet_soldiers_alloys_upkeep_add = 0.6
         planet_soldiers_exotic_gases_upkeep_add = 0.6
-        weapon_strike_craft_from_soldiers = 0.2
+        weapon_strike_craft_from_soldiers = @alpha_weapons_bonus
     }
 
     inline_script = {
@@ -1763,10 +1763,10 @@ zone_voidark_alpha_ordinance_full_batteries = {
         planet_soldiers_rare_crystals_upkeep_add = 0.6
         planet_soldiers_exotic_gases_upkeep_add = 0.6
         planet_soldiers_volatile_motes_upkeep_add = 0.6
-        weapon_strike_craft_from_soldiers = 0.2
-        weapon_kinetic_from_soldiers = 0.2
-        weapon_explosive_from_soldiers = 0.2
-        weapon_energy_from_soldiers = 0.2
+        weapon_strike_craft_from_soldiers = @alpha_weapons_bonus
+        weapon_kinetic_from_soldiers = @alpha_weapons_bonus
+        weapon_explosive_from_soldiers = @alpha_weapons_bonus
+        weapon_energy_from_soldiers = @alpha_weapons_bonus
     }
 
     inline_script = {
