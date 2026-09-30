@@ -1,0 +1,10 @@
+﻿l_braz_por:
+
+ ##########################################################
+ #Deposits
+ ##########################################################
+ d_voidark_storage_planet_integration_desc: "Integrated Phanon Resource Manufacture"
+ d_voidark_storage_planet_integration: "An integrated structure taken from one of the Phanon Corps automatic $pc_acot_pmc_storage_planet$s. While not able to replicate the same output, it shines in its portable capabilities."
+
+ d_voidark_data_planet_integration: "Integrated Phanon Data Storage"
+ d_voidark_data_planet_integration_desc: "An integrated structure taken from one of the Phanon Corps automatic $pc_acot_pmc_data_planet$s. While not able to replicate the same output, it shines in its portable capabilities."

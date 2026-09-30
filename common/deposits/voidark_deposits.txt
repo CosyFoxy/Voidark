@@ -1,5 +1,5 @@
 d_voidark_data_planet_integration = {
-    icon = d_placeholder
+    icon = d_voidark_data_planet_integration
     is_for_colonizable = yes
     category = deposit_cat_rare
     triggered_planet_modifier = {
@@ -22,7 +22,7 @@ d_voidark_data_planet_integration = {
 }
 
 d_voidark_storage_planet_integration = {
-    icon = d_placeholder
+    icon = d_maginot_command
     is_for_colonizable = yes
     category = deposit_cat_rare
     triggered_planet_modifier = {
