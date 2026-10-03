@@ -38,9 +38,9 @@
  voidark_vault_invasion.996.a: "Finally."
  voidark_vault_invasion.996.a.tt: "A new district will be created on the $xhk_pc_worldark$. Pops will resettle in 1 day."
 
- voidark_vault_invasion.999.title: "Further Integration Possible!"
+ voidark_vault_invasion.999.title: "Further Integration"
  voidark_vault_invasion.999.desc: "With the integration of the Vault completed, we now turn out attention to the various deposits found within the Droppoint system. Our analysis indicates that we will be able to integrate their productive capabilities into our $xhk_pc_worldark$, however at a reduced output.$NEW_LINE$Nevertheless, the direct integration will remove the need to collect the resources through a Waystation."
- voidark_vault_invasion.999.rival.desc: "Further integration of the Droppoints Data & Storage planets is planned, but is not yet completed. For now, this is where the integration of the Phanon stuff will end."
+ voidark_vault_invasion.999.rival.desc: "Further integration is considered, but due to having to decide what to do with the Star Traveller, it is not yet completed. For now, this is where the integration of the Phanon stuff will end."
  voidark_vault_invasion.999.a: "Begin integration."
  voidark_vault_invasion.999.a.tt: "Creates special projects to integrate the deposits of the various Data & Storage Planets."
  voidark_vault_invasion.999.b: "Keep them as they are."

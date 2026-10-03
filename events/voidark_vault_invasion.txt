@@ -289,25 +289,31 @@ carrier_event = {
             }
         }
         change_pc = pc_voidark_abandoned_vault
-    }
-    after = {
         if = {
             limit = {
-                event_target:vault_temp_owner = {
-                    is_same_value = event_target:voidark_normal_country
+                AND = {
+                    solar_system = {
+                        any_system_megastructure = {
+                            has_megastructure_flag = acot_pmc_star_traveller_locked
+                        }
+                    }
                 }
             }
-            event_target:voidark_normal_country = {
-                country_event = {
-                    id = voidark_vault_invasion.999
-                    days = 30
-                }
+            event_target:voidark_rival_country = {
+                set_country_flag = voidark_hacked_star_traveller
+            }
+        }
+    }
+    after = {
+        event_target:vault_temp_owner = {
+            country_event = {
+                id = voidark_vault_invasion.999
+                days = 30
             }
         }
     }
 }
 
-##NORMAL PATH
 #Integration of data & storage
 
 country_event = {
@@ -320,19 +326,43 @@ country_event = {
     title = voidark_vault_invasion.999.title
     desc = {
         text = voidark_vault_invasion.999.rival.desc
-        trigger = { is_same_value = event_target:voidark_rival_country }
+        trigger = {
+            AND = {
+                has_country_flag = voidark_hacked_star_traveller
+                is_same_value = event_target:voidark_rival_country
+            }
+        }
     }
     desc = {
         text = voidark_vault_invasion.999.desc
-        trigger = { is_same_value = event_target:voidark_normal_country }
+        trigger = {
+            OR = {
+                AND = {
+                    is_same_value = event_target:voidark_normal_country
+                    NOT = { is_same_value = event_target:voidark_rival_country }
+                }
+                AND = {
+                    is_same_value = event_target:voidark_rival_country
+                    NOT = { has_country_flag = voidark_hacked_star_traveller }
+                }
+            }
+        }
     }
     picture = GFX_evt_arkship_in_orbit #todo change?
 
     option = {
         name = voidark_vault_invasion.999.a #Begin integration & removal of system
         trigger = {
-            is_same_value = event_target:voidark_normal_country
-            NOT = { is_same_value = event_target:voidark_rival_country }
+            OR = {
+                AND = {
+                    is_same_value = event_target:voidark_normal_country
+                    NOT = { is_same_value = event_target:voidark_rival_country }
+                }
+                AND = {
+                    is_same_value = event_target:voidark_rival_country
+                    NOT = { has_country_flag = voidark_hacked_star_traveller }
+                }
+            }
         }
         custom_tooltip = voidark_vault_invasion.999.a.tt
         hidden_effect = {
@@ -363,22 +393,50 @@ country_event = {
 
     option = {
         name = {
-            trigger = { is_same_value = event_target:voidark_normal_country }
+            trigger = {
+                OR = {
+                    AND = {
+                        is_same_value = event_target:voidark_normal_country
+                        NOT = { is_same_value = event_target:voidark_rival_country }
+                    }
+                    AND = {
+                        is_same_value = event_target:voidark_rival_country
+                        NOT = { has_country_flag = voidark_hacked_star_traveller }
+                    }
+                }
+            }
             text = voidark_vault_invasion.999.b #Keep resource planets & system around
         }
         name = {
-            trigger = { is_same_value = event_target:voidark_rival_country }
+            trigger = {
+                AND = {
+                    is_same_value = event_target:voidark_rival_country
+                    has_country_flag = voidark_hacked_star_traveller
+                }
+            }
             text = voidark_vault_invasion.999.c
         }
         if = {
             limit = {
-                is_same_value = event_target:voidark_normal_country
+                OR = {
+                    AND = {
+                        is_same_value = event_target:voidark_normal_country
+                        NOT = { is_same_value = event_target:voidark_rival_country }
+                    }
+                    AND = {
+                        is_same_value = event_target:voidark_rival_country
+                        NOT = { has_country_flag = voidark_hacked_star_traveller }
+                    }
+                }
             }
             custom_tooltip = voidark_vault_invasion.999.b.tt
         }
         else_if = {
             limit = {
-                is_same_value = event_target:voidark_rival_country
+                AND = {
+                    is_same_value = event_target:voidark_rival_country
+                    has_country_flag = voidark_hacked_star_traveller
+                }
             }
             custom_tooltip = voidark_vault_invasion.999.c.tt
         }
