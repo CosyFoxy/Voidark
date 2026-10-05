@@ -446,7 +446,6 @@ country_event = {
             end_event_chain = voidark_vault_integration
         }
     }
-
 }
 
 #No longer any reason to keep system vassal
