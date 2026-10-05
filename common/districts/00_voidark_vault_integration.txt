@@ -8,6 +8,7 @@ district_voidark_phanon_vault_integration = {
     has_primary_zone = yes
     can_demolish = no
     base_cap_amount = 1
+    is_uncapped = { always = no }
 
     zone_slots = {
         slot_voidark_phanon_vault_primary

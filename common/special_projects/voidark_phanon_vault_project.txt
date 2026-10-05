@@ -12,7 +12,7 @@ special_project = {
 
     event_scope = carrier_event
     on_success = {
-        this.owner = {
+        event_target:vault_temp_owner = {
             set_country_flag = voidark_vault_integration_permitted
             add_tech_option_no_progress_effect = {
                 TECH = tech_voidark_phanon_vault_integration
@@ -104,7 +104,7 @@ special_project = {
             if = {
                 limit = {
                     event_target:worldark_colony = {
-                        OR = {
+                        AND = {
                             count_deposits = {
                                 type = d_voidark_data_planet_integration
                                 count >= 6
@@ -126,7 +126,7 @@ special_project = {
     }
     abort_trigger = {
         event_target:worldark_colony = {
-            OR = {
+            AND = {
                 count_deposits = {
                     type = d_voidark_data_planet_integration
                     count >= 6

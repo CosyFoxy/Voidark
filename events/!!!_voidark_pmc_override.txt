@@ -295,6 +295,7 @@ country_event = {
 
         #BEGIN OVERRIDE
         hidden_effect = {
+            set_country_flag = voidark_rival_country
             save_global_event_target_as = voidark_rival_country
             country_event = {
                 id = voidark_vault_invasion.992
@@ -355,6 +356,7 @@ country_event = {
         #BEGIN OVERRIDE
         hidden_effect = {
             save_global_event_target_as = voidark_normal_country
+            set_country_flag = voidark_normal_country
             country_event = {
                 id = voidark_vault_invasion.992
                 days = 30

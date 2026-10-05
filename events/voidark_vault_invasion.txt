@@ -75,16 +75,15 @@ country_event = {
             is_planet_class = pc_acot_pmc_vault
             has_carrier_flag = acot_vault_floor_four_cleared
         }
-        fromfrom = {
-            is_planet_class = pc_acot_pmc_vault
-            has_carrier_flag = acot_vault_floor_four_cleared
-        }
     }
     immediate = {
         country_event = {
             id = voidark_vault_invasion.993
             days = 360
             random = 360
+        }
+        if = {
+            limit = {  }
         }
     }
 }

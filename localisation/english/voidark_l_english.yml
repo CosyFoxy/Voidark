@@ -3,8 +3,20 @@
  ##########################################################
  #Deposits
  ##########################################################
- d_voidark_storage_planet_integration_desc: "Integrated Phanon Resource Manufacture"
- d_voidark_storage_planet_integration: "An integrated structure taken from one of the Phanon Corps automatic $pc_acot_pmc_storage_planet$s. While not able to replicate the same output, it shines in its portable capabilities."
+ d_voidark_storage_planet_integration: "Integrated Phanon Resource Manufacture"
+ d_voidark_storage_planet_integration_desc: "An integrated structure taken from one of the Phanon Corps automatic $pc_acot_pmc_storage_planet$s. While not able to replicate the same output, it shines in its portable capabilities."
 
  d_voidark_data_planet_integration: "Integrated Phanon Data Storage"
  d_voidark_data_planet_integration_desc: "An integrated structure taken from one of the Phanon Corps automatic $pc_acot_pmc_data_planet$s. While not able to replicate the same output, it shines in its portable capabilities."
+
+ voidark_vault_integration_title: "REPLACE_ME"
+ voidark_vault_integration_desc: "REPLACE_ME"
+
+ SP_VOIDARK_PHANON_VAULT_INTEGRATION_PROJECT_REQUIREMENT: "Has §H$xhk_pc_worldark$§! of at least §C$concept_phi_tier$ tier§! in orbit."
+
+ VOIDARK_PHANON_VAULT_INTEGRATION_PERMISSION: "Analysis: Mobile Vault Solution"
+ VOIDARK_PHANON_VAULT_INTEGRATION_PERMISSION_DESC: "REPLACE_ME"
+ VOIDARK_PHANON_VAULT_INTEGRATION: "Integration: Phanon Vault!"
+ VOIDARK_PHANON_VAULT_INTEGRATION_DESC: "REPLACE_ME"
+ VOIDARK_PHANON_RESOURCE_PLANET_INTEGRATION: "Integration of [planet.GetClassName] [planet.GetName]"
+ VOIDARK_PHANON_RESOURCE_PLANET_INTEGRATION_DESC: "REPLACE_ME"
