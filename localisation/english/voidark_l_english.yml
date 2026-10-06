@@ -9,8 +9,8 @@
  d_voidark_data_planet_integration: "Integrated Phanon Data Storage"
  d_voidark_data_planet_integration_desc: "An integrated structure taken from one of the Phanon Corps automatic $pc_acot_pmc_data_planet$s. While not able to replicate the same output, it shines in its portable capabilities."
 
- voidark_vault_integration_title: "REPLACE_ME"
- voidark_vault_integration_desc: "REPLACE_ME"
+ voidark_vault_integration_title: "Integration of Phanon Vault"
+ voidark_vault_integration_desc: "This event chain will contain all special projects that will be used during the process of integrating the Phanon Vault and additional things into the $xhk_pc_worldark$."
 
  SP_VOIDARK_PHANON_VAULT_INTEGRATION_PROJECT_REQUIREMENT: "Has §H$xhk_pc_worldark$§! of at least §C$concept_phi_tier$ tier§! in orbit."
 

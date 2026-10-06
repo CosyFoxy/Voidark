@@ -311,11 +311,6 @@ zone_voidark_phanon_vault_integration_stellarite_tier = {
             has_technology = tech_voidark_stellarite_vault_integration
         }
     }
-    #todo check what looks better
-    triggered_desc = {
-        trigger = { always = yes }
-        text = zone_voidark_phanon_vault_integration_stellarite_tier_tt
-    }
     planet_modifier = {
         custom_tooltip = zone_voidark_phanon_vault_integration_stellarite_tier_tt
         show_only_custom_tooltip = yes
