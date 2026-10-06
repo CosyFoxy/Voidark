@@ -523,4 +523,25 @@ spriteTypes = {
         name = GFX_district_specialization_voidark_stellarite_ordinance_full_batteries
         textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_ordinance_full_batteries.dds"
     }
+
+    spriteType = {
+        name = GFX_district_specialization_voidark_phanon_vault_1
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_vault_1.dds"
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_phanon_vault_2
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_vault_2.dds"
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_phanon_vault_3
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_vault_3.dds"
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_phanon_vault_tier_phanon
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_vault_tier_phanon.dds"
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_phanon_vault_tier_stellarite
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_vault_tier_stellarite.dds"
+    }
 }
