@@ -20,6 +20,11 @@ building_voidark_voidbirch_phanon_support = {
         has_zone = {
             zone = zone_voidark_birch_upgrade
         }
+        NOT = {
+            has_zone = {
+                zone = zone_urban
+            }
+        }
         owner? = {
             has_technology = tech_voidark_voidbirch
         }
@@ -72,6 +77,11 @@ building_voidark_voidbirch_stellarite_support = {
         NOT = { has_carrier_flag = xhk_worldark_currently_bircharking }
         has_zone = {
             zone = zone_voidark_birch_upgrade
+        }
+        NOT = {
+            has_zone = {
+                zone = zone_urban
+            }
         }
         owner? = {
             has_technology = tech_voidark_voidbirch
