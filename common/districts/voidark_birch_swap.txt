@@ -1,0 +1,16 @@
+district_voidark_voidbirch = {
+    icon = district_voidark_alpha_penrose
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_giga_birch_structure
+        BACKGROUND = district_voidark_voidbirch
+        OVERLAY_ICON = GFX_district_government
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = ""
+        TYPE = voidbirch
+    }
+    prerequisites = { tech_voidark_voidbirch }
+    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
+}

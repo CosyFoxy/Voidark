@@ -172,3 +172,34 @@ tech_voidark_stellarite = {
         }
     }
 }
+
+tech_voidark_voidbirch = {
+    area = society
+    icon = tech_acot_create_enigmapolis
+    category = { new_worlds }
+    tier = 7
+    cost = 200000
+    is_rare = yes
+    weight = @acot_techweight_rare
+
+    potential = {
+        is_nomadic = yes
+        has_origin = origin_xhk_worldark
+        NOR = {
+            has_global_flag = acot_delta_forbidden
+            has_global_flag = acot_alpha_forbidden
+        }
+        capital_scope = {
+            has_carrier_flag = xhk_worldark_birch_flag
+        }
+        has_technology = tech_dark_matter_power_core_ae
+    }
+
+    prerequisites = {
+        "tech_voidark_alpha"
+        "tech_dark_matter_power_core_ae"
+    }
+    ai_weight = {
+        weight = @best_megastructure_ai_tech_factor
+    }
+}

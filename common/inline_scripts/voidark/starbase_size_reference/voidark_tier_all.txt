@@ -1,0 +1,1 @@
+xhk_is_worldark_ship = yes

@@ -1,0 +1,24 @@
+﻿l_english:
+
+ building_voidark_voidbirch_phanon_support: "Runic Birch Support"
+ building_voidark_voidbirch_phanon_support_desc: "Through infusion of runic energy, the birch structures will amplify our production capacities."
+
+ building_voidark_voidbirch_stellarite_support: "Sigma Birch Support"
+ building_voidark_voidbirch_stellarite_support_desc: "Through infusion of stellarite energy, the birch structures will amplify our production capacities."
+
+ voidark_birch_zone_dummy: "Dummy"
+ voidark_birch_zone_dummy_desc: "Dummy"
+
+ zone_voidark_birch_basic: "Prototype Enkhyma Stratum"
+ zone_voidark_birch_basic_desc: "We have marked out potential areas of the insulae which could, in the future, allow for further upgrades."
+
+ zone_voidark_birch_upgrade: "Enkhyma Stratum"
+ zone_voidark_birch_upgrade_desc: "It is time to transform the Birch structure according to our advanced technologies. Infusing the insulae with dark energy, we will maximise our potential."
+
+ district_voidark_voidbirch: "§BVoidbirch Ark Insula§!"
+ district_voidark_voidbirch_desc: "$district_xhk_worldark_birch_desc$"
+ district_voidark_voidbirch_plural: "§BVoidbirch Ark Insulae§!"
+ flavor_district_voidark__voidbirch: "§YHeart of the Void§!"
+
+ tech_voidark_voidbirch: "Voidbirch: Enkhyma Stratum"
+ tech_voidark_voidbirch_desc: "It is time to transform the Birch structure according to our advanced technologies."

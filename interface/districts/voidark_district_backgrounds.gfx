@@ -231,4 +231,8 @@ spriteTypes = {
         name = GFX_district_voidark_stellarite_supertensiles_bg
         textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_supertensiles_bg.dds"
     }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_voidbirch_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_voidbirch_bg.dds"
+    }
 }

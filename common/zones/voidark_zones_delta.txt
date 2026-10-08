@@ -1,8 +1,5 @@
 #todo: adjust whether ACOT adds ark ship jobs
 #todo: adjust when AOT adds enforcer buildings
-#todo: supertensiles
-
-
 
 voidark_delta_zone_dummy = {
     potential = {

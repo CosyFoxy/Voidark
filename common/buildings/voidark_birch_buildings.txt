@@ -1,0 +1,104 @@
+building_voidark_voidbirch_phanon_support = {
+    base_buildtime = @b2_time
+    category = manufacturing
+    empire_limit = 1
+    building_sets = {
+        voidark_voidbirch
+    }
+    resources = {
+        category = planet_buildings
+        cost = {
+            alloys = 500
+            aot_sr_runic_power = 200
+            acot_sr_dark_energy = 300
+        }
+    }
+    potential = {
+        is_planet_class = xhk_pc_worldark
+        has_carrier_flag = xhk_worldark_birch_flag
+        NOT = { has_carrier_flag = xhk_worldark_currently_bircharking }
+        has_zone = {
+            zone = zone_voidark_birch_upgrade
+        }
+        owner? = {
+            has_technology = tech_voidark_voidbirch
+        }
+    }
+    allow = {
+        owner.capital_scope.carrier.ship = {
+            inline_script = {
+                script = voidark/starbase_size_reference/voidark_tier_phanon
+            }
+        }
+    }
+    planet_modifier = {
+        planet_giga_dark_matter_weavers_aot_sr_runic_power_produces_add = 5
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { is_gestalt = no }
+        }
+        job_giga_dark_matter_weaver_add = 500
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { is_gestalt = yes }
+        }
+        job_giga_dark_matter_weaver_drone_add = 500
+    }
+}
+
+building_voidark_voidbirch_stellarite_support = {
+    base_buildtime = @b2_time
+    category = manufacturing
+    empire_limit = 1
+    building_sets = {
+        voidark_voidbirch
+    }
+    resources = {
+        category = planet_buildings
+        cost = {
+            alloys = 500
+            aot_sr_runic_power = 200
+            acot_sr_stellarite = 200
+            acot_sr_dark_energy = 300
+        }
+    }
+    potential = {
+        is_planet_class = xhk_pc_worldark
+        has_carrier_flag = xhk_worldark_birch_flag
+        NOT = { has_carrier_flag = xhk_worldark_currently_bircharking }
+        has_zone = {
+            zone = zone_voidark_birch_upgrade
+        }
+        owner? = {
+            has_technology = tech_voidark_voidbirch
+        }
+    }
+    allow = {
+        owner.capital_scope.carrier.ship = {
+            inline_script = {
+                script = voidark/starbase_size_reference/voidark_tier_stellarite
+            }
+        }
+    }
+    planet_modifier = {
+        planet_giga_dark_matter_weavers_acot_sr_stellarite_produces_add = 5
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { is_gestalt = no }
+        }
+        job_giga_dark_matter_weaver_add = 500
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { is_gestalt = yes }
+        }
+        job_giga_dark_matter_weaver_drone_add = 500
+    }
+}

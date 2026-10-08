@@ -1,0 +1,11 @@
+slot_xhk_worldark_stratia = {
+    start = zone_voidark_birch_basic
+    include = {
+        zone_voidark_birch_basic
+        zone_xhk_worldark_stratia
+        zone_voidark_birch_upgrade
+    }
+    unlock = {                              # Trigger that defines whether the slot is unlocked on the planet. Scope = Planet.
+        always = yes
+    }
+}
