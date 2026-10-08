@@ -1,24 +1,24 @@
 ﻿l_russian:
   
-  building_voidark_voidbirch_phanon_support:0 "Runic Birch Support"
-  building_voidark_voidbirch_phanon_support_desc:0 "Through infusion of runic energy, the birch structures will amplify our production capacities."
+  building_voidark_voidbirch_phanon_support:99 "Runic Birch Support"
+  building_voidark_voidbirch_phanon_support_desc:99 "Through infusion of runic energy, the birch structures will amplify our production capacities."
   
-  building_voidark_voidbirch_stellarite_support:0 "Sigma Birch Support"
-  building_voidark_voidbirch_stellarite_support_desc:0 "Through infusion of stellarite energy, the birch structures will amplify our production capacities."
+  building_voidark_voidbirch_stellarite_support:99 "Sigma Birch Support"
+  building_voidark_voidbirch_stellarite_support_desc:99 "Through infusion of stellarite energy, the birch structures will amplify our production capacities."
   
-  voidark_birch_zone_dummy:0 "Dummy"
-  voidark_birch_zone_dummy_desc:0 "Dummy"
+  voidark_birch_zone_dummy:99 "Dummy"
+  voidark_birch_zone_dummy_desc:99 "Dummy"
   
-  zone_voidark_birch_basic:0 "Prototype Enkhyma Stratum"
-  zone_voidark_birch_basic_desc:0 "We have marked out potential areas of the insulae which could, in the future, allow for further upgrades."
+  zone_voidark_birch_basic:99 "Prototype Enkhyma Stratum"
+  zone_voidark_birch_basic_desc:99 "We have marked out potential areas of the insulae which could, in the future, allow for further upgrades."
   
-  zone_voidark_birch_upgrade:0 "Enkhyma Stratum"
-  zone_voidark_birch_upgrade_desc:0 "It is time to transform the Birch structure according to our advanced technologies. Infusing the insulae with dark energy, we will maximise our potential."
+  zone_voidark_birch_upgrade:99 "Enkhyma Stratum"
+  zone_voidark_birch_upgrade_desc:99 "It is time to transform the Birch structure according to our advanced technologies. Infusing the insulae with dark energy, we will maximise our potential."
   
-  district_voidark_voidbirch:0 "§BVoidbirch Ark Insula§!"
-  district_voidark_voidbirch_desc:0 "$district_xhk_worldark_birch_desc$"
-  district_voidark_voidbirch_plural:0 "§BVoidbirch Ark Insulae§!"
-  flavor_district_voidark__voidbirch:0 "§YHeart of the Void§!"
+  district_voidark_voidbirch:99 "§BVoidbirch Ark Insula§!"
+  district_voidark_voidbirch_desc:99 "$district_xhk_worldark_birch_desc$"
+  district_voidark_voidbirch_plural:99 "§BVoidbirch Ark Insulae§!"
+  flavor_district_voidark__voidbirch:99 "§YHeart of the Void§!"
   
-  tech_voidark_voidbirch:0 "Voidbirch: Enkhyma Stratum"
-  tech_voidark_voidbirch_desc:0 "It is time to transform the Birch structure according to our advanced technologies."
+  tech_voidark_voidbirch:99 "Voidbirch: Enkhyma Stratum"
+  tech_voidark_voidbirch_desc:99 "It is time to transform the Birch structure according to our advanced technologies."
