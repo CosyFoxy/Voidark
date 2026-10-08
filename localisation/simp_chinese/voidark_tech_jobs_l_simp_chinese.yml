@@ -60,9 +60,11 @@
  mod_planet_energy_converters_aot_sr_runic_power_upkeep_add: "£aot_sr_runic_power£ $upkeep_per_pop_group_unit$ $giga_planet_energy_converters_mod_suffix$"
  mod_planet_energy_converters_acot_sr_stellarite_upkeep_add: "£acot_sr_stellarite£ $upkeep_per_pop_group_unit$ $giga_planet_energy_converters_mod_suffix$"
  mod_planet_cultivators_aot_sr_runic_power_upkeep_add: "£aot_sr_runic_power£ $upkeep_per_pop_group_unit$ $giga_planet_cultivators_mod_suffix$"
- mod_planet_giga_dark_matter_weavers_aot_sr_runic_power_produces_add: "£aot_sr_runic_power£ $produced_per_pop_group_unit$ $job_giga_dark_matter_weaver$"
- mod_planet_giga_dark_matter_weavers_acot_sr_stellarite_produces_add: "£acot_sr_stellarite£ $produced_per_pop_group_unit$ $job_giga_dark_matter_weaver$"
- mod_planet_giga_dark_matter_weavers_aot_sr_runic_power_produces_mult: "£aot_sr_runic_power£ $produced_from$ $job_giga_dark_matter_weaver$"
+ mod_planet_giga_dark_matter_weavers_aot_sr_runic_power_produces_add: "£aot_sr_runic_power£ $produced_per_pop_group_unit$ $giga_planet_giga_dark_matter_weavers_mod_suffix$"
+ mod_planet_giga_dark_matter_weavers_acot_sr_stellarite_produces_add: "£acot_sr_stellarite£ $produced_per_pop_group_unit$ $giga_planet_giga_dark_matter_weavers_mod_suffix$"
+ mod_planet_giga_dark_matter_weavers_aot_sr_runic_power_produces_mult: "£aot_sr_runic_power£ $produced_from$ $giga_planet_giga_dark_matter_weavers_mod_suffix$"
+ mod_planet_soldiers_acot_sr_dark_energy_upkeep_add: "£acot_sr_dark_energy£ $upkeep_per_pop_group_unit$ $giga_planet_soldiers_mod_suffix$"
+
 
  #TECH --------------------------------------------------
 
@@ -145,3 +147,14 @@
 
  voidark_tech_unlock_phanon_wall_component_title: "§HUnlocks Component:§! $tech_voidark_phanon_great_wall_nomadswap$"
  voidark_tech_unlock_phanon_wall_component_desc: "Based on the defensive blueprints of a massive structure called the $tech_phanon_great_wall$, the vault contained a blueprint for this massive component meant for mobile stations. Its firepower borders at insanity."
+ TECH_UNLOCK_VOIDARK_STELLARITE_PYLON_STAR: "§HUnlocks Module Upgrade:§! $SL_voidark_miniature_stellarite_pylon_star$"
+ TECH_UNLOCK_VOIDARK_STELLARITE_PYLON_STAR_DESC: "$SL_voidark_miniature_stellarite_pylon_star_desc$"
+
+ tech_voidark_phanon_vault_integration: "$pc_acot_pmc_vault$ Integration"
+ tech_voidark_phanon_vault_integration_desc: "A proposal set out by our researchers for the analysis of the blueprint found. Perhaps researching this will allow us to understand how to integrate some of the Vault's capabilities."
+
+ tech_voidark_stellarite_vault_integration: "A Shining Touch"
+ tech_voidark_stellarite_vault_integration_desc: "We will research how to infuse stellarite energy into our integrated vault structures. While we assume this not to bring too many benefits, it will not hurt to try nevertheless."
+
+ TECH_UNLOCK_VOIDARK_PHANON_VAULT_INTEGRATION: "$i_unlocks_feature$ $pc_acot_pmc_vault$ Integration"
+

@@ -114,6 +114,10 @@
  zone_voidark_stellarite_supertensiles: "§H$concept_stellarite_tier$ $zone_xhk_worldark_supertensiles$§!"
  zone_voidark_stellarite_supertensiles_desc: "$zone_xhk_worldark_supertensiles_desc$"
 
+ zone_voidark_phanon_vault_integration_stellarite_tier: "§HVault Tier: Sigma§!"
+ zone_voidark_phanon_vault_integration_stellarite_tier_desc: "We have infused stellarite into the Vault's structures. While now being more expensive to maintain, it did show sufficient benefits."
+ zone_voidark_phanon_vault_integration_stellarite_tier_tt: "$NEW_LINE$Doubles the capabilities of the integrated Vault's output at the cost of £acot_sr_stellarite£ ['acot_sr_stellarite']."
+
 
  #DISTRICTS ------------------------------------------------------------------
  district_voidark_stellarite_city: "§H$concept_stellarite_tier$ $district_xhk_worldark_city$§!"
@@ -337,4 +341,9 @@
  district_voidark_stellarite_supertensiles_desc: "$district_xhk_worldark_supertensiles_desc$"
  district_voidark_stellarite_supertensiles_plural: "§H$concept_stellarite_tier$ $district_xhk_worldark_supertensiles_plural$§!"
  flavor_district_voidark_stellarite_supertensiles: "§Y$flavor_xhk_worldark_supertensiles_name$§!"
+
+ district_voidark_stellarite_vault_integration: "§HIntegrated Phanon Command Vault§!"
+ district_voidark_stellarite_vault_integration_desc: "$district_voidark_phanon_vault_integration_desc$"
+ district_voidark_stellarite_vault_integration_plural: "§HIntegrated Phanon Command Vault§!"
+ flavor_district_voidark_stellarite_vault_integration: "$flavor_voidark_phanon_vault_integration$"
 

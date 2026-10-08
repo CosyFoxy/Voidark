@@ -114,6 +114,24 @@
  zone_voidark_phanon_supertensiles: "§R$concept_phanon_tier$ $zone_xhk_worldark_supertensiles$§!"
  zone_voidark_phanon_supertensiles_desc: "$zone_xhk_worldark_supertensiles_desc$"
 
+ zone_voidark_vault_integration_dummy: "$voidark_phanon_zone_dummy$"
+ zone_voidark_vault_integration_dummy_desc: "$voidark_phanon_zone_dummy_desc$"
+
+ zone_voidark_phanon_vault_integration_primary: "§RVault Primary Level§!"
+ zone_voidark_phanon_vault_integration_primary_desc: "$zone_acot_vault_main_desc$"
+
+ zone_voidark_phanon_vault_integration_1: "§RVault Level A§!"
+ zone_voidark_phanon_vault_integration_1_desc: "$district_acot_phanon_a_desc$"
+
+ zone_voidark_phanon_vault_integration_2: "§RVault Level B§!"
+ zone_voidark_phanon_vault_integration_2_desc: "$district_acot_phanon_b_desc$"
+
+ zone_voidark_phanon_vault_integration_3: "§RVault Level C§!"
+ zone_voidark_phanon_vault_integration_3_desc: "$district_acot_phanon_c_desc$"
+
+ zone_voidark_phanon_vault_integration_phanon_tier: "§RVault Tier: Runic§!"
+ zone_voidark_phanon_vault_integration_phanon_tier_desc: "The infrastructure of the integrated vault mimics the original's."
+
 
  #DISTRICTS ------------------------------------------------------------------
  district_voidark_phanon_city: "§R$concept_phanon_tier$ $district_xhk_worldark_city$§!"
@@ -312,29 +330,34 @@
  flavor_district_voidark_phanon_darkmatter: "§YVeil of Dark§!"
 
  #todo adjust on other levels
- district_voidark_phanon_storage: "§R$concept_phanon_tier$ $district_xhk_worldark_storage$§!"
- district_voidark_phanon_storage_desc: "$district_xhk_worldark_storage_desc$"
- district_voidark_phanon_storage_plural: "§R$concept_phanon_tier$ $district_xhk_worldark_storage_plural$§!"
- district_voidark_phanon_storage_effect: "Attached Zone gives: \n§G+10000§! £mod_country_resource_max_add£ Resource Storage\n§G+1000§! £operational_reserves£ $mod_situation_nomad_economy_max_progress_add$\n§G+2000§! £sr_dark_matter£ $mod_country_resource_max_sr_dark_matter_add$\n§G+2000§! £acot_sr_dark_energy£ $mod_country_resource_max_acot_sr_dark_energy_add$\n§G+1000§! £aot_sr_runic_power£ $mod_country_resource_max_aot_sr_runic_power_add$"
- flavor_district_voidark_phanon_storage: "§YLiminal Storage§!"
+ district_voidark_phanon_storage: "REPLACE_ME"
+ district_voidark_phanon_storage_desc: "REPLACE_ME"
+ district_voidark_phanon_storage_plural: "REPLACE_ME"
+ district_voidark_phanon_storage_effect: "REPLACE_ME"
+ flavor_district_voidark_phanon_storage: "REPLACE_ME"
 
- district_voidark_phanon_utilbay: "§R$concept_phanon_tier$ $district_xhk_worldark_utilbay$§!"
- district_voidark_phanon_utilbay_desc: "$district_xhk_worldark_utilbay_desc$"
- district_voidark_phanon_utilbay_plural: "§R$concept_phanon_tier$ $district_xhk_worldark_utilbay_plural$§!"
- flavor_district_voidark_phanon_utilbay: "§YAccessory Sectors§!"
+ district_voidark_phanon_utilbay: "REPLACE_ME"
+ district_voidark_phanon_utilbay_desc: "REPLACE_ME"
+ district_voidark_phanon_utilbay_plural: "REPLACE_ME"
+ flavor_district_voidark_phanon_utilbay: "REPLACE_ME"
 
- district_voidark_phanon_negativemass: "§R$concept_phanon_tier$ $district_xhk_worldark_negativemass$§!"
- district_voidark_phanon_negativemass_desc: "$district_xhk_worldark_negativemass_desc$"
- district_voidark_phanon_negativemass_plural: "§R$concept_phanon_tier$ $district_xhk_worldark_negativemass_plural$§!"
- flavor_district_voidark_phanon_negativemass: "§YInfinitum§!"
+ district_voidark_phanon_negativemass: "REPLACE_ME"
+ district_voidark_phanon_negativemass_desc: "REPLACE_ME"
+ district_voidark_phanon_negativemass_plural: "REPLACE_ME"
+ flavor_district_voidark_phanon_negativemass: "REPLACE_ME"
 
- district_voidark_phanon_sentient_metal: "§R$concept_phanon_tier$ $district_xhk_worldark_sentientmetal$§!"
- district_voidark_phanon_sentient_metal_desc: "$district_xhk_worldark_sentientmetal_desc$"
- district_voidark_phanon_sentient_metal_plural: "§R$concept_phanon_tier$ $district_xhk_worldark_sentientmetal_plural$§!"
- flavor_district_voidark_phanon_sentient_metal: "§YMetallum Vivum§!"
+ district_voidark_phanon_sentient_metal: "REPLACE_ME"
+ district_voidark_phanon_sentient_metal_desc: "REPLACE_ME"
+ district_voidark_phanon_sentient_metal_plural: "REPLACE_ME"
+ flavor_district_voidark_phanon_sentient_metal: "REPLACE_ME"
 
- district_voidark_phanon_supertensiles: "§R$concept_phanon_tier$ $district_xhk_worldark_supertensiles$§!"
- district_voidark_phanon_supertensiles_desc: "$district_xhk_worldark_supertensiles_desc$"
- district_voidark_phanon_supertensiles_plural: "§R$concept_phanon_tier$ $district_xhk_worldark_supertensiles_plural$§!"
- flavor_district_voidark_phanon_supertensiles: "$flavor_xhk_worldark_supertensiles_name$"
+ district_voidark_phanon_supertensiles: "REPLACE_ME"
+ district_voidark_phanon_supertensiles_desc: "REPLACE_ME"
+ district_voidark_phanon_supertensiles_plural: "REPLACE_ME"
+ flavor_district_voidark_phanon_supertensiles: "REPLACE_ME"
+
+ district_voidark_phanon_vault_integration: "REPLACE_ME"
+ district_voidark_phanon_vault_integration_desc: "REPLACE_ME"
+ district_voidark_phanon_vault_integration_plural: "REPLACE_ME"
+ flavor_voidark_phanon_vault_integration: "REPLACE_ME"
 

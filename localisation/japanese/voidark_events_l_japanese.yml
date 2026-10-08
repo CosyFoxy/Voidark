@@ -11,7 +11,7 @@
 
  #VAULT INTEGRATION
  voidark_vault_invasion.993.title: "Phanon Vault Integration"
- voidark_vault_invasion.993.desc: "After the dust of our clash with the Phanon Corporation settled, further investigations into the databanks of the Infinite Corridors yielded a surprising finding. Next to blueprints of armaments of impossible scale, we found one plan that piqued our interest.$NEW_LINE$$NEW_LINE$§K\"Mobile Vault Solution.\"§!$NEW_LINE$$NEW_LINE$While further deciphering is required to understand the feasibility of this project, our initial assumptions lead us to believe that this blueprint may allow us to §Hintegrate the Vault§! into our §H$xhk_pc_worldark$§!.$NEW_LINE$We must now decide how to proceed."
+ voidark_vault_invasion.993.desc: "After the dust of our clash with the Phanon Corporation settled, further investigations into the databanks of the Infinite Corridors yielded a surprising finding. Next to blueprints of armaments of impossible scale, we found one plan that piqued our interest.$NEW_LINE$$NEW_LINE$§K"Mobile Vault Solution."§!$NEW_LINE$$NEW_LINE$While further deciphering is required to understand the feasibility of this project, our initial assumptions lead us to believe that this blueprint may allow us to §Hintegrate the Vault§! into our §H$xhk_pc_worldark$§!.$NEW_LINE$We must now decide how to proceed."
  voidark_vault_invasion.993.a: "Analyse the blueprint."
  voidark_vault_invasion.993.a.tt: "Begins the process of integrating the Vault."
  voidark_vault_invasion.993.b: "Not worth our time."
@@ -45,8 +45,8 @@
  voidark_vault_invasion.999.a.tt: "Creates special projects to integrate the deposits of the various Data & Storage Planets."
  voidark_vault_invasion.999.b: "Keep them as they are."
  voidark_vault_invasion.999.b.tt: "The Data & Storage planets will remain as they are. Use a Waystation to benefit from them."
- voidark_vault_invasion.999.c: "WORK IN PROGRESS!!"
- voidark_vault_invasion.999.c.tt: "The integration for the Rival path is not yet completed!"
+ voidark_vault_invasion.999.c: "Understood."
+ voidark_vault_invasion.999.c.tt: "The integration for the Rival path ends here."
 
  voidark_vault_invasion.9991.title: "Release of the Droppoint System!"
  voidark_vault_invasion.9991.desc: "With the Vault and all Data & Storage planets integrated into our $xhk_pc_worldark$, there is little value left for us in keeping the Droppoint Nomadic Ownership System. It is in our best interest now to relinquish this temporary control."
