@@ -150,13 +150,11 @@
  TECH_UNLOCK_VOIDARK_STELLARITE_PYLON_STAR: "§HUnlocks Module Upgrade:§! $SL_voidark_miniature_stellarite_pylon_star$"
  TECH_UNLOCK_VOIDARK_STELLARITE_PYLON_STAR_DESC: "$SL_voidark_miniature_stellarite_pylon_star_desc$"
 
- tech_voidark_phanon_vault_integration: "REPLACE_ME"
- tech_voidark_phanon_vault_integration_desc: "REPLACE_ME"
+ tech_voidark_phanon_vault_integration: "$pc_acot_pmc_vault$ Integration"
+ tech_voidark_phanon_vault_integration_desc: "A proposal set out by our researchers for the analysis of the blueprint found. Perhaps researching this will allow us to understand how to integrate some of the Vault's capabilities."
 
- tech_voidark_stellarite_vault_integration: "REPLACE_ME"
- tech_voidark_stellarite_vault_integration_desc: "REPLACE_ME"
+ tech_voidark_stellarite_vault_integration: "A Shining Touch"
+ tech_voidark_stellarite_vault_integration_desc: "We will research how to infuse stellarite energy into our integrated vault structures. While we assume this not to bring too many benefits, it will not hurt to try nevertheless."
 
- TECH_UNLOCK_VOIDARK_PHANON_VAULT_INTEGRATION: "REPLACE_ME"
- TECH_UNLOCK_VOIDARK_PHANON_VAULT_INTEGRATION_DESC: "REPLACE_ME"
- TECH_UNLOCK_VOIDARK_STELLARITE_VAULT_INTEGRATION: "REPLACE_ME"
- TECH_UNLOCK_VOIDARK_STELLARITE_VAULT_INTEGRATION_DESC: "REPLACE_ME"
+ TECH_UNLOCK_VOIDARK_PHANON_VAULT_INTEGRATION: "$i_unlocks_feature$ $pc_acot_pmc_vault$ Integration"
+

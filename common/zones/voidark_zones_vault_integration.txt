@@ -46,7 +46,7 @@ zone_voidark_phanon_vault_integration_primary = {
 #Vault A
 
 zone_voidark_phanon_vault_integration_1 = {
-    icon = GFX_district_specialization_voidark_phanon_vault_1 #todo change
+    icon = GFX_district_specialization_voidark_phanon_vault_1
     base_buildtime = 1
     potential = {
         is_planet_class = xhk_pc_worldark
@@ -128,7 +128,7 @@ zone_voidark_phanon_vault_integration_1 = {
 #Vault B
 
 zone_voidark_phanon_vault_integration_2 = {
-    icon = GFX_district_specialization_voidark_phanon_vault_2 #todo change
+    icon = GFX_district_specialization_voidark_phanon_vault_2
     base_buildtime = 1
     potential = {
         is_planet_class = xhk_pc_worldark
@@ -207,7 +207,7 @@ zone_voidark_phanon_vault_integration_2 = {
 #Vault C
 
 zone_voidark_phanon_vault_integration_3 = {
-    icon = GFX_district_specialization_voidark_phanon_vault_3 #todo change
+    icon = GFX_district_specialization_voidark_phanon_vault_3
     base_buildtime = 1
     potential = {
         is_planet_class = xhk_pc_worldark
@@ -319,6 +319,8 @@ zone_voidark_phanon_vault_integration_stellarite_tier = {
     unlock = {
         is_planet_class = xhk_pc_worldark
     }
+    show_in_tech = tech_voidark_stellarite_vault_integration
+    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
     swap_type_weight = 15
     swap_type = district_voidark_stellarite_vault_integration
     zone_sets = { voidark_phanon_vault_tier }

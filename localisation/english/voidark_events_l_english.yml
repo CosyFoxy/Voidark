@@ -45,8 +45,8 @@
  voidark_vault_invasion.999.a.tt: "Creates special projects to integrate the deposits of the various Data & Storage Planets."
  voidark_vault_invasion.999.b: "Keep them as they are."
  voidark_vault_invasion.999.b.tt: "The Data & Storage planets will remain as they are. Use a Waystation to benefit from them."
- voidark_vault_invasion.999.c: "WORK IN PROGRESS!!"
- voidark_vault_invasion.999.c.tt: "The integration for the Rival path is not yet completed!"
+ voidark_vault_invasion.999.c: "Understood."
+ voidark_vault_invasion.999.c.tt: "The integration for the Rival path ends here."
 
  voidark_vault_invasion.9991.title: "Release of the Droppoint System!"
  voidark_vault_invasion.9991.desc: "With the Vault and all Data & Storage planets integrated into our $xhk_pc_worldark$, there is little value left for us in keeping the Droppoint Nomadic Ownership System. It is in our best interest now to relinquish this temporary control."

@@ -29,7 +29,6 @@ tech_voidark_phanon_vault_integration = {
     prereqfor_desc = {
         ship = {
             title = TECH_UNLOCK_VOIDARK_PHANON_VAULT_INTEGRATION
-            desc = TECH_UNLOCK_VOIDARK_PHANON_VAULT_INTEGRATION_DESC
         }
     }
 }
@@ -52,20 +51,15 @@ tech_voidark_stellarite_vault_integration = {
             has_global_flag = aot_phanon_content_OFF
             has_global_flag = acot_phanon_forbidden
         }
+        has_technology = tech_voidark_phanon_vault_integration
         has_technology = tech_voidark_stellarite
-        has_country_flag = voidark_vault_integration_permitted
+        has_country_flag = voidark_vault_integration_completed
     }
-
     prerequisites = {
+        "tech_voidark_phanon_vault_integration"
         "tech_voidark_stellarite"
     }
     ai_weight = {
         weight = 100
-    }
-    prereqfor_desc = {
-        ship = {
-            title = TECH_UNLOCK_VOIDARK_STELLARITE_VAULT_INTEGRATION
-            desc = TECH_UNLOCK_VOIDARK_STELLARITE_VAULT_INTEGRATION_DESC
-        }
     }
 }
