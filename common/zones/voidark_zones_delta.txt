@@ -45,6 +45,10 @@ zone_voidark_delta_urban = {
     }
 
     excluded_building_sets = {
+        xhk_worldark_ktisma
+        xhk_worldark_orykta
+        xhk_worldark_physma
+        voidark_voidbirch
         generator
         mining
         farming
@@ -1877,6 +1881,12 @@ zone_voidark_delta_utilbay = {
 
 
     include = { all }
+    excluded_building_sets = {
+        xhk_worldark_ktisma
+        xhk_worldark_orykta
+        xhk_worldark_physma
+        voidark_voidbirch
+    }
     swap_type = district_voidark_delta_utilbay
     swap_type_weight = 5
 
