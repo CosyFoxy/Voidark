@@ -1,342 +1,343 @@
 ﻿l_spanish:
-
- #ZONES ------------------------------------------------------------------
- voidark_delta_zone_dummy: "Dummy"
- voidark_delta_zone_dummy_desc: "Dummy"
- #----------------------
- zone_voidark_delta_urban: "§E$concept_delta_tier$ $zone_urban$§!"
- zone_voidark_delta_urban_desc: "The central habitation areas of the $xhk_pc_worldark$."
-
- zone_voidark_delta_factory: "§E$concept_delta_tier$ $zone_xhk_worldark_factory$§!"
- zone_voidark_delta_factory_desc: "$zone_factory_desc$"
-
- zone_voidark_delta_foundry: "§E$concept_delta_tier$ $zone_xhk_worldark_foundry$§!"
- zone_voidark_delta_foundry_desc: "$zone_foundry_desc$"
-
- zone_voidark_delta_voidforge: "§E$concept_delta_tier$ $zone_xhk_worldark_voidforge$§!"
- zone_voidark_delta_voidforge_desc: "$zone_ark_military_eco_desc$"
-
- zone_voidark_delta_trade: "§E$concept_delta_tier$ $zone_xhk_worldark_trade$§!"
- zone_voidark_delta_trade_desc: "$zone_trade_desc$"
-
- zone_voidark_delta_waylogi: "§E$concept_delta_tier$ $zone_xhk_worldark_waylogi$§!"
- zone_voidark_delta_waylogi_desc: "$zone_ark_waystation_trade_desc$"
-
- zone_voidark_delta_generator: "§E$concept_delta_tier$ $zone_xhk_worldark_generator$§!"
- zone_voidark_delta_generator_desc: "Arrays of energy generator with unparalleled efficiency. Never again will we lack power."
-
- zone_voidark_delta_penrose: "§E$concept_delta_tier$ Penrose $zone_xhk_worldark_generator$§!"
- zone_voidark_delta_penrose_desc: "$district_voidark_delta_penrose_desc$"
-
- zone_voidark_delta_generator_speed: "§E$concept_delta_tier$ $zone_xhk_worldark_reactspeed$§!"
- zone_voidark_delta_generator_speed_desc: "$district_voidark_delta_generator_speed_desc$"
-
- #zone_voidark_delta_penrose_speed: "§E$concept_delta_tier$ $zone_xhk_worldark_reactspeed_penrose$§!"
- zone_voidark_delta_penrose_speed: "§E$concept_delta_tier$ Penrose $zone_xhk_worldark_reactspeed$§!"
- zone_voidark_delta_penrose_speed_desc: "$district_voidark_delta_penrose_speed_desc$"
-
- zone_voidark_delta_generator_shield: "§E$concept_delta_tier$ $zone_xhk_worldark_reactshield$§!"
- zone_voidark_delta_generator_shield_desc: "$district_voidark_delta_generator_shield_desc$"
-
- #zone_voidark_delta_penrose_shield: "§E$concept_delta_tier$ $zone_xhk_worldark_reactshield_penrose$§!"
- zone_voidark_delta_penrose_shield: "§E$concept_delta_tier$ Penrose $zone_xhk_worldark_reactshield$§!"
- zone_voidark_delta_penrose_shield_desc: "$district_voidark_delta_penrose_shield_desc$"
-
- zone_voidark_delta_mining: "§E$concept_delta_tier$ $zone_xhk_worldark_mining$§!"
- zone_voidark_delta_mining_desc: "$district_voidark_delta_minerals_desc$"
-
- zone_voidark_delta_decompressor: "§E$concept_delta_tier$ Gravity-Compacted Matter Extraction§!"
- zone_voidark_delta_decompressor_desc: "$district_voidark_delta_decompressor_desc$"
-
- zone_voidark_delta_farming: "§E$concept_delta_tier$ $zone_xhk_worldark_farming$§!"
- zone_voidark_delta_farming_desc: "$zone_ark_food_desc$"
-
- zone_voidark_delta_unity: "§E$concept_delta_tier$ $zone_xhk_worldark_unity$§!"
- zone_voidark_delta_unity_desc: "$zone_unity_desc$"
-
- zone_voidark_delta_machine: "§E$concept_delta_tier$ Coordination Processor§!"
- zone_voidark_delta_machine_desc: "$zone_unity_desc$"
- zone_voidark_delta_hive: "§E$concept_delta_tier$ Coordination Node§!"
- zone_voidark_delta_hive_desc: "$zone_unity_desc$"
-
- zone_voidark_delta_spiritualist: "§E$concept_delta_tier$ $zone_xhk_worldark_spiritualist$§!"
- zone_voidark_delta_spiritualist_desc: "$zone_unity_spiritualist_desc$"
-
- zone_voidark_delta_servitor: "§E$concept_delta_tier$ $zone_xhk_worldark_servitor$§!"
- zone_voidark_delta_servitor_desc: "$zone_unity_bio_trophy_desc$"
-
- zone_voidark_delta_research: "§E$concept_delta_tier$ $zone_xhk_worldark_research$§!"
- zone_voidark_delta_research_desc: "$zone_research_desc$"
-
- zone_voidark_delta_amenities: "§E$concept_delta_tier$ $zone_xhk_worldark_amenities$§!"
- zone_voidark_delta_amenities_desc: "$zone_ark_forever_cruise_city_passenger_desc$"
-
- zone_voidark_delta_enforcer: "§E$concept_delta_tier$ $zone_xhk_worldark_enforcer$§!"
- zone_voidark_delta_enforcer_desc: "$zone_xhk_worldark_enforcer_desc$"
-
- zone_voidark_delta_refinery: "§E$concept_delta_tier$ $zone_xhk_worldark_refinery$§!"
- zone_voidark_delta_refinery_desc: "$zone_xhk_worldark_refinery_desc$"
-
- zone_voidark_delta_darkmatter: "§E$concept_delta_tier$ $zone_xhk_worldark_darkmatter$§!"
- zone_voidark_delta_darkmatter_desc: "$district_voidark_delta_darkmatter_desc$"
-
- zone_voidark_delta_ordinance_naval: "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_naval$§!"
- zone_voidark_delta_ordinance_naval_desc: "$zone_ark_shipwright_desc$"
-
- zone_voidark_delta_ordinance_missile: "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_missile_silos$§!"
- zone_voidark_delta_ordinance_missile_desc: "$zone_ark_missile_silos_desc$"
-
- zone_voidark_delta_ordinance_kinetic: "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_ammunition_lines$§!"
- zone_voidark_delta_ordinance_kinetic_desc: "$zone_ark_ammunition_lines_desc$"
-
- zone_voidark_delta_ordinance_energy: "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_laser_capacitors$§!"
- zone_voidark_delta_ordinance_energy_desc: "$zone_ark_laser_capacitors_desc$"
-
- zone_voidark_delta_ordinance_strike_craft: "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_flight_decks$§!"
- zone_voidark_delta_ordinance_strike_craft_desc: "$zone_ark_flight_decks_desc$"
-
- zone_voidark_delta_ordinance_full_batteries: "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_full_batteries$§!"
- zone_voidark_delta_ordinance_full_batteries_desc: "$zone_xhk_worldark_ordinance_full_batteries_desc$"
-
- zone_voidark_delta_storage: "§E$concept_delta_tier$ $zone_xhk_worldark_storage$§!"
- zone_voidark_delta_storage_desc: "$district_xhk_worldark_storage_desc$"
-
- zone_voidark_delta_utilbay: "§E$concept_delta_tier$ $zone_xhk_worldark_utilbay$§!"
- zone_voidark_delta_utilbay_desc: "$district_xhk_worldark_utilbay_desc$"
-
- zone_voidark_delta_amenities_dystopian: "§E$concept_delta_tier$ $zone_xhk_worldark_amenities_dystopian$§!"
- zone_voidark_delta_amenities_dystopian_desc: "$zone_xhk_worldark_amenities_dystopian_desc$"
-
- zone_voidark_delta_negativemass: "§E$concept_delta_tier$ $zone_xhk_worldark_negativemass$§!"
- zone_voidark_delta_negativemass_desc: "$zone_xhk_worldark_negativemass_desc$"
- zone_voidark_delta_sentient_metal: "§E$concept_delta_tier$ $zone_xhk_worldark_sentientmetal$§!"
- zone_voidark_delta_sentient_metal_desc: "$zone_xhk_worldark_sentientmetal_desc$"
-
- zone_voidark_delta_supertensiles: "§E$concept_delta_tier$ $zone_xhk_worldark_supertensiles$§!"
- zone_voidark_delta_supertensiles_desc: "$zone_xhk_worldark_supertensiles_desc$"
-
-#DISTRICTS ------------------------------------------------------------------
- district_voidark_delta_city: "§E$concept_delta_tier$ $district_xhk_worldark_city$§!"
- district_voidark_delta_city_desc: "$district_ark_city_desc$"
- district_voidark_delta_city_plural: "§E$concept_delta_tier$ $district_xhk_worldark_city_plural$§!"
- flavor_district_voidark_delta_city_desc: "$district_ark_city_desc$"
- flavor_district_voidark_delta_city: "§YLiving Quarter§!"
- flavor_district_voidark_delta_city_plural: "§YLiving Quarters§!"
- flavor_district_voidark_delta_city_spiritualist: "§YEcclesiastical Hub§!"
- flavor_district_voidark_delta_city_spiritualist_desc: "$district_arcology_spiritualist_desc$"
- flavor_district_voidark_delta_city_spiritualist_plural: "§YEcclesiastical Hubs§!"
- flavor_district_voidark_delta_city_machine: "§YCentral Processing Area§!"
- flavor_district_voidark_delta_city_machine_desc: "$city_machine_core_1_desc$"
- flavor_district_voidark_delta_city_machine_plural: "§YCentral Processing Areas§!"
- flavor_district_voidark_delta_city_hive: "§YCentral Drone Hub§!"
- flavor_district_voidark_delta_city_hive_desc: "$city_first_hive_1_desc$"
- flavor_district_voidark_delta_city_hive_plural: "§Y Central Drone Hubs§!"
-
- #todo adjust on other levels
- district_voidark_delta_foundry: "§E$concept_delta_tier$ $district_xhk_worldark_foundry$§!"
- district_voidark_delta_foundry_desc: "Infused with the power of dark matter and dark energy, our military industries create vast amounts of components for our tools of warfare."
- district_voidark_delta_foundry_plural: "§E$concept_delta_tier$ $district_xhk_worldark_foundry_plural$§!"
- flavor_district_voidark_delta_foundry: "§Y$flavor_xhk_worldark_foundry_name$§!"
-
- district_voidark_delta_factory: "§E$concept_delta_tier$ $district_xhk_worldark_factory$§!"
- district_voidark_delta_factory_desc: "$district_xhk_worldark_factory_desc$"
- district_voidark_delta_factory_plural: "§E$concept_delta_tier$ $district_xhk_worldark_foundry_plural$§!"
- flavor_district_voidark_delta_factory: "§Y$flavor_xhk_worldark_factory_name$§!"
-
- district_voidark_delta_trade: "§E$concept_delta_tier$ $district_xhk_worldark_trade$§!"
- district_voidark_delta_trade_desc: "$district_ark_waystation_trade_flavor_desc$"
- district_voidark_delta_trade_plural: "§E$concept_delta_tier$ $district_xhk_worldark_trade_plural$§!"
- flavor_district_voidark_delta_trade: "§Y$flavor_xhk_worldark_waystation_trade_name$§!"
-
- #todo adjust on other levels
- district_voidark_delta_generator: "§E$concept_delta_tier$ $district_xhk_worldark_generator$§!"
- district_voidark_delta_generator_desc: "$district_ark_generator_desc$\nBy infusing dark matter and dark energy, their efficiency is better than ever."
- district_voidark_delta_generator_plural: "§E$concept_delta_tier$ $district_xhk_worldark_generator_plural$§!"
- flavor_district_voidark_delta_generator: "§YPower Generators§!"
-
- #todo adjust on other levels
- district_voidark_delta_generator_speed: "§E$concept_delta_tier$ $district_xhk_worldark_generator_speed$§!"
- district_voidark_delta_generator_speed_desc: "$district_ark_engine_bypass_desc$\nBy infusing dark matter and dark energy, this process is vastly more efficient."
- district_voidark_delta_generator_speed_plural: "§E$concept_delta_tier$ $district_xhk_worldark_generator_speed_plural$§!"
- flavor_district_voidark_delta_generator_speed: "§YQuantum Rerouting§!"
-
- district_voidark_delta_generator_shield: "§E$concept_delta_tier$ $district_xhk_worldark_generator_shield$§!"
- district_voidark_delta_generator_shield_desc: "The injection of dark energy in the reactors allows us to run shields beyond parameters once thought possible."
- district_voidark_delta_generator_shield_plural: "§E$concept_delta_tier$ $district_xhk_worldark_generator_shield_plural$§!"
- flavor_district_voidark_delta_generator_shield: "§YQuantum Rerouting§!"
-
- #todo adjust on other levels
- district_voidark_delta_penrose: "§E$concept_delta_tier$ $district_xhk_worldark_penrose$§!"
- district_voidark_delta_penrose_desc: "Consisting of large panels of enigmatic matter-infused alloy inscribed with intricate superconducting cable, these continent sized plates generate energy from the caged black hole."
- district_voidark_delta_penrose_plural: "§E$concept_delta_tier$ $district_xhk_worldark_penrose_plural$§!"
- flavor_district_voidark_delta_penrose: "§Y$xhk_worldark_penrose_subtitle$§!"
-
- district_voidark_delta_penrose_speed: "§E$concept_delta_tier$ $district_xhk_worldark_penrose_speed$§!"
- district_voidark_delta_penrose_speed_desc: "$district_xhk_worldark_penrose_shield_desc$"
- district_voidark_delta_penrose_speed_plural: "§E$concept_delta_tier$ $district_xhk_worldark_penrose_speed_plural$§!"
- flavor_district_voidark_delta_penrose_speed: "§Y$xhk_worldark_penrose_speed_subtitle$§!"
-
- district_voidark_delta_penrose_shield: "§E$concept_delta_tier$ $district_xhk_worldark_penrose_shield$§!"
- district_voidark_delta_penrose_shield_desc: "$district_xhk_worldark_penrose_shield_desc$"
- district_voidark_delta_penrose_shield_plural: "§E$concept_delta_tier$ $district_xhk_worldark_penrose_shield_plural$§!"
- flavor_district_voidark_delta_penrose_shield: "§Y$xhk_worldark_penrose_shield_subtitle$§!"
-
- #todo adjust on other levels
- district_voidark_delta_minerals: "§E$concept_delta_tier$ $district_xhk_worldark_minerals$§!"
- district_voidark_delta_minerals_desc: "Reserving dedicated arkship space for the collection and triage of harvested resources offers a higher yield thanks to the opportunity of in-gravity operations and the use of enigmatic machinery."
- district_voidark_delta_minerals_plural: "§E$concept_delta_tier$ $district_xhk_worldark_minerals_plural$§!"
- flavor_district_voidark_delta_minerals: "§YMining Operations§!"
-
- district_voidark_delta_decompressor: "§E$concept_delta_tier$ $district_xhk_worldark_decompressor$§!"
- district_voidark_delta_decompressor_desc: "$district_xhk_worldark_decompressor_desc$"
- district_voidark_delta_decompressor_plural: "§E$concept_delta_tier$ $district_xhk_worldark_decompressor_plural$§!"
- flavor_district_voidark_delta_decompressor: "§Y$xhk_worldark_decompressor_subtitle$§!"
-
- district_voidark_delta_farming: "§E$concept_delta_tier$ $district_xhk_worldark_farming$§!"
- district_voidark_delta_farming_desc: "$district_ark_food_desc$"
- district_voidark_delta_farming_plural: "§E$concept_delta_tier$ $district_xhk_worldark_farming_plural$§!"
- flavor_district_voidark_delta_farming: "§YNourishment Systems§!"
-
- district_voidark_delta_unity: "§E$concept_delta_tier$ $district_xhk_worldark_unity$§!"
- district_voidark_delta_unity_desc: "$district_arcology_administrative_desc$"
- district_voidark_delta_unity_plural: "§E$concept_delta_tier$ $district_xhk_worldark_unity_plural$§!"
- flavor_district_voidark_delta_unity: "§YCoordinative Institutes§!"
-
- district_voidark_delta_unity_spiritualist: "§E$concept_delta_tier$ $district_xhk_worldark_unity_spiritualist$§!"
- district_voidark_delta_unity_spiritualist_desc: "$district_arcology_spiritualist_desc$"
- district_voidark_delta_unity_spiritualist_plural: "§E$concept_delta_tier$ $district_xhk_worldark_unity_spiritualist_plural$§!"
- flavor_district_voidark_delta_unity_spiritualist: "§YHoly Halls§!"
-
- district_voidark_delta_unity_hive: "§E$concept_delta_tier$ $district_xhk_worldark_unity_hive$§!"
- district_voidark_delta_unity_hive_desc: "$district_hive_administrative_desc$"
- district_voidark_delta_unity_hive_plural: "§E$concept_delta_tier$ $district_xhk_worldark_unity_hive_plural$§!"
- flavor_district_voidark_delta_unity_hive: "§YConnective Chambers§!"
-
- district_voidark_delta_unity_machine: "§E$concept_delta_tier$ $district_xhk_worldark_unity_machine$§!"
- district_voidark_delta_unity_machine_desc: "$district_nexus_administrative_desc$"
- district_voidark_delta_unity_machine_plural: "§E$concept_delta_tier$ $district_xhk_worldark_unity_machine_plural$§!"
- flavor_district_voidark_delta_unity_machine: "§YData Coordination Processors§!"
-
- district_voidark_delta_unity_servitor: "§E$concept_delta_tier$ $district_xhk_worldark_unity_servitor$§!"
- district_voidark_delta_unity_servitor_desc: "$district_nexus_organic_housing_desc$"
- district_voidark_delta_unity_servitor_plural: "§E$concept_delta_tier$ $district_xhk_worldark_unity_servitor_plural$§!"
- flavor_district_voidark_delta_unity_servitor: "§YBio-Resort Arrays§!"
-
- district_voidark_delta_science: "§E$concept_delta_tier$ $district_xhk_worldark_research$§!"
- district_voidark_delta_science_desc: "$district_xhk_worldark_research_desc$"
- district_voidark_delta_science_plural: "§E$concept_delta_tier$ $district_xhk_worldark_research_plural$§!"
- flavor_district_voidark_delta_science: "§YNano-laboratory§!"
- #todo adjust for other tiers
- delta_science_tt: "Due to presence of §Y$sm_xhk_worldark_science_nexus$§!:$NEW_LINE$- $mod_planet_researchers_produces_mult$: §G+10%§!"
-
- district_voidark_delta_amenities: "§E$concept_delta_tier$ $district_xhk_worldark_amenities$§!"
- district_voidark_delta_amenities_plural: "§E$concept_delta_tier$ $district_xhk_worldark_amenities_plural$§!"
- flavor_district_voidark_delta_amenities: "§YLuxury Areas§!"
- district_voidark_delta_amenities_desc: "$district_xhk_worldark_amenities_desc$"
- district_voidark_delta_amenities_spiritualist: "§E$concept_delta_tier$ Sanctimonious Deck§!"
- district_voidark_delta_amenities_spiritualist_desc: "Vast corridors filled with prayer rooms, libraries of religious scriptures, and communal areas. For our devoted people, these decks fill many needs."
- district_voidark_delta_amenities_spiritualist_plural: "§E$concept_delta_tier$ Sanctimonious Decks§!"
- flavor_district_voidark_delta_amenities_spiritualist: "§YSanctimonious Deck§!"
-
-
- #doesnt exists
- district_voidark_delta_amenities_machine: "§E$concept_delta_tier$ $district_xhk_worldark_amenities$§!"
- district_voidark_delta_amenities_machine_desc: "REPLACE_ME"
- district_voidark_delta_amenities_machine_plural: "§E$concept_delta_tier$ $district_xhk_worldark_amenities_plural$§!"
- district_voidark_delta_amenities_hive: "§E$concept_delta_tier$ $district_xhk_worldark_amenities$§!"
- district_voidark_delta_amenities_hive_desc: "REPLACE_ME"
- district_voidark_delta_amenities_hive_plural: "§E$concept_delta_tier$ $district_xhk_worldark_amenities_plural$§!"
-
- district_voidark_delta_amenities_dystopian: "§E$concept_delta_tier$ $district_xhk_worldark_amenities_dystopian$§!"
- district_voidark_delta_amenities_dystopian_desc: "$district_xhk_worldark_amenities_desc$"
- district_voidark_delta_amenities_dystopian_plural: "§E$concept_delta_tier$ $district_xhk_worldark_amenities_dystopian_plural$§!"
- flavor_district_voidark_delta_amenities_dystopian: "§YRetreat of Elites§!"
-
- district_voidark_delta_enforcer: "§E$concept_delta_tier$ $district_xhk_worldark_enforcer$§!"
- district_voidark_delta_enforcer_desc: "$district_xhk_worldark_enforcer_desc$"
- flavor_district_voidark_delta_enforcer: "§YProtective Headquarters§!"
- district_voidark_delta_enforcer_plural: "§E$concept_delta_tier$ $district_xhk_worldark_enforcer_plural$§!"
- flavor_district_voidark_delta_enforcer_spiritualist: "§YHoly Inquisition Office§!"
- flavor_district_voidark_delta_enforcer_spiritualist_desc: "$district_xhk_worldark_enforcer_desc$"
- flavor_district_voidark_delta_enforcer_spiritualist_plural: "§YHoly Inquisition Offices§!"
- flavor_district_voidark_delta_enforcer_machine: "§YFirewall Server§!"
- flavor_district_voidark_delta_enforcer_machine_desc: "These facilities house the firewall and regulatory units of this vessel, ensuring no deviant program is left unchecked."
- flavor_district_voidark_delta_enforcer_machine_plural: "§YFirewall Servers§!"
- flavor_district_voidark_delta_enforcer_hive: "§YAnti-Deviancy Node§!"
- flavor_district_voidark_delta_enforcer_hive_desc: "These clusters house the central control drones of the hive. No deviant drone will escape the hive's watch."
- flavor_district_voidark_delta_enforcer_hive_plural: "§YAnti-Deviancy Nodes§!"
-
-
- district_voidark_delta_ordinance: "§E$concept_delta_tier$ $district_xhk_worldark_ordinance$§!"
- district_voidark_delta_ordinance_desc: "$district_ark_military_desc$"
- district_voidark_delta_ordinance_plural: "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_plural$§!"
- flavor_district_voidark_delta_ordinance: "§YEngineering Bay§!"
-
- district_voidark_delta_ordinance_naval: "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_naval$§!"
- district_voidark_delta_ordinance_naval_desc: "$district_ark_military_desc$"
- district_voidark_delta_ordinance_naval_plural: "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_naval_plural$§!"
- flavor_district_voidark_delta_ordinance_naval: "§YAdmirality Center§!"
-
- district_voidark_delta_ordinance_missile: "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_missile$§!"
- district_voidark_delta_ordinance_missile_desc: "$district_ark_military_desc$"
- district_voidark_delta_ordinance_missile_plural: "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_missile_plural$§!"
- flavor_district_voidark_delta_ordinance_missile: "§YExplosive Armaments§!"
-
- district_voidark_delta_ordinance_kinetic: "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_kinetic$§!"
- district_voidark_delta_ordinance_kinetic_desc: "$district_ark_military_desc$"
- district_voidark_delta_ordinance_kinetic_plural: "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_kinetic_plural$§!"
- flavor_district_voidark_delta_ordinance_kinetic: "§YKinetic Armaments§!"
-
- district_voidark_delta_ordinance_energy: "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_energy$§!"
- district_voidark_delta_ordinance_energy_desc: "$district_ark_military_desc$"
- district_voidark_delta_ordinance_energy_plural: "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_energy_plural$§!"
- flavor_district_voidark_delta_ordinance_energy: "§YEnergy Armaments§!"
-
- district_voidark_delta_ordinance_strike_craft: "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_fighter$§!"
- district_voidark_delta_ordinance_strike_craft_desc: "$district_ark_military_desc$"
- district_voidark_delta_ordinance_strike_craft_plural: "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_fighter_plural$§!"
- flavor_district_voidark_delta_ordinance_strike_craft: "§YFighter Bays§!"
-
- district_voidark_delta_ordinance_full_batteries: "§E$concept_delta_tier$ $district_xhk_worldark_full_batteries$§!"
- district_voidark_delta_ordinance_full_batteries_desc: "$district_xhk_worldark_full_batteries_desc$"
- district_voidark_delta_ordinance_full_batteries_plural: "§E$concept_delta_tier$ $district_xhk_worldark_full_batteries_plural$§!"
- flavor_district_voidark_delta_ordinance_full_batteries: "§YOffensive Superiority§!"
-
- district_voidark_delta_refinery: "§E$concept_delta_tier$ $district_xhk_worldark_refinery$§!"
- district_voidark_delta_refinery_desc: "$district_xhk_worldark_refinery_desc$"
- district_voidark_delta_refinery_plural: "§E$concept_delta_tier$ $district_xhk_worldark_refinery_plural$§!"
- flavor_district_voidark_delta_refinery: "§YStrategic Matter Creation§!"
-
- district_voidark_delta_darkmatter: "§E$concept_delta_tier$ $district_xhk_worldark_darkmatter$§!"
- district_voidark_delta_darkmatter_desc: "The creation of dark matter has only been amplified by the discovery of dark energy, and these facilities can now create both of the vital resources."
- district_voidark_delta_darkmatter_plural: "§E$concept_delta_tier$ $district_xhk_worldark_darkmatter_plural$§!"
- flavor_district_voidark_delta_darkmatter: "§YVeil of Dark§!"
-
- #todo adjust on other levels
- district_voidark_delta_storage: "§E$concept_delta_tier$ $district_xhk_worldark_storage$§!"
- district_voidark_delta_storage_desc: "$district_xhk_worldark_storage_desc$"
- district_voidark_delta_storage_plural: "§E$concept_delta_tier$ $district_xhk_worldark_storage_plural$§!"
- district_voidark_delta_storage_effect: "Attached Zone gives: \n§G+10000§! £mod_country_resource_max_add£ Resource Storage\n§G+1000§! £operational_reserves£ $mod_situation_nomad_economy_max_progress_add$\n§G+1000§! £sr_dark_matter£ $mod_country_resource_max_sr_dark_matter_add$\n§G+1000§! £acot_sr_dark_energy£ $mod_country_resource_max_acot_sr_dark_energy_add$"
- flavor_district_voidark_delta_storage: "§YLiminal Storage§!"
-
- district_voidark_delta_utilbay: "§E$concept_delta_tier$ $district_xhk_worldark_utilbay$§!"
- district_voidark_delta_utilbay_desc: "$district_xhk_worldark_utilbay_desc$"
- district_voidark_delta_utilbay_plural: "§E$concept_delta_tier$ $district_xhk_worldark_utilbay_plural$§!"
- flavor_district_voidark_delta_utilbay: "§YAccessory Sectors§!"
-
- district_voidark_delta_negativemass: "§E$concept_delta_tier$ $district_xhk_worldark_negativemass$§!"
- district_voidark_delta_negativemass_desc: "$district_xhk_worldark_negativemass_desc$"
- district_voidark_delta_negativemass_plural: "§E$concept_delta_tier$ $district_xhk_worldark_negativemass_plural$§!"
- flavor_district_voidark_delta_negativemass: "§YInfinitum§!"
-
- district_voidark_delta_sentient_metal: "§E$concept_delta_tier$ $district_xhk_worldark_sentientmetal$§!"
- district_voidark_delta_sentient_metal_desc: "$district_xhk_worldark_sentientmetal_desc$"
- district_voidark_delta_sentient_metal_plural: "§E$concept_delta_tier$ $district_xhk_worldark_sentientmetal_plural$§!"
- flavor_district_voidark_delta_sentient_metal: "§YMetallum Vivum§!"
-
- district_voidark_delta_supertensiles: "§E$concept_delta_tier$ $district_xhk_worldark_supertensiles$§!"
- district_voidark_delta_supertensiles_desc: "$district_xhk_worldark_supertensiles_desc$"
- district_voidark_delta_supertensiles_plural: "§E$concept_delta_tier$ $district_xhk_worldark_supertensiles_plural$§!"
- flavor_district_voidark_delta_supertensiles: "§Y$flavor_xhk_worldark_supertensiles_name$§!"
-
-
+  
+  #ZONES ------------------------------------------------------------------
+  voidark_delta_zone_dummy:0 "Dummy"
+  voidark_delta_zone_dummy_desc:0 "Dummy"
+  #----------------------
+  zone_voidark_delta_urban:0 "§E$concept_delta_tier$ $zone_urban$§!"
+  zone_voidark_delta_urban_desc:0 "The central habitation areas of the $xhk_pc_worldark$."
+  
+  zone_voidark_delta_factory:0 "§E$concept_delta_tier$ $zone_xhk_worldark_factory$§!"
+  zone_voidark_delta_factory_desc:0 "$zone_factory_desc$"
+  
+  zone_voidark_delta_foundry:0 "§E$concept_delta_tier$ $zone_xhk_worldark_foundry$§!"
+  zone_voidark_delta_foundry_desc:0 "$zone_foundry_desc$"
+  
+  zone_voidark_delta_voidforge:0 "§E$concept_delta_tier$ $zone_xhk_worldark_voidforge$§!"
+  zone_voidark_delta_voidforge_desc:0 "$zone_ark_military_eco_desc$"
+  
+  zone_voidark_delta_trade:0 "§E$concept_delta_tier$ $zone_xhk_worldark_trade$§!"
+  zone_voidark_delta_trade_desc:0 "$zone_trade_desc$"
+  
+  zone_voidark_delta_waylogi:0 "§E$concept_delta_tier$ $zone_xhk_worldark_waylogi$§!"
+  zone_voidark_delta_waylogi_desc:0 "$zone_ark_waystation_trade_desc$"
+  
+  zone_voidark_delta_generator:0 "§E$concept_delta_tier$ $zone_xhk_worldark_generator$§!"
+  zone_voidark_delta_generator_desc:0 "Arrays of energy generator with unparalleled efficiency. Never again will we lack power."
+  
+  zone_voidark_delta_penrose:0 "§E$concept_delta_tier$ Penrose $zone_xhk_worldark_generator$§!"
+  zone_voidark_delta_penrose_desc:0 "$district_voidark_delta_penrose_desc$"
+  
+  zone_voidark_delta_generator_speed:0 "§E$concept_delta_tier$ $zone_xhk_worldark_reactspeed$§!"
+  zone_voidark_delta_generator_speed_desc:0 "$district_voidark_delta_generator_speed_desc$"
+  
+  #zone_voidark_delta_penrose_speed:0 "§E$concept_delta_tier$ $zone_xhk_worldark_reactspeed_penrose$§!"
+  zone_voidark_delta_penrose_speed:0 "§E$concept_delta_tier$ Penrose $zone_xhk_worldark_reactspeed$§!"
+  zone_voidark_delta_penrose_speed_desc:0 "$district_voidark_delta_penrose_speed_desc$"
+  
+  zone_voidark_delta_generator_shield:0 "§E$concept_delta_tier$ $zone_xhk_worldark_reactshield$§!"
+  zone_voidark_delta_generator_shield_desc:0 "$district_voidark_delta_generator_shield_desc$"
+  
+  #zone_voidark_delta_penrose_shield:0 "§E$concept_delta_tier$ $zone_xhk_worldark_reactshield_penrose$§!"
+  zone_voidark_delta_penrose_shield:0 "§E$concept_delta_tier$ Penrose $zone_xhk_worldark_reactshield$§!"
+  zone_voidark_delta_penrose_shield_desc:0 "$district_voidark_delta_penrose_shield_desc$"
+  
+  zone_voidark_delta_mining:0 "§E$concept_delta_tier$ $zone_xhk_worldark_mining$§!"
+  zone_voidark_delta_mining_desc:0 "$district_voidark_delta_minerals_desc$"
+  
+  zone_voidark_delta_decompressor:0 "§E$concept_delta_tier$ Gravity-Compacted Matter Extraction§!"
+  zone_voidark_delta_decompressor_desc:0 "$district_voidark_delta_decompressor_desc$"
+  
+  zone_voidark_delta_farming:0 "§E$concept_delta_tier$ $zone_xhk_worldark_farming$§!"
+  zone_voidark_delta_farming_desc:0 "$zone_ark_food_desc$"
+  
+  zone_voidark_delta_unity:0 "§E$concept_delta_tier$ $zone_xhk_worldark_unity$§!"
+  zone_voidark_delta_unity_desc:0 "$zone_unity_desc$"
+  
+  zone_voidark_delta_machine:0 "§E$concept_delta_tier$ Coordination Processor§!"
+  zone_voidark_delta_machine_desc:0 "$zone_unity_desc$"
+  zone_voidark_delta_hive:0 "§E$concept_delta_tier$ Coordination Node§!"
+  zone_voidark_delta_hive_desc:0 "$zone_unity_desc$"
+  
+  zone_voidark_delta_spiritualist:0 "§E$concept_delta_tier$ $zone_xhk_worldark_spiritualist$§!"
+  zone_voidark_delta_spiritualist_desc:0 "$zone_unity_spiritualist_desc$"
+  
+  zone_voidark_delta_servitor:0 "§E$concept_delta_tier$ $zone_xhk_worldark_servitor$§!"
+  zone_voidark_delta_servitor_desc:0 "$zone_unity_bio_trophy_desc$"
+  
+  zone_voidark_delta_research:0 "§E$concept_delta_tier$ $zone_xhk_worldark_research$§!"
+  zone_voidark_delta_research_desc:0 "$zone_research_desc$"
+  
+  zone_voidark_delta_amenities:0 "§E$concept_delta_tier$ $zone_xhk_worldark_amenities$§!"
+  zone_voidark_delta_amenities_desc:0 "$zone_ark_forever_cruise_city_passenger_desc$"
+  
+  zone_voidark_delta_enforcer:0 "§E$concept_delta_tier$ $zone_xhk_worldark_enforcer$§!"
+  zone_voidark_delta_enforcer_desc:0 "$zone_xhk_worldark_enforcer_desc$"
+  
+  zone_voidark_delta_refinery:0 "§E$concept_delta_tier$ $zone_xhk_worldark_refinery$§!"
+  zone_voidark_delta_refinery_desc:0 "$zone_xhk_worldark_refinery_desc$"
+  
+  zone_voidark_delta_darkmatter:0 "§E$concept_delta_tier$ $zone_xhk_worldark_darkmatter$§!"
+  zone_voidark_delta_darkmatter_desc:0 "$district_voidark_delta_darkmatter_desc$"
+  
+  zone_voidark_delta_ordinance_naval:0 "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_naval$§!"
+  zone_voidark_delta_ordinance_naval_desc:0 "$zone_ark_shipwright_desc$"
+  
+  zone_voidark_delta_ordinance_missile:0 "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_missile_silos$§!"
+  zone_voidark_delta_ordinance_missile_desc:0 "$zone_ark_missile_silos_desc$"
+  
+  zone_voidark_delta_ordinance_kinetic:0 "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_ammunition_lines$§!"
+  zone_voidark_delta_ordinance_kinetic_desc:0 "$zone_ark_ammunition_lines_desc$"
+  
+  zone_voidark_delta_ordinance_energy:0 "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_laser_capacitors$§!"
+  zone_voidark_delta_ordinance_energy_desc:0 "$zone_ark_laser_capacitors_desc$"
+  
+  zone_voidark_delta_ordinance_strike_craft:0 "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_flight_decks$§!"
+  zone_voidark_delta_ordinance_strike_craft_desc:0 "$zone_ark_flight_decks_desc$"
+  
+  zone_voidark_delta_ordinance_full_batteries:0 "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_full_batteries$§!"
+  zone_voidark_delta_ordinance_full_batteries_desc:0 "$zone_xhk_worldark_ordinance_full_batteries_desc$"
+  
+  zone_voidark_delta_storage:0 "§E$concept_delta_tier$ $zone_xhk_worldark_storage$§!"
+  zone_voidark_delta_storage_desc:0 "$district_xhk_worldark_storage_desc$"
+  
+  zone_voidark_delta_utilbay:0 "§E$concept_delta_tier$ $zone_xhk_worldark_utilbay$§!"
+  zone_voidark_delta_utilbay_desc:0 "$district_xhk_worldark_utilbay_desc$"
+  
+  zone_voidark_delta_amenities_dystopian:0 "§E$concept_delta_tier$ $zone_xhk_worldark_amenities_dystopian$§!"
+  zone_voidark_delta_amenities_dystopian_desc:0 "$zone_xhk_worldark_amenities_dystopian_desc$"
+  
+  zone_voidark_delta_negativemass:0 "§E$concept_delta_tier$ $zone_xhk_worldark_negativemass$§!"
+  zone_voidark_delta_negativemass_desc:0 "$zone_xhk_worldark_negativemass_desc$"
+  zone_voidark_delta_sentient_metal:0 "§E$concept_delta_tier$ $zone_xhk_worldark_sentientmetal$§!"
+  zone_voidark_delta_sentient_metal_desc:0 "$zone_xhk_worldark_sentientmetal_desc$"
+  
+  zone_voidark_delta_supertensiles:0 "§E$concept_delta_tier$ $zone_xhk_worldark_supertensiles$§!"
+  zone_voidark_delta_supertensiles_desc:0 "$zone_xhk_worldark_supertensiles_desc$"
+  
+  #DISTRICTS ------------------------------------------------------------------
+  district_voidark_delta_city:0 "§E$concept_delta_tier$ $district_xhk_worldark_city$§!"
+  district_voidark_delta_city_desc:0 "$district_ark_city_desc$"
+  district_voidark_delta_city_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_city_plural$§!"
+  flavor_district_voidark_delta_city_desc:0 "$district_ark_city_desc$"
+  flavor_district_voidark_delta_city:0 "§YLiving Quarter§!"
+  flavor_district_voidark_delta_city_plural:0 "§YLiving Quarters§!"
+  flavor_district_voidark_delta_city_spiritualist:0 "§YEcclesiastical Hub§!"
+  flavor_district_voidark_delta_city_spiritualist_desc:0 "$district_arcology_spiritualist_desc$"
+  flavor_district_voidark_delta_city_spiritualist_plural:0 "§YEcclesiastical Hubs§!"
+  flavor_district_voidark_delta_city_machine:0 "§YCentral Processing Area§!"
+  flavor_district_voidark_delta_city_machine_desc:0 "$city_machine_core_1_desc$"
+  flavor_district_voidark_delta_city_machine_plural:0 "§YCentral Processing Areas§!"
+  flavor_district_voidark_delta_city_hive:0 "§YCentral Drone Hub§!"
+  flavor_district_voidark_delta_city_hive_desc:0 "$city_first_hive_1_desc$"
+  flavor_district_voidark_delta_city_hive_plural:0 "§Y Central Drone Hubs§!"
+  
+  #todo adjust on other levels
+  district_voidark_delta_foundry:0 "§E$concept_delta_tier$ $district_xhk_worldark_foundry$§!"
+  district_voidark_delta_foundry_desc:0 "Infused with the power of dark matter and dark energy, our military industries create vast amounts of components for our tools of warfare."
+  district_voidark_delta_foundry_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_foundry_plural$§!"
+  flavor_district_voidark_delta_foundry:0 "§Y$flavor_xhk_worldark_foundry_name$§!"
+  
+  district_voidark_delta_factory:0 "§E$concept_delta_tier$ $district_xhk_worldark_factory$§!"
+  district_voidark_delta_factory_desc:0 "$district_xhk_worldark_factory_desc$"
+  district_voidark_delta_factory_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_foundry_plural$§!"
+  flavor_district_voidark_delta_factory:0 "§Y$flavor_xhk_worldark_factory_name$§!"
+  
+  district_voidark_delta_trade:0 "§E$concept_delta_tier$ $district_xhk_worldark_trade$§!"
+  district_voidark_delta_trade_desc:0 "$district_ark_waystation_trade_flavor_desc$"
+  district_voidark_delta_trade_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_trade_plural$§!"
+  flavor_district_voidark_delta_trade:0 "§Y$flavor_xhk_worldark_waystation_trade_name$§!"
+  
+  #todo adjust on other levels
+  district_voidark_delta_generator:0 "§E$concept_delta_tier$ $district_xhk_worldark_generator$§!"
+  district_voidark_delta_generator_desc:0 "$district_ark_generator_desc$\nBy infusing dark matter and dark energy, their efficiency is better than ever."
+  district_voidark_delta_generator_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_generator_plural$§!"
+  flavor_district_voidark_delta_generator:0 "§YPower Generators§!"
+  
+  #todo adjust on other levels
+  district_voidark_delta_generator_speed:0 "§E$concept_delta_tier$ $district_xhk_worldark_generator_speed$§!"
+  district_voidark_delta_generator_speed_desc:0 "$district_ark_engine_bypass_desc$\nBy infusing dark matter and dark energy, this process is vastly more efficient."
+  district_voidark_delta_generator_speed_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_generator_speed_plural$§!"
+  flavor_district_voidark_delta_generator_speed:0 "§YQuantum Rerouting§!"
+  
+  district_voidark_delta_generator_shield:0 "§E$concept_delta_tier$ $district_xhk_worldark_generator_shield$§!"
+  district_voidark_delta_generator_shield_desc:0 "The injection of dark energy in the reactors allows us to run shields beyond parameters once thought possible."
+  district_voidark_delta_generator_shield_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_generator_shield_plural$§!"
+  flavor_district_voidark_delta_generator_shield:0 "§YQuantum Rerouting§!"
+  
+  #todo adjust on other levels
+  district_voidark_delta_penrose:0 "§E$concept_delta_tier$ $district_xhk_worldark_penrose$§!"
+  district_voidark_delta_penrose_desc:0 "Consisting of large panels of enigmatic matter-infused alloy inscribed with intricate superconducting cable, these continent sized plates generate energy from the caged black hole."
+  district_voidark_delta_penrose_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_penrose_plural$§!"
+  flavor_district_voidark_delta_penrose:0 "§Y$xhk_worldark_penrose_subtitle$§!"
+  
+  district_voidark_delta_penrose_speed:0 "§E$concept_delta_tier$ $district_xhk_worldark_penrose_speed$§!"
+  district_voidark_delta_penrose_speed_desc:0 "$district_xhk_worldark_penrose_shield_desc$"
+  district_voidark_delta_penrose_speed_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_penrose_speed_plural$§!"
+  flavor_district_voidark_delta_penrose_speed:0 "§Y$xhk_worldark_penrose_speed_subtitle$§!"
+  
+  district_voidark_delta_penrose_shield:0 "§E$concept_delta_tier$ $district_xhk_worldark_penrose_shield$§!"
+  district_voidark_delta_penrose_shield_desc:0 "$district_xhk_worldark_penrose_shield_desc$"
+  district_voidark_delta_penrose_shield_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_penrose_shield_plural$§!"
+  flavor_district_voidark_delta_penrose_shield:0 "§Y$xhk_worldark_penrose_shield_subtitle$§!"
+  
+  #todo adjust on other levels
+  district_voidark_delta_minerals:0 "§E$concept_delta_tier$ $district_xhk_worldark_minerals$§!"
+  district_voidark_delta_minerals_desc:0 "Reserving dedicated arkship space for the collection and triage of harvested resources offers a higher yield thanks to the opportunity of in-gravity operations and the use of enigmatic machinery."
+  district_voidark_delta_minerals_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_minerals_plural$§!"
+  flavor_district_voidark_delta_minerals:0 "§YMining Operations§!"
+  
+  district_voidark_delta_decompressor:0 "§E$concept_delta_tier$ $district_xhk_worldark_decompressor$§!"
+  district_voidark_delta_decompressor_desc:0 "$district_xhk_worldark_decompressor_desc$"
+  district_voidark_delta_decompressor_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_decompressor_plural$§!"
+  flavor_district_voidark_delta_decompressor:0 "§Y$xhk_worldark_decompressor_subtitle$§!"
+  
+  district_voidark_delta_farming:0 "§E$concept_delta_tier$ $district_xhk_worldark_farming$§!"
+  district_voidark_delta_farming_desc:0 "$district_ark_food_desc$"
+  district_voidark_delta_farming_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_farming_plural$§!"
+  flavor_district_voidark_delta_farming:0 "§YNourishment Systems§!"
+  
+  district_voidark_delta_unity:0 "§E$concept_delta_tier$ $district_xhk_worldark_unity$§!"
+  district_voidark_delta_unity_desc:0 "$district_arcology_administrative_desc$"
+  district_voidark_delta_unity_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_unity_plural$§!"
+  flavor_district_voidark_delta_unity:0 "§YCoordinative Institutes§!"
+  
+  district_voidark_delta_unity_spiritualist:0 "§E$concept_delta_tier$ $district_xhk_worldark_unity_spiritualist$§!"
+  district_voidark_delta_unity_spiritualist_desc:0 "$district_arcology_spiritualist_desc$"
+  district_voidark_delta_unity_spiritualist_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_unity_spiritualist_plural$§!"
+  flavor_district_voidark_delta_unity_spiritualist:0 "§YHoly Halls§!"
+  
+  district_voidark_delta_unity_hive:0 "§E$concept_delta_tier$ $district_xhk_worldark_unity_hive$§!"
+  district_voidark_delta_unity_hive_desc:0 "$district_hive_administrative_desc$"
+  district_voidark_delta_unity_hive_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_unity_hive_plural$§!"
+  flavor_district_voidark_delta_unity_hive:0 "§YConnective Chambers§!"
+  
+  district_voidark_delta_unity_machine:0 "§E$concept_delta_tier$ $district_xhk_worldark_unity_machine$§!"
+  district_voidark_delta_unity_machine_desc:0 "$district_nexus_administrative_desc$"
+  district_voidark_delta_unity_machine_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_unity_machine_plural$§!"
+  flavor_district_voidark_delta_unity_machine:0 "§YData Coordination Processors§!"
+  
+  district_voidark_delta_unity_servitor:0 "§E$concept_delta_tier$ $district_xhk_worldark_unity_servitor$§!"
+  district_voidark_delta_unity_servitor_desc:0 "$district_nexus_organic_housing_desc$"
+  district_voidark_delta_unity_servitor_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_unity_servitor_plural$§!"
+  flavor_district_voidark_delta_unity_servitor:0 "§YBio-Resort Arrays§!"
+  
+  district_voidark_delta_science:0 "§E$concept_delta_tier$ $district_xhk_worldark_research$§!"
+  district_voidark_delta_science_desc:0 "$district_xhk_worldark_research_desc$"
+  district_voidark_delta_science_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_research_plural$§!"
+  flavor_district_voidark_delta_science:0 "§YNano-laboratory§!"
+  #todo adjust for other tiers
+  delta_science_tt:0 "Due to presence of §Y$sm_xhk_worldark_science_nexus$§!:$NEW_LINE$- $mod_planet_researchers_produces_mult$: §G+10%§!"
+  
+  district_voidark_delta_amenities:0 "§E$concept_delta_tier$ $district_xhk_worldark_amenities$§!"
+  district_voidark_delta_amenities_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_amenities_plural$§!"
+  flavor_district_voidark_delta_amenities:0 "§YLuxury Areas§!"
+  district_voidark_delta_amenities_desc:0 "$district_xhk_worldark_amenities_desc$"
+  district_voidark_delta_amenities_spiritualist:0 "§E$concept_delta_tier$ Sanctimonious Deck§!"
+  district_voidark_delta_amenities_spiritualist_desc:0 "Vast corridors filled with prayer rooms, libraries of religious scriptures, and communal areas. For our devoted people, these decks fill many needs."
+  district_voidark_delta_amenities_spiritualist_plural:0 "§E$concept_delta_tier$ Sanctimonious Decks§!"
+  flavor_district_voidark_delta_amenities_spiritualist:0 "§YSanctimonious Deck§!"
+  
+  
+  #doesnt exists
+  district_voidark_delta_amenities_machine:0 "§E$concept_delta_tier$ $district_xhk_worldark_amenities$§!"
+  district_voidark_delta_amenities_machine_desc:0 "REPLACE_ME"
+  district_voidark_delta_amenities_machine_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_amenities_plural$§!"
+  district_voidark_delta_amenities_hive:0 "§E$concept_delta_tier$ $district_xhk_worldark_amenities$§!"
+  district_voidark_delta_amenities_hive_desc:0 "REPLACE_ME"
+  district_voidark_delta_amenities_hive_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_amenities_plural$§!"
+  
+  district_voidark_delta_amenities_dystopian:0 "§E$concept_delta_tier$ $district_xhk_worldark_amenities_dystopian$§!"
+  district_voidark_delta_amenities_dystopian_desc:0 "$district_xhk_worldark_amenities_desc$"
+  district_voidark_delta_amenities_dystopian_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_amenities_dystopian_plural$§!"
+  flavor_district_voidark_delta_amenities_dystopian:0 "§YRetreat of Elites§!"
+  
+  district_voidark_delta_enforcer:0 "§E$concept_delta_tier$ $district_xhk_worldark_enforcer$§!"
+  district_voidark_delta_enforcer_desc:0 "$district_xhk_worldark_enforcer_desc$"
+  flavor_district_voidark_delta_enforcer:0 "§YProtective Headquarters§!"
+  district_voidark_delta_enforcer_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_enforcer_plural$§!"
+  flavor_district_voidark_delta_enforcer_spiritualist:0 "§YHoly Inquisition Office§!"
+  flavor_district_voidark_delta_enforcer_spiritualist_desc:0 "$district_xhk_worldark_enforcer_desc$"
+  flavor_district_voidark_delta_enforcer_spiritualist_plural:0 "§YHoly Inquisition Offices§!"
+  flavor_district_voidark_delta_enforcer_machine:0 "§YFirewall Server§!"
+  flavor_district_voidark_delta_enforcer_machine_desc:0 "These facilities house the firewall and regulatory units of this vessel, ensuring no deviant program is left unchecked."
+  flavor_district_voidark_delta_enforcer_machine_plural:0 "§YFirewall Servers§!"
+  flavor_district_voidark_delta_enforcer_hive:0 "§YAnti-Deviancy Node§!"
+  flavor_district_voidark_delta_enforcer_hive_desc:0 "These clusters house the central control drones of the hive. No deviant drone will escape the hive's watch."
+  flavor_district_voidark_delta_enforcer_hive_plural:0 "§YAnti-Deviancy Nodes§!"
+  
+  
+  district_voidark_delta_ordinance:0 "§E$concept_delta_tier$ $district_xhk_worldark_ordinance$§!"
+  district_voidark_delta_ordinance_desc:0 "$district_ark_military_desc$"
+  district_voidark_delta_ordinance_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_plural$§!"
+  flavor_district_voidark_delta_ordinance:0 "§YEngineering Bay§!"
+  
+  district_voidark_delta_ordinance_naval:0 "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_naval$§!"
+  district_voidark_delta_ordinance_naval_desc:0 "$district_ark_military_desc$"
+  district_voidark_delta_ordinance_naval_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_naval_plural$§!"
+  flavor_district_voidark_delta_ordinance_naval:0 "§YAdmirality Center§!"
+  
+  district_voidark_delta_ordinance_missile:0 "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_missile$§!"
+  district_voidark_delta_ordinance_missile_desc:0 "$district_ark_military_desc$"
+  district_voidark_delta_ordinance_missile_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_missile_plural$§!"
+  flavor_district_voidark_delta_ordinance_missile:0 "§YExplosive Armaments§!"
+  
+  district_voidark_delta_ordinance_kinetic:0 "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_kinetic$§!"
+  district_voidark_delta_ordinance_kinetic_desc:0 "$district_ark_military_desc$"
+  district_voidark_delta_ordinance_kinetic_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_kinetic_plural$§!"
+  flavor_district_voidark_delta_ordinance_kinetic:0 "§YKinetic Armaments§!"
+  
+  district_voidark_delta_ordinance_energy:0 "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_energy$§!"
+  district_voidark_delta_ordinance_energy_desc:0 "$district_ark_military_desc$"
+  district_voidark_delta_ordinance_energy_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_energy_plural$§!"
+  flavor_district_voidark_delta_ordinance_energy:0 "§YEnergy Armaments§!"
+  
+  district_voidark_delta_ordinance_strike_craft:0 "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_fighter$§!"
+  district_voidark_delta_ordinance_strike_craft_desc:0 "$district_ark_military_desc$"
+  district_voidark_delta_ordinance_strike_craft_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_ordinance_fighter_plural$§!"
+  flavor_district_voidark_delta_ordinance_strike_craft:0 "§YFighter Bays§!"
+  
+  district_voidark_delta_ordinance_full_batteries:0 "§E$concept_delta_tier$ $district_xhk_worldark_full_batteries$§!"
+  district_voidark_delta_ordinance_full_batteries_desc:0 "$district_xhk_worldark_full_batteries_desc$"
+  district_voidark_delta_ordinance_full_batteries_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_full_batteries_plural$§!"
+  flavor_district_voidark_delta_ordinance_full_batteries:0 "§YOffensive Superiority§!"
+  
+  district_voidark_delta_refinery:0 "§E$concept_delta_tier$ $district_xhk_worldark_refinery$§!"
+  district_voidark_delta_refinery_desc:0 "$district_xhk_worldark_refinery_desc$"
+  district_voidark_delta_refinery_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_refinery_plural$§!"
+  flavor_district_voidark_delta_refinery:0 "§YStrategic Matter Creation§!"
+  
+  district_voidark_delta_darkmatter:0 "§E$concept_delta_tier$ $district_xhk_worldark_darkmatter$§!"
+  district_voidark_delta_darkmatter_desc:0 "The creation of dark matter has only been amplified by the discovery of dark energy, and these facilities can now create both of the vital resources."
+  district_voidark_delta_darkmatter_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_darkmatter_plural$§!"
+  flavor_district_voidark_delta_darkmatter:0 "§YVeil of Dark§!"
+  
+  #todo adjust on other levels
+  district_voidark_delta_storage:0 "§E$concept_delta_tier$ $district_xhk_worldark_storage$§!"
+  district_voidark_delta_storage_desc:0 "$district_xhk_worldark_storage_desc$"
+  district_voidark_delta_storage_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_storage_plural$§!"
+  district_voidark_delta_storage_effect:0 "Attached Zone gives: \n§G+10000§! £mod_country_resource_max_add£ Resource Storage\n§G+1000§! £operational_reserves£ $mod_situation_nomad_economy_max_progress_add$\n§G+1000§! £sr_dark_matter£ $mod_country_resource_max_sr_dark_matter_add$\n§G+1000§! £acot_sr_dark_energy£ $mod_country_resource_max_acot_sr_dark_energy_add$"
+  flavor_district_voidark_delta_storage:0 "§YLiminal Storage§!"
+  
+  district_voidark_delta_utilbay:0 "§E$concept_delta_tier$ $district_xhk_worldark_utilbay$§!"
+  district_voidark_delta_utilbay_desc:0 "$district_xhk_worldark_utilbay_desc$"
+  district_voidark_delta_utilbay_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_utilbay_plural$§!"
+  flavor_district_voidark_delta_utilbay:0 "§YAccessory Sectors§!"
+  
+  district_voidark_delta_negativemass:0 "§E$concept_delta_tier$ $district_xhk_worldark_negativemass$§!"
+  district_voidark_delta_negativemass_desc:0 "$district_xhk_worldark_negativemass_desc$"
+  district_voidark_delta_negativemass_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_negativemass_plural$§!"
+  flavor_district_voidark_delta_negativemass:0 "§YInfinitum§!"
+  
+  district_voidark_delta_sentient_metal:0 "§E$concept_delta_tier$ $district_xhk_worldark_sentientmetal$§!"
+  district_voidark_delta_sentient_metal_desc:0 "$district_xhk_worldark_sentientmetal_desc$"
+  district_voidark_delta_sentient_metal_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_sentientmetal_plural$§!"
+  flavor_district_voidark_delta_sentient_metal:0 "§YMetallum Vivum§!"
+  
+  district_voidark_delta_supertensiles:0 "§E$concept_delta_tier$ $district_xhk_worldark_supertensiles$§!"
+  district_voidark_delta_supertensiles_desc:0 "$district_xhk_worldark_supertensiles_desc$"
+  district_voidark_delta_supertensiles_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_supertensiles_plural$§!"
+  flavor_district_voidark_delta_supertensiles:0 "§Y$flavor_xhk_worldark_supertensiles_name$§!"
+  
+  
+  
