@@ -23,6 +23,21 @@ district_voidark_phanon_city = {
     inline_script = voidark/districts/urban_district_bonus
     inline_script = districts/ai_urban_district_extra_weighting
 }
+district_voidark_phanon_mindlink = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_city
+        BACKGROUND = district_voidark_phanon_mindlink
+        OVERLAY_ICON = GFX_district_government
+    }
+    inline_script = {
+        script =  voidark/districts/flavor/voidark_single_flavor
+        TYPE = mindlink
+        TIER = phanon
+    }
+    inline_script = voidark/districts/urban_district_bonus
+    inline_script = districts/ai_urban_district_extra_weighting
+}
 
 
 ###############################################################################################################

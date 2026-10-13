@@ -24,10 +24,13 @@ zone_voidark_stellarite_urban = {
         UNLOCK = ""
         TIER = stellarite
         
-        POTENTIAL = ""
+        POTENTIAL = "owner? = { NOT = { has_menace_perk = menp_behemoth_mind_meld } }"
         TECHNOLOGY = "tech_voidark_stellarite"
     }
 
+    convert_to = {
+        zone_voidark_stellarite_mindlink
+    }
 
     swap_type = district_voidark_stellarite_city
     swap_type_weight = 5
@@ -40,6 +43,55 @@ zone_voidark_stellarite_urban = {
     triggered_district_planet_modifier = {
         planet_housing_add = @stellarite_per_district_housing_urban
     }
+    include = {
+        all
+    }
+
+    excluded_building_sets = {
+        xhk_worldark_ktisma
+        xhk_worldark_orykta
+        xhk_worldark_physma
+        voidark_voidbirch
+        generator
+        mining
+        farming
+        knights
+        betharian
+        generator_automation
+        mining_automation
+        farming_automation
+        urban_automation_arcology
+        urban_automation
+    }
+}
+zone_voidark_stellarite_mindlink = {
+    icon = GFX_district_specialization_voidark_stellarite_urban
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        TIER = stellarite
+
+        POTENTIAL = "owner? = { has_menace_perk = menp_behemoth_mind_meld }"
+        TECHNOLOGY = "tech_voidark_stellarite"
+    }
+
+    convert_to = {
+        zone_voidark_stellarite_urban
+    }
+
+    swap_type = district_voidark_stellarite_mindlink
+    swap_type_weight = 5
+
+    zone_sets = {
+        xhk_worldark_urban0
+        xhk_worldark_urban1
+    }
+
+    triggered_district_planet_modifier = {
+        planet_housing_add = @stellarite_per_district_housing_urban
+    }
+
     include = {
         all
     }

@@ -251,4 +251,20 @@ spriteTypes = {
         name = GFX_district_voidark_stellarite_deep_sleep_bg
         textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_deep_sleep_bg.dds"
     }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_delta_mindlink_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_delta_mindlink_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_alpha_mindlink_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_alpha_mindlink_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_phanon_mindlink_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_phanon_mindlink_bg.dds"
+    }
+    corneredTileSpriteType = {
+        name = GFX_district_voidark_stellarite_mindlink_bg
+        textureFile = "gfx/interface/planetview/district_backgrounds/district_voidark_stellarite_mindlink_bg.dds"
+    }
 }
