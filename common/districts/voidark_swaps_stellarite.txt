@@ -623,3 +623,21 @@ district_voidark_stellarite_utilbay = {
         TYPE = utilbay
     }
 }
+
+#############################################
+# Civic & Origin Compat
+#############################################
+
+district_voidark_stellarite_deep_sleep = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_research
+        BACKGROUND = district_voidark_stellarite_deep_sleep
+        OVERLAY_ICON = GFX_xhk_worldark_deep_sleep_spec
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = stellarite
+        TYPE = deep_sleep
+    }
+}

@@ -976,6 +976,7 @@ zone_voidark_alpha_servitor = {
     included_building_sets = {
         unity
         urban_automation
+        bio_trophy
     }
     include = {
         building_fe_sky_dome
@@ -1078,7 +1079,9 @@ zone_voidark_alpha_amenities = {
     }
     included_building_sets = {
         resort
+        urban
         medical
+        entertainment
     }
     include = {
         #Vanilla
@@ -1119,10 +1122,6 @@ zone_voidark_alpha_amenities = {
         building_ae_sky_dome
         building_phanon_sky_dome
         building_stellarite_sky_dome
-
-        #PD
-        building_pd_eludium_floating_resort
-        building_pd_acean_medical_center
     }
 
     inline_script = {
@@ -1157,7 +1156,9 @@ zone_voidark_alpha_amenities_dystopian = {
     }
     included_building_sets = {
         resort
+        urban
         medical
+        entertainment
     }
     include = {
         #Vanilla
@@ -1199,9 +1200,7 @@ zone_voidark_alpha_amenities_dystopian = {
         building_ae_sky_dome
         building_phanon_sky_dome
         building_stellarite_sky_dome
-        #PD
-        building_pd_eludium_floating_resort
-        building_pd_acean_medical_center
+
     }
 
 
@@ -1889,6 +1888,31 @@ zone_voidark_alpha_utilbay = {
     swap_type_weight = 10
 
     zone_sets = { xhk_worldark_utilbay }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
+
+#############################################
+# Civic & Origin Compat
+#############################################
+
+zone_voidark_alpha_deep_sleep = {
+    icon = GFX_district_specialization_voidark_alpha_deep_sleep
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 0
+        UNLOCK = ""
+        TIER = alpha
+        POTENTIAL = "owner? = { is_deep_sleep_country = yes }"
+        TECHNOLOGY = "tech_voidark_alpha"
+    }
+
+    triggered_district_planet_modifier = {
+        job_ark_deep_sleep_add = 200
+    }
+    swap_type = district_voidark_alpha_deep_sleep
+    swap_type_weight = 5
+    zone_sets = { xhk_worldark_deep_sleep }
     ai_weight_coefficient = 0.5
     ai_priority = 15
 }

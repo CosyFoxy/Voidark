@@ -113,7 +113,9 @@
  zone_voidark_phanon_sentient_metal_desc:0 "$zone_xhk_worldark_sentientmetal_desc$"
  zone_voidark_phanon_supertensiles:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_supertensiles$§!"
  zone_voidark_phanon_supertensiles_desc:0 "$zone_xhk_worldark_supertensiles_desc$"
-
+ 
+ zone_voidark_phanon_deep_sleep:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_deep_sleep$§!"
+ zone_voidark_phanon_deep_sleep_desc:0 "$zone_xhk_worldark_deep_sleep_desc$"
 
  #DISTRICTS ------------------------------------------------------------------
  district_voidark_phanon_city:0 "§R$concept_phanon_tier$ $district_xhk_worldark_city$§!"
@@ -338,3 +340,7 @@
  district_voidark_phanon_supertensiles_plural:0 "§R$concept_phanon_tier$ $district_xhk_worldark_supertensiles_plural$§!"
  flavor_district_voidark_phanon_supertensiles:0 "$flavor_xhk_worldark_supertensiles_name$"
 
+ district_voidark_phanon_deep_sleep:0 "§R$concept_phanon_tier$ $district_xhk_worldark_deep_sleep$§!"
+ district_voidark_phanon_deep_sleep_desc:0 "$district_xhk_worldark_deep_sleep_desc$"
+ district_voidark_phanon_deep_sleep_plural:0 "§R$concept_phanon_tier$ $district_xhk_worldark_deep_sleep_plural$§!"
+ flavor_district_voidark_phanon_deep_sleep:0 "§Y$flavor_xhk_worldark_deep_sleep_name$§!"
