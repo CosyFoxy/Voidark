@@ -82,9 +82,6 @@ country_event = {
             days = 360
             random = 360
         }
-        if = {
-            limit = {  }
-        }
     }
 }
 

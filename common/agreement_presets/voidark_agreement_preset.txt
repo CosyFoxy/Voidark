@@ -43,4 +43,6 @@ preset_nomad_vault_vassal = {
     potential = {
         has_origin = origin_voidark_vault_vassal
     }
+    should_ai_use_for_proposals = no
+    can_preset_be_changed = no
 }

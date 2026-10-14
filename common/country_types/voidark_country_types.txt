@@ -26,7 +26,10 @@ voidark_vault_vassal = {
     }
     modules = {
         exclusive_diplomacy_module = {}
-        basic_technology_module = {}
+        tiered_technology_module = {
+            tier = 8
+            rare = yes
+        }
         standard_event_module = {}
     }
 }
