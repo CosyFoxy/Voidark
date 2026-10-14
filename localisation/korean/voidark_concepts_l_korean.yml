@@ -47,6 +47,8 @@
   NAME_vault_vassal:99 "Droppoint Nomadic Ownership System"
   origin_voidark_vault_vassal:99 "Nomadic Defensive Vassal"
   origin_voidark_vault_vassal_desc:99 "Only meant to hold the droppoint for the nomadic empire."
+  preset_nomad_vault_vassal:99 "$NAME_vault_vassal$"
+  preset_nomad_vault_vassal_desc:99 "$origin_voidark_vault_vassal_desc$"
   #DOCUMENTATION---------------------------------------------------------------
   
   voidark_docs_chain_title:99 "Voidark Documentation"
@@ -68,9 +70,10 @@
   voidark_doc_phanon_vault_desc:99 "$voidark_doc_phanon_vault_1$$voidark_doc_phanon_vault_2$$voidark_doc_phanon_vault_3$$voidark_doc_phanon_vault_4$$voidark_doc_phanon_vault_5$"
   voidark_doc_phanon_vault_1:99 "As Nomadic empire, the way you access Phanon mechanics is slightly altered. Overall, the process is relatively similar:"
   voidark_doc_phanon_vault_2:99 "$NEW_LINE$$TABBED_NEW_LINE$- Capture Droppoint.$TABBED_NEW_LINE$- Invade £planet£ §Y$pc_acot_pmc_vault$§!.$TABBED_NEW_LINE$- Use ['concept_decision']: §H$decision_acot_infiltrate_phanon_grid$§!.$TABBED_NEW_LINE$- Repeat until the end of the invasion chain."
-  voidark_doc_phanon_vault_3:99 "$NEW_LINE$$NEW_LINE$$NEW_LINE$§KFor Voidark, these are the changes:§!$TABBED_NEW_LINE$$TABBED_NEW_LINE$- Once the Droppoint Starbase is defeated, it will be given to a hidden vassal. This vassal only exists to manage control of the system.$TABBED_NEW_LINE$- You will own the £planet£ §Y$pc_acot_pmc_vault$§! despite playing a single-colony origin."
-  voidark_doc_phanon_vault_4:99 "$NEW_LINE$$NEW_LINE$§YNOTE:§! In the future, once the vault invasion is complete, this may change to then be integrated into the §Y$xhk_pc_worldark$§!. For now, it is intended that you own both the §Y$pc_acot_pmc_vault$§! and the §Y$xhk_pc_worldark$§!."
-  voidark_doc_phanon_vault_5:99 "$NEW_LINE$$NEW_LINE$§YNOTE:§! Building any £waystation£ ['concept_waystation'] in the Droppoint System under Phanon control will result in the destruction of the Waystation. Subsequent offense will remove border access."
+  voidark_doc_phanon_vault_3:99 "$NEW_LINE$$NEW_LINE$$NEW_LINE$§KFor Voidark, these are the changes:§!$TABBED_NEW_LINE$$TABBED_NEW_LINE$- Once the Droppoint Starbase is defeated, it will be given to a hidden vassal. This vassal only exists to manage control of the system.$TABBED_NEW_LINE$- You will own the £planet£ §Y$pc_acot_pmc_vault$§! despite playing a single-colony origin.$TABBED_NEW_LINE$- After completing the Phanon events, you will (within a certain time period) get the option to integrate the Vault."
+  voidark_doc_phanon_vault_4:99 "$NEW_LINE$$NEW_LINE$§YNOTE:§! Undertaking the normal path will allow you to integrate the Vault and resource orbitals. §RAfterwards, control over the system will be removed!§!"
+  voidark_doc_phanon_vault_5:99 "$NEW_LINE$$NEW_LINE$§YNOTE:§! When undertaking the Rival path, repairing the £megastructure£ §H$acot_phanon_master_reactor_sphere$§! will §Rblock§! any integration except the Vault."
+  
   
   voidark_doc_beta_test:99 "4) Voidark Beta Test"
   voidark_doc_beta_test_desc:99 "$voidark_doc_beta_test_1$$voidark_doc_beta_test_2$$voidark_doc_beta_test_9$$voidark_doc_beta_test_11$$voidark_doc_beta_test_12$$voidark_doc_beta_test_13$$voidark_doc_beta_test_8$$voidark_doc_beta_test_10$"

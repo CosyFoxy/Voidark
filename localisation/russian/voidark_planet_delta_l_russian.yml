@@ -1,342 +1,343 @@
 ﻿l_russian:
-
- #ZONES ------------------------------------------------------------------
- voidark_delta_zone_dummy: "Dummy"
- voidark_delta_zone_dummy_desc: "Dummy"
- #----------------------
- zone_voidark_delta_urban: "§E$concept_delta_tier$ $zone_urban$§!"
- zone_voidark_delta_urban_desc: "The central habitation areas of the $xhk_pc_worldark$."
-
- zone_voidark_delta_factory: "§E$concept_delta_tier$ $zone_xhk_worldark_factory$§!"
- zone_voidark_delta_factory_desc: "$zone_factory_desc$"
-
- zone_voidark_delta_foundry: "§E$concept_delta_tier$ $zone_xhk_worldark_foundry$§!"
- zone_voidark_delta_foundry_desc: "$zone_foundry_desc$"
-
- zone_voidark_delta_voidforge: "§E$concept_delta_tier$ $zone_xhk_worldark_voidforge$§!"
- zone_voidark_delta_voidforge_desc: "$zone_ark_military_eco_desc$"
-
- zone_voidark_delta_trade: "§E$concept_delta_tier$ $zone_xhk_worldark_trade$§!"
- zone_voidark_delta_trade_desc: "$zone_trade_desc$"
-
- zone_voidark_delta_waylogi: "§E$concept_delta_tier$ $zone_xhk_worldark_waylogi$§!"
- zone_voidark_delta_waylogi_desc: "$zone_ark_waystation_trade_desc$"
-
- zone_voidark_delta_generator: "§E$concept_delta_tier$ $zone_xhk_worldark_generator$§!"
- zone_voidark_delta_generator_desc: "Arrays of energy generator with unparalleled efficiency. Never again will we lack power."
-
- zone_voidark_delta_penrose: "§E$concept_delta_tier$ Penrose $zone_xhk_worldark_generator$§!"
- zone_voidark_delta_penrose_desc: "$district_voidark_delta_penrose_desc$"
-
- zone_voidark_delta_generator_speed: "§E$concept_delta_tier$ $zone_xhk_worldark_reactspeed$§!"
- zone_voidark_delta_generator_speed_desc: "$district_voidark_delta_generator_speed_desc$"
-
- #zone_voidark_delta_penrose_speed: "§E$concept_delta_tier$ $zone_xhk_worldark_reactspeed_penrose$§!"
- zone_voidark_delta_penrose_speed: "§E$concept_delta_tier$ Penrose $zone_xhk_worldark_reactspeed$§!"
- zone_voidark_delta_penrose_speed_desc: "$district_voidark_delta_penrose_speed_desc$"
-
- zone_voidark_delta_generator_shield: "§E$concept_delta_tier$ $zone_xhk_worldark_reactshield$§!"
- zone_voidark_delta_generator_shield_desc: "$district_voidark_delta_generator_shield_desc$"
-
- #zone_voidark_delta_penrose_shield: "§E$concept_delta_tier$ $zone_xhk_worldark_reactshield_penrose$§!"
- zone_voidark_delta_penrose_shield: "§E$concept_delta_tier$ Penrose $zone_xhk_worldark_reactshield$§!"
- zone_voidark_delta_penrose_shield_desc: "$district_voidark_delta_penrose_shield_desc$"
-
- zone_voidark_delta_mining: "§E$concept_delta_tier$ $zone_xhk_worldark_mining$§!"
- zone_voidark_delta_mining_desc: "$district_voidark_delta_minerals_desc$"
-
- zone_voidark_delta_decompressor: "§E$concept_delta_tier$ Gravity-Compacted Matter Extraction§!"
- zone_voidark_delta_decompressor_desc: "$district_voidark_delta_decompressor_desc$"
-
- zone_voidark_delta_farming: "§E$concept_delta_tier$ $zone_xhk_worldark_farming$§!"
- zone_voidark_delta_farming_desc: "$zone_ark_food_desc$"
-
- zone_voidark_delta_unity: "§E$concept_delta_tier$ $zone_xhk_worldark_unity$§!"
- zone_voidark_delta_unity_desc: "$zone_unity_desc$"
-
- zone_voidark_delta_machine: "§E$concept_delta_tier$ Coordination Processor§!"
- zone_voidark_delta_machine_desc: "$zone_unity_desc$"
- zone_voidark_delta_hive: "§E$concept_delta_tier$ Coordination Node§!"
- zone_voidark_delta_hive_desc: "$zone_unity_desc$"
-
- zone_voidark_delta_spiritualist: "§E$concept_delta_tier$ $zone_xhk_worldark_spiritualist$§!"
- zone_voidark_delta_spiritualist_desc: "$zone_unity_spiritualist_desc$"
-
- zone_voidark_delta_servitor: "§E$concept_delta_tier$ $zone_xhk_worldark_servitor$§!"
- zone_voidark_delta_servitor_desc: "$zone_unity_bio_trophy_desc$"
-
- zone_voidark_delta_research: "§E$concept_delta_tier$ $zone_xhk_worldark_research$§!"
- zone_voidark_delta_research_desc: "$zone_research_desc$"
-
- zone_voidark_delta_amenities: "§E$concept_delta_tier$ $zone_xhk_worldark_amenities$§!"
- zone_voidark_delta_amenities_desc: "$zone_ark_forever_cruise_city_passenger_desc$"
-
- zone_voidark_delta_enforcer: "§E$concept_delta_tier$ $zone_xhk_worldark_enforcer$§!"
- zone_voidark_delta_enforcer_desc: "$zone_xhk_worldark_enforcer_desc$"
-
- zone_voidark_delta_refinery: "§E$concept_delta_tier$ $zone_xhk_worldark_refinery$§!"
- zone_voidark_delta_refinery_desc: "$zone_xhk_worldark_refinery_desc$"
-
- zone_voidark_delta_darkmatter: "§E$concept_delta_tier$ $zone_xhk_worldark_darkmatter$§!"
- zone_voidark_delta_darkmatter_desc: "$district_voidark_delta_darkmatter_desc$"
-
- zone_voidark_delta_ordinance_naval: "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_naval$§!"
- zone_voidark_delta_ordinance_naval_desc: "$zone_ark_shipwright_desc$"
-
- zone_voidark_delta_ordinance_missile: "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_missile_silos$§!"
- zone_voidark_delta_ordinance_missile_desc: "$zone_ark_missile_silos_desc$"
-
- zone_voidark_delta_ordinance_kinetic: "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_ammunition_lines$§!"
- zone_voidark_delta_ordinance_kinetic_desc: "$zone_ark_ammunition_lines_desc$"
-
- zone_voidark_delta_ordinance_energy: "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_laser_capacitors$§!"
- zone_voidark_delta_ordinance_energy_desc: "$zone_ark_laser_capacitors_desc$"
-
- zone_voidark_delta_ordinance_strike_craft: "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_flight_decks$§!"
- zone_voidark_delta_ordinance_strike_craft_desc: "$zone_ark_flight_decks_desc$"
-
- zone_voidark_delta_ordinance_full_batteries: "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_full_batteries$§!"
- zone_voidark_delta_ordinance_full_batteries_desc: "$zone_xhk_worldark_ordinance_full_batteries_desc$"
-
- zone_voidark_delta_storage: "§E$concept_delta_tier$ $zone_xhk_worldark_storage$§!"
- zone_voidark_delta_storage_desc: "$district_xhk_worldark_storage_desc$"
-
- zone_voidark_delta_utilbay: "§E$concept_delta_tier$ $zone_xhk_worldark_utilbay$§!"
- zone_voidark_delta_utilbay_desc: "$district_xhk_worldark_utilbay_desc$"
-
- zone_voidark_delta_amenities_dystopian: "§E$concept_delta_tier$ $zone_xhk_worldark_amenities_dystopian$§!"
- zone_voidark_delta_amenities_dystopian_desc: "$zone_xhk_worldark_amenities_dystopian_desc$"
-
- zone_voidark_delta_negativemass: "§E$concept_delta_tier$ $zone_xhk_worldark_negativemass$§!"
- zone_voidark_delta_negativemass_desc: "$zone_xhk_worldark_negativemass_desc$"
- zone_voidark_delta_sentient_metal: "§E$concept_delta_tier$ $zone_xhk_worldark_sentientmetal$§!"
- zone_voidark_delta_sentient_metal_desc: "$zone_xhk_worldark_sentientmetal_desc$"
-
- zone_voidark_delta_supertensiles: "§E$concept_delta_tier$ $zone_xhk_worldark_supertensiles$§!"
- zone_voidark_delta_supertensiles_desc: "$zone_xhk_worldark_supertensiles_desc$"
-
-#DISTRICTS ------------------------------------------------------------------
- district_voidark_delta_city: "§E$concept_delta_tier$ $district_xhk_worldark_city$§!"
- district_voidark_delta_city_desc: "$district_ark_city_desc$"
- district_voidark_delta_city_plural: "§E$concept_delta_tier$ $district_xhk_worldark_city_plural$§!"
- flavor_district_voidark_delta_city_desc: "$district_ark_city_desc$"
- flavor_district_voidark_delta_city: "REPLACE_ME"
- flavor_district_voidark_delta_city_plural: "REPLACE_ME"
- flavor_district_voidark_delta_city_spiritualist: "REPLACE_ME"
- flavor_district_voidark_delta_city_spiritualist_desc: "REPLACE_ME"
- flavor_district_voidark_delta_city_spiritualist_plural: "REPLACE_ME"
- flavor_district_voidark_delta_city_machine: "REPLACE_ME"
- flavor_district_voidark_delta_city_machine_desc: "REPLACE_ME"
- flavor_district_voidark_delta_city_machine_plural: "REPLACE_ME"
- flavor_district_voidark_delta_city_hive: "REPLACE_ME"
- flavor_district_voidark_delta_city_hive_desc: "REPLACE_ME"
- flavor_district_voidark_delta_city_hive_plural: "REPLACE_ME"
-
- #todo adjust on other levels
- district_voidark_delta_foundry: "REPLACE_ME"
- district_voidark_delta_foundry_desc: "REPLACE_ME"
- district_voidark_delta_foundry_plural: "REPLACE_ME"
- flavor_district_voidark_delta_foundry: "REPLACE_ME"
-
- district_voidark_delta_factory: "REPLACE_ME"
- district_voidark_delta_factory_desc: "REPLACE_ME"
- district_voidark_delta_factory_plural: "REPLACE_ME"
- flavor_district_voidark_delta_factory: "REPLACE_ME"
-
- district_voidark_delta_trade: "REPLACE_ME"
- district_voidark_delta_trade_desc: "REPLACE_ME"
- district_voidark_delta_trade_plural: "REPLACE_ME"
- flavor_district_voidark_delta_trade: "REPLACE_ME"
-
- #todo adjust on other levels
- district_voidark_delta_generator: "REPLACE_ME"
- district_voidark_delta_generator_desc: "REPLACE_ME"
- district_voidark_delta_generator_plural: "REPLACE_ME"
- flavor_district_voidark_delta_generator: "REPLACE_ME"
-
- #todo adjust on other levels
- district_voidark_delta_generator_speed: "REPLACE_ME"
- district_voidark_delta_generator_speed_desc: "REPLACE_ME"
- district_voidark_delta_generator_speed_plural: "REPLACE_ME"
- flavor_district_voidark_delta_generator_speed: "REPLACE_ME"
-
- district_voidark_delta_generator_shield: "REPLACE_ME"
- district_voidark_delta_generator_shield_desc: "REPLACE_ME"
- district_voidark_delta_generator_shield_plural: "REPLACE_ME"
- flavor_district_voidark_delta_generator_shield: "REPLACE_ME"
-
- #todo adjust on other levels
- district_voidark_delta_penrose: "REPLACE_ME"
- district_voidark_delta_penrose_desc: "REPLACE_ME"
- district_voidark_delta_penrose_plural: "REPLACE_ME"
- flavor_district_voidark_delta_penrose: "REPLACE_ME"
-
- district_voidark_delta_penrose_speed: "REPLACE_ME"
- district_voidark_delta_penrose_speed_desc: "REPLACE_ME"
- district_voidark_delta_penrose_speed_plural: "REPLACE_ME"
- flavor_district_voidark_delta_penrose_speed: "REPLACE_ME"
-
- district_voidark_delta_penrose_shield: "REPLACE_ME"
- district_voidark_delta_penrose_shield_desc: "REPLACE_ME"
- district_voidark_delta_penrose_shield_plural: "REPLACE_ME"
- flavor_district_voidark_delta_penrose_shield: "REPLACE_ME"
-
- #todo adjust on other levels
- district_voidark_delta_minerals: "REPLACE_ME"
- district_voidark_delta_minerals_desc: "REPLACE_ME"
- district_voidark_delta_minerals_plural: "REPLACE_ME"
- flavor_district_voidark_delta_minerals: "REPLACE_ME"
-
- district_voidark_delta_decompressor: "REPLACE_ME"
- district_voidark_delta_decompressor_desc: "REPLACE_ME"
- district_voidark_delta_decompressor_plural: "REPLACE_ME"
- flavor_district_voidark_delta_decompressor: "REPLACE_ME"
-
- district_voidark_delta_farming: "REPLACE_ME"
- district_voidark_delta_farming_desc: "REPLACE_ME"
- district_voidark_delta_farming_plural: "REPLACE_ME"
- flavor_district_voidark_delta_farming: "REPLACE_ME"
-
- district_voidark_delta_unity: "REPLACE_ME"
- district_voidark_delta_unity_desc: "REPLACE_ME"
- district_voidark_delta_unity_plural: "REPLACE_ME"
- flavor_district_voidark_delta_unity: "REPLACE_ME"
-
- district_voidark_delta_unity_spiritualist: "REPLACE_ME"
- district_voidark_delta_unity_spiritualist_desc: "REPLACE_ME"
- district_voidark_delta_unity_spiritualist_plural: "REPLACE_ME"
- flavor_district_voidark_delta_unity_spiritualist: "REPLACE_ME"
-
- district_voidark_delta_unity_hive: "REPLACE_ME"
- district_voidark_delta_unity_hive_desc: "REPLACE_ME"
- district_voidark_delta_unity_hive_plural: "REPLACE_ME"
- flavor_district_voidark_delta_unity_hive: "REPLACE_ME"
-
- district_voidark_delta_unity_machine: "REPLACE_ME"
- district_voidark_delta_unity_machine_desc: "REPLACE_ME"
- district_voidark_delta_unity_machine_plural: "REPLACE_ME"
- flavor_district_voidark_delta_unity_machine: "REPLACE_ME"
-
- district_voidark_delta_unity_servitor: "REPLACE_ME"
- district_voidark_delta_unity_servitor_desc: "REPLACE_ME"
- district_voidark_delta_unity_servitor_plural: "REPLACE_ME"
- flavor_district_voidark_delta_unity_servitor: "REPLACE_ME"
-
- district_voidark_delta_science: "REPLACE_ME"
- district_voidark_delta_science_desc: "REPLACE_ME"
- district_voidark_delta_science_plural: "REPLACE_ME"
- flavor_district_voidark_delta_science: "REPLACE_ME"
- #todo adjust for other tiers
- delta_science_tt: "REPLACE_ME"
-
- district_voidark_delta_amenities: "REPLACE_ME"
- district_voidark_delta_amenities_plural: "REPLACE_ME"
- flavor_district_voidark_delta_amenities: "REPLACE_ME"
- district_voidark_delta_amenities_desc: "REPLACE_ME"
- district_voidark_delta_amenities_spiritualist: "REPLACE_ME"
- district_voidark_delta_amenities_spiritualist_desc: "REPLACE_ME"
- district_voidark_delta_amenities_spiritualist_plural: "REPLACE_ME"
- flavor_district_voidark_delta_amenities_spiritualist: "REPLACE_ME"
-
-
- #doesnt exists
- district_voidark_delta_amenities_machine: "REPLACE_ME"
- district_voidark_delta_amenities_machine_desc: "REPLACE_ME"
- district_voidark_delta_amenities_machine_plural: "REPLACE_ME"
- district_voidark_delta_amenities_hive: "REPLACE_ME"
- district_voidark_delta_amenities_hive_desc: "REPLACE_ME"
- district_voidark_delta_amenities_hive_plural: "REPLACE_ME"
-
- district_voidark_delta_amenities_dystopian: "REPLACE_ME"
- district_voidark_delta_amenities_dystopian_desc: "REPLACE_ME"
- district_voidark_delta_amenities_dystopian_plural: "REPLACE_ME"
- flavor_district_voidark_delta_amenities_dystopian: "REPLACE_ME"
-
- district_voidark_delta_enforcer: "REPLACE_ME"
- district_voidark_delta_enforcer_desc: "REPLACE_ME"
- flavor_district_voidark_delta_enforcer: "REPLACE_ME"
- district_voidark_delta_enforcer_plural: "REPLACE_ME"
- flavor_district_voidark_delta_enforcer_spiritualist: "REPLACE_ME"
- flavor_district_voidark_delta_enforcer_spiritualist_desc: "REPLACE_ME"
- flavor_district_voidark_delta_enforcer_spiritualist_plural: "REPLACE_ME"
- flavor_district_voidark_delta_enforcer_machine: "REPLACE_ME"
- flavor_district_voidark_delta_enforcer_machine_desc: "REPLACE_ME"
- flavor_district_voidark_delta_enforcer_machine_plural: "REPLACE_ME"
- flavor_district_voidark_delta_enforcer_hive: "REPLACE_ME"
- flavor_district_voidark_delta_enforcer_hive_desc: "REPLACE_ME"
- flavor_district_voidark_delta_enforcer_hive_plural: "REPLACE_ME"
-
-
- district_voidark_delta_ordinance: "REPLACE_ME"
- district_voidark_delta_ordinance_desc: "REPLACE_ME"
- district_voidark_delta_ordinance_plural: "REPLACE_ME"
- flavor_district_voidark_delta_ordinance: "REPLACE_ME"
-
- district_voidark_delta_ordinance_naval: "REPLACE_ME"
- district_voidark_delta_ordinance_naval_desc: "REPLACE_ME"
- district_voidark_delta_ordinance_naval_plural: "REPLACE_ME"
- flavor_district_voidark_delta_ordinance_naval: "REPLACE_ME"
-
- district_voidark_delta_ordinance_missile: "REPLACE_ME"
- district_voidark_delta_ordinance_missile_desc: "REPLACE_ME"
- district_voidark_delta_ordinance_missile_plural: "REPLACE_ME"
- flavor_district_voidark_delta_ordinance_missile: "REPLACE_ME"
-
- district_voidark_delta_ordinance_kinetic: "REPLACE_ME"
- district_voidark_delta_ordinance_kinetic_desc: "REPLACE_ME"
- district_voidark_delta_ordinance_kinetic_plural: "REPLACE_ME"
- flavor_district_voidark_delta_ordinance_kinetic: "REPLACE_ME"
-
- district_voidark_delta_ordinance_energy: "REPLACE_ME"
- district_voidark_delta_ordinance_energy_desc: "REPLACE_ME"
- district_voidark_delta_ordinance_energy_plural: "REPLACE_ME"
- flavor_district_voidark_delta_ordinance_energy: "REPLACE_ME"
-
- district_voidark_delta_ordinance_strike_craft: "REPLACE_ME"
- district_voidark_delta_ordinance_strike_craft_desc: "REPLACE_ME"
- district_voidark_delta_ordinance_strike_craft_plural: "REPLACE_ME"
- flavor_district_voidark_delta_ordinance_strike_craft: "REPLACE_ME"
-
- district_voidark_delta_ordinance_full_batteries: "REPLACE_ME"
- district_voidark_delta_ordinance_full_batteries_desc: "REPLACE_ME"
- district_voidark_delta_ordinance_full_batteries_plural: "REPLACE_ME"
- flavor_district_voidark_delta_ordinance_full_batteries: "REPLACE_ME"
-
- district_voidark_delta_refinery: "REPLACE_ME"
- district_voidark_delta_refinery_desc: "REPLACE_ME"
- district_voidark_delta_refinery_plural: "REPLACE_ME"
- flavor_district_voidark_delta_refinery: "REPLACE_ME"
-
- district_voidark_delta_darkmatter: "REPLACE_ME"
- district_voidark_delta_darkmatter_desc: "REPLACE_ME"
- district_voidark_delta_darkmatter_plural: "REPLACE_ME"
- flavor_district_voidark_delta_darkmatter: "REPLACE_ME"
-
- #todo adjust on other levels
- district_voidark_delta_storage: "REPLACE_ME"
- district_voidark_delta_storage_desc: "REPLACE_ME"
- district_voidark_delta_storage_plural: "REPLACE_ME"
- district_voidark_delta_storage_effect: "REPLACE_ME"
- flavor_district_voidark_delta_storage: "REPLACE_ME"
-
- district_voidark_delta_utilbay: "REPLACE_ME"
- district_voidark_delta_utilbay_desc: "REPLACE_ME"
- district_voidark_delta_utilbay_plural: "REPLACE_ME"
- flavor_district_voidark_delta_utilbay: "REPLACE_ME"
-
- district_voidark_delta_negativemass: "REPLACE_ME"
- district_voidark_delta_negativemass_desc: "REPLACE_ME"
- district_voidark_delta_negativemass_plural: "REPLACE_ME"
- flavor_district_voidark_delta_negativemass: "REPLACE_ME"
-
- district_voidark_delta_sentient_metal: "REPLACE_ME"
- district_voidark_delta_sentient_metal_desc: "REPLACE_ME"
- district_voidark_delta_sentient_metal_plural: "REPLACE_ME"
- flavor_district_voidark_delta_sentient_metal: "REPLACE_ME"
-
- district_voidark_delta_supertensiles: "REPLACE_ME"
- district_voidark_delta_supertensiles_desc: "REPLACE_ME"
- district_voidark_delta_supertensiles_plural: "REPLACE_ME"
- flavor_district_voidark_delta_supertensiles: "REPLACE_ME"
-
-
+  
+  #ZONES ------------------------------------------------------------------
+  voidark_delta_zone_dummy:0 "Dummy"
+  voidark_delta_zone_dummy_desc:0 "Dummy"
+  #----------------------
+  zone_voidark_delta_urban:0 "§E$concept_delta_tier$ $zone_urban$§!"
+  zone_voidark_delta_urban_desc:0 "The central habitation areas of the $xhk_pc_worldark$."
+  
+  zone_voidark_delta_factory:0 "§E$concept_delta_tier$ $zone_xhk_worldark_factory$§!"
+  zone_voidark_delta_factory_desc:0 "$zone_factory_desc$"
+  
+  zone_voidark_delta_foundry:0 "§E$concept_delta_tier$ $zone_xhk_worldark_foundry$§!"
+  zone_voidark_delta_foundry_desc:0 "$zone_foundry_desc$"
+  
+  zone_voidark_delta_voidforge:0 "§E$concept_delta_tier$ $zone_xhk_worldark_voidforge$§!"
+  zone_voidark_delta_voidforge_desc:0 "$zone_ark_military_eco_desc$"
+  
+  zone_voidark_delta_trade:0 "§E$concept_delta_tier$ $zone_xhk_worldark_trade$§!"
+  zone_voidark_delta_trade_desc:0 "$zone_trade_desc$"
+  
+  zone_voidark_delta_waylogi:0 "§E$concept_delta_tier$ $zone_xhk_worldark_waylogi$§!"
+  zone_voidark_delta_waylogi_desc:0 "$zone_ark_waystation_trade_desc$"
+  
+  zone_voidark_delta_generator:0 "§E$concept_delta_tier$ $zone_xhk_worldark_generator$§!"
+  zone_voidark_delta_generator_desc:0 "Arrays of energy generator with unparalleled efficiency. Never again will we lack power."
+  
+  zone_voidark_delta_penrose:0 "§E$concept_delta_tier$ Penrose $zone_xhk_worldark_generator$§!"
+  zone_voidark_delta_penrose_desc:0 "$district_voidark_delta_penrose_desc$"
+  
+  zone_voidark_delta_generator_speed:0 "§E$concept_delta_tier$ $zone_xhk_worldark_reactspeed$§!"
+  zone_voidark_delta_generator_speed_desc:0 "$district_voidark_delta_generator_speed_desc$"
+  
+  #zone_voidark_delta_penrose_speed:0 "§E$concept_delta_tier$ $zone_xhk_worldark_reactspeed_penrose$§!"
+  zone_voidark_delta_penrose_speed:0 "§E$concept_delta_tier$ Penrose $zone_xhk_worldark_reactspeed$§!"
+  zone_voidark_delta_penrose_speed_desc:0 "$district_voidark_delta_penrose_speed_desc$"
+  
+  zone_voidark_delta_generator_shield:0 "§E$concept_delta_tier$ $zone_xhk_worldark_reactshield$§!"
+  zone_voidark_delta_generator_shield_desc:0 "$district_voidark_delta_generator_shield_desc$"
+  
+  #zone_voidark_delta_penrose_shield:0 "§E$concept_delta_tier$ $zone_xhk_worldark_reactshield_penrose$§!"
+  zone_voidark_delta_penrose_shield:0 "§E$concept_delta_tier$ Penrose $zone_xhk_worldark_reactshield$§!"
+  zone_voidark_delta_penrose_shield_desc:0 "$district_voidark_delta_penrose_shield_desc$"
+  
+  zone_voidark_delta_mining:0 "§E$concept_delta_tier$ $zone_xhk_worldark_mining$§!"
+  zone_voidark_delta_mining_desc:0 "$district_voidark_delta_minerals_desc$"
+  
+  zone_voidark_delta_decompressor:0 "§E$concept_delta_tier$ Gravity-Compacted Matter Extraction§!"
+  zone_voidark_delta_decompressor_desc:0 "$district_voidark_delta_decompressor_desc$"
+  
+  zone_voidark_delta_farming:0 "§E$concept_delta_tier$ $zone_xhk_worldark_farming$§!"
+  zone_voidark_delta_farming_desc:0 "$zone_ark_food_desc$"
+  
+  zone_voidark_delta_unity:0 "§E$concept_delta_tier$ $zone_xhk_worldark_unity$§!"
+  zone_voidark_delta_unity_desc:0 "$zone_unity_desc$"
+  
+  zone_voidark_delta_machine:0 "§E$concept_delta_tier$ Coordination Processor§!"
+  zone_voidark_delta_machine_desc:0 "$zone_unity_desc$"
+  zone_voidark_delta_hive:0 "§E$concept_delta_tier$ Coordination Node§!"
+  zone_voidark_delta_hive_desc:0 "$zone_unity_desc$"
+  
+  zone_voidark_delta_spiritualist:0 "§E$concept_delta_tier$ $zone_xhk_worldark_spiritualist$§!"
+  zone_voidark_delta_spiritualist_desc:0 "$zone_unity_spiritualist_desc$"
+  
+  zone_voidark_delta_servitor:0 "§E$concept_delta_tier$ $zone_xhk_worldark_servitor$§!"
+  zone_voidark_delta_servitor_desc:0 "$zone_unity_bio_trophy_desc$"
+  
+  zone_voidark_delta_research:0 "§E$concept_delta_tier$ $zone_xhk_worldark_research$§!"
+  zone_voidark_delta_research_desc:0 "$zone_research_desc$"
+  
+  zone_voidark_delta_amenities:0 "§E$concept_delta_tier$ $zone_xhk_worldark_amenities$§!"
+  zone_voidark_delta_amenities_desc:0 "$zone_ark_forever_cruise_city_passenger_desc$"
+  
+  zone_voidark_delta_enforcer:0 "§E$concept_delta_tier$ $zone_xhk_worldark_enforcer$§!"
+  zone_voidark_delta_enforcer_desc:0 "$zone_xhk_worldark_enforcer_desc$"
+  
+  zone_voidark_delta_refinery:0 "§E$concept_delta_tier$ $zone_xhk_worldark_refinery$§!"
+  zone_voidark_delta_refinery_desc:0 "$zone_xhk_worldark_refinery_desc$"
+  
+  zone_voidark_delta_darkmatter:0 "§E$concept_delta_tier$ $zone_xhk_worldark_darkmatter$§!"
+  zone_voidark_delta_darkmatter_desc:0 "$district_voidark_delta_darkmatter_desc$"
+  
+  zone_voidark_delta_ordinance_naval:0 "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_naval$§!"
+  zone_voidark_delta_ordinance_naval_desc:0 "$zone_ark_shipwright_desc$"
+  
+  zone_voidark_delta_ordinance_missile:0 "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_missile_silos$§!"
+  zone_voidark_delta_ordinance_missile_desc:0 "$zone_ark_missile_silos_desc$"
+  
+  zone_voidark_delta_ordinance_kinetic:0 "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_ammunition_lines$§!"
+  zone_voidark_delta_ordinance_kinetic_desc:0 "$zone_ark_ammunition_lines_desc$"
+  
+  zone_voidark_delta_ordinance_energy:0 "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_laser_capacitors$§!"
+  zone_voidark_delta_ordinance_energy_desc:0 "$zone_ark_laser_capacitors_desc$"
+  
+  zone_voidark_delta_ordinance_strike_craft:0 "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_flight_decks$§!"
+  zone_voidark_delta_ordinance_strike_craft_desc:0 "$zone_ark_flight_decks_desc$"
+  
+  zone_voidark_delta_ordinance_full_batteries:0 "§E$concept_delta_tier$ $zone_xhk_worldark_ordinance_full_batteries$§!"
+  zone_voidark_delta_ordinance_full_batteries_desc:0 "$zone_xhk_worldark_ordinance_full_batteries_desc$"
+  
+  zone_voidark_delta_storage:0 "§E$concept_delta_tier$ $zone_xhk_worldark_storage$§!"
+  zone_voidark_delta_storage_desc:0 "$district_xhk_worldark_storage_desc$"
+  
+  zone_voidark_delta_utilbay:0 "§E$concept_delta_tier$ $zone_xhk_worldark_utilbay$§!"
+  zone_voidark_delta_utilbay_desc:0 "$district_xhk_worldark_utilbay_desc$"
+  
+  zone_voidark_delta_amenities_dystopian:0 "§E$concept_delta_tier$ $zone_xhk_worldark_amenities_dystopian$§!"
+  zone_voidark_delta_amenities_dystopian_desc:0 "$zone_xhk_worldark_amenities_dystopian_desc$"
+  
+  zone_voidark_delta_negativemass:0 "§E$concept_delta_tier$ $zone_xhk_worldark_negativemass$§!"
+  zone_voidark_delta_negativemass_desc:0 "$zone_xhk_worldark_negativemass_desc$"
+  zone_voidark_delta_sentient_metal:0 "§E$concept_delta_tier$ $zone_xhk_worldark_sentientmetal$§!"
+  zone_voidark_delta_sentient_metal_desc:0 "$zone_xhk_worldark_sentientmetal_desc$"
+  
+  zone_voidark_delta_supertensiles:0 "§E$concept_delta_tier$ $zone_xhk_worldark_supertensiles$§!"
+  zone_voidark_delta_supertensiles_desc:0 "$zone_xhk_worldark_supertensiles_desc$"
+  
+  #DISTRICTS ------------------------------------------------------------------
+  district_voidark_delta_city:0 "§E$concept_delta_tier$ $district_xhk_worldark_city$§!"
+  district_voidark_delta_city_desc:0 "$district_ark_city_desc$"
+  district_voidark_delta_city_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_city_plural$§!"
+  flavor_district_voidark_delta_city_desc:0 "$district_ark_city_desc$"
+  flavor_district_voidark_delta_city:0 "REPLACE_ME"
+  flavor_district_voidark_delta_city_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_city_spiritualist:0 "REPLACE_ME"
+  flavor_district_voidark_delta_city_spiritualist_desc:0 "REPLACE_ME"
+  flavor_district_voidark_delta_city_spiritualist_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_city_machine:0 "REPLACE_ME"
+  flavor_district_voidark_delta_city_machine_desc:0 "REPLACE_ME"
+  flavor_district_voidark_delta_city_machine_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_city_hive:0 "REPLACE_ME"
+  flavor_district_voidark_delta_city_hive_desc:0 "REPLACE_ME"
+  flavor_district_voidark_delta_city_hive_plural:0 "REPLACE_ME"
+  
+  #todo adjust on other levels
+  district_voidark_delta_foundry:0 "REPLACE_ME"
+  district_voidark_delta_foundry_desc:0 "REPLACE_ME"
+  district_voidark_delta_foundry_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_foundry:0 "REPLACE_ME"
+  
+  district_voidark_delta_factory:0 "REPLACE_ME"
+  district_voidark_delta_factory_desc:0 "REPLACE_ME"
+  district_voidark_delta_factory_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_factory:0 "REPLACE_ME"
+  
+  district_voidark_delta_trade:0 "REPLACE_ME"
+  district_voidark_delta_trade_desc:0 "REPLACE_ME"
+  district_voidark_delta_trade_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_trade:0 "REPLACE_ME"
+  
+  #todo adjust on other levels
+  district_voidark_delta_generator:0 "REPLACE_ME"
+  district_voidark_delta_generator_desc:0 "REPLACE_ME"
+  district_voidark_delta_generator_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_generator:0 "REPLACE_ME"
+  
+  #todo adjust on other levels
+  district_voidark_delta_generator_speed:0 "REPLACE_ME"
+  district_voidark_delta_generator_speed_desc:0 "REPLACE_ME"
+  district_voidark_delta_generator_speed_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_generator_speed:0 "REPLACE_ME"
+  
+  district_voidark_delta_generator_shield:0 "REPLACE_ME"
+  district_voidark_delta_generator_shield_desc:0 "REPLACE_ME"
+  district_voidark_delta_generator_shield_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_generator_shield:0 "REPLACE_ME"
+  
+  #todo adjust on other levels
+  district_voidark_delta_penrose:0 "REPLACE_ME"
+  district_voidark_delta_penrose_desc:0 "REPLACE_ME"
+  district_voidark_delta_penrose_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_penrose:0 "REPLACE_ME"
+  
+  district_voidark_delta_penrose_speed:0 "REPLACE_ME"
+  district_voidark_delta_penrose_speed_desc:0 "REPLACE_ME"
+  district_voidark_delta_penrose_speed_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_penrose_speed:0 "REPLACE_ME"
+  
+  district_voidark_delta_penrose_shield:0 "REPLACE_ME"
+  district_voidark_delta_penrose_shield_desc:0 "REPLACE_ME"
+  district_voidark_delta_penrose_shield_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_penrose_shield:0 "REPLACE_ME"
+  
+  #todo adjust on other levels
+  district_voidark_delta_minerals:0 "REPLACE_ME"
+  district_voidark_delta_minerals_desc:0 "REPLACE_ME"
+  district_voidark_delta_minerals_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_minerals:0 "REPLACE_ME"
+  
+  district_voidark_delta_decompressor:0 "REPLACE_ME"
+  district_voidark_delta_decompressor_desc:0 "REPLACE_ME"
+  district_voidark_delta_decompressor_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_decompressor:0 "REPLACE_ME"
+  
+  district_voidark_delta_farming:0 "REPLACE_ME"
+  district_voidark_delta_farming_desc:0 "REPLACE_ME"
+  district_voidark_delta_farming_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_farming:0 "REPLACE_ME"
+  
+  district_voidark_delta_unity:0 "REPLACE_ME"
+  district_voidark_delta_unity_desc:0 "REPLACE_ME"
+  district_voidark_delta_unity_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_unity:0 "REPLACE_ME"
+  
+  district_voidark_delta_unity_spiritualist:0 "REPLACE_ME"
+  district_voidark_delta_unity_spiritualist_desc:0 "REPLACE_ME"
+  district_voidark_delta_unity_spiritualist_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_unity_spiritualist:0 "REPLACE_ME"
+  
+  district_voidark_delta_unity_hive:0 "REPLACE_ME"
+  district_voidark_delta_unity_hive_desc:0 "REPLACE_ME"
+  district_voidark_delta_unity_hive_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_unity_hive:0 "REPLACE_ME"
+  
+  district_voidark_delta_unity_machine:0 "REPLACE_ME"
+  district_voidark_delta_unity_machine_desc:0 "REPLACE_ME"
+  district_voidark_delta_unity_machine_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_unity_machine:0 "REPLACE_ME"
+  
+  district_voidark_delta_unity_servitor:0 "REPLACE_ME"
+  district_voidark_delta_unity_servitor_desc:0 "REPLACE_ME"
+  district_voidark_delta_unity_servitor_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_unity_servitor:0 "REPLACE_ME"
+  
+  district_voidark_delta_science:0 "REPLACE_ME"
+  district_voidark_delta_science_desc:0 "REPLACE_ME"
+  district_voidark_delta_science_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_science:0 "REPLACE_ME"
+  #todo adjust for other tiers
+  delta_science_tt:0 "REPLACE_ME"
+  
+  district_voidark_delta_amenities:0 "REPLACE_ME"
+  district_voidark_delta_amenities_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_amenities:0 "REPLACE_ME"
+  district_voidark_delta_amenities_desc:0 "REPLACE_ME"
+  district_voidark_delta_amenities_spiritualist:0 "REPLACE_ME"
+  district_voidark_delta_amenities_spiritualist_desc:0 "REPLACE_ME"
+  district_voidark_delta_amenities_spiritualist_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_amenities_spiritualist:0 "REPLACE_ME"
+  
+  
+  #doesnt exists
+  district_voidark_delta_amenities_machine:0 "REPLACE_ME"
+  district_voidark_delta_amenities_machine_desc:0 "REPLACE_ME"
+  district_voidark_delta_amenities_machine_plural:0 "REPLACE_ME"
+  district_voidark_delta_amenities_hive:0 "REPLACE_ME"
+  district_voidark_delta_amenities_hive_desc:0 "REPLACE_ME"
+  district_voidark_delta_amenities_hive_plural:0 "REPLACE_ME"
+  
+  district_voidark_delta_amenities_dystopian:0 "REPLACE_ME"
+  district_voidark_delta_amenities_dystopian_desc:0 "REPLACE_ME"
+  district_voidark_delta_amenities_dystopian_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_amenities_dystopian:0 "REPLACE_ME"
+  
+  district_voidark_delta_enforcer:0 "REPLACE_ME"
+  district_voidark_delta_enforcer_desc:0 "REPLACE_ME"
+  flavor_district_voidark_delta_enforcer:0 "REPLACE_ME"
+  district_voidark_delta_enforcer_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_enforcer_spiritualist:0 "REPLACE_ME"
+  flavor_district_voidark_delta_enforcer_spiritualist_desc:0 "REPLACE_ME"
+  flavor_district_voidark_delta_enforcer_spiritualist_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_enforcer_machine:0 "REPLACE_ME"
+  flavor_district_voidark_delta_enforcer_machine_desc:0 "REPLACE_ME"
+  flavor_district_voidark_delta_enforcer_machine_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_enforcer_hive:0 "REPLACE_ME"
+  flavor_district_voidark_delta_enforcer_hive_desc:0 "REPLACE_ME"
+  flavor_district_voidark_delta_enforcer_hive_plural:0 "REPLACE_ME"
+  
+  
+  district_voidark_delta_ordinance:0 "REPLACE_ME"
+  district_voidark_delta_ordinance_desc:0 "REPLACE_ME"
+  district_voidark_delta_ordinance_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_ordinance:0 "REPLACE_ME"
+  
+  district_voidark_delta_ordinance_naval:0 "REPLACE_ME"
+  district_voidark_delta_ordinance_naval_desc:0 "REPLACE_ME"
+  district_voidark_delta_ordinance_naval_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_ordinance_naval:0 "REPLACE_ME"
+  
+  district_voidark_delta_ordinance_missile:0 "REPLACE_ME"
+  district_voidark_delta_ordinance_missile_desc:0 "REPLACE_ME"
+  district_voidark_delta_ordinance_missile_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_ordinance_missile:0 "REPLACE_ME"
+  
+  district_voidark_delta_ordinance_kinetic:0 "REPLACE_ME"
+  district_voidark_delta_ordinance_kinetic_desc:0 "REPLACE_ME"
+  district_voidark_delta_ordinance_kinetic_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_ordinance_kinetic:0 "REPLACE_ME"
+  
+  district_voidark_delta_ordinance_energy:0 "REPLACE_ME"
+  district_voidark_delta_ordinance_energy_desc:0 "REPLACE_ME"
+  district_voidark_delta_ordinance_energy_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_ordinance_energy:0 "REPLACE_ME"
+  
+  district_voidark_delta_ordinance_strike_craft:0 "REPLACE_ME"
+  district_voidark_delta_ordinance_strike_craft_desc:0 "REPLACE_ME"
+  district_voidark_delta_ordinance_strike_craft_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_ordinance_strike_craft:0 "REPLACE_ME"
+  
+  district_voidark_delta_ordinance_full_batteries:0 "REPLACE_ME"
+  district_voidark_delta_ordinance_full_batteries_desc:0 "REPLACE_ME"
+  district_voidark_delta_ordinance_full_batteries_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_ordinance_full_batteries:0 "REPLACE_ME"
+  
+  district_voidark_delta_refinery:0 "REPLACE_ME"
+  district_voidark_delta_refinery_desc:0 "REPLACE_ME"
+  district_voidark_delta_refinery_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_refinery:0 "REPLACE_ME"
+  
+  district_voidark_delta_darkmatter:0 "REPLACE_ME"
+  district_voidark_delta_darkmatter_desc:0 "REPLACE_ME"
+  district_voidark_delta_darkmatter_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_darkmatter:0 "REPLACE_ME"
+  
+  #todo adjust on other levels
+  district_voidark_delta_storage:0 "REPLACE_ME"
+  district_voidark_delta_storage_desc:0 "REPLACE_ME"
+  district_voidark_delta_storage_plural:0 "REPLACE_ME"
+  district_voidark_delta_storage_effect:0 "REPLACE_ME"
+  flavor_district_voidark_delta_storage:0 "REPLACE_ME"
+  
+  district_voidark_delta_utilbay:0 "REPLACE_ME"
+  district_voidark_delta_utilbay_desc:0 "REPLACE_ME"
+  district_voidark_delta_utilbay_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_utilbay:0 "REPLACE_ME"
+  
+  district_voidark_delta_negativemass:0 "REPLACE_ME"
+  district_voidark_delta_negativemass_desc:0 "REPLACE_ME"
+  district_voidark_delta_negativemass_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_negativemass:0 "REPLACE_ME"
+  
+  district_voidark_delta_sentient_metal:0 "REPLACE_ME"
+  district_voidark_delta_sentient_metal_desc:0 "REPLACE_ME"
+  district_voidark_delta_sentient_metal_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_sentient_metal:0 "REPLACE_ME"
+  
+  district_voidark_delta_supertensiles:0 "REPLACE_ME"
+  district_voidark_delta_supertensiles_desc:0 "REPLACE_ME"
+  district_voidark_delta_supertensiles_plural:0 "REPLACE_ME"
+  flavor_district_voidark_delta_supertensiles:0 "REPLACE_ME"
+  
+  
+  

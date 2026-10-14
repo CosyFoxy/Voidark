@@ -1,363 +1,364 @@
 ﻿l_russian:
-
- #ZONES ------------------------------------------------------------------
- voidark_phanon_zone_dummy: "Dummy"
- voidark_phanon_zone_dummy_desc: "Dummy"
- #----------------------
- zone_voidark_phanon_urban: "§R$concept_phanon_tier$ $zone_urban$§!"
- zone_voidark_phanon_urban_desc: "The central habitation areas of the $xhk_pc_worldark$."
-
- zone_voidark_phanon_factory: "§R$concept_phanon_tier$ $zone_xhk_worldark_factory$§!"
- zone_voidark_phanon_factory_desc: "$zone_factory_desc$"
-
- zone_voidark_phanon_foundry: "§R$concept_phanon_tier$ $zone_xhk_worldark_foundry$§!"
- zone_voidark_phanon_foundry_desc: "$zone_foundry_desc$"
-
- zone_voidark_phanon_voidforge: "§R$concept_phanon_tier$ $zone_xhk_worldark_voidforge$§!"
- zone_voidark_phanon_voidforge_desc: "$zone_ark_military_eco_desc$"
-
- zone_voidark_phanon_trade: "§R$concept_phanon_tier$ $zone_xhk_worldark_trade$§!"
- zone_voidark_phanon_trade_desc: "$zone_trade_desc$"
-
- zone_voidark_phanon_waylogi: "§R$concept_phanon_tier$ $zone_xhk_worldark_waylogi$§!"
- zone_voidark_phanon_waylogi_desc: "$zone_ark_waystation_trade_desc$"
-
- zone_voidark_phanon_generator: "§R$concept_phanon_tier$ $zone_xhk_worldark_generator$§!"
- zone_voidark_phanon_generator_desc: "Arrays of energy generator with unparalleled efficiency. Never again will we lack power."
-
- zone_voidark_phanon_penrose: "§R$concept_phanon_tier$ Penrose $zone_xhk_worldark_generator$§!"
- zone_voidark_phanon_penrose_desc: "$district_voidark_phanon_penrose_desc$"
-
- zone_voidark_phanon_generator_speed: "§R$concept_phanon_tier$ $zone_xhk_worldark_reactspeed$§!"
- zone_voidark_phanon_generator_speed_desc: "$district_voidark_phanon_generator_speed_desc$"
-
- #zone_voidark_phanon_penrose_speed: "§R$concept_phanon_tier$ $zone_xhk_worldark_reactspeed_penrose$§!"
- zone_voidark_phanon_penrose_speed: "§R$concept_phanon_tier$ Penrose $zone_xhk_worldark_reactspeed$§!"
- zone_voidark_phanon_penrose_speed_desc: "$district_voidark_phanon_penrose_speed_desc$"
-
- zone_voidark_phanon_generator_shield: "§R$concept_phanon_tier$ $zone_xhk_worldark_reactshield$§!"
- zone_voidark_phanon_generator_shield_desc: "$district_voidark_phanon_generator_shield_desc$"
-
- #zone_voidark_phanon_penrose_shield: "§R$concept_phanon_tier$ $zone_xhk_worldark_reactshield_penrose$§!"
- zone_voidark_phanon_penrose_shield: "§R$concept_phanon_tier$ Penrose $zone_xhk_worldark_reactshield$§!"
- zone_voidark_phanon_penrose_shield_desc: "$district_voidark_phanon_penrose_shield_desc$"
-
- zone_voidark_phanon_mining: "§R$concept_phanon_tier$ $zone_xhk_worldark_mining$§!"
- zone_voidark_phanon_mining_desc: "$district_voidark_phanon_minerals_desc$"
-
- zone_voidark_phanon_decompressor: "§R$concept_phanon_tier$ Gravity-Compacted Matter Extraction§!"
- zone_voidark_phanon_decompressor_desc: "$district_voidark_phanon_decompressor_desc$"
-
- zone_voidark_phanon_farming: "§R$concept_phanon_tier$ $zone_xhk_worldark_farming$§!"
- zone_voidark_phanon_farming_desc: "$zone_ark_food_desc$"
-
- zone_voidark_phanon_unity: "§R$concept_phanon_tier$ $zone_xhk_worldark_unity$§!"
- zone_voidark_phanon_unity_desc: "$zone_unity_desc$"
-
- zone_voidark_phanon_machine: "§R$concept_phanon_tier$ Coordination Processor§!"
- zone_voidark_phanon_machine_desc: "$zone_unity_desc$"
- zone_voidark_phanon_hive: "§R$concept_phanon_tier$ Coordination Node§!"
- zone_voidark_phanon_hive_desc: "$zone_unity_desc$"
-
- zone_voidark_phanon_spiritualist: "§R$concept_phanon_tier$ $zone_xhk_worldark_spiritualist$§!"
- zone_voidark_phanon_spiritualist_desc: "$zone_unity_spiritualist_desc$"
-
- zone_voidark_phanon_servitor: "§R$concept_phanon_tier$ $zone_xhk_worldark_servitor$§!"
- zone_voidark_phanon_servitor_desc: "$zone_unity_bio_trophy_desc$"
-
- zone_voidark_phanon_research: "§R$concept_phanon_tier$ $zone_xhk_worldark_research$§!"
- zone_voidark_phanon_research_desc: "$zone_research_desc$"
-
- zone_voidark_phanon_amenities: "§R$concept_phanon_tier$ $zone_xhk_worldark_amenities$§!"
- zone_voidark_phanon_amenities_desc: "$zone_ark_forever_cruise_city_passenger_desc$"
-
- zone_voidark_phanon_enforcer: "§R$concept_phanon_tier$ $zone_xhk_worldark_enforcer$§!"
- zone_voidark_phanon_enforcer_desc: "$zone_xhk_worldark_enforcer_desc$"
-
- zone_voidark_phanon_refinery: "§R$concept_phanon_tier$ $zone_xhk_worldark_refinery$§!"
- zone_voidark_phanon_refinery_desc: "$zone_xhk_worldark_refinery_desc$"
-
- zone_voidark_phanon_darkmatter: "§R$concept_phanon_tier$ $zone_xhk_worldark_darkmatter$§!"
- zone_voidark_phanon_darkmatter_desc: "$district_voidark_phanon_darkmatter_desc$"
-
- zone_voidark_phanon_ordinance_naval: "§R$concept_phanon_tier$ $zone_xhk_worldark_ordinance_naval$§!"
- zone_voidark_phanon_ordinance_naval_desc: "$zone_ark_shipwright_desc$"
-
- zone_voidark_phanon_ordinance_missile: "§R$concept_phanon_tier$ $zone_xhk_worldark_ordinance_missile_silos$§!"
- zone_voidark_phanon_ordinance_missile_desc: "$zone_ark_missile_silos_desc$"
-
- zone_voidark_phanon_ordinance_kinetic: "§R$concept_phanon_tier$ $zone_xhk_worldark_ordinance_ammunition_lines$§!"
- zone_voidark_phanon_ordinance_kinetic_desc: "$zone_ark_ammunition_lines_desc$"
-
- zone_voidark_phanon_ordinance_energy: "§R$concept_phanon_tier$ $zone_xhk_worldark_ordinance_laser_capacitors$§!"
- zone_voidark_phanon_ordinance_energy_desc: "$zone_ark_laser_capacitors_desc$"
-
- zone_voidark_phanon_ordinance_strike_craft: "§R$concept_phanon_tier$ $zone_xhk_worldark_ordinance_flight_decks$§!"
- zone_voidark_phanon_ordinance_strike_craft_desc: "$zone_ark_flight_decks_desc$"
-
- zone_voidark_phanon_ordinance_full_batteries: "§R$concept_phanon_tier$ $zone_xhk_worldark_ordinance_full_batteries$§!"
- zone_voidark_phanon_ordinance_full_batteries_desc: "$zone_xhk_worldark_ordinance_full_batteries_desc$"
-
- zone_voidark_phanon_storage: "§R$concept_phanon_tier$ $zone_xhk_worldark_storage$§!"
- zone_voidark_phanon_storage_desc: "$district_xhk_worldark_storage_desc$"
-
- zone_voidark_phanon_utilbay: "§R$concept_phanon_tier$ $zone_xhk_worldark_utilbay$§!"
- zone_voidark_phanon_utilbay_desc: "$district_xhk_worldark_utilbay_desc$"
-
- zone_voidark_phanon_amenities_dystopian: "§R$concept_phanon_tier$ $zone_xhk_worldark_amenities_dystopian$§!"
- zone_voidark_phanon_amenities_dystopian_desc: "$zone_xhk_worldark_amenities_dystopian_desc$"
-
- zone_voidark_phanon_negativemass: "§R$concept_phanon_tier$ $zone_xhk_worldark_negativemass$"
- zone_voidark_phanon_negativemass_desc: "$zone_xhk_worldark_negativemass_desc$"
- zone_voidark_phanon_sentient_metal: "§R$concept_phanon_tier$ $zone_xhk_worldark_sentientmetal$"
- zone_voidark_phanon_sentient_metal_desc: "$zone_xhk_worldark_sentientmetal_desc$"
- zone_voidark_phanon_supertensiles: "§R$concept_phanon_tier$ $zone_xhk_worldark_supertensiles$§!"
- zone_voidark_phanon_supertensiles_desc: "$zone_xhk_worldark_supertensiles_desc$"
-
- zone_voidark_vault_integration_dummy: "$voidark_phanon_zone_dummy$"
- zone_voidark_vault_integration_dummy_desc: "$voidark_phanon_zone_dummy_desc$"
-
- zone_voidark_phanon_vault_integration_primary: "§RVault Primary Level§!"
- zone_voidark_phanon_vault_integration_primary_desc: "$zone_acot_vault_main_desc$"
-
- zone_voidark_phanon_vault_integration_1: "REPLACE_ME"
- zone_voidark_phanon_vault_integration_1_desc: "REPLACE_ME"
-
- zone_voidark_phanon_vault_integration_2: "REPLACE_ME"
- zone_voidark_phanon_vault_integration_2_desc: "REPLACE_ME"
-
- zone_voidark_phanon_vault_integration_3: "REPLACE_ME"
- zone_voidark_phanon_vault_integration_3_desc: "REPLACE_ME"
-
- zone_voidark_phanon_vault_integration_phanon_tier: "REPLACE_ME"
- zone_voidark_phanon_vault_integration_phanon_tier_desc: "REPLACE_ME"
-
-
- #DISTRICTS ------------------------------------------------------------------
- district_voidark_phanon_city: "REPLACE_ME"
- district_voidark_phanon_city_desc: "REPLACE_ME"
- district_voidark_phanon_city_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_city: "REPLACE_ME"
- flavor_district_voidark_phanon_city_desc: "REPLACE_ME"
- flavor_district_voidark_phanon_city_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_city_spiritualist: "REPLACE_ME"
- flavor_district_voidark_phanon_city_spiritualist_desc: "REPLACE_ME"
- flavor_district_voidark_phanon_city_spiritualist_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_city_machine: "REPLACE_ME"
- flavor_district_voidark_phanon_city_machine_desc: "REPLACE_ME"
- flavor_district_voidark_phanon_city_machine_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_city_hive: "REPLACE_ME"
- flavor_district_voidark_phanon_city_hive_desc: "REPLACE_ME"
- flavor_district_voidark_phanon_city_hive_plural: "REPLACE_ME"
-
- #todo adjust on other levels
- district_voidark_phanon_foundry: "REPLACE_ME"
- district_voidark_phanon_foundry_desc: "REPLACE_ME"
- district_voidark_phanon_foundry_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_foundry: "REPLACE_ME"
-
- district_voidark_phanon_factory: "REPLACE_ME"
- district_voidark_phanon_factory_desc: "REPLACE_ME"
- district_voidark_phanon_factory_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_factory: "REPLACE_ME"
-
- district_voidark_phanon_trade: "REPLACE_ME"
- district_voidark_phanon_trade_desc: "REPLACE_ME"
- district_voidark_phanon_trade_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_trade: "REPLACE_ME"
-
- #todo adjust on other levels
- district_voidark_phanon_generator: "REPLACE_ME"
- district_voidark_phanon_generator_desc: "REPLACE_ME"
- district_voidark_phanon_generator_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_generator: "REPLACE_ME"
-
- #todo adjust on other levels
- district_voidark_phanon_generator_speed: "REPLACE_ME"
- district_voidark_phanon_generator_speed_desc: "REPLACE_ME"
- district_voidark_phanon_generator_speed_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_generator_speed: "REPLACE_ME"
-
- district_voidark_phanon_generator_shield: "REPLACE_ME"
- district_voidark_phanon_generator_shield_desc: "REPLACE_ME"
- district_voidark_phanon_generator_shield_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_generator_shield: "REPLACE_ME"
-
- #todo adjust on other levels
- district_voidark_phanon_penrose: "REPLACE_ME"
- district_voidark_phanon_penrose_desc: "REPLACE_ME"
- district_voidark_phanon_penrose_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_penrose: "REPLACE_ME"
-
- district_voidark_phanon_penrose_speed: "REPLACE_ME"
- district_voidark_phanon_penrose_speed_desc: "REPLACE_ME"
- district_voidark_phanon_penrose_speed_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_penrose_speed: "REPLACE_ME"
-
- district_voidark_phanon_penrose_shield: "REPLACE_ME"
- district_voidark_phanon_penrose_shield_desc: "REPLACE_ME"
- district_voidark_phanon_penrose_shield_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_penrose_shield: "REPLACE_ME"
-
- #todo adjust on other levels
- district_voidark_phanon_minerals: "REPLACE_ME"
- district_voidark_phanon_minerals_desc: "REPLACE_ME"
- district_voidark_phanon_minerals_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_minerals: "REPLACE_ME"
-
- district_voidark_phanon_decompressor: "REPLACE_ME"
- district_voidark_phanon_decompressor_desc: "REPLACE_ME"
- district_voidark_phanon_decompressor_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_decompressor: "REPLACE_ME"
-
- district_voidark_phanon_farming: "REPLACE_ME"
- district_voidark_phanon_farming_desc: "REPLACE_ME"
- district_voidark_phanon_farming_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_farming: "REPLACE_ME"
-
- district_voidark_phanon_unity: "REPLACE_ME"
- district_voidark_phanon_unity_desc: "REPLACE_ME"
- district_voidark_phanon_unity_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_unity: "REPLACE_ME"
-
- district_voidark_phanon_unity_spiritualist: "REPLACE_ME"
- district_voidark_phanon_unity_spiritualist_desc: "REPLACE_ME"
- district_voidark_phanon_unity_spiritualist_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_unity_spiritualist: "REPLACE_ME"
-
- district_voidark_phanon_unity_hive: "REPLACE_ME"
- district_voidark_phanon_unity_hive_desc: "REPLACE_ME"
- district_voidark_phanon_unity_hive_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_unity_hive: "REPLACE_ME"
-
- district_voidark_phanon_unity_machine: "REPLACE_ME"
- district_voidark_phanon_unity_machine_desc: "REPLACE_ME"
- district_voidark_phanon_unity_machine_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_unity_machine: "REPLACE_ME"
-
- district_voidark_phanon_unity_servitor: "REPLACE_ME"
- district_voidark_phanon_unity_servitor_desc: "REPLACE_ME"
- district_voidark_phanon_unity_servitor_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_unity_servitor: "REPLACE_ME"
-
- district_voidark_phanon_science: "REPLACE_ME"
- district_voidark_phanon_science_desc: "REPLACE_ME"
- district_voidark_phanon_science_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_science: "REPLACE_ME"
- phanon_science_tt: "REPLACE_ME"
-
- district_voidark_phanon_amenities: "REPLACE_ME"
- district_voidark_phanon_amenities_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_amenities: "REPLACE_ME"
- district_voidark_phanon_amenities_desc: "REPLACE_ME"
- district_voidark_phanon_amenities_spiritualist: "REPLACE_ME"
- district_voidark_phanon_amenities_spiritualist_desc: "REPLACE_ME"
- district_voidark_phanon_amenities_spiritualist_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_amenities_spiritualist: "REPLACE_ME"
-
-
- #doesnt exists
- district_voidark_phanon_amenities_machine: "REPLACE_ME"
- district_voidark_phanon_amenities_machine_desc: "REPLACE_ME"
- district_voidark_phanon_amenities_machine_plural: "REPLACE_ME"
- district_voidark_phanon_amenities_hive: "REPLACE_ME"
- district_voidark_phanon_amenities_hive_desc: "REPLACE_ME"
- district_voidark_phanon_amenities_hive_plural: "REPLACE_ME"
-
- district_voidark_phanon_amenities_dystopian: "REPLACE_ME"
- district_voidark_phanon_amenities_dystopian_desc: "REPLACE_ME"
- district_voidark_phanon_amenities_dystopian_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_amenities_dystopian: "REPLACE_ME"
-
- district_voidark_phanon_enforcer: "REPLACE_ME"
- district_voidark_phanon_enforcer_desc: "REPLACE_ME"
- flavor_district_voidark_phanon_enforcer: "REPLACE_ME"
- district_voidark_phanon_enforcer_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_enforcer_spiritualist: "REPLACE_ME"
- flavor_district_voidark_phanon_enforcer_spiritualist_desc: "REPLACE_ME"
- flavor_district_voidark_phanon_enforcer_spiritualist_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_enforcer_machine: "REPLACE_ME"
- flavor_district_voidark_phanon_enforcer_machine_desc: "REPLACE_ME"
- flavor_district_voidark_phanon_enforcer_machine_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_enforcer_hive: "REPLACE_ME"
- flavor_district_voidark_phanon_enforcer_hive_desc: "REPLACE_ME"
- flavor_district_voidark_phanon_enforcer_hive_plural: "REPLACE_ME"
-
-
- district_voidark_phanon_ordinance: "REPLACE_ME"
- district_voidark_phanon_ordinance_desc: "REPLACE_ME"
- district_voidark_phanon_ordinance_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_ordinance: "REPLACE_ME"
-
- district_voidark_phanon_ordinance_naval: "REPLACE_ME"
- district_voidark_phanon_ordinance_naval_desc: "REPLACE_ME"
- district_voidark_phanon_ordinance_naval_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_ordinance_naval: "REPLACE_ME"
-
- district_voidark_phanon_ordinance_missile: "REPLACE_ME"
- district_voidark_phanon_ordinance_missile_desc: "REPLACE_ME"
- district_voidark_phanon_ordinance_missile_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_ordinance_missile: "REPLACE_ME"
-
- district_voidark_phanon_ordinance_kinetic: "REPLACE_ME"
- district_voidark_phanon_ordinance_kinetic_desc: "REPLACE_ME"
- district_voidark_phanon_ordinance_kinetic_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_ordinance_kinetic: "REPLACE_ME"
-
- district_voidark_phanon_ordinance_energy: "REPLACE_ME"
- district_voidark_phanon_ordinance_energy_desc: "REPLACE_ME"
- district_voidark_phanon_ordinance_energy_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_ordinance_energy: "REPLACE_ME"
-
- district_voidark_phanon_ordinance_strike_craft: "REPLACE_ME"
- district_voidark_phanon_ordinance_strike_craft_desc: "REPLACE_ME"
- district_voidark_phanon_ordinance_strike_craft_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_ordinance_strike_craft: "REPLACE_ME"
-
- district_voidark_phanon_ordinance_full_batteries: "REPLACE_ME"
- district_voidark_phanon_ordinance_full_batteries_desc: "REPLACE_ME"
- district_voidark_phanon_ordinance_full_batteries_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_ordinance_full_batteries: "REPLACE_ME"
-
- district_voidark_phanon_refinery: "REPLACE_ME"
- district_voidark_phanon_refinery_desc: "REPLACE_ME"
- district_voidark_phanon_refinery_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_refinery: "REPLACE_ME"
-
- district_voidark_phanon_darkmatter: "REPLACE_ME"
- district_voidark_phanon_darkmatter_desc: "REPLACE_ME"
- district_voidark_phanon_darkmatter_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_darkmatter: "REPLACE_ME"
-
- #todo adjust on other levels
- district_voidark_phanon_storage: "REPLACE_ME"
- district_voidark_phanon_storage_desc: "REPLACE_ME"
- district_voidark_phanon_storage_plural: "REPLACE_ME"
- district_voidark_phanon_storage_effect: "REPLACE_ME"
- flavor_district_voidark_phanon_storage: "REPLACE_ME"
-
- district_voidark_phanon_utilbay: "REPLACE_ME"
- district_voidark_phanon_utilbay_desc: "REPLACE_ME"
- district_voidark_phanon_utilbay_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_utilbay: "REPLACE_ME"
-
- district_voidark_phanon_negativemass: "REPLACE_ME"
- district_voidark_phanon_negativemass_desc: "REPLACE_ME"
- district_voidark_phanon_negativemass_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_negativemass: "REPLACE_ME"
-
- district_voidark_phanon_sentient_metal: "REPLACE_ME"
- district_voidark_phanon_sentient_metal_desc: "REPLACE_ME"
- district_voidark_phanon_sentient_metal_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_sentient_metal: "REPLACE_ME"
-
- district_voidark_phanon_supertensiles: "REPLACE_ME"
- district_voidark_phanon_supertensiles_desc: "REPLACE_ME"
- district_voidark_phanon_supertensiles_plural: "REPLACE_ME"
- flavor_district_voidark_phanon_supertensiles: "REPLACE_ME"
-
- district_voidark_phanon_vault_integration: "REPLACE_ME"
- district_voidark_phanon_vault_integration_desc: "REPLACE_ME"
- district_voidark_phanon_vault_integration_plural: "REPLACE_ME"
- flavor_voidark_phanon_vault_integration: "REPLACE_ME"
-
+  
+  #ZONES ------------------------------------------------------------------
+  voidark_phanon_zone_dummy:0 "Dummy"
+  voidark_phanon_zone_dummy_desc:0 "Dummy"
+  #----------------------
+  zone_voidark_phanon_urban:0 "§R$concept_phanon_tier$ $zone_urban$§!"
+  zone_voidark_phanon_urban_desc:0 "The central habitation areas of the $xhk_pc_worldark$."
+  
+  zone_voidark_phanon_factory:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_factory$§!"
+  zone_voidark_phanon_factory_desc:0 "$zone_factory_desc$"
+  
+  zone_voidark_phanon_foundry:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_foundry$§!"
+  zone_voidark_phanon_foundry_desc:0 "$zone_foundry_desc$"
+  
+  zone_voidark_phanon_voidforge:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_voidforge$§!"
+  zone_voidark_phanon_voidforge_desc:0 "$zone_ark_military_eco_desc$"
+  
+  zone_voidark_phanon_trade:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_trade$§!"
+  zone_voidark_phanon_trade_desc:0 "$zone_trade_desc$"
+  
+  zone_voidark_phanon_waylogi:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_waylogi$§!"
+  zone_voidark_phanon_waylogi_desc:0 "$zone_ark_waystation_trade_desc$"
+  
+  zone_voidark_phanon_generator:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_generator$§!"
+  zone_voidark_phanon_generator_desc:0 "Arrays of energy generator with unparalleled efficiency. Never again will we lack power."
+  
+  zone_voidark_phanon_penrose:0 "§R$concept_phanon_tier$ Penrose $zone_xhk_worldark_generator$§!"
+  zone_voidark_phanon_penrose_desc:0 "$district_voidark_phanon_penrose_desc$"
+  
+  zone_voidark_phanon_generator_speed:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_reactspeed$§!"
+  zone_voidark_phanon_generator_speed_desc:0 "$district_voidark_phanon_generator_speed_desc$"
+  
+  #zone_voidark_phanon_penrose_speed:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_reactspeed_penrose$§!"
+  zone_voidark_phanon_penrose_speed:0 "§R$concept_phanon_tier$ Penrose $zone_xhk_worldark_reactspeed$§!"
+  zone_voidark_phanon_penrose_speed_desc:0 "$district_voidark_phanon_penrose_speed_desc$"
+  
+  zone_voidark_phanon_generator_shield:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_reactshield$§!"
+  zone_voidark_phanon_generator_shield_desc:0 "$district_voidark_phanon_generator_shield_desc$"
+  
+  #zone_voidark_phanon_penrose_shield:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_reactshield_penrose$§!"
+  zone_voidark_phanon_penrose_shield:0 "§R$concept_phanon_tier$ Penrose $zone_xhk_worldark_reactshield$§!"
+  zone_voidark_phanon_penrose_shield_desc:0 "$district_voidark_phanon_penrose_shield_desc$"
+  
+  zone_voidark_phanon_mining:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_mining$§!"
+  zone_voidark_phanon_mining_desc:0 "$district_voidark_phanon_minerals_desc$"
+  
+  zone_voidark_phanon_decompressor:0 "§R$concept_phanon_tier$ Gravity-Compacted Matter Extraction§!"
+  zone_voidark_phanon_decompressor_desc:0 "$district_voidark_phanon_decompressor_desc$"
+  
+  zone_voidark_phanon_farming:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_farming$§!"
+  zone_voidark_phanon_farming_desc:0 "$zone_ark_food_desc$"
+  
+  zone_voidark_phanon_unity:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_unity$§!"
+  zone_voidark_phanon_unity_desc:0 "$zone_unity_desc$"
+  
+  zone_voidark_phanon_machine:0 "§R$concept_phanon_tier$ Coordination Processor§!"
+  zone_voidark_phanon_machine_desc:0 "$zone_unity_desc$"
+  zone_voidark_phanon_hive:0 "§R$concept_phanon_tier$ Coordination Node§!"
+  zone_voidark_phanon_hive_desc:0 "$zone_unity_desc$"
+  
+  zone_voidark_phanon_spiritualist:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_spiritualist$§!"
+  zone_voidark_phanon_spiritualist_desc:0 "$zone_unity_spiritualist_desc$"
+  
+  zone_voidark_phanon_servitor:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_servitor$§!"
+  zone_voidark_phanon_servitor_desc:0 "$zone_unity_bio_trophy_desc$"
+  
+  zone_voidark_phanon_research:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_research$§!"
+  zone_voidark_phanon_research_desc:0 "$zone_research_desc$"
+  
+  zone_voidark_phanon_amenities:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_amenities$§!"
+  zone_voidark_phanon_amenities_desc:0 "$zone_ark_forever_cruise_city_passenger_desc$"
+  
+  zone_voidark_phanon_enforcer:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_enforcer$§!"
+  zone_voidark_phanon_enforcer_desc:0 "$zone_xhk_worldark_enforcer_desc$"
+  
+  zone_voidark_phanon_refinery:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_refinery$§!"
+  zone_voidark_phanon_refinery_desc:0 "$zone_xhk_worldark_refinery_desc$"
+  
+  zone_voidark_phanon_darkmatter:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_darkmatter$§!"
+  zone_voidark_phanon_darkmatter_desc:0 "$district_voidark_phanon_darkmatter_desc$"
+  
+  zone_voidark_phanon_ordinance_naval:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_ordinance_naval$§!"
+  zone_voidark_phanon_ordinance_naval_desc:0 "$zone_ark_shipwright_desc$"
+  
+  zone_voidark_phanon_ordinance_missile:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_ordinance_missile_silos$§!"
+  zone_voidark_phanon_ordinance_missile_desc:0 "$zone_ark_missile_silos_desc$"
+  
+  zone_voidark_phanon_ordinance_kinetic:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_ordinance_ammunition_lines$§!"
+  zone_voidark_phanon_ordinance_kinetic_desc:0 "$zone_ark_ammunition_lines_desc$"
+  
+  zone_voidark_phanon_ordinance_energy:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_ordinance_laser_capacitors$§!"
+  zone_voidark_phanon_ordinance_energy_desc:0 "$zone_ark_laser_capacitors_desc$"
+  
+  zone_voidark_phanon_ordinance_strike_craft:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_ordinance_flight_decks$§!"
+  zone_voidark_phanon_ordinance_strike_craft_desc:0 "$zone_ark_flight_decks_desc$"
+  
+  zone_voidark_phanon_ordinance_full_batteries:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_ordinance_full_batteries$§!"
+  zone_voidark_phanon_ordinance_full_batteries_desc:0 "$zone_xhk_worldark_ordinance_full_batteries_desc$"
+  
+  zone_voidark_phanon_storage:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_storage$§!"
+  zone_voidark_phanon_storage_desc:0 "$district_xhk_worldark_storage_desc$"
+  
+  zone_voidark_phanon_utilbay:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_utilbay$§!"
+  zone_voidark_phanon_utilbay_desc:0 "$district_xhk_worldark_utilbay_desc$"
+  
+  zone_voidark_phanon_amenities_dystopian:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_amenities_dystopian$§!"
+  zone_voidark_phanon_amenities_dystopian_desc:0 "$zone_xhk_worldark_amenities_dystopian_desc$"
+  
+  zone_voidark_phanon_negativemass:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_negativemass$"
+  zone_voidark_phanon_negativemass_desc:0 "$zone_xhk_worldark_negativemass_desc$"
+  zone_voidark_phanon_sentient_metal:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_sentientmetal$"
+  zone_voidark_phanon_sentient_metal_desc:0 "$zone_xhk_worldark_sentientmetal_desc$"
+  zone_voidark_phanon_supertensiles:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_supertensiles$§!"
+  zone_voidark_phanon_supertensiles_desc:0 "$zone_xhk_worldark_supertensiles_desc$"
+  
+  zone_voidark_vault_integration_dummy:0 "$voidark_phanon_zone_dummy$"
+  zone_voidark_vault_integration_dummy_desc:0 "$voidark_phanon_zone_dummy_desc$"
+  
+  zone_voidark_phanon_vault_integration_primary:0 "§RVault Primary Level§!"
+  zone_voidark_phanon_vault_integration_primary_desc:0 "$zone_acot_vault_main_desc$"
+  
+  zone_voidark_phanon_vault_integration_1:0 "REPLACE_ME"
+  zone_voidark_phanon_vault_integration_1_desc:0 "REPLACE_ME"
+  
+  zone_voidark_phanon_vault_integration_2:0 "REPLACE_ME"
+  zone_voidark_phanon_vault_integration_2_desc:0 "REPLACE_ME"
+  
+  zone_voidark_phanon_vault_integration_3:0 "REPLACE_ME"
+  zone_voidark_phanon_vault_integration_3_desc:0 "REPLACE_ME"
+  
+  zone_voidark_phanon_vault_integration_phanon_tier:0 "REPLACE_ME"
+  zone_voidark_phanon_vault_integration_phanon_tier_desc:0 "REPLACE_ME"
+  
+  
+  #DISTRICTS ------------------------------------------------------------------
+  district_voidark_phanon_city:0 "REPLACE_ME"
+  district_voidark_phanon_city_desc:0 "REPLACE_ME"
+  district_voidark_phanon_city_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_city:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_city_desc:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_city_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_city_spiritualist:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_city_spiritualist_desc:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_city_spiritualist_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_city_machine:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_city_machine_desc:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_city_machine_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_city_hive:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_city_hive_desc:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_city_hive_plural:0 "REPLACE_ME"
+  
+  #todo adjust on other levels
+  district_voidark_phanon_foundry:0 "REPLACE_ME"
+  district_voidark_phanon_foundry_desc:0 "REPLACE_ME"
+  district_voidark_phanon_foundry_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_foundry:0 "REPLACE_ME"
+  
+  district_voidark_phanon_factory:0 "REPLACE_ME"
+  district_voidark_phanon_factory_desc:0 "REPLACE_ME"
+  district_voidark_phanon_factory_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_factory:0 "REPLACE_ME"
+  
+  district_voidark_phanon_trade:0 "REPLACE_ME"
+  district_voidark_phanon_trade_desc:0 "REPLACE_ME"
+  district_voidark_phanon_trade_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_trade:0 "REPLACE_ME"
+  
+  #todo adjust on other levels
+  district_voidark_phanon_generator:0 "REPLACE_ME"
+  district_voidark_phanon_generator_desc:0 "REPLACE_ME"
+  district_voidark_phanon_generator_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_generator:0 "REPLACE_ME"
+  
+  #todo adjust on other levels
+  district_voidark_phanon_generator_speed:0 "REPLACE_ME"
+  district_voidark_phanon_generator_speed_desc:0 "REPLACE_ME"
+  district_voidark_phanon_generator_speed_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_generator_speed:0 "REPLACE_ME"
+  
+  district_voidark_phanon_generator_shield:0 "REPLACE_ME"
+  district_voidark_phanon_generator_shield_desc:0 "REPLACE_ME"
+  district_voidark_phanon_generator_shield_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_generator_shield:0 "REPLACE_ME"
+  
+  #todo adjust on other levels
+  district_voidark_phanon_penrose:0 "REPLACE_ME"
+  district_voidark_phanon_penrose_desc:0 "REPLACE_ME"
+  district_voidark_phanon_penrose_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_penrose:0 "REPLACE_ME"
+  
+  district_voidark_phanon_penrose_speed:0 "REPLACE_ME"
+  district_voidark_phanon_penrose_speed_desc:0 "REPLACE_ME"
+  district_voidark_phanon_penrose_speed_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_penrose_speed:0 "REPLACE_ME"
+  
+  district_voidark_phanon_penrose_shield:0 "REPLACE_ME"
+  district_voidark_phanon_penrose_shield_desc:0 "REPLACE_ME"
+  district_voidark_phanon_penrose_shield_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_penrose_shield:0 "REPLACE_ME"
+  
+  #todo adjust on other levels
+  district_voidark_phanon_minerals:0 "REPLACE_ME"
+  district_voidark_phanon_minerals_desc:0 "REPLACE_ME"
+  district_voidark_phanon_minerals_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_minerals:0 "REPLACE_ME"
+  
+  district_voidark_phanon_decompressor:0 "REPLACE_ME"
+  district_voidark_phanon_decompressor_desc:0 "REPLACE_ME"
+  district_voidark_phanon_decompressor_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_decompressor:0 "REPLACE_ME"
+  
+  district_voidark_phanon_farming:0 "REPLACE_ME"
+  district_voidark_phanon_farming_desc:0 "REPLACE_ME"
+  district_voidark_phanon_farming_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_farming:0 "REPLACE_ME"
+  
+  district_voidark_phanon_unity:0 "REPLACE_ME"
+  district_voidark_phanon_unity_desc:0 "REPLACE_ME"
+  district_voidark_phanon_unity_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_unity:0 "REPLACE_ME"
+  
+  district_voidark_phanon_unity_spiritualist:0 "REPLACE_ME"
+  district_voidark_phanon_unity_spiritualist_desc:0 "REPLACE_ME"
+  district_voidark_phanon_unity_spiritualist_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_unity_spiritualist:0 "REPLACE_ME"
+  
+  district_voidark_phanon_unity_hive:0 "REPLACE_ME"
+  district_voidark_phanon_unity_hive_desc:0 "REPLACE_ME"
+  district_voidark_phanon_unity_hive_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_unity_hive:0 "REPLACE_ME"
+  
+  district_voidark_phanon_unity_machine:0 "REPLACE_ME"
+  district_voidark_phanon_unity_machine_desc:0 "REPLACE_ME"
+  district_voidark_phanon_unity_machine_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_unity_machine:0 "REPLACE_ME"
+  
+  district_voidark_phanon_unity_servitor:0 "REPLACE_ME"
+  district_voidark_phanon_unity_servitor_desc:0 "REPLACE_ME"
+  district_voidark_phanon_unity_servitor_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_unity_servitor:0 "REPLACE_ME"
+  
+  district_voidark_phanon_science:0 "REPLACE_ME"
+  district_voidark_phanon_science_desc:0 "REPLACE_ME"
+  district_voidark_phanon_science_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_science:0 "REPLACE_ME"
+  phanon_science_tt:0 "REPLACE_ME"
+  
+  district_voidark_phanon_amenities:0 "REPLACE_ME"
+  district_voidark_phanon_amenities_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_amenities:0 "REPLACE_ME"
+  district_voidark_phanon_amenities_desc:0 "REPLACE_ME"
+  district_voidark_phanon_amenities_spiritualist:0 "REPLACE_ME"
+  district_voidark_phanon_amenities_spiritualist_desc:0 "REPLACE_ME"
+  district_voidark_phanon_amenities_spiritualist_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_amenities_spiritualist:0 "REPLACE_ME"
+  
+  
+  #doesnt exists
+  district_voidark_phanon_amenities_machine:0 "REPLACE_ME"
+  district_voidark_phanon_amenities_machine_desc:0 "REPLACE_ME"
+  district_voidark_phanon_amenities_machine_plural:0 "REPLACE_ME"
+  district_voidark_phanon_amenities_hive:0 "REPLACE_ME"
+  district_voidark_phanon_amenities_hive_desc:0 "REPLACE_ME"
+  district_voidark_phanon_amenities_hive_plural:0 "REPLACE_ME"
+  
+  district_voidark_phanon_amenities_dystopian:0 "REPLACE_ME"
+  district_voidark_phanon_amenities_dystopian_desc:0 "REPLACE_ME"
+  district_voidark_phanon_amenities_dystopian_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_amenities_dystopian:0 "REPLACE_ME"
+  
+  district_voidark_phanon_enforcer:0 "REPLACE_ME"
+  district_voidark_phanon_enforcer_desc:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_enforcer:0 "REPLACE_ME"
+  district_voidark_phanon_enforcer_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_enforcer_spiritualist:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_enforcer_spiritualist_desc:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_enforcer_spiritualist_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_enforcer_machine:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_enforcer_machine_desc:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_enforcer_machine_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_enforcer_hive:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_enforcer_hive_desc:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_enforcer_hive_plural:0 "REPLACE_ME"
+  
+  
+  district_voidark_phanon_ordinance:0 "REPLACE_ME"
+  district_voidark_phanon_ordinance_desc:0 "REPLACE_ME"
+  district_voidark_phanon_ordinance_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_ordinance:0 "REPLACE_ME"
+  
+  district_voidark_phanon_ordinance_naval:0 "REPLACE_ME"
+  district_voidark_phanon_ordinance_naval_desc:0 "REPLACE_ME"
+  district_voidark_phanon_ordinance_naval_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_ordinance_naval:0 "REPLACE_ME"
+  
+  district_voidark_phanon_ordinance_missile:0 "REPLACE_ME"
+  district_voidark_phanon_ordinance_missile_desc:0 "REPLACE_ME"
+  district_voidark_phanon_ordinance_missile_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_ordinance_missile:0 "REPLACE_ME"
+  
+  district_voidark_phanon_ordinance_kinetic:0 "REPLACE_ME"
+  district_voidark_phanon_ordinance_kinetic_desc:0 "REPLACE_ME"
+  district_voidark_phanon_ordinance_kinetic_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_ordinance_kinetic:0 "REPLACE_ME"
+  
+  district_voidark_phanon_ordinance_energy:0 "REPLACE_ME"
+  district_voidark_phanon_ordinance_energy_desc:0 "REPLACE_ME"
+  district_voidark_phanon_ordinance_energy_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_ordinance_energy:0 "REPLACE_ME"
+  
+  district_voidark_phanon_ordinance_strike_craft:0 "REPLACE_ME"
+  district_voidark_phanon_ordinance_strike_craft_desc:0 "REPLACE_ME"
+  district_voidark_phanon_ordinance_strike_craft_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_ordinance_strike_craft:0 "REPLACE_ME"
+  
+  district_voidark_phanon_ordinance_full_batteries:0 "REPLACE_ME"
+  district_voidark_phanon_ordinance_full_batteries_desc:0 "REPLACE_ME"
+  district_voidark_phanon_ordinance_full_batteries_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_ordinance_full_batteries:0 "REPLACE_ME"
+  
+  district_voidark_phanon_refinery:0 "REPLACE_ME"
+  district_voidark_phanon_refinery_desc:0 "REPLACE_ME"
+  district_voidark_phanon_refinery_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_refinery:0 "REPLACE_ME"
+  
+  district_voidark_phanon_darkmatter:0 "REPLACE_ME"
+  district_voidark_phanon_darkmatter_desc:0 "REPLACE_ME"
+  district_voidark_phanon_darkmatter_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_darkmatter:0 "REPLACE_ME"
+  
+  #todo adjust on other levels
+  district_voidark_phanon_storage:0 "REPLACE_ME"
+  district_voidark_phanon_storage_desc:0 "REPLACE_ME"
+  district_voidark_phanon_storage_plural:0 "REPLACE_ME"
+  district_voidark_phanon_storage_effect:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_storage:0 "REPLACE_ME"
+  
+  district_voidark_phanon_utilbay:0 "REPLACE_ME"
+  district_voidark_phanon_utilbay_desc:0 "REPLACE_ME"
+  district_voidark_phanon_utilbay_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_utilbay:0 "REPLACE_ME"
+  
+  district_voidark_phanon_negativemass:0 "REPLACE_ME"
+  district_voidark_phanon_negativemass_desc:0 "REPLACE_ME"
+  district_voidark_phanon_negativemass_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_negativemass:0 "REPLACE_ME"
+  
+  district_voidark_phanon_sentient_metal:0 "REPLACE_ME"
+  district_voidark_phanon_sentient_metal_desc:0 "REPLACE_ME"
+  district_voidark_phanon_sentient_metal_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_sentient_metal:0 "REPLACE_ME"
+  
+  district_voidark_phanon_supertensiles:0 "REPLACE_ME"
+  district_voidark_phanon_supertensiles_desc:0 "REPLACE_ME"
+  district_voidark_phanon_supertensiles_plural:0 "REPLACE_ME"
+  flavor_district_voidark_phanon_supertensiles:0 "REPLACE_ME"
+  
+  district_voidark_phanon_vault_integration:0 "REPLACE_ME"
+  district_voidark_phanon_vault_integration_desc:0 "REPLACE_ME"
+  district_voidark_phanon_vault_integration_plural:0 "REPLACE_ME"
+  flavor_voidark_phanon_vault_integration:0 "REPLACE_ME"
+  
+  
