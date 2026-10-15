@@ -317,49 +317,22 @@ country_event = {
     is_triggered_only = yes
     trigger = {
         is_same_value = event_target:voidark_normal_country
+        NOT = { is_same_value = event_target:voidark_rival_country }
         has_integrated_all_data_and_storage_planets = no
     }
     title = voidark_vault_invasion.999.title
     desc = {
-        text = voidark_vault_invasion.999.rival.desc
-        trigger = {
-            AND = {
-                has_country_flag = voidark_hacked_star_traveller
-                is_same_value = event_target:voidark_rival_country
-            }
-        }
-    }
-    desc = {
         text = voidark_vault_invasion.999.desc
         trigger = {
-            OR = {
-                AND = {
-                    is_same_value = event_target:voidark_normal_country
-                    NOT = { is_same_value = event_target:voidark_rival_country }
-                }
-                AND = {
-                    is_same_value = event_target:voidark_rival_country
-                    NOT = { has_country_flag = voidark_hacked_star_traveller }
-                }
+            AND = {
+                is_same_value = event_target:voidark_normal_country
+                NOT = { is_same_value = event_target:voidark_rival_country }
             }
         }
     }
     picture = GFX_evt_arkship_in_orbit #todo change?
-
     option = {
         name = voidark_vault_invasion.999.a #Begin integration & removal of system
-        trigger = {
-            OR = {
-                AND = {
-                    is_same_value = event_target:voidark_normal_country
-                    NOT = { is_same_value = event_target:voidark_rival_country }
-                }
-                AND = {
-                    is_same_value = event_target:voidark_rival_country
-                    NOT = { has_country_flag = voidark_hacked_star_traveller }
-                }
-            }
-        }
         custom_tooltip = voidark_vault_invasion.999.a.tt
         hidden_effect = {
             set_country_flag = voidark_remove_droppoint_resources
@@ -388,55 +361,8 @@ country_event = {
     }
 
     option = {
-        name = {
-            trigger = {
-                OR = {
-                    AND = {
-                        is_same_value = event_target:voidark_normal_country
-                        NOT = { is_same_value = event_target:voidark_rival_country }
-                    }
-                    AND = {
-                        is_same_value = event_target:voidark_rival_country
-                        NOT = { has_country_flag = voidark_hacked_star_traveller }
-                    }
-                }
-            }
-            text = voidark_vault_invasion.999.b #Keep resource planets & system around
-        }
-        name = {
-            trigger = {
-                AND = {
-                    is_same_value = event_target:voidark_rival_country
-                    has_country_flag = voidark_hacked_star_traveller
-                }
-            }
-            text = voidark_vault_invasion.999.c
-        }
-        if = {
-            limit = {
-                OR = {
-                    AND = {
-                        is_same_value = event_target:voidark_normal_country
-                        NOT = { is_same_value = event_target:voidark_rival_country }
-                    }
-                    AND = {
-                        is_same_value = event_target:voidark_rival_country
-                        NOT = { has_country_flag = voidark_hacked_star_traveller }
-                    }
-                }
-            }
-            custom_tooltip = voidark_vault_invasion.999.b.tt
-        }
-        else_if = {
-            limit = {
-                AND = {
-                    is_same_value = event_target:voidark_rival_country
-                    has_country_flag = voidark_hacked_star_traveller
-                }
-            }
-            custom_tooltip = voidark_vault_invasion.999.c.tt
-        }
-
+        name = voidark_vault_invasion.999.b
+        custom_tooltip = voidark_vault_invasion.999.b.tt
         hidden_effect = {
             set_country_flag = voidark_keep_droppoint_resources
             end_event_chain = voidark_vault_integration
@@ -454,10 +380,6 @@ country_event = {
     picture = GFX_evt_glitchy_matrix
     title = voidark_vault_invasion.9991.title
     desc = voidark_vault_invasion.9991.desc
-
-    immediate = {
-        destroy_droppoint_temp_vassal = yes
-    }
 
     option = {
         name = voidark_vault_invasion.9991.a

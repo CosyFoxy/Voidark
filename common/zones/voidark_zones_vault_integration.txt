@@ -34,6 +34,22 @@ zone_voidark_phanon_vault_integration_primary = {
     include = {
         all
     }
+    excluded_building_sets = {
+        xhk_worldark_ktisma
+        xhk_worldark_orykta
+        xhk_worldark_physma
+        voidark_voidbirch
+        generator
+        mining
+        farming
+        knights
+        betharian
+        generator_automation
+        mining_automation
+        farming_automation
+        urban_automation_arcology
+        urban_automation
+    }
     triggered_district_planet_modifier = {
         planet_housing_add = 3000
     }
@@ -59,8 +75,12 @@ zone_voidark_phanon_vault_integration_1 = {
             }
         }
     }
-    include = {
-        all
+    included_building_sets = {
+        mining
+        foundry
+        industry
+        engineering
+        origin
     }
     max_buildings = @[3+voidark_building_number]
     triggered_planet_modifier = {
@@ -141,8 +161,13 @@ zone_voidark_phanon_vault_integration_2 = {
             }
         }
     }
-    include = {
-        all
+    included_building_sets = {
+        farming
+        factory
+        amenities
+        unity
+        society
+        origin
     }
     max_buildings = @[3+voidark_building_number]
     triggered_planet_modifier = {
@@ -220,8 +245,12 @@ zone_voidark_phanon_vault_integration_3 = {
             }
         }
     }
-    include = {
-        all
+    included_building_sets = {
+        physics
+        generator
+        research
+        fortress
+        origin
     }
     max_buildings = @[3+voidark_building_number]
     triggered_planet_modifier = {
