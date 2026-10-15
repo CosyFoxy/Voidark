@@ -12,10 +12,10 @@ zone_voidark_vault_integration_dummy = {
 zone_voidark_phanon_vault_integration_primary = {
     icon = GFX_diplomatic_weight_large
     base_buildtime = 360
-    max_buildings = @[6+voidark_building_number]
+    max_buildings = @[6+voidark_main_zone_building_number]
     triggered_planet_modifier = {
         potential = { always = yes }
-        zone_building_slots_add = @[6+voidark_building_number]
+        zone_building_slots_add = @[6+voidark_main_zone_building_number]
     }
     potential = {
         is_planet_class = xhk_pc_worldark

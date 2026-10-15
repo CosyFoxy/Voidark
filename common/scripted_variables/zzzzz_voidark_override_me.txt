@@ -6,6 +6,7 @@
 
 #BPVR Easy Compat
 @voidark_building_number = 0
+@voidark_main_zone_building_number = 0
 
 ################################################################################
 # Other mods
