@@ -386,6 +386,20 @@ country_event = {
         custom_tooltip = voidark_vault_invasion.9991.a.tt
         hidden_effect = {
             end_event_chain = voidark_vault_integration
+            random_system = {
+                limit = {
+                    has_star_flag = phanon_home_base
+                    any_starbase_in_system = { is_ship_size = acot_pmc_starbase }
+                }
+                starbase.fleet = {
+                    if = {
+                        limit = {
+                            is_ship_size = acot_pmc_starbase
+                        }
+                    }
+                    destroy_fleet = this
+                }
+            }
         }
     }
 }
