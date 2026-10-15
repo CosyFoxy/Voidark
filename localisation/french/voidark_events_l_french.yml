@@ -8,3 +8,46 @@
   voidark_vault_invasion.11.b:99 "That was stupid of us..."
   voidark_vault_invasion.11.b.response:99 "You may purchase border access again, if you wish to do so. However, be aware, that any subsequent offence will lead to immediate termination of border access once again."
   
+  
+  #VAULT INTEGRATION
+  voidark_vault_invasion.993.title:0 "Phanon Vault Integration"
+  voidark_vault_invasion.993.desc:0 "After the dust of our clash with the Phanon Corporation settled, further investigations into the databanks of the Infinite Corridors yielded a surprising finding. Next to blueprints of armaments of impossible scale, we found one plan that piqued our interest.$NEW_LINE$$NEW_LINE$§K"Mobile Vault Solution."§!$NEW_LINE$$NEW_LINE$While further deciphering is required to understand the feasibility of this project, our initial assumptions lead us to believe that this blueprint may allow us to §Hintegrate the Vault§! into our §H$xhk_pc_worldark$§!.$NEW_LINE$We must now decide how to proceed."
+  voidark_vault_invasion.993.a:0 "Analyse the blueprint."
+  voidark_vault_invasion.993.a.tt:0 "Begins the process of integrating the Vault."
+  voidark_vault_invasion.993.b:0 "Not worth our time."
+  voidark_vault_invasion.993.b.tt:0 "You keep the Droppoint as currently is. \n§RThis will lock you out of integrating the Vault§!."
+  
+  voidark_vault_invasion.994.title:0 "Analysis Complete!"
+  voidark_vault_invasion.994.desc:0 "We have completed the analysis of the blueprint found on the Phanon Vault. As assumed, this will allow us to integrate the Vault. Our researchers have created a proposal for how to proceed.$NEW_LINE$$NEW_LINE$§HResearch the required technology to proceed!§!"
+  voidark_vault_invasion.994.a:0 "To the labs!"
+  
+  voidark_vault_invasion.9941.title:0 "Analysis Completed!"
+  voidark_vault_invasion.9941.desc:0 "Our reports indicate that you have accessed file XVI-3324A from the Vaults archives. This project was never further researched by us, as we deemed it unimportant for the scope of our operations.$NEW_LINE$Mayhaps the project has more value for your Nomad Lifestyle. Go ahead, see whether you can make use of it."
+  voidark_vault_invasion.9941.a:0 "You won't mind?"
+  voidark_vault_invasion.9941.a.response:0 "Ah, I understand your confusion, but let me assure you. Through our mutual support, you have already received access to many of our technological projects. Equally, we have established the previous approach to storing these projects to be ... suboptimal. Hence, all project data has already been copied and stored by us in a more secure location.$NEW_LINE$$NEW_LINE$The Vault is thus essentially worthless to us. Do with it as you please."
+  voidark_vault_invasion.9941.b:0 "Can you help us?"
+  voidark_vault_invasion.9941.b.response:0 "Oh my, you wish us to assist you in adapting the contents of the project to suit your vessel? Hmm, while usually we would charge a heavy fee for technological assistance, your invaluable support is to be rewarded.$NEW_LINE$$NEW_LINE$Here, we will transfer the files of a scrapped research attempt by one of our agents. This data should speed up your investigation."
+  
+  voidark_vault_invasion.995.title:0 "Research Completed!"
+  voidark_vault_invasion.995.desc:0 "After thorough research into the blueprint, we have managed to design a project suitable to allow us to integrate the Vault into our $xhk_pc_worldark$.$NEW_LINE$$NEW_LINE$Our next step will be to perform the logistical project of transferring the required structural assets from the Vault."
+  voidark_vault_invasion.995.a:0 "Let us begin."
+  voidark_vault_invasion.995.a.tt:0 "Enables Integration Special Project. Completing this project will integrate the vault and move all pops to the $xhk_pc_worldark$. Ensure you have enough housing available."
+  
+  voidark_vault_invasion.996.title:0 "Integration Completed!"
+  voidark_vault_invasion.996.desc:0 "After lengthy work, we have finally completed the integration of the Vault! Now, it's capabilities will be available to us wherever we go!"
+  voidark_vault_invasion.996.a:0 "Finally."
+  voidark_vault_invasion.996.a.tt:0 "A new district will be created on the $xhk_pc_worldark$. Pops will resettle in 1 day."
+  
+  voidark_vault_invasion.999.title:0 "Further Integration"
+  voidark_vault_invasion.999.desc:0 "With the integration of the Vault completed, we now turn out attention to the various deposits found within the Droppoint system. Our analysis indicates that we will be able to integrate their productive capabilities into our $xhk_pc_worldark$, however at a reduced output.$NEW_LINE$Nevertheless, the direct integration will remove the need to collect the resources through a Waystation."
+  voidark_vault_invasion.999.a:0 "Begin integration."
+  voidark_vault_invasion.999.a.tt:0 "Creates special projects to integrate the deposits of the various Data & Storage Planets."
+  voidark_vault_invasion.999.b:0 "Keep them as they are."
+  voidark_vault_invasion.999.b.tt:0 "The Data & Storage planets will remain as they are. Use a Waystation to benefit from them."
+  voidark_vault_invasion.999.c:0 "Understood."
+  voidark_vault_invasion.999.c.tt:0 "The integration for the Rival path ends here."
+  
+  voidark_vault_invasion.9991.title:0 "Release of the Droppoint System!"
+  voidark_vault_invasion.9991.desc:0 "With the Vault and all Data & Storage planets integrated into our $xhk_pc_worldark$, there is little value left for us in keeping the Droppoint Nomadic Ownership System. It is in our best interest now to relinquish this temporary control."
+  voidark_vault_invasion.9991.a:0 "Relinquish Control."
+  voidark_vault_invasion.9991.a.tt:0 "The temporary vassal controlling the starbase will be removed, and the system will be available for Outposts again."

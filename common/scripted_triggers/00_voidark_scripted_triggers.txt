@@ -155,3 +155,31 @@ has_concluded_vault_invasion = {
         has_country_flag = acot_phanon_tech_stage_four_enabled
     }
 }
+
+has_concluded_phanon_crisis = {
+    AND = {
+        owner? = {
+            NOT = {
+                has_event_chain = acot_phanon_event_chain
+            }
+        }
+        NOT = { has_global_flag = acot_phanon_retaliation_crisis_initiated }
+    }
+}
+
+has_integrated_all_data_and_storage_planets = {
+    owner? = {
+        capital_scope = {
+            AND = {
+                count_deposits = {
+                    type = d_voidark_data_planet_integration
+                    count >= 6
+                }
+                count_deposits = {
+                    type = d_voidark_storage_planet_integration
+                    count >= 7
+                }
+            }
+        }
+    }
+}

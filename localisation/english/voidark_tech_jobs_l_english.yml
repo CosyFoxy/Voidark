@@ -149,3 +149,12 @@
  voidark_tech_unlock_phanon_wall_component_desc:0 "Based on the defensive blueprints of a massive structure called the $tech_phanon_great_wall$, the vault contained a blueprint for this massive component meant for mobile stations. Its firepower borders at insanity."
  TECH_UNLOCK_VOIDARK_STELLARITE_PYLON_STAR:0 "§HUnlocks Module Upgrade:§! $SL_voidark_miniature_stellarite_pylon_star$"
  TECH_UNLOCK_VOIDARK_STELLARITE_PYLON_STAR_DESC:0 "$SL_voidark_miniature_stellarite_pylon_star_desc$"
+
+ tech_voidark_phanon_vault_integration:0 "$pc_acot_pmc_vault$ Integration"
+ tech_voidark_phanon_vault_integration_desc:0 "A proposal set out by our researchers for the analysis of the blueprint found. Perhaps researching this will allow us to understand how to integrate some of the Vault's capabilities."
+
+ tech_voidark_stellarite_vault_integration:0 "A Shining Touch"
+ tech_voidark_stellarite_vault_integration_desc:0 "We will research how to infuse stellarite energy into our integrated vault structures. While we assume this not to bring too many benefits, it will not hurt to try nevertheless."
+
+ TECH_UNLOCK_VOIDARK_PHANON_VAULT_INTEGRATION:0 "$i_unlocks_feature$ $pc_acot_pmc_vault$ Integration"
+
