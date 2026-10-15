@@ -1,0 +1,5 @@
+max_buildings = @[$NUM_BUILDINGS$-(has_bpv_mbs_mod*$NUM_BUILDINGS$)+(has_bpv_mbs_mod*BPV_CITY_SLOT)]
+triggered_planet_modifier = {
+    potential = { always = yes }
+    zone_building_slots_add = @[$NUM_BUILDINGS$-(has_bpv_mbs_mod*$NUM_BUILDINGS$)+(has_bpv_mbs_mod*BPV_CITY_SLOT)]
+}

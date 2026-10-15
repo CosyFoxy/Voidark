@@ -21,6 +21,7 @@ zone_voidark_stellarite_urban = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
         
@@ -71,6 +72,7 @@ zone_voidark_stellarite_factory = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -114,6 +116,7 @@ zone_voidark_stellarite_foundry = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
         POTENTIAL = ""
@@ -152,6 +155,7 @@ zone_voidark_stellarite_voidforge = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -220,6 +224,7 @@ zone_voidark_stellarite_trade = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -257,6 +262,7 @@ zone_voidark_stellarite_waylogi = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
         POTENTIAL = ""
@@ -309,6 +315,7 @@ zone_voidark_stellarite_generator = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -352,6 +359,7 @@ zone_voidark_stellarite_penrose = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -397,6 +405,7 @@ zone_voidark_stellarite_generator_speed = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = "custom_tooltip = {
                      text = zone_unavailable_tech_afterburners_stellarite
                      owner? = {
@@ -455,6 +464,7 @@ zone_voidark_stellarite_penrose_speed = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = "custom_tooltip = {
                      text = zone_unavailable_tech_afterburners_stellarite
                      owner? = {
@@ -512,6 +522,7 @@ zone_voidark_stellarite_generator_shield = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
         POTENTIAL = "carrier.starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}"
@@ -561,6 +572,7 @@ zone_voidark_stellarite_penrose_shield = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -614,6 +626,7 @@ zone_voidark_stellarite_mining = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
         POTENTIAL = "carrier.starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}"
@@ -661,6 +674,7 @@ zone_voidark_stellarite_decompressor = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
         POTENTIAL = "carrier.starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole}"
@@ -715,6 +729,7 @@ zone_voidark_stellarite_farming = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -759,6 +774,7 @@ zone_voidark_stellarite_unity = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -800,6 +816,7 @@ zone_voidark_stellarite_machine = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -849,6 +866,7 @@ zone_voidark_stellarite_hive = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -898,6 +916,7 @@ zone_voidark_stellarite_spiritualist = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -963,6 +982,7 @@ zone_voidark_stellarite_servitor = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -1017,6 +1037,7 @@ zone_voidark_stellarite_research = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -1071,6 +1092,7 @@ zone_voidark_stellarite_amenities = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
         POTENTIAL = "owner? = { NOT = { has_valid_civic = civic_dystopian_society } }"
@@ -1149,6 +1171,7 @@ zone_voidark_stellarite_amenities_dystopian = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
         POTENTIAL = "owner? = { has_valid_civic = civic_dystopian_society } "
@@ -1227,6 +1250,7 @@ zone_voidark_stellarite_enforcer = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -1273,6 +1297,7 @@ zone_voidark_stellarite_refinery = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -1311,6 +1336,7 @@ zone_voidark_stellarite_darkmatter= {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -1386,6 +1412,7 @@ zone_voidark_stellarite_supertensiles = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
         POTENTIAL = ""
@@ -1412,6 +1439,7 @@ zone_voidark_stellarite_negativemass = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
         POTENTIAL = ""
@@ -1475,6 +1503,7 @@ zone_voidark_stellarite_sentient_metal = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
         POTENTIAL = ""
@@ -1534,6 +1563,7 @@ zone_voidark_stellarite_ordinance_naval = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -1577,6 +1607,7 @@ zone_voidark_stellarite_ordinance_missile = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -1619,6 +1650,7 @@ zone_voidark_stellarite_ordinance_kinetic = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -1662,6 +1694,7 @@ zone_voidark_stellarite_ordinance_energy = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -1704,6 +1737,7 @@ zone_voidark_stellarite_ordinance_strike_craft = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -1746,6 +1780,7 @@ zone_voidark_stellarite_ordinance_full_batteries = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 
@@ -1806,6 +1841,7 @@ zone_voidark_stellarite_storage = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 1
+        ZONE_BUILDINGS_TYPE = fixed
         UNLOCK = ""
         TIER = stellarite
 
@@ -1864,6 +1900,7 @@ zone_voidark_stellarite_utilbay = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
 

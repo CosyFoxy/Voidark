@@ -26,10 +26,9 @@ resources = {
         }
     }
 }
-max_buildings = @[$NUM_BUILDINGS$+voidark_building_number]
-triggered_planet_modifier = {
-    potential = { always = yes }
-    zone_building_slots_add = @[$NUM_BUILDINGS$+voidark_building_number]
+inline_script = {
+    script = voidark/zones/parts/$ZONE_BUILDINGS_TYPE$_zone_buildings
+    NUM_BUILDINGS = $NUM_BUILDINGS$
 }
 
 inline_script = {

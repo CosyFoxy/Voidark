@@ -13,6 +13,7 @@ zone_voidark_birch_basic = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 0
+        ZONE_BUILDINGS_TYPE = fixed
         UNLOCK = ""
         TIER = all
         POTENTIAL = "has_global_flag = acot_activated"
@@ -30,6 +31,7 @@ zone_voidark_birch_upgrade = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 2
+        ZONE_BUILDINGS_TYPE = fixed
         UNLOCK = "owner? = { has_technology = tech_voidark_voidbirch }"
         TIER = all
         POTENTIAL = "has_global_flag = acot_activated"

@@ -12,10 +12,9 @@ zone_voidark_vault_integration_dummy = {
 zone_voidark_phanon_vault_integration_primary = {
     icon = GFX_diplomatic_weight_large
     base_buildtime = 360
-    max_buildings = @[6+voidark_main_zone_building_number]
-    triggered_planet_modifier = {
-        potential = { always = yes }
-        zone_building_slots_add = @[6+voidark_main_zone_building_number]
+    inline_script = {
+        script = voidark/zones/parts/big_zone_buildings
+        NUM_BUILDINGS = 6
     }
     potential = {
         is_planet_class = xhk_pc_worldark
@@ -82,10 +81,9 @@ zone_voidark_phanon_vault_integration_1 = {
         engineering
         origin
     }
-    max_buildings = @[3+voidark_building_number]
-    triggered_planet_modifier = {
-        potential = { always = yes }
-        zone_building_slots_add = @[3+voidark_building_number]
+    inline_script = {
+        script = voidark/zones/parts/small_zone_buildings
+        NUM_BUILDINGS = 3
     }
     resources = {
         category = planet_zones
@@ -169,10 +167,9 @@ zone_voidark_phanon_vault_integration_2 = {
         society
         origin
     }
-    max_buildings = @[3+voidark_building_number]
-    triggered_planet_modifier = {
-        potential = { always = yes }
-        zone_building_slots_add = @[3+voidark_building_number]
+    inline_script = {
+        script = voidark/zones/parts/small_zone_buildings
+        NUM_BUILDINGS = 3
     }
     resources = {
         category = planet_zones
@@ -253,9 +250,9 @@ zone_voidark_phanon_vault_integration_3 = {
         origin
     }
     max_buildings = @[3+voidark_building_number]
-    triggered_planet_modifier = {
-        potential = { always = yes }
-        zone_building_slots_add = @[3+voidark_building_number]
+    inline_script = {
+        script = voidark/zones/parts/small_zone_buildings
+        NUM_BUILDINGS = 3
     }
     resources = {
         category = planet_zones

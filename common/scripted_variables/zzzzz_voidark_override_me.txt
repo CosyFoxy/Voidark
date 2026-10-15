@@ -5,6 +5,9 @@
 @has_voidark = 1
 
 #BPVR Easy Compat
+@has_bpv_mbs_mod = 0
+@BPV_CITY_SLOT = 0
+@BPV_ZONE_SLOT = 0
 @voidark_building_number = 0
 @voidark_main_zone_building_number = 0
 

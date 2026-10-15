@@ -21,9 +21,10 @@ zone_voidark_delta_urban = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -71,9 +72,10 @@ zone_voidark_delta_factory = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -114,6 +116,7 @@ zone_voidark_delta_foundry = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
         POTENTIAL = ""
@@ -152,9 +155,10 @@ zone_voidark_delta_voidforge = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -219,9 +223,10 @@ zone_voidark_delta_trade = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -256,6 +261,7 @@ zone_voidark_delta_waylogi = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
         POTENTIAL = ""
@@ -308,9 +314,10 @@ zone_voidark_delta_generator = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = "carrier.starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}"
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -351,9 +358,10 @@ zone_voidark_delta_penrose = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = "carrier.starbase  = { has_starbase_module = xhk_worldark_corespinal_blackhole}"
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -396,6 +404,7 @@ zone_voidark_delta_generator_speed = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = "custom_tooltip = {
                      text = zone_unavailable_tech_afterburners_delta
                      owner? = {
@@ -403,7 +412,7 @@ zone_voidark_delta_generator_speed = {
                      }
                   }"
         TIER = delta
-        
+
         POTENTIAL = "carrier.starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}"
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -454,6 +463,7 @@ zone_voidark_delta_penrose_speed = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = "custom_tooltip = {
                      text = zone_unavailable_tech_afterburners_delta
                      owner? = {
@@ -461,7 +471,7 @@ zone_voidark_delta_penrose_speed = {
                      }
                   }"
         TIER = delta
-        
+
         POTENTIAL = "carrier.starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole}"
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -511,6 +521,7 @@ zone_voidark_delta_generator_shield = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
         POTENTIAL = "carrier.starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}"
@@ -560,9 +571,10 @@ zone_voidark_delta_penrose_shield = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = "carrier.starbase  = { has_starbase_module = xhk_worldark_corespinal_blackhole}"
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -611,6 +623,7 @@ zone_voidark_delta_mining = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
         POTENTIAL = "carrier.starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}"
@@ -659,6 +672,7 @@ zone_voidark_delta_decompressor = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
         POTENTIAL = "carrier.starbase = { has_starbase_module = xhk_worldark_corespinal_blackhole}"
@@ -713,9 +727,10 @@ zone_voidark_delta_farming = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -757,9 +772,10 @@ zone_voidark_delta_unity = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = "
              owner? = {
                 is_gestalt = no
@@ -804,6 +820,7 @@ zone_voidark_delta_machine = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
 
@@ -853,6 +870,7 @@ zone_voidark_delta_hive = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
 
@@ -902,9 +920,10 @@ zone_voidark_delta_spiritualist = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = "
             exists = owner
             owner = {
@@ -967,9 +986,10 @@ zone_voidark_delta_servitor = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = "
             owner? = {
                 has_valid_civic = civic_machine_servitor
@@ -1021,9 +1041,10 @@ zone_voidark_delta_research = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -1075,6 +1096,7 @@ zone_voidark_delta_amenities = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
         POTENTIAL = "owner? = { NOT = { has_valid_civic = civic_dystopian_society } }"
@@ -1154,6 +1176,7 @@ zone_voidark_delta_amenities_dystopian = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
         POTENTIAL = "owner? = { has_valid_civic = civic_dystopian_society } "
@@ -1235,9 +1258,10 @@ zone_voidark_delta_enforcer = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -1281,9 +1305,10 @@ zone_voidark_delta_refinery = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -1319,9 +1344,10 @@ zone_voidark_delta_darkmatter= {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -1378,6 +1404,7 @@ zone_voidark_delta_supertensiles = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
         POTENTIAL = ""
@@ -1403,6 +1430,7 @@ zone_voidark_delta_negativemass = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
         POTENTIAL = ""
@@ -1467,6 +1495,7 @@ zone_voidark_delta_sentient_metal = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
         POTENTIAL = ""
@@ -1529,9 +1558,10 @@ zone_voidark_delta_ordinance_naval = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -1572,9 +1602,10 @@ zone_voidark_delta_ordinance_missile = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -1614,9 +1645,10 @@ zone_voidark_delta_ordinance_kinetic = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -1657,9 +1689,10 @@ zone_voidark_delta_ordinance_energy = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -1699,9 +1732,10 @@ zone_voidark_delta_ordinance_strike_craft = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -1741,6 +1775,7 @@ zone_voidark_delta_ordinance_full_batteries = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
 
@@ -1801,9 +1836,10 @@ zone_voidark_delta_storage = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 1
+        ZONE_BUILDINGS_TYPE = fixed
         UNLOCK = ""
         TIER = delta
-        
+
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
@@ -1857,6 +1893,7 @@ zone_voidark_delta_utilbay = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = delta
         

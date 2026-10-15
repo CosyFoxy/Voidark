@@ -1,0 +1,6 @@
+#DEAR BPVR DO NOT TOUCH THIS
+max_buildings = $NUM_BUILDINGS$
+triggered_planet_modifier = {
+    potential = { always = yes }
+    zone_building_slots_add = $NUM_BUILDINGS$
+}
