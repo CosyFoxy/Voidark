@@ -1,0 +1,108 @@
+namespace = nomads
+# From = system
+# FromFrom = country (previous owner)
+# This = country (new owner)
+country_event = {
+    id = nomads.15
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        is_nomadic = yes
+    }
+
+    immediate = {
+        if = { # We split the check for attacker war and defender war into two different if's just to make scripting easier.
+            inline_script = {
+                script = events/nomad_total_war_ally_system_manager_no_planet
+                NOMAD = Root
+                NOMAD_SIDE = attacker
+                ENEMY = FromFrom
+                ENEMY_SIDE = defender
+                TARGET_SYSTEM = from
+            }
+        }
+        else_if = {
+            inline_script = {
+                script = events/nomad_total_war_ally_system_manager_no_planet
+                NOMAD = Root
+                NOMAD_SIDE = defender
+                ENEMY = FromFrom
+                ENEMY_SIDE = attacker
+                TARGET_SYSTEM = from
+            }
+        }
+        else_if = { #If we are the Khan we give the system to our system holder
+            limit = {
+                has_country_flag = heir_of_the_khan_khan
+                exists = event_target:marauder_country_1
+            }
+            event_target:marauder_country_1 = {
+                from.starbase = {
+                    set_owner = prev
+                }
+            }
+        }
+        else_if = { #If we have a vassal we give the system to them
+            limit = {
+                exists = fromfrom
+                any_subject = {
+                    has_country_flag = nomad_vassal@fromfrom
+                }
+            }
+            random_subject = {
+                limit = {
+                    has_country_flag = nomad_vassal@fromfrom
+                }
+                from.starbase = {
+                    set_owner = prev
+                }
+            }
+        }
+        else_if = { #If we have no vassal we give the system to the closest ally
+            inline_script = {
+                script = events/nomad_total_war_ally_system_manager_no_claim
+                NOMAD = Root
+                NOMAD_SIDE = attacker
+                ENEMY = FromFrom
+                ENEMY_SIDE = defender
+                TARGET_SYSTEM = from
+            }
+        }
+        else_if = {
+            inline_script = {
+                script = events/nomad_total_war_ally_system_manager_no_claim
+                NOMAD = Root
+                NOMAD_SIDE = defender
+                ENEMY = FromFrom
+                ENEMY_SIDE = attacker
+                TARGET_SYSTEM = from
+            }
+        }
+
+        ##BEGIN OVERRIDE
+        else = { #No vassal, no allies, no fleets.
+            from.starbase = {
+                fleet = {
+                    if = {
+                        limit = {
+                            OR = {
+                                AND = {
+                                    owner? = { is_same_value = event_target:vault_temp_owner }
+                                    NOT = { any_owned_ship = { is_ship_size = acot_pmc_starbase } }
+                                }
+                                inline_script = {
+                                    script = generic_parts/giga_toggled_code
+                                    toggle = @has_ancient_empire
+                                    code = "NOT = { any_owned_ship = { is_ship_size = ag_nomad_outpost } }"
+                                }
+                            }
+                        }
+                        destroy_fleet = this
+                    }
+                }
+            }
+        }
+        ##END OVERRIDE
+    }
+}

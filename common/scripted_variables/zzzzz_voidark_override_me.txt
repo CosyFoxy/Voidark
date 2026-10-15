@@ -11,3 +11,4 @@
 # Other mods
 ################################################################################
 @has_planetary_diversity_unique_worlds = 0
+@has_ancient_empire = 0
