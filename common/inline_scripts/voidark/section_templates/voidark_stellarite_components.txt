@@ -1,0 +1,23 @@
+# HANGAR
+component_slot = {
+    name = "STRIKE_CRAFT_49"
+    template = "large_strike_craft"
+    locatorname = "hangar_5"
+}
+component_slot = {
+    name = "STRIKE_CRAFT_50"
+    template = "large_strike_craft"
+    locatorname = "hangar_6"
+}
+
+# LARGE
+component_slot = {
+    name = "LARGE_GUN_69"
+    template = "invisible_large_turret"
+    locatorname = "large_5"
+}
+component_slot = {
+    name = "LARGE_GUN_70"
+    template = "invisible_large_turret"
+    locatorname = "large_6"
+}

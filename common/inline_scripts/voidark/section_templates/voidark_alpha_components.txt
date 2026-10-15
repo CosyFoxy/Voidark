@@ -1,0 +1,60 @@
+# HANGAR
+component_slot = {
+    name = "STRIKE_CRAFT_41"
+    template = "large_strike_craft"
+    locatorname = "hangar_5"
+}
+component_slot = {
+    name = "STRIKE_CRAFT_42"
+    template = "large_strike_craft"
+    locatorname = "hangar_6"
+}
+component_slot = {
+    name = "STRIKE_CRAFT_43"
+    template = "large_strike_craft"
+    locatorname = "hangar_7"
+}
+component_slot = {
+    name = "STRIKE_CRAFT_44"
+    template = "large_strike_craft"
+    locatorname = "hangar_8"
+}
+
+# XL
+component_slot = {
+    name = "EXTRA_LARGE_10"
+    template = "invisible_extra_large_fixed"
+    locatorname = "xl_04"
+}
+component_slot = {
+    name = "EXTRA_LARGE_11"
+    template = "invisible_extra_large_fixed"
+    locatorname = "xl_05"
+}
+component_slot = {
+    name = "EXTRA_LARGE_12"
+    template = "invisible_extra_large_fixed"
+    locatorname = "xl_06"
+}
+
+# LARGE
+component_slot = {
+    name = "LARGE_GUN_61"
+    template = "invisible_large_turret"
+    locatorname = "large_5"
+}
+component_slot = {
+    name = "LARGE_GUN_62"
+    template = "invisible_large_turret"
+    locatorname = "large_6"
+}
+component_slot = {
+    name = "LARGE_GUN_63"
+    template = "invisible_large_turret"
+    locatorname = "large_7"
+}
+component_slot = {
+    name = "LARGE_GUN_64"
+    template = "invisible_large_turret"
+    locatorname = "large_8"
+}
