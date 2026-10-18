@@ -70,9 +70,9 @@ zone_voidark_stellarite_mindlink = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = stellarite
-
         POTENTIAL = "owner? = { has_menace_perk = menp_behemoth_mind_meld }"
         TECHNOLOGY = "tech_voidark_stellarite"
     }
@@ -2002,6 +2002,7 @@ zone_voidark_stellarite_deep_sleep = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 0
+        ZONE_BUILDINGS_TYPE = fixed
         UNLOCK = ""
         TIER = stellarite
         POTENTIAL = "owner? = { is_deep_sleep_country = yes }"

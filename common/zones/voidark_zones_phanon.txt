@@ -24,7 +24,6 @@ zone_voidark_phanon_urban = {
         ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = phanon
-        
         POTENTIAL = "owner? = { NOT = { has_menace_perk = menp_behemoth_mind_meld } }"
         TECHNOLOGY = "tech_voidark_phanon"
     }
@@ -71,9 +70,9 @@ zone_voidark_phanon_mindlink = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
         UNLOCK = ""
         TIER = phanon
-
         POTENTIAL = "owner? = { has_menace_perk = menp_behemoth_mind_meld }"
         TECHNOLOGY = "tech_voidark_phanon"
     }
@@ -1995,6 +1994,7 @@ zone_voidark_phanon_deep_sleep = {
     inline_script = {
         script = voidark/zones/parts/basics_zones
         NUM_BUILDINGS = 0
+        ZONE_BUILDINGS_TYPE = fixed
         UNLOCK = ""
         TIER = phanon
         POTENTIAL = "owner? = { is_deep_sleep_country = yes }"

@@ -249,7 +249,6 @@ zone_voidark_phanon_vault_integration_3 = {
         fortress
         origin
     }
-    max_buildings = @[3+voidark_building_number]
     inline_script = {
         script = voidark/zones/parts/small_zone_buildings
         NUM_BUILDINGS = 3
