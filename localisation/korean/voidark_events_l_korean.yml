@@ -1,8 +1,8 @@
 ﻿l_korean:
   
   #Phanon Diplo on Waystation built
-  voidark_vault_invasion.11.desc.a:99 "Our scanners have indicated that you attempted to build a £waystation£ ['concept_waystation'] within our base of operations. This violates our consumer agreement, and resulted in the termination of your attempt. This system is unavailable for the construction of any of your stations, as stated in our terms and conditions."
-  voidark_vault_invasion.11.desc.b:99 "Our scanners have indicated that you once again attempted to build a £waystation£ ['concept_waystation'] within our base of operations.$NEW_LINE$As indicated in section 2358 A of the Consumer Punishment Agreement, we have revoked your border access."
+  voidark_vault_invasion.11.desc.a:99 "Our scanners have indicated that you attempted to build a £text_icon_waystation£ ['concept_waystation'] within our base of operations. This violates our consumer agreement, and resulted in the termination of your attempt. This system is unavailable for the construction of any of your stations, as stated in our terms and conditions."
+  voidark_vault_invasion.11.desc.b:99 "Our scanners have indicated that you once again attempted to build a £text_icon_waystation£ ['concept_waystation'] within our base of operations.$NEW_LINE$As indicated in section 2358 A of the Consumer Punishment Agreement, we have revoked your border access."
   voidark_vault_invasion.11.a:99 "Our apologies."
   voidark_vault_invasion.11.a.response:99 "This was your final warning. Do not attempt this again, or we will close our borders for you."
   voidark_vault_invasion.11.b:99 "That was stupid of us..."
@@ -24,7 +24,7 @@
   voidark_vault_invasion.9941.title:99 "Analysis Completed!"
   voidark_vault_invasion.9941.desc:99 "Our reports indicate that you have accessed file XVI-3324A from the Vaults archives. This project was never further researched by us, as we deemed it unimportant for the scope of our operations.$NEW_LINE$Mayhaps the project has more value for your Nomad Lifestyle. Go ahead, see whether you can make use of it."
   voidark_vault_invasion.9941.a:99 "You won't mind?"
-  voidark_vault_invasion.9941.a.response:99 "Ah, I understand your confusion, but let me assure you. Through our mutual support, you have already received access to many of our technological projects. Equally, we have established the previous approach to storing these projects to be ... suboptimal. Hence, all project data has already been copied and stored by us in a more secure location.$NEW_LINE$$NEW_LINE$The Vault is thus essentially worthless to us. Do with it as you please."
+  voidark_vault_invasion.9941.a.response:99 "Ah, I understand your confusion, but let me assure you. Through our mutual support, you have already received access to many of our technological projects. Equally, we have established the previous approach to storing these projects to be ... suboptimal. Hence, all project data has already been copied and stored by us in a more secure location.$NEW_LINE$$NEW_LINE$The Vault is thus essentially worthless to us. Do with it as you please.$NEW_LINE$$NEW_LINE$More integration, however, is out of the question."
   voidark_vault_invasion.9941.b:99 "Can you help us?"
   voidark_vault_invasion.9941.b.response:99 "Oh my, you wish us to assist you in adapting the contents of the project to suit your vessel? Hmm, while usually we would charge a heavy fee for technological assistance, your invaluable support is to be rewarded.$NEW_LINE$$NEW_LINE$Here, we will transfer the files of a scrapped research attempt by one of our agents. This data should speed up your investigation."
   
@@ -41,13 +41,13 @@
   voidark_vault_invasion.999.title:99 "Further Integration"
   voidark_vault_invasion.999.desc:99 "With the integration of the Vault completed, we now turn out attention to the various deposits found within the Droppoint system. Our analysis indicates that we will be able to integrate their productive capabilities into our $xhk_pc_worldark$, however at a reduced output.$NEW_LINE$Nevertheless, the direct integration will remove the need to collect the resources through a Waystation."
   voidark_vault_invasion.999.a:99 "Begin integration."
-  voidark_vault_invasion.999.a.tt:99 "Creates special projects to integrate the deposits of the various Data & Storage Planets."
+  voidark_vault_invasion.999.a.tt:99 "Begins integrating Data & Storage Planets.$NEW_LINE$§RWill remove system control once completed§!"
   voidark_vault_invasion.999.b:99 "Keep them as they are."
-  voidark_vault_invasion.999.b.tt:99 "The Data & Storage planets will remain as they are. Use a Waystation to benefit from them."
+  voidark_vault_invasion.999.b.tt:99 "The Data & Storage planets will remain as they are. Use a Waystation to benefit from them.$NEW_LINE$§RKeep control of the system§!"
   voidark_vault_invasion.999.c:99 "Understood."
   voidark_vault_invasion.999.c.tt:99 "The integration for the Rival path ends here."
   
   voidark_vault_invasion.9991.title:99 "Release of the Droppoint System!"
-  voidark_vault_invasion.9991.desc:99 "With the Vault and all Data & Storage planets integrated into our $xhk_pc_worldark$, there is little value left for us in keeping the Droppoint Nomadic Ownership System. It is in our best interest now to relinquish this temporary control."
+  voidark_vault_invasion.9991.desc:99 "With the Vault and all Data & Storage planets integrated into our $xhk_pc_worldark$, there is little value left for us in keeping control of the Droppoint System. It is in our best interest now to relinquish this temporary control."
   voidark_vault_invasion.9991.a:99 "Relinquish Control."
-  voidark_vault_invasion.9991.a.tt:99 "The temporary vassal controlling the starbase will be removed, and the system will be available for Outposts again."
+  voidark_vault_invasion.9991.a.tt:99 "The starbase will be destroyed and control removed."
