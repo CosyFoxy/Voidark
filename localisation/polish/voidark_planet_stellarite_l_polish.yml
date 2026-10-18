@@ -118,6 +118,11 @@
   zone_voidark_phanon_vault_integration_stellarite_tier_desc:0 "We have infused stellarite into the Vault's structures. While now being more expensive to maintain, it did show sufficient benefits."
   zone_voidark_phanon_vault_integration_stellarite_tier_tt:0 "$NEW_LINE$Doubles the capabilities of the integrated Vault's output at the cost of £acot_sr_stellarite£ ['acot_sr_stellarite']."
   
+  zone_voidark_stellarite_deep_sleep:99 "§H$concept_stellarite_tier$ $zone_xhk_worldark_deep_sleep$§!"
+  zone_voidark_stellarite_deep_sleep_desc:99 "$zone_xhk_worldark_deep_sleep_desc$"
+  
+  zone_voidark_stellarite_mindlink:99 "$zone_voidark_stellarite_urban$"
+  zone_voidark_stellarite_mindlink_desc:99 "$zone_voidark_stellarite_urban_desc$"
   
   #DISTRICTS ------------------------------------------------------------------
   district_voidark_stellarite_city:0 "§H$concept_stellarite_tier$ $district_xhk_worldark_city$§!"
@@ -347,4 +352,13 @@
   district_voidark_stellarite_vault_integration_plural:0 "REPLACE_ME"
   flavor_district_voidark_stellarite_vault_integration:0 "REPLACE_ME"
   
+  district_voidark_stellarite_deep_sleep:99 "§H$concept_stellarite_tier$ $district_xhk_worldark_deep_sleep$§!"
+  district_voidark_stellarite_deep_sleep_desc:99 "$district_xhk_worldark_deep_sleep_desc$"
+  district_voidark_stellarite_deep_sleep_plural:99 "§H$concept_stellarite_tier$ $district_xhk_worldark_deep_sleep_plural$§!"
+  flavor_district_voidark_stellarite_deep_sleep:99 "§Y$flavor_xhk_worldark_deep_sleep_name$§!"
+  
+  district_voidark_stellarite_mindlink:99 "§H$concept_stellarite_tier$ $district_xhk_worldark_mindlink$§!"
+  district_voidark_stellarite_mindlink_desc:99 "$district_xhk_worldark_mindlink_desc$"
+  district_voidark_stellarite_mindlink_plural:99 "§H$concept_stellarite_tier$ $district_xhk_worldark_mindlink_plural$§!"
+  flavor_district_voidark_stellarite_mindlink:99 "§YTransference Central§!"
   

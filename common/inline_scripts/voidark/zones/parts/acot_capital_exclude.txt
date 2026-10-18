@@ -57,4 +57,7 @@ exclude = {
     building_generator_districts_2
     building_generator_districts_3
     building_generator_districts_4
+
+    building_voidark_voidbirch_phanon_support
+    building_voidark_voidbirch_stellarite_support
 }

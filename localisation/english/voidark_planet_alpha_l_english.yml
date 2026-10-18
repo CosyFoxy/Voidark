@@ -113,8 +113,13 @@
  zone_voidark_alpha_sentient_metal_desc:0 "$zone_xhk_worldark_sentientmetal_desc$"
  zone_voidark_alpha_supertensiles:0 "§B$concept_alpha_tier$ $zone_xhk_worldark_supertensiles$§!"
  zone_voidark_alpha_supertensiles_desc:0 "$zone_xhk_worldark_supertensiles_desc$"
+ 
+ zone_voidark_alpha_deep_sleep:0 "§B$concept_alpha_tier$ $zone_xhk_worldark_deep_sleep$§!"
+ zone_voidark_alpha_deep_sleep_desc:0 "$zone_xhk_worldark_deep_sleep_desc$"
 
-
+ zone_voidark_alpha_mindlink:0 "$zone_voidark_alpha_urban$"
+ zone_voidark_alpha_mindlink_desc:0 "$zone_voidark_alpha_urban_desc$"
+ 
  #DISTRICTS ------------------------------------------------------------------
  district_voidark_alpha_city:0 "§B$concept_alpha_tier$ $district_xhk_worldark_city$§!"
  district_voidark_alpha_city_desc:0 "$district_ark_city_desc$"
@@ -337,4 +342,13 @@
  district_voidark_alpha_supertensiles_desc:0 "$district_xhk_worldark_supertensiles_desc$"
  district_voidark_alpha_supertensiles_plural:0 "§B$concept_alpha_tier$ $district_xhk_worldark_supertensiles_plural$§!"
  flavor_district_voidark_alpha_supertensiles:0 "§Y$flavor_xhk_worldark_supertensiles_name$§!"
+ 
+ district_voidark_alpha_deep_sleep:0 "§B$concept_alpha_tier$ $district_xhk_worldark_deep_sleep$§!"
+ district_voidark_alpha_deep_sleep_desc:0 "$district_xhk_worldark_deep_sleep_desc$"
+ district_voidark_alpha_deep_sleep_plural:0 "§B$concept_alpha_tier$ $district_xhk_worldark_deep_sleep_plural$§!"
+ flavor_district_voidark_alpha_deep_sleep:0 "§Y$flavor_xhk_worldark_deep_sleep_name$§!"
 
+ district_voidark_alpha_mindlink:0 "§B$concept_alpha_tier$ $district_xhk_worldark_mindlink$§!"
+ district_voidark_alpha_mindlink_desc:0 "$district_xhk_worldark_mindlink_desc$"
+ district_voidark_alpha_mindlink_plural:0 "§B$concept_alpha_tier$ $district_xhk_worldark_mindlink_plural$§!"
+ flavor_district_voidark_alpha_mindlink:0 "§YTransference Central§!"
