@@ -20,3 +20,12 @@
  VOIDARK_PHANON_VAULT_INTEGRATION_DESC:0 "This project will allow us to integrate the $pc_acot_pmc_vault$ into our $xhk_pc_worldark$."
  VOIDARK_PHANON_RESOURCE_PLANET_INTEGRATION:0 "Integration of [planet.GetClassName] [planet.GetName]"
  VOIDARK_PHANON_RESOURCE_PLANET_INTEGRATION_DESC:0 "We will integrated the resource producing orbitals in the Droppoint system into our $xhk_pc_worldark$!"
+
+ ##########################################################
+ #Policies
+ ##########################################################
+ policy_category_za_voidark_zones:0 "Voidark: Zone Visibility"
+ policy_category_za_voidark_zones_desc:0 "Adjust whether all tiers of zones will be displayed or just a specific kind."
+
+ policy_category_zb_voidark_components:0 "Voidark: Component Visibility"
+ policy_category_zb_voidark_components_desc:0 "Adjust whether all tiers of components will be displayed or just a specific kind."
