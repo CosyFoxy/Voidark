@@ -1,0 +1,14 @@
+voidark_hangar_bay_fighter_enig = {
+    icon = "GFX_voidark_hangar_bay_fighter_enig"
+    section = "VOIDARK_HANGAR_MODULE_DM"
+    construction_days = 180
+    starbase_type = arkship
+    category = sm_strike_craft_cat
+
+    potential = {
+        owner? = {
+            has_technology = tech_strike_craft_fighter_enig
+            has_policy_flag =
+        }
+    }
+}
