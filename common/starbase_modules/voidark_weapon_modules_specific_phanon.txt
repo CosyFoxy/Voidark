@@ -1,0 +1,530 @@
+
+##STRIKE CRAFT
+
+voidark_module_fighter_re = {
+    icon = "GFX_voidark_module_fighter_re"
+    section = "VOIDARK_MODULE_FIGHTER_RE"
+    category = sm_strike_craft_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_strike_craft_fighter_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_FIGHTERS_HANGAR_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_fighter_re_tt
+}
+
+voidark_module_bomber_re = {
+    icon = "GFX_voidark_module_bomber_re"
+    section = "VOIDARK_MODULE_BOMBER_RE"
+    category = sm_strike_craft_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_strike_craft_bomber_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_BOMBERS_HANGAR_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_bomber_re_tt
+}
+
+voidark_module_scout_re = {
+    icon = "GFX_voidark_module_scout_re"
+    section = "VOIDARK_MODULE_SCOUT_RE"
+    category = sm_strike_craft_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_strike_craft_scout_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_SCOUT_HANGAR_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_scout_re_tt
+}
+
+voidark_module_gunship_re = {
+    icon = "GFX_voidark_module_gunship_re"
+    section = "VOIDARK_MODULE_GUNSHIP_RE"
+    category = sm_strike_craft_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_strike_craft_gunship_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_GUNSHIP_HANGAR_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_gunship_re_tt
+}
+
+##ENERGY
+
+voidark_module_laser_re = {
+    icon = "GFX_voidark_module_laser_re"
+    section = "VOIDARK_MODULE_LASER_RE"
+    category = sm_energy_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_laser_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_LASER_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_laser_re_tt
+}
+
+voidark_module_autolaser_re = {
+    icon = "GFX_voidark_module_autolaser_re"
+    section = "VOIDARK_MODULE_AUTOLASER_RE"
+    category = sm_energy_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_auto_laser_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_AUTOLASER_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_autolaser_re_tt
+}
+
+voidark_module_plasma_re = {
+    icon = "GFX_voidark_module_plasma_re"
+    section = "VOIDARK_MODULE_PLASMA_RE"
+    category = sm_energy_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_plasma_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_PLASMA_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_plasma_re_tt
+}
+
+voidark_module_disruptor_re = {
+    icon = "GFX_voidark_module_disruptor_re"
+    section = "VOIDARK_MODULE_DISRUPTOR_RE"
+    category = sm_energy_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_disruptor_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_DISRUPTOR_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_disruptor_re_tt
+}
+
+voidark_module_disruptor_lance_re = {
+    icon = "GFX_voidark_module_disruptor_lance_re"
+    section = "VOIDARK_MODULE_DISRUPTOR_LANCE_RE"
+    category = sm_energy_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_disruptor_lance_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_phanon
+        }
+    }
+    component_set = ACOT_DISRUPTOR_LANCE_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_disruptor_lance_re_tt
+}
+
+voidark_module_energy_cannon_re = {
+    icon = "GFX_voidark_module_energy_cannon_re"
+    section = "VOIDARK_MODULE_ENERGY_CANNON_RE"
+    category = sm_energy_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_energy_cannon_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_phanon
+        }
+    }
+    component_set = ACOT_ENERGY_CANNON_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_energy_cannon_re_tt
+}
+
+voidark_module_particle_lance_re = {
+    icon = "GFX_voidark_module_particle_lance_re"
+    section = "VOIDARK_MODULE_PARTICLE_LANCE_RE"
+    category = sm_energy_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_energy_lance_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_xl_phanon
+        }
+    }
+    component_set = ACOT_PARTICLE_LANCE_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_particle_lance_re_tt
+}
+
+voidark_module_arc_emitter_re = {
+    icon = "GFX_voidark_module_arc_emitter_re"
+    section = "VOIDARK_MODULE_ARC_EMITTER_RE"
+    category = sm_energy_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_arc_emitter_re"_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_xl_phanon
+        }
+    }
+    component_set = ACOT_ARC_EMITTER_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_arc_emitter_re_tt
+}
+
+##KINETIC
+
+voidark_module_mass_driver_re = {
+    icon = "GFX_voidark_module_mass_driver_re"
+    section = "VOIDARK_MODULE_MASS_DRIVER_RE"
+    category = sm_projectile_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_mass_driver_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_MASS_DRIVER_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_mass_driver_re_tt
+}
+
+voidark_module_autocannon_re = {
+    icon = "GFX_voidark_module_autocannon_re"
+    section = "VOIDARK_MODULE_AUTOCANNON_RE"
+    category = sm_projectile_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_autocannons_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_phanon
+        }
+    }
+    component_set = ACOT_AUTOCANNON_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_autocannon_re_tt
+}
+
+voidark_module_artillery_re = {
+    icon = "GFX_voidark_module_artillery_re"
+    section = "VOIDARK_MODULE_ARTILLERY_RE"
+    category = sm_projectile_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_kinetic_artillery_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_phanon
+        }
+    }
+    component_set = ACOT_ARTILLERY_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_artillery_re_tt
+}
+
+voidark_module_mass_accelerator_re = {
+    icon = "GFX_voidark_module_mass_accelerator_re"
+    section = "VOIDARK_MODULE_MASS_ACCELERATOR_RE"
+    category = sm_projectile_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_mass_accelerator_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_xl_phanon
+        }
+    }
+    component_set = ACOT_MASS_ACCELERATOR_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_mass_accelerator_re_tt
+}
+
+##EXPLOSIVES
+
+voidark_module_energy_torpedo_re = {
+    icon = "GFX_voidark_module_energy_torpedo_re"
+    section = "VOIDARK_MODULE_ENERGY_TORPEDO_RE"
+    category = sm_explosive_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_energy_torpedo_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_ENERGY_TORPEDO_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_energy_torpedo_re_tt
+}
+
+voidark_module_macrocannon_re = {
+    icon = "GFX_voidark_module_macrocannon_re"
+    section = "VOIDARK_MODULE_MACROCANNON_RE"
+    category = sm_explosive_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_macrocannon_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_MACROCANNON_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_macrocannon_re_tt
+}
+
+voidark_module_missile_re = {
+    icon = "GFX_voidark_module_missile_re"
+    section = "VOIDARK_MODULE_MISSILE_RE"
+    category = sm_explosive_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_missile_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_MISSILE_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_missile_re_tt
+}
+
+voidark_module_torpedo_re = {
+    icon = "GFX_voidark_module_torpedo_re"
+    section = "VOIDARK_MODULE_TORPEDO_RE"
+    category = sm_explosive_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_torpedo_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_TORPEDO_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_torpedo_re_tt
+}
+
+voidark_module_swarmer_missiles_re = {
+    icon = "GFX_voidark_module_swarmer_missiles_re"
+    section = "VOIDARK_MODULE_swarmer_missiles_RE"
+    category = sm_explosive_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_swarmer_missile_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_SWARMER_MISSILES_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_swarmer_missiles_re_tt
+}
+
+voidark_module_missile_barrage_re = {
+    icon = "GFX_voidark_module_missile_barrage_re"
+    section = "VOIDARK_MODULE_missile_barrage_RE"
+    category = sm_explosive_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_barrage_missile_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_MISSILE_BARRAGE_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_missile_barrage_re_tt
+}
+
+voidark_module_missile_xl_re = {
+    icon = "GFX_voidark_module_missile_xl_re"
+    section = "VOIDARK_MODULE_MISSILE_XL_RE"
+    category = sm_explosive_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_xl_missile_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_xl_phanon
+        }
+    }
+    component_set = ACOT_MACROCANNON_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_macrocannon_re_tt
+}
+
+##PDS
+
+voidark_module_epds_re = {
+    icon = "GFX_voidark_module_epds_re"
+    section = "VOIDARK_MODULE_EPDS_RE"
+    category = sm_pd_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_point_defense_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_POINT_DEFENSE_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_epds_re_tt
+}
+
+voidark_module_kpds_re = {
+    icon = "GFX_voidark_module_kpds_re"
+    section = "VOIDARK_MODULE_KPDS_RE"
+    category = sm_pd_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_flak_batteries_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_FLAK_CANNON_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_kpds_re_tt
+}
+
+voidark_module_expds_re = {
+    icon = "GFX_voidark_module_expds_re"
+    section = "VOIDARK_MODULE_EXPDS_RE"
+    category = sm_pd_cat
+
+    inline_script = {
+        script = voidark/modules/modules_base_specific
+        ACOT_TECH = "tech_ccm_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    component_set = ACOT_CCM_PD_RE
+    custom_tooltip_with_modifiers = sm_voidark_module_expds_re_tt
+}

@@ -1,0 +1,2 @@
+@arkship_cost_alloys_400 = 400
+@arkship_cost_strategic_30 = 30

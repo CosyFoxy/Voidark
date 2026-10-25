@@ -18,6 +18,36 @@ is_at_least_delta_voidark = {
     }
 }
 
+is_delta_voidark_starbase = {
+    OR = {
+        has_starbase_size >= xhk_worldark_tier_13
+    }
+}
+
+is_alpha_voidark_starbase = {
+    OR = {
+        has_starbase_size >= xhk_worldark_tier_14
+    }
+}
+
+is_phi_voidark_starbase = {
+    OR = {
+        has_starbase_size >= xhk_worldark_tier_15
+    }
+}
+
+is_phanon_voidark_starbase = {
+    OR = {
+        has_starbase_size >= xhk_worldark_tier_16
+    }
+}
+
+is_stellarite_voidark_starbase = {
+    OR = {
+        has_starbase_size >= xhk_worldark_tier_17
+    }
+}
+
 is_at_least_alpha_voidark = {
     OR = {
         #is_ship_size = xhk_worldark_tier_13
