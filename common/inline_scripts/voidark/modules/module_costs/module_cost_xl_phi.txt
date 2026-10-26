@@ -1,0 +1,6 @@
+alloys = @arkship_cost_alloys_700
+rare_crystals = @arkship_cost_strategic_250
+exotic_gases = @arkship_cost_strategic_250
+volatile_motes = @arkship_cost_strategic_250
+acot_sr_dark_energy = @arkship_cost_strategic_150
+sr_dark_matter = @arkship_cost_strategic_150

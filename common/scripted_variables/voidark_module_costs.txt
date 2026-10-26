@@ -1,2 +1,11 @@
 @arkship_cost_alloys_400 = 400
+@arkship_cost_alloys_450 = 450
+@arkship_cost_alloys_600 = 600
+@arkship_cost_alloys_700 = 700
+@arkship_cost_alloys_750 = 750
+@arkship_cost_alloys_850 = 850
+@arkship_cost_alloys_1000 = 1000
 @arkship_cost_strategic_30 = 30
+@arkship_cost_strategic_50 = 50
+@arkship_cost_strategic_75 = 75
+@arkship_cost_strategic_200 = 200
