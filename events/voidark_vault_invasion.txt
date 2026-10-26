@@ -282,7 +282,7 @@ carrier_event = {
     hide_window = yes
     trigger = { always = yes }
     immediate = {
-        owner? = {
+        event_target:voidark_normal_country = {
             country_event = {
                 id = voidark_vault_invasion.999
                 days = 30
