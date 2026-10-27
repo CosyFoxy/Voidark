@@ -213,3 +213,25 @@ has_integrated_all_data_and_storage_planets = {
         }
     }
 }
+
+has_any_engineering_bay = {
+    OR = {
+        has_starbase_module = arkship_engineering_bay
+        has_starbase_module = voidark_engineering_bay_dm
+        has_starbase_module = voidark_engineering_bay_ae
+        has_starbase_module = voidark_engineering_bay_pe
+        has_starbase_module = voidark_engineering_bay_re
+        has_starbase_module = voidark_engineering_bay_se
+    }
+}
+
+has_any_beastport = {
+    OR = {
+        has_starbase_module = arkship_beastport
+        has_starbase_module = voidark_beastport_dm
+        has_starbase_module = voidark_beastport_ae
+        has_starbase_module = voidark_beastport_pe
+        has_starbase_module = voidark_beastport_re
+        has_starbase_module = voidark_beastport_se
+    }
+}

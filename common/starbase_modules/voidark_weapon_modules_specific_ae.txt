@@ -34,7 +34,7 @@ voidark_module_bomber_ae = {
     resources = {
         category = starbase_arkship_upgrades
         cost = {
-            inline_script = voidark/modules/module_costs/module_cost_l_alpha
+            inline_script = voidark/modules/module_costs/module_cost_small_alpha
         }
     }
     component_set = ACOT_BOMBERS_HANGAR_AE
@@ -54,7 +54,7 @@ voidark_module_scout_ae = {
     resources = {
         category = starbase_arkship_upgrades
         cost = {
-            inline_script = voidark/modules/module_costs/module_cost_l_alpha
+            inline_script = voidark/modules/module_costs/module_cost_small_alpha
         }
     }
     component_set = ACOT_SCOUT_HANGAR_AE
@@ -74,7 +74,7 @@ voidark_module_gunship_ae = {
     resources = {
         category = starbase_arkship_upgrades
         cost = {
-            inline_script = voidark/modules/module_costs/module_cost_l_alpha
+            inline_script = voidark/modules/module_costs/module_cost_small_alpha
         }
     }
     component_set = ACOT_GUNSHIP_HANGAR_AE
@@ -89,7 +89,7 @@ voidark_module_laser_ae = {
     category = sm_energy_cat
 
     inline_script = {
-        script = voidark/modules/modules_base_specific
+        script = voidark/modules/modules_base_both
         ACOT_TECH = "tech_laser_ae"
         TIER = alpha
     }
@@ -209,7 +209,7 @@ voidark_module_particle_lance_ae = {
     category = sm_energy_cat
 
     inline_script = {
-        script = voidark/modules/modules_base_specific
+        script = voidark/modules/modules_base_both
         ACOT_TECH = "tech_energy_lance_ae"
         TIER = alpha
     }
@@ -229,8 +229,8 @@ voidark_module_arc_emitter_ae = {
     category = sm_energy_cat
 
     inline_script = {
-        script = voidark/modules/modules_base_specific
-        ACOT_TECH = "tech_arc_emitter_ae"_ae"
+        script = voidark/modules/modules_base_both
+        ACOT_TECH = "tech_arc_emitter_ae"
         TIER = alpha
     }
     resources = {
@@ -251,7 +251,7 @@ voidark_module_mass_driver_ae = {
     category = sm_projectile_cat
 
     inline_script = {
-        script = voidark/modules/modules_base_specific
+        script = voidark/modules/modules_base_both
         ACOT_TECH = "tech_mass_driver_ae"
         TIER = alpha
     }
@@ -278,7 +278,7 @@ voidark_module_autocannon_ae = {
     resources = {
         category = starbase_arkship_upgrades
         cost = {
-            inline_script = voidark/modules/module_costs/module_cost_small_alpha
+            inline_script = voidark/modules/module_costs/module_cost_l_alpha
         }
     }
     component_set = ACOT_AUTOCANNON_AE
@@ -291,7 +291,7 @@ voidark_module_artillery_ae = {
     category = sm_projectile_cat
 
     inline_script = {
-        script = voidark/modules/modules_base_specific
+        script = voidark/modules/modules_base_both
         ACOT_TECH = "tech_kinetic_artillery_ae"
         TIER = alpha
     }
@@ -311,7 +311,7 @@ voidark_module_mass_accelerator_ae = {
     category = sm_projectile_cat
 
     inline_script = {
-        script = voidark/modules/modules_base_specific
+        script = voidark/modules/modules_base_both
         ACOT_TECH = "tech_mass_accelerator_ae"
         TIER = alpha
     }
@@ -333,7 +333,7 @@ voidark_module_energy_torpedo_ae = {
     category = sm_explosive_cat
 
     inline_script = {
-        script = voidark/modules/modules_base_specific
+        script = voidark/modules/modules_base_both
         ACOT_TECH = "tech_energy_torpedo_ae"
         TIER = alpha
     }
@@ -373,7 +373,7 @@ voidark_module_missile_ae = {
     category = sm_explosive_cat
 
     inline_script = {
-        script = voidark/modules/modules_base_specific
+        script = voidark/modules/modules_base_both
         ACOT_TECH = "tech_missile_ae"
         TIER = alpha
     }
@@ -393,7 +393,7 @@ voidark_module_torpedo_ae = {
     category = sm_explosive_cat
 
     inline_script = {
-        script = voidark/modules/modules_base_specific
+        script = voidark/modules/modules_base_both
         ACOT_TECH = "tech_torpedo_ae"
         TIER = alpha
     }
@@ -413,7 +413,7 @@ voidark_module_swarmer_missiles_ae = {
     category = sm_explosive_cat
 
     inline_script = {
-        script = voidark/modules/modules_base_specific
+        script = voidark/modules/modules_base_both
         ACOT_TECH = "tech_swarmer_missile_ae"
         TIER = alpha
     }
@@ -475,7 +475,7 @@ voidark_module_epds_ae = {
     category = sm_pd_cat
 
     inline_script = {
-        script = voidark/modules/modules_base_specific
+        script = voidark/modules/modules_base_both
         ACOT_TECH = "tech_point_defense_ae"
         TIER = alpha
     }
@@ -495,7 +495,7 @@ voidark_module_kpds_ae = {
     category = sm_pd_cat
 
     inline_script = {
-        script = voidark/modules/modules_base_specific
+        script = voidark/modules/modules_base_both
         ACOT_TECH = "tech_flak_batteries_ae"
         TIER = alpha
     }
@@ -515,7 +515,7 @@ voidark_module_expds_ae = {
     category = sm_pd_cat
 
     inline_script = {
-        script = voidark/modules/modules_base_specific
+        script = voidark/modules/modules_base_both
         ACOT_TECH = "tech_ccm_ae"
         TIER = alpha
     }

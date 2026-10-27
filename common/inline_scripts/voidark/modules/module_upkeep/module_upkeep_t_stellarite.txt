@@ -1,0 +1,2 @@
+energy = @arkship_upkeep_energy_75
+acot_sr_stellarite = @arkship_upkeep_strategic_5

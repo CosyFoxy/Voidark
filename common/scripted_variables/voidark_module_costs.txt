@@ -5,7 +5,22 @@
 @arkship_cost_alloys_750 = 750
 @arkship_cost_alloys_850 = 850
 @arkship_cost_alloys_1000 = 1000
+@arkship_cost_alloys_7500 = 7500
+@arkship_cost_alloys_12500 = 12500
+@arkship_cost_alloys_15000 = 15000
+@arkship_cost_alloys_17500 = 17500
+
 @arkship_cost_strategic_30 = 30
 @arkship_cost_strategic_50 = 50
 @arkship_cost_strategic_75 = 75
 @arkship_cost_strategic_200 = 200
+@arkship_cost_strategic_400 = 400
+
+@arkship_upkeep_strategic_3 = 3
+@arkship_upkeep_strategic_5 = 5
+
+@arkship_upkeep_energy_20 = 20
+@arkship_upkeep_energy_30 = 30
+@arkship_upkeep_energy_35 = 35
+@arkship_upkeep_energy_50 = 50
+@arkship_upkeep_energy_75 = 75

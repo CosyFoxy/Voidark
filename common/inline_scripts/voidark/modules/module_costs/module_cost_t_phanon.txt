@@ -1,0 +1,3 @@
+alloys = @arkship_cost_alloys_15000
+aot_sr_runic_power = @arkship_cost_strategic_300
+unity = @arkship_cost_unity_500

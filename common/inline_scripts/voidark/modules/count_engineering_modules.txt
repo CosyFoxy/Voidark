@@ -1,0 +1,32 @@
+OR = {
+    count_starbase_modules = {
+        type = arkship_engineering_bay
+        count < 1
+        include_being_constructed = yes
+    }
+    count_starbase_modules = {
+        type = voidark_engineering_bay_dm
+        count < 1
+        include_being_constructed = yes
+    }
+    count_starbase_modules = {
+        type = voidark_engineering_bay_ae
+        count < 1
+        include_being_constructed = yes
+    }
+    count_starbase_modules = {
+        type = voidark_engineering_bay_pe
+        count < 1
+        include_being_constructed = yes
+    }
+    count_starbase_modules = {
+        type = voidark_engineering_bay_re
+        count < 1
+        include_being_constructed = yes
+    }
+    count_starbase_modules = {
+        type = voidark_engineering_bay_se
+        count < 1
+        include_being_constructed = yes
+    }
+}

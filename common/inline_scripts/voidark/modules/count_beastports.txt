@@ -1,0 +1,32 @@
+OR = {
+    count_starbase_modules = {
+        type = arkship_beastport
+        count < 1
+        include_being_constructed = yes
+    }
+    count_starbase_modules = {
+        type = voidark_beastport_dm
+        count < 1
+        include_being_constructed = yes
+    }
+    count_starbase_modules = {
+        type = voidark_beastport_ae
+        count < 1
+        include_being_constructed = yes
+    }
+    count_starbase_modules = {
+        type = voidark_beastport_pe
+        count < 1
+        include_being_constructed = yes
+    }
+    count_starbase_modules = {
+        type = voidark_beastport_re
+        count < 1
+        include_being_constructed = yes
+    }
+    count_starbase_modules = {
+        type = voidark_beastport_se
+        count < 1
+        include_being_constructed = yes
+    }
+}

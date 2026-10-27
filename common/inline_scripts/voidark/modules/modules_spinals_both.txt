@@ -1,10 +1,13 @@
-construction_days = 180
+construction_days = @arkship_spinal_mount_build_time
 starbase_type = arkship
 
 potential = {
     owner? = {
-        has_technology = $ACOT_TECH$
-        has_policy_flag = voidark_general_modules
+        OR = {
+            has_technology = $ACOT_TECH$
+            has_policy_flag = voidark_general_modules
+            has_policy_flag = voidark_specific_modules
+        }
     }
     xhk_has_worldark_origin = yes
     xhk_is_worldark_starbase = yes
@@ -13,9 +16,10 @@ potential = {
 
 show_in_tech = $ACOT_TECH$
 show_tech_unlock_if = { xhk_has_worldark_origin = yes }
-cannot_fit_on_slots = { spinal_mount_1  spinal_mount_7 }
+fits_on_slots = { spinal_mount_1 spinal_mount_2 spinal_mount_3 spinal_mount_4 spinal_mount_5 spinal_mount_6  }
 
 show_component_tooltips = yes
 ai_weight = {
     weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
 }
+

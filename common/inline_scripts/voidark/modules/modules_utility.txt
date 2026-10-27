@@ -1,0 +1,18 @@
+construction_days = 180
+starbase_type = arkship
+
+potential = {
+    owner? = {
+        has_technology = $ACOT_TECH$
+    }
+    xhk_has_worldark_origin = yes
+    xhk_is_worldark_starbase = yes
+    is_$TIER$_voidark_starbase = yes
+    $OTHER$
+}
+
+cannot_fit_on_slots = { spinal_mount_1  spinal_mount_7 }
+
+ai_weight = {
+    weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
+}

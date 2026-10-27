@@ -1,0 +1,195 @@
+voidark_engineering_bay_re = {
+    icon = "GFX_voidark_engineering_bay_re"
+    section = "ARKSHIP_CONSTRUCTION_MODULE"
+    category = sm_naval_support_cat
+
+    inline_script = {
+        script = voidark/modules/modules_utility
+        ACOT_TECH = "tech_voidark_phanon"
+        TIER = phanon
+        OTHER = ""
+    }
+    possible = {
+        inline_script = voidark/modules/count_beastports
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_phanon
+        }
+    }
+    station_modifier = {
+        show_only_custom_tooltip = no
+        megastructure_build_speed_mult = 0.3
+    }
+    planet_modifier = {
+        planet_building_capacity_add = 4
+    }
+    on_finished = {
+        set_ship_construction_type = starbase_shipyard
+    }
+    on_destroyed = {
+    }
+}
+
+voidark_beastport_re = {
+    icon = "GFX_voidark_beastport_re"
+    section = "ARKSHIP_CONSTRUCTION_MODULE"
+    category = sm_naval_support_cat
+
+    inline_script = {
+        script = voidark/modules/modules_utility
+        ACOT_TECH = "tech_voidark_phanon"
+        TIER = phanon
+        OTHER = "OR = {
+				has_technology = tech_alien_cloning
+				is_beastmasters_empire = yes
+			}"
+    }
+
+    possible = {
+        inline_script = voidark/modules/count_engineering_modules
+    }
+
+    abort_construction_trigger = {
+        has_any_engineering_bay = yes
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_phanon
+        }
+    }
+    planet_modifier = {
+        planet_building_capacity_add = 4
+    }
+
+    country_modifier = {
+        country_vivarium_max_capacity_add = 75
+    }
+    on_finished = {
+        set_ship_construction_type = starbase_beastport
+    }
+    on_destroyed = {
+        if = {
+            limit = { has_any_beastport = no }
+            set_ship_construction_type = starbase_shipyard
+        }
+    }
+}
+
+voidark_docking_bay_re = {
+    icon = "GFX_voidark_docking_bay_re"
+    section = "ARKSHIP_FACTORY_MODULE"
+    category = sm_utility_cat
+
+    inline_script = {
+        script = voidark/modules/modules_utility
+        ACOT_TECH = "tech_voidark_phanon"
+        TIER = phanon
+        OTHER = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_phanon
+        }
+    }
+    country_modifier = {
+        country_naval_cap_add = 20
+    }
+
+    station_modifier = {
+        ship_starbase_stockpile_collection_rate_mult = 0.25
+    }
+}
+
+voidark_habitation_module_re = {
+    icon = "GFX_voidark_habitation_module_re"
+    section = "ARKSHIP_LIVING_SPACE_MODULE"
+    category = sm_utility_cat
+
+    inline_script = {
+        script = voidark/modules/modules_utility
+        ACOT_TECH = "tech_voidark_phanon"
+        TIER = phanon
+        OTHER = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_phanon
+        }
+    }
+    planet_modifier = {
+        planet_max_districts_add = 8
+        pop_environment_tolerance = 0.2
+    }
+}
+
+voidark_sensor_array_re = {
+    icon = "GFX_voidark_sensor_array_re"
+    section = "ARKSHIP_SCIENCE_MODULE"
+    category = sm_utility_cat
+
+    inline_script = {
+        script = voidark/modules/modules_utility
+        ACOT_TECH = "tech_voidark_phanon"
+        TIER = phanon
+        OTHER = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_phanon
+        }
+    }
+    station_modifier = {
+        ship_sensor_range_add = 4
+        ship_hyperlane_range_add = 4
+        science_ship_survey_speed = 0.4
+    }
+    custom_tooltip_with_modifiers = sm_arkship_sensor_array_tt
+}
+
+voidark_mining_array_re = {
+    icon = "GFX_voidark_mining_array_re"
+    section = "ARKSHIP_CONSTRUCTION_MODULE"
+    category = sm_utility_cat
+
+    inline_script = {
+        script = voidark/modules/modules_utility
+        ACOT_TECH = "tech_voidark_phanon"
+        TIER = phanon
+        OTHER = "owner? = { has_technology = tech_planetary_engineering }"
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_phanon
+        }
+    }
+    station_modifier = {
+        show_only_custom_tooltip = no
+        arkship_harvest_resources_produces_mult = 0.2
+    }
+    custom_tooltip_with_modifiers = sm_arkship_mining_array_tt
+}
