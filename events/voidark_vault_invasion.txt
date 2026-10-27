@@ -198,6 +198,11 @@ country_event = {
         has_concluded_vault_invasion = yes
         has_technology = tech_voidark_phanon_vault_integration
         NOT = { has_event_chain = acot_phanon_event_chain }
+        NOT = { has_country_flag = voidark_vault_integration_tech_researched }
+    }
+
+    immediate = {
+        set_country_flag = voidark_vault_integration_tech_researched
     }
 
     option = {
@@ -277,6 +282,12 @@ carrier_event = {
     hide_window = yes
     trigger = { always = yes }
     immediate = {
+        event_target:voidark_normal_country = {
+            country_event = {
+                id = voidark_vault_invasion.999
+                days = 30
+            }
+        }
         every_owned_pop_group = {
             resettle_pop_group = {
                 POP_GROUP = THIS
@@ -297,14 +308,6 @@ carrier_event = {
             }
             event_target:voidark_rival_country = {
                 set_country_flag = voidark_hacked_star_traveller
-            }
-        }
-    }
-    after = {
-        event_target:vault_temp_owner = {
-            country_event = {
-                id = voidark_vault_invasion.999
-                days = 30
             }
         }
     }
@@ -352,7 +355,7 @@ country_event = {
                     }
                     enable_special_project = {
                         name = VOIDARK_PHANON_RESOURCE_PLANET_INTEGRATION
-                        owner = event_target:voidark_normal_country
+                        owner = event_target:vault_temp_owner
                         location = this
                     }
                 }
@@ -370,7 +373,7 @@ country_event = {
     }
 }
 
-#No longer any reason to keep system vassal
+#No longer any reason to keep system
 country_event = {
     id = voidark_vault_invasion.9991
     is_triggered_only = yes
