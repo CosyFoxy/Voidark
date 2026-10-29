@@ -12,6 +12,11 @@
   voidark_alpha_matter_events.2.desc:99 "$acot_alpha_matter_events.2.desc$$NEW_LINE$$NEW_LINE$§YNOTE:§! To have enough storage for this decision, upgrade your £arkship£ §H$xhk_pc_worldark$§! to §E$xhk_worldark_tier_13$§! and upgrade your £zone£ §H$zone_xhk_worldark_storage$§! ['concept_district_specializations']!"
   voidark_alpha_matter_events.2.c:99 "Let's catch up on our research!"
   
+  ##Zone swap event
+  voidark.02.title:99 "Delta Tier World Ark!"
+  voidark.02.desc:99 "We have successfully upgraded our §H$xhk_pc_worldark$§! to §E$concept_delta_tier$ tier§!.$NEW_LINE$Now, we should upgrade our districts!$NEW_LINE$$NEW_LINE$§HChange the £zone£ ['concept_district_specializations'] of your zones to upgrade them to delta tier!§!"
+  voidark.02.a:99 "I understand!"
+  
   #VAULT INTEGRATION
   voidark_vault_invasion.993.title:99 "Phanon Vault Integration"
   voidark_vault_invasion.993.desc:99 "After the dust of our clash with the Phanon Corporation settled, further investigations into the databanks of the Infinite Corridors yielded a surprising finding. Next to blueprints of armaments of impossible scale, we found one plan that piqued our interest.$NEW_LINE$$NEW_LINE$§K"Mobile Vault Solution."§!$NEW_LINE$$NEW_LINE$While further deciphering is required to understand the feasibility of this project, our initial assumptions lead us to believe that this blueprint may allow us to §Hintegrate the Vault§! into our §H$xhk_pc_worldark$§!.$NEW_LINE$We must now decide how to proceed."
