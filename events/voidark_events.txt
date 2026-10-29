@@ -66,3 +66,29 @@ country_event = {
     }
 }
 
+ship_event = {
+    id = voidark.02
+    is_triggered_only = yes
+    fire_only_once = yes
+    title = voidark.02.title
+    desc = voidark.02.desc
+    trigger = {
+        is_delta_worldark = yes
+        owner? = {
+            is_ai = no
+            xhk_has_worldark_origin = yes
+            NOT = {
+                has_country_flag = voidark_delta_swap_zone_flag
+            }
+        }
+    }
+    immediate = {
+        owner? = {
+            set_country_flag = voidark_delta_swap_zone_flag
+        }
+    }
+    option = {
+        name = voidark.02.a
+    }
+}
+

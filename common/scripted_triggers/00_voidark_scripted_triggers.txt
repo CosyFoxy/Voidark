@@ -217,3 +217,7 @@ has_delta_worldark_tech = {
         has_technology = tech_voidark_delta
     }
 }
+
+is_delta_worldark = {
+    is_ship_size = xhk_worldark_tier_13
+}
