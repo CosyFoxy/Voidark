@@ -11,4 +11,24 @@ spriteTypes = {
         name = "GFX_voidark_minature_stellarite_pylon_star"
         textureFile = "gfx/interface/icons/modules/voidark_miniature_stellarite_pylon_star.dds"
     }
+    spriteType = {
+        name = "GFX_prototype_de_silo"
+        textureFile = gfx/interface/icons/modules/voidark_prototype_de_silo.dds
+    }
+    spriteType = {
+        name = "GFX_silo_delta"
+        textureFile = gfx/interface/icons/modules/voidark_de_silo_delta.dds
+    }
+    spriteType = {
+        name = "GFX_silo_alpha"
+        textureFile = gfx/interface/icons/modules/voidark_de_silo_alpha.dds
+    }
+    spriteType = {
+        name = "GFX_silo_phanon"
+        textureFile = gfx/interface/icons/modules/voidark_de_silo_phanon.dds
+    }
+    spriteType = {
+        name = "GFX_silo_stellarite"
+        textureFile = gfx/interface/icons/modules/voidark_de_silo_stellarite.dds
+    }
 }

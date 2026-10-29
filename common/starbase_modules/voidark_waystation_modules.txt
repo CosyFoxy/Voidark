@@ -1,0 +1,83 @@
+
+voidark_waystation_module_prototype_silo = {
+    icon = "GFX_prototype_de_silo"
+    section = "REFINERY_STARBASE_SECTION"
+    starbase_type = waystation
+    construction_days = 360
+    category = sm_economy_cat
+
+    starbase_limit = {
+        base = 1
+    }
+
+    potential = {
+        owner? = {
+            has_technology = tech_mine_dark_energy
+            xhk_has_worldark_origin = yes
+        }
+        is_waystation_starbase = yes
+        NOT = {
+            owner? = {
+                has_technology = tech_voidark_modules_and_buildings_delta
+            }
+        }
+    }
+
+    resources = {
+        category = starbase_waystations_modules
+        cost = {
+            alloys = @waystation_cost_alloys_500
+            sr_dark_matter = @waystation_cost_strategic_50
+        }
+    }
+    country_modifier = {
+        country_resource_max_sr_dark_matter_add = 1250
+        country_resource_max_acot_sr_dark_energy_add = 1250
+    }
+
+    #todo check if create module overrides existing module
+
+    ai_weight = {
+        weight = 100
+    }
+}
+
+voidark_waystation_module_silo_delta = {
+    icon = "GFX_silo_delta"
+    section = "REFINERY_STARBASE_SECTION"
+    starbase_type = waystation
+    construction_days = 360
+    category = sm_economy_cat
+
+    starbase_limit = {
+        base = 1
+    }
+
+    potential = {
+        owner? = {
+            has_technology = tech_mine_dark_energy
+            xhk_has_worldark_origin = yes
+        }
+        is_waystation_starbase = yes
+        owner? = {
+            has_technology = tech_voidark_modules_and_buildings_delta
+        }
+    }
+
+    resources = {
+        category = starbase_waystations_modules
+        cost = {
+            alloys = @waystation_cost_alloys_500
+            sr_dark_matter = @waystation_cost_strategic_100
+            acot_sr_dark_energy = @waystation_cost_strategic_100
+        }
+    }
+    country_modifier = {
+        country_resource_max_sr_dark_matter_add = 2500
+        country_resource_max_acot_sr_dark_energy_add = 2500
+    }
+
+    ai_weight = {
+        weight = 100
+    }
+}

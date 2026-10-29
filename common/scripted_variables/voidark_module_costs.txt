@@ -24,3 +24,6 @@
 @arkship_upkeep_energy_35 = 35
 @arkship_upkeep_energy_50 = 50
 @arkship_upkeep_energy_75 = 75
+
+@waystation_cost_strategic_50 = 50
+@waystation_cost_strategic_100 = 100
