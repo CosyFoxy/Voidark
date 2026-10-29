@@ -159,6 +159,15 @@ has_stellarite_storage_zone = {
     }
 }
 
+has_any_voidark_storage_zone = {
+    OR = {
+        has_delta_storage_zone = yes
+        has_alpha_storage_zone = yes
+        has_phanon_storage_zone = yes
+        has_stellarite_storage_zone = yes
+    }
+}
+
 
 has_any_non_droppoint_vassal = {
     owner? = {
@@ -233,5 +242,29 @@ has_any_beastport = {
         has_starbase_module = voidark_beastport_pe
         has_starbase_module = voidark_beastport_re
         has_starbase_module = voidark_beastport_se
+    }
+}
+has_all_worldark_techs = {
+    owner? = {
+        AND = {
+            has_technology = xhk_tech_worldark_1
+            has_technology = xhk_tech_worldark_2
+            has_technology = xhk_tech_worldark_3
+            has_technology = xhk_tech_worldark_4
+            has_technology = xhk_tech_worldark_5
+            has_technology = xhk_tech_worldark_6
+            has_technology = xhk_tech_worldark_7
+            has_technology = xhk_tech_worldark_8
+            has_technology = xhk_tech_worldark_9
+            has_technology = xhk_tech_worldark_10
+            has_technology = xhk_tech_worldark_11
+            has_technology = xhk_tech_worldark_12
+        }
+    }
+}
+
+has_delta_worldark_tech = {
+    owner? = {
+        has_technology = tech_voidark_delta
     }
 }

@@ -106,3 +106,45 @@ integrate_droppoint_resource_planets = {
         clear_global_event_target = phanon_resource_planet
     }
 }
+
+give_missing_worldark_techs = {
+    add_tech_option_no_progress_effect = {
+        TECH = xhk_tech_worldark_1
+    }
+    add_tech_option_no_progress_effect = {
+        TECH = xhk_tech_worldark_2
+    }
+    add_tech_option_no_progress_effect = {
+        TECH = xhk_tech_worldark_3
+    }
+    add_tech_option_no_progress_effect = {
+        TECH = xhk_tech_worldark_4
+    }
+    add_tech_option_no_progress_effect = {
+        TECH = xhk_tech_worldark_5
+    }
+    add_tech_option_no_progress_effect = {
+        TECH = xhk_tech_worldark_6
+    }
+    add_tech_option_no_progress_effect = {
+        TECH = xhk_tech_worldark_7
+    }
+    add_tech_option_no_progress_effect = {
+        TECH = xhk_tech_worldark_8
+    }
+    add_tech_option_no_progress_effect = {
+        TECH = xhk_tech_worldark_9
+    }
+    add_tech_option_no_progress_effect = {
+        TECH = xhk_tech_worldark_10
+    }
+    add_tech_option_no_progress_effect = {
+        TECH = xhk_tech_worldark_11
+    }
+    add_tech_option_no_progress_effect = {
+        TECH = xhk_tech_worldark_12
+    }
+    add_tech_option_no_progress_effect = {
+        TECH = tech_voidark_delta
+    }
+}
