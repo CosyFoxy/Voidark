@@ -70,6 +70,7 @@ ship_event = {
     id = voidark.02
     is_triggered_only = yes
     fire_only_once = yes
+    picture = GFX_evt_arkship_bridge
     title = voidark.02.title
     desc = voidark.02.desc
     trigger = {
