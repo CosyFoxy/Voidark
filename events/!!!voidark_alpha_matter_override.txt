@@ -1,0 +1,82 @@
+namespace = acot_alpha_matter_events
+country_event = {
+    id = acot_alpha_matter_events.2
+    title = acot_alpha_matter_events.2.name
+    desc = {
+        trigger = { xhk_has_worldark_origin = no }
+        text = acot_alpha_matter_events.2.desc
+    }
+    desc = {
+        trigger = {
+            AND = {
+                xhk_has_worldark_origin = yes
+                capital_scope = {
+                    has_any_voidark_storage_zone = no
+                }
+            }
+        }
+        text = voidark_alpha_matter_events.2.desc
+    }
+    picture = GFX_evt_physics_research
+    show_sound = event_curious
+
+    is_triggered_only = yes
+
+    trigger = {
+        last_increased_tech = tech_precursor_design
+        is_progenitor_empires = no
+        NOR = {
+            has_technology = tech_dark_matter_power_core_ae
+            acot_has_tier_ae_start = yes
+        }
+    }
+
+    immediate = {
+        touch_precursor_databank_country = yes
+        establish_communications_no_message = event_target:acot_precursor_databank_country
+        acquire_databank = yes	# In case the previous events are skipped
+        country_event = {
+            id = acot_final_sparks.901 days = 1
+        }
+        country_event = {
+            id = acot_final_sparks.900 days = 2
+        }
+    }
+
+    option = {
+        name = acot_alpha_matter_events.2.a
+        default_hide_option = yes
+        trigger = {
+            is_ai = no
+        }
+    }
+
+    option = {
+        name = voidark_alpha_matter_events.2.c
+        default_hide_option = yes
+        trigger = {
+            xhk_has_worldark_origin = yes
+            OR = {
+                has_all_worldark_techs = no
+                AND = {
+                    has_all_worldark_techs = yes
+                    has_delta_worldark_tech = no
+                }
+            }
+        }
+        is_dialog_only = yes
+        give_missing_worldark_techs = yes
+    }
+
+    option = {
+        name = EXCELLENT
+        default_hide_option = yes
+        trigger = {
+            is_ai = yes
+        }
+        add_research_option = tech_precursor_design_engineering
+        add_research_option = tech_precursor_design_history
+        add_research_option = tech_precursor_design_physics
+    }
+
+}
