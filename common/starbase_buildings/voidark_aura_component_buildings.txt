@@ -1,0 +1,47 @@
+#todo decide about tier
+
+voidark_combined_auras = {
+    icon = "GFX_voidark_combined_auras"
+    category = sm_aura_cat
+    starbase_limit = {
+        base = 1
+    }
+    possible = {
+        custom_tooltip = {
+            fail_text = voidark_no_other_aura_building
+            NOT = {
+                has_starbase_building = arkship_shield_dampener
+                has_starbase_building = arkship_quantum_destabilizer
+                has_starbase_building = arkship_subspace_snare
+                has_starbase_building = arkship_aura_bombardment
+                has_starbase_building = arkship_aura_hyperlane
+                has_starbase_building = arkship_aura_pd_penetration
+                has_starbase_building = arkship_aura_strike_craft
+                has_starbase_building = arkship_aura_range
+            }
+        }
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/aura_components_base
+        POTENTIAL = "has_technology = tech_titans
+                     has_technology = tech_juggernaut"
+        COMBINED_AURA_TECH = "tech_voidark_combined_auras"
+        TIER = alpha
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_t_delta
+        }
+    }
+    #1X each
+    equipped_component = SHIP_AURA_STRIKE_CRAFT
+    equipped_component = SHIP_AURA_QUANTUM_DESTABILIZER
+    equipped_component = SHIP_AURA_SUBSPACE_SNARE
+    equipped_component = SHIP_AURA_STRIKE_CRAFT
+    equipped_component = SHIP_AURA_HYPERLANE
+    equipped_component = SHIP_AURA_PD_PENETRATION
+    equipped_component = SHIP_AURA_BOMBARDMENT
+    equipped_component = SHIP_AURA_RANGE
+    custom_tooltip = sm_voidark_combined_auras_tt #needs to mention that the originals will have no effect
+}

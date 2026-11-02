@@ -3,8 +3,8 @@ starbase_type = arkship
 
 potential = {
     owner? = {
+        has_technology = $ACOT_TECH$
         OR = {
-            has_technology = $ACOT_TECH$
             has_policy_flag = voidark_general_modules
             has_policy_flag = voidark_specific_modules
         }

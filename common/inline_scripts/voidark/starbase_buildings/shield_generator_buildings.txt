@@ -1,0 +1,21 @@
+has_building_construction = building_acot_dm_psg
+has_building_construction = building_acot_dm_psg
+has_building_construction = building_acot_ae_psg
+has_building_construction = building_acot_ae_psg
+has_building_construction = building_fe_psg
+has_building_construction = building_fe_psg
+has_building_construction = building_phanon_psg
+has_building_construction = building_phanon_psg
+has_building_construction = building_stellarite_psg
+has_building_construction = building_stellarite_psg
+
+has_building = building_acot_dm_psg
+has_building = building_acot_dm_psg
+has_building = building_acot_ae_psg
+has_building = building_acot_ae_psg
+has_building = building_fe_psg
+has_building = building_fe_psg
+has_building = building_phanon_psg
+has_building = building_phanon_psg
+has_building = building_stellarite_psg
+has_building = building_stellarite_psg
