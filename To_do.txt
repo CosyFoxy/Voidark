@@ -6,6 +6,10 @@ doc
 icons
 test
 
+Defensive 8,10,11,12,14
+Defensive Aux 5,7,8,9,10 + 1
+Afterburner & Starcharter 3,4,5,6,7 + 1
+Weapon Cores 3,4,5,6,7
 
 Hangar 2,4,6,8,9,10
 Large 2,4,6,8,9,10

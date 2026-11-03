@@ -195,7 +195,7 @@ voidark_shield_aux_pe = {
     equipped_component = ACOT_SHIELD_BOOSTER_PE
     equipped_component = ACOT_SHIELD_BOOSTER_PE
     equipped_component = ACOT_SHIELD_BOOSTER_AURA_PE
-    custom_tooltip = sm_voidark_shield_pe_tt
+    custom_tooltip = sm_voidark_shield_aux_pe_tt
 }
 
 voidark_afterburner_pe = {

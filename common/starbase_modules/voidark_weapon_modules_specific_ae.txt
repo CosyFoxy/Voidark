@@ -463,7 +463,7 @@ voidark_module_missile_xl_ae = {
             inline_script = voidark/modules/module_costs/module_cost_xl_alpha
         }
     }
-    component_set = ACOT_MACROCANNON_AE
+    component_set = ACOT_MISSILE_XL_AE
     custom_tooltip_with_modifiers = sm_voidark_module_macrocannon_ae_tt
 }
 

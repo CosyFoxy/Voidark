@@ -7,3 +7,8 @@ db_integrated_megas = {
     name = "databank_integrated_megas"
     icon = "GFX_text_databank"
 }
+
+db_weapon_modules = {
+    name = "databank_voidark_modules"
+    icon = "GFX_text_databank_conquest"
+}

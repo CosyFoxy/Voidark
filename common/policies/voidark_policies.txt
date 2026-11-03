@@ -1,7 +1,7 @@
 #Starting option set in setup event
 
 voidark_weapon_modules = {
-    category = voidark_weapon_modules
+    category = voidark
 
     potential = {
         xhk_has_worldark_origin = yes

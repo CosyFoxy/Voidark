@@ -82,11 +82,31 @@ voidark_organisation_hub_ae = {
     }
     triggered_planet_modifier = { #todo check whether this works
         potential = {
-            owner? = { NOT = { has_valid_civic = civic_dystopian_society } }
+            owner? = {
+                is_gestalt = no
+                NOT = {
+                    has_valid_civic = civic_dystopian_society
+                    is_gestalt = yes
+                }
+            }
         }
         planet_amenities_add = @organisation_hub_amenities_per_100_ae
         mult = value:num_jobs_with_tag|TAG|trade|
         custom_tooltip = "sm_voidark_oragnisation_hub_ae_effect"
+        show_only_custom_tooltip = yes
+    }
+    triggered_planet_modifier = { #todo check whether this works
+        potential = {
+            owner? = {
+                is_gestalt = yes
+                NOT = {
+                    has_valid_civic = civic_dystopian_society
+                }
+            }
+        }
+        planet_amenities_add = @organisation_hub_amenities_per_100_ae
+        mult = value:num_jobs_with_tag|TAG|trade|
+        custom_tooltip = "sm_voidark_oragnisation_hub_ae_effect_gestalt"
         show_only_custom_tooltip = yes
     }
 }

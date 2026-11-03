@@ -12,4 +12,4 @@
 # by their localized name, so an inline icon token in the loc string would sort on the sprite key
 # instead of the visible word.
 
-voidark_weapon_modules = { icon = "arkship" }
+voidark = { icon = "arkship" }
