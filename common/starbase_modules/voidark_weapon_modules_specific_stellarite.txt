@@ -3,7 +3,7 @@
 
 voidark_module_fighter_se = {
     icon = "GFX_voidark_module_fighter_se"
-    section = "VOIDARK_MODULE_FIGHTER_SE"
+    section = "VOIDARK_MODULE_HANGAR_SE"
     category = sm_strike_craft_cat
 
     inline_script = {
@@ -23,7 +23,7 @@ voidark_module_fighter_se = {
 
 voidark_module_bomber_se = {
     icon = "GFX_voidark_module_bomber_se"
-    section = "VOIDARK_MODULE_BOMBER_SE"
+    section = "VOIDARK_MODULE_HANGAR_SE"
     category = sm_strike_craft_cat
 
     inline_script = {
@@ -43,7 +43,7 @@ voidark_module_bomber_se = {
 
 voidark_module_scout_se = {
     icon = "GFX_voidark_module_scout_se"
-    section = "VOIDARK_MODULE_SCOUT_SE"
+    section = "VOIDARK_MODULE_HANGAR_SE"
     category = sm_strike_craft_cat
 
     inline_script = {
@@ -63,7 +63,7 @@ voidark_module_scout_se = {
 
 voidark_module_gunship_se = {
     icon = "GFX_voidark_module_gunship_se"
-    section = "VOIDARK_MODULE_GUNSHIP_SE"
+    section = "VOIDARK_MODULE_HANGAR_SE"
     category = sm_strike_craft_cat
 
     inline_script = {
@@ -85,7 +85,7 @@ voidark_module_gunship_se = {
 
 voidark_module_laser_se = {
     icon = "GFX_voidark_module_laser_se"
-    section = "VOIDARK_MODULE_LASER_SE"
+    section = "VOIDARK_MODULE_HANGAR_SE"
     category = sm_energy_cat
 
     inline_script = {
@@ -105,7 +105,7 @@ voidark_module_laser_se = {
 
 voidark_module_autolaser_se = {
     icon = "GFX_voidark_module_autolaser_se"
-    section = "VOIDARK_MODULE_AUTOLASER_SE"
+    section = "VOIDARK_MODULE_MEDIUM_SE"
     category = sm_energy_cat
 
     inline_script = {
@@ -125,7 +125,7 @@ voidark_module_autolaser_se = {
 
 voidark_module_plasma_se = {
     icon = "GFX_voidark_module_plasma_se"
-    section = "VOIDARK_MODULE_PLASMA_SE"
+    section = "VOIDARK_MODULE_MEDIUM_SE"
     category = sm_energy_cat
 
     inline_script = {
@@ -145,7 +145,7 @@ voidark_module_plasma_se = {
 
 voidark_module_disruptor_se = {
     icon = "GFX_voidark_module_disruptor_se"
-    section = "VOIDARK_MODULE_DISRUPTOR_SE"
+    section = "VOIDARK_MODULE_MEDIUM_SE"
     category = sm_energy_cat
 
     inline_script = {
@@ -165,7 +165,7 @@ voidark_module_disruptor_se = {
 
 voidark_module_disruptor_lance_se = {
     icon = "GFX_voidark_module_disruptor_lance_se"
-    section = "VOIDARK_MODULE_DISRUPTOR_LANCE_SE"
+    section = "VOIDARK_MODULE_LARGE_SE"
     category = sm_energy_cat
 
     inline_script = {
@@ -185,7 +185,7 @@ voidark_module_disruptor_lance_se = {
 
 voidark_module_energy_cannon_se = {
     icon = "GFX_voidark_module_energy_cannon_se"
-    section = "VOIDARK_MODULE_ENERGY_CANNON_SE"
+    section = "VOIDARK_MODULE_LARGE_SE"
     category = sm_energy_cat
 
     inline_script = {
@@ -205,7 +205,7 @@ voidark_module_energy_cannon_se = {
 
 voidark_module_particle_lance_se = {
     icon = "GFX_voidark_module_particle_lance_se"
-    section = "VOIDARK_MODULE_PARTICLE_LANCE_SE"
+    section = "VOIDARK_MODULE_XL_SE"
     category = sm_energy_cat
 
     inline_script = {
@@ -225,7 +225,7 @@ voidark_module_particle_lance_se = {
 
 voidark_module_arc_emitter_se = {
     icon = "GFX_voidark_module_arc_emitter_se"
-    section = "VOIDARK_MODULE_ARC_EMITTER_SE"
+    section = "VOIDARK_MODULE_XL_SE"
     category = sm_energy_cat
 
     inline_script = {
@@ -247,7 +247,7 @@ voidark_module_arc_emitter_se = {
 
 voidark_module_mass_driver_se = {
     icon = "GFX_voidark_module_mass_driver_se"
-    section = "VOIDARK_MODULE_MASS_DRIVER_SE"
+    section = "VOIDARK_MODULE_MEDIUM_SE"
     category = sm_projectile_cat
 
     inline_script = {
@@ -267,7 +267,7 @@ voidark_module_mass_driver_se = {
 
 voidark_module_autocannon_se = {
     icon = "GFX_voidark_module_autocannon_se"
-    section = "VOIDARK_MODULE_AUTOCANNON_SE"
+    section = "VOIDARK_MODULE_MEDIUM_SE"
     category = sm_projectile_cat
 
     inline_script = {
@@ -278,7 +278,7 @@ voidark_module_autocannon_se = {
     resources = {
         category = starbase_arkship_upgrades
         cost = {
-            inline_script = voidark/modules/module_costs/module_cost_l_stellarite
+            inline_script = voidark/modules/module_costs/module_cost_small_stellarite
         }
     }
     component_set = ACOT_AUTOCANNON_SE
@@ -287,7 +287,7 @@ voidark_module_autocannon_se = {
 
 voidark_module_artillery_se = {
     icon = "GFX_voidark_module_artillery_se"
-    section = "VOIDARK_MODULE_ARTILLERY_SE"
+    section = "VOIDARK_MODULE_LARGE_SE"
     category = sm_projectile_cat
 
     inline_script = {
@@ -307,7 +307,7 @@ voidark_module_artillery_se = {
 
 voidark_module_mass_accelerator_se = {
     icon = "GFX_voidark_module_mass_accelerator_se"
-    section = "VOIDARK_MODULE_MASS_ACCELERATOR_SE"
+    section = "VOIDARK_MODULE_XL_SE"
     category = sm_projectile_cat
 
     inline_script = {
@@ -329,7 +329,7 @@ voidark_module_mass_accelerator_se = {
 
 voidark_module_energy_torpedo_se = {
     icon = "GFX_voidark_module_energy_torpedo_se"
-    section = "VOIDARK_MODULE_ENERGY_TORPEDO_SE"
+    section = "VOIDARK_MODULE_TORPEDO_SE"
     category = sm_explosive_cat
 
     inline_script = {
@@ -349,7 +349,7 @@ voidark_module_energy_torpedo_se = {
 
 voidark_module_macrocannon_se = {
     icon = "GFX_voidark_module_macrocannon_se"
-    section = "VOIDARK_MODULE_MACROCANNON_SE"
+    section = "VOIDARK_MODULE_TORPEDO_SE"
     category = sm_explosive_cat
 
     inline_script = {
@@ -369,7 +369,7 @@ voidark_module_macrocannon_se = {
 
 voidark_module_missile_se = {
     icon = "GFX_voidark_module_missile_se"
-    section = "VOIDARK_MODULE_MISSILE_SE"
+    section = "VOIDARK_MODULE_SMALL_SE"
     category = sm_explosive_cat
 
     inline_script = {
@@ -409,7 +409,7 @@ voidark_module_torpedo_se = {
 
 voidark_module_swarmer_missiles_se = {
     icon = "GFX_voidark_module_swarmer_missiles_se"
-    section = "VOIDARK_MODULE_swarmer_missiles_SE"
+    section = "VOIDARK_MODULE_MEDIUM_SE"
     category = sm_explosive_cat
 
     inline_script = {
@@ -429,7 +429,7 @@ voidark_module_swarmer_missiles_se = {
 
 voidark_module_missile_barrage_se = {
     icon = "GFX_voidark_module_missile_barrage_se"
-    section = "VOIDARK_MODULE_missile_barrage_SE"
+    section = "VOIDARK_MODULE_LARGE_SE"
     category = sm_explosive_cat
 
     inline_script = {
@@ -440,7 +440,7 @@ voidark_module_missile_barrage_se = {
     resources = {
         category = starbase_arkship_upgrades
         cost = {
-            inline_script = voidark/modules/module_costs/module_cost_small_stellarite
+            inline_script = voidark/modules/module_costs/module_cost_l_stellarite
         }
     }
     component_set = ACOT_MISSILE_BARRAGE_SE
@@ -449,7 +449,7 @@ voidark_module_missile_barrage_se = {
 
 voidark_module_missile_xl_se = {
     icon = "GFX_voidark_module_missile_xl_se"
-    section = "VOIDARK_MODULE_MISSILE_XL_SE"
+    section = "VOIDARK_MODULE_XL_SE"
     category = sm_explosive_cat
 
     inline_script = {
@@ -471,7 +471,7 @@ voidark_module_missile_xl_se = {
 
 voidark_module_epds_se = {
     icon = "GFX_voidark_module_epds_se"
-    section = "VOIDARK_MODULE_EPDS_SE"
+    section = "VOIDARK_MODULE_PD_SE"
     category = sm_pd_cat
 
     inline_script = {
@@ -491,7 +491,7 @@ voidark_module_epds_se = {
 
 voidark_module_kpds_se = {
     icon = "GFX_voidark_module_kpds_se"
-    section = "VOIDARK_MODULE_KPDS_SE"
+    section = "VOIDARK_MODULE_PD_SE"
     category = sm_pd_cat
 
     inline_script = {
@@ -511,7 +511,7 @@ voidark_module_kpds_se = {
 
 voidark_module_expds_se = {
     icon = "GFX_voidark_module_expds_se"
-    section = "VOIDARK_MODULE_EXPDS_SE"
+    section = "VOIDARK_MODULE_PD_SE"
     category = sm_pd_cat
 
     inline_script = {

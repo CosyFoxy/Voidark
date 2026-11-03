@@ -278,7 +278,7 @@ voidark_module_autocannon_dm = {
     resources = {
         category = starbase_arkship_upgrades
         cost = {
-            inline_script = voidark/modules/module_costs/module_cost_l_delta
+            inline_script = voidark/modules/module_costs/module_cost_small_delta
         }
     }
     component_set = ACOT_AUTOCANNON_DM

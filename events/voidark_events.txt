@@ -28,6 +28,10 @@ country_event = {
     }
 
     immediate = {
+        set_policy = {
+            policy = voidark_weapon_modules
+            option = voidark_weapon_modules_general
+        }
         begin_event_chain = {
             event_chain = voidark_docs_chain
         }

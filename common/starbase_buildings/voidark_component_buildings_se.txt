@@ -273,7 +273,7 @@ voidark_starcharter_se = {
     equipped_component = ACOT_STARCHARTER_SE
     equipped_component = ACOT_STARCHARTER_SE
     equipped_component = ACOT_STARCHARTER_AURA_SE
-    custom_tooltip = sm_voidark_starcharter_se
+    custom_tooltip = sm_voidark_starcharter_se_tt
 }
 
 voidark_explosive_core_se = {
@@ -303,7 +303,7 @@ voidark_explosive_core_se = {
     equipped_component = ACOT_WEAPON_EXPLOSIVE_CORE_SE
     equipped_component = ACOT_WEAPON_EXPLOSIVE_CORE_SE
     equipped_component = ACOT_WEAPON_EXPLOSIVE_CORE_SE
-    custom_tooltip = sm_voidark_explosive_core_se
+    custom_tooltip = sm_voidark_explosive_core_se_tt
 }
 
 voidark_kinetic_core_se = {
@@ -333,7 +333,7 @@ voidark_kinetic_core_se = {
     equipped_component = ACOT_WEAPON_KINETIC_CORE_SE
     equipped_component = ACOT_WEAPON_KINETIC_CORE_SE
     equipped_component = ACOT_WEAPON_KINETIC_CORE_SE
-    custom_tooltip = sm_voidark_kinetic_core_se
+    custom_tooltip = sm_voidark_kinetic_core_se_tt
 }
 
 voidark_energy_core_se = {
@@ -363,7 +363,7 @@ voidark_energy_core_se = {
     equipped_component = ACOT_WEAPON_ENERGY_CORE_SE
     equipped_component = ACOT_WEAPON_ENERGY_CORE_SE
     equipped_component = ACOT_WEAPON_ENERGY_CORE_SE
-    custom_tooltip = sm_voidark_energy_core_se
+    custom_tooltip = sm_voidark_energy_core_se_tt
 }
 
 voidark_fighter_core_se = {
@@ -393,5 +393,5 @@ voidark_fighter_core_se = {
     equipped_component = ACOT_WEAPON_FIGHTER_CORE_SE
     equipped_component = ACOT_WEAPON_FIGHTER_CORE_SE
     equipped_component = ACOT_WEAPON_FIGHTER_CORE_SE
-    custom_tooltip = sm_voidark_fighter_core_se
+    custom_tooltip = sm_voidark_fighter_core_se_tt
 }
