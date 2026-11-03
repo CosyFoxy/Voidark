@@ -3,7 +3,5 @@ To do:
 Sections
 loc
 doc
-defensive buildings
-economic buildings
 icons
 test

@@ -1,0 +1,376 @@
+
+
+voidark_hull_re = {
+    icon = "GFX_voidark_hull_re"
+    category = sm_defense_cat
+    starbase_limit = {
+        base = -1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/defensive_components_base
+        ACOT_TECH = "tech_hull_power_re"
+        TIER = phanon
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    #12X
+    equipped_component = LARGE_ACOT_HULL_POWER_RE
+    equipped_component = LARGE_ACOT_HULL_POWER_RE
+    equipped_component = LARGE_ACOT_HULL_POWER_RE
+    equipped_component = LARGE_ACOT_HULL_POWER_RE
+    equipped_component = LARGE_ACOT_HULL_POWER_RE
+    equipped_component = LARGE_ACOT_HULL_POWER_RE
+    equipped_component = LARGE_ACOT_HULL_POWER_RE
+    equipped_component = LARGE_ACOT_HULL_POWER_RE
+    equipped_component = LARGE_ACOT_HULL_POWER_RE
+    equipped_component = LARGE_ACOT_HULL_POWER_RE
+    equipped_component = LARGE_ACOT_HULL_POWER_RE
+    equipped_component = LARGE_ACOT_HULL_POWER_RE
+    custom_tooltip = sm_voidark_hull_re
+}
+
+voidark_hull_aux_re = {
+    icon = "GFX_voidark_hull_aux_re"
+    category = sm_defense_cat
+    starbase_limit = {
+        base = 1
+    }
+
+    inline_script = {
+        script = voidark/starbase_buildings/defensive_components_base
+        ACOT_TECH = "tech_darkmatter_reactive_drone_re"
+        TIER = phanon
+        TECH = "has_technology = tech_hull_power_re"
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+
+    #9X + 1X Aura
+    equipped_component = ACOT_REPAIR_COUNTERMEASURES_RE
+    equipped_component = ACOT_REPAIR_COUNTERMEASURES_RE
+    equipped_component = ACOT_REPAIR_COUNTERMEASURES_RE
+    equipped_component = ACOT_REPAIR_COUNTERMEASURES_RE
+    equipped_component = ACOT_REPAIR_COUNTERMEASURES_RE
+    equipped_component = ACOT_REPAIR_COUNTERMEASURES_RE
+    equipped_component = ACOT_REPAIR_COUNTERMEASURES_RE
+    equipped_component = ACOT_REPAIR_COUNTERMEASURES_RE
+    equipped_component = ACOT_REPAIR_COUNTERMEASURES_RE
+    equipped_component = ACOT_REPAIR_COUNTERMEASURES_AURA_RE
+    custom_tooltip = sm_voidark_hull_aux_re
+}
+
+voidark_armor_re = {
+    icon = "GFX_voidark_armor_re"
+    category = sm_defense_cat
+
+    starbase_limit = {
+        base = -1
+    }
+
+    inline_script = {
+        script = voidark/starbase_buildings/defensive_components_base
+        ACOT_TECH = "tech_armor_re"
+        TIER = phanon
+        TECH = ""
+    }
+
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    #12X
+    equipped_component = LARGE_ACOT_ARMOR_RE
+    equipped_component = LARGE_ACOT_ARMOR_RE
+    equipped_component = LARGE_ACOT_ARMOR_RE
+    equipped_component = LARGE_ACOT_ARMOR_RE
+    equipped_component = LARGE_ACOT_ARMOR_RE
+    equipped_component = LARGE_ACOT_ARMOR_RE
+    equipped_component = LARGE_ACOT_ARMOR_RE
+    equipped_component = LARGE_ACOT_ARMOR_RE
+    equipped_component = LARGE_ACOT_ARMOR_RE
+    equipped_component = LARGE_ACOT_ARMOR_RE
+    equipped_component = LARGE_ACOT_ARMOR_RE
+    equipped_component = LARGE_ACOT_ARMOR_RE
+    custom_tooltip = sm_voidark_armor_re_tt
+}
+
+voidark_armor_aux_re = {
+    icon = "GFX_voidark_armor_aux_re"
+    category = sm_defense_cat
+
+    starbase_limit = {
+        base = 1
+    }
+
+    inline_script = {
+        script = voidark/starbase_buildings/defensive_components_base
+        ACOT_TECH = "tech_darkmatter_armor_supercharger_re"
+        TECH = "has_technology = tech_armor_re"
+        TIER = phanon
+    }
+
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    #9X + 1X Aura
+    equipped_component = ACOT_ARMOR_BOOSTER_RE
+    equipped_component = ACOT_ARMOR_BOOSTER_RE
+    equipped_component = ACOT_ARMOR_BOOSTER_RE
+    equipped_component = ACOT_ARMOR_BOOSTER_RE
+    equipped_component = ACOT_ARMOR_BOOSTER_RE
+    equipped_component = ACOT_ARMOR_BOOSTER_RE
+    equipped_component = ACOT_ARMOR_BOOSTER_RE
+    equipped_component = ACOT_ARMOR_BOOSTER_RE
+    equipped_component = ACOT_ARMOR_BOOSTER_AURA_RE
+    custom_tooltip = sm_voidark_armor_aux_re_tt
+}
+
+voidark_shield_re = {
+    icon = "GFX_voidark_shield_re"
+    category = sm_defense_cat
+    starbase_limit = {
+        base = -1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/defensive_components_base
+        ACOT_TECH = "tech_dark_matter_deflector_re"
+        TECH = ""
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    #12X
+    equipped_component = LARGE_ACOT_ENIGMATIC_SHIELD_RE
+    equipped_component = LARGE_ACOT_ENIGMATIC_SHIELD_RE
+    equipped_component = LARGE_ACOT_ENIGMATIC_SHIELD_RE
+    equipped_component = LARGE_ACOT_ENIGMATIC_SHIELD_RE
+    equipped_component = LARGE_ACOT_ENIGMATIC_SHIELD_RE
+    equipped_component = LARGE_ACOT_ENIGMATIC_SHIELD_RE
+    equipped_component = LARGE_ACOT_ENIGMATIC_SHIELD_RE
+    equipped_component = LARGE_ACOT_ENIGMATIC_SHIELD_RE
+    equipped_component = LARGE_ACOT_ENIGMATIC_SHIELD_RE
+    equipped_component = LARGE_ACOT_ENIGMATIC_SHIELD_RE
+    equipped_component = LARGE_ACOT_ENIGMATIC_SHIELD_RE
+    equipped_component = LARGE_ACOT_ENIGMATIC_SHIELD_RE
+    custom_tooltip = sm_voidark_shield_re_tt
+}
+
+voidark_shield_aux_re = {
+    icon = "GFX_voidark_shield_aux_re"
+    category = sm_defense_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/defensive_components_base
+        ACOT_TECH = "tech_darkmatter_shield_supercharger_re"
+        TECH = "has_technology = tech_dark_matter_deflector_re"
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+    #9X + 1
+    equipped_component = ACOT_SHIELD_BOOSTER_RE
+    equipped_component = ACOT_SHIELD_BOOSTER_RE
+    equipped_component = ACOT_SHIELD_BOOSTER_RE
+    equipped_component = ACOT_SHIELD_BOOSTER_RE
+    equipped_component = ACOT_SHIELD_BOOSTER_RE
+    equipped_component = ACOT_SHIELD_BOOSTER_RE
+    equipped_component = ACOT_SHIELD_BOOSTER_RE
+    equipped_component = ACOT_SHIELD_BOOSTER_RE
+    equipped_component = ACOT_SHIELD_BOOSTER_RE
+    equipped_component = ACOT_SHIELD_BOOSTER_AURA_RE
+    custom_tooltip = sm_voidark_shield_re_tt
+}
+
+voidark_afterburner_re = {
+    icon = "GFX_voidark_afterburner_re"
+    category = sm_utility_cat
+    starbase_limit = {
+        base = 2
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/defensive_components_base
+        ACOT_TECH = "tech_darkmatter_afterburners_re"
+        TECH = ""
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_tiny_phanon
+        }
+    }
+    #6X + 1 aura
+    equipped_component = ACOT_AFTERBURNERS_RE
+    equipped_component = ACOT_AFTERBURNERS_RE
+    equipped_component = ACOT_AFTERBURNERS_RE
+    equipped_component = ACOT_AFTERBURNERS_RE
+    equipped_component = ACOT_AFTERBURNERS_RE
+    equipped_component = ACOT_AFTERBURNERS_RE
+    equipped_component = ACOT_AFTERBURNERS_AURA_RE
+    custom_tooltip = sm_voidark_afterburner_re_tt
+}
+
+voidark_starcharter_re = {
+    icon = "GFX_voidark_starcharter_re"
+    category = sm_utility_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/defensive_components_base
+        ACOT_TECH = "tech_darkmatter_star_charter_re"
+        TECH = ""
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_tiny_phanon
+        }
+    }
+    #6X + Aura
+    equipped_component = ACOT_STARCHARTER_RE
+    equipped_component = ACOT_STARCHARTER_RE
+    equipped_component = ACOT_STARCHARTER_RE
+    equipped_component = ACOT_STARCHARTER_RE
+    equipped_component = ACOT_STARCHARTER_RE
+    equipped_component = ACOT_STARCHARTER_RE
+    equipped_component = ACOT_STARCHARTER_AURA_RE
+    custom_tooltip = sm_voidark_starcharter_re
+}
+
+voidark_explosive_core_re = {
+    icon = "GFX_voidark_explosive_core_re"
+    category = sm_utility_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/defensive_components_base
+        ACOT_TECH = "tech_missile_core_re"
+        TECH = ""
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_tiny_phanon
+        }
+    }
+    #6X
+    equipped_component = ACOT_WEAPON_EXPLOSIVE_CORE_RE
+    equipped_component = ACOT_WEAPON_EXPLOSIVE_CORE_RE
+    equipped_component = ACOT_WEAPON_EXPLOSIVE_CORE_RE
+    equipped_component = ACOT_WEAPON_EXPLOSIVE_CORE_RE
+    equipped_component = ACOT_WEAPON_EXPLOSIVE_CORE_RE
+    equipped_component = ACOT_WEAPON_EXPLOSIVE_CORE_RE
+    custom_tooltip = sm_voidark_explosive_core_re
+}
+
+voidark_kinetic_core_re = {
+    icon = "GFX_voidark_kinetic_core_re"
+    category = sm_utility_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/defensive_components_base
+        ACOT_TECH = "tech_kinetic_core_re"
+        TECH = ""
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_tiny_phanon
+        }
+    }
+    #6x
+    equipped_component = ACOT_WEAPON_KINETIC_CORE_RE
+    equipped_component = ACOT_WEAPON_KINETIC_CORE_RE
+    equipped_component = ACOT_WEAPON_KINETIC_CORE_RE
+    equipped_component = ACOT_WEAPON_KINETIC_CORE_RE
+    equipped_component = ACOT_WEAPON_KINETIC_CORE_RE
+    equipped_component = ACOT_WEAPON_KINETIC_CORE_RE
+    custom_tooltip = sm_voidark_kinetic_core_re
+}
+
+voidark_energy_core_re = {
+    icon = "GFX_voidark_energy_core_re"
+    category = sm_utility_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/defensive_components_base
+        ACOT_TECH = "tech_energy_core_re"
+        TECH = ""
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_tiny_phanon
+        }
+    }
+    #6X
+    equipped_component = ACOT_WEAPON_ENERGY_CORE_RE
+    equipped_component = ACOT_WEAPON_ENERGY_CORE_RE
+    equipped_component = ACOT_WEAPON_ENERGY_CORE_RE
+    equipped_component = ACOT_WEAPON_ENERGY_CORE_RE
+    equipped_component = ACOT_WEAPON_ENERGY_CORE_RE
+    equipped_component = ACOT_WEAPON_ENERGY_CORE_RE
+    custom_tooltip = sm_voidark_energy_core_re
+}
+
+voidark_fighter_core_re = {
+    icon = "GFX_voidark_fighter_core_re"
+    category = sm_utility_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/defensive_components_base
+        ACOT_TECH = "tech_fighter_core_re"
+        TECH = ""
+        TIER = phanon
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_tiny_phanon
+        }
+    }
+    #6X
+    equipped_component = ACOT_WEAPON_FIGHTER_CORE_RE
+    equipped_component = ACOT_WEAPON_FIGHTER_CORE_RE
+    equipped_component = ACOT_WEAPON_FIGHTER_CORE_RE
+    equipped_component = ACOT_WEAPON_FIGHTER_CORE_RE
+    equipped_component = ACOT_WEAPON_FIGHTER_CORE_RE
+    equipped_component = ACOT_WEAPON_FIGHTER_CORE_RE
+    custom_tooltip = sm_voidark_fighter_core_re
+}

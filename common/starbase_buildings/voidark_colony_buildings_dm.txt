@@ -110,7 +110,7 @@ voidark_resource_silo_dm = {
             inline_script = voidark/modules/module_costs/module_cost_small_delta
         }
     }
-    
+
     country_modifier = {
         country_resource_max_add = @voidark_resource_silo_dm
         situation_nomad_economy_max_progress_add = @voidark_resource_silo_or_dm
