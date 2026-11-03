@@ -1,0 +1,149 @@
+
+
+voidark_extraction_hub_re = {
+    icon = "GFX_voidark_extraction_hub_re"
+    category = sm_colony_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_phanon_district_amplifier"
+        TIER = phanon
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_phanon
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_phanon
+        }
+    }
+    planet_modifier = {
+        planet_technician_energy_produces_add = @district_amplifier_module_re
+        planet_miners_minerals_produces_add = @district_amplifier_module_re
+        planet_farmers_food_produces_add = @district_amplifier_module_re
+    }
+}
+
+voidark_industry_hub_re = {
+    icon = "GFX_voidark_industry_hub_re"
+    category = sm_colony_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_phanon_alloygood_amplifier"
+        TIER = phanon
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_phanon
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_phanon
+        }
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/industry_hub_module_production
+        TIER_ABBREVIATION = "re"
+    }
+}
+
+voidark_organisation_hub_re = {
+    icon = "GFX_voidark_organisation_hub_re"
+    category = sm_colony_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_phanon_trade_center"
+        TIER = phanon
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_phanon
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_phanon
+        }
+    }
+    planet_modifier = {
+        planet_jobs_trade_produces_mult = @voidark_trade_module_re
+        planet_bureaucrats_unity_produces_add = @organisation_hub_unity_produces_add_re
+    }
+    triggered_planet_modifier = { #todo check whether this works
+        potential = {
+            owner? = { NOT = { has_valid_civic = civic_dystopian_society } }
+        }
+        planet_amenities_add = @organisation_hub_amenities_per_100_re
+        mult = value:num_jobs_with_tag|TAG|trade|
+        custom_tooltip = "sm_voidark_oragnisation_hub_re_effect"
+        show_only_custom_tooltip = yes
+    }
+}
+
+#todo psi hub?
+
+voidark_resource_silo_re = {
+    icon = "GFX_voidark_resource_silo_re"
+    category = sm_economy_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_phanon_resource_silo"
+        TIER = phanon
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_phanon
+        }
+    }
+
+    country_modifier = {
+        country_resource_max_add = @voidark_resource_silo_re
+        situation_nomad_economy_max_progress_add = @voidark_resource_silo_or_re
+        country_resource_max_sr_dark_matter_add = @max_dark_matter_re
+        country_resource_max_acot_sr_dark_energy_add = @max_dark_matter_re
+        country_resource_max_aot_sr_runic_power_add = @max_runic_re
+    }
+}
+
+voidark_research_hub_re = {
+    icon = "GFX_voidark_research_hub_re"
+    category = sm_colony_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_phanon_institute"
+        TIER = phanon
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_phanon
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_phanon
+        }
+    }
+    planet_modifier = {
+        planet_researchers_produces_mult = @research_hub_re
+        planet_researchers_upkeep_mult = @research_hub_upkeep_re
+    }
+}

@@ -110,11 +110,38 @@ voidark_resource_silo_dm = {
             inline_script = voidark/modules/module_costs/module_cost_small_delta
         }
     }
-
+    
     country_modifier = {
-        country_resource_max_add = 15000
-        situation_nomad_economy_max_progress_add = 1500
-        country_resource_max_sr_dark_matter_add = 5000
-        country_resource_max_acot_sr_dark_energy_add = 5000
+        country_resource_max_add = @voidark_resource_silo_dm
+        situation_nomad_economy_max_progress_add = @voidark_resource_silo_or_dm
+        country_resource_max_sr_dark_matter_add = @max_dark_matter_dm
+        country_resource_max_acot_sr_dark_energy_add = @max_dark_matter_dm
+    }
+}
+
+voidark_research_hub_dm = {
+    icon = "GFX_voidark_research_hub_dm"
+    category = sm_colony_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_acot_dm_institute"
+        TIER = delta
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_delta
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_delta
+        }
+    }
+    planet_modifier = {
+        planet_researchers_produces_mult = @research_hub_dm
+        planet_researchers_upkeep_mult = @research_hub_upkeep_dm
     }
 }

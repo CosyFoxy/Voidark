@@ -1,0 +1,148 @@
+
+
+voidark_extraction_hub_ae = {
+    icon = "GFX_voidark_extraction_hub_ae"
+    category = sm_colony_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_acot_ae_district_amplifier"
+        TIER = alpha
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_alpha
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_alpha
+        }
+    }
+    planet_modifier = {
+        planet_technician_energy_produces_add = @district_amplifier_module_ae
+        planet_miners_minerals_produces_add = @district_amplifier_module_ae
+        planet_farmers_food_produces_add = @district_amplifier_module_ae
+    }
+}
+
+voidark_industry_hub_ae = {
+    icon = "GFX_voidark_industry_hub_ae"
+    category = sm_colony_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_acot_ae_alloygood_amplifier"
+        TIER = alpha
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_alpha
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_alpha
+        }
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/industry_hub_module_production
+        TIER_ABBREVIATION = "ae"
+    }
+}
+
+voidark_organisation_hub_ae = {
+    icon = "GFX_voidark_organisation_hub_ae"
+    category = sm_colony_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_acot_ae_trade_center"
+        TIER = alpha
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_alpha
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_alpha
+        }
+    }
+    planet_modifier = {
+        planet_jobs_trade_produces_mult = @voidark_trade_module_ae
+        planet_bureaucrats_unity_produces_add = @organisation_hub_unity_produces_add_ae
+    }
+    triggered_planet_modifier = { #todo check whether this works
+        potential = {
+            owner? = { NOT = { has_valid_civic = civic_dystopian_society } }
+        }
+        planet_amenities_add = @organisation_hub_amenities_per_100_ae
+        mult = value:num_jobs_with_tag|TAG|trade|
+        custom_tooltip = "sm_voidark_oragnisation_hub_ae_effect"
+        show_only_custom_tooltip = yes
+    }
+}
+
+#todo psi hub?
+
+voidark_resource_silo_ae = {
+    icon = "GFX_voidark_resource_silo_ae"
+    category = sm_economy_cat
+    starbase_limit = {
+        base = 3
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_acot_ae_resource_silo"
+        TIER = alpha
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_alpha
+        }
+    }
+
+    country_modifier = {
+        country_resource_max_add = @voidark_resource_silo_ae
+        situation_nomad_economy_max_progress_add = @voidark_resource_silo_or_ae
+        country_resource_max_sr_dark_matter_add = @max_dark_matter_ae
+        country_resource_max_acot_sr_dark_energy_add = @max_dark_matter_ae
+    }
+}
+
+voidark_research_hub_ae = {
+    icon = "GFX_voidark_research_hub_ae"
+    category = sm_colony_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_acot_ae_institute"
+        TIER = alpha
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_alpha
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_alpha
+        }
+    }
+    planet_modifier = {
+        planet_researchers_produces_mult = @research_hub_ae
+        planet_researchers_upkeep_mult = @research_hub_upkeep_ae
+    }
+}

@@ -1,0 +1,151 @@
+
+
+
+voidark_extraction_hub_se = {
+    icon = "GFX_voidark_extraction_hub_se"
+    category = sm_colony_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_stellarite_district_amplifier"
+        TIER = stellarite
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_stellarite
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_stellarite
+        }
+    }
+    planet_modifier = {
+        planet_technician_energy_produces_add = @district_amplifier_module_se
+        planet_miners_minerals_produces_add = @district_amplifier_module_se
+        planet_farmers_food_produces_add = @district_amplifier_module_se
+    }
+}
+
+voidark_industry_hub_se = {
+    icon = "GFX_voidark_industry_hub_se"
+    category = sm_colony_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_stellarite_alloygood_amplifier"
+        TIER = stellarite
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_stellarite
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_stellarite
+        }
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/industry_hub_module_production
+        TIER_ABBREVIATION = "re"
+    }
+}
+
+voidark_organisation_hub_se = {
+    icon = "GFX_voidark_organisation_hub_se"
+    category = sm_colony_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_stellarite_trade_center"
+        TIER = stellarite
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_stellarite
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_stellarite
+        }
+    }
+    planet_modifier = {
+        planet_jobs_trade_produces_mult = @voidark_trade_module_se
+        planet_bureaucrats_unity_produces_add = @organisation_hub_unity_produces_add_se
+    }
+    triggered_planet_modifier = { #todo check whether this works
+        potential = {
+            owner? = { NOT = { has_valid_civic = civic_dystopian_society } }
+        }
+        planet_amenities_add = @organisation_hub_amenities_per_100_se
+        mult = value:num_jobs_with_tag|TAG|trade|
+        custom_tooltip = "sm_voidark_oragnisation_hub_se_effect"
+        show_only_custom_tooltip = yes
+    }
+}
+
+#todo psi hub?
+
+voidark_resource_silo_se = {
+    icon = "GFX_voidark_resource_silo_se"
+    category = sm_economy_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_stellarite_resource_silo"
+        TIER = stellarite
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_small_stellarite
+        }
+    }
+
+    country_modifier = {
+        country_resource_max_add = @voidark_resource_silo_se
+        situation_nomad_economy_max_progress_add = @voidark_resource_silo_or_se
+        country_resource_max_sr_dark_matter_add = @max_dark_matter_se
+        country_resource_max_acot_sr_dark_energy_add = @max_dark_matter_se
+        country_resource_max_aot_sr_runic_power_add = @max_runic_se
+        country_resource_max_acot_sr_stellarite_add = @max_stellarite_se
+    }
+}
+
+voidark_research_hub_se = {
+    icon = "GFX_voidark_research_hub_se"
+    category = sm_colony_cat
+    starbase_limit = {
+        base = 1
+    }
+    inline_script = {
+        script = voidark/starbase_buildings/colony_components_base
+        ACOT_TECH = "tech_stellarite_institute"
+        TIER = stellarite
+        TECH = ""
+    }
+    resources = {
+        category = starbase_arkship_upgrades
+        cost = {
+            inline_script = voidark/modules/module_costs/module_cost_l_stellarite
+        }
+        upkeep = {
+            inline_script = voidark/modules/module_upkeep/module_upkeep_util_stellarite
+        }
+    }
+    planet_modifier = {
+        planet_researchers_produces_mult = @research_hub_se
+        planet_researchers_upkeep_mult = @research_hub_upkeep_se
+    }
+}
