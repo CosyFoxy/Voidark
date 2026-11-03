@@ -23,6 +23,11 @@ on_tech_increased = {
     }
 }
 
+on_ship_upgraded = {
+    events = {
+        voidark.02
+    }
+}
 
 
 
