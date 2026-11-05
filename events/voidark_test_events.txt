@@ -14,11 +14,37 @@ country_event = {
     }
 
     immediate = {
-        set_country_flag = acot_phanon_tech_enabled
-        phanon_type_a_tech_gift = yes
-        phanon_type_civ_tech_gift = yes
-        phanon_type_ship_tech_gift = yes
-        phanon_species_traits_tech_gift_card = yes
-        phanon_type_b_tech_gift = yes
+        voidark_give_phanon_research_options = yes
+    }
+}
+
+country_event = {
+    id = voidark_test.2
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        is_ai = no
+        NOR = {
+            has_global_flag = acot_phanon_forbidden
+            has_global_flag = aot_phanon_content_OFF
+        }
+    }
+
+    immediate = {
+        voidark_give_phanon_research_options = yes
+        owner? = {
+            set_country_flag = voidark_began_vault_integration
+            save_global_event_target_as = voidark_rival_country
+            set_country_flag = acot_phanon_tech_stage_one_enabled
+            set_country_flag = acot_phanon_tech_stage_two_enabled
+            set_country_flag = acot_phanon_tech_stage_three_enabled
+            set_country_flag = acot_phanon_tech_stage_four_enabled
+            set_country_flag = voidark_rival_test_flag
+            country_event = {
+                id = voidark_vault_invasion.993
+                days = 1
+            }
+        }
     }
 }
