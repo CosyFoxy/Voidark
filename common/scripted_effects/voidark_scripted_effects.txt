@@ -148,3 +148,22 @@ give_missing_worldark_techs = {
         TECH = tech_voidark_delta
     }
 }
+
+voidark_fix_rival_integration = {
+    set_country_flag = voidark_began_vault_integration
+    save_global_event_target_as = voidark_rival_country
+    country_event = {
+        id = voidark_vault_invasion.992
+    }
+}
+
+voidark_give_phanon_research_options = {
+    owner? = {
+        set_country_flag = acot_phanon_tech_enabled
+        phanon_type_a_tech_gift = yes
+        phanon_type_civ_tech_gift = yes
+        phanon_type_ship_tech_gift = yes
+        phanon_species_traits_tech_gift_card = yes
+        phanon_type_b_tech_gift = yes
+    }
+}

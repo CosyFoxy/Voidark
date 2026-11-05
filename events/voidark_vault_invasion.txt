@@ -71,12 +71,15 @@ country_event = {
         is_same_value = event_target:vault_temp_owner
         has_concluded_vault_invasion = yes
         has_concluded_phanon_crisis = yes
-        any_owned_planet = {
-            is_planet_class = pc_acot_pmc_vault
-            has_carrier_flag = acot_vault_floor_four_cleared
+        owner? = {
+            any_owned_colony = {
+                is_planet_class = pc_acot_pmc_vault
+                has_carrier_flag = acot_vault_floor_four_cleared
+            }
         }
     }
     immediate = {
+        set_country_flag = voidark_vault_integration_event_started
         country_event = {
             id = voidark_vault_invasion.993
             days = 360
@@ -95,8 +98,12 @@ country_event = {
 
     trigger = {
         is_same_value = event_target:vault_temp_owner
-        has_concluded_vault_invasion = yes
-        has_concluded_phanon_crisis = yes
+        has_country_flag = voidark_vault_integration_event_started
+        NOT = { has_country_flag = voidark_vault_integration_event_correctly_fired }
+    }
+
+    immediate = {
+        set_country_flag = voidark_vault_integration_event_correctly_fired
     }
 
     #INTEGRATE
@@ -133,7 +140,7 @@ country_event = {
     trigger = {
         is_same_value = event_target:vault_temp_owner
         has_country_flag = voidark_vault_integration_permitted
-        has_concluded_vault_invasion = yes
+        has_correctly_began_vault_integration = yes
     }
     option = {
         name = voidark_vault_invasion.994.a
@@ -157,7 +164,7 @@ country_event = {
     trigger = {
         is_same_value = event_target:vault_temp_owner
         has_country_flag = voidark_vault_integration_permitted
-        has_concluded_vault_invasion = yes
+        has_correctly_began_vault_integration = yes
     }
     immediate = {
         set_country_flag = acot_phanon_diplomacy_engaged
@@ -195,9 +202,8 @@ country_event = {
     trigger = {
         is_same_value = event_target:vault_temp_owner
         has_country_flag = voidark_vault_integration_permitted
-        has_concluded_vault_invasion = yes
+        has_correctly_began_vault_integration = yes
         has_technology = tech_voidark_phanon_vault_integration
-        NOT = { has_event_chain = acot_phanon_event_chain }
         NOT = { has_country_flag = voidark_vault_integration_tech_researched }
     }
 
@@ -494,7 +500,6 @@ country_event = {
     trigger = {
         NOR = {
             has_country_flag = attacked_phanon_property
-            has_country_flag = voidark_phanon_nomad_warning
             has_global_flag = acot_phanon_forbidden
             has_global_flag = acot_phanon_retaliation_crisis_initiated
             has_global_flag = acot_phanon_portal_disabled
@@ -530,7 +535,7 @@ country_event = {
     custom_gui = "acot_enclave_phanon_window"
     custom_gui_option = "acot_enclave_phanon_option"
     immediate = {
-        set_country_flag = voidark_phanon_nomad_warning
+        set_country_flag = acot_phanon_diplomacy_engaged
     }
     after = {
         hidden_effect = {
