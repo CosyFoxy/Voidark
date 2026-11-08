@@ -146,3 +146,33 @@ xhk_worldark_forgery_infiltration = {
     divide = 100
     mult = @xhk_worldark_forgery_infiltration_per_100
 }
+
+xhk_worldark_storage_nomad_reserves_display = {
+    base = 0
+    add = value:xhk_worldark_storage_levels
+    mult = @xhk_worldark_storage_nomad_reserves
+    modifier = {
+        has_zone = {
+            zone = zone_voidark_delta_storage
+        }
+        add = 500
+    }
+    modifier = {
+        has_zone = {
+            zone = zone_voidark_alpha_storage
+        }
+        add = 1000
+    }
+    modifier = {
+        has_zone = {
+            zone = zone_voidark_phanon_storage
+        }
+        add = 1500
+    }
+    modifier = {
+        has_zone = {
+            zone = zone_voidark_stellarite_storage
+        }
+        add = 2000
+    }
+}
