@@ -121,6 +121,17 @@
  zone_voidark_delta_mindlink:0 "$zone_voidark_delta_urban$"
  zone_voidark_delta_mindlink_desc:0 "$zone_voidark_delta_urban_desc$"
 
+ zone_voidark_delta_survey_decompressor: "§E$concept_delta_tier$ $zone_xhk_worldark_survey_decompressor$§!"
+ zone_voidark_delta_survey_decompressor_desc: "$zone_xhk_worldark_survey_decompressor_desc$"
+
+ zone_voidark_delta_survey: "§E$concept_delta_tier$ $zone_xhk_worldark_survey$§!"
+ zone_voidark_delta_survey_desc: "$zone_xhk_worldark_survey_desc$"
+ zone_voidark_delta_survey_tt: "§G+$@voidark_survey_delta_per_100|%1$§! $MOD_SHIP_ANOMALY_RESEARCH_SPEED$ and §G+$@voidark_survey_delta_per_100|%1$§! $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$ per §Y100§! [GetHarvester] jobs."
+
+ zone_voidark_delta_forgery: "§E$concept_delta_tier$ $zone_xhk_worldark_forgery$§!"
+ zone_voidark_delta_forgery_desc: "$zone_xhk_worldark_forgery_desc$"
+ zone_voidark_delta_forgery_tt: "§G+$@voidark_forgery_delta_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@voidark_forgery_delta_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$ per §Y100§! [GetArtisanPlural]."
+
 #DISTRICTS ------------------------------------------------------------------
  district_voidark_delta_city:0 "§E$concept_delta_tier$ $district_xhk_worldark_city$§!"
  district_voidark_delta_city_desc:0 "$district_ark_city_desc$"
@@ -322,7 +333,7 @@
  district_voidark_delta_storage:0 "§E$concept_delta_tier$ $district_xhk_worldark_storage$§!"
  district_voidark_delta_storage_desc:0 "$district_xhk_worldark_storage_desc$"
  district_voidark_delta_storage_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_storage_plural$§!"
- district_voidark_delta_storage_effect:0 "Attached Zone gives: \n§G+10000§! £mod_country_resource_max_add£ Resource Storage\n§G+1000§! £operational_reserves£ $mod_situation_nomad_economy_max_progress_add$\n§G+1000§! £sr_dark_matter£ $mod_country_resource_max_sr_dark_matter_add$\n§G+1000§! £acot_sr_dark_energy£ $mod_country_resource_max_acot_sr_dark_energy_add$"
+ district_voidark_delta_storage_effect:0 "$district_xhk_worldark_storage_effect$$TABBED_NEW_LINE$ - $mod_country_resource_max_sr_dark_matter_add$: §G+[voidark_GetStorageDMMax]§!$TABBED_NEW_LINE$ - $mod_country_resource_max_acot_sr_dark_energy_add$: §G+[voidark_GetStorageDMMax]§!"
  flavor_district_voidark_delta_storage:0 "§YLiminal Storage§!"
 
  district_voidark_delta_utilbay:0 "§E$concept_delta_tier$ $district_xhk_worldark_utilbay$§!"
@@ -354,3 +365,13 @@
  district_voidark_delta_mindlink_desc:0 "$district_xhk_worldark_mindlink_desc$"
  district_voidark_delta_mindlink_plural:0 "§E$concept_delta_tier$ $district_xhk_worldark_mindlink_plural$§!"
  flavor_district_voidark_delta_mindlink:0 "§YTransference Central§!"
+
+ district_voidark_delta_minerals_survey: "§E$concept_delta_tier$ $district_xhk_worldark_harvest_survey$§!"
+ district_voidark_delta_minerals_survey_desc: "$district_xhk_worldark_harvest_survey_desc$"
+ district_voidark_delta_minerals_survey_plural: "$district_xhk_worldark_harvest_survey_plural$"
+ flavor_district_voidark_delta_minerals_survey: "§YAstro-Material Investigation§!"
+
+ district_voidark_delta_decompressor_survey: "§E$concept_delta_tier$ $district_xhk_worldark_decompressor_survey$§!"
+ district_voidark_delta_decompressor_survey_desc: "$district_xhk_worldark_decompressor_survey_desc$"
+ district_voidark_delta_decompressor_survey_plural: "$district_xhk_worldark_decompressor_survey_plural$"
+ flavor_district_voidark_delta_decompressor_survey: "§YAstro-Material Investigation§!"

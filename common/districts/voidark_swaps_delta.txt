@@ -211,6 +211,7 @@ district_voidark_delta_minerals = {
     }
 }
 
+
 ## Decompressor
 district_voidark_delta_decompressor = {
     inline_script = {
@@ -224,6 +225,38 @@ district_voidark_delta_decompressor = {
         script = voidark/districts/flavor/voidark_single_flavor
         TIER = delta
         TYPE = decompressor
+    }
+}
+
+
+district_voidark_delta_minerals_survey = {
+    icon = district_aot_power_mining_dm
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_mining
+        BACKGROUND = district_voidark_delta_minerals
+        OVERLAY_ICON = GFX_district_research
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = delta
+        TYPE = minerals_survey
+    }
+}
+
+district_voidark_delta_decompressor_survey = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_mining
+        BACKGROUND = district_voidark_delta_decompressor
+        OVERLAY_ICON = GFX_district_research
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = delta
+        TYPE = decompressor_survey
     }
 }
 
@@ -553,7 +586,7 @@ district_voidark_delta_supertensiles = {
     icon = district_voidark_delta_unity_machine
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
-        GRIDBOX = district_giga_frameworld_supertensiles
+        GRIDBOX = district_giga_birch_ktisma_supertensiles
         BACKGROUND = district_voidark_delta_supertensiles
         OVERLAY_ICON = GFX_giga_district_supertensiles
     }

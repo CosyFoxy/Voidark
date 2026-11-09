@@ -21,3 +21,64 @@ voidark_starbase_level = {
         add = 5
     }
 }
+
+voidark_storage_sr_dm_max = {
+    base = 0
+    modifier = {
+        has_zone = { zone = zone_voidark_delta_storage }
+        add = 10
+    }
+    modifier = {
+        has_zone = { zone = zone_voidark_alpha_storage }
+        add = 15
+    }
+    modifier = {
+        has_zone = { zone = zone_voidark_phanon_storage }
+        add = 20
+    }
+    modifier = {
+        has_zone = { zone = zone_voidark_stellarite_storage }
+        add = 30
+    }
+}
+
+voidark_storage_sr_re_max = {
+    base = 0
+    modifier = {
+        has_zone = { zone = zone_voidark_phanon_storage }
+        add = 10
+    }
+    modifier = {
+        has_zone = { zone = zone_voidark_stellarite_storage }
+        add = 20
+    }
+}
+
+voidark_storage_sr_se_max = {
+    base = 0
+    modifier = {
+        has_zone = { zone = zone_voidark_stellarite_storage }
+        add = 10
+    }
+}
+
+voidark_storage_sr_dm_display = {
+    base = 0
+    add = value:voidark_storage_sr_dm_max
+    mult = value:xhk_worldark_storage_levels
+    mult = 100
+}
+
+voidark_storage_sr_re_display = {
+    base = 0
+    add = value:voidark_storage_sr_re_max
+    mult = value:xhk_worldark_storage_levels
+    mult = 100
+}
+
+voidark_storage_sr_se_display = {
+    base = 0
+    add = value:voidark_storage_sr_se_max
+    mult = value:xhk_worldark_storage_levels
+    mult = 100
+}

@@ -232,3 +232,46 @@ has_delta_worldark_tech = {
 is_delta_worldark = {
     is_ship_size = xhk_worldark_tier_13
 }
+
+is_rogue_servitor_empire = {
+    AND = {
+        is_machine_empire = yes
+        has_valid_civic = civic_machine_servitor
+    }
+}
+
+
+has_base_survey_zone = {
+    OR = {
+        has_zone = {
+            zone = zone_xhk_worldark_survey
+        }
+        has_zone = {
+            zone = zone_xhk_worldark_survey_decompressor
+        }
+    }
+}
+
+has_voidark_survey_zone = {
+    OR = {
+        has_zone = {
+            zone = zone_voidark_$TIER$_survey
+        }
+        has_zone = {
+            zone = zone_voidark_$TIER$_survey_decompressor
+        }
+    }
+}
+
+
+has_base_forgery_zone = {
+    has_zone = {
+        zone = zone_xhk_worldark_forgery
+    }
+}
+
+has_voidark_forgery_zone = {
+    has_zone = {
+        zone = zone_voidark_$TIER$_forgery
+    }
+}
