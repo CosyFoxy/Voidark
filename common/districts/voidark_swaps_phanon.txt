@@ -225,6 +225,37 @@ district_voidark_phanon_decompressor = {
     }
 }
 
+district_voidark_phanon_minerals_survey = {
+    icon = district_aot_power_mining_pe
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_mining
+        BACKGROUND = district_voidark_phanon_minerals
+        OVERLAY_ICON = GFX_district_research
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = minerals_survey
+    }
+}
+
+district_voidark_phanon_decompressor_survey = {
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_mining
+        BACKGROUND = district_voidark_phanon_decompressor
+        OVERLAY_ICON = GFX_district_research
+    }
+
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = decompressor_survey
+    }
+}
+
 ## Farming
 district_voidark_phanon_farming = {
     icon = district_aot_power_farming_pe
@@ -552,7 +583,7 @@ district_voidark_phanon_supertensiles = {
     icon = district_voidark_phanon_unity_machine
     inline_script = {
         script = voidark/districts/parts/base_swap_districts
-        GRIDBOX = district_giga_frameworld_supertensiles
+        GRIDBOX = district_giga_birch_ktisma_supertensiles
         BACKGROUND = district_voidark_phanon_supertensiles
         OVERLAY_ICON = GFX_giga_district_supertensiles
     }

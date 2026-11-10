@@ -202,6 +202,81 @@ zone_voidark_phanon_foundry = {
     ai_priority = 15
 }
 
+zone_voidark_phanon_forgery = {
+    icon = GFX_district_specialization_voidark_phanon_forgery
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = phanon
+
+        POTENTIAL = "owner? = { has_technology = tech_decryption_2 }"
+        TECHNOLOGY = "tech_voidark_phanon"
+    }
+
+    included_building_sets = {
+        factory
+        origin
+        urban_automation
+    }
+
+    #ACOT ADD
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = phanon_artisan
+        GESTALT_JOB = phanon_artisan_drone
+        AMOUNT = 50
+    }
+
+    #NORMAL REMOVE
+    inline_script = {
+        script = jobs/zone_factory_add
+        AMOUNT = -50
+    }
+
+    triggered_country_modifier = {
+        potential = {
+            always = yes
+        }
+        spy_network_daily_value_mult = 4
+        espionage_operation_speed_mult = 4
+        mult = value:xhk_worldark_forgery_infiltration
+    }
+
+    # Non-catalytic empires pay the extra factory upkeep in minerals
+    triggered_planet_modifier = {
+        potential = {
+            industrial_jobs_are_catalytic_trigger = no
+        }
+        modifier = {
+            planet_artisans_minerals_upkeep_add = 4
+        }
+    }
+    # Catalytic Processing empires pay it in food instead, at the same 1.5x ratio the base job uses when swapping minerals for food
+    triggered_planet_modifier = {
+        potential = {
+            industrial_jobs_are_catalytic_trigger = yes
+        }
+        modifier = {
+            planet_artisans_food_upkeep_add = 6
+        }
+    }
+
+    triggered_desc = {
+        trigger = { always = yes }
+        text = zone_voidark_phanon_forgery_tt
+    }
+
+
+    swap_type = district_voidark_phanon_factory
+    swap_type_weight = 5
+
+    zone_sets = { xhk_worldark_factory }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
+
 zone_voidark_phanon_voidforge = {
     icon = GFX_district_specialization_voidark_phanon_foundry
     inline_script = {
@@ -775,6 +850,73 @@ zone_voidark_phanon_decompressor = {
     ai_priority = 15
 }
 
+zone_voidark_phanon_survey = {
+    icon = GFX_district_specialization_voidark_phanon_research
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = phanon
+        POTENTIAL = "
+            owner? = { has_technology = tech_sensors_2 }
+            carrier.starbase = { NOT = { has_starbase_module = xhk_worldark_corespinal_blackhole}}"
+        TECHNOLOGY = "tech_voidark_phanon"
+    }
+    convert_to = {
+        zone_voidark_phanon_survey_decompressor
+    }
+    inline_script = {
+        script = jobs/zone_researchers_add
+        AMOUNT = -10
+    }
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = phanon_researcher
+        GESTALT_JOB = phanon_researcher_drone
+        AMOUNT = 30
+    }
+    inline_script = {
+        script = voidark/zones/voidark_survey_zones
+        TIER = phanon
+    }
+    swap_type = district_voidark_phanon_minerals_survey
+    swap_type_weight = 5
+}
+
+zone_voidark_phanon_survey_decompressor = {
+    icon = GFX_district_specialization_voidark_phanon_research
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = phanon
+        POTENTIAL = "
+            owner? = { has_technology = tech_sensors_2 }
+            carrier.starbase  = { has_starbase_module = xhk_worldark_corespinal_blackhole}"
+        TECHNOLOGY = "tech_voidark_phanon"
+    }
+    convert_to = {
+        zone_voidark_phanon_survey
+    }
+    inline_script = {
+        script = jobs/zone_researchers_add
+        AMOUNT = -20
+    }
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = phanon_researcher
+        GESTALT_JOB = phanon_researcher_drone
+        AMOUNT = 60
+    }
+    inline_script = {
+        script = voidark/zones/voidark_survey_zones
+        TIER = phanon
+    }
+    swap_type = district_voidark_phanon_decompressor_survey
+    swap_type_weight = 5
+}
 # farming
 
 zone_voidark_phanon_farming = {
@@ -876,6 +1018,7 @@ zone_voidark_phanon_machine = {
         POTENTIAL = "
              owner? = {
                 is_gestalt = yes
+                is_rogue_servitor_empire = no
                 is_hive_empire = no
                 is_spiritualist = no
             }
@@ -1041,7 +1184,10 @@ zone_voidark_phanon_servitor = {
         
         POTENTIAL = "
             owner? = {
-                has_valid_civic = civic_machine_servitor
+                is_gestalt = yes
+                is_rogue_servitor_empire = yes
+                is_hive_empire = no
+                is_spiritualist = no
             }
         "
         TECHNOLOGY = "tech_voidark_phanon"

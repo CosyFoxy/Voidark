@@ -31,7 +31,7 @@ triggered_district_planet_modifier = {
         }
     }
     modifier = {
-        job_giga_megaengineer_add = -100
+        job_giga_megaengineer_add = -150
     }
 }
 triggered_district_planet_modifier = {
@@ -42,6 +42,6 @@ triggered_district_planet_modifier = {
         }
     }
     modifier = {
-        job_giga_megaengineer_drone_add = -100
+        job_giga_megaengineer_drone_add = -150
     }
 }

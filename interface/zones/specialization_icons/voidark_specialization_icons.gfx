@@ -561,4 +561,20 @@ spriteTypes = {
         name = GFX_district_specialization_voidark_stellarite_deep_sleep
         textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_deep_sleep.dds"
     }
+    spriteType = {
+        name = GFX_district_specialization_voidark_delta_forgery
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_forgery.dds"
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_alpha_forgery
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_alpha_forgery.dds"
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_phanon_forgery
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_forgery.dds"
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_stellarite_forgery
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_forgery.dds"
+    }
 }

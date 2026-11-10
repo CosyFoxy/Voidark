@@ -70,3 +70,185 @@ xhk_worldark_level = {
         add = 16
     }
 }
+
+xhk_worldark_forgery_infiltration = {
+    base = 0
+    complex_trigger_modifier = {
+        trigger = num_assigned_jobs
+        parameters = {
+            job = artisan
+        }
+        mode = add
+    }
+    complex_trigger_modifier = {
+        trigger = num_assigned_jobs
+        parameters = {
+            job = artisan_drone
+        }
+        mode = add
+    }
+    complex_trigger_modifier = {
+        trigger = num_assigned_jobs
+        parameters = {
+            job = acot_artisan
+        }
+        mode = add
+    }
+    complex_trigger_modifier = {
+        trigger = num_assigned_jobs
+        parameters = {
+            job = acot_artisan_drone
+        }
+        mode = add
+    }
+    complex_trigger_modifier = {
+        trigger = num_assigned_jobs
+        parameters = {
+            job = ae_artisan
+        }
+        mode = add
+    }
+    complex_trigger_modifier = {
+        trigger = num_assigned_jobs
+        parameters = {
+            job = ae_artisan_drone
+        }
+        mode = add
+    }
+    complex_trigger_modifier = {
+        trigger = num_assigned_jobs
+        parameters = {
+            job = phanon_artisan
+        }
+        mode = add
+    }
+    complex_trigger_modifier = {
+        trigger = num_assigned_jobs
+        parameters = {
+            job = phanon_artisan_drone
+        }
+        mode = add
+    }
+    complex_trigger_modifier = {
+        trigger = num_assigned_jobs
+        parameters = {
+            job = stellarite_artisan
+        }
+        mode = add
+    }
+    complex_trigger_modifier = {
+        trigger = num_assigned_jobs
+        parameters = {
+            job = stellarite_artisan_drone
+        }
+        mode = add
+    }
+    divide = 100
+    modifier = {
+        has_base_forgery_zone = yes
+        mult = @xhk_worldark_forgery_infiltration_per_100
+    }
+    modifier = {
+        has_voidark_forgery_zone = {
+            TIER = delta
+        }
+        mult = @[xhk_worldark_forgery_infiltration_per_100*2]
+    }
+    modifier = {
+        has_voidark_forgery_zone = {
+            TIER = alpha
+        }
+        mult = @[xhk_worldark_forgery_infiltration_per_100*3]
+    }
+    modifier = {
+        has_voidark_forgery_zone = {
+            TIER = phanon
+        }
+        mult = @[xhk_worldark_forgery_infiltration_per_100*4]
+    }
+    modifier = {
+        has_voidark_forgery_zone = {
+            TIER = stellarite
+        }
+        mult = @[xhk_worldark_forgery_infiltration_per_100*5]
+    }
+}
+
+# anomaly and survey speed from the survey zone
+xhk_worldark_survey_bonus = {
+    base = 0
+    complex_trigger_modifier = {
+        trigger = num_assigned_jobs
+        parameters = {
+            job = ark_harvester
+        }
+        mode = add
+    }
+    complex_trigger_modifier = {
+        trigger = num_assigned_jobs
+        parameters = {
+            job = ark_harvester_gestalt
+        }
+        mode = add
+    }
+    divide = 100
+    modifier = {
+        has_base_survey_zone = yes
+        mult = @xhk_worldark_survey_bonus_per_100
+    }
+    modifier = {
+        has_voidark_survey_zone = {
+            TIER = delta
+        }
+        mult = @[xhk_worldark_survey_bonus_per_100*1.5]
+    }
+    modifier = {
+        has_voidark_survey_zone = {
+            TIER = alpha
+        }
+        mult = @[xhk_worldark_survey_bonus_per_100*2]
+    }
+    modifier = {
+        has_voidark_survey_zone = {
+            TIER = phanon
+        }
+        mult = @[xhk_worldark_survey_bonus_per_100*2.5]
+    }
+    modifier = {
+        has_voidark_survey_zone = {
+            TIER = stellarite
+        }
+        mult = @[xhk_worldark_survey_bonus_per_100*3]
+    }
+}
+
+
+xhk_worldark_storage_nomad_reserves_display = {
+    base = 0
+    add = value:xhk_worldark_storage_levels
+    mult = @xhk_worldark_storage_nomad_reserves
+    modifier = {
+        has_zone = {
+            zone = zone_voidark_delta_storage
+        }
+        add = 500
+    }
+    modifier = {
+        has_zone = {
+            zone = zone_voidark_alpha_storage
+        }
+        add = 1000
+    }
+    modifier = {
+        has_zone = {
+            zone = zone_voidark_phanon_storage
+        }
+        add = 1500
+    }
+    modifier = {
+        has_zone = {
+            zone = zone_voidark_stellarite_storage
+        }
+        add = 2000
+    }
+}
