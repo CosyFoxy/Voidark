@@ -27,6 +27,10 @@ is_arkship_ship = {
         is_ship_size = xhk_worldark_tier_15
         is_ship_size = xhk_worldark_tier_16
         is_ship_size = xhk_worldark_tier_17
+
+        is_ship_size = acot_civilian_arkship_tier_4
+        is_ship_size = acot_science_arkship_tier_4
+        is_ship_size = acot_military_arkship_tier_4
     }
 }
 
@@ -60,6 +64,10 @@ is_arkship_starbase = {
         has_starbase_size = xhk_worldark_tier_15
         has_starbase_size = xhk_worldark_tier_16
         has_starbase_size = xhk_worldark_tier_17
+
+        has_starbase_size = acot_military_arkship_tier_4
+        has_starbase_size = acot_science_arkship_tier_4
+        has_starbase_size = acot_civilian_arkship_tier_4
     }
 }
 
@@ -130,6 +138,28 @@ xhk_worldark_has_corespinal = {
         is_ship_size = xhk_worldark_tier_15
         is_ship_size = xhk_worldark_tier_16
         is_ship_size = xhk_worldark_tier_17
+    }
+}
+
+
+has_deep_scan_capability = {
+    any_owned_fleet = {
+        OR = {
+            is_ship_size = science_arkship_tier_2
+            is_ship_size = science_arkship_tier_3
+            is_ship_size = precursor_science
+            starbase = {
+                is_arkship_starbase = yes
+                OR = {
+                    has_starbase_module = arkship_sensor_array
+                    has_starbase_module = arkship_system_scanner
+                    has_starbase_module = voidark_sensor_array_dm
+                    has_starbase_module = voidark_sensor_array_ae
+                    has_starbase_module = voidark_sensor_array_re
+                    has_starbase_module = voidark_sensor_array_se
+                }
+            }
+        }
     }
 }
 
