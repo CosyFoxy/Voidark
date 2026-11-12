@@ -9,7 +9,7 @@
   voidark_vault_invasion.11.b.response:99 "You may purchase border access again, if you wish to do so. However, be aware, that any subsequent offence will lead to immediate termination of border access once again."
   
   #Alpha Matter Event Override
-  voidark_alpha_matter_events.2.desc:99 "$acot_alpha_matter_events.2.desc$$NEW_LINE$$NEW_LINE$§YNOTE:§! To have enough storage for this decision, upgrade your £arkship£ §H$xhk_pc_worldark$§! to §E$xhk_worldark_tier_13$§! and upgrade your £zone£ §H$zone_xhk_worldark_storage$§! ['concept_district_specializations']!"
+  voidark_alpha_matter_events.2.desc:99 "$acot_alpha_matter_events.2.desc$$NEW_LINE$$NEW_LINE$§YNOTE:§! To have enough storage for this decision, upgrade your £arkship£ §H$xhk_pc_worldark$§! to §E$xhk_worldark_tier_13$§! and upgrade your £zone£ §H$zone_xhk_worldark_storage$§! ['concept_district_specializations', §H$concept_district_specializations$§!], or build ['starbase_module:acot_waystation_resource_silo_dm', §E$sm_acot_waystation_resource_silo_dm$s§!] on your £waystation£ §HWaystations§!!"
   voidark_alpha_matter_events.2.c:99 "Let's catch up on our research!"
   
   ##Zone swap event
