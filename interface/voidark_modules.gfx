@@ -1,36 +1,45 @@
 spriteTypes = {
+
     spriteType = {
         name = "GFX_voidark_corespinal_phanon_great_wall_cannon"
         textureFile = "gfx/interface/icons/modules/voidark_corespinal_phanon_great_wall_cannon.dds"
     }
+
     spriteType = {
         name = "GFX_voidark_minature_phanon_pylon_star"
         textureFile = "gfx/interface/icons/modules/voidark_miniature_phanon_pylon_star.dds"
     }
+
     spriteType = {
         name = "GFX_voidark_minature_stellarite_pylon_star"
         textureFile = "gfx/interface/icons/modules/voidark_miniature_stellarite_pylon_star.dds"
     }
+
     spriteType = {
         name = "GFX_voidark_prototype_de_silo"
         textureFile = gfx/interface/icons/modules/voidark_prototype_de_silo.dds
     }
+
     spriteType = {
         name = "GFX_voidark_resource_silo_dm"
         textureFile = gfx/interface/icons/modules/voidark_de_silo_delta.dds
     }
+
     spriteType = {
         name = "GFX_voidark_resource_silo_ae"
         textureFile = gfx/interface/icons/modules/voidark_de_silo_alpha.dds
     }
+
     spriteType = {
         name = "GFX_voidark_resource_silo_re"
         textureFile = gfx/interface/icons/modules/voidark_de_silo_phanon.dds
     }
+
     spriteType = {
         name = "GFX_voidark_resource_silo_se"
         textureFile = gfx/interface/icons/modules/voidark_de_silo_stellarite.dds
     }
+
     spriteType = {
         name = "GFX_voidark_afterburner_ae"
         textureFile = gfx/interface/icons/modules/sb_voidark_afterburner_ae.dds
