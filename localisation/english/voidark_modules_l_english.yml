@@ -1,10 +1,10 @@
 ﻿l_english:
 
  #Categories ------------------------------------------------------------
- sm_spinal_cat_explosive:0 "Spinal Mounts: Explosive"
- sm_spinal_cat_kinetic:0 "Spinal Mounts: Kinetic"
- sm_spinal_cat_energy:0 "Spinal Mounts: Energy"
- sm_spinal_cat_emitter:0 "Spinal Mounts: Emitters"
+ sm_spinal_cat_explosive:0 "Enigmatic Spinal Mounts: Explosive"
+ sm_spinal_cat_kinetic:0 "Enigmatic Spinal Mounts: Kinetic"
+ sm_spinal_cat_energy:0 "Enigmatic Spinal Mounts: Energy"
+ sm_spinal_cat_emitter:0 "Enigmatic Spinal Mounts: Emitters"
 
  #DEFENSIVE/AUX MODULEs -------------------------------------------------
  voidark_hull:0 "HLP Plating"
