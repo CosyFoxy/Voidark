@@ -1,20 +1,20 @@
-@voidark_shipstat_hp_delta = 350000
-@voidark_shipstat_hp_alpha = 500000
-@voidark_shipstat_hp_phi = 600000
-@voidark_shipstat_hp_phanon = 750000
-@voidark_shipstat_hp_stellarite = 800000
+@voidark_shipstat_hp_delta = 400000
+@voidark_shipstat_hp_alpha = 550000
+@voidark_shipstat_hp_phi = 650000
+@voidark_shipstat_hp_phanon = 800000
+@voidark_shipstat_hp_stellarite = 850000
 
-@voidark_shipstat_armor_delta = 175000
-@voidark_shipstat_armor_alpha = 250000
-@voidark_shipstat_armor_phi = 300000
-@voidark_shipstat_armor_phanon = 375000
-@voidark_shipstat_armor_stellarite = 400000
+@voidark_shipstat_armor_delta = 180000
+@voidark_shipstat_armor_alpha = 280000
+@voidark_shipstat_armor_phi = 320000
+@voidark_shipstat_armor_phanon = 390000
+@voidark_shipstat_armor_stellarite = 430000
 
-@voidark_shipstat_shield_delta = 175000
-@voidark_shipstat_shield_alpha = 250000
-@voidark_shipstat_shield_phi = 300000
-@voidark_shipstat_shield_phanon = 375000
-@voidark_shipstat_shield_stellarite = 400000
+@voidark_shipstat_shield_delta = 180000
+@voidark_shipstat_shield_alpha = 280000
+@voidark_shipstat_shield_phi = 320000
+@voidark_shipstat_shield_phanon = 390000
+@voidark_shipstat_shield_stellarite = 430000
 
 @voidark_shipstat_shieldregen_delta = 900
 @voidark_shipstat_shieldregen_alpha = 1400

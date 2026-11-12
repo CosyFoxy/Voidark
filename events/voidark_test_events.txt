@@ -48,3 +48,38 @@ country_event = {
         }
     }
 }
+
+country_event = {
+    id = voidark_test.3
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        is_ai = no
+        xhk_has_worldark_origin = yes
+    }
+
+    immediate = {
+        owner? = {
+            voidark_give_phanon_research_options = yes
+            set_country_flag = acot_databank_sophia_agreed
+            set_country_flag = acot_sophia_encountered
+            acot_sophia_name_change = yes
+            set_global_flag = acot_sophia_present
+            establish_communications_no_message = event_target:acot_precursor_databank_country
+            set_country_flag = acot_phanon_tech_stage_one_enabled
+            set_country_flag = acot_phanon_tech_stage_two_enabled
+            set_country_flag = acot_phanon_tech_stage_three_enabled
+            set_country_flag = acot_phanon_tech_stage_four_enabled
+            set_country_flag = stellarite_tech_enable
+
+            give_technology = { tech = tech_precursor_design_engineering message = no }
+            give_technology = { tech = tech_precursor_design_history message = no }
+            give_technology = { tech = tech_precursor_design_physics message = no }
+            give_technology = { tech = tech_precursor_design message = no }
+            # Core Tech
+            give_technology = { tech = tech_dark_matter_power_core_ae message = no }
+            give_technology = { tech = tech_dark_matter_power_core_se message = no }
+        }
+    }
+}

@@ -1,0 +1,3 @@
+alloys = @arkship_cost_alloys_17500
+acot_sr_stellarite = @arkship_cost_strategic_300
+unity = @arkship_cost_unity_500

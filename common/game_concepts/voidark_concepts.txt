@@ -142,3 +142,27 @@ concept_integrated_precursor_mega = {
     }
 }
 
+concept_generalized_modules = {
+    databank = {
+        category = "db_weapon_modules"
+        picture = GFX_evt_arkship_combat
+        icon = "GFX_text_arkship"
+    }
+}
+
+concept_specialized_modules = {
+    databank = {
+        category = "db_weapon_modules"
+        picture = GFX_evt_arkship_combat
+        icon = "GFX_text_arkship"
+    }
+}
+
+concept_both = {
+    databank = {
+        category = "db_weapon_modules"
+        picture = GFX_evt_arkship_combat
+        icon = "GFX_text_arkship"
+    }
+}
+

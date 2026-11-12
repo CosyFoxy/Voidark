@@ -1,5 +1,10 @@
 ﻿l_korean:
   
+  voidark_delta_tier:99 "Delta Tier"
+  voidark_alpha_tier:99 "Alpha Tier"
+  voidark_phi_tier:99 "Phi Tier"
+  voidark_phanon_tier:99 "Phanon Tier"
+  voidark_stellarite_tier:99 "Stellarite Tier"
   
   databank_voidark_tiers:99 "ACOT Tiers"
   databank_voidark_techs:99 "Voidark Techs"
@@ -44,6 +49,50 @@
   concept_integrated_precursor_mega_plural:99 "Integrated Precursor Megastructures"
   concept_integrated_precursor_mega_desc:99 "§C$concept_integrated_precursor_mega_plural$:§!$TABBED_NEW_LINE$- ['technology:tech_voidark_precursor_art_installation', $tech_voidark_precursor_art_installation$]$TABBED_NEW_LINE$- ['technology:tech_voidark_precursor_science_nexus', $tech_voidark_precursor_science_nexus$]$TABBED_NEW_LINE$- ['technology:tech_voidark_precursor_strategic_coordination', $tech_voidark_precursor_strategic_coordination$]$TABBED_NEW_LINE$- ['technology:tech_voidark_precursor_interstellar_assembly', $tech_voidark_precursor_interstellar_assembly$]"
   
+  databank_voidark_modules:99 "Voidark Weapon Modules"
+  concept_generalized_modules:99 "Generalized Weapon Module"
+  concept_generalized_modules_plural:99 "Generalized Weapon Modules"
+  concept_specialized_modules:99 "Specialized Weapon Module"
+  concept_specialized_modules_plural:99 "Specialized Weapon Modules"
+  concept_both:99 "Always available module"
+  concept_both_plural:99 "Always available modules"
+  
+  
+  concept_generalized_modules_desc:99 "$concept_generalized_modules_plural$$TABBED_NEW_LINE$- ['starbase_module:voidark_module_hangar_bay_dm', $sm_voidark_module_hangar_bay_dm$]"
+  concept_specialized_modules_desc:99 "$concept_specialized_modules_plural$$concept_fighters$$concept_bombers$$concept_scout$$concept_gunship$$concept_autolaser$$concept_plasma$$concept_disruptor$$concept_disruptor_lance$$concept_energy_cannon$$concept_autocannon$$concept_macrocannon$$concept_missile_barrage$"
+  concept_fighters:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_fighter_dm', $sm_voidark_module_fighter_dm$]"
+  concept_bombers:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_bomber_dm', $sm_voidark_module_bomber_dm$]"
+  concept_scout:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_scout_dm', $sm_voidark_module_scout_dm$]"
+  concept_gunship:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_gunship_dm', $sm_voidark_module_gunship_dm$]"
+  concept_autolaser:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_autolaser_dm', $sm_voidark_module_autolaser_dm$]"
+  concept_plasma:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_plasma_dm', $sm_voidark_module_plasma_dm$]"
+  concept_disruptor:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_disruptor_dm', $sm_voidark_module_disruptor_dm$]"
+  concept_disruptor_lance:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_disruptor_lance_dm', $sm_voidark_module_disruptor_lance_dm$]"
+  concept_energy_cannon:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_energy_cannon_dm', $sm_voidark_module_energy_cannon_dm$]"
+  concept_autocannon:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_autocannon_dm', $sm_voidark_module_autocannon_dm$]"
+  concept_macrocannon:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_macrocannon_dm', $sm_voidark_module_macrocannon_dm$]"
+  concept_missile_barrage:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_missile_barrage_dm', $sm_voidark_module_missile_barrage_dm$]"
+  
+  concept_both_desc:99 "Always available modules:$concept_laser$$concept_particle_lance$$concept_arc_emitter$$concept_mass_driver$$concept_artillery$$concept_mass_accelerator$$concept_energy_torpedo$$concept_missile$$concept_torpedo$$concept_swarmer$$concept_missile_xl$$concept_epds$$concept_kpds$$concept_expds$$concept_missile_t$$concept_kinetic_t$$concept_energy_t$$concept_emitter_t$"
+  concept_laser:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_laser_dm', $sm_voidark_module_laser_dm$]"
+  concept_particle_lance:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_particle_lance_dm', $sm_voidark_module_particle_lance_dm$]"
+  concept_arc_emitter:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_arc_emitter_dm', $sm_voidark_module_arc_emitter_dm$]"
+  concept_mass_driver:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_mass_driver_dm', $sm_voidark_module_mass_driver_dm$]"
+  concept_artillery:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_artillery_dm', $sm_voidark_module_artillery_dm$]"
+  concept_mass_accelerator:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_mass_accelerator_dm', $sm_voidark_module_mass_accelerator_dm$]"
+  concept_energy_torpedo:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_energy_torpedo_dm', $sm_voidark_module_energy_torpedo_dm$]"
+  concept_missile:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_missile_dm', $sm_voidark_module_missile_dm$]"
+  concept_torpedo:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_torpedo_dm', $sm_voidark_module_torpedo_dm$]"
+  concept_swarmer:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_swarmer_missiles_dm', $sm_voidark_module_swarmer_missiles_dm$]"
+  concept_missile_xl:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_missile_xl_dm', $sm_voidark_module_missile_xl_dm$]"
+  concept_epds:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_epds_dm', $sm_voidark_module_epds_dm$]"
+  concept_kpds:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_kpds_dm', $sm_voidark_module_kpds_dm$]"
+  concept_expds:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_expds_dm', $sm_voidark_module_expds_dm$]"
+  concept_missile_t:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_missile_t_dm', $sm_voidark_module_missile_t_dm$]"
+  concept_kinetic_t:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_kinetic_t_dm', $sm_voidark_module_kinetic_t_dm$]"
+  concept_energy_t:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_energy_t_dm', $sm_voidark_module_energy_t_dm$]"
+  concept_emitter_t:99 "$TABBED_NEW_LINE$- ['starbase_module:voidark_module_emitter_t_dm', $sm_voidark_module_emitter_t_dm$]"
+  
   #DOCUMENTATION---------------------------------------------------------------
   
   voidark_docs_chain_title:99 "Voidark Documentation"
@@ -54,7 +103,7 @@
   voidark_doc_basics_1:99 "The §Y$xhk_pc_worldark$§! can be further upgraded to the tiers of ACOT. $NEW_LINE$$NEW_LINE$§YFirst, upgrade the $xhk_pc_worldark$ to §H$xhk_worldark_tier_12$§!, then to §E$xhk_worldark_tier_13$§!.$NEW_LINE$Swap £zone£ ['concept_district_specializations'] to access the new zones!§!$NEW_LINE$$NEW_LINE$Upgrades require researching a specific technology, and then function like any previous $xhk_pc_worldark$ upgrades:$NEW_LINE$"
   voidark_doc_basics_2:99 "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_delta_core£ $concept_delta_tier$ §ETier:§! Unlocks delta tier zones for each district, as well as delta tier components and systems. $TABBED_NEW_LINE$§YRequires: §!£engineering£ ['technology:tech_voidark_delta', $tech_voidark_delta$]"
   voidark_doc_basics_3:99 "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_alpha_core£ $concept_alpha_tier$ §BTier:§! Unlocks alpha tier zones for each district, as well as alpha tier components and systems. $TABBED_NEW_LINE$§YRequires: §!£engineering£ ['technology:tech_voidark_alpha', $tech_voidark_alpha$]$TABBED_NEW_LINE$§YNOTE:§! To gain enough DE storage for the databank decision, upgrade to Delta tier World Ark!"
-  voidark_doc_basics_4:99 "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_phi_core£ $concept_phi_tier$ §CTier:§! Unlocks phi tier worldark upgrade. $TABBED_NEW_LINE$§YRequires: §!£engineering£ ['technology:tech_voidark_phi', $tech_voidark_phi$]"
+  voidark_doc_basics_4:99 "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_phi_core£ $concept_phi_tier$ §CTier:§! Unlocks phi tier worldark upgrade as well as phi tier components. $TABBED_NEW_LINE$§YRequires: §!£engineering£ ['technology:tech_voidark_phi', $tech_voidark_phi$]"
   voidark_doc_basics_5:99 "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_phanon_core£ $concept_phanon_tier$ §RTier:§! Unlocks runic tier zones for each district, as well as runic tier components and systems. $TABBED_NEW_LINE$§YRequires: §!£engineering£ ['technology:tech_voidark_phanon', $tech_voidark_phanon$]"
   voidark_doc_basics_6:99 "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_stellarite_core£ $concept_stellarite_tier$ §HTier:§! Unlocks sigma tier zones for each district, as well as sigma tier components and systems. $TABBED_NEW_LINE$§YRequires: §!£engineering£ ['technology:tech_voidark_stellarite', $tech_voidark_stellarite$]"
   
@@ -65,12 +114,16 @@
   voidark_doc_phanon_vault_desc:99 "$voidark_doc_phanon_vault_1$$voidark_doc_phanon_vault_2$$voidark_doc_phanon_vault_3$$voidark_doc_phanon_vault_4$$voidark_doc_phanon_vault_5$"
   voidark_doc_phanon_vault_1:99 "As Nomadic empire, the way you access Phanon mechanics is slightly altered. Overall, the process is relatively similar:"
   voidark_doc_phanon_vault_2:99 "$NEW_LINE$$TABBED_NEW_LINE$- Capture Droppoint.$TABBED_NEW_LINE$- Invade £planet£ §Y$pc_acot_pmc_vault$§!.$TABBED_NEW_LINE$- Use ['concept_decision']: §H$decision_acot_infiltrate_phanon_grid$§!.$TABBED_NEW_LINE$- Repeat until the end of the invasion chain."
-  voidark_doc_phanon_vault_3:99 "$NEW_LINE$$NEW_LINE$$NEW_LINE$§KFor Voidark, these are the changes:§!$TABBED_NEW_LINE$$TABBED_NEW_LINE$- Once the Droppoint Starbase is defeated, you will gain control of the system.$TABBED_NEW_LINE$- You will own the £planet£ §Y$pc_acot_pmc_vault$§! despite playing a single-colony origin.$TABBED_NEW_LINE$- After completing the Phanon events, you will (within a certain time period) get the option to integrate the Vault."
-  voidark_doc_phanon_vault_4:99 "$NEW_LINE$$NEW_LINE$§YNOTE:§! Undertaking the normal path will allow you to integrate the Vault and resource orbitals. §RAfterwards, control over the system will be removed!§!"
-  voidark_doc_phanon_vault_5:99 "$NEW_LINE$$NEW_LINE$§YNOTE:§! When undertaking the Rival path, you will be able to integrate the Vault. §RAfterwards, you will keep control of the system!§!"
+  voidark_doc_phanon_vault_3:99 "$NEW_LINE$$NEW_LINE$$NEW_LINE$§KFor Voidark, these are the changes:§!$TABBED_NEW_LINE$$TABBED_NEW_LINE$- Once the Droppoint Starbase is defeated, you will gain control of the system.$TABBED_NEW_LINE$- You will own the £planet£ §Y$pc_acot_pmc_vault$§! despite playing a single-colony origin.$TABBED_NEW_LINE$- After completing the Phanon events, you will (~1 to 2 years) get the option to integrate the Vault."
+  voidark_doc_phanon_vault_4:99 "$NEW_LINE$$NEW_LINE$§YNOTE:§! Undertaking the normal path will allow you to integrate the Vault and resource orbitals."
+  voidark_doc_phanon_vault_5:99 "$NEW_LINE$$NEW_LINE$§YNOTE:§! When undertaking the Rival path, you will be able to integrate the Vault."
+  
+  voidark_doc_components_title:99 "4) Components & Modules"
+  voidark_doc_components_desc:99 "There exist components for each tier, with starbase buildings for most tiers (except Phi tier). You begin by having access to generalized weapon modules.$NEW_LINE$To change this:$TABBED_NEW_LINE$$TABBED_NEW_LINE$- Find the §HVoidark Policies Category§!.$TABBED_NEW_LINE$- Change the Policy $policy_voidark_weapon_modules$.$NEW_LINE$$NEW_LINE$£anomaly£ Make sure to read the policies' tooltips to properly understand what option enables what. There is a 5 year cooldown."
+  
   
   voidark_doc_beta_test:99 "4) Voidark Beta Test"
-  voidark_doc_beta_test_desc:99 "$voidark_doc_beta_test_1$$voidark_doc_beta_test_2$$voidark_doc_beta_test_9$$voidark_doc_beta_test_11$$voidark_doc_beta_test_12$$voidark_doc_beta_test_13$$voidark_doc_beta_test_8$$voidark_doc_beta_test_10$"
+  voidark_doc_beta_test_desc:99 "$voidark_doc_beta_test_1$$voidark_doc_beta_test_2$$voidark_doc_beta_test_9$$voidark_doc_beta_test_11$$voidark_doc_beta_test_12$$voidark_doc_beta_test_13$$voidark_doc_beta_test_8$"
   voidark_doc_beta_test_1:99 "Current scope and available features of the mod:"
   voidark_doc_beta_test_2:99 "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_delta_core£ §H$concept_delta_tier$§! §ETier:§! Districts & Zones"
   voidark_doc_beta_test_9:99 "$TABBED_NEW_LINE$$TABBED_NEW_LINE$- £icon_alpha_core£ §H$concept_alpha_tier$§! §BTier:§! Districts & Zones"

@@ -1,0 +1,4 @@
+alloys = @arkship_cost_alloys_10000
+acot_sr_dark_energy = @arkship_cost_strategic_400
+sr_dark_matter = @arkship_cost_strategic_400
+unity = @arkship_cost_unity_500

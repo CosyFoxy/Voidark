@@ -28,6 +28,10 @@ country_event = {
     }
 
     immediate = {
+        set_policy = {
+            policy = voidark_weapon_modules
+            option = voidark_weapon_modules_general
+        }
         begin_event_chain = {
             event_chain = voidark_docs_chain
         }
@@ -57,8 +61,8 @@ country_event = {
         }
         create_point_of_interest = {
             id = voidark_docs_chain.4
-            name = "voidark_doc_beta_test"
-            desc = "voidark_doc_beta_test_desc"
+            name = "voidark_doc_components_title"
+            desc = "voidark_doc_components_desc"
             event_chain = "voidark_docs_chain"
             location = no_scope
             #location = capital_scope

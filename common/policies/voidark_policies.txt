@@ -1,0 +1,39 @@
+#Starting option set in setup event
+
+voidark_weapon_modules = {
+    category = voidark
+
+    potential = {
+        xhk_has_worldark_origin = yes
+        has_technology = tech_voidark_delta
+    }
+
+    option = {
+        name = "voidark_weapon_modules_general"
+        ai_weight = {
+            weight = 100
+        }
+        policy_flags = {
+            voidark_general_modules
+        }
+        on_enabled = {
+            custom_tooltip = voidark_general_modules_tt
+            refresh_auto_generated_ship_designs = yes
+        }
+    }
+
+    option = {
+        name = "voidark_weapon_modules_specific"
+
+        policy_flags = {
+            voidark_specific_modules
+        }
+        on_enabled = {
+            custom_tooltip = voidark_specific_modules_tt
+            refresh_auto_generated_ship_designs = yes
+        }
+        ai_weight = {
+            weight = 0
+        }
+    }
+}

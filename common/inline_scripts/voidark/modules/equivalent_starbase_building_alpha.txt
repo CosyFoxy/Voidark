@@ -1,0 +1,30 @@
+custom_tooltip = {
+    fail_text = voidark_count_starbase_building_failtext
+    AND = {
+        count_starbase_buildings = {
+            type = voidark_$TYPE$_dm
+            count < 1
+            include_being_constructed = yes
+        }
+        # count_starbase_buildings = {
+        #     type = voidark_$TYPE$_ae
+        #     count < 1
+        #     include_being_constructed = yes
+        # }
+        count_starbase_buildings = {
+            type = voidark_$TYPE$_pe
+            count < 1
+            include_being_constructed = yes
+        }
+        count_starbase_buildings = {
+            type = voidark_$TYPE$_re
+            count < 1
+            include_being_constructed = yes
+        }
+        count_starbase_buildings = {
+            type = voidark_$TYPE$_se
+            count < 1
+            include_being_constructed = yes
+        }
+    }
+}

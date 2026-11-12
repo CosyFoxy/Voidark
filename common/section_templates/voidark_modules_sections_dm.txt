@@ -1,0 +1,377 @@
+#weapon sections
+
+ship_section_template = {
+    key = "VOIDARK_MODULE_HANGAR_DM"
+    entity = "hangar_factory_01_entity"
+    icon = "GFX_ship_part_core_mid"
+
+    inline_script = voidark/section_templates/voidark_class_list_delta
+    should_draw_components = yes
+    component_slot = {
+        name = "STRIKE_CRAFT_01"
+        template = "large_strike_craft"
+        rotation = 90
+        locatorname = "hangar_01"
+    }
+    component_slot = {
+        name = "STRIKE_CRAFT_02"
+        template = "large_strike_craft"
+        rotation = 90
+        locatorname = "hangar_02"
+    }
+    component_slot = {
+        name = "STRIKE_CRAFT_03"
+        template = "large_strike_craft"
+        rotation = 90
+        locatorname = "hangar_03"
+    }
+    component_slot = {
+        name = "STRIKE_CRAFT_04"
+        template = "large_strike_craft"
+        rotation = 90
+        locatorname = "hangar_04"
+    }
+}
+
+ship_section_template = {
+    key = "VOIDARK_MODULE_MEDIUM_DM"
+    entity = "module_turret_medium_01_entity"
+    icon = "GFX_ship_part_core_mid"
+    inline_script = voidark/section_templates/voidark_class_list_delta
+    should_draw_components = yes
+    component_slot = {
+        name = "MEDIUM_GUN_01"
+        template = "medium_turret"
+        locatorname = "medium_turret_01"
+    }
+    component_slot = {
+        name = "MEDIUM_GUN_02"
+        template = "medium_turret"
+        locatorname = "medium_turret_02"
+    }
+    component_slot = {
+        name = "MEDIUM_GUN_03"
+        template = "medium_turret"
+        locatorname = "medium_turret_03"
+    }
+    component_slot = {
+        name = "MEDIUM_GUN_04"
+        template = "medium_turret"
+        locatorname = "medium_turret_04"
+    }
+    component_slot = {
+        name = "MEDIUM_GUN_05"
+        template = "invisible_medium_turret"
+        locatorname = "medium_turret_01"
+    }
+    component_slot = {
+        name = "MEDIUM_GUN_06"
+        template = "invisible_medium_turret"
+        locatorname = "medium_turret_02"
+    }
+    component_slot = {
+        name = "MEDIUM_GUN_07"
+        template = "invisible_medium_turret"
+        locatorname = "medium_turret_03"
+    }
+    component_slot = {
+        name = "MEDIUM_GUN_08"
+        template = "invisible_medium_turret"
+        locatorname = "medium_turret_04"
+    }
+}
+
+ship_section_template = {
+    key = "VOIDARK_MODULE_LARGE_DM"
+    entity = "module_turret_large_01_entity"
+    icon = "GFX_ship_part_core_mid"
+    inline_script = voidark/section_templates/voidark_class_list_delta
+    should_draw_components = yes
+    component_slot = {
+        name = "LARGE_GUN_01"
+        template = "large_turret"
+        locatorname = "large_turret_01"
+    }
+    component_slot = {
+        name = "LARGE_GUN_02"
+        template = "large_turret"
+        locatorname = "large_turret_02"
+    }
+    component_slot = {
+        name = "LARGE_GUN_03"
+        template = "invisible_large_turret"
+        locatorname = "large_turret_01"
+    }
+    component_slot = {
+        name = "LARGE_GUN_04"
+        template = "invisible_large_turret"
+        locatorname = "large_turret_02"
+    }
+}
+
+ship_section_template = {
+    key = "VOIDARK_MODULE_XL_DM"
+    entity = "module_turret_XL_01_entity"
+    icon = "GFX_ship_part_core_mid"
+    inline_script = voidark/section_templates/voidark_class_list_delta
+    should_draw_components = no
+    component_slot = {
+        name = "EXTRA_LARGE_01"
+        template = "invisible_extra_large_fixed"
+        locatorname = "root"
+    }
+    component_slot = {
+        name = "EXTRA_LARGE_02"
+        template = "invisible_extra_large_fixed"
+        locatorname = "root"
+    }
+}
+
+ship_section_template = {
+    key = "VOIDARK_MODULE_TORPEDO_DM"
+    entity = "module_turret_medium_01_entity"
+    icon = "GFX_ship_part_core_mid"
+    inline_script = voidark/section_templates/voidark_class_list_delta
+    should_draw_components = yes
+    component_slot = {
+        name = "MEDIUM_GUN_01"
+        template = "medium_missile_turret"
+        locatorname = "medium_turret_01"
+    }
+    component_slot = {
+        name = "MEDIUM_GUN_02"
+        template = "medium_missile_turret"
+        locatorname = "medium_turret_02"
+    }
+    component_slot = {
+        name = "MEDIUM_GUN_03"
+        template = "medium_missile_turret"
+        locatorname = "medium_turret_03"
+    }
+    component_slot = {
+        name = "MEDIUM_GUN_04"
+        template = "medium_missile_turret"
+        locatorname = "medium_turret_04"
+    }
+    component_slot = {
+        name = "MEDIUM_GUN_05"
+        template = "invisible_missile_turret"
+        locatorname = "medium_turret_01"
+    }
+    component_slot = {
+        name = "MEDIUM_GUN_06"
+        template = "invisible_missile_turret"
+        locatorname = "medium_turret_02"
+    }
+    component_slot = {
+        name = "MEDIUM_GUN_07"
+        template = "invisible_missile_turret"
+        locatorname = "medium_turret_03"
+    }
+    component_slot = {
+        name = "MEDIUM_GUN_08"
+        template = "invisible_missile_turret"
+        locatorname = "medium_turret_04"
+    }
+}
+
+ship_section_template = {
+    key = "VOIDARK_MODULE_SMALL_DM"
+    entity = "module_turret_small_01_entity"
+    icon = "GFX_ship_part_core_mid"
+    inline_script = voidark/section_templates/voidark_class_list_delta
+    should_draw_components = yes
+    component_slot = {
+        name = "SMALL_GUN_01"
+        template = "small_turret"
+        locatorname = "small_turret_01"
+    }
+    component_slot = {
+        name = "SMALL_GUN_02"
+        template = "small_turret"
+        locatorname = "small_turret_02"
+    }
+    component_slot = {
+        name = "SMALL_GUN_03"
+        template = "small_turret"
+        locatorname = "small_turret_03"
+    }
+    component_slot = {
+        name = "SMALL_GUN_04"
+        template = "small_turret"
+        locatorname = "small_turret_04"
+    }
+    component_slot = {
+        name = "SMALL_GUN_05"
+        template = "small_turret"
+        locatorname = "small_turret_05"
+    }
+    component_slot = {
+        name = "SMALL_GUN_06"
+        template = "small_turret"
+        locatorname = "small_turret_06"
+    }
+    component_slot = {
+        name = "SMALL_GUN_07"
+        template = "small_turret"
+        locatorname = "small_turret_07"
+    }
+    component_slot = {
+        name = "SMALL_GUN_08"
+        template = "small_turret"
+        locatorname = "small_turret_08"
+    }
+    component_slot = {
+        name = "SMALL_GUN_09"
+        template = "invisible_small_turret"
+        locatorname = "small_turret_01"
+    }
+    component_slot = {
+        name = "SMALL_GUN_10"
+        template = "invisible_small_turret"
+        locatorname = "small_turret_02"
+    }
+    component_slot = {
+        name = "SMALL_GUN_11"
+        template = "invisible_small_turret"
+        locatorname = "small_turret_03"
+    }
+    component_slot = {
+        name = "SMALL_GUN_12"
+        template = "invisible_small_turret"
+        locatorname = "small_turret_04"
+    }
+    component_slot = {
+        name = "SMALL_GUN_13"
+        template = "invisible_small_turret"
+        locatorname = "small_turret_05"
+    }
+    component_slot = {
+        name = "SMALL_GUN_14"
+        template = "invisible_small_turret"
+        locatorname = "small_turret_06"
+    }
+    component_slot = {
+        name = "SMALL_GUN_15"
+        template = "invisible_small_turret"
+        locatorname = "small_turret_07"
+    }
+    component_slot = {
+        name = "SMALL_GUN_16"
+        template = "invisible_small_turret"
+        locatorname = "small_turret_08"
+    }
+}
+
+ship_section_template = {
+    key = "VOIDARK_MODULE_PD_DM"
+    entity = "module_turret_small_01_entity"
+    icon = "GFX_ship_part_core_mid"
+
+    inline_script = voidark/section_templates/voidark_class_list_delta
+    should_draw_components = yes
+    component_slot = {
+        name = "SMALL_GUN_01"
+        template = "point_defence_turret"
+        locatorname = "small_turret_01"
+    }
+    component_slot = {
+        name = "SMALL_GUN_02"
+        template = "point_defence_turret"
+        locatorname = "small_turret_02"
+    }
+    component_slot = {
+        name = "SMALL_GUN_03"
+        template = "point_defence_turret"
+        locatorname = "small_turret_03"
+    }
+    component_slot = {
+        name = "SMALL_GUN_04"
+        template = "point_defence_turret"
+        locatorname = "small_turret_04"
+    }
+    component_slot = {
+        name = "SMALL_GUN_05"
+        template = "point_defence_turret"
+        locatorname = "small_turret_05"
+    }
+    component_slot = {
+        name = "SMALL_GUN_06"
+        template = "point_defence_turret"
+        locatorname = "small_turret_06"
+    }
+    component_slot = {
+        name = "SMALL_GUN_07"
+        template = "point_defence_turret"
+        locatorname = "small_turret_07"
+    }
+    component_slot = {
+        name = "SMALL_GUN_08"
+        template = "point_defence_turret"
+        locatorname = "small_turret_08"
+    }
+    component_slot = {
+        name = "SMALL_GUN_09"
+        template = "invisible_point_defence_turret"
+        locatorname = "small_turret_01"
+    }
+    component_slot = {
+        name = "SMALL_GUN_10"
+        template = "invisible_point_defence_turret"
+        locatorname = "small_turret_02"
+    }
+    component_slot = {
+        name = "SMALL_GUN_11"
+        template = "invisible_point_defence_turret"
+        locatorname = "small_turret_03"
+    }
+    component_slot = {
+        name = "SMALL_GUN_12"
+        template = "invisible_point_defence_turret"
+        locatorname = "small_turret_04"
+    }
+    component_slot = {
+        name = "SMALL_GUN_13"
+        template = "invisible_point_defence_turret"
+        locatorname = "small_turret_05"
+    }
+    component_slot = {
+        name = "SMALL_GUN_14"
+        template = "invisible_point_defence_turret"
+        locatorname = "small_turret_06"
+    }
+    component_slot = {
+        name = "SMALL_GUN_15"
+        template = "invisible_point_defence_turret"
+        locatorname = "small_turret_07"
+    }
+    component_slot = {
+        name = "SMALL_GUN_16"
+        template = "invisible_point_defence_turret"
+        locatorname = "small_turret_08"
+    }
+}
+
+ship_section_template = {
+    key = "VOIDARK_MODULE_T_DM"
+    entity = "spinal_module_devastator_01_entity"
+    icon = "GFX_ship_part_core_mid"
+    inline_script = voidark/section_templates/voidark_class_list_delta_spinal
+    component_slot = {
+        name = "TITANIC_01"
+        template = "invisible_titanic_turret"
+        locatorname = "xl_gun_01"
+    }
+}
+
+ship_section_template = {
+    key = "VOIDARK_MODULE_MISSILE_T_DM"
+    entity = "spinal_module_construction_yard_01_entity"
+    icon = "GFX_ship_part_core_mid"
+    inline_script = voidark/section_templates/voidark_class_list_delta_spinal
+    component_slot = {
+        name = "TITANIC_01"
+        template = "invisible_titanic_turret"
+        locatorname = "xl_gun_01"
+    }
+}

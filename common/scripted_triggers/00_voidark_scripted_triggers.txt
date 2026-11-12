@@ -18,6 +18,46 @@ is_at_least_delta_voidark = {
     }
 }
 
+is_delta_voidark_starbase = {
+    OR = {
+        has_starbase_size = xhk_worldark_tier_13
+        has_starbase_size = xhk_worldark_tier_14
+        has_starbase_size = xhk_worldark_tier_15
+        has_starbase_size = xhk_worldark_tier_16
+        has_starbase_size = xhk_worldark_tier_17
+    }
+}
+
+is_alpha_voidark_starbase = {
+    OR = {
+        has_starbase_size = xhk_worldark_tier_14
+        has_starbase_size = xhk_worldark_tier_15
+        has_starbase_size = xhk_worldark_tier_16
+        has_starbase_size = xhk_worldark_tier_17
+    }
+}
+
+is_phi_voidark_starbase = {
+    OR = {
+        has_starbase_size = xhk_worldark_tier_15
+        has_starbase_size = xhk_worldark_tier_16
+        has_starbase_size = xhk_worldark_tier_17
+    }
+}
+
+is_phanon_voidark_starbase = {
+    OR = {
+        has_starbase_size = xhk_worldark_tier_16
+        has_starbase_size = xhk_worldark_tier_17
+    }
+}
+
+is_stellarite_voidark_starbase = {
+    OR = {
+        has_starbase_size = xhk_worldark_tier_17
+    }
+}
+
 is_at_least_alpha_voidark = {
     OR = {
         #is_ship_size = xhk_worldark_tier_13
@@ -204,6 +244,27 @@ has_integrated_all_data_and_storage_planets = {
     }
 }
 
+has_any_engineering_bay = {
+    OR = {
+        has_starbase_module = arkship_engineering_bay
+        has_starbase_module = voidark_engineering_bay_dm
+        has_starbase_module = voidark_engineering_bay_ae
+        #has_starbase_module = voidark_engineering_bay_pe
+        has_starbase_module = voidark_engineering_bay_re
+        has_starbase_module = voidark_engineering_bay_se
+    }
+}
+
+has_any_beastport = {
+    OR = {
+        has_starbase_module = arkship_beastport
+        has_starbase_module = voidark_beastport_dm
+        has_starbase_module = voidark_beastport_ae
+        #has_starbase_module = voidark_beastport_pe
+        has_starbase_module = voidark_beastport_re
+        has_starbase_module = voidark_beastport_se
+    }
+}
 has_all_worldark_techs = {
     owner? = {
         AND = {

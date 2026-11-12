@@ -1,0 +1,3 @@
+energy = @arkship_upkeep_energy_5
+acot_sr_dark_energy = @arkship_upkeep_strategic_1
+sr_dark_matter = @arkship_upkeep_strategic_1

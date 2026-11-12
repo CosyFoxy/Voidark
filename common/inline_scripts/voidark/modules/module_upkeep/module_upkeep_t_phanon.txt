@@ -1,0 +1,2 @@
+energy = @arkship_upkeep_energy_50
+aot_sr_runic_power = @arkship_upkeep_strategic_5

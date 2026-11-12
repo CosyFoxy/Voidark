@@ -1,0 +1,6 @@
+energy = @arkship_upkeep_energy_35
+acot_sr_dark_energy = @arkship_upkeep_strategic_5
+sr_dark_matter = @arkship_upkeep_strategic_5
+volatile_motes = @arkship_upkeep_strategic_5
+rare_crystals = @arkship_upkeep_strategic_5
+exotic_gases = @arkship_upkeep_strategic_5
