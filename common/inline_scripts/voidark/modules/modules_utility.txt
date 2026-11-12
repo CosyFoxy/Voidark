@@ -4,8 +4,8 @@ starbase_type = arkship
 potential = {
     owner? = {
         has_technology = $ACOT_TECH$
+        xhk_has_worldark_origin = yes
     }
-    xhk_has_worldark_origin = yes
     xhk_is_worldark_starbase = yes
     is_$TIER$_voidark_starbase = yes
     $OTHER$

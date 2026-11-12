@@ -24,8 +24,8 @@ voidark_combined_auras = {
         script = voidark/starbase_buildings/aura_components_base
         POTENTIAL = "has_technology = tech_titans
                      has_technology = tech_juggernaut"
-        COMBINED_AURA_TECH = "tech_alpha_juggernaut"
-        TIER = alpha
+        COMBINED_AURA_TECH = "tech_precursor_juggernaut"
+        TIER = delta
     }
     resources = {
         category = starbase_arkship_upgrades
