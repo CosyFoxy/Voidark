@@ -45,6 +45,12 @@ voidark_hull_aux_pe = {
         TIER = phi
         TECH = "has_technology = tech_hull_power_pe"
     }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_phi
+            TYPE = hull_aux
+        }
+    }
     resources = {
         category = starbase_arkship_upgrades
         cost = {
@@ -115,6 +121,12 @@ voidark_armor_aux_pe = {
         TECH = "has_technology = tech_armor_pe"
         TIER = phi
     }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_phi
+            TYPE = armor_aux
+        }
+    }
 
     resources = {
         category = starbase_arkship_upgrades
@@ -179,6 +191,12 @@ voidark_shield_aux_pe = {
         TECH = "has_technology = tech_dark_matter_deflector_pe"
         TIER = phi
     }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_phi
+            TYPE = shield_aux
+        }
+    }
     resources = {
         category = starbase_arkship_upgrades
         cost = {
@@ -202,13 +220,19 @@ voidark_afterburner_pe = {
     icon = "GFX_voidark_afterburner_pe"
     category = sm_utility_cat
     starbase_limit = {
-        base = 2
+        base = 1
     }
     inline_script = {
         script = voidark/starbase_buildings/defensive_components_base
         ACOT_TECH = "tech_darkmatter_afterburners_pe"
         TECH = ""
         TIER = phi
+    }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_phi
+            TYPE = afterburner
+        }
     }
     resources = {
         category = starbase_arkship_upgrades
@@ -238,6 +262,12 @@ voidark_starcharter_pe = {
         TECH = ""
         TIER = phi
     }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_phi
+            TYPE = starcharter
+        }
+    }
     resources = {
         category = starbase_arkship_upgrades
         cost = {
@@ -266,6 +296,12 @@ voidark_explosive_core_pe = {
         TECH = ""
         TIER = phi
     }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_phi
+            TYPE = explosive_core
+        }
+    }
     resources = {
         category = starbase_arkship_upgrades
         cost = {
@@ -292,6 +328,12 @@ voidark_kinetic_core_pe = {
         ACOT_TECH = "tech_kinetic_core_pe"
         TECH = ""
         TIER = phi
+    }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_phi
+            TYPE = kinetic_core
+        }
     }
     resources = {
         category = starbase_arkship_upgrades
@@ -320,6 +362,12 @@ voidark_energy_core_pe = {
         TECH = ""
         TIER = phi
     }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_phi
+            TYPE = energy_core
+        }
+    }
     resources = {
         category = starbase_arkship_upgrades
         cost = {
@@ -346,6 +394,12 @@ voidark_fighter_core_pe = {
         ACOT_TECH = "tech_fighter_core_pe"
         TECH = ""
         TIER = phi
+    }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_phi
+            TYPE = fighter_core
+        }
     }
     resources = {
         category = starbase_arkship_upgrades

@@ -59,14 +59,14 @@ country_event = {
             location = no_scope
             #location = capital_scope
         }
-        # create_point_of_interest = {
-        #     id = voidark_docs_chain.4
-        #     name = "voidark_doc_beta_test"
-        #     desc = "voidark_doc_beta_test_desc"
-        #     event_chain = "voidark_docs_chain"
-        #     location = no_scope
-        #     #location = capital_scope
-        # }
+        create_point_of_interest = {
+            id = voidark_docs_chain.4
+            name = "voidark_doc_components_title"
+            desc = "voidark_doc_components_desc"
+            event_chain = "voidark_docs_chain"
+            location = no_scope
+            #location = capital_scope
+        }
     }
 }
 

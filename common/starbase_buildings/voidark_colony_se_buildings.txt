@@ -1,6 +1,5 @@
 
 
-
 voidark_extraction_hub_se = {
     icon = "GFX_voidark_extraction_hub_se"
     category = sm_colony_cat
@@ -12,6 +11,12 @@ voidark_extraction_hub_se = {
         ACOT_TECH = "tech_stellarite_district_amplifier"
         TIER = stellarite
         TECH = ""
+    }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_stellarite_colony
+            TYPE = extraction_hub
+        }
     }
     resources = {
         category = starbase_arkship_upgrades
@@ -41,6 +46,12 @@ voidark_industry_hub_se = {
         TIER = stellarite
         TECH = ""
     }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_stellarite_colony
+            TYPE = industry_hub
+        }
+    }
     resources = {
         category = starbase_arkship_upgrades
         cost = {
@@ -67,6 +78,12 @@ voidark_organisation_hub_se = {
         ACOT_TECH = "tech_stellarite_trade_center"
         TIER = stellarite
         TECH = ""
+    }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_stellarite_colony
+            TYPE = organisation_hub
+        }
     }
     resources = {
         category = starbase_arkship_upgrades
@@ -118,7 +135,7 @@ voidark_resource_silo_se = {
     icon = "GFX_voidark_resource_silo_se"
     category = sm_economy_cat
     starbase_limit = {
-        base = 1
+        base = -1
     }
     inline_script = {
         script = voidark/starbase_buildings/colony_components_base
@@ -154,6 +171,12 @@ voidark_research_hub_se = {
         ACOT_TECH = "tech_stellarite_institute"
         TIER = stellarite
         TECH = ""
+    }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_stellarite_colony
+            TYPE = research_hub
+        }
     }
     resources = {
         category = starbase_arkship_upgrades

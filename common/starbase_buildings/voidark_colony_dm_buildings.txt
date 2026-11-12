@@ -11,6 +11,12 @@ voidark_extraction_hub_dm = {
         TIER = delta
         TECH = ""
     }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_delta_colony
+            TYPE = extraction_hub
+        }
+    }
     resources = {
         category = starbase_arkship_upgrades
         cost = {
@@ -39,6 +45,12 @@ voidark_industry_hub_dm = {
         TIER = delta
         TECH = ""
     }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_delta_colony
+            TYPE = industry_hub
+        }
+    }
     resources = {
         category = starbase_arkship_upgrades
         cost = {
@@ -65,6 +77,12 @@ voidark_organisation_hub_dm = {
         ACOT_TECH = "tech_acot_dm_trade_center"
         TIER = delta
         TECH = ""
+    }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_delta_colony
+            TYPE = organisation_hub
+        }
     }
     resources = {
         category = starbase_arkship_upgrades
@@ -116,7 +134,7 @@ voidark_resource_silo_dm = {
     icon = "GFX_voidark_resource_silo_dm"
     category = sm_economy_cat
     starbase_limit = {
-        base = 1
+        base = -1
     }
     inline_script = {
         script = voidark/starbase_buildings/colony_components_base
@@ -150,6 +168,12 @@ voidark_research_hub_dm = {
         ACOT_TECH = "tech_acot_dm_institute"
         TIER = delta
         TECH = ""
+    }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_delta_colony
+            TYPE = research_hub
+        }
     }
     resources = {
         category = starbase_arkship_upgrades

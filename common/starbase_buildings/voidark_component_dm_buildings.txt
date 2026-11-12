@@ -41,6 +41,12 @@ voidark_hull_aux_dm = {
         TIER = delta
         TECH = "has_technology = tech_hull_power_dm"
     }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_delta
+            TYPE = hull_aux
+        }
+    }
     resources = {
         category = starbase_arkship_upgrades
         cost = {
@@ -106,6 +112,12 @@ voidark_armor_aux_dm = {
         TIER = delta
     }
 
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_delta
+            TYPE = armor_aux
+        }
+    }
     resources = {
         category = starbase_arkship_upgrades
         cost = {
@@ -164,6 +176,12 @@ voidark_shield_aux_dm = {
         TECH = "has_technology = tech_dark_matter_deflector_dm"
         TIER = delta
     }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_delta
+            TYPE = shield_aux
+        }
+    }
     resources = {
         category = starbase_arkship_upgrades
         cost = {
@@ -184,13 +202,19 @@ voidark_afterburner_dm = {
     icon = "GFX_voidark_afterburner_dm"
     category = sm_utility_cat
     starbase_limit = {
-        base = 2
+        base = 1
     }
     inline_script = {
         script = voidark/starbase_buildings/defensive_components_base
         ACOT_TECH = "tech_darkmatter_afterburners_dm"
         TECH = ""
         TIER = delta
+    }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_delta
+            TYPE = afterburner
+        }
     }
     resources = {
         category = starbase_arkship_upgrades
@@ -199,6 +223,7 @@ voidark_afterburner_dm = {
         }
     }
     #3X + 1 aura
+    equipped_component = ACOT_AFTERBURNERS_DM
     equipped_component = ACOT_AFTERBURNERS_DM
     equipped_component = ACOT_AFTERBURNERS_DM
     equipped_component = ACOT_AFTERBURNERS_DM
@@ -218,12 +243,19 @@ voidark_starcharter_dm = {
         TECH = ""
         TIER = delta
     }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_delta
+            TYPE = starcharter
+        }
+    }
     resources = {
         category = starbase_arkship_upgrades
         cost = {
             inline_script = voidark/modules/module_costs/module_cost_tiny_delta
         }
     }
+
     #3X + Aura
     equipped_component = ACOT_STARCHARTER_DM
     equipped_component = ACOT_STARCHARTER_DM
@@ -243,6 +275,12 @@ voidark_explosive_core_dm = {
         ACOT_TECH = "tech_missile_core_dm"
         TECH = ""
         TIER = delta
+    }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_delta
+            TYPE = explosive_core
+        }
     }
     resources = {
         category = starbase_arkship_upgrades
@@ -269,6 +307,12 @@ voidark_kinetic_core_dm = {
         TECH = ""
         TIER = delta
     }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_delta
+            TYPE = kinetic_core
+        }
+    }
     resources = {
         category = starbase_arkship_upgrades
         cost = {
@@ -294,6 +338,12 @@ voidark_energy_core_dm = {
         TECH = ""
         TIER = delta
     }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_delta
+            TYPE = energy_core
+        }
+    }
     resources = {
         category = starbase_arkship_upgrades
         cost = {
@@ -318,6 +368,12 @@ voidark_fighter_core_dm = {
         ACOT_TECH = "tech_fighter_core_dm"
         TECH = ""
         TIER = delta
+    }
+    possible = {
+        inline_script = {
+            script = voidark/modules/equivalent_starbase_building_delta
+            TYPE = fighter_core
+        }
     }
     resources = {
         category = starbase_arkship_upgrades

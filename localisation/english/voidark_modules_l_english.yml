@@ -1,6 +1,12 @@
 ﻿l_english:
 
- #Categories ------------------------------------------------------------
+ #FAILTEXTS ------------------------------------------------------------
+ voidark_count_engineering_modules_failtext:0 "Must not have any ['starbase_module:arkship_engineering_bay', $sm_arkship_engineering_bay$] of any tier."
+ voidark_count_beastport_failtext:0 "Must not have any ['starbase_module:arkship_beastport', $sm_arkship_beastport$] of any tier."
+ voidark_count_starbase_building_failtext:0 "Must not have any equivalent building of any tier."
+
+
+ #CATEGORIES ------------------------------------------------------------
  sm_spinal_cat_explosive:0 "Enigmatic Spinal Mounts: Explosive"
  sm_spinal_cat_kinetic:0 "Enigmatic Spinal Mounts: Kinetic"
  sm_spinal_cat_energy:0 "Enigmatic Spinal Mounts: Energy"
@@ -946,27 +952,27 @@
  #GENERAL WEAPON MODULES ----------------------------------------
  voidark_module_hangar_bay:0 "Hangar Bay"
  sm_voidark_module_hangar_bay_dm:0 "§E$voidark_delta_tier$ $voidark_module_hangar_bay$§!"
- sm_voidark_module_hangar_bay_dm_desc:0 "REPLACE_ME"
+ sm_voidark_module_hangar_bay_dm_desc:0 "Large hangar bays that are home to our dark energy enhanced strike-crafts."
  sm_voidark_module_hangar_bay_ae:0 "§B$voidark_alpha_tier$ $voidark_module_hangar_bay$§!"
- sm_voidark_module_hangar_bay_ae_desc:0 "REPLACE_ME"
+ sm_voidark_module_hangar_bay_ae_desc:0 "Somehow, we were able to make space for even more strike-craft in our hangars!"
  sm_voidark_module_hangar_bay_pe:0 "§C$voidark_phi_tier$ $voidark_module_hangar_bay$§!"
- sm_voidark_module_hangar_bay_pe_desc:0 "REPLACE_ME"
+ sm_voidark_module_hangar_bay_pe_desc:0 "Even the traces of Phanon's runic energy allowed us to stack more strike-craft on top of each other."
  sm_voidark_module_hangar_bay_re:0 "§R$voidark_phanon_tier$ $voidark_module_hangar_bay$§!"
- sm_voidark_module_hangar_bay_re_desc:0 "REPLACE_ME"
+ sm_voidark_module_hangar_bay_re_desc:0 "We are now able to produce more strike-craft than we have the capacity to store."
  sm_voidark_module_hangar_bay_se:0 "§H$voidark_stellarite_tier$ $voidark_module_hangar_bay$§!"
- sm_voidark_module_hangar_bay_se_desc:0 "REPLACE_ME"
+ sm_voidark_module_hangar_bay_se_desc:0 "These hangars are now only accessible from the outside of our ship, as otherwise any corridors would be filled with overflowing strike-crafts."
 
  voidark_module_missile_t:0 "Massive Explosive Launch Tubes"
  sm_voidark_module_missile_t_dm:0 "§E$voidark_delta_tier$ $voidark_module_missile_t$§!"
- sm_voidark_module_missile_t_dm_desc:0 "REPLACE_ME"
+ sm_voidark_module_missile_t_dm_desc:0 "These spinal mounts are outfitted with massive missile launchers housing our dark energy enriched warheads. These missiles can cause explosions the size of continents, and require extremely careful handling."
  sm_voidark_module_missile_t_ae:0 "§B$voidark_alpha_tier$ $voidark_module_missile_t$§!"
- sm_voidark_module_missile_t_ae_desc:0 "REPLACE_ME"
+ sm_voidark_module_missile_t_ae_desc:0 "An improved payload even further increased the destructive capabilities of our massive missiles. Once one has been launched, an enemies only choice of survival is to shoot the missile down, or their entire fleet will be obliterated."
  sm_voidark_module_missile_t_pe:0 "§C$voidark_phi_tier$ $voidark_module_missile_t$§!"
- sm_voidark_module_missile_t_pe_desc:0 "REPLACE_ME"
+ sm_voidark_module_missile_t_pe_desc:0 "Trace amounts of matter unbeknownst to us linger within the housing of these missiles. Yet, although we do not understand this matter's influence on the composition, it does certainly improve the explosive might by staggering amounts."
  sm_voidark_module_missile_t_re:0 "§R$voidark_phanon_tier$ $voidark_module_missile_t$§!"
- sm_voidark_module_missile_t_re_desc:0 "REPLACE_ME"
+ sm_voidark_module_missile_t_re_desc:0 "Having experienced the firepower that Phanon's weapons can yield, having obtained these missiles is a testament to our superiority. No enemy shall survive a blast."
  sm_voidark_module_missile_t_se:0 "§H$voidark_stellarite_tier$ $voidark_module_missile_t$§!"
- sm_voidark_module_missile_t_se_desc:0 "REPLACE_ME"
+ sm_voidark_module_missile_t_se_desc:0 "A concentrated supernova within time-stasis, only waiting to reach our enemy vessels. Once it does, it shall be released, devouring their ships in an instant."
 
  voidark_module_kinetic_t:0 "Titanic Accelerator Cannon Emplacement"
  sm_voidark_module_kinetic_t_dm:0 "§E$voidark_delta_tier$ $voidark_module_kinetic_t$§!"
@@ -1041,7 +1047,9 @@
  policy_voidark_weapon_modules:0 "Voidark Weapon Modules"
  policy_voidark_weapon_modules_desc:0 "This policy allows us to decide whether we want to install generalized armaments or have access to a specialized selection of modules."
  voidark_weapon_modules_general:0 "Generalized Weapon Modules"
+ voidark_weapon_modules_general_desc:0 "We will make use of more generalized weapons for our $xhk_pc_worldark$."
  voidark_weapon_modules_specific:0 "Specialized Weapon Modules"
+ voidark_weapon_modules_specific_desc:0 "We will make use of more specialized weapons for our $xhk_pc_worldark$."
 
- voidark_general_modules_tt:0 "£trigger_yes£ §GEnables§! selection of ['concept_generalized_modules', $concept_generalized_modules_plural$].$NEW_LINE$$NEW_LINE$£trigger_no£ §RDisables§! selection of ['concept_specialized_modules', $concept_specialized_modules_plural$]$NEW_LINE$$NEW_LINE$£anomaly£ ['concept_both', $concept_both_plural$]"
- voidark_specific_modules_tt:0 "£trigger_yes£ §GEnables§! selection of ['concept_specialized_modules', $concept_specialized_modules_plural$].$NEW_LINE$$NEW_LINE$£trigger_no£ §RDisables§! selection of ['concept_generalized_modules', $concept_generalized_modules_plural$]$NEW_LINE$$NEW_LINE$£anomaly£ ['concept_both', $concept_both_plural$]"
+ voidark_general_modules_tt:0 "£trigger_yes£ §GEnables§! selection of ['concept_generalized_modules', $concept_generalized_modules_plural$].$NEW_LINE$£trigger_no£ §RDisables§! selection of ['concept_specialized_modules', $concept_specialized_modules_plural$]$NEW_LINE$£anomaly£ ['concept_both', $concept_both_plural$]"
+ voidark_specific_modules_tt:0 "£trigger_yes£ §GEnables§! selection of ['concept_specialized_modules', $concept_specialized_modules_plural$].$NEW_LINE$£trigger_no£ §RDisables§! selection of ['concept_generalized_modules', $concept_generalized_modules_plural$]$NEW_LINE$£anomaly£ ['concept_both', $concept_both_plural$]"

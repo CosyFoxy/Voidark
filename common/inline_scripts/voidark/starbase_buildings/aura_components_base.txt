@@ -14,8 +14,6 @@ potential = {
 show_in_tech = tech_precursor_juggernaut
 show_tech_unlock_if = { xhk_has_worldark_origin = yes }
 
-
-show_component_tooltips = yes
 ai_weight = {
     weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
 }
