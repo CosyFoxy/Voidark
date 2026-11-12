@@ -411,4 +411,11 @@ country_event = {
             }
         }
     }
+    option = {
+        name = voidark_vault_invasion.9991.b
+        custom_tooltip = voidark_vault_invasion.9991.b.tt
+        hidden_effect = {
+            end_event_chain = voidark_vault_integration
+        }
+    }
 }

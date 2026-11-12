@@ -246,7 +246,7 @@
  #AURA MODULE -------------------------------------------------
  voidark_combined_auras:0 "Enigmatic Fleet Coordination"
  sm_voidark_combined_auras_tt:0 "Other components from the category §H$sm_aura_cat$§! will not work alongside this."
- sm_voidark_combined_auras:0 "§E$voidark_combined_auras$ Module§!"
+ sm_voidark_combined_auras:0 "§B$voidark_combined_auras$ Module§!"
  sm_voidark_combined_auras_desc:0 "By utilising the light-weight nature of dark energy enhanced structures we were able to minimize the space needed for our fleet support systems. This new and improved section of our $xhk_pc_worldark$ allows us to combine all fleet support into one, centralised module."
  #FAILTEXT
  voidark_no_other_aura_building:0 "Cannot have any other aura starbase building!"
