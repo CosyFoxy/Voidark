@@ -1,6 +1,11 @@
 spriteTypes = {
 
     spriteType = {
+        name = GFX_voidark_precursor_megas
+        textureFile = gfx/interface/icons/modules/sb_voidark_precursor_megas.dds
+    }
+
+    spriteType = {
         name = "GFX_voidark_corespinal_phanon_great_wall_cannon"
         textureFile = "gfx/interface/icons/modules/voidark_corespinal_phanon_great_wall_cannon.dds"
     }

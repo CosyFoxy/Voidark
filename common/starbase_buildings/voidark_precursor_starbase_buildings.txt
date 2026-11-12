@@ -1,5 +1,5 @@
 voidark_precursor_dynamic_system = {
-    icon = "GFX_starbase_acot_module_precursor_database"
+    icon = "GFX_voidark_precursor_megas"
     starbase_type = arkship
     construction_days = 1300
     category = sm_worldark_integrated_mega_cat
