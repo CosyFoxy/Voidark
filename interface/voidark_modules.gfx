@@ -31,4 +31,1259 @@ spriteTypes = {
         name = "GFX_voidark_resource_silo_se"
         textureFile = gfx/interface/icons/modules/voidark_de_silo_stellarite.dds
     }
+    spriteType = {
+        name = "GFX_voidark_afterburner_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_afterburner_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_afterburner_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_afterburner_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_afterburner_pe"
+        textureFile = gfx/interface/icons/modules/sb_voidark_afterburner_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_afterburner_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_afterburner_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_afterburner_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_afterburner_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_armor_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_armor_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_armor_aux_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_armor_aux_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_armor_aux_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_armor_aux_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_armor_aux_pe"
+        textureFile = gfx/interface/icons/modules/sb_voidark_armor_aux_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_armor_aux_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_armor_aux_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_armor_aux_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_armor_aux_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_armor_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_armor_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_armor_pe"
+        textureFile = gfx/interface/icons/modules/sb_voidark_armor_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_armor_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_armor_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_armor_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_armor_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_combined_auras"
+        textureFile = gfx/interface/icons/modules/sb_voidark_combined_auras.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_energy_core_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_energy_core_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_energy_core_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_energy_core_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_energy_core_pe"
+        textureFile = gfx/interface/icons/modules/sb_voidark_energy_core_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_energy_core_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_energy_core_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_energy_core_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_energy_core_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_explosive_core_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_explosive_core_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_explosive_core_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_explosive_core_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_explosive_core_pe"
+        textureFile = gfx/interface/icons/modules/sb_voidark_explosive_core_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_explosive_core_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_explosive_core_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_explosive_core_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_explosive_core_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_extraction_hub_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_extraction_hub_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_extraction_hub_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_extraction_hub_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_extraction_hub_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_extraction_hub_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_extraction_hub_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_extraction_hub_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_fighter_core_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_fighter_core_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_fighter_core_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_fighter_core_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_fighter_core_pe"
+        textureFile = gfx/interface/icons/modules/sb_voidark_fighter_core_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_fighter_core_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_fighter_core_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_fighter_core_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_fighter_core_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_hull_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_hull_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_hull_aux_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_hull_aux_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_hull_aux_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_hull_aux_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_hull_aux_pe"
+        textureFile = gfx/interface/icons/modules/sb_voidark_hull_aux_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_hull_aux_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_hull_aux_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_hull_aux_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_hull_aux_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_hull_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_hull_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_hull_pe"
+        textureFile = gfx/interface/icons/modules/sb_voidark_hull_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_hull_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_hull_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_hull_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_hull_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_industry_hub_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_industry_hub_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_industry_hub_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_industry_hub_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_industry_hub_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_industry_hub_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_industry_hub_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_industry_hub_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_kinetic_core_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_kinetic_core_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_kinetic_core_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_kinetic_core_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_kinetic_core_pe"
+        textureFile = gfx/interface/icons/modules/sb_voidark_kinetic_core_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_kinetic_core_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_kinetic_core_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_kinetic_core_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_kinetic_core_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_organisation_hub_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_organisation_hub_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_organisation_hub_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_organisation_hub_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_organisation_hub_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_organisation_hub_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_organisation_hub_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_organisation_hub_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_research_hub_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_research_hub_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_research_hub_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_research_hub_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_research_hub_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_research_hub_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_research_hub_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_research_hub_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_research_support_hub_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_research_support_hub_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_shield_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_shield_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_shield_aux_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_shield_aux_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_shield_aux_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_shield_aux_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_shield_aux_pe"
+        textureFile = gfx/interface/icons/modules/sb_voidark_shield_aux_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_shield_aux_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_shield_aux_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_shield_aux_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_shield_aux_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_shield_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_shield_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_shield_pe"
+        textureFile = gfx/interface/icons/modules/sb_voidark_shield_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_shield_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_shield_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_shield_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_shield_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_starcharter_ae"
+        textureFile = gfx/interface/icons/modules/sb_voidark_starcharter_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_starcharter_dm"
+        textureFile = gfx/interface/icons/modules/sb_voidark_starcharter_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_starcharter_pe"
+        textureFile = gfx/interface/icons/modules/sb_voidark_starcharter_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_starcharter_re"
+        textureFile = gfx/interface/icons/modules/sb_voidark_starcharter_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_starcharter_se"
+        textureFile = gfx/interface/icons/modules/sb_voidark_starcharter_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_beastport_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_beastport_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_beastport_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_beastport_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_beastport_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_beastport_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_beastport_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_beastport_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_docking_bay_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_docking_bay_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_docking_bay_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_docking_bay_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_docking_bay_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_docking_bay_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_docking_bay_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_docking_bay_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_engineering_bay_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_engineering_bay_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_engineering_bay_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_engineering_bay_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_engineering_bay_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_engineering_bay_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_engineering_bay_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_engineering_bay_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_habitation_module_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_habitation_module_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_habitation_module_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_habitation_module_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_habitation_module_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_habitation_module_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_habitation_module_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_habitation_module_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_mining_array_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_mining_array_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_mining_array_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_mining_array_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_mining_array_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_mining_array_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_mining_array_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_mining_array_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_arc_emitter_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_arc_emitter_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_arc_emitter_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_arc_emitter_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_arc_emitter_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_arc_emitter_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_arc_emitter_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_arc_emitter_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_arc_emitter_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_arc_emitter_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_artillery_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_artillery_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_artillery_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_artillery_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_artillery_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_artillery_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_artillery_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_artillery_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_artillery_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_artillery_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_autocannon_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_autocannon_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_autocannon_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_autocannon_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_autocannon_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_autocannon_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_autocannon_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_autocannon_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_autocannon_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_autocannon_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_autolaser_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_autolaser_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_autolaser_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_autolaser_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_autolaser_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_autolaser_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_autolaser_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_autolaser_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_autolaser_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_autolaser_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_bomber_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_bomber_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_bomber_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_bomber_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_bomber_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_bomber_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_bomber_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_bomber_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_bomber_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_bomber_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_disruptor_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_disruptor_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_disruptor_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_disruptor_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_disruptor_lance_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_disruptor_lance_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_disruptor_lance_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_disruptor_lance_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_disruptor_lance_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_disruptor_lance_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_disruptor_lance_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_disruptor_lance_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_disruptor_lance_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_disruptor_lance_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_disruptor_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_disruptor_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_disruptor_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_disruptor_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_disruptor_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_disruptor_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_emitter_t_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_emitter_t_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_emitter_t_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_emitter_t_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_emitter_t_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_emitter_t_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_emitter_t_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_emitter_t_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_emitter_t_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_emitter_t_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_cannon_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_cannon_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_cannon_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_cannon_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_cannon_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_cannon_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_cannon_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_cannon_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_cannon_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_cannon_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_t_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_t_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_t_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_t_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_t_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_t_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_t_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_t_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_t_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_t_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_torpedo_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_torpedo_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_torpedo_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_torpedo_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_torpedo_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_torpedo_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_torpedo_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_torpedo_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_energy_torpedo_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_energy_torpedo_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_epds_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_epds_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_epds_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_epds_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_epds_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_epds_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_epds_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_epds_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_epds_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_epds_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_expds_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_expds_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_expds_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_expds_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_expds_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_expds_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_expds_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_expds_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_expds_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_expds_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_fighter_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_fighter_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_fighter_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_fighter_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_fighter_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_fighter_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_fighter_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_fighter_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_fighter_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_fighter_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_gunship_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_gunship_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_gunship_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_gunship_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_gunship_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_gunship_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_gunship_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_gunship_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_gunship_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_gunship_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_kinetic_t_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_kinetic_t_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_kinetic_t_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_kinetic_t_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_kinetic_t_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_kinetic_t_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_kinetic_t_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_kinetic_t_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_kinetic_t_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_kinetic_t_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_kpds_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_kpds_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_kpds_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_kpds_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_kpds_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_kpds_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_kpds_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_kpds_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_kpds_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_kpds_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_laser_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_laser_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_laser_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_laser_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_laser_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_laser_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_laser_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_laser_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_laser_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_laser_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_macrocannon_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_macrocannon_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_macrocannon_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_macrocannon_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_macrocannon_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_macrocannon_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_macrocannon_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_macrocannon_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_macrocannon_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_macrocannon_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_mass_accelerator_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_mass_accelerator_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_mass_accelerator_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_mass_accelerator_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_mass_accelerator_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_mass_accelerator_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_mass_accelerator_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_mass_accelerator_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_mass_accelerator_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_mass_accelerator_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_mass_driver_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_mass_driver_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_mass_driver_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_mass_driver_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_mass_driver_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_mass_driver_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_mass_driver_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_mass_driver_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_mass_driver_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_mass_driver_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_barrage_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_barrage_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_barrage_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_barrage_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_barrage_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_barrage_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_barrage_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_barrage_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_barrage_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_barrage_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_t_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_t_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_t_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_t_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_t_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_t_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_t_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_t_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_t_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_t_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_xl_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_xl_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_xl_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_xl_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_xl_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_xl_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_xl_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_xl_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_missile_xl_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_missile_xl_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_particle_lance_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_particle_lance_dm.dds
+    }
+    spriteType = {
+        name = "GFX_voidark_module_particle_lance_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_particle_lance_ae.dds
+    }
+    spriteType = {
+        name = "GFX_voidark_module_particle_lance_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_particle_lance_pe.dds
+    }
+    spriteType = {
+        name = "GFX_voidark_module_particle_lance_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_particle_lance_re.dds
+    }
+    spriteType = {
+        name = "GFX_voidark_module_particle_lance_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_particle_lance_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_plasma_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_plasma_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_plasma_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_plasma_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_plasma_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_plasma_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_plasma_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_plasma_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_plasma_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_plasma_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_scout_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_scout_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_scout_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_scout_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_scout_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_scout_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_scout_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_scout_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_scout_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_scout_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_swarmer_missiles_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_swarmer_missiles_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_swarmer_missiles_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_swarmer_missiles_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_swarmer_missiles_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_swarmer_missiles_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_swarmer_missiles_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_swarmer_missiles_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_swarmer_missiles_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_swarmer_missiles_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_torpedo_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_torpedo_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_torpedo_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_torpedo_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_torpedo_pe"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_torpedo_pe.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_torpedo_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_torpedo_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_module_torpedo_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_module_torpedo_se.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_sensor_array_ae"
+        textureFile = gfx/interface/icons/modules/sm_voidark_sensor_array_ae.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_sensor_array_dm"
+        textureFile = gfx/interface/icons/modules/sm_voidark_sensor_array_dm.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_sensor_array_re"
+        textureFile = gfx/interface/icons/modules/sm_voidark_sensor_array_re.dds
+    }
+
+    spriteType = {
+        name = "GFX_voidark_sensor_array_se"
+        textureFile = gfx/interface/icons/modules/sm_voidark_sensor_array_se.dds
+    }
 }
