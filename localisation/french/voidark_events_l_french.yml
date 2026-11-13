@@ -11,6 +11,8 @@
   #Alpha Matter Event Override
   voidark_alpha_matter_events.2.desc:99 "$acot_alpha_matter_events.2.desc$$NEW_LINE$$NEW_LINE$§YNOTE:§! To have enough storage for this decision, upgrade your £arkship£ §H$xhk_pc_worldark$§! to §E$xhk_worldark_tier_13$§! and upgrade your £zone£ §H$zone_xhk_worldark_storage$§! ['concept_district_specializations', §H$concept_district_specializations$§!], or build ['starbase_module:acot_waystation_resource_silo_dm', §E$sm_acot_waystation_resource_silo_dm$s§!] on your £waystation£ §HWaystations§!!"
   voidark_alpha_matter_events.2.c:99 "Let's catch up on our research!"
+  voidark_vault_invasion.9991.b:99 "Keep it for now."
+  voidark_vault_invasion.9991.b.tt:99 "You can remove control of the system by downgrading the starbase."
   
   ##Zone swap event
   voidark.02.title:99 "Delta Tier World Ark!"
