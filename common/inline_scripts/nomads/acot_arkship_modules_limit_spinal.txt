@@ -1,0 +1,6 @@
+##ACOT OVERRIDE
+
+cannot_fit_on_slots = { spinal_mount_1  spinal_mount_7 }
+
+
+

@@ -37,3 +37,41 @@ voidark_weapon_modules = {
         }
     }
 }
+
+voidark_tier_visibility_modules = {
+    category = voidark
+
+    potential = {
+        xhk_has_worldark_origin = yes
+        has_technology = tech_voidark_delta
+    }
+
+    option = {
+        name = "voidark_tier_visibility_all_modules"
+        ai_weight = {
+            weight = 100
+        }
+        policy_flags = {
+            voidark_tier_visibility_all_modules
+        }
+        on_enabled = {
+            custom_tooltip = voidark_tier_visibility_all_modules_tt
+            refresh_auto_generated_ship_designs = yes
+        }
+    }
+
+    option = {
+        name = "voidark_tier_visibility_only_current_modules"
+
+        policy_flags = {
+            voidark_tier_visibility_only_current_modules
+        }
+        on_enabled = {
+            custom_tooltip = voidark_tier_visibility_only_current_modules_tt
+            refresh_auto_generated_ship_designs = yes
+        }
+        ai_weight = {
+            weight = 0
+        }
+    }
+}

@@ -28,6 +28,26 @@ is_delta_voidark_starbase = {
     }
 }
 
+is_specifically_delta_voidark_starbase = {
+    has_starbase_size = xhk_worldark_tier_13
+}
+
+is_specifically_alpha_voidark_starbase = {
+    has_starbase_size = xhk_worldark_tier_14
+}
+
+is_specifically_phi_voidark_starbase = {
+    has_starbase_size = xhk_worldark_tier_15
+}
+
+is_specifically_phanon_voidark_starbase = {
+    has_starbase_size = xhk_worldark_tier_16
+}
+
+is_specifically_stellarite_voidark_starbase = {
+    has_starbase_size = xhk_worldark_tier_17
+}
+
 is_alpha_voidark_starbase = {
     OR = {
         has_starbase_size = xhk_worldark_tier_14

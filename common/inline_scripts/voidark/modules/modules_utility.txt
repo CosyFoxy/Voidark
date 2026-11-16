@@ -7,7 +7,21 @@ potential = {
         xhk_has_worldark_origin = yes
     }
     xhk_is_worldark_starbase = yes
-    is_$TIER$_voidark_starbase = yes
+
+    #Visibility policy
+    if = {
+        limit = {
+            owner? = {
+                has_policy_flag = voidark_tier_visibility_only_current_modules
+            }
+        }
+        is_specifically_$TIER$_voidark_starbase = yes
+    }
+    else = {
+        #no flag check as fallback
+        is_$TIER$_voidark_starbase = yes
+    }
+
     $OTHER$
 }
 

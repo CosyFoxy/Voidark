@@ -119,7 +119,7 @@
   voidark_doc_phanon_vault_5:0 "$NEW_LINE$$NEW_LINE$§YNOTE:§! When undertaking the Rival path, you will be able to integrate the Vault."
 
   voidark_doc_components_title:0 "4) Components & Modules"
-  voidark_doc_components_desc:0 "There exist components for each tier, with starbase buildings for most tiers (except Phi tier). You begin by having access to generalized weapon modules.$NEW_LINE$To change this:$TABBED_NEW_LINE$$TABBED_NEW_LINE$- Find the §HVoidark Policies Category§!.$TABBED_NEW_LINE$- Change the Policy ['policy:voidark_weapon_modules', §H$policy_voidark_weapon_modules$§!].$NEW_LINE$$NEW_LINE$£anomaly£ Make sure to read the policies' tooltips to properly understand what option enables what. There is a 5 year cooldown."
+  voidark_doc_components_desc:0 "There exist components for each tier, with starbase buildings for most tiers (except Phi tier). You begin by having access to generalized weapon modules, and you will see modules of all tiers.$NEW_LINE$To change this:$TABBED_NEW_LINE$$TABBED_NEW_LINE$- Find the §HVoidark Policies Category§!.$TABBED_NEW_LINE$- Change the Policy ['policy:voidark_weapon_modules', §H$policy_voidark_weapon_modules$§!] to see specialized modules.$TABBED_NEW_LINE$- Change the policy ['policy:voidark_tier_visibility_modules', §H$policy_voidark_tier_visibility_modules$§!] to hide modules of previous tiers.$NEW_LINE$$NEW_LINE$£anomaly£ Make sure to read the policies' tooltips to properly understand what option enables what. There is a 5 year cooldown."
 
 
   voidark_doc_beta_test:0 "4) Voidark Beta Test"

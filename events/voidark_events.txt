@@ -32,6 +32,10 @@ country_event = {
             policy = voidark_weapon_modules
             option = voidark_weapon_modules_general
         }
+        set_policy = {
+            policy = voidark_tier_visibility_modules
+            option = voidark_tier_visibility_all_modules
+        }
         begin_event_chain = {
             event_chain = voidark_docs_chain
         }
