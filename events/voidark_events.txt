@@ -114,9 +114,9 @@ country_event = {
         is_ai = no
     }
     trigger = {
-        NAND = {
-            has_country_flag = voidark_policies_setup_done_1
-            has_country_flag = voidark_policies_setup_done_2
+        OR = {
+            NOT = { has_country_flag = voidark_policies_setup_done_1 }
+            NOT = { has_country_flag = voidark_policies_setup_done_2 }
         }
     }
 
