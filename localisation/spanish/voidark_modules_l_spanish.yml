@@ -715,7 +715,7 @@
   
   ADDS_ARKSHIP_XL_SLOTS_PE:99 "£ship_xl_slot£ Weapon Slots: §G+5§!"
   ADDS_ARKSHIP_H_SLOTS_PE:99 "£ship_h_slot£ Weapon Slots: §G+8§!"
-  ADDS_ARKSHIP_L_SLOTS_PE:99 "£ship_l_slot£ Weapon Slots: §G+2§!"
+  ADDS_ARKSHIP_L_SLOTS_PE:99 "£ship_l_slot£ Weapon Slots: §G+8§!"
   ADDS_ARKSHIP_M_SLOTS_PE:99 "£ship_m_slot£ Weapon Slots: §G+16§!"
   ADDS_ARKSHIP_G_SLOTS_PE:99 "£ship_g_slot£ Weapon Slots: §G+16§!"
   ADDS_ARKSHIP_S_SLOTS_PE:99 "£ship_s_slot£ Weapon Slots: §G+24§!"
@@ -723,7 +723,7 @@
   
   ADDS_ARKSHIP_XL_SLOTS_RE:99 "£ship_xl_slot£ Weapon Slots: §G+7§!"
   ADDS_ARKSHIP_H_SLOTS_RE:99 "£ship_h_slot£ Weapon Slots: §G+9§!"
-  ADDS_ARKSHIP_L_SLOTS_RE:99 "£ship_l_slot£ Weapon Slots: §G+2§!"
+  ADDS_ARKSHIP_L_SLOTS_RE:99 "£ship_l_slot£ Weapon Slots: §G+9§!"
   ADDS_ARKSHIP_M_SLOTS_RE:99 "£ship_m_slot£ Weapon Slots: §G+18§!"
   ADDS_ARKSHIP_G_SLOTS_RE:99 "£ship_g_slot£ Weapon Slots: §G+18§!"
   ADDS_ARKSHIP_S_SLOTS_RE:99 "£ship_s_slot£ Weapon Slots: §G+26§!"
@@ -731,7 +731,7 @@
   
   ADDS_ARKSHIP_XL_SLOTS_SE:99 "£ship_xl_slot£ Weapon Slots: §G+8§!"
   ADDS_ARKSHIP_H_SLOTS_SE:99 "£ship_h_slot£ Weapon Slots: §G+10§!"
-  ADDS_ARKSHIP_L_SLOTS_SE:99 "£ship_l_slot£ Weapon Slots: §G+2§!"
+  ADDS_ARKSHIP_L_SLOTS_SE:99 "£ship_l_slot£ Weapon Slots: §G+10§!"
   ADDS_ARKSHIP_M_SLOTS_SE:99 "£ship_m_slot£ Weapon Slots: §G+20§!"
   ADDS_ARKSHIP_G_SLOTS_SE:99 "£ship_g_slot£ Weapon Slots: §G+20§!"
   ADDS_ARKSHIP_S_SLOTS_SE:99 "£ship_s_slot£ Weapon Slots: §G+28§!"
@@ -1053,3 +1053,12 @@
   
   voidark_general_modules_tt:99 "£trigger_yes£ §GEnables§! selection of ['concept_generalized_modules', $concept_generalized_modules_plural$].$NEW_LINE$£trigger_no£ §RDisables§! selection of ['concept_specialized_modules', $concept_specialized_modules_plural$]$NEW_LINE$£anomaly£ ['concept_both', $concept_both_plural$]"
   voidark_specific_modules_tt:99 "£trigger_yes£ §GEnables§! selection of ['concept_specialized_modules', $concept_specialized_modules_plural$].$NEW_LINE$£trigger_no£ §RDisables§! selection of ['concept_generalized_modules', $concept_generalized_modules_plural$]$NEW_LINE$£anomaly£ ['concept_both', $concept_both_plural$]"
+  
+  policy_voidark_tier_visibility_modules:99 "Voidark Module Visibility"
+  policy_voidark_tier_visibility_modules_desc:99 "This policy allows us to decide whether to be able to see components of all tiers or just of our current voidark tier."
+  voidark_tier_visibility_all_modules:99 "Show all modules"
+  voidark_tier_visibility_all_modules_desc:99 "We will see modules of all available tiers."
+  voidark_tier_visibility_only_current_modules:99 "Show only current tier of modules"
+  voidark_tier_visibility_only_current_modules_desc:99 "We will see modules only of our current voidark tier."
+  voidark_tier_visibility_all_modules_tt:99 "£trigger_yes£ §GEnables§! selection of all tiers of modules."
+  voidark_tier_visibility_only_current_modules_tt:99 "£anomaly£ §KShows only current tier modules!§!"
