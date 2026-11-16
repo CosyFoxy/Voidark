@@ -29,5 +29,16 @@ on_ship_upgraded = {
     }
 }
 
+on_single_player_save_game_load = {
+    events = {
+        voidark.03
+    }
+}
+
+on_yearly_pulse_country = {
+    events = {
+        voidark.03
+    }
+}
 
 

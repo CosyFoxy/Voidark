@@ -28,14 +28,19 @@ country_event = {
     }
 
     immediate = {
+        #POLICIES
+        set_country_flag = voidark_policies_setup_done_1
         set_policy = {
             policy = voidark_weapon_modules
             option = voidark_weapon_modules_general
         }
+        set_country_flag = voidark_policies_setup_done_2
         set_policy = {
             policy = voidark_tier_visibility_modules
             option = voidark_tier_visibility_all_modules
         }
+
+        #DOCUMENTATION
         begin_event_chain = {
             event_chain = voidark_docs_chain
         }
@@ -101,3 +106,44 @@ ship_event = {
     }
 }
 
+country_event = {
+    id = voidark.03
+    is_triggered_only = yes
+    hide_window = yes
+    pre_triggers = {
+        is_ai = no
+    }
+    trigger = {
+        NAND = {
+            has_country_flag = voidark_policies_setup_done_1
+            has_country_flag = voidark_policies_setup_done_2
+        }
+    }
+
+    immediate = {
+        if = {
+            limit = {
+                NOT = { has_country_flag = voidark_policies_setup_done_1 }
+            }
+            owner? = {
+                set_policy = {
+                    policy = voidark_weapon_modules
+                    option = voidark_weapon_modules_general
+                }
+                set_country_flag = voidark_policies_setup_done_1
+            }
+        }
+        if = {
+            limit = {
+                NOT = { has_country_flag = voidark_policies_setup_done_2 }
+            }
+            owner? = {
+                set_policy = {
+                    policy = voidark_tier_visibility_modules
+                    option = voidark_tier_visibility_all_modules
+                }
+                set_country_flag = voidark_policies_setup_done_2
+            }
+        }
+    }
+}
