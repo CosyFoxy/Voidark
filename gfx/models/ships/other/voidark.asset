@@ -1,0 +1,9 @@
+#
+entity = {
+    name = "voidark_missile_large_entity"
+    pdxmesh = "military_nomads_01_turret_missile_large_mesh"
+    game_data = {
+        emissive_recolor_crunch = 3.0
+    }
+    scale = 1.3
+}
