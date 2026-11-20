@@ -175,12 +175,12 @@ ship_section_template = {
     should_draw_components = yes
     component_slot = {
         name = "LARGE_GUN_01"
-        template = "large_turret"
+        template = "voidark_large_turret"
         locatorname = "large_turret_01"
     }
     component_slot = {
         name = "LARGE_GUN_02"
-        template = "large_turret"
+        template = "voidark_large_turret"
         locatorname = "large_turret_02"
     }
     component_slot = {
