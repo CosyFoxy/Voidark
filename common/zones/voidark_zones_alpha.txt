@@ -1289,46 +1289,7 @@ zone_voidark_alpha_amenities = {
         medical
         entertainment
     }
-    included_buildings = {
-        #Vanilla
-        building_luxury_residence
-        building_paradise_dome
-        building_communal_housing
-        building_communal_housing_large
-        # no gestalt stuff here nope
-        building_holo_theatres
-        building_hyper_entertainment_forum
-        building_medical_1
-        building_medical_2
-        building_genomic_facility
-        building_noble_estates
-        building_augmentation_bazaars
-        building_transcendental_retreat
-        building_augmentation_center
-        building_cyberdome
-        building_xeno_zoo
-        building_fe_clinic_1
-        building_fe_clinic_2
-        building_fe_entertainment_1
-        building_fe_entertainment_2
-        building_fe_sky_dome
-        building_fe_dome
-        galactic_history_holomuseum
-        aesthetic_wonders_holomuseum
-        xeno_geology_holomuseum
-        #ACOT
-        building_acot_dm_mansion
-        building_acot_ae_mansion
-        building_phanon_mansion
-        building_stellarite_mansion
-        building_acot_dm_temple
-        building_acot_ae_temple
-        building_phanon_temple
-        building_stellarite_temple
-        building_ae_sky_dome
-        building_phanon_sky_dome
-        building_stellarite_sky_dome
-    }
+    inline_script = voidark/zones/amenity_buildings
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
@@ -1367,48 +1328,8 @@ zone_voidark_alpha_amenities_dystopian = {
         medical
         entertainment
     }
-    included_buildings = {
-        #Vanilla
-        building_luxury_residence
-        building_paradise_dome
-        building_communal_housing
-        building_communal_housing_large
-        # no gestalt stuff here nope
-        building_holo_theatres
-        building_hyper_entertainment_forum
-        building_medical_1
-        building_medical_2
-        building_genomic_facility
-        building_noble_estates
-        building_augmentation_bazaars
-        building_transcendental_retreat
-        building_augmentation_center
-        building_cyberdome
-        building_xeno_zoo
-        building_fe_clinic_1
-        building_fe_clinic_2
-        building_fe_entertainment_1
-        building_fe_entertainment_2
-        building_fe_sky_dome
-        building_fe_dome
-        galactic_history_holomuseum
-        aesthetic_wonders_holomuseum
-        xeno_geology_holomuseum
 
-        #ACOT
-        building_acot_dm_mansion
-        building_acot_ae_mansion
-        building_phanon_mansion
-        building_stellarite_mansion
-        building_acot_dm_temple
-        building_acot_ae_temple
-        building_phanon_temple
-        building_stellarite_temple
-        building_ae_sky_dome
-        building_phanon_sky_dome
-        building_stellarite_sky_dome
-
-    }
+    inline_script = voidark/zones/amenity_buildings
 
 
     inline_script = {
