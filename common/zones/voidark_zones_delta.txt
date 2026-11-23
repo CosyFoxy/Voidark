@@ -828,7 +828,7 @@ zone_voidark_delta_decompressor = {
 
     inline_script = {
         script = jobs/zone_miner_add
-        AMOUNT = -400
+        AMOUNT = -300
     }
     triggered_planet_modifier = {
         potential = { always = yes }
