@@ -43,7 +43,7 @@ zone_voidark_delta_urban = {
     triggered_district_planet_modifier = {
         planet_housing_add = @delta_per_district_housing_urban
     }
-    include = {
+    included_buildings = {
         all
     }
 
@@ -93,7 +93,7 @@ zone_voidark_delta_mindlink = {
         planet_housing_add = @delta_per_district_housing_urban
     }
 
-    include = {
+    included_buildings = {
         all
     }
 
@@ -1201,7 +1201,7 @@ zone_voidark_delta_servitor = {
         urban_automation
         bio_trophy
     }
-    include = {
+    included_buildings = {
         building_fe_sky_dome
         building_fe_dome
     }
@@ -1307,7 +1307,7 @@ zone_voidark_delta_amenities = {
         medical
         entertainment
     }
-    include = {
+    included_buildings = {
         #Vanilla
         building_luxury_residence
         building_paradise_dome
@@ -1385,7 +1385,7 @@ zone_voidark_delta_amenities_dystopian = {
         urban
         entertainment
     }
-    include = {
+    included_buildings = {
         #Vanilla
         building_luxury_residence
         building_paradise_dome
@@ -1465,7 +1465,7 @@ zone_voidark_delta_enforcer = {
     included_building_sets = {
         government
     }
-    include = {
+    included_buildings = {
         building_fe_security_1
         building_fe_security_2
         #todo check once AOT adds enforcer buildings
@@ -1632,7 +1632,7 @@ zone_voidark_delta_negativemass = {
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
-    include = {
+    included_buildings = {
         building_giga_institute_1
         building_giga_institute_2
         building_giga_supercomputer_1
@@ -1697,7 +1697,7 @@ zone_voidark_delta_sentient_metal = {
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_delta"
     }
-    include = {
+    included_buildings = {
         building_ehof_sm_forge_1
         building_ehof_sm_forge_2
     }
@@ -2042,7 +2042,7 @@ zone_voidark_delta_storage = {
     included_building_sets = {
         storage
     }
-    include = {
+    included_buildings = {
         building_resource_silo
         building_fe_silo_1
         building_fe_silo_2
@@ -2113,7 +2113,7 @@ zone_voidark_delta_utilbay = {
 
 
 
-    include = { all }
+    included_buildings = { all }
     excluded_building_sets = {
         xhk_worldark_ktisma
         xhk_worldark_orykta
