@@ -1,0 +1,34 @@
+# for compat reasons isolating this
+triggered_desc = {
+    trigger = {
+        NOT = {
+            OR = {
+                has_zone = { zone = zone_voidark_delta_storage }
+                has_zone = { zone = zone_voidark_delta_storage }
+                has_zone = { zone = zone_voidark_phanon_storage }
+                has_zone = { zone = zone_voidark_stellarite_storage }
+            }
+        }
+    }
+    text = district_xhk_worldark_storage_effect
+}
+
+triggered_desc = {
+    trigger = { has_zone = { zone = zone_voidark_delta_storage } }
+    text = district_voidark_delta_storage_effect
+}
+
+triggered_desc = {
+    trigger = { has_zone = { zone = zone_voidark_delta_storage } }
+    text = district_voidark_alpha_storage_effect
+}
+
+triggered_desc = {
+    trigger = { has_zone = { zone = zone_voidark_phanon_storage } }
+    text = district_voidark_phanon_storage_effect
+}
+
+triggered_desc = {
+    trigger = { has_zone = { zone = zone_voidark_stellarite_storage } }
+    text = district_voidark_stellarite_storage_effect
+}
