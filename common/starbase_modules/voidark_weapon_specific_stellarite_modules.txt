@@ -485,7 +485,7 @@ voidark_module_epds_se = {
             inline_script = voidark/modules/module_costs/module_cost_small_stellarite
         }
     }
-    component_set = ACOT_POINT_DEFENSE_SE
+    component_set = ACOT_POINT_DEFENSE_PD_SE
     custom_tooltip_with_modifiers = sm_voidark_module_epds_se_tt
 }
 
@@ -505,7 +505,7 @@ voidark_module_kpds_se = {
             inline_script = voidark/modules/module_costs/module_cost_small_stellarite
         }
     }
-    component_set = ACOT_FLAK_CANNON_SE
+    component_set = ACOT_FLAK_CANNON_PD_SE
     custom_tooltip_with_modifiers = sm_voidark_module_kpds_se_tt
 }
 
