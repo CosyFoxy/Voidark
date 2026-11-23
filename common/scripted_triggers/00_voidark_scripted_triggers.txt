@@ -351,6 +351,18 @@ has_base_forgery_zone = {
     }
 }
 
+has_base_infiltration_zone = {
+    has_zone = {
+        zone = zone_xhk_worldark_infiltration
+    }
+}
+
+has_voidark_infiltration_zone = {
+    has_zone = {
+        zone = zone_voidark_$TIER$_infiltration
+    }
+}
+
 has_voidark_forgery_zone = {
     has_zone = {
         zone = zone_voidark_$TIER$_forgery

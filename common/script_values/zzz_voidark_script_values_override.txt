@@ -70,80 +70,18 @@ xhk_worldark_level = {
         add = 16
     }
 }
-
-xhk_worldark_forgery_infiltration = {
+xhk_worldark_infiltration = {
     base = 0
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = artisan
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = artisan_drone
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = acot_artisan
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = acot_artisan_drone
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = ae_artisan
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = ae_artisan_drone
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = phanon_artisan
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = phanon_artisan_drone
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = stellarite_artisan
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = stellarite_artisan_drone
-        }
-        mode = add
-    }
-    divide = 100
+    add = value:count_owned_job_workforce|JOB|artisan|
+    add = value:count_owned_job_workforce|JOB|artisan_drone|
+    add = value:count_owned_job_workforce|JOB|acot_artisan|
+    add = value:count_owned_job_workforce|JOB|acot_artisan_drone|
+    add = value:count_owned_job_workforce|JOB|ae_artisan|
+    add = value:count_owned_job_workforce|JOB|ae_artisan_drone|
+    add = value:count_owned_job_workforce|JOB|phanon_artisan|
+    add = value:count_owned_job_workforce|JOB|phanon_artisan_drone|
+    add = value:count_owned_job_workforce|JOB|stellarite_artisan|
+    add = value:count_owned_job_workforce|JOB|stellarite_artisan_drone|
     modifier = {
         has_base_forgery_zone = yes
         mult = @xhk_worldark_forgery_infiltration_per_100
@@ -174,24 +112,48 @@ xhk_worldark_forgery_infiltration = {
     }
 }
 
+xhk_worldark_infiltration_gestalt = {
+    base = 0
+    add = value:count_owned_job_workforce|JOB|patrol_drone|
+    add = value:count_owned_job_workforce|JOB|aot_dm_enforcer_drone|
+    add = value:count_owned_job_workforce|JOB|acot_enforcer_drone|
+    add = value:count_owned_job_workforce|JOB|phanon_enforcer_drone|
+    add = value:count_owned_job_workforce|JOB|stellarite_enforcer_drone|
+    modifier = {
+        has_base_forgery_zone = yes
+        mult = @xhk_worldark_forgery_infiltration_per_100
+    }
+    modifier = {
+        has_voidark_infiltration_zone = {
+            TIER = delta
+        }
+        mult = @[xhk_worldark_forgery_infiltration_per_100*2]
+    }
+    modifier = {
+        has_voidark_infiltration_zone = {
+            TIER = alpha
+        }
+        mult = @[xhk_worldark_forgery_infiltration_per_100*3]
+    }
+    modifier = {
+        has_voidark_infiltration_zone = {
+            TIER = phanon
+        }
+        mult = @[xhk_worldark_forgery_infiltration_per_100*4]
+    }
+    modifier = {
+        has_voidark_infiltration_zone = {
+            TIER = stellarite
+        }
+        mult = @[xhk_worldark_forgery_infiltration_per_100*5]
+    }
+}
+
 # anomaly and survey speed from the survey zone
 xhk_worldark_survey_bonus = {
     base = 0
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = ark_harvester
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = ark_harvester_gestalt
-        }
-        mode = add
-    }
-    divide = 100
+    add = value:count_owned_job_workforce|JOB|ark_harvester|
+    add = value:count_owned_job_workforce|JOB|ark_harvester_gestalt|
     modifier = {
         has_base_survey_zone = yes
         mult = @xhk_worldark_survey_bonus_per_100
