@@ -53,6 +53,7 @@ country_event = {
                 }
                 save_global_event_target_as = voidark_phanon_vault
                 set_carrier_flag = nomad_recently_settled_flag
+                set_carrier_flag = xhk_worldark_excluded_resettlement
             }
         }
     }
