@@ -25,7 +25,7 @@ zone_voidark_stellarite_urban = {
         UNLOCK = ""
         TIER = stellarite
         
-        POTENTIAL = "owner? = { NOT = { has_menace_perk = menp_behemoth_mind_meld } }"
+        POTENTIAL = "voidark_not_mind_meld_nor_flusion = yes"
         TECHNOLOGY = "tech_voidark_stellarite"
     }
 
@@ -41,8 +41,9 @@ zone_voidark_stellarite_urban = {
         xhk_worldark_urban1
     }
 
-    triggered_district_planet_modifier = {
-        planet_housing_add = @stellarite_per_district_housing_urban
+    inline_script = {
+        script = voidark/zones/voidark_urban_modifiers
+        TIER = stellarite
     }
     included_buildings = {
         all
@@ -89,8 +90,9 @@ zone_voidark_stellarite_mindlink = {
         xhk_worldark_urban1
     }
 
-    triggered_district_planet_modifier = {
-        planet_housing_add = @stellarite_per_district_housing_urban
+    inline_script = {
+        script = voidark/zones/voidark_urban_modifiers
+        TIER = stellarite
     }
 
     included_buildings = {
