@@ -368,3 +368,55 @@ has_voidark_forgery_zone = {
         zone = zone_voidark_$TIER$_forgery
     }
 }
+
+has_base_museum_zone = {
+    OR = {
+        has_zone = {
+            zone = zone_xhk_worldark_museum
+        }
+        has_zone = {
+            zone = zone_xhk_worldark_museum_dystopian
+        }
+        has_zone = {
+            zone = zone_xhk_worldark_museum_gestalt
+        }
+    }
+}
+
+has_voidark_museum_zone = {
+    OR = {
+        has_zone = {
+            zone = zone_voidark_$TIER$_museum
+        }
+        has_zone = {
+            zone = zone_voidark_$TIER$_museum_dystopian
+        }
+        has_zone = {
+            zone = zone_voidark_$TIER$_museum_gestalt
+        }
+    }
+}
+
+has_base_vivarium_zone = {
+    has_zone = {
+        zone = zone_xhk_worldark_vivarium
+    }
+}
+
+has_voidark_vivarium_zone = {
+    has_zone = {
+        zone = zone_voidark_$TIER$_vivarium
+    }
+}
+
+has_base_storage_zone = {
+    has_zone = {
+        zone = zone_xhk_worldark_storage
+    }
+}
+
+has_voidark_deep_sleep_zone = {
+    has_zone = {
+        zone = zone_voidark_$TIER$_deep_sleep
+    }
+}

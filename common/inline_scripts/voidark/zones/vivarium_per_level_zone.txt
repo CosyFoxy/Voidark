@@ -1,0 +1,8 @@
+triggered_district_country_modifier = {
+    potential = {
+        has_voidark_vivarium_zone = {
+            TIER = delta
+        }
+    }
+    country_vivarium_max_capacity_add = @[xhk_worldark_vivarium_capacity]
+}

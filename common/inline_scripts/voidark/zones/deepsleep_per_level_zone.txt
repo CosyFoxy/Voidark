@@ -1,0 +1,51 @@
+triggered_district_planet_modifier = {
+    potential = {
+        has_zone = {
+            zone = zone_voidark_delta_deep_sleep
+        }
+        has_modifier = planet_deep_sleep
+        starbase = {
+            has_starbase_size >= xhk_worldark_tier_13
+        }
+    }
+    job_ark_deep_sleep_add = @[xhk_worldark_deep_sleep_jobs_per_level*2]
+}
+
+triggered_district_planet_modifier = {
+    potential = {
+        has_zone = {
+            zone = zone_voidark_alpha_deep_sleep
+        }
+        has_modifier = planet_deep_sleep
+        starbase = {
+            has_starbase_size >= xhk_worldark_tier_13
+        }
+    }
+    job_ark_deep_sleep_add = @[xhk_worldark_deep_sleep_jobs_per_level*3]
+}
+
+triggered_district_planet_modifier = {
+    potential = {
+        has_zone = {
+            zone = zone_voidark_phanon_deep_sleep
+        }
+        has_modifier = planet_deep_sleep
+        starbase = {
+            has_starbase_size >= xhk_worldark_tier_13
+        }
+    }
+    job_ark_deep_sleep_add = @[xhk_worldark_deep_sleep_jobs_per_level*4]
+}
+
+triggered_district_planet_modifier = {
+    potential = {
+        has_zone = {
+            zone = zone_voidark_stellarite_deep_sleep
+        }
+        has_modifier = planet_deep_sleep
+        starbase = {
+            has_starbase_size >= xhk_worldark_tier_13
+        }
+    }
+    job_ark_deep_sleep_add = @[xhk_worldark_deep_sleep_jobs_per_level*5]
+}
