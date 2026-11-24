@@ -3,12 +3,6 @@ triggered_district_planet_modifier = {
     planet_housing_add = @$TIER$_per_district_housing_urban
 }
 
-triggered_desc = {
-    trigger = {
-        has_carrier_flag = xhk_worldark_flusion_advanced_expansion
-    }
-    text = voidark_zone_flusion_tt
-}
 triggered_district_planet_modifier = {
     potential = {
         has_carrier_flag = xhk_worldark_flusion_advanced_expansion
@@ -36,4 +30,15 @@ triggered_planet_modifier = {
         bonus_automated_workforce_mult = 0.025
     }
 }
-
+triggered_desc = {
+    trigger = {
+        has_carrier_flag = xhk_worldark_flusion_advanced_expansion
+    }
+    text = voidark_zone_flusion_tt
+}
+triggered_desc = {
+    trigger = {
+        always = yes
+    }
+    text = zone_urban_triggered_desc
+}
