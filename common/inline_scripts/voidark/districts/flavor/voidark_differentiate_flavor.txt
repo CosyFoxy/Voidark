@@ -13,6 +13,7 @@ triggered_name = {
 
 triggered_flavor_desc = {
     trigger = {
+        NOT = { has_carrier_flag = xhk_worldark_flusion_advanced_expansion }
         owner? = {
             OR = {
                 is_machine_empire = no
@@ -39,6 +40,7 @@ triggered_name = {
 
 triggered_flavor_desc = {
     trigger = {
+        NOT = { has_carrier_flag = xhk_worldark_flusion_advanced_expansion }
         owner? = {
             OR = {
                 is_machine_empire = no
@@ -65,6 +67,7 @@ triggered_name = {
 
 triggered_flavor_desc = {
     trigger = {
+        NOT = { has_carrier_flag = xhk_worldark_flusion_advanced_expansion }
         owner? = {
             OR = {
                 is_machine_empire = yes
@@ -91,12 +94,7 @@ triggered_name = {
 
 triggered_flavor_desc = {
     trigger = {
-        owner? = {
-            OR = {
-                is_machine_empire = no
-                is_hive_empire = yes
-            }
-        }
+        has_carrier_flag = xhk_worldark_flusion_advanced_expansion
     }
-    text = flavor_district_voidark_$TIER$_$TYPE$_hive_desc
+    text = flavor_district_voidark_$TYPE$_flusion_desc
 }
