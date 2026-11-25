@@ -593,4 +593,20 @@ spriteTypes = {
         name = GFX_district_specialization_voidark_stellarite_infiltration_propaganda
         textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_infiltration_propaganda.dds"
     }
+    spriteType = {
+        name = GFX_district_specialization_voidark_delta_vivarium
+        textureFile = gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_vivarium.dds
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_alpha_vivarium
+        textureFile = gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_alpha_vivarium.dds
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_phanon_vivarium
+        textureFile = gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_vivarium.dds
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_stellarite_vivarium
+        textureFile = gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_vivarium.dds
+    }
 }

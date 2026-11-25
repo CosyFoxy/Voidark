@@ -1,0 +1,44 @@
+included_building_sets = {
+    farming
+    farming_automation
+    fallen_empire_farming
+    hydroponics
+}
+
+exclude = {
+    building_farming_districts_1
+    building_farming_districts_2
+    building_farming_districts_3
+    building_farming_districts_4
+}
+
+triggered_buildings = {
+    trigger = {
+        owner? = { has_active_tenet = tenet_autonomy }
+    }
+    included_building_sets = {
+        research
+    }
+}
+
+# doubled
+inline_script = {
+    script = jobs/zone_farmers_add
+    AMOUNT = -100
+}
+
+triggered_district_country_modifier = {
+    potential = {
+        always = yes
+    }
+    country_vivarium_max_capacity_add = @voidark_vivarium_$TIER$_capacity
+}
+
+triggered_planet_modifier = {
+    potential = {
+        always = yes
+    }
+    modifier = {
+        planet_farmers_energy_upkeep_add = @[0.20*$TIER$_mult]
+    }
+}

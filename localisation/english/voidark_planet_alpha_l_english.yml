@@ -152,6 +152,9 @@
  zone_voidark_alpha_infiltration_propaganda_gestalt_desc:0 "$zone_xhk_worldark_infiltration_propaganda_gestalt_desc$"
  zone_voidark_alpha_infiltration_propaganda_gestalt_tt:0 "§ISpecial Effect:§!\n- Per §Y100§! $job_patrol_drone_plural$: §G+$@voidark_infiltration_alpha_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$, §G+$@voidark_infiltration_alpha_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$, and §G+$@voidark_infiltration_alpha_per_100|%1$§! $mod_colony_ideological_reach_mult$"
 
+ zone_voidark_alpha_vivarium:0 "§B$concept_alpha_tier$ $zone_xhk_worldark_vivarium$§!"
+ zone_voidark_alpha_vivarium_desc:0 "$zone_xhk_worldark_vivarium_desc$"
+ 
  #DISTRICTS ------------------------------------------------------------------
  district_voidark_alpha_city:0 "§B$concept_alpha_tier$ $district_xhk_worldark_city$§!"
  district_voidark_alpha_city_desc:0 "$district_ark_city_desc$"
