@@ -321,3 +321,130 @@ xhk_worldark_has_cloning_assembly_facilities = {
     has_building = building_phanon_clone_vats
     has_building = building_stellarite_clone_vats
 }
+
+#COMPAT ZONE TRIGGERS
+
+xhk_is_infiltration_zone = {
+    OR = {
+        has_zone = { zone = zone_xhk_worldark_infiltration }
+        has_zone = { zone = zone_voidark_delta_infiltration }
+        has_zone = { zone = zone_voidark_alpha_infiltration }
+        has_zone = { zone = zone_voidark_phanon_infiltration }
+        has_zone = { zone = zone_voidark_stellarite_infiltration }
+    }
+}
+
+xhk_is_infiltration_zone_gestalt = {
+    OR = {
+        has_zone = { zone = zone_xhk_worldark_infiltration_gestalt }
+        has_zone = { zone = zone_voidark_delta_infiltration_gestalt }
+        has_zone = { zone = zone_voidark_alpha_infiltration_gestalt }
+        has_zone = { zone = zone_voidark_phanon_infiltration_gestalt }
+        has_zone = { zone = zone_voidark_stellarite_infiltration_gestalt }
+    }
+}
+
+xhk_is_propaganda_zone = {
+    OR = {
+        has_zone = { zone = zone_xhk_worldark_propaganda }
+        has_zone = { zone = zone_voidark_delta_propaganda }
+        has_zone = { zone = zone_voidark_alpha_propaganda }
+        has_zone = { zone = zone_voidark_phanon_propaganda }
+        has_zone = { zone = zone_voidark_stellarite_propaganda }
+    }
+}
+
+xhk_is_propaganda_zone_gestalt = {
+    OR = {
+        has_zone = { zone = zone_xhk_worldark_propaganda_gestalt }
+        has_zone = { zone = zone_voidark_delta_propaganda_gestalt }
+        has_zone = { zone = zone_voidark_alpha_propaganda_gestalt }
+        has_zone = { zone = zone_voidark_phanon_propaganda_gestalt }
+        has_zone = { zone = zone_voidark_stellarite_propaganda_gestalt }
+    }
+}
+
+xhk_is_infiltration_propaganda_zone = {
+    OR = {
+        has_zone = { zone = zone_xhk_worldark_infiltration_propaganda }
+        has_zone = { zone = zone_voidark_delta_infiltration_propaganda }
+        has_zone = { zone = zone_voidark_alpha_infiltration_propaganda }
+        has_zone = { zone = zone_voidark_phanon_infiltration_propaganda }
+        has_zone = { zone = zone_voidark_stellarite_infiltration_propaganda }
+    }
+}
+
+xhk_is_infiltration_propaganda_zone_gestalt = {
+    OR = {
+        has_zone = { zone = zone_xhk_worldark_infiltration_propaganda_gestalt }
+        has_zone = { zone = zone_voidark_delta_infiltration_propaganda_gestalt }
+        has_zone = { zone = zone_voidark_alpha_infiltration_propaganda_gestalt }
+        has_zone = { zone = zone_voidark_phanon_infiltration_propaganda_gestalt }
+        has_zone = { zone = zone_voidark_stellarite_infiltration_propaganda_gestalt }
+    }
+}
+
+xhk_is_survey_zone = {
+    OR = {
+        has_zone = { zone = zone_xhk_worldark_survey }
+        has_zone = { zone = zone_voidark_delta_survey }
+        has_zone = { zone = zone_voidark_alpha_survey }
+        has_zone = { zone = zone_voidark_phanon_survey }
+        has_zone = { zone = zone_voidark_stellarite_survey }
+        has_zone = { zone = zone_xhk_worldark_survey_decompressor }
+        has_zone = { zone = zone_voidark_delta_survey_decompressor }
+        has_zone = { zone = zone_voidark_alpha_survey_decompressor }
+        has_zone = { zone = zone_voidark_phanon_survey_decompressor }
+        has_zone = { zone = zone_voidark_stellarite_survey_decompressor }
+    }
+}
+
+xhk_is_vivarium_zone = {
+    OR = {
+        has_zone = { zone = zone_xhk_worldark_vivarium }
+        has_zone = { zone = zone_voidark_delta_vivarium }
+        has_zone = { zone = zone_voidark_alpha_vivarium }
+        has_zone = { zone = zone_voidark_phanon_vivarium }
+        has_zone = { zone = zone_voidark_stellarite_vivarium }
+    }
+}
+
+xhk_is_museum_zone = {
+    OR = {
+        has_zone = { zone = zone_xhk_worldark_museum }
+        has_zone = { zone = zone_voidark_delta_museum }
+        has_zone = { zone = zone_voidark_alpha_museum }
+        has_zone = { zone = zone_voidark_phanon_museum }
+        has_zone = { zone = zone_voidark_stellarite_museum }
+    }
+}
+
+xhk_is_museum_zone_dystopian = {
+    OR = {
+        has_zone = { zone = zone_xhk_worldark_museum_dystopian }
+        has_zone = { zone = zone_voidark_delta_museum_dystopian }
+        has_zone = { zone = zone_voidark_alpha_museum_dystopian }
+        has_zone = { zone = zone_voidark_phanon_museum_dystopian }
+        has_zone = { zone = zone_voidark_stellarite_museum_dystopian }
+    }
+}
+
+xhk_is_museum_zone_gestalt = {
+    OR = {
+        has_zone = { zone = zone_xhk_worldark_museum_gestalt }
+        has_zone = { zone = zone_voidark_delta_museum_gestalt }
+        has_zone = { zone = zone_voidark_alpha_museum_gestalt }
+        has_zone = { zone = zone_voidark_phanon_museum_gestalt }
+        has_zone = { zone = zone_voidark_stellarite_museum_gestalt }
+    }
+}
+
+xhk_is_museum_zone_servitor = {
+    OR = {
+        has_zone = { zone = zone_xhk_worldark_museum_servitor }
+        has_zone = { zone = zone_voidark_delta_museum_servitor }
+        has_zone = { zone = zone_voidark_alpha_museum_servitor }
+        has_zone = { zone = zone_voidark_phanon_museum_servitor }
+        has_zone = { zone = zone_voidark_stellarite_museum_servitor }
+    }
+}
