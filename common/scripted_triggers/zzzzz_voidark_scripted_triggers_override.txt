@@ -324,7 +324,7 @@ xhk_worldark_has_cloning_assembly_facilities = {
 
 #COMPAT ZONE TRIGGERS
 
-xhk_is_infiltration_zone = {
+xhk_worldark_is_infiltration_zone = {
     OR = {
         has_zone = { zone = zone_xhk_worldark_infiltration }
         has_zone = { zone = zone_voidark_delta_infiltration }
@@ -334,7 +334,7 @@ xhk_is_infiltration_zone = {
     }
 }
 
-xhk_is_infiltration_zone_gestalt = {
+xhk_worldark_is_infiltration_zone_gestalt = {
     OR = {
         has_zone = { zone = zone_xhk_worldark_infiltration_gestalt }
         has_zone = { zone = zone_voidark_delta_infiltration_gestalt }
@@ -344,7 +344,7 @@ xhk_is_infiltration_zone_gestalt = {
     }
 }
 
-xhk_is_propaganda_zone = {
+xhk_worldark_is_propaganda_zone = {
     OR = {
         has_zone = { zone = zone_xhk_worldark_propaganda }
         has_zone = { zone = zone_voidark_delta_propaganda }
@@ -354,7 +354,7 @@ xhk_is_propaganda_zone = {
     }
 }
 
-xhk_is_propaganda_zone_gestalt = {
+xhk_worldark_is_propaganda_zone_gestalt = {
     OR = {
         has_zone = { zone = zone_xhk_worldark_propaganda_gestalt }
         has_zone = { zone = zone_voidark_delta_propaganda_gestalt }
@@ -364,7 +364,7 @@ xhk_is_propaganda_zone_gestalt = {
     }
 }
 
-xhk_is_infiltration_propaganda_zone = {
+xhk_worldark_is_infiltration_propaganda_zone = {
     OR = {
         has_zone = { zone = zone_xhk_worldark_infiltration_propaganda }
         has_zone = { zone = zone_voidark_delta_infiltration_propaganda }
@@ -374,7 +374,7 @@ xhk_is_infiltration_propaganda_zone = {
     }
 }
 
-xhk_is_infiltration_propaganda_zone_gestalt = {
+xhk_worldark_is_infiltration_propaganda_zone_gestalt = {
     OR = {
         has_zone = { zone = zone_xhk_worldark_infiltration_propaganda_gestalt }
         has_zone = { zone = zone_voidark_delta_infiltration_propaganda_gestalt }
@@ -384,7 +384,7 @@ xhk_is_infiltration_propaganda_zone_gestalt = {
     }
 }
 
-xhk_is_survey_zone = {
+xhk_worldark_is_survey_zone = {
     OR = {
         has_zone = { zone = zone_xhk_worldark_survey }
         has_zone = { zone = zone_voidark_delta_survey }
@@ -399,7 +399,7 @@ xhk_is_survey_zone = {
     }
 }
 
-xhk_is_vivarium_zone = {
+xhk_worldark_is_vivarium_zone = {
     OR = {
         has_zone = { zone = zone_xhk_worldark_vivarium }
         has_zone = { zone = zone_voidark_delta_vivarium }
@@ -409,7 +409,7 @@ xhk_is_vivarium_zone = {
     }
 }
 
-xhk_is_museum_zone = {
+xhk_worldark_is_museum_zone = {
     OR = {
         has_zone = { zone = zone_xhk_worldark_museum }
         has_zone = { zone = zone_voidark_delta_museum }
@@ -419,7 +419,7 @@ xhk_is_museum_zone = {
     }
 }
 
-xhk_is_museum_zone_dystopian = {
+xhk_worldark_is_museum_zone_dystopian = {
     OR = {
         has_zone = { zone = zone_xhk_worldark_museum_dystopian }
         has_zone = { zone = zone_voidark_delta_museum_dystopian }
@@ -429,7 +429,7 @@ xhk_is_museum_zone_dystopian = {
     }
 }
 
-xhk_is_museum_zone_gestalt = {
+xhk_worldark_is_museum_zone_gestalt = {
     OR = {
         has_zone = { zone = zone_xhk_worldark_museum_gestalt }
         has_zone = { zone = zone_voidark_delta_museum_machine }
@@ -443,7 +443,7 @@ xhk_is_museum_zone_gestalt = {
     }
 }
 
-xhk_is_museum_zone_servitor = {
+xhk_worldark_is_museum_zone_servitor = {
     OR = {
         has_zone = { zone = zone_xhk_worldark_museum_servitor }
         has_zone = { zone = zone_voidark_delta_museum_servitor }
