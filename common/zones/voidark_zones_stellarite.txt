@@ -163,6 +163,142 @@ zone_voidark_stellarite_factory = {
     ai_priority = 15
 }
 
+
+zone_voidark_stellarite_infiltration = {
+    icon = GFX_district_specialization_voidark_stellarite_infiltration
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = stellarite
+
+        POTENTIAL = "owner? = { has_technology = tech_decryption_2 }"
+        TECHNOLOGY = "tech_voidark_stellarite"
+    }
+
+    included_building_sets = {
+        factory
+        origin
+        urban_automation
+    }
+
+    #ACOT ADD
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = stellarite_artisan
+        GESTALT_JOB = stellarite_artisan_drone
+        AMOUNT = 50
+    }
+
+    #NORMAL REMOVE
+    inline_script = {
+        script = jobs/zone_factory_add
+        AMOUNT = -50
+    }
+
+
+    inline_script = {
+        script = voidark/zones/infiltration_triggered_modifiers
+        TIER = stellarite
+    }
+
+    swap_type = district_voidark_stellarite_factory
+    swap_type_weight = 5
+
+    zone_sets = { xhk_worldark_factory }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
+
+zone_voidark_stellarite_propaganda = {
+    icon = GFX_district_specialization_voidark_stellarite_ordinance_naval
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = stellarite
+
+        POTENTIAL = "owner? = { has_technology = tech_galactic_halls }"
+        TECHNOLOGY = "tech_voidark_stellarite"
+    }
+
+    included_building_sets = {
+        factory
+        origin
+        urban_automation
+        unity
+    }
+
+    #ACOT ADD
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = stellarite_artisan
+        GESTALT_JOB = stellarite_artisan_drone
+        AMOUNT = 50
+    }
+
+    #NORMAL REMOVE
+    inline_script = {
+        script = jobs/zone_factory_add
+        AMOUNT = -50
+    }
+
+    inline_script = {
+        script = voidark/zones/propaganda_triggered_modifiers
+        TIER = stellarite
+    }
+
+    swap_type = district_voidark_stellarite_factory
+    swap_type_weight = 5
+    zone_sets = {
+        xhk_worldark_factory
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+
+zone_voidark_stellarite_infiltration_propaganda = {
+    icon = GFX_district_specialization_voidark_stellarite_infiltration_propaganda
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = stellarite
+        POTENTIAL = "
+            owner? = {
+				has_technology = tech_decryption_2
+				has_technology = tech_galactic_halls
+			}
+		"
+        TECHNOLOGY = "tech_voidark_stellarite"
+    }
+
+    included_building_sets = {
+        factory
+        origin
+        urban_automation
+        unity
+    }
+
+    inline_script = {
+        script = voidark/zones/propaganda_infiltration_triggered_modifiers
+        TIER = stellarite
+    }
+
+    swap_type = district_voidark_stellarite_factory
+    swap_type_weight = 5
+    zone_sets = {
+        xhk_worldark_factory
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+
 # Foundry
 
 zone_voidark_stellarite_foundry = {
@@ -200,81 +336,6 @@ zone_voidark_stellarite_foundry = {
     swap_type_weight = 5
 
     zone_sets = { xhk_worldark_foundry }
-    ai_weight_coefficient = 0.5
-    ai_priority = 15
-}
-
-zone_voidark_stellarite_forgery = {
-    icon = GFX_district_specialization_voidark_stellarite_forgery
-    inline_script = {
-        script = voidark/zones/parts/basics_zones
-        NUM_BUILDINGS = 3
-        ZONE_BUILDINGS_TYPE = small
-        UNLOCK = ""
-        TIER = stellarite
-
-        POTENTIAL = "owner? = { has_technology = tech_decryption_2 }"
-        TECHNOLOGY = "tech_voidark_stellarite"
-    }
-
-    included_building_sets = {
-        factory
-        origin
-        urban_automation
-    }
-
-    #ACOT ADD
-    inline_script = {
-        script = voidark/jobs/jobs_add/voidark_jobs_add
-        JOB = stellarite_artisan
-        GESTALT_JOB = stellarite_artisan_drone
-        AMOUNT = 50
-    }
-
-    #NORMAL REMOVE
-    inline_script = {
-        script = jobs/zone_factory_add
-        AMOUNT = -50
-    }
-
-    triggered_country_modifier = {
-        potential = {
-            always = yes
-        }
-        spy_network_daily_value_mult = 5
-        espionage_operation_speed_mult = 5
-        mult = value:xhk_worldark_forgery_infiltration
-    }
-
-    # Non-catalytic empires pay the extra factory upkeep in minerals
-    triggered_planet_modifier = {
-        potential = {
-            industrial_jobs_are_catalytic_trigger = no
-        }
-        modifier = {
-            planet_artisans_minerals_upkeep_add = 6
-        }
-    }
-    # Catalytic Processing empires pay it in food instead, at the same 1.5x ratio the base job uses when swapping minerals for food
-    triggered_planet_modifier = {
-        potential = {
-            industrial_jobs_are_catalytic_trigger = yes
-        }
-        modifier = {
-            planet_artisans_food_upkeep_add = 8
-        }
-    }
-
-    triggered_desc = {
-        trigger = { always = yes }
-        text = zone_voidark_stellarite_forgery_tt
-    }
-
-
-    swap_type = district_voidark_stellarite_factory
-    swap_type_weight = 5
-
-    zone_sets = { xhk_worldark_factory }
     ai_weight_coefficient = 0.5
     ai_priority = 15
 }
@@ -458,6 +519,14 @@ zone_voidark_stellarite_generator = {
         fallen_empire_generator
     }
 
+    triggered_buildings = {
+        trigger = {
+            owner? = { has_active_tenet = tenet_autonomy }
+        }
+        included_building_sets = {
+            research
+        }
+    }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
@@ -500,6 +569,15 @@ zone_voidark_stellarite_penrose = {
         generator
         generator_automation
         fallen_empire_generator
+    }
+
+    triggered_buildings = {
+        trigger = {
+            owner? = { has_active_tenet = tenet_autonomy }
+        }
+        included_building_sets = {
+            research
+        }
     }
 
 
@@ -558,6 +636,14 @@ zone_voidark_stellarite_generator_speed = {
         fallen_empire_generator
     }
 
+    triggered_buildings = {
+        trigger = {
+            owner? = { has_active_tenet = tenet_autonomy }
+        }
+        included_building_sets = {
+            research
+        }
+    }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
@@ -606,6 +692,14 @@ zone_voidark_stellarite_penrose_speed = {
         TECHNOLOGY = "tech_voidark_stellarite"
     }
 
+    triggered_buildings = {
+        trigger = {
+            owner? = { has_active_tenet = tenet_autonomy }
+        }
+        included_building_sets = {
+            research
+        }
+    }
 
     included_building_sets = {
         generator
@@ -664,6 +758,15 @@ zone_voidark_stellarite_generator_shield = {
         fallen_empire_generator
     }
 
+    triggered_buildings = {
+        trigger = {
+            owner? = { has_active_tenet = tenet_autonomy }
+        }
+        included_building_sets = {
+            research
+        }
+    }
+
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = stellarite_energyman
@@ -715,7 +818,14 @@ zone_voidark_stellarite_penrose_shield = {
         fallen_empire_generator
     }
 
-
+    triggered_buildings = {
+        trigger = {
+            owner? = { has_active_tenet = tenet_autonomy }
+        }
+        included_building_sets = {
+            research
+        }
+    }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
@@ -769,6 +879,14 @@ zone_voidark_stellarite_mining = {
         mining_automation
     }
 
+    triggered_buildings = {
+        trigger = {
+            owner? = { has_active_tenet = tenet_autonomy }
+        }
+        included_building_sets = {
+            research
+        }
+    }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
@@ -817,6 +935,14 @@ zone_voidark_stellarite_decompressor = {
         mining_automation
     }
 
+    triggered_buildings = {
+        trigger = {
+            owner? = { has_active_tenet = tenet_autonomy }
+        }
+        included_building_sets = {
+            research
+        }
+    }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
@@ -940,6 +1066,14 @@ zone_voidark_stellarite_farming = {
         hydroponics
     }
 
+    triggered_buildings = {
+        trigger = {
+            owner? = { has_active_tenet = tenet_autonomy }
+        }
+        included_building_sets = {
+            research
+        }
+    }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
@@ -1394,12 +1528,159 @@ zone_voidark_stellarite_enforcer = {
         script = voidark/jobs/jobs_add/voidark_jobs_add
         JOB = stellarite_enforcer
         GESTALT_JOB = stellarite_enforcer_drone
-        AMOUNT = @[scaling_district_1_job*2]
+        AMOUNT = 100
     }
 
     inline_script = {
         script = voidark/jobs/jobs_add/voidark_enforcer_job_reduce
-        AMOUNT = -200
+        AMOUNT = -100
+    }
+
+    swap_type = district_voidark_stellarite_enforcer
+    swap_type_weight = 5
+
+    zone_sets = { xhk_worldark_enforcer }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
+
+zone_voidark_stellarite_infiltration_gestalt = {
+    icon = GFX_district_specialization_voidark_stellarite_infiltration
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = stellarite
+
+        POTENTIAL = "
+            owner? = {
+				has_technology = tech_decryption_2
+				xhk_worldark_can_have_factory_district = no
+			}
+		"
+        TECHNOLOGY = "tech_voidark_stellarite"
+    }
+
+    included_building_sets = {
+        government
+    }
+    included_buildings = {
+        building_fe_security_1
+        building_fe_security_2
+        #todo check once AOT adds enforcer buildings
+    }
+
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = stellarite_enforcer
+        GESTALT_JOB = stellarite_enforcer_drone
+        AMOUNT = 50
+    }
+
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_enforcer_job_reduce
+        AMOUNT = -50
+    }
+
+    inline_script = {
+        script = voidark/zones/infiltration_gestalt_triggered_modifiers
+        TIER = stellarite
+    }
+
+    swap_type = district_voidark_stellarite_enforcer
+    swap_type_weight = 5
+
+    zone_sets = { xhk_worldark_enforcer }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
+
+zone_voidark_stellarite_propaganda_gestalt = {
+    icon = GFX_district_specialization_voidark_stellarite_ordinance_naval
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = stellarite
+
+        POTENTIAL = "
+            owner? = {
+				has_technology = tech_galactic_halls
+				xhk_worldark_can_have_factory_district = no
+			}
+		"
+        TECHNOLOGY = "tech_voidark_stellarite"
+    }
+
+    included_building_sets = {
+        government
+        unity
+    }
+    included_buildings = {
+        building_fe_security_1
+        building_fe_security_2
+        #todo check once AOT adds enforcer buildings
+    }
+
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = stellarite_enforcer
+        GESTALT_JOB = stellarite_enforcer_drone
+        AMOUNT = 50
+    }
+
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_enforcer_job_reduce
+        AMOUNT = -50
+    }
+
+    inline_script = {
+        script = voidark/zones/propaganda_gestalt_triggered_modifiers
+        TIER = stellarite
+    }
+
+    swap_type = district_voidark_stellarite_enforcer
+    swap_type_weight = 5
+
+    zone_sets = { xhk_worldark_enforcer }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
+
+zone_voidark_stellarite_infiltration_propaganda_gestalt = {
+    icon = GFX_district_specialization_voidark_stellarite_infiltration_propaganda
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = stellarite
+
+        POTENTIAL = "
+            owner? = {
+                has_technology = tech_decryption_2
+				has_technology = tech_galactic_halls
+				xhk_worldark_can_have_factory_district = no
+			}
+		"
+        TECHNOLOGY = "tech_voidark_stellarite"
+    }
+
+    included_building_sets = {
+        government
+        unity
+    }
+    included_buildings = {
+        building_fe_security_1
+        building_fe_security_2
+        #todo check once AOT adds enforcer buildings
+    }
+
+    inline_script = {
+        script = voidark/zones/propaganda_infiltration_gestalt_triggered_modifiers
+        TIER = stellarite
     }
 
     swap_type = district_voidark_stellarite_enforcer

@@ -345,13 +345,13 @@ has_voidark_survey_zone = {
 }
 
 
-has_base_forgery_zone = {
+has_base_infiltration_zone = {
     has_zone = {
-        zone = zone_xhk_worldark_forgery
+        zone = zone_xhk_worldark_infiltration
     }
 }
 
-has_base_infiltration_zone = {
+has_base_infiltration_gestalt_zone = {
     has_zone = {
         zone = zone_xhk_worldark_infiltration
     }
@@ -363,11 +363,12 @@ has_voidark_infiltration_zone = {
     }
 }
 
-has_voidark_forgery_zone = {
+has_voidark_infiltration_gestalt_zone = {
     has_zone = {
-        zone = zone_voidark_$TIER$_forgery
+        zone = zone_voidark_$TIER$_infiltration_gestalt
     }
 }
+
 
 has_base_museum_zone = {
     OR = {

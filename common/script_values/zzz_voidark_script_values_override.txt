@@ -85,24 +85,24 @@ xhk_worldark_infiltration = {
     add = value:count_owned_job_workforce|JOB|stellarite_artisan|
     add = value:count_owned_job_workforce|JOB|stellarite_artisan_drone|
     modifier = {
-        has_base_forgery_zone = yes
-        mult = @xhk_worldark_forgery_infiltration_per_100
+        has_base_infiltration_zone = yes
+        mult = @xhk_worldark_infiltration_per_100
     }
     modifier = {
-        has_voidark_forgery_zone = { TIER = delta }
-        mult = @[xhk_worldark_forgery_infiltration_per_100*2]
+        has_voidark_infiltration_zone = { TIER = delta }
+        mult = @[xhk_worldark_infiltration_per_100*2]
     }
     modifier = {
-        has_voidark_forgery_zone = { TIER = alpha }
-        mult = @[xhk_worldark_forgery_infiltration_per_100*3]
+        has_voidark_infiltration_zone= { TIER = alpha }
+        mult = @[xhk_worldark_infiltration_per_100*3]
     }
     modifier = {
-        has_voidark_forgery_zone = { TIER = phanon }
-        mult = @[xhk_worldark_forgery_infiltration_per_100*4]
+        has_voidark_infiltration_zone = { TIER = phanon }
+        mult = @[xhk_worldark_infiltration_per_100*4]
     }
     modifier = {
-        has_voidark_forgery_zone = { TIER = stellarite }
-        mult = @[xhk_worldark_forgery_infiltration_per_100*5]
+        has_voidark_infiltration_zone = { TIER = stellarite }
+        mult = @[xhk_worldark_infiltration_per_100*5]
     }
 }
 
@@ -115,24 +115,24 @@ xhk_worldark_infiltration_gestalt = {
     add = value:count_owned_job_workforce|JOB|phanon_enforcer_drone|
     add = value:count_owned_job_workforce|JOB|stellarite_enforcer_drone|
     modifier = {
-        has_base_forgery_zone = yes
-        mult = @xhk_worldark_forgery_infiltration_per_100
+        has_base_infiltration_gestalt_zone = yes
+        mult = @xhk_worldark_infiltration_per_100
     }
     modifier = {
-        has_voidark_infiltration_zone = { TIER = delta }
-        mult = @[xhk_worldark_forgery_infiltration_per_100*2]
+        has_voidark_infiltration_gestalt_zone = { TIER = delta }
+        mult = @[xhk_worldark_infiltration_per_100*2]
     }
     modifier = {
-        has_voidark_infiltration_zone = { TIER = alpha }
-        mult = @[xhk_worldark_forgery_infiltration_per_100*3]
+        has_voidark_infiltration_gestalt_zone = { TIER = alpha }
+        mult = @[xhk_worldark_infiltration_per_100*3]
     }
     modifier = {
-        has_voidark_infiltration_zone = { TIER = phanon }
-        mult = @[xhk_worldark_forgery_infiltration_per_100*4]
+        has_voidark_infiltration_gestalt_zone = { TIER = phanon }
+        mult = @[xhk_worldark_infiltration_per_100*4]
     }
     modifier = {
-        has_voidark_infiltration_zone = { TIER = stellarite }
-        mult = @[xhk_worldark_forgery_infiltration_per_100*5]
+        has_voidark_infiltration_gestalt_zone = { TIER = stellarite }
+        mult = @[xhk_worldark_infiltration_per_100*5]
     }
 }
 
@@ -236,19 +236,19 @@ xhk_worldark_vivarium_capacity_display = {
     }
     modifier = {
         has_voidark_vivarium_zone = { TIER = delta }
-        mult = @[@xhk_worldark_vivarium_capacity*2]
+        mult = @[xhk_worldark_vivarium_capacity*2]
     }
     modifier = {
         has_voidark_vivarium_zone = { TIER = alpha }
-        mult = @[@xhk_worldark_vivarium_capacity*3]
+        mult = @[xhk_worldark_vivarium_capacity*3]
     }
     modifier = {
         has_voidark_vivarium_zone = { TIER = phanon }
-        mult = @[@xhk_worldark_vivarium_capacity*4]
+        mult = @[xhk_worldark_vivarium_capacity*4]
     }
     modifier = {
         has_voidark_vivarium_zone = { TIER = stellarite }
-        mult = @[@xhk_worldark_vivarium_capacity*5]
+        mult = @[xhk_worldark_vivarium_capacity*5]
     }
 }
 
