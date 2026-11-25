@@ -45,6 +45,11 @@
 @voidark_museum_gestalt_phanon_per_100 = 0.0132
 @voidark_museum_gestalt_stellarite_per_100 = 0.0165
 
+@voidark_museum_servitor_delta_per_district = 0.04
+@voidark_museum_servitor_alpha_per_district = 0.08
+@voidark_museum_servitor_phanon_per_district = 0.12
+@voidark_museum_servitor_stellarite_per_district = 0.16
+
 @voidark_vivarium_delta_capacity = 60
 @voidark_vivarium_alpha_capacity = 90
 @voidark_vivarium_phanon_capacity = 120

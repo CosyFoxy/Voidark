@@ -1403,6 +1403,118 @@ zone_voidark_phanon_servitor = {
     ai_priority = 15
 }
 
+zone_voidark_phanon_museum_machine = {
+    icon = GFX_district_specialization_voidark_phanon_museum
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = phanon
+
+        POTENTIAL = "
+             owner? = {
+                is_gestalt = yes
+                is_hive_empire = no
+                NOT = { has_valid_civic = civic_machine_servitor }
+                has_technology = tech_galactic_archivism
+            }
+        "
+        TECHNOLOGY = "tech_voidark_phanon"
+    }
+
+    convert_to = {
+        zone_voidark_phanon_museum_hive
+        zone_voidark_phanon_museum_servitor
+    }
+
+    inline_script = {
+        script = voidark/zones/museum_gestalt_triggered_modifiers
+        TIER = phanon
+    }
+
+    swap_type = district_voidark_phanon_unity_machine
+    swap_type_weight = 5
+
+    zone_sets = { xhk_worldark_unity }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
+
+zone_voidark_phanon_museum_hive = {
+    icon = GFX_district_specialization_voidark_phanon_museum
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = phanon
+
+        POTENTIAL = "
+             owner? = {
+                is_gestalt = yes
+                is_hive_empire = yes
+                NOT = { has_valid_civic = civic_machine_servitor }
+                has_technology = tech_galactic_archivism
+            }
+        "
+        TECHNOLOGY = "tech_voidark_phanon"
+    }
+
+    convert_to = {
+        zone_voidark_phanon_museum_machine
+        zone_voidark_phanon_museum_servitor
+    }
+
+    inline_script = {
+        script = voidark/zones/museum_gestalt_triggered_modifiers
+        TIER = phanon
+    }
+
+    swap_type = district_voidark_phanon_unity_hive
+    swap_type_weight = 5
+
+    zone_sets = { xhk_worldark_unity }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
+
+zone_voidark_phanon_museum_servitor = {
+    icon = GFX_district_specialization_voidark_phanon_museum
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = phanon
+
+        POTENTIAL = "
+             owner? = {
+                has_valid_civic = civic_machine_servitor
+                has_technology = tech_galactic_archivism
+            }
+        "
+        TECHNOLOGY = "tech_voidark_phanon"
+    }
+
+    convert_to = {
+        zone_voidark_phanon_museum_hive
+        zone_voidark_phanon_museum_machine
+    }
+
+    inline_script = {
+        script = voidark/zones/museum_servitor_triggered_modifiers
+        TIER = phanon
+    }
+
+    swap_type = district_voidark_phanon_unity_servitor
+    swap_type_weight = 5
+
+    zone_sets = { xhk_worldark_unity }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
+
 # Research
 zone_voidark_phanon_research = {
     icon = GFX_district_specialization_voidark_phanon_research
@@ -1536,6 +1648,92 @@ zone_voidark_phanon_amenities_dystopian = {
     zone_sets = { xhk_worldark_amenities }
     ai_weight_coefficient = 0.5
     ai_priority = 15
+}
+
+zone_voidark_phanon_museum = {
+    icon = GFX_district_specialization_voidark_phanon_museum
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = phanon
+        POTENTIAL = "
+			owner? = { has_technology = tech_galactic_archivism }
+			owner? = { NOT = { has_valid_civic = civic_dystopian_society } }
+		"
+        TECHNOLOGY = "tech_voidark_phanon"
+    }
+    included_building_sets = {
+        resort
+        urban
+        medical
+        entertainment
+    }
+    inline_script = voidark/zones/amenity_buildings
+    inline_script = {
+        script = voidark/zones/museum_triggered_modifiers
+        TIER = phanon
+    }
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_jobs_add
+        JOB = phanon_entertainer
+        GESTALT_JOB = phanon_entertainter
+        AMOUNT = @scaling_district_1_job
+    }
+    zone_sets = {
+        xhk_worldark_amenities
+    }
+
+    swap_type = district_voidark_phanon_amenities_museum
+    swap_type_weight = 5
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 5
+}
+
+zone_voidark_phanon_museum_dystopian = {
+    icon = GFX_district_specialization_voidark_phanon_museum
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = phanon
+        POTENTIAL = "
+			owner? = { has_technology = tech_galactic_archivism }
+			owner? = { has_valid_civic = civic_dystopian_society }
+		"
+        TECHNOLOGY = "tech_voidark_phanon"
+    }
+    included_building_sets = {
+        resort
+        urban
+        medical
+        entertainment
+    }
+    inline_script = voidark/zones/amenity_buildings
+    inline_script = {
+        script = voidark/jobs/jobs_add/voidark_politician_jobs_add
+        JOB = phanon_overseer
+        GESTALT_JOB = phanon_overseer_droid
+        GESTALT_HIVE_JOB = phanon_overseer_drone
+        AMOUNT = 200
+    }
+    inline_script = {
+        script = voidark/zones/museum_dystopian_triggered_modifiers
+        TIER = phanon
+    }
+
+    zone_sets = {
+        xhk_worldark_amenities
+    }
+
+    swap_type = district_voidark_phanon_amenities_museum_dystopian
+    swap_type_weight = 5
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 5
 }
 
 # Enforcer

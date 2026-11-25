@@ -1,0 +1,36 @@
+included_building_sets = {
+    unity
+    urban_automation
+}
+included_buildings = {
+    galactic_history_holomuseum
+    aesthetic_wonders_holomuseum
+    xeno_geology_holomuseum
+}
+
+inline_script = {
+    script = jobs/zone_unity_jobs_add
+    AMOUNT = -100
+}
+
+triggered_country_modifier = {
+    potential = {
+        always = yes
+    }
+    specimens_produces_mult = 1
+    mult = value:xhk_worldark_museum_gestalt_specimen_bonus
+}
+
+triggered_planet_modifier = {
+    potential = {
+        always = yes
+    }
+    modifier = {
+        planet_bureaucrats_energy_upkeep_add = @[0.15*$TIER$_mult]
+    }
+}
+
+triggered_desc = {
+    trigger = { always = yes }
+    text = zone_voidark_$TIER$_museum_gestalt_tt
+}

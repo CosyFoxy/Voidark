@@ -1,0 +1,21 @@
+included_building_sets = {
+    unity
+    urban_automation
+}
+included_buildings = {
+    galactic_history_holomuseum
+    aesthetic_wonders_holomuseum
+    xeno_geology_holomuseum
+}
+
+inline_script = {
+    script = jobs/zone_unity_jobs_add
+    AMOUNT = -75
+}
+
+triggered_district_country_modifier = {
+    potential = {
+        always = yes
+    }
+    specimens_produces_mult = @[xhk_worldark_museum_servitor_specimen_per_district*$TIER$_mult]
+}

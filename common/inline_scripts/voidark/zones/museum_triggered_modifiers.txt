@@ -1,0 +1,27 @@
+# doubled
+inline_script = {
+    script = jobs/zone_entertainers_add
+    AMOUNT = -50
+}
+
+triggered_country_modifier = {
+    potential = {
+        always = yes
+    }
+    specimens_produces_mult = 1
+    mult = value:xhk_worldark_museum_specimen_bonus
+}
+
+triggered_planet_modifier = {
+    potential = {
+        always = yes
+    }
+    modifier = {
+        planet_entertainers_consumer_goods_upkeep_add = @[0.25*$TIER$_mult]
+    }
+}
+
+triggered_desc = {
+    trigger = { always = yes }
+    text = zone_voidark_$TIER$_museum_tt
+}
