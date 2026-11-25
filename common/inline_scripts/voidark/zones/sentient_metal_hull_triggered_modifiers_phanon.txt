@@ -1,0 +1,34 @@
+
+included_building_sets = {
+    ehof
+    giga_sentient_metal
+}
+
+planet_modifier = {
+    planet_cultivators_aot_sr_runic_power_upkeep_add = @[0.5*$TIER$_mult]
+    planet_cultivators_giga_sr_sentient_metal_produces_add = @[-2*$TIER$_mult]
+    ship_hull_from_cultivators = @giga_cultivator_hull_mult
+}
+
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_gestalt = no
+        }
+    }
+    modifier = {
+        job_ehof_cultivator_add = @[50*$TIER$_mult]
+    }
+}
+triggered_district_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_gestalt = yes
+        }
+    }
+    modifier = {
+        job_ehof_cultivation_drone_add = @[50*$TIER$_mult]
+    }
+}

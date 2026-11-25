@@ -190,7 +190,9 @@
  zone_voidark_phanon_museum_servitor:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_museum_servitor$§!"
  zone_voidark_phanon_museum_servitor_desc:0 "$zone_xhk_worldark_museum_servitor_desc$"
 
-
+ zone_voidark_phanon_sentient_metal_hull:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_sentientmetal_hull$§!"
+ zone_voidark_phanon_sentient_metal_hull_desc:0 "$zone_xhk_worldark_sentientmetal_hull_desc$"
+ 
  #DISTRICTS ------------------------------------------------------------------
  district_voidark_phanon_city:0 "§R$concept_phanon_tier$ $district_xhk_worldark_city$§!"
  district_voidark_phanon_city_desc:0 "$district_ark_city_desc$"

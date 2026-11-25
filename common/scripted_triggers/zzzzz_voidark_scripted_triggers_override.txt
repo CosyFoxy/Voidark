@@ -432,10 +432,14 @@ xhk_is_museum_zone_dystopian = {
 xhk_is_museum_zone_gestalt = {
     OR = {
         has_zone = { zone = zone_xhk_worldark_museum_gestalt }
-        has_zone = { zone = zone_voidark_delta_museum_gestalt }
-        has_zone = { zone = zone_voidark_alpha_museum_gestalt }
-        has_zone = { zone = zone_voidark_phanon_museum_gestalt }
-        has_zone = { zone = zone_voidark_stellarite_museum_gestalt }
+        has_zone = { zone = zone_voidark_delta_museum_machine }
+        has_zone = { zone = zone_voidark_alpha_museum_machine }
+        has_zone = { zone = zone_voidark_phanon_museum_machine }
+        has_zone = { zone = zone_voidark_stellarite_museum_machine }
+        has_zone = { zone = zone_voidark_delta_museum_hive }
+        has_zone = { zone = zone_voidark_alpha_museum_hive }
+        has_zone = { zone = zone_voidark_phanon_museum_hive }
+        has_zone = { zone = zone_voidark_stellarite_museum_hive }
     }
 }
 
@@ -446,5 +450,17 @@ xhk_is_museum_zone_servitor = {
         has_zone = { zone = zone_voidark_alpha_museum_servitor }
         has_zone = { zone = zone_voidark_phanon_museum_servitor }
         has_zone = { zone = zone_voidark_stellarite_museum_servitor }
+    }
+}
+
+giga_cultivator_hull_buff_trigger = {
+    colony? = {
+        OR = {
+            has_zone = { zone = zone_xhk_worldark_sentientmetal_hull }
+            has_zone = { zone = zone_voidark_delta_sentient_metal_hull }
+            has_zone = { zone = zone_voidark_alpha_sentient_metal_hull }
+            has_zone = { zone = zone_voidark_phanon_sentient_metal_hull }
+            has_zone = { zone = zone_voidark_stellarite_sentient_metal_hull }
+        }
     }
 }

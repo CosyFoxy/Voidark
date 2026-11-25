@@ -2121,41 +2121,34 @@ zone_voidark_alpha_sentient_metal = {
         POTENTIAL = ""
         TECHNOLOGY = "tech_voidark_alpha"
     }
-    included_buildings = {
-        building_ehof_sm_forge_1
-        building_ehof_sm_forge_2
-    }
-    included_building_sets = {
-        ehof
+
+    inline_script = {
+        script = voidark/zones/sentient_metal_triggered_modifiers_delta_alpha
+        TIER = alpha
     }
 
-    planet_modifier = {
-        planet_cultivators_acot_sr_dark_energy_upkeep_add = 2
-        planet_cultivators_sr_dark_matter_upkeep_add = 2
-        planet_cultivators_produces_mult = 0.3
-    }
+    swap_type = district_voidark_alpha_sentient_metal
+    swap_type_weight = 5
 
-    triggered_district_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_gestalt = no
-            }
-        }
-        modifier = {
-            job_ehof_cultivator_add = 100
-        }
+    zone_sets = { xhk_worldark_sentientmetal }
+    ai_weight_coefficient = 0.5
+    ai_priority = 15
+}
+
+zone_voidark_alpha_sentient_metal_hull = {
+    icon = GFX_district_specialization_voidark_alpha_utilbay
+    inline_script = {
+        script = voidark/zones/parts/basics_zones
+        NUM_BUILDINGS = 3
+        ZONE_BUILDINGS_TYPE = small
+        UNLOCK = ""
+        TIER = alpha
+        POTENTIAL = ""
+        TECHNOLOGY = "tech_voidark_alpha"
     }
-    triggered_district_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_gestalt = yes
-            }
-        }
-        modifier = {
-            job_ehof_cultivation_drone_add = 100
-        }
+    inline_script = {
+        script = voidark/zones/sentient_metal_hull_triggered_modifiers_delta_alpha
+        TIER = alpha
     }
 
     swap_type = district_voidark_alpha_sentient_metal
