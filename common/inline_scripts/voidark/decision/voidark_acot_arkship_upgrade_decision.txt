@@ -1,0 +1,46 @@
+voidark_acot_arkship_$TYPE$_upgrade = {
+    owned_planets_only = yes
+    important = yes
+
+    enactment_time = 360
+
+    prerequisites = {
+        tech_acot_arkship_delta
+    }
+
+    show_tech_unlock_if = {
+        owner = { xhk_has_worldark_origin = yes }
+    }
+
+    resources = {
+        category = decisions
+        cost = {
+            sr_dark_matter = 2500
+            acot_sr_dark_energy = 2500
+            alloys = 5000
+            influence = 250
+        }
+    }
+
+    potential = {
+        exists = owner
+        owner = {
+            xhk_has_worldark_origin = yes
+            has_technology = tech_acot_arkship_delta
+        }
+        is_planet_class = xhk_pc_worldark
+        check_variable = { which = xhk_worldark_$TYPE$_upgrade_level value = 3 }
+    }
+
+    effect = {
+        custom_tooltip = voidark_acot_arkship_$TYPE$_tt4
+
+        hidden_effect = {
+            set_variable = { which = xhk_worldark_$TYPE$_upgrade_level value = 4 }
+        }
+    }
+
+    ai_weight = {
+        weight = 1
+    }
+}

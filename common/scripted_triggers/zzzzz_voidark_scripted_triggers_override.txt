@@ -464,3 +464,4 @@ giga_cultivator_hull_buff_trigger = {
         }
     }
 }
+#EOF

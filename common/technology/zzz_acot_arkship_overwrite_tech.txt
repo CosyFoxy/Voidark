@@ -1,0 +1,55 @@
+tech_acot_arkship_construction_delta = {
+    area = engineering
+    category = { voidcraft }
+    cost = @acot_tier6cost3
+    tier = 6
+    weight = @acot_techweight_advanced
+    ai_update_type = military
+    prerequisites = { "tech_acot_arkship_delta" }
+    is_rare = yes
+    is_reverse_engineerable = no
+
+    modifier = {
+        #description = tech_acot_pleb_ships_delta_short
+    }
+
+    prereqfor_desc = {
+        ship = {
+            title = "TECH_UNLOCK_DELTA_ARKSHIP_TITLE"
+            desc = "TECH_UNLOCK_DELTA_ARKSHIP_TITLE_DESC"
+        }
+    }
+
+    potential = {
+        is_nomadic = yes
+        any_owned_design = {
+            OR = {
+                is_ship_size = acot_civilian_arkship_tier_4
+                is_ship_size = acot_science_arkship_tier_4
+                is_ship_size = acot_military_arkship_tier_4
+            }
+        }
+        NOR = {
+            has_global_flag = acot_shipcom_forbidden
+            has_global_flag = acot_delta_forbidden
+        }
+
+        ##OVERRIDE
+        xhk_has_worldark_origin = no
+        ##OVERRIDE END
+    }
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_tradition = tr_discovery_adopt
+        }
+        modifier = {
+            factor = 2.00
+            num_researched_techs_of_tier = {
+                value = 6
+                tier = 6
+            }
+        }
+    }
+}
