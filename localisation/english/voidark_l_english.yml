@@ -20,3 +20,11 @@
  VOIDARK_PHANON_VAULT_INTEGRATION_DESC:0 "This project will allow us to integrate the $pc_acot_pmc_vault$ into our $xhk_pc_worldark$."
  VOIDARK_PHANON_RESOURCE_PLANET_INTEGRATION:0 "Integration of [planet.GetClassName] [planet.GetName]"
  VOIDARK_PHANON_RESOURCE_PLANET_INTEGRATION_DESC:0 "We will integrated the resource producing orbitals in the Droppoint system into our $xhk_pc_worldark$!"
+
+ ##########################################################
+ #Flusion
+ ##########################################################
+
+ voidark_zone_flusion_tt:0 "£anomaly£ §HIntegration of Flusion's secrets have improved this zone's design.§!"
+ flavor_district_voidark_city_flusion_desc:0 "Deck housing rebuilt based on analysis of Flusion, packing far more living space into the same space. Further analysis of Flusion's arcology design allowed for vast improvements to our habitational sections."
+ flavor_district_voidark_mindlink_flusion_desc:0 "Deck housing rebuilt based on analysis of Flusion, packing far more living space into the same space. Further analysis of Flusion's arcology design allowed for vast improvements to our habitational sections."

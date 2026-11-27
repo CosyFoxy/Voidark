@@ -1,0 +1,20 @@
+triggered_country_modifier = {
+    potential = {
+        always = yes
+    }
+    colony_ideological_reach_mult = 1
+    mult = value:xhk_worldark_infiltration_gestalt
+}
+triggered_planet_modifier = {
+    potential = {
+        always = yes
+    }
+    modifier = {
+        planet_jobs_patrol_drone_energy_upkeep_add = @[0.5*$TIER$_mult]
+    }
+}
+
+triggered_desc = {
+    trigger = { always = yes }
+    text = zone_voidark_$TIER$_propaganda_gestalt_tt
+}

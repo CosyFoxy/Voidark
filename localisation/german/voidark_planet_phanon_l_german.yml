@@ -145,9 +145,9 @@
   zone_voidark_phanon_survey_desc:99 "$zone_xhk_worldark_survey_desc$"
   zone_voidark_phanon_survey_tt:99 "§G+$@voidark_survey_phanon_per_100|%1$§! $MOD_SHIP_ANOMALY_RESEARCH_SPEED$ and §G+$@voidark_survey_phanon_per_100|%1$§! $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$ per §Y100§! [GetHarvester] jobs."
   
-  zone_voidark_phanon_forgery:99 "§R$concept_phanon_tier$ $zone_xhk_worldark_forgery$§!"
-  zone_voidark_phanon_forgery_desc:99 "$zone_xhk_worldark_forgery_desc$"
-  zone_voidark_phanon_forgery_tt:99 "§G+$@voidark_forgery_phanon_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@voidark_forgery_phanon_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$ per §Y100§! [GetArtisanPlural]."
+  zone_voidark_phanon_infiltration:99 "§R$concept_phanon_tier$ $zone_xhk_worldark_infiltration$§!"
+  zone_voidark_phanon_infiltration_desc:99 "$zone_xhk_worldark_infiltration_desc$"
+  zone_voidark_phanon_infiltration_tt:99 "§G+$@voidark_infiltration_phanon_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@voidark_infiltration_phanon_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$ per §Y100§! [GetArtisanPlural]."
   
   
   #DISTRICTS ------------------------------------------------------------------

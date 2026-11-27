@@ -412,6 +412,40 @@ district_voidark_phanon_amenities_dystopian = {
     }
 }
 
+## Museum
+district_voidark_phanon_museum = {
+    icon = district_voidark_phanon_museum
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_leisure
+        BACKGROUND = district_voidark_phanon_museum
+        OVERLAY_ICON = GFX_xhk_worldark_specimen_spec
+    }
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = museum
+    }
+}
+
+## Museum Dystopian
+district_voidark_phanon_museum_dystopian = {
+    icon = district_voidark_phanon_museum
+    inline_script = {
+        script = voidark/districts/parts/base_swap_districts
+        GRIDBOX = district_arcology_leisure
+        BACKGROUND = district_voidark_phanon_museum
+        OVERLAY_ICON = GFX_xhk_worldark_specimen_spec
+    }
+
+    shared_capacity_modifier = district_xhk_worldark_amenities_dystopian
+    inline_script = {
+        script = voidark/districts/flavor/voidark_single_flavor
+        TIER = phanon
+        TYPE = museum_dystopian
+    }
+}
+
 ## Enforcer
 district_voidark_phanon_enforcer = {
     icon = district_aot_arcology_civilian_industry_pe

@@ -485,7 +485,7 @@ voidark_module_epds_dm = {
             inline_script = voidark/modules/module_costs/module_cost_small_delta
         }
     }
-    component_set = ACOT_POINT_DEFENSE_DM
+    component_set = ACOT_POINT_DEFENSE_PD_DM
     custom_tooltip_with_modifiers = sm_voidark_module_epds_dm_tt
 }
 
@@ -505,7 +505,7 @@ voidark_module_kpds_dm = {
             inline_script = voidark/modules/module_costs/module_cost_small_delta
         }
     }
-    component_set = ACOT_FLAK_CANNON_DM
+    component_set = ACOT_FLAK_CANNON_PD_PD_DM
     custom_tooltip_with_modifiers = sm_voidark_module_kpds_dm_tt
 }
 

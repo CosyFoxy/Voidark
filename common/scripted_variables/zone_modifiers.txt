@@ -8,7 +8,6 @@
 @phanon_per_district_housing = 800
 @stellarite_per_district_housing = 1000
 
-
 #@[ arkship_zone_build_speed_from_shipwright * 2 * two_exp$EXPONENT$ ]
 @delta_ship_build_speed = 0.03
 @alpha_ship_build_speed = 0.06
@@ -21,12 +20,48 @@
 @phanon_weapons_bonus = 0.08
 @stellarite_weapons_bonus = 0.16
 
+@voidark_survey_speed_delta_per_100 = 0.02
+@voidark_survey_speed_alpha_per_100 = 0.03
+@voidark_survey_speed_phanon_per_100 = 0.04
+@voidark_survey_speed_stellarite_per_100 = 0.05
+
 @voidark_survey_delta_per_100 = 0.03
 @voidark_survey_alpha_per_100 = 0.04
 @voidark_survey_phanon_per_100 = 0.05
 @voidark_survey_stellarite_per_100 = 0.06
 
-@voidark_forgery_delta_per_100 = 0.02
-@voidark_forgery_alpha_per_100 = 0.03
-@voidark_forgery_phanon_per_100 = 0.04
-@voidark_forgery_stellarite_per_100 = 0.05
+@voidark_infiltration_delta_per_100 = 0.02
+@voidark_infiltration_alpha_per_100 = 0.03
+@voidark_infiltration_phanon_per_100 = 0.04
+@voidark_infiltration_stellarite_per_100 = 0.05
+
+@voidark_museum_delta_per_100 = 0.03
+@voidark_museum_alpha_per_100 = 0.045
+@voidark_museum_phanon_per_100 = 0.06
+@voidark_museum_stellarite_per_100 = 0.075
+
+@voidark_museum_dystopian_delta_per_district = 0.12
+@voidark_museum_dystopian_alpha_per_district = 0.2
+@voidark_museum_dystopian_phanon_per_district = 0.28
+@voidark_museum_dystopian_stellarite_per_district = 0.36
+
+@voidark_museum_gestalt_delta_per_100 = 0.0066
+@voidark_museum_gestalt_alpha_per_100 = 0.0099
+@voidark_museum_gestalt_phanon_per_100 = 0.0132
+@voidark_museum_gestalt_stellarite_per_100 = 0.0165
+
+@voidark_museum_servitor_delta_per_district = 0.04
+@voidark_museum_servitor_alpha_per_district = 0.08
+@voidark_museum_servitor_phanon_per_district = 0.12
+@voidark_museum_servitor_stellarite_per_district = 0.16
+
+@voidark_vivarium_delta_capacity = 60
+@voidark_vivarium_alpha_capacity = 90
+@voidark_vivarium_phanon_capacity = 120
+@voidark_vivarium_stellarite_capacity = 150
+
+@delta_mult = 2
+@alpha_mult = 3
+@phanon_mult = 4
+@stellarite_mult = 5
+#LOAD BEARING EOF

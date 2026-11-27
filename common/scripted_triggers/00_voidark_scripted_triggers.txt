@@ -345,14 +345,79 @@ has_voidark_survey_zone = {
 }
 
 
-has_base_forgery_zone = {
+has_base_infiltration_zone = {
     has_zone = {
-        zone = zone_xhk_worldark_forgery
+        zone = zone_xhk_worldark_infiltration
     }
 }
 
-has_voidark_forgery_zone = {
+has_base_infiltration_gestalt_zone = {
     has_zone = {
-        zone = zone_voidark_$TIER$_forgery
+        zone = zone_xhk_worldark_infiltration
+    }
+}
+
+has_voidark_infiltration_zone = {
+    has_zone = {
+        zone = zone_voidark_$TIER$_infiltration
+    }
+}
+
+has_voidark_infiltration_gestalt_zone = {
+    has_zone = {
+        zone = zone_voidark_$TIER$_infiltration_gestalt
+    }
+}
+
+
+has_base_museum_zone = {
+    OR = {
+        has_zone = {
+            zone = zone_xhk_worldark_museum
+        }
+        has_zone = {
+            zone = zone_xhk_worldark_museum_dystopian
+        }
+        has_zone = {
+            zone = zone_xhk_worldark_museum_gestalt
+        }
+    }
+}
+
+has_voidark_museum_zone = {
+    OR = {
+        has_zone = {
+            zone = zone_voidark_$TIER$_museum
+        }
+        has_zone = {
+            zone = zone_voidark_$TIER$_museum_dystopian
+        }
+        has_zone = {
+            zone = zone_voidark_$TIER$_museum_gestalt
+        }
+    }
+}
+
+has_base_vivarium_zone = {
+    has_zone = {
+        zone = zone_xhk_worldark_vivarium
+    }
+}
+
+has_voidark_vivarium_zone = {
+    has_zone = {
+        zone = zone_voidark_$TIER$_vivarium
+    }
+}
+
+has_base_storage_zone = {
+    has_zone = {
+        zone = zone_xhk_worldark_storage
+    }
+}
+
+has_voidark_deep_sleep_zone = {
+    has_zone = {
+        zone = zone_voidark_$TIER$_deep_sleep
     }
 }

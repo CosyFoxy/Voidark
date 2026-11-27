@@ -1,0 +1,44 @@
+
+triggered_district_planet_modifier = {
+    planet_housing_add = @$TIER$_per_district_housing_urban
+}
+
+triggered_district_planet_modifier = {
+    potential = {
+        has_carrier_flag = xhk_worldark_flusion_advanced_expansion
+    }
+    planet_housing_add = @[$TIER$_per_district_housing_urban*0.5]
+}
+# flusion integration stage 3
+triggered_planet_modifier = {
+    potential = {
+        has_carrier_flag = xhk_worldark_flusion_advanced_expansion
+        has_carrier_flag = xhk_worldark_flusion_expansion_upkeep
+    }
+    modifier = {
+        planet_jobs_upkeep_mult = -0.025
+    }
+}
+# flusion integration stage 4
+triggered_planet_modifier = {
+    potential = {
+        has_carrier_flag = xhk_worldark_flusion_advanced_expansion
+        has_carrier_flag = xhk_worldark_flusion_expansion_efficiency
+    }
+    modifier = {
+        planet_max_districts_mult = 0.025
+        bonus_automated_workforce_mult = 0.025
+    }
+}
+triggered_desc = {
+    trigger = {
+        has_carrier_flag = xhk_worldark_flusion_advanced_expansion
+    }
+    text = voidark_zone_flusion_tt
+}
+triggered_desc = {
+    trigger = {
+        always = yes
+    }
+    text = zone_urban_triggered_desc
+}

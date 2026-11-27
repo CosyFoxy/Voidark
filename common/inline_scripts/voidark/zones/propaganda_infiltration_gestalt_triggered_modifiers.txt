@@ -1,0 +1,24 @@
+triggered_country_modifier = {
+    potential = {
+        always = yes
+    }
+    spy_network_daily_value_mult = 1
+    espionage_operation_speed_mult = 1
+    colony_ideological_reach_mult = 1
+    mult = value:xhk_worldark_infiltration_gestalt
+}
+
+# both zones' patrol drone upkeep stacked
+triggered_planet_modifier = {
+    potential = {
+        always = yes
+    }
+    modifier = {
+        planet_jobs_patrol_drone_energy_upkeep_add = @[1*$TIER$_mult]
+    }
+}
+
+triggered_desc = {
+    trigger = { always = yes }
+    text = zone_voidark_$TIER$_infiltration_propaganda_gestalt_tt
+}

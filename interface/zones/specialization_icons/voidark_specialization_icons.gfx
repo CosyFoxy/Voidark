@@ -562,19 +562,67 @@ spriteTypes = {
         textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_deep_sleep.dds"
     }
     spriteType = {
-        name = GFX_district_specialization_voidark_delta_forgery
+        name = GFX_district_specialization_voidark_delta_infiltration
         textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_forgery.dds"
     }
     spriteType = {
-        name = GFX_district_specialization_voidark_alpha_forgery
+        name = GFX_district_specialization_voidark_alpha_infiltration
         textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_alpha_forgery.dds"
     }
     spriteType = {
-        name = GFX_district_specialization_voidark_phanon_forgery
+        name = GFX_district_specialization_voidark_phanon_infiltration
         textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_forgery.dds"
     }
     spriteType = {
-        name = GFX_district_specialization_voidark_stellarite_forgery
+        name = GFX_district_specialization_voidark_stellarite_infiltration
         textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_forgery.dds"
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_delta_infiltration_propaganda
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_infiltration_propaganda.dds"
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_alpha_infiltration_propaganda
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_alpha_infiltration_propaganda.dds"
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_phanon_infiltration_propaganda
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_infiltration_propaganda.dds"
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_stellarite_infiltration_propaganda
+        textureFile = "gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_infiltration_propaganda.dds"
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_delta_vivarium
+        textureFile = gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_vivarium.dds
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_alpha_vivarium
+        textureFile = gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_alpha_vivarium.dds
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_phanon_vivarium
+        textureFile = gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_vivarium.dds
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_stellarite_vivarium
+        textureFile = gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_vivarium.dds
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_delta_museum
+        textureFile = gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_delta_museum.dds
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_alpha_museum
+        textureFile = gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_alpha_museum.dds
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_phanon_museum
+        textureFile = gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_phanon_museum.dds
+    }
+    spriteType = {
+        name = GFX_district_specialization_voidark_stellarite_museum
+        textureFile = gfx/interface/icons/districts/district_specialization_icons/district_specialization_voidark_stellarite_museum.dds
     }
 }

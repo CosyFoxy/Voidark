@@ -71,184 +71,301 @@ xhk_worldark_level = {
     }
 }
 
-xhk_worldark_forgery_infiltration = {
+##### INFILTRATION
+xhk_worldark_infiltration = {
     base = 0
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = artisan
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = artisan_drone
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = acot_artisan
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = acot_artisan_drone
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = ae_artisan
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = ae_artisan_drone
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = phanon_artisan
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = phanon_artisan_drone
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = stellarite_artisan
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = stellarite_artisan_drone
-        }
-        mode = add
-    }
-    divide = 100
+    add = value:count_owned_job_workforce|JOB|artisan|
+    add = value:count_owned_job_workforce|JOB|artisan_drone|
+    add = value:count_owned_job_workforce|JOB|acot_artisan|
+    add = value:count_owned_job_workforce|JOB|acot_artisan_drone|
+    add = value:count_owned_job_workforce|JOB|ae_artisan|
+    add = value:count_owned_job_workforce|JOB|ae_artisan_drone|
+    add = value:count_owned_job_workforce|JOB|phanon_artisan|
+    add = value:count_owned_job_workforce|JOB|phanon_artisan_drone|
+    add = value:count_owned_job_workforce|JOB|stellarite_artisan|
+    add = value:count_owned_job_workforce|JOB|stellarite_artisan_drone|
     modifier = {
-        has_base_forgery_zone = yes
-        mult = @xhk_worldark_forgery_infiltration_per_100
+        has_base_infiltration_zone = yes
+        mult = @xhk_worldark_infiltration_per_100
     }
     modifier = {
-        has_voidark_forgery_zone = {
-            TIER = delta
-        }
-        mult = @[xhk_worldark_forgery_infiltration_per_100*2]
+        has_voidark_infiltration_zone = { TIER = delta }
+        mult = @[xhk_worldark_infiltration_per_100*2]
     }
     modifier = {
-        has_voidark_forgery_zone = {
-            TIER = alpha
-        }
-        mult = @[xhk_worldark_forgery_infiltration_per_100*3]
+        has_voidark_infiltration_zone= { TIER = alpha }
+        mult = @[xhk_worldark_infiltration_per_100*3]
     }
     modifier = {
-        has_voidark_forgery_zone = {
-            TIER = phanon
-        }
-        mult = @[xhk_worldark_forgery_infiltration_per_100*4]
+        has_voidark_infiltration_zone = { TIER = phanon }
+        mult = @[xhk_worldark_infiltration_per_100*4]
     }
     modifier = {
-        has_voidark_forgery_zone = {
-            TIER = stellarite
-        }
-        mult = @[xhk_worldark_forgery_infiltration_per_100*5]
+        has_voidark_infiltration_zone = { TIER = stellarite }
+        mult = @[xhk_worldark_infiltration_per_100*5]
     }
 }
 
+##### INFILTRATION GESTALT
+xhk_worldark_infiltration_gestalt = {
+    base = 0
+    add = value:count_owned_job_workforce|JOB|patrol_drone|
+    add = value:count_owned_job_workforce|JOB|aot_dm_enforcer_drone|
+    add = value:count_owned_job_workforce|JOB|acot_enforcer_drone|
+    add = value:count_owned_job_workforce|JOB|phanon_enforcer_drone|
+    add = value:count_owned_job_workforce|JOB|stellarite_enforcer_drone|
+    modifier = {
+        has_base_infiltration_gestalt_zone = yes
+        mult = @xhk_worldark_infiltration_per_100
+    }
+    modifier = {
+        has_voidark_infiltration_gestalt_zone = { TIER = delta }
+        mult = @[xhk_worldark_infiltration_per_100*2]
+    }
+    modifier = {
+        has_voidark_infiltration_gestalt_zone = { TIER = alpha }
+        mult = @[xhk_worldark_infiltration_per_100*3]
+    }
+    modifier = {
+        has_voidark_infiltration_gestalt_zone = { TIER = phanon }
+        mult = @[xhk_worldark_infiltration_per_100*4]
+    }
+    modifier = {
+        has_voidark_infiltration_gestalt_zone = { TIER = stellarite }
+        mult = @[xhk_worldark_infiltration_per_100*5]
+    }
+}
+
+##### MUSEUM NORMAL
+# museum zone specimen output
+xhk_worldark_museum_specimen_bonus = {
+    base = 0
+    add = value:count_owned_job_workforce|JOB|entertainer|
+    add = value:count_owned_job_workforce|JOB|acot_entertainer|
+    add = value:count_owned_job_workforce|JOB|phanon_entertainer|
+    add = value:count_owned_job_workforce|JOB|stellarite_entertainer|
+    modifier = {
+        has_base_museum_zone = yes
+        mult = @xhk_worldark_museum_specimen_per_100
+    }
+    modifier = {
+        has_voidark_museum_zone = { TIER = delta }
+        mult = @[xhk_worldark_museum_specimen_per_100*2]
+    }
+    modifier = {
+        has_voidark_museum_zone = { TIER = alpha }
+        mult = @[xhk_worldark_museum_specimen_per_100*3]
+    }
+    modifier = {
+        has_voidark_museum_zone = { TIER = phanon }
+        mult = @[xhk_worldark_museum_specimen_per_100*4]
+    }
+    modifier = {
+        has_voidark_museum_zone = { TIER = stellarite }
+        mult = @[xhk_worldark_museum_specimen_per_100*5]
+    }
+}
+
+##### MUSEUM DYSTOPIAN
+# scales on num districts, not on jobs
+xhk_worldark_museum_dystopian_specimen_display = {
+    base = 0
+    add = value:xhk_worldark_museum_dystopian_districts
+    modifier = {
+        has_base_museum_zone = yes
+        mult = @xhk_worldark_museum_dystopian_specimen_per_district
+    }
+    modifier = {
+        has_voidark_museum_zone = { TIER = delta }
+        mult = @voidark_museum_dystopian_delta_per_district
+    }
+    modifier = {
+        has_voidark_museum_zone = { TIER = alpha }
+        mult = @voidark_museum_dystopian_alpha_per_district
+    }
+    modifier = {
+        has_voidark_museum_zone = { TIER = phanon }
+        mult = @voidark_museum_dystopian_phanon_per_district
+    }
+    modifier = {
+        has_voidark_museum_zone = { TIER = stellarite }
+        mult = @voidark_museum_dystopian_stellarite_per_district
+    }
+    mult = 100
+}
+
+##### MUSEUM GESTALT
+# coordinator covers synapse drones too
+xhk_worldark_museum_gestalt_specimen_bonus = {
+    base = 0
+    add = value:count_owned_job_workforce|JOB|coordinator|
+    add = value:count_owned_job_workforce|JOB|voidark_delta_coordinator|
+    add = value:count_owned_job_workforce|JOB|voidark_alpha_coordinator|
+    add = value:count_owned_job_workforce|JOB|voidark_phanon_coordinator|
+    add = value:count_owned_job_workforce|JOB|voidark_stellarite_coordinator|
+    modifier = {
+        has_base_museum_zone = yes
+        mult = @xhk_worldark_museum_gestalt_specimen_per_100
+    }
+    modifier = {
+        has_voidark_museum_zone = { TIER = delta }
+        mult = @[xhk_worldark_museum_gestalt_specimen_per_100*2]
+    }
+    modifier = {
+        has_voidark_museum_zone = { TIER = alpha }
+        mult = @[xhk_worldark_museum_gestalt_specimen_per_100*3]
+    }
+    modifier = {
+        has_voidark_museum_zone = { TIER = phanon }
+        mult = @[xhk_worldark_museum_gestalt_specimen_per_100*4]
+    }
+    modifier = {
+        has_voidark_museum_zone = { TIER = stellarite }
+        mult = @[xhk_worldark_museum_gestalt_specimen_per_100*5]
+    }
+}
+
+##### VIVARIUM
+# loc only
+xhk_worldark_vivarium_capacity_display = {
+    base = 0
+    add = value:xhk_worldark_vivarium_districts
+    modifier = {
+        has_base_vivarium_zone = yes
+        mult = @xhk_worldark_vivarium_capacity
+    }
+    modifier = {
+        has_voidark_vivarium_zone = { TIER = delta }
+        mult = @[xhk_worldark_vivarium_capacity*2]
+    }
+    modifier = {
+        has_voidark_vivarium_zone = { TIER = alpha }
+        mult = @[xhk_worldark_vivarium_capacity*3]
+    }
+    modifier = {
+        has_voidark_vivarium_zone = { TIER = phanon }
+        mult = @[xhk_worldark_vivarium_capacity*4]
+    }
+    modifier = {
+        has_voidark_vivarium_zone = { TIER = stellarite }
+        mult = @[xhk_worldark_vivarium_capacity*5]
+    }
+}
+
+##### SURVEY
 # anomaly and survey speed from the survey zone
 xhk_worldark_survey_bonus = {
     base = 0
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = ark_harvester
-        }
-        mode = add
-    }
-    complex_trigger_modifier = {
-        trigger = num_assigned_jobs
-        parameters = {
-            job = ark_harvester_gestalt
-        }
-        mode = add
-    }
-    divide = 100
+    add = value:count_owned_job_workforce|JOB|ark_harvester|
+    add = value:count_owned_job_workforce|JOB|ark_harvester_gestalt|
     modifier = {
         has_base_survey_zone = yes
         mult = @xhk_worldark_survey_bonus_per_100
     }
     modifier = {
-        has_voidark_survey_zone = {
-            TIER = delta
-        }
+        has_voidark_survey_zone = { TIER = delta }
         mult = @[xhk_worldark_survey_bonus_per_100*1.5]
     }
     modifier = {
-        has_voidark_survey_zone = {
-            TIER = alpha
-        }
+        has_voidark_survey_zone = { TIER = alpha }
         mult = @[xhk_worldark_survey_bonus_per_100*2]
     }
     modifier = {
-        has_voidark_survey_zone = {
-            TIER = phanon
-        }
+        has_voidark_survey_zone = { TIER = phanon }
         mult = @[xhk_worldark_survey_bonus_per_100*2.5]
     }
     modifier = {
-        has_voidark_survey_zone = {
-            TIER = stellarite
-        }
+        has_voidark_survey_zone = { TIER = stellarite }
         mult = @[xhk_worldark_survey_bonus_per_100*3]
     }
 }
 
+xhk_worldark_survey_speed_bonus = {
+    base = 0
+    add = value:count_owned_job_workforce|JOB|ark_harvester|
+    add = value:count_owned_job_workforce|JOB|ark_harvester_gestalt|
+    modifier = {
+        has_base_survey_zone = yes
+        mult = @xhk_worldark_survey_speed_per_100
+    }
+    modifier = {
+        has_voidark_survey_zone = { TIER = delta }
+        mult = @[xhk_worldark_survey_speed_per_100*1.5]
+    }
+    modifier = {
+        has_voidark_survey_zone = { TIER = alpha }
+        mult = @[xhk_worldark_survey_speed_per_100*2]
+    }
+    modifier = {
+        has_voidark_survey_zone = { TIER = phanon }
+        mult = @[xhk_worldark_survey_speed_per_100*2.5]
+    }
+    modifier = {
+        has_voidark_survey_zone = { TIER = stellarite }
+        mult = @[xhk_worldark_survey_speed_per_100*3]
+    }
+}
 
+##### DEEP SLEEP
+# loc only
+xhk_worldark_deep_sleep_jobs_per_district = {
+    base = @xhk_worldark_deep_sleep_jobs_base
+    modifier = {
+        starbase = { has_starbase_size >= xhk_worldark_tier_3 }
+        add = @xhk_worldark_deep_sleep_jobs_per_level
+    }
+    modifier = {
+        starbase = { has_starbase_size >= xhk_worldark_tier_5 }
+        add = @xhk_worldark_deep_sleep_jobs_per_level
+    }
+    modifier = {
+        starbase = { has_starbase_size >= xhk_worldark_tier_7 }
+        add = @xhk_worldark_deep_sleep_jobs_per_level
+    }
+    modifier = {
+        starbase = { has_starbase_size >= xhk_worldark_tier_9 }
+        add = @xhk_worldark_deep_sleep_jobs_per_level
+    }
+    modifier = {
+        has_voidark_deep_sleep_zone = { TIER = delta }
+        add = @[xhk_worldark_deep_sleep_jobs_per_level*2]
+    }
+    modifier = {
+        has_voidark_deep_sleep_zone = { TIER = alpha }
+        add = @[xhk_worldark_deep_sleep_jobs_per_level*3]
+    }
+    modifier = {
+        has_voidark_deep_sleep_zone = { TIER = phanon }
+        add = @[xhk_worldark_deep_sleep_jobs_per_level*4]
+    }
+    modifier = {
+        has_voidark_deep_sleep_zone = { TIER = stellarite }
+        add = @[xhk_worldark_deep_sleep_jobs_per_level*5]
+    }
+}
+
+#### STORAGE
 xhk_worldark_storage_nomad_reserves_display = {
     base = 0
     add = value:xhk_worldark_storage_levels
-    mult = @xhk_worldark_storage_nomad_reserves
     modifier = {
-        has_zone = {
-            zone = zone_voidark_delta_storage
-        }
-        add = 500
+        has_base_storage_zone = yes
+        mult = @xhk_worldark_storage_nomad_reserves
     }
     modifier = {
-        has_zone = {
-            zone = zone_voidark_alpha_storage
-        }
-        add = 1000
+        has_zone = { zone = zone_voidark_delta_storage }
+        mult = @[xhk_worldark_storage_nomad_reserves+500]
     }
     modifier = {
-        has_zone = {
-            zone = zone_voidark_phanon_storage
-        }
-        add = 1500
+        has_zone = { zone = zone_voidark_alpha_storage }
+        mult = @[xhk_worldark_storage_nomad_reserves+1000]
     }
     modifier = {
-        has_zone = {
-            zone = zone_voidark_stellarite_storage
-        }
-        add = 2000
+        has_zone = { zone = zone_voidark_phanon_storage }
+        mult = @[xhk_worldark_storage_nomad_reserves+1500]
+    }
+    modifier = {
+        has_zone = { zone = zone_voidark_stellarite_storage }
+        mult = @[xhk_worldark_storage_nomad_reserves+2000]
     }
 }

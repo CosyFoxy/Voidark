@@ -1,0 +1,15 @@
+## SPECIALIZATION UPGRADES
+inline_script = {
+    script = voidark/decision/voidark_acot_arkship_upgrade_decision
+    TYPE = science
+}
+
+inline_script = {
+    script = voidark/decision/voidark_acot_arkship_upgrade_decision
+    TYPE = military
+}
+
+inline_script = {
+    script = voidark/decision/voidark_acot_arkship_upgrade_decision
+    TYPE = civilian
+}

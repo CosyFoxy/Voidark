@@ -1,0 +1,15 @@
+﻿l_english:
+
+ ##ACOT ARKSHIP UPGRADE DECISIONS
+
+ voidark_acot_arkship_science_upgrade:0 "$xhk_pc_worldark$ Upgrade: Science - §EEnigmatic§!"
+ voidark_acot_arkship_science_upgrade_desc:0 "$xhk_upgrade_arkship_type_generic_desc$"
+ voidark_acot_arkship_science_tt4:0 "Grants the $xhk_pc_worldark$ bonuses associated with an §EEnigmatic Science Arkship§!.\n\n$MOD_SHIP_SENSOR_RANGE_ADD$: §G+4§!\n$MOD_SHIP_HYPERLANE_RANGE_ADD$: §G+4§!\n$MOD_SHIP_SCIENCE_SURVEY_SPEED$: §G+20%§!"
+
+ voidark_acot_arkship_military_upgrade:0 "$xhk_pc_worldark$ Upgrade: Military - §EEnigmatic§!"
+ voidark_acot_arkship_military_upgrade_desc:0 "$xhk_upgrade_arkship_type_generic_desc$"
+ voidark_acot_arkship_military_tt4:0 "Grants the $xhk_pc_worldark$ bonuses associated with an §EEnigmatic Military Arkship§!.\n\n$MOD_SHIP_FIRE_RATE_MULT$: §G+20%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$: §G+20%§!"
+
+ voidark_acot_arkship_civilian_upgrade:0 "$xhk_pc_worldark$ Upgrade: Civilian - §EEnigmatic§!"
+ voidark_acot_arkship_civilian_upgrade_desc:0 "$xhk_upgrade_arkship_type_generic_desc$"
+ voidark_acot_arkship_civilian_tt4:0 "Grants the $xhk_pc_worldark$ bonuses associated with an §EEnigmatic Civilian Arkship§!.\n\n$mod_arkship_harvest_resources_produces_mult$: §G+20%§!"

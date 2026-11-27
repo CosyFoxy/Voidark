@@ -1,0 +1,2 @@
+@xhk_worldark_survey_speed_per_100 = 0.01
+#EOF

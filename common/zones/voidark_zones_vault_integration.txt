@@ -30,7 +30,7 @@ zone_voidark_phanon_vault_integration_primary = {
     unlock = {
         is_planet_class = xhk_pc_worldark
     }
-    include = {
+    included_buildings = {
         all
     }
     excluded_building_sets = {
