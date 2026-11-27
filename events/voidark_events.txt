@@ -12,7 +12,7 @@ country_event = {
     immediate = {
         country_event = {
             id = voidark.01
-            days = 1 #added dealy due to crash bug
+            days = 3 #added dealy due to crash bug
         }
     }
 }
