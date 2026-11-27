@@ -280,6 +280,32 @@ xhk_worldark_survey_bonus = {
     }
 }
 
+xhk_worldark_survey_speed_bonus = {
+    base = 0
+    add = value:count_owned_job_workforce|JOB|ark_harvester|
+    add = value:count_owned_job_workforce|JOB|ark_harvester_gestalt|
+    modifier = {
+        has_base_survey_zone = yes
+        mult = @xhk_worldark_survey_speed_per_100
+    }
+    modifier = {
+        has_voidark_survey_zone = { TIER = delta }
+        mult = @[xhk_worldark_survey_speed_per_100*1.5]
+    }
+    modifier = {
+        has_voidark_survey_zone = { TIER = alpha }
+        mult = @[xhk_worldark_survey_speed_per_100*2]
+    }
+    modifier = {
+        has_voidark_survey_zone = { TIER = phanon }
+        mult = @[xhk_worldark_survey_speed_per_100*2.5]
+    }
+    modifier = {
+        has_voidark_survey_zone = { TIER = stellarite }
+        mult = @[xhk_worldark_survey_speed_per_100*3]
+    }
+}
+
 ##### DEEP SLEEP
 # loc only
 xhk_worldark_deep_sleep_jobs_per_district = {

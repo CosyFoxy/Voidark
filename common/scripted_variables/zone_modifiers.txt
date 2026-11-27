@@ -20,6 +20,11 @@
 @phanon_weapons_bonus = 0.08
 @stellarite_weapons_bonus = 0.16
 
+@voidark_survey_speed_delta_per_100 = 0.02
+@voidark_survey_speed_alpha_per_100 = 0.03
+@voidark_survey_speed_phanon_per_100 = 0.04
+@voidark_survey_speed_stellarite_per_100 = 0.05
+
 @voidark_survey_delta_per_100 = 0.03
 @voidark_survey_alpha_per_100 = 0.04
 @voidark_survey_phanon_per_100 = 0.05

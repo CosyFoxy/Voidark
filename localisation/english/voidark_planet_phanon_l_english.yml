@@ -143,7 +143,7 @@
 
  zone_voidark_phanon_survey:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_survey$§!"
  zone_voidark_phanon_survey_desc:0 "$zone_xhk_worldark_survey_desc$"
- zone_voidark_phanon_survey_tt:0 "§G+$@voidark_survey_phanon_per_100|%1$§! $MOD_SHIP_ANOMALY_RESEARCH_SPEED$ and §G+$@voidark_survey_phanon_per_100|%1$§! $xhk_pc_worldark$ $MOD_SHIP_SCIENCE_SURVEY_SPEED$ per §Y100§! [GetHarvester] jobs."
+ zone_voidark_phanon_survey_tt:0 "§ISpecial Effect:§!\n- Per §Y100§! [GetHarvester] jobs: §G+$@voidark_survey_phanon_per_100|%1$§! $MOD_SHIP_ANOMALY_RESEARCH_SPEED$ and §G+$@voidark_survey_speed_phanon_per_100|%1$§! $MOD_SHIP_SCIENCE_SURVEY_SPEED$"
 
  zone_voidark_phanon_infiltration:0 "§R$concept_phanon_tier$ $zone_xhk_worldark_infiltration$§!"
  zone_voidark_phanon_infiltration_desc:0 "$zone_xhk_worldark_infiltration_desc$"
