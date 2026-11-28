@@ -464,7 +464,7 @@ voidark_module_missile_xl_re = {
         }
     }
     component_set = ACOT_MISSILE_XL_RE
-    custom_tooltip_with_modifiers = sm_voidark_module_macrocannon_re_tt
+    custom_tooltip_with_modifiers = sm_voidark_module_missile_xl_re_tt
 }
 
 ##PDS

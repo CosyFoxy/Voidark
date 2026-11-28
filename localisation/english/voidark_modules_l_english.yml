@@ -931,6 +931,12 @@
  sm_voidark_module_missile_barrage_re_tt:0 "$module_component_large_add_re$These turrets will be equipped with §YMissile Barrage Launchers§! automatically upgraded to our latest technology.\n"
  sm_voidark_module_missile_barrage_se_tt:0 "$module_component_large_add_se$These turrets will be equipped with §YMissile Barrage Launchers§! automatically upgraded to our latest technology.\n"
 
+ sm_voidark_module_missile_xl_dm_tt:0 "$module_component_xl_add_dm$These missile launchers will be equipped with §YHSPM§! automatically upgraded to our latest technology.\n"
+ sm_voidark_module_missile_xl_ae_tt:0 "$module_component_xl_add_ae$These missile launchers will be equipped with §YHSPM§! automatically upgraded to our latest technology.\n"
+ sm_voidark_module_missile_xl_pe_tt:0 "$module_component_xl_add_pe$These missile launchers will be equipped with §YHSPM§! automatically upgraded to our latest technology.\n"
+ sm_voidark_module_missile_xl_re_tt:0 "$module_component_xl_add_re$These missile launchers will be equipped with §YHSPM§! automatically upgraded to our latest technology.\n"
+ sm_voidark_module_missile_xl_se_tt:0 "$module_component_xl_add_se$These missile launchers will be equipped with §YHSPM§! automatically upgraded to our latest technology.\n"
+
  sm_voidark_module_epds_dm_tt:0 "$module_component_pd_add_dm$These turrets will be equipped with §YPoint-Defense Cannons§! automatically upgraded to our latest technology.\n"
  sm_voidark_module_epds_ae_tt:0 "$module_component_pd_add_ae$These turrets will be equipped with §YPoint-Defense Cannons§! automatically upgraded to our latest technology.\n"
  sm_voidark_module_epds_pe_tt:0 "$module_component_pd_add_pe$These turrets will be equipped with §YPoint-Defense Cannons§! automatically upgraded to our latest technology.\n"

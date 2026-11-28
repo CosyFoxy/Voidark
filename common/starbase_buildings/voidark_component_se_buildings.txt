@@ -51,12 +51,10 @@ voidark_hull_aux_se = {
         TECH = "has_technology = tech_hull_power_se"
     }
     possible = {
-        NOT = {
             inline_script = {
             script = voidark/modules/equivalent_starbase_building_stellarite
                 TYPE = hull_aux
             }
-        }
     }
     resources = {
         category = starbase_arkship_upgrades
